@@ -1,5 +1,39 @@
-import React from 'react';
-import './button.css';
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
+import React from "react";
+
+const buttonStyle = css`
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  padding: 11px 20px;
+`;
+
+const buttonPrimary = css`
+  color: white;
+  background-color: #1ea7fd;
+`;
+
+const buttonSecondary = css`
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+`;
+
+const buttonSmall = css`
+  font-size: 12px;
+  padding: 10px 16px;
+`;
+
+const buttonLarge = css`
+  font-size: 16px;
+  padding: 12px 24px;
+`;
 
 interface ButtonProps {
   /**
@@ -7,13 +41,9 @@ interface ButtonProps {
    */
   primary?: boolean;
   /**
-   * What background color to use
-   */
-  backgroundColor?: string;
-  /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: "small" | "medium" | "large";
   /**
    * Button contents
    */
@@ -29,17 +59,19 @@ interface ButtonProps {
  */
 export const Button = ({
   primary = false,
-  size = 'medium',
-  backgroundColor,
+  size = "medium",
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={{ backgroundColor }}
+      css={[
+        buttonStyle,
+        primary ? buttonPrimary : buttonSecondary,
+        size === "large" && buttonLarge,
+        size === "small" && buttonSmall,
+      ]}
       {...props}
     >
       {label}
