@@ -57,12 +57,7 @@ interface ButtonProps {
 /**
  * Primary UI component for user interaction
  */
-export const Button: FC<ButtonProps> = ({
-  primary = false,
-  size = "medium",
-  label,
-  ...props
-}) => {
+export const Button: FC<ButtonProps> = ({ primary = false, size = "medium", label, ...props }) => {
   return (
     <button
       type="button"
