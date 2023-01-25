@@ -1,7 +1,41 @@
-import React from 'react';
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react";
+import React, { FC } from "react";
 
-import { Button } from './Button';
-import './header.css';
+import { Button } from "./Button";
+
+const wrapperStyle = css`
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  svg {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1;
+    margin: 6px 0 6px 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  button + button {
+    margin-left: 10px;
+  }
+`;
+
+const welcomeStyle = css`
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+`;
 
 type User = {
   name: string;
@@ -14,11 +48,21 @@ interface HeaderProps {
   onCreateAccount: () => void;
 }
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
+export const Header: FC<HeaderProps> = ({
+  user,
+  onLogin,
+  onLogout,
+  onCreateAccount,
+}) => (
   <header>
-    <div className="wrapper">
+    <div css={wrapperStyle}>
       <div>
-        <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g fill="none" fillRule="evenodd">
             <path
               d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -39,7 +83,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
       <div>
         {user ? (
           <>
-            <span className="welcome">
+            <span css={welcomeStyle}>
               Welcome, <b>{user.name}</b>!
             </span>
             <Button size="small" onClick={onLogout} label="Log out" />
@@ -47,7 +91,12 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
         ) : (
           <>
             <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
+            <Button
+              primary
+              size="small"
+              onClick={onCreateAccount}
+              label="Sign up"
+            />
           </>
         )}
       </div>

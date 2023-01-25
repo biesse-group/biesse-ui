@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import React from "react";
+import React, { FC } from "react";
 
 const buttonStyle = css`
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -57,12 +57,12 @@ interface ButtonProps {
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({
+export const Button: FC<ButtonProps> = ({
   primary = false,
   size = "medium",
   label,
   ...props
-}: ButtonProps) => {
+}) => {
   return (
     <button
       type="button"
