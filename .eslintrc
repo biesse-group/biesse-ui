@@ -7,5 +7,6 @@
         "import/no-anonymous-default-export": "off"
       }
     }
-  ]
+  ],
+  "ignorePatterns": ["!.storybook", ".storybook/*", "!.storybook/main.ts", "!.storybook/preview.js"]
 }

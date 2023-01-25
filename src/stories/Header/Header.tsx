@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import React, { FC } from "react";
 
-import { Button } from "./Button";
+import Button from "../Button";
 
 const wrapperStyle = css`
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -41,14 +41,14 @@ type User = {
   name: string;
 };
 
-interface HeaderProps {
+export interface HeaderProps {
   user?: User;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
 }
 
-export const Header: FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccount }) => (
+const Header: FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div css={wrapperStyle}>
       <div>
@@ -76,15 +76,23 @@ export const Header: FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccou
             <span css={welcomeStyle}>
               Welcome, <b>{user.name}</b>!
             </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
+            <Button size="small" onClick={onLogout}>
+              Log out
+            </Button>
           </>
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
+            <Button size="small" onClick={onLogin}>
+              Log in
+            </Button>
+            <Button primary size="small" onClick={onCreateAccount}>
+              Sign up
+            </Button>
           </>
         )}
       </div>
     </div>
   </header>
 );
+
+export default Header;

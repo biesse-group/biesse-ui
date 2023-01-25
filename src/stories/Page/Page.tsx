@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import React from "react";
 
-import { Header } from "./Header";
+import Header from "../Header";
 
 type User = {
   name: string;
@@ -80,7 +80,7 @@ const tipWrapperStyle = css`
   }
 `;
 
-export const Page: React.FC = () => {
+const Page: React.FC = () => {
   const [user, setUser] = React.useState<User>();
 
   return (
@@ -144,3 +144,5 @@ export const Page: React.FC = () => {
     </article>
   );
 };
+
+export default Page;
