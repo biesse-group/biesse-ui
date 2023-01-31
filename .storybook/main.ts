@@ -7,6 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "@storybook/addon-coverage",
     "@storybook/preset-create-react-app",
   ],
   framework: "@storybook/react",

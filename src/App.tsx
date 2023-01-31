@@ -1,24 +1,32 @@
 import React from "react";
 
 import "./App.css";
-import logo from "./logo.svg";
+import hsdLogo from "./assets/hsd-logo.svg";
+import storybookLogo from "./assets/storybook-logo.svg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={hsdLogo} className="App-logo" alt="logo" />
+        <h1>HSD UI Framework</h1>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          You can find stories inside <code>src/stories</code> folder.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          To execute storybook run the command: <code>npm run storybook</code>
+        </p>
+        <p style={{ display: "flex", alignItems: "center" }}>
+          <img src={storybookLogo} width={30} alt="logo" style={{ marginRight: 8 }} />
+          <a
+            className="App-link"
+            href="https://storybook.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn Storybook
+          </a>
+        </p>
       </header>
     </div>
   );
