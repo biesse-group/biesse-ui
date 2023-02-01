@@ -1,153 +1,147 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Example/Button Large 1`] = `
-<button
-  className="css-18f4rq3"
-  size="large"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Example/Button Primary 1`] = `
-<button
-  className="css-13mtalh"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Example/Button Secondary 1`] = `
-<button
-  className="css-1irinly"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Example/Button Small 1`] = `
-<button
-  className="css-odsrfm"
-  size="small"
->
-  Button
-</button>
-`;
-
-exports[`Storyshots Example/Header Logged In 1`] = `
-<header>
-  <div
-    className="css-1bj4nas-Header"
-  >
-    <div>
-      <svg
-        height="32"
-        viewBox="0 0 32 32"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <path
-            d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-            fill="#FFF"
-          />
-          <path
-            d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-            fill="#555AB9"
-          />
-          <path
-            d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-            fill="#91BAF8"
-          />
-        </g>
-      </svg>
-      <h1>
-        Acme
-      </h1>
-    </div>
-    <div>
-      <span
-        className="css-1hkgx2f-Header"
-      >
-        Welcome, 
-        <b>
-          Jane Doe
-        </b>
-        !
-      </span>
-      <button
-        className="css-odsrfm"
-        size="small"
-      >
-        Log out
-      </button>
-    </div>
-  </div>
-</header>
-`;
-
-exports[`Storyshots Example/Header Logged Out 1`] = `
-<header>
-  <div
-    className="css-1bj4nas-Header"
-  >
-    <div>
-      <svg
-        height="32"
-        viewBox="0 0 32 32"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <path
-            d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-            fill="#FFF"
-          />
-          <path
-            d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-            fill="#555AB9"
-          />
-          <path
-            d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-            fill="#91BAF8"
-          />
-        </g>
-      </svg>
-      <h1>
-        Acme
-      </h1>
-    </div>
-    <div>
-      <button
-        className="css-odsrfm"
-        size="small"
-      >
-        Log in
-      </button>
-      <button
-        className="css-cpirhl"
-        size="small"
-      >
-        Sign up
-      </button>
-    </div>
-  </div>
-</header>
-`;
-
 exports[`Storyshots Example/Page Logged In 1`] = `
+.emotion-0 section {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #333;
+}
+
+.emotion-0 section h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.emotion-0 section p {
+  margin: 1em 0;
+}
+
+.emotion-0 section a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+.emotion-0 section ul {
+  padding-left: 30px;
+  margin: 1em 0;
+}
+
+.emotion-0 section li {
+  margin-bottom: 8px;
+}
+
+.emotion-1 {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.emotion-1 h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.emotion-1 button+button {
+  margin-left: 10px;
+}
+
+.emotion-2 {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-size: 12px;
+  padding: 10px 16px;
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.emotion-3 {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-size: 12px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #004898;
+}
+
+.emotion-4 {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.emotion-4 svg {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.emotion-4 path {
+  fill: #1ea7fd;
+}
+
+.emotion-5 {
+  display: inline-block;
+  border-radius: 1em;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  background: #e7fdd8;
+  color: #66bf3c;
+  padding: 4px 12px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
 <article
-  className="css-110lf62-Page"
+  className="emotion-0"
 >
   <header>
     <div
-      className="css-1bj4nas-Header"
+      className="emotion-1"
     >
       <div>
         <svg
@@ -180,16 +174,14 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       </div>
       <div>
         <button
-          className="css-odsrfm"
+          className="emotion-2"
           onClick={[Function]}
-          size="small"
         >
           Log in
         </button>
         <button
-          className="css-cpirhl"
+          className="emotion-3"
           onClick={[Function]}
-          size="small"
         >
           Sign up
         </button>
@@ -248,10 +240,10 @@ exports[`Storyshots Example/Page Logged In 1`] = `
       .
     </p>
     <div
-      className="css-1cywgfg-Page"
+      className="emotion-4"
     >
       <span
-        className="css-3tnb4s-Page"
+        className="emotion-5"
       >
         Tip
       </span>
@@ -281,12 +273,147 @@ exports[`Storyshots Example/Page Logged In 1`] = `
 `;
 
 exports[`Storyshots Example/Page Logged Out 1`] = `
+.emotion-0 section {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #333;
+}
+
+.emotion-0 section h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.emotion-0 section p {
+  margin: 1em 0;
+}
+
+.emotion-0 section a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+.emotion-0 section ul {
+  padding-left: 30px;
+  margin: 1em 0;
+}
+
+.emotion-0 section li {
+  margin-bottom: 8px;
+}
+
+.emotion-1 {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-1 svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.emotion-1 h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.emotion-1 button+button {
+  margin-left: 10px;
+}
+
+.emotion-2 {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-size: 12px;
+  padding: 10px 16px;
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.emotion-3 {
+  font-family: "Nunito Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-size: 12px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #004898;
+}
+
+.emotion-4 {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.emotion-4 svg {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.emotion-4 path {
+  fill: #1ea7fd;
+}
+
+.emotion-5 {
+  display: inline-block;
+  border-radius: 1em;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  background: #e7fdd8;
+  color: #66bf3c;
+  padding: 4px 12px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
 <article
-  className="css-110lf62-Page"
+  className="emotion-0"
 >
   <header>
     <div
-      className="css-1bj4nas-Header"
+      className="emotion-1"
     >
       <div>
         <svg
@@ -319,16 +446,14 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       </div>
       <div>
         <button
-          className="css-odsrfm"
+          className="emotion-2"
           onClick={[Function]}
-          size="small"
         >
           Log in
         </button>
         <button
-          className="css-cpirhl"
+          className="emotion-3"
           onClick={[Function]}
-          size="small"
         >
           Sign up
         </button>
@@ -387,10 +512,10 @@ exports[`Storyshots Example/Page Logged Out 1`] = `
       .
     </p>
     <div
-      className="css-1cywgfg-Page"
+      className="emotion-4"
     >
       <span
-        className="css-3tnb4s-Page"
+        className="emotion-5"
       >
         Tip
       </span>

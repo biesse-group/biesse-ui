@@ -49,6 +49,8 @@
     ]
   },
   "devDependencies": {
+    "@emotion/jest": "^11.10.5",
+    "@react-theming/storybook-addon": "^1.1.10",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-coverage": "^0.0.7",
     "@storybook/addon-essentials": "^6.5.15",
