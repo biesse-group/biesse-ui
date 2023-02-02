@@ -5,4 +5,8 @@ export const hsdTheme: Theme = {
   color: {
     primary: "#004898",
   },
+  font: {
+    family:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
+  },
 };

@@ -2,9 +2,9 @@
 import { css, Theme } from "@emotion/react";
 import { FC, PropsWithChildren } from "react";
 
-const buttonStyle = css`
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+const buttonStyle = (theme: Theme) => css`
+  font-family: ${theme.font.family};
+  font-weight: 500;
   border: 0;
   border-radius: 3em;
   cursor: pointer;

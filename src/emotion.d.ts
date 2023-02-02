@@ -6,5 +6,8 @@ declare module "@emotion/react" {
     color: {
       primary: string;
     };
+    font: {
+      family: string;
+    };
   }
 }
