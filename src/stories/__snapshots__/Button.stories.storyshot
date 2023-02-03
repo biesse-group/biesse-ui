@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Example/Button Large 1`] = `
+exports[`Storyshots Button Large 1`] = `
 .emotion-0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -23,7 +23,7 @@ exports[`Storyshots Example/Button Large 1`] = `
 </button>
 `;
 
-exports[`Storyshots Example/Button Primary 1`] = `
+exports[`Storyshots Button Primary 1`] = `
 .emotion-0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -35,7 +35,7 @@ exports[`Storyshots Example/Button Primary 1`] = `
   font-size: 14px;
   padding: 11px 20px;
   color: white;
-  background-color: #004898;
+  background-color: #6D6E70;
 }
 
 <button
@@ -45,7 +45,7 @@ exports[`Storyshots Example/Button Primary 1`] = `
 </button>
 `;
 
-exports[`Storyshots Example/Button Secondary 1`] = `
+exports[`Storyshots Button Secondary 1`] = `
 .emotion-0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -68,7 +68,7 @@ exports[`Storyshots Example/Button Secondary 1`] = `
 </button>
 `;
 
-exports[`Storyshots Example/Button Small 1`] = `
+exports[`Storyshots Button Small 1`] = `
 .emotion-0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
