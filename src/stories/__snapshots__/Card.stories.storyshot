@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example/Card Default 1`] = `
+.emotion-0 {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.emotion-1 {
+  padding: 0 16px 24px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.emotion-2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 300,
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <div
+      className="emotion-1"
+    >
+      <h3
+        className="emotion-2"
+      >
+        Example card
+      </h3>
+      Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example/Card With Image 1`] = `
+.emotion-0 {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.emotion-1 {
+  padding: 0 16px 24px;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.emotion-2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 300,
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <img
+      alt="Dummy image"
+      src="https://dummyimage.com/600x400/ccc/fff.png"
+    />
+    <div
+      className="emotion-1"
+    >
+      <h3
+        className="emotion-2"
+      >
+        Card with image
+      </h3>
+      Lorem ipsum dolor sit amet.
+    </div>
+  </div>
+</div>
+`;

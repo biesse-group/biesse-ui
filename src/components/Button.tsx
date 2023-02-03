@@ -57,12 +57,15 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-const Button: FC<PropsWithChildren<ButtonProps>> = ({ children, size, primary, ...props }) => {
+export const Button: FC<PropsWithChildren<ButtonProps>> = ({
+  children,
+  size,
+  primary,
+  ...props
+}) => {
   return (
     <button css={[buttonStyle, getSizeStyle(size), getVariantStyle(primary)]} {...props}>
       {children}
     </button>
   );
 };
-
-export default Button;

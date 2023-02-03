@@ -43,7 +43,7 @@ export interface CardProps {
   title?: string | React.ReactElement;
 }
 
-const Card: FC<PropsWithChildren<CardProps>> = ({
+export const Card: FC<PropsWithChildren<CardProps>> = ({
   title,
   children,
   imageSrc,
@@ -60,5 +60,3 @@ const Card: FC<PropsWithChildren<CardProps>> = ({
     </div>
   );
 };
-
-export default Card;

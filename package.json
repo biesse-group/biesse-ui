@@ -27,15 +27,18 @@
     "react-test-renderer": "18.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf dist && tsc",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "test-storybook": "test-storybook",
     "build-storybook": "build-storybook",
     "prepare": "husky install"
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
