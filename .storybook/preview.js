@@ -1,11 +1,6 @@
-import { ThemeProvider } from "@emotion/react";
-import { withThemes } from "@react-theming/storybook-addon";
-import { addDecorator } from "@storybook/react";
+import { withTheme } from "./withTheme.decorator";
 
-import { biesseTheme, hsdTheme } from "../src/themes";
-
-// pass ThemeProvider and array of your themes to decorator
-addDecorator(withThemes(ThemeProvider, [hsdTheme, biesseTheme]));
+export const decorators = [withTheme];
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -15,5 +10,22 @@ export const parameters = {
       date: /Date$/,
     },
     exclude: ["as", "theme"],
+  },
+};
+
+export const globalTypes = {
+  theme: {
+    name: "Theme",
+    description: "Global theme for components",
+    toolbar: {
+      icon: "paintbrush",
+      // Array of plain string values or MenuItem shape
+      items: [
+        { value: "biesse", title: "Biesse Group" },
+        { value: "hsd", title: "HSD Mechatronics" },
+      ],
+      // Change title based on selected value
+      dynamicTitle: true,
+    },
   },
 };
