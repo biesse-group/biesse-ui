@@ -3,4 +3,4 @@
 
 npx lint-staged
 
-npm run test -- storybook.test.ts --watchAll=false
+npm run test-storyshots-ci
