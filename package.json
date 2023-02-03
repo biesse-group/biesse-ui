@@ -2,7 +2,6 @@
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
   "version": "0.1.1",
-  "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
