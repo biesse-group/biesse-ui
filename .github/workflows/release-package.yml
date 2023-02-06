@@ -5,7 +5,7 @@ on:
     types: [created]
 
 jobs:
-  publish-gpr:
+  build-and-publish:
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -20,10 +20,7 @@ jobs:
         run: npm ci
       - name: Test
         run: npm test
-      - name:
-          Build and publish
-          # echo "${{secrets.USERNAME}}:${{secrets.PASSWORD}}:registry=https://npm.pkg.github.com" >> .npmrc
-        run: |
-          npm publish
+      - name: Build and publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
