@@ -8,5 +8,5 @@
       }
     }
   ],
-  "ignorePatterns": ["!.storybook", ".storybook/*", "!.storybook/main.ts", "!.storybook/preview.js"]
+  "ignorePatterns": ["!.storybook"]
 }
