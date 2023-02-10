@@ -40,7 +40,8 @@
     "predeploy": "npm run build-storybook",
     "deploy": "gh-pages -d storybook-static",
     "prepare": "husky install",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "local-package": "rm -rf *.tgz && npm run build && npm pack"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
