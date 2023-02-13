@@ -1,7 +1,7 @@
 {
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
     "@emotion/react": "^11.10.5",
