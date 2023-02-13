@@ -9,7 +9,6 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
     "@storybook/preset-create-react-app",
-    // "@react-theming/storybook-addon",
   ],
   framework: "@storybook/react",
   typescript: {

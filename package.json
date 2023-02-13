@@ -1,7 +1,7 @@
 {
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -40,7 +40,8 @@
     "predeploy": "npm run build-storybook",
     "deploy": "gh-pages -d storybook-static",
     "prepare": "husky install",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "local-package": "rm -rf *.tgz && npm run build && npm pack"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
