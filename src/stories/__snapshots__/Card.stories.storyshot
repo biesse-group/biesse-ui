@@ -2,6 +2,7 @@
 
 exports[`Storyshots Components/Card Default 1`] = `
 .emotion-0 {
+  background-color: #fff;
   border: 1px solid #eaeaea;
   width: 100%;
   height: 100%;
@@ -61,6 +62,7 @@ exports[`Storyshots Components/Card Default 1`] = `
 
 exports[`Storyshots Components/Card With Image 1`] = `
 .emotion-0 {
+  background-color: #fff;
   border: 1px solid #eaeaea;
   width: 100%;
   height: 100%;

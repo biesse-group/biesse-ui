@@ -3,6 +3,7 @@ import { css, Theme } from "@emotion/react";
 import React, { FC, PropsWithChildren } from "react";
 
 const cardStyle = (theme: Theme) => css`
+  background-color: #fff;
   border: 1px solid #eaeaea;
   width: 100%;
   height: 100%;
