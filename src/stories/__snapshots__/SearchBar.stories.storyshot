@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/SearchBar Default 1`] = `
+.emotion-0 {
+  font-weight: 400;
+  border-radius: 12px;
+  color: grey;
+  background: white;
+  border: 1px solid grey;
+  box-shadow: 0px 2px 2px grey;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.emotion-0:focus-within {
+  border-color: #6D6E70;
+  outline: 3px solid #6D6E70;
+}
+
+.emotion-0:hover {
+  border-color: #6D6E70;
+}
+
+.emotion-1 {
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  color: grey;
+  background: inherit;
+  border: none;
+  border-radius: inherit;
+  padding: 12px 12px;
+  outline: 0;
+}
+
+.emotion-2 {
+  margin: 8px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 300,
+    }
+  }
+>
+  <div
+    className="emotion-0"
+  >
+    <input
+      className="emotion-1"
+      defaultValue="Default Value"
+      id="search-input"
+      onChange={[Function]}
+      type="text"
+    />
+    <div
+      className="emotion-2"
+    >
+      <svg
+        viewBox="0 0 1920 1920"
+        width="25px"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1458.948 1305.626c104.637-136.95 167.527-307.187 167.527-492.388C1626.475 364.764 1261.711 0 813.238 0 364.764 0 0 364.764 0 813.238c0 448.473 364.764 813.237 813.238 813.237 185.201 0 355.547-62.89 492.496-167.527L1766.678 1920 1920 1766.678l-461.052-461.052Zm-645.71 103.986c-328.874 0-596.375-267.61-596.375-596.374 0-328.765 267.501-596.375 596.375-596.375 328.873 0 596.374 267.61 596.374 596.375s-267.501 596.374-596.374 596.374Z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
