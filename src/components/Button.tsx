@@ -1,16 +1,17 @@
-/** @jsxImportSource @emotion/react */
-import { css, Theme } from "@emotion/react";
 import { FC, PropsWithChildren } from "react";
+import styled, { css } from "styled-components";
 
-const buttonStyle = (theme: Theme) => css`
-  font-family: ${theme.font.family};
-  font-weight: 500;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-`;
+export interface ButtonProps {
+  /**
+   * Is this the principal call to action on the page?
+   */
+  primary?: boolean;
+  /**
+   * How large should the button be?
+   */
+  size?: "small" | "medium" | "large";
+  onClick?: () => void;
+}
 
 const getSizeStyle = (size: ButtonProps["size"]) => {
   switch (size) {
@@ -34,9 +35,9 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
 
 const getVariantStyle = (primary?: boolean) => {
   return primary
-    ? (theme: Theme) => css`
+    ? css`
         color: white;
-        background-color: ${theme.color.primary};
+        background-color: ${(props) => props.theme.color.primary};
       `
     : css`
         color: #333;
@@ -45,27 +46,19 @@ const getVariantStyle = (primary?: boolean) => {
       `;
 };
 
-export interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
-  primary?: boolean;
-  /**
-   * How large should the button be?
-   */
-  size?: "small" | "medium" | "large";
-  onClick?: () => void;
-}
+const ButtonStyled = styled.button<ButtonProps>`
+  font-family: ${(props) => props.theme.font.family};
+  font-weight: 500;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
 
-export const Button: FC<PropsWithChildren<ButtonProps>> = ({
-  children,
-  size,
-  primary,
-  ...props
-}) => {
-  return (
-    <button css={[buttonStyle, getSizeStyle(size), getVariantStyle(primary)]} {...props}>
-      {children}
-    </button>
-  );
+  ${(props) => getSizeStyle(props.size)}
+  ${(props) => getVariantStyle(props.primary)}
+`;
+
+export const Button: FC<PropsWithChildren<ButtonProps>> = (props) => {
+  return <ButtonStyled {...props} />;
 };

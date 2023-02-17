@@ -1,6 +1,5 @@
-/** @jsxImportSource @emotion/react */
-import { css, Theme } from "@emotion/react";
 import { FC } from "react";
+import styled from "styled-components";
 
 import { SearchIcon } from "../icons/SearchIcon";
 
@@ -9,12 +8,12 @@ type SearchBarProps = {
   onChange?: (value: string) => void;
 };
 
-const inputRootStyle = (theme: Theme) => css`
+const InputRoot = styled.div`
   font-weight: 400;
   border-radius: 12px;
   color: grey;
   background: white;
-  border: 1px solid ${theme?.color?.secondary || "grey"};
+  border: 1px solid ${(props) => props.theme.color.secondary};
   box-shadow: 0px 2px 2px grey;
   display: flex;
   align-items: center;
@@ -22,17 +21,17 @@ const inputRootStyle = (theme: Theme) => css`
   margin: 4px;
 
   &:focus-within {
-    border-color: ${theme?.color?.primary};
-    outline: 3px solid ${theme?.color?.primary};
+    border-color: ${(props) => props.theme.color.primary};
+    outline: 3px solid ${(props) => props.theme.color.primary};
   }
 
   &:hover {
-    border-color: ${theme?.color?.primary};
+    border-color: ${(props) => props.theme.color.primary};
   }
 `;
 
-const inputElementStyle = (theme: Theme) => css`
-  font-size: ${theme?.font?.size?.medium || "14px"};
+const InputElement = styled.input`
+  font-size: ${(props) => props.theme.font.size.medium};
   font-family: inherit;
   font-weight: 400;
   line-height: 1.5;
@@ -45,7 +44,7 @@ const inputElementStyle = (theme: Theme) => css`
   outline: 0;
 `;
 
-const inputAdornmentStyle = css`
+const InputAdornment = styled.div`
   margin: 8px;
   display: inline-flex;
   align-items: center;
@@ -54,9 +53,8 @@ const inputAdornmentStyle = css`
 
 export const SearchBar: FC<SearchBarProps> = ({ defaultValue, onChange }) => {
   return (
-    <div css={inputRootStyle}>
-      <input
-        css={inputElementStyle}
+    <InputRoot>
+      <InputElement
         id="search-input"
         type="text"
         defaultValue={defaultValue}
@@ -64,9 +62,9 @@ export const SearchBar: FC<SearchBarProps> = ({ defaultValue, onChange }) => {
           onChange && onChange(event.target.value);
         }}
       />
-      <div css={inputAdornmentStyle}>
+      <InputAdornment>
         <SearchIcon size="small" />
-      </div>
-    </div>
+      </InputAdornment>
+    </InputRoot>
   );
 };

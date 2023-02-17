@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Card Default 1`] = `
-.emotion-0 {
+.c0 {
   background-color: #fff;
   border: 1px solid #eaeaea;
   width: 100%;
@@ -16,7 +16,7 @@ exports[`Storyshots Components/Card Default 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.emotion-1 {
+.c1 {
   padding: 0 16px 24px;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -31,7 +31,7 @@ exports[`Storyshots Components/Card Default 1`] = `
   font-size: 14px;
 }
 
-.emotion-2 {
+.c2 {
   font-weight: normal;
   font-size: 20px;
 }
@@ -44,13 +44,13 @@ exports[`Storyshots Components/Card Default 1`] = `
   }
 >
   <div
-    className="emotion-0"
+    className="c0"
   >
     <div
-      className="emotion-1"
+      className="c1"
     >
       <h3
-        className="emotion-2"
+        className="c2"
       >
         Example card
       </h3>
@@ -61,7 +61,7 @@ exports[`Storyshots Components/Card Default 1`] = `
 `;
 
 exports[`Storyshots Components/Card With Image 1`] = `
-.emotion-0 {
+.c0 {
   background-color: #fff;
   border: 1px solid #eaeaea;
   width: 100%;
@@ -76,7 +76,7 @@ exports[`Storyshots Components/Card With Image 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.emotion-1 {
+.c1 {
   padding: 0 16px 24px;
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -91,7 +91,7 @@ exports[`Storyshots Components/Card With Image 1`] = `
   font-size: 14px;
 }
 
-.emotion-2 {
+.c2 {
   font-weight: normal;
   font-size: 20px;
 }
@@ -104,17 +104,17 @@ exports[`Storyshots Components/Card With Image 1`] = `
   }
 >
   <div
-    className="emotion-0"
+    className="c0"
   >
     <img
       alt="Dummy image"
       src="https://dummyimage.com/600x400/ccc/fff.png"
     />
     <div
-      className="emotion-1"
+      className="c1"
     >
       <h3
-        className="emotion-2"
+        className="c2"
       >
         Card with image
       </h3>

@@ -1,4 +1,4 @@
 export * from "./components";
 export * as Icons from "./icons";
 export * from "./themes";
-export { globalStyles } from "./styles/global-styles";
+export * from "./styles/global-styles";

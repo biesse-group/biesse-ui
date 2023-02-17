@@ -1,18 +1,17 @@
-/** @jsxImportSource @emotion/react */
-import { css, Theme } from "@emotion/react";
 import React, { FC, PropsWithChildren } from "react";
+import styled from "styled-components";
 
-const cardStyle = (theme: Theme) => css`
+const CardWrapper = styled.div`
   background-color: #fff;
   border: 1px solid #eaeaea;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: ${theme.font.family};
+  font-family: ${(props) => props.theme.font.family};
 `;
 
-const cardBodyStyle = css`
+const CardBody = styled.div`
   padding: 0 16px 24px;
   flex: 1 0 auto;
   display: flex;
@@ -20,7 +19,7 @@ const cardBodyStyle = css`
   font-size: 14px;
 `;
 
-const cardTitleStyle = css`
+const CardTitle = styled.h3`
   font-weight: normal;
   font-size: 20px;
 `;
@@ -52,12 +51,12 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   renderImage,
 }) => {
   return (
-    <div css={cardStyle}>
+    <CardWrapper>
       {renderImage?.() || (imageSrc && <img src={imageSrc} alt={imageAlt} />)}
-      <div css={cardBodyStyle}>
-        <h3 css={cardTitleStyle}>{title}</h3>
+      <CardBody>
+        <CardTitle>{title}</CardTitle>
         {children}
-      </div>
-    </div>
+      </CardBody>
+    </CardWrapper>
   );
 };

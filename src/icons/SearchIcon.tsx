@@ -1,6 +1,7 @@
 import { FC } from "react";
 
-import IconProps, { getIconSize } from "./IconProps";
+import getIconSize from "./get-icon-size";
+import IconProps from "./IconProps";
 
 export const SearchIcon: FC<IconProps> = ({ size, ...props }) => {
   return (

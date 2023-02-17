@@ -1,8 +1,10 @@
-import { css, Theme } from "@emotion/react";
+import { createGlobalStyle } from "styled-components";
 
-export const globalStyles = (theme: Theme) => css`
+const GlobalStyle = createGlobalStyle`
   html,
   body {
-    font-family: ${theme.font.family};
+    font-family: ${(props) => props.theme.font.family};
   }
 `;
+
+export default GlobalStyle;

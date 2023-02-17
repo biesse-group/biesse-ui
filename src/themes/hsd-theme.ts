@@ -1,6 +1,6 @@
-import { Theme } from "@emotion/react";
+import { DefaultTheme } from "styled-components";
 
-export const hsdTheme: Theme = {
+export const hsdTheme: DefaultTheme = {
   name: "HSD Mechatronics",
   color: {
     primary: "#004898",

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Button Large 1`] = `
-.emotion-0 {
+.c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   border: 0;
@@ -13,18 +13,19 @@ exports[`Storyshots Components/Button Large 1`] = `
   padding: 12px 24px;
   color: #333;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0,0,0,0.15) 0px 0px 0px 1px inset;
 }
 
 <button
-  className="emotion-0"
+  className="c0"
+  size="large"
 >
   Button
 </button>
 `;
 
 exports[`Storyshots Components/Button Primary 1`] = `
-.emotion-0 {
+.c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   border: 0;
@@ -39,14 +40,14 @@ exports[`Storyshots Components/Button Primary 1`] = `
 }
 
 <button
-  className="emotion-0"
+  className="c0"
 >
   Button
 </button>
 `;
 
 exports[`Storyshots Components/Button Secondary 1`] = `
-.emotion-0 {
+.c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   border: 0;
@@ -58,18 +59,18 @@ exports[`Storyshots Components/Button Secondary 1`] = `
   padding: 11px 20px;
   color: #333;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0,0,0,0.15) 0px 0px 0px 1px inset;
 }
 
 <button
-  className="emotion-0"
+  className="c0"
 >
   Button
 </button>
 `;
 
 exports[`Storyshots Components/Button Small 1`] = `
-.emotion-0 {
+.c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   border: 0;
@@ -81,11 +82,12 @@ exports[`Storyshots Components/Button Small 1`] = `
   padding: 10px 16px;
   color: #333;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0,0,0,0.15) 0px 0px 0px 1px inset;
 }
 
 <button
-  className="emotion-0"
+  className="c0"
+  size="small"
 >
   Button
 </button>

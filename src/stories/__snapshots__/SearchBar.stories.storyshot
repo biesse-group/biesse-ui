@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/SearchBar Default 1`] = `
-.emotion-0 {
+.c0 {
   font-weight: 400;
   border-radius: 12px;
   color: grey;
   background: white;
-  border: 1px solid grey;
+  border: 1px solid #6D6E70;
   box-shadow: 0px 2px 2px grey;
   display: -webkit-box;
   display: -webkit-flex;
@@ -17,22 +17,22 @@ exports[`Storyshots Components/SearchBar Default 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: 4px;
 }
 
-.emotion-0:focus-within {
+.c0:focus-within {
   border-color: #6D6E70;
   outline: 3px solid #6D6E70;
 }
 
-.emotion-0:hover {
+.c0:hover {
   border-color: #6D6E70;
 }
 
-.emotion-1 {
+.c1 {
   font-size: 14px;
   font-family: inherit;
   font-weight: 400;
@@ -49,7 +49,7 @@ exports[`Storyshots Components/SearchBar Default 1`] = `
   outline: 0;
 }
 
-.emotion-2 {
+.c2 {
   margin: 8px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -60,8 +60,8 @@ exports[`Storyshots Components/SearchBar Default 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
   -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -73,17 +73,17 @@ exports[`Storyshots Components/SearchBar Default 1`] = `
   }
 >
   <div
-    className="emotion-0"
+    className="c0"
   >
     <input
-      className="emotion-1"
+      className="c1"
       defaultValue="Default Value"
       id="search-input"
       onChange={[Function]}
       type="text"
     />
     <div
-      className="emotion-2"
+      className="c2"
     >
       <svg
         viewBox="0 0 1920 1920"
