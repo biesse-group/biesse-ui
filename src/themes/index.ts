@@ -3,15 +3,27 @@ export * from "./biesse-theme";
 
 export interface BiesseTheme {
   name: string;
+  borderRadius: string;
   color: {
     primary: string;
     secondary: string;
+    white: string;
+    black: string;
   };
   font: {
-    size: {
-      small: string;
-      medium: string;
-      large: string;
+    body: {
+      xs: string;
+      sm: string;
+      md: string;
+      lg: string;
+    };
+    headings: {
+      xxl: string;
+      xl: string;
+      lg: string;
+      md: string;
+      sm: string;
+      xs: string;
     };
     family: string;
   };
