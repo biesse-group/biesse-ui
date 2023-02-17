@@ -4,17 +4,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { Swiper as SwiperContainer, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 type Props = {
   slides: JSX.Element[];
 };
 
-export const Swiper: FC<Props> = ({ slides }) => {
+export const Carousel: FC<Props> = ({ slides }) => {
   const swiperElRef = useRef(null);
 
   return (
-    <SwiperContainer
+    <Swiper
       modules={[Navigation, Pagination]}
       ref={swiperElRef}
       slides-per-view="3"
@@ -25,6 +25,6 @@ export const Swiper: FC<Props> = ({ slides }) => {
       {slides.map((slide, index) => (
         <SwiperSlide key={index}>{slide}</SwiperSlide>
       ))}
-    </SwiperContainer>
+    </Swiper>
   );
 };
