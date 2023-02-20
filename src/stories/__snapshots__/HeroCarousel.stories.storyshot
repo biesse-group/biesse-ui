@@ -98,19 +98,39 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
   <div
     className="c1"
   >
-    <h1
-      className="c2"
-      color="light"
+    <div
+      style={
+        Object {
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
+        }
+      }
     >
-      Etiam sit amet orci eget
-    </h1>
-    <span
-      className="c3"
-      color="light"
-      size="lg"
+      <h1
+        className="c2"
+        color="light"
+      >
+        Etiam sit amet orci eget
+      </h1>
+    </div>
+    <div
+      style={
+        Object {
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
+        }
+      }
     >
-      Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    </span>
+      <span
+        className="c3"
+        color="light"
+        size="lg"
+      >
+        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </span>
+    </div>
     <div
       className="c4"
     >

@@ -46,29 +46,35 @@ const CarouselControls = styled.div`
   }
 `;
 
-const slideVariants: Variants = {
-  enter: (direction: number) => {
-    return {
-      opacity: 0,
-    };
+const titleVariants: Variants = {
+  enter: {
+    x: -500,
+    opacity: 0,
   },
-  center: {
+  center: (delayed?: boolean) => ({
+    x: 0,
     zIndex: 1,
     opacity: 1,
-  },
-  exit: (direction: number) => {
-    return {
-      zIndex: 0,
-      opacity: 0,
-    };
+    transition: {
+      opacity: { duration: 0.2 },
+      x: { type: "spring", stiffness: 100, bounce: 0, damping: 20 },
+      delay: delayed ? 0.3 : 0,
+    },
+  }),
+  exit: {
+    opacity: 0,
+    position: "absolute",
+    transition: {
+      duration: 0,
+    },
   },
 };
 
 export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
-  const [[page, direction], setActiveSlide] = useState([0, 0]);
+  const [page, setActiveSlide] = useState(0);
 
   const handleSlide = (newDirection: number) => {
-    setActiveSlide([page + newDirection, newDirection]);
+    setActiveSlide(page + newDirection);
   };
 
   const slideIndex = wrap(0, slides.length, page);
@@ -77,30 +83,45 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
 
   return (
     <CarouselContainer>
-      <AnimatePresence initial={false} custom={direction}>
+      <AnimatePresence initial={false}>
         <motion.div
           style={{ display: "flex", position: "absolute", width: "100%" }}
-          key={page}
-          custom={direction}
-          variants={slideVariants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{
-            x: { type: "spring", stiffness: 300, damping: 30 },
-            opacity: { duration: 1 },
-          }}
+          key={slideIndex}
+          initial={{ opacity: 0 }}
+          animate={{ zIndex: 1, opacity: 1 }}
+          exit={{ zIndex: 0, opacity: 0 }}
+          transition={{ opacity: { duration: 1 } }}
         >
           {renderImage()}
         </motion.div>
       </AnimatePresence>
+
       <TextContainer>
-        <Title variant="H1" color="light">
-          {title}
-        </Title>
-        <Text color="light" size="lg">
-          {description}
-        </Text>
+        <AnimatePresence initial={false}>
+          <motion.div
+            key={`title-${slideIndex}`}
+            variants={titleVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+          >
+            <Title variant="H1" color="light">
+              {title}
+            </Title>
+          </motion.div>
+          <motion.div
+            key={`text-${slideIndex}`}
+            variants={titleVariants}
+            custom={true}
+            initial="enter"
+            animate="center"
+            exit="exit"
+          >
+            <Text color="light" size="lg">
+              {description}
+            </Text>
+          </motion.div>
+        </AnimatePresence>
         <CarouselControls>
           <CarouselButton type="prev" onClick={() => handleSlide(-1)} />
           <CarouselButton type="next" onClick={() => handleSlide(1)} />
