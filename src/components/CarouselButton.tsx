@@ -1,30 +1,27 @@
 import React, { FC } from "react";
 import styled from "styled-components";
-import { useSwiper } from "swiper/react";
 
 export type CarouselButtonProps = {
   type: "next" | "prev";
+  onClick?: () => void;
   className?: string;
 };
 
 const StyledButton = styled.button`
-  background: transparent;
+  background-color: transparent;
   width: 50px;
   height: 50px;
   border: 1px solid ${(props) => props.theme.color.white};
   color: ${(props) => props.theme.color.white};
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${(props) => props.theme.color.white};
+    color: ${(props) => props.theme.color.primary};
+    transition: all 0.2s ease-out;
+  }
 `;
 
-export const CarouselButton: FC<CarouselButtonProps> = ({ type }) => {
-  const swiper = useSwiper();
-
-  const handleSlide = () => {
-    if (type === "next") {
-      swiper.slideNext();
-    } else {
-      swiper.slidePrev();
-    }
-  };
-
-  return <StyledButton onClick={handleSlide}>{type}</StyledButton>;
+export const CarouselButton: FC<CarouselButtonProps> = ({ type, onClick }) => {
+  return <StyledButton onClick={onClick}>{type}</StyledButton>;
 };

@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Modules/HeroCarousel Default 1`] = `
+.c5 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c3 {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #FFF;
+  font-size: 50px;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 603px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
+.c4 {
+  margin-top: 42px;
+}
+
+.c4 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "opacity": 1,
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 1,
+      }
+    }
+  >
+    <img
+      alt="Slide 1"
+      src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1"
+      style={
+        Object {
+          "height": "auto",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="c1"
+  >
+    <h1
+      className="c2"
+      color="light"
+    >
+      Etiam sit amet orci eget
+    </h1>
+    <span
+      className="c3"
+      color="light"
+      size="lg"
+    >
+      Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </span>
+    <div
+      className="c4"
+    >
+      <button
+        className="c5"
+        onClick={[Function]}
+      >
+        prev
+      </button>
+      <button
+        className="c5"
+        onClick={[Function]}
+      >
+        next
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,9 +1,7 @@
-import React, { FC } from "react";
+import { AnimatePresence, motion, Variants } from "framer-motion";
+import { wrap } from "popmotion";
+import React, { FC, useState } from "react";
 import styled from "styled-components";
-import { EffectFade } from "swiper";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import { CarouselButton, Text, Title } from "../components";
 
@@ -17,12 +15,16 @@ export type HeroCarouselProps = {
   slides: HeroCarouselSlide[];
 };
 
-const SlideContainer = styled.div`
-  display: flex;
+const CarouselContainer = styled.div`
   position: relative;
   box-sizing: border-box;
   border-bottom-left-radius: ${(props) => props.theme.borderRadius};
   overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const TextContainer = styled.div`
@@ -32,6 +34,7 @@ const TextContainer = styled.div`
   z-index: 100;
   width: 603px;
   bottom: 0;
+  left: 0;
   padding: 62px 45px 37px 122px;
 `;
 
@@ -43,28 +46,66 @@ const CarouselControls = styled.div`
   }
 `;
 
+const slideVariants: Variants = {
+  enter: (direction: number) => {
+    return {
+      opacity: 0,
+    };
+  },
+  center: {
+    zIndex: 1,
+    opacity: 1,
+  },
+  exit: (direction: number) => {
+    return {
+      zIndex: 0,
+      opacity: 0,
+    };
+  },
+};
+
 export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
+  const [[page, direction], setActiveSlide] = useState([0, 0]);
+
+  const handleSlide = (newDirection: number) => {
+    setActiveSlide([page + newDirection, newDirection]);
+  };
+
+  const slideIndex = wrap(0, slides.length, page);
+
+  const { title, description, renderImage } = slides[slideIndex];
+
   return (
-    <Swiper modules={[EffectFade]} effect="fade" loop>
-      {slides.map(({ title, description, renderImage }, index) => (
-        <SwiperSlide key={index}>
-          <SlideContainer>
-            <TextContainer>
-              <Title variant="H1" color="light">
-                {title}
-              </Title>
-              <Text color="light" size="lg">
-                {description}
-              </Text>
-              <CarouselControls>
-                <CarouselButton type="prev" />
-                <CarouselButton type="next" />
-              </CarouselControls>
-            </TextContainer>
-            {renderImage()}
-          </SlideContainer>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <CarouselContainer>
+      <AnimatePresence initial={false} custom={direction}>
+        <motion.div
+          style={{ display: "flex", position: "absolute", width: "100%" }}
+          key={page}
+          custom={direction}
+          variants={slideVariants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+          transition={{
+            x: { type: "spring", stiffness: 300, damping: 30 },
+            opacity: { duration: 1 },
+          }}
+        >
+          {renderImage()}
+        </motion.div>
+      </AnimatePresence>
+      <TextContainer>
+        <Title variant="H1" color="light">
+          {title}
+        </Title>
+        <Text color="light" size="lg">
+          {description}
+        </Text>
+        <CarouselControls>
+          <CarouselButton type="prev" onClick={() => handleSlide(-1)} />
+          <CarouselButton type="next" onClick={() => handleSlide(1)} />
+        </CarouselControls>
+      </TextContainer>
+    </CarouselContainer>
   );
 };

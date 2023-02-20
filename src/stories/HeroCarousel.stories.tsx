@@ -7,6 +7,9 @@ import { HeroCarousel, HeroCarouselSlide } from "../modules/HeroCarousel";
 export default {
   title: "Modules/HeroCarousel",
   component: HeroCarousel,
+  parameters: {
+    layout: "fullscreen",
+  },
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     // backgroundColor: { control: "color" }
@@ -32,7 +35,7 @@ export const Default = Template.bind(
         renderImage: () => (
           <img
             style={style}
-            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png"
+            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1"
             alt="Slide 1"
           />
         ),
@@ -44,7 +47,7 @@ export const Default = Template.bind(
         renderImage: () => (
           <img
             style={style}
-            src="https://dummyimage.com/1920x1080/b7b7b7/ffffff.png"
+            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+2"
             alt="Slide 2"
           />
         ),
@@ -56,7 +59,7 @@ export const Default = Template.bind(
         renderImage: () => (
           <img
             style={style}
-            src="https://dummyimage.com/1920x1080/a7a7a7/ffffff.png"
+            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+3"
             alt="Slide 3"
           />
         ),
