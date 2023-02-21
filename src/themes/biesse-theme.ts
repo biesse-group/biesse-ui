@@ -8,6 +8,7 @@ export const biesseTheme: DefaultTheme = {
     secondary: "#6D6E70",
     white: "#FFF",
     black: "#252525",
+    lightGray: "#F5F5F5",
   },
   font: {
     body: {
@@ -27,4 +28,5 @@ export const biesseTheme: DefaultTheme = {
     family:
       '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
   },
+  transition: "all 0.2s ease-out",
 };

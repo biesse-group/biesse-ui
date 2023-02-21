@@ -3,6 +3,10 @@ import styled, { css } from "styled-components";
 
 export interface ButtonProps {
   /**
+   * Optional component class name
+   */
+  className?: string;
+  /**
    * Is this the principal call to action on the page?
    */
   variant: "primary" | "outline";
@@ -10,6 +14,13 @@ export interface ButtonProps {
    * How large should the button be?
    */
   size?: "small" | "medium";
+  /**
+   * Full-width button
+   */
+  isBlock?: boolean;
+  /**
+   * Callback on click
+   */
   onClick?: () => void;
 }
 
@@ -17,12 +28,12 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
   switch (size) {
     case "small":
       return css`
-        font-size: 14px;
+        font-size: ${(props) => props.theme.font.body.sm};
         padding: 8px 26px;
       `;
     default:
       return css`
-        font-size: 16px;
+        font-size: ${(props) => props.theme.font.body.md};
         padding: 13px 32px;
       `;
   }
@@ -54,9 +65,9 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
 
 const ButtonStyled = styled.button<ButtonProps>`
   font-family: ${(props) => props.theme.font.family};
-  font-weight: 500;
+  font-weight: bold;
   border: 0;
-  border-radius: 3em;
+  border-radius: ${(props) => props.theme.borderRadius};
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -66,6 +77,12 @@ const ButtonStyled = styled.button<ButtonProps>`
 
   ${(props) => getSizeStyle(props.size)}
   ${(props) => getVariantStyle(props.variant)}
+
+  ${(props) =>
+    props.isBlock &&
+    css`
+      width: 100%;
+    `}
 `;
 
 export const Button: FC<PropsWithChildren<ButtonProps>> = (props) => {

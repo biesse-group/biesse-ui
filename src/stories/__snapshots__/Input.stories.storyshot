@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Input Dark Background 1`] = `
+.c0 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 17px 20px 14px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.c0:focus,
+.c0:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c0::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c0::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c0:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c0::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#6D6E70",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <input
+      className="c0"
+      placeholder="Name"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Input Light Background 1`] = `
+.c0 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 17px 20px 14px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.c0:focus,
+.c0:active {
+  box-shadow: 0 0 10px rgba(135,135,135,0.8);
+}
+
+.c0::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c0::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c0:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c0::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#F5F5F5",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <input
+      className="c0"
+      placeholder="Name"
+    />
+  </div>
+</div>
+`;

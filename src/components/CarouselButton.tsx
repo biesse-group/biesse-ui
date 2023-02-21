@@ -2,6 +2,9 @@ import { FC } from "react";
 import styled from "styled-components";
 
 export type CarouselButtonProps = {
+  /**
+   * Shows left or right arrow
+   */
   type: "next" | "prev";
   onClick?: () => void;
   className?: string;

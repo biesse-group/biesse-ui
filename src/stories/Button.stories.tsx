@@ -34,3 +34,10 @@ Small.args = {
   size: "small",
   children: "Small",
 };
+
+export const Block = Template.bind({});
+Block.args = {
+  variant: "primary",
+  children: "Block",
+  isBlock: true,
+};

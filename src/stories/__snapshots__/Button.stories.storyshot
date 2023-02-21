@@ -1,11 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Components/Button Block 1`] = `
+.c0 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 40px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 16px;
+  padding: 13px 32px;
+  color: #FFF;
+  background-color: #6D6E70;
+  border: 1px solid #6D6E70;
+  width: 100%;
+}
+
+.c0:hover {
+  color: #6D6E70;
+  background-color: #FFF;
+}
+
+<button
+  className="c0"
+>
+  Block
+</button>
+`;
+
 exports[`Storyshots Components/Button Outline 1`] = `
 .c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   border: 0;
-  border-radius: 3em;
+  border-radius: 40px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -35,9 +68,9 @@ exports[`Storyshots Components/Button Outline 1`] = `
 exports[`Storyshots Components/Button Primary 1`] = `
 .c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   border: 0;
-  border-radius: 3em;
+  border-radius: 40px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -67,9 +100,9 @@ exports[`Storyshots Components/Button Primary 1`] = `
 exports[`Storyshots Components/Button Small 1`] = `
 .c0 {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   border: 0;
-  border-radius: 3em;
+  border-radius: 40px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;

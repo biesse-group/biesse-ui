@@ -9,6 +9,7 @@ export interface BiesseTheme {
     secondary: string;
     white: string;
     black: string;
+    lightGray: string;
   };
   font: {
     body: {
@@ -27,4 +28,5 @@ export interface BiesseTheme {
     };
     family: string;
   };
+  transition: string;
 }

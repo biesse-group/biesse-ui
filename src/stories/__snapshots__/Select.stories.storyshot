@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Select Dark Background 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  color: #6D6E70;
+}
+
+.c1 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 17px 20px 14px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 63px;
+  cursor: pointer;
+}
+
+.c1:focus,
+.c1:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c1::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c1::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c1:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c1::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 28px;
+  pointer-events: none;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#6D6E70",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <select
+        className="c1"
+        defaultValue=""
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Select something
+        </option>
+        <option
+          onClick={[Function]}
+        >
+          Option 1
+        </option>
+        <option
+          onClick={[Function]}
+        >
+          Option 2
+        </option>
+      </select>
+      <svg
+        className="c2"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m6 9 6 6 6-6"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Select Light Background 1`] = `
+.c0 {
+  position: relative;
+  width: 100%;
+  color: #6D6E70;
+}
+
+.c1 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 17px 20px 14px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 63px;
+  cursor: pointer;
+}
+
+.c1:focus,
+.c1:active {
+  box-shadow: 0 0 10px rgba(135,135,135,0.8);
+}
+
+.c1::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c1::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c1:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c1::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 28px;
+  pointer-events: none;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#F5F5F5",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <select
+        className="c1"
+        defaultValue=""
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Select something
+        </option>
+        <option
+          onClick={[Function]}
+        >
+          Option 1
+        </option>
+        <option
+          onClick={[Function]}
+        >
+          Option 2
+        </option>
+      </select>
+      <svg
+        className="c2"
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m6 9 6 6 6-6"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
