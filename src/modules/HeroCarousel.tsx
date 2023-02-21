@@ -20,7 +20,7 @@ export type HeroCarouselProps = {
 const CarouselContainer = styled.div`
   position: relative;
   box-sizing: border-box;
-  border-bottom-left-radius: ${(props) => props.theme.borderRadius};
+  border-bottom-left-radius: ${(props) => props.theme.borderRadius.lg};
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -32,7 +32,7 @@ const CarouselContainer = styled.div`
 const TextContainer = styled.div`
   position: absolute;
   background-color: ${(props) => props.theme.color.primary};
-  border-top-right-radius: ${(props) => props.theme.borderRadius};
+  border-top-right-radius: ${(props) => props.theme.borderRadius.lg};
   z-index: 100;
   width: 603px;
   bottom: 0;

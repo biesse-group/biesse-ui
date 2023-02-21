@@ -5,7 +5,7 @@ exports[`Storyshots Components/Button Block 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 40px;
+  border-radius: 25px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -38,7 +38,7 @@ exports[`Storyshots Components/Button Outline 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 40px;
+  border-radius: 25px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -70,7 +70,7 @@ exports[`Storyshots Components/Button Primary 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 40px;
+  border-radius: 25px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -102,7 +102,7 @@ exports[`Storyshots Components/Button Small 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 40px;
+  border-radius: 25px;
   cursor: pointer;
   display: inline-block;
   line-height: 1;

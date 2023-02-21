@@ -2,7 +2,10 @@ import { DefaultTheme } from "styled-components";
 
 export const hsdTheme: DefaultTheme = {
   name: "HSD Mechatronics",
-  borderRadius: "40px",
+  borderRadius: {
+    md: "25px",
+    lg: "40px",
+  },
   color: {
     primary: "#004898",
     secondary: "#6D6E70",

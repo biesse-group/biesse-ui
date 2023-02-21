@@ -1,7 +1,10 @@
 import { FC, PropsWithChildren } from "react";
 import styled from "styled-components";
 
-type Props = { background?: "primary" | "light" | "dark" };
+type Props = {
+  background?: "primary" | "light" | "dark";
+  maxWidth?: number;
+};
 
 const StyledBg = styled.div<Props>`
   padding: 30px;
@@ -18,10 +21,14 @@ const StyledBg = styled.div<Props>`
   }};
 `;
 
-export const BackgroundDecorator: FC<PropsWithChildren<Props>> = ({ children, ...props }) => {
+export const BackgroundDecorator: FC<PropsWithChildren<Props>> = ({
+  children,
+  maxWidth = 300,
+  ...props
+}) => {
   return (
     <StyledBg {...props}>
-      <div style={{ maxWidth: 300 }}>{children}</div>
+      <div style={{ maxWidth }}>{children}</div>
     </StyledBg>
   );
 };

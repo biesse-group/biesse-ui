@@ -2,7 +2,10 @@ import { DefaultTheme } from "styled-components";
 
 export const biesseTheme: DefaultTheme = {
   name: "Biesse Group",
-  borderRadius: "40px",
+  borderRadius: {
+    md: "25px",
+    lg: "40px",
+  },
   color: {
     primary: "#6D6E70",
     secondary: "#6D6E70",

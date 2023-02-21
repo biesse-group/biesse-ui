@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Input Dark Background 1`] = `
+exports[`Storyshots Components/Textarea Dark Background 1`] = `
 .c1 {
   background-color: #FFF;
   color: #252525;
@@ -13,6 +13,8 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
   transition: all 0.2s ease-out;
   width: 100%;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  resize: none;
+  height: 90px;
 }
 
 .c1:focus,
@@ -52,19 +54,19 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
   <div
     style={
       Object {
-        "maxWidth": 300,
+        "maxWidth": 500,
       }
     }
   >
-    <input
+    <textarea
       className="c1"
-      placeholder="Name"
+      placeholder="Type something..."
     />
   </div>
 </div>
 `;
 
-exports[`Storyshots Components/Input Light Background 1`] = `
+exports[`Storyshots Components/Textarea Light Background 1`] = `
 .c1 {
   background-color: #FFF;
   color: #252525;
@@ -77,6 +79,8 @@ exports[`Storyshots Components/Input Light Background 1`] = `
   transition: all 0.2s ease-out;
   width: 100%;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  resize: none;
+  height: 90px;
 }
 
 .c1:focus,
@@ -116,13 +120,13 @@ exports[`Storyshots Components/Input Light Background 1`] = `
   <div
     style={
       Object {
-        "maxWidth": 300,
+        "maxWidth": 500,
       }
     }
   >
-    <input
+    <textarea
       className="c1"
-      placeholder="Name"
+      placeholder="Type something..."
     />
   </div>
 </div>

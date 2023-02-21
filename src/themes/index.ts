@@ -3,7 +3,10 @@ export * from "./biesse-theme";
 
 export interface BiesseTheme {
   name: string;
-  borderRadius: string;
+  borderRadius: {
+    md: string;
+    lg: string;
+  };
   color: {
     primary: string;
     secondary: string;
