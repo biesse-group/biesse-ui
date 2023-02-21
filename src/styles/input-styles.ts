@@ -4,7 +4,7 @@ export const inputStyles = (shadow: "dark" | "light" = "dark") => css`
   background-color: ${(props) => props.theme.color.white};
   color: ${(props) => props.theme.color.black};
   font-size: ${(props) => props.theme.font.body.sm};
-  border-radius: ${(props) => props.theme.borderRadius.md};
+  border-radius: ${(props) => props.theme.input.borderRadius};
   padding: 17px 20px 14px;
   border: none;
   outline: none;
@@ -14,7 +14,9 @@ export const inputStyles = (shadow: "dark" | "light" = "dark") => css`
 
   &:focus,
   &:active {
-    box-shadow: 0 0 10px ${shadow === "dark" ? "rgba(0, 0, 0, 0.8)" : "rgba(135, 135, 135, 0.8)"};
+    box-shadow: 0 0 10px
+      ${({ theme }) =>
+        shadow === "dark" ? theme.input.boxShadow.dark : theme.input.boxShadow.light};
   }
 
   &::placeholder {

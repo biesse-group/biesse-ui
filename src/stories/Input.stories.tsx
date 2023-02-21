@@ -5,7 +5,7 @@ import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Components/Input",
+  title: "Inputs/Input",
   component: Input,
   parameters: {
     layout: "fullscreen",
@@ -26,6 +26,7 @@ export const DarkBackground = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 DarkBackground.args = {
   placeholder: "Name",
+  shadow: "dark",
 };
 
 export const LightBackground = Template.bind({});
@@ -33,4 +34,13 @@ export const LightBackground = Template.bind({});
 LightBackground.args = {
   placeholder: "Name",
   shadow: "light",
+};
+
+export const WithButton = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+WithButton.args = {
+  placeholder: "Name",
+  shadow: "dark",
+  submitLabel: "Send",
+  onSubmit: () => {},
 };

@@ -5,7 +5,7 @@ import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Components/Textarea",
+  title: "Inputs/Textarea",
   component: Textarea,
   parameters: {
     layout: "fullscreen",

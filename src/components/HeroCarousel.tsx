@@ -3,7 +3,7 @@ import { wrap } from "popmotion";
 import { FC, useState } from "react";
 import styled from "styled-components";
 
-import { IconButton, Text, Title } from "../components";
+import { IconButton, Text, Title } from ".";
 import ArrowLeft from "../icons/ArrowLeft";
 import ArrowRight from "../icons/ArrowRight";
 
@@ -20,7 +20,7 @@ export type HeroCarouselProps = {
 const CarouselContainer = styled.div`
   position: relative;
   box-sizing: border-box;
-  border-bottom-left-radius: ${(props) => props.theme.borderRadius.lg};
+  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -32,7 +32,7 @@ const CarouselContainer = styled.div`
 const TextContainer = styled.div`
   position: absolute;
   background-color: ${(props) => props.theme.color.primary};
-  border-top-right-radius: ${(props) => props.theme.borderRadius.lg};
+  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   z-index: 100;
   width: 603px;
   bottom: 0;

@@ -3,9 +3,18 @@ export * from "./biesse-theme";
 
 export interface BiesseTheme {
   name: string;
-  borderRadius: {
-    md: string;
-    lg: string;
+  card: {
+    borderRadius: string;
+  };
+  button: {
+    borderRadius: string;
+  };
+  input: {
+    borderRadius: string;
+    boxShadow: {
+      dark: string;
+      light: string;
+    };
   };
   color: {
     primary: string;

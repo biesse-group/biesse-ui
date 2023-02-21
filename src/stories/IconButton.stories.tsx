@@ -6,7 +6,7 @@ import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Components/IconButton",
+  title: "Buttons/IconButton",
   component: IconButton,
   parameters: {
     layout: "fullscreen",

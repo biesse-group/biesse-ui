@@ -2,9 +2,18 @@ import { DefaultTheme } from "styled-components";
 
 export const biesseTheme: DefaultTheme = {
   name: "Biesse Group",
-  borderRadius: {
-    md: "25px",
-    lg: "40px",
+  card: {
+    borderRadius: "40px",
+  },
+  button: {
+    borderRadius: "20px",
+  },
+  input: {
+    borderRadius: "25px",
+    boxShadow: {
+      dark: "rgba(0, 0, 0, 0.8)",
+      light: "rgba(135, 135, 135, 0.8)",
+    },
   },
   color: {
     primary: "#6D6E70",

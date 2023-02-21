@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Input Dark Background 1`] = `
-.c1 {
+exports[`Storyshots Inputs/Input Dark Background 1`] = `
+.c2 {
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
@@ -15,29 +15,52 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.c1:focus,
-.c1:active {
+.c2:focus,
+.c2:active {
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-.c1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::placeholder {
+.c2::placeholder {
   color: #252525;
   font-style: italic;
+}
+
+.c2:active,
+.c2:focus {
+  box-shadow: none;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
 }
 
 .c0 {
@@ -56,16 +79,22 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
       }
     }
   >
-    <input
+    <div
       className="c1"
-      placeholder="Name"
-    />
+    >
+      <input
+        className="c2"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        placeholder="Name"
+      />
+    </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Components/Input Light Background 1`] = `
-.c1 {
+exports[`Storyshots Inputs/Input Light Background 1`] = `
+.c2 {
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
@@ -79,29 +108,52 @@ exports[`Storyshots Components/Input Light Background 1`] = `
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.c1:focus,
-.c1:active {
+.c2:focus,
+.c2:active {
   box-shadow: 0 0 10px rgba(135,135,135,0.8);
 }
 
-.c1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::placeholder {
+.c2::placeholder {
   color: #252525;
   font-style: italic;
+}
+
+.c2:active,
+.c2:focus {
+  box-shadow: none;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
 }
 
 .c0 {
@@ -120,10 +172,145 @@ exports[`Storyshots Components/Input Light Background 1`] = `
       }
     }
   >
-    <input
+    <div
       className="c1"
-      placeholder="Name"
-    />
+    >
+      <input
+        className="c2"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        placeholder="Name"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Inputs/Input With Button 1`] = `
+.c3 {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 14px;
+  padding: 8px 26px;
+  color: #FFF;
+  background-color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c3:hover {
+  color: #6D6E70;
+  background-color: #FFF;
+}
+
+.c2 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 17px 20px 14px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.c2:focus,
+.c2:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c2::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2:active,
+.c2:focus {
+  box-shadow: none;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+}
+
+.c4 {
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.c0 {
+  padding: 30px;
+  height: 100vh;
+  background-color: #6D6E70;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      className="c1"
+    >
+      <input
+        className="c2"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        placeholder="Name"
+      />
+      <button
+        className="c3 c4"
+        size="small"
+      >
+        Send
+      </button>
+    </div>
   </div>
 </div>
 `;

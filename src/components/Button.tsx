@@ -67,7 +67,7 @@ const ButtonStyled = styled.button<ButtonProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
-  border-radius: ${(props) => props.theme.borderRadius.md};
+  border-radius: ${(props) => props.theme.button.borderRadius};
   cursor: pointer;
   display: inline-block;
   line-height: 1;

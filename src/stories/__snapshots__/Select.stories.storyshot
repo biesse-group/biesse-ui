@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Select Dark Background 1`] = `
+exports[`Storyshots Inputs/Select Dark Background 1`] = `
 .c1 {
   position: relative;
   width: 100%;
@@ -122,7 +122,7 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Select Light Background 1`] = `
+exports[`Storyshots Inputs/Select Light Background 1`] = `
 .c1 {
   position: relative;
   width: 100%;
