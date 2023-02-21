@@ -1,21 +1,18 @@
 <!-- Iconography.stories.mdx -->
 
-import { Meta, Title, IconGallery, IconItem } from '@storybook/addon-docs/';
+import { IconGallery, IconItem, Meta, Title } from "@storybook/addon-docs/";
 
-import { 
-  PlaceHolderIcon, 
-  SearchIcon, 
-  } from '../icons';
+import { Icon } from "../icons";
 
-<Meta title="Icons/Iconography" />
+<Meta title="Iconography" />
 
 # Iconography
 
 <IconGallery>
-  <IconItem name="mobile">
-    <PlaceHolderIcon size = "small"/>
+  <IconItem name="placeholder">
+    <Icon size="small" name="placeholder" />
   </IconItem>
-  <IconItem name="user">
-    <SearchIcon size = "small"/>
+  <IconItem name="search">
+    <Icon size="small" name="search" />
   </IconItem>
 </IconGallery>

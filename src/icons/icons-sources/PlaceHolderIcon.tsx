@@ -1,17 +1,8 @@
 import React, { FC } from "react";
 
-import getIconSize from "./get-icon-size";
-import { IconProps } from "./IconProps";
-
-export const PlaceHolderIcon: FC<IconProps> = ({ size, ...props }) => {
+export const PlaceHolderIcon: FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-      {...getIconSize(size)}
-    >
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
       <path
         fillRule="evenodd"
         clipRule="evenodd"

@@ -1,13 +1,19 @@
+import { css } from "styled-components";
+
 const getIconSize = (size?: string) => {
   switch (size) {
     case "small":
-      return { width: "25px" };
+      return css`
+        width: 30px;
+      `;
     case "large":
-      return { width: "80px" };
-    case "medium":
-      return { width: "50px" };
+      return css`
+        width: 80px;
+      `;
     default:
-      return {};
+      return css`
+        width: 50px;
+      `;
   }
 };
 
