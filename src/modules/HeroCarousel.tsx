@@ -48,6 +48,13 @@ const CarouselControls = styled.div`
   }
 `;
 
+const StyledSlide = styled(motion.div)`
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+`;
+
 const titleVariants: Variants = {
   enter: {
     x: -100,
@@ -86,8 +93,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
   return (
     <CarouselContainer>
       <AnimatePresence initial={false}>
-        <motion.div
-          style={{ display: "flex", position: "absolute", width: "100%" }}
+        <StyledSlide
           key={slideIndex}
           initial={{ opacity: 0 }}
           animate={{ zIndex: 1, opacity: 1 }}
@@ -95,7 +101,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
           transition={{ opacity: { duration: 1 } }}
         >
           {renderImage()}
-        </motion.div>
+        </StyledSlide>
       </AnimatePresence>
 
       <TextContainer>
@@ -125,8 +131,16 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
           </motion.div>
         </AnimatePresence>
         <CarouselControls>
-          <IconButton variant="light" icon={<ArrowLeft />} onClick={() => handleSlide(-1)} />
-          <IconButton variant="light" icon={<ArrowRight />} onClick={() => handleSlide(1)} />
+          <IconButton
+            variant="primary-inverted"
+            icon={<ArrowLeft />}
+            onClick={() => handleSlide(-1)}
+          />
+          <IconButton
+            variant="primary-inverted"
+            icon={<ArrowRight />}
+            onClick={() => handleSlide(1)}
+          />
         </CarouselControls>
       </TextContainer>
     </CarouselContainer>

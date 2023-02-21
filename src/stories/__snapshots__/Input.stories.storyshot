@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Input Dark Background 1`] = `
-.c0 {
+.c1 {
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
@@ -14,39 +14,39 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
   width: 100%;
 }
 
-.c0:focus,
-.c0:active {
+.c1:focus,
+.c1:active {
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-.c0::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c0::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c0:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c0::placeholder {
+.c1::placeholder {
   color: #252525;
   font-style: italic;
+}
+
+.c0 {
+  padding: 30px;
+  height: 100vh;
+  background-color: #6D6E70;
 }
 
 <div
-  style={
-    Object {
-      "backgroundColor": "#6D6E70",
-      "height": "100vh",
-      "padding": "30px",
-    }
-  }
+  className="c0"
 >
   <div
     style={
@@ -56,7 +56,7 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
     }
   >
     <input
-      className="c0"
+      className="c1"
       placeholder="Name"
     />
   </div>
@@ -64,7 +64,7 @@ exports[`Storyshots Components/Input Dark Background 1`] = `
 `;
 
 exports[`Storyshots Components/Input Light Background 1`] = `
-.c0 {
+.c1 {
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
@@ -77,39 +77,39 @@ exports[`Storyshots Components/Input Light Background 1`] = `
   width: 100%;
 }
 
-.c0:focus,
-.c0:active {
+.c1:focus,
+.c1:active {
   box-shadow: 0 0 10px rgba(135,135,135,0.8);
 }
 
-.c0::-webkit-input-placeholder {
+.c1::-webkit-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c0::-moz-placeholder {
+.c1::-moz-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c0:-ms-input-placeholder {
+.c1:-ms-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c0::placeholder {
+.c1::placeholder {
   color: #252525;
   font-style: italic;
+}
+
+.c0 {
+  padding: 30px;
+  height: 100vh;
+  background-color: #F5F5F5;
 }
 
 <div
-  style={
-    Object {
-      "backgroundColor": "#F5F5F5",
-      "height": "100vh",
-      "padding": "30px",
-    }
-  }
+  className="c0"
 >
   <div
     style={
@@ -119,7 +119,7 @@ exports[`Storyshots Components/Input Light Background 1`] = `
     }
   >
     <input
-      className="c0"
+      className="c1"
       placeholder="Name"
     />
   </div>

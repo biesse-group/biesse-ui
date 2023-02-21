@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Modules/HeroCarousel Default 1`] = `
-.c5 {
+.c6 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -10,20 +10,20 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
   cursor: pointer;
 }
 
-.c5:hover {
+.c6:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.c3 {
+.c4 {
   font-size: 18px;
   line-height: 26px;
   color: #FFF;
 }
 
-.c2 {
+.c3 {
   text-transform: uppercase;
   margin-top: 0;
   color: #FFF;
@@ -51,7 +51,7 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
   align-items: center;
 }
 
-.c1 {
+.c2 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -62,41 +62,50 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c4 {
+.c5 {
   margin-top: 42px;
 }
 
-.c4 > *:nth-child(2) {
+.c5 > *:nth-child(2) {
   margin-left: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 <div
   className="c0"
 >
   <div
+    className="c1"
     style={
       Object {
-        "display": "flex",
         "opacity": 1,
-        "position": "absolute",
-        "width": "100%",
         "zIndex": 1,
       }
     }
   >
-    <img
-      alt="Slide 1"
-      src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1"
+    <div
       style={
         Object {
-          "height": "auto",
+          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+          "backgroundPosition": "center center",
+          "backgroundSize": "cover",
+          "height": "100%",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="c1"
+    className="c2"
   >
     <div
       style={
@@ -108,7 +117,7 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
       }
     >
       <h1
-        className="c2"
+        className="c3"
         color="light"
       >
         Etiam sit amet orci eget
@@ -124,7 +133,7 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
       }
     >
       <span
-        className="c3"
+        className="c4"
         color="light"
         size="lg"
       >
@@ -132,10 +141,10 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
       </span>
     </div>
     <div
-      className="c4"
+      className="c5"
     >
       <button
-        className="c5"
+        className="c6"
         onClick={[Function]}
       >
         <svg
@@ -153,7 +162,7 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
         </svg>
       </button>
       <button
-        className="c5"
+        className="c6"
         onClick={[Function]}
       >
         <svg

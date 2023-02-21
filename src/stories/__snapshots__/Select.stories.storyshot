@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Select Dark Background 1`] = `
-.c0 {
+.c1 {
   position: relative;
   width: 100%;
   color: #6D6E70;
 }
 
-.c1 {
+.c2 {
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
@@ -25,32 +25,32 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
   cursor: pointer;
 }
 
-.c1:focus,
-.c1:active {
+.c2:focus,
+.c2:active {
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-.c1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::placeholder {
+.c2::placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c2 {
+.c3 {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -58,14 +58,13 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
   pointer-events: none;
 }
 
+.c0 {
+  padding: 30px;
+  height: 100vh;
+}
+
 <div
-  style={
-    Object {
-      "backgroundColor": "#F5F5F5",
-      "height": "100vh",
-      "padding": "30px",
-    }
-  }
+  className="c0"
 >
   <div
     style={
@@ -75,10 +74,10 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
     }
   >
     <div
-      className="c0"
+      className="c1"
     >
       <select
-        className="c1"
+        className="c2"
         defaultValue=""
       >
         <option
@@ -99,7 +98,7 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
         </option>
       </select>
       <svg
-        className="c2"
+        className="c3"
         fill="none"
         stroke="currentColor"
         strokeLinecap="round"
@@ -118,13 +117,13 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
 `;
 
 exports[`Storyshots Components/Select Light Background 1`] = `
-.c0 {
+.c1 {
   position: relative;
   width: 100%;
   color: #6D6E70;
 }
 
-.c1 {
+.c2 {
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
@@ -142,32 +141,32 @@ exports[`Storyshots Components/Select Light Background 1`] = `
   cursor: pointer;
 }
 
-.c1:focus,
-.c1:active {
+.c2:focus,
+.c2:active {
   box-shadow: 0 0 10px rgba(135,135,135,0.8);
 }
 
-.c1::-webkit-input-placeholder {
+.c2::-webkit-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::-moz-placeholder {
+.c2::-moz-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1:-ms-input-placeholder {
+.c2:-ms-input-placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c1::placeholder {
+.c2::placeholder {
   color: #252525;
   font-style: italic;
 }
 
-.c2 {
+.c3 {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -175,14 +174,13 @@ exports[`Storyshots Components/Select Light Background 1`] = `
   pointer-events: none;
 }
 
+.c0 {
+  padding: 30px;
+  height: 100vh;
+}
+
 <div
-  style={
-    Object {
-      "backgroundColor": "#F5F5F5",
-      "height": "100vh",
-      "padding": "30px",
-    }
-  }
+  className="c0"
 >
   <div
     style={
@@ -192,10 +190,10 @@ exports[`Storyshots Components/Select Light Background 1`] = `
     }
   >
     <div
-      className="c0"
+      className="c1"
     >
       <select
-        className="c1"
+        className="c2"
         defaultValue=""
       >
         <option
@@ -216,7 +214,7 @@ exports[`Storyshots Components/Select Light Background 1`] = `
         </option>
       </select>
       <svg
-        className="c2"
+        className="c3"
         fill="none"
         stroke="currentColor"
         strokeLinecap="round"

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export type IconButtonProps = {
   /**
@@ -9,7 +9,7 @@ export type IconButtonProps = {
   /**
    * Shows light or primary buttons
    */
-  variant: "light" | "primary";
+  variant: "primary" | "primary-inverted" | "light";
   onClick?: () => void;
   className?: string;
 };
@@ -18,18 +18,28 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   background-color: transparent;
   width: 50px;
   height: 50px;
-  border: 1px solid
-    ${(props) =>
-      props.variant === "primary" ? props.theme.color.primary : props.theme.color.white};
-  color: ${(props) =>
-    props.variant === "primary" ? props.theme.color.primary : props.theme.color.white};
+  ${({ variant, theme }) => {
+    const color = variant === "primary" ? theme.color.primary : theme.color.white;
+    return css`
+      border: 1px solid ${color};
+      color: ${color};
+    `;
+  }};
   cursor: pointer;
 
   &:hover {
-    background-color: ${(props) =>
-      props.variant === "primary" ? props.theme.color.primary : props.theme.color.white};
-    color: ${(props) =>
-      props.variant === "primary" ? props.theme.color.white : props.theme.color.primary};
+    background-color: ${({ variant, theme }) =>
+      variant === "primary" ? theme.color.primary : theme.color.white};
+    color: ${({ variant, theme }) => {
+      switch (variant) {
+        case "primary":
+          return theme.color.white;
+        case "light":
+          return theme.color.black;
+        case "primary-inverted":
+          return theme.color.primary;
+      }
+    }};
     transition: all 0.2s ease-out;
   }
 `;

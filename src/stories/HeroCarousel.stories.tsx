@@ -1,5 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { CSSProperties } from "react";
+import { FC } from "react";
 
 import { HeroCarousel, HeroCarouselSlide } from "../modules/HeroCarousel";
 
@@ -15,9 +15,18 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof HeroCarousel> = (args) => <HeroCarousel {...args} />;
 
-const style: CSSProperties = {
-  width: "100%",
-  height: "auto",
+const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {
+  return (
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        backgroundImage: `url(${imageUrl})`,
+        backgroundPosition: "center center",
+        backgroundSize: "cover",
+      }}
+    />
+  );
 };
 
 export const Default = Template.bind(
@@ -29,11 +38,7 @@ export const Default = Template.bind(
         description:
           "Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         renderImage: () => (
-          <img
-            style={style}
-            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1"
-            alt="Slide 1"
-          />
+          <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1" />
         ),
       },
       {
@@ -41,11 +46,7 @@ export const Default = Template.bind(
         description:
           "Suspendisse non nisl sit amet velit hendrerit rutrum. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Nunc interdum lacus sit amet orci. Ut leo.",
         renderImage: () => (
-          <img
-            style={style}
-            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+2"
-            alt="Slide 2"
-          />
+          <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+2" />
         ),
       },
       {
@@ -53,11 +54,7 @@ export const Default = Template.bind(
         description:
           "Nam at tortor in tellus interdum sagittis. Morbi ac felis. Nam commodo suscipit quam. Fusce fermentum.",
         renderImage: () => (
-          <img
-            style={style}
-            src="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+3"
-            alt="Slide 3"
-          />
+          <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+3" />
         ),
       },
     ] as HeroCarouselSlide[],

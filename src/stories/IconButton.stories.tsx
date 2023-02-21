@@ -12,11 +12,21 @@ export default {
     layout: "fullscreen",
   },
   decorators: [
-    (Story, { args }) => (
-      <BackgroundDecorator background={args.variant === "primary" ? "light" : "primary"}>
-        <Story />
-      </BackgroundDecorator>
-    ),
+    (Story, { args }) => {
+      return (
+        <BackgroundDecorator
+          background={
+            args.variant === "primary"
+              ? "light"
+              : args.variant === "primary-inverted"
+              ? "primary"
+              : "dark"
+          }
+        >
+          <Story />
+        </BackgroundDecorator>
+      );
+    },
   ],
 } as ComponentMeta<typeof IconButton>;
 
@@ -28,6 +38,13 @@ export const Primary = Template.bind({});
 Primary.args = {
   icon: <ArrowRight />,
   variant: "primary",
+};
+
+export const PrimaryInverted = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+PrimaryInverted.args = {
+  icon: <ArrowRight />,
+  variant: "primary-inverted",
 };
 
 export const Light = Template.bind({});
