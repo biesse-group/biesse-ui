@@ -1,6 +1,6 @@
 import { AnimatePresence, motion, Variants } from "framer-motion";
 import { wrap } from "popmotion";
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import styled from "styled-components";
 
 import { CarouselButton, Text, Title } from "../components";
