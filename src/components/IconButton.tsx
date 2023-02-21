@@ -1,11 +1,11 @@
 import { FC } from "react";
 import styled from "styled-components";
 
-export type CarouselButtonProps = {
+export type IconButtonProps = {
   /**
    * Shows left or right arrow
    */
-  type: "next" | "prev";
+  icon: JSX.Element;
   /**
    * Shows light or primary buttons
    */
@@ -14,7 +14,7 @@ export type CarouselButtonProps = {
   className?: string;
 };
 
-const StyledButton = styled.button<Omit<CarouselButtonProps, "type">>`
+const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -26,12 +26,14 @@ const StyledButton = styled.button<Omit<CarouselButtonProps, "type">>`
   cursor: pointer;
 
   &:hover {
-    background-color: ${(props) => props.theme.color.white};
-    color: ${(props) => props.theme.color.primary};
+    background-color: ${(props) =>
+      props.variant === "primary" ? props.theme.color.primary : props.theme.color.white};
+    color: ${(props) =>
+      props.variant === "primary" ? props.theme.color.white : props.theme.color.primary};
     transition: all 0.2s ease-out;
   }
 `;
 
-export const CarouselButton: FC<CarouselButtonProps> = ({ type, ...props }) => {
-  return <StyledButton {...props}>{type}</StyledButton>;
+export const IconButton: FC<IconButtonProps> = ({ icon, ...props }) => {
+  return <StyledButton {...props}>{icon}</StyledButton>;
 };

@@ -1,6 +1,6 @@
 export * from "./Button";
 export * from "./Card";
-export * from "./CarouselButton";
+export * from "./IconButton";
 export * from "./Input";
 export * from "./SearchBar";
 export * from "./Select";

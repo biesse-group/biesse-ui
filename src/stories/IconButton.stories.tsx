@@ -1,36 +1,38 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Input } from "../components";
+import { IconButton } from "../components";
+import ArrowRight from "../icons/ArrowRight";
 import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Components/Input",
-  component: Input,
+  title: "Components/IconButton",
+  component: IconButton,
   parameters: {
     layout: "fullscreen",
   },
   decorators: [
     (Story, { args }) => (
-      <BackgroundDecorator background={args.shadow === "light" ? "light" : "primary"}>
+      <BackgroundDecorator background={args.variant === "primary" ? "light" : "primary"}>
         <Story />
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof Input>;
+} as ComponentMeta<typeof IconButton>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
+const Template: ComponentStory<typeof IconButton> = (args) => <IconButton {...args} />;
 
-export const DarkBackground = Template.bind({});
+export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-DarkBackground.args = {
-  placeholder: "Name",
+Primary.args = {
+  icon: <ArrowRight />,
+  variant: "primary",
 };
 
-export const LightBackground = Template.bind({});
+export const Light = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-LightBackground.args = {
-  placeholder: "Name",
-  shadow: "light",
+Light.args = {
+  icon: <ArrowRight />,
+  variant: "light",
 };

@@ -3,7 +3,9 @@ import { wrap } from "popmotion";
 import { FC, useState } from "react";
 import styled from "styled-components";
 
-import { CarouselButton, Text, Title } from "../components";
+import { IconButton, Text, Title } from "../components";
+import ArrowLeft from "../icons/ArrowLeft";
+import ArrowRight from "../icons/ArrowRight";
 
 export interface HeroCarouselSlide {
   renderImage: () => JSX.Element;
@@ -123,8 +125,8 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
           </motion.div>
         </AnimatePresence>
         <CarouselControls>
-          <CarouselButton variant="light" type="prev" onClick={() => handleSlide(-1)} />
-          <CarouselButton variant="light" type="next" onClick={() => handleSlide(1)} />
+          <IconButton variant="light" icon={<ArrowLeft />} onClick={() => handleSlide(-1)} />
+          <IconButton variant="light" icon={<ArrowRight />} onClick={() => handleSlide(1)} />
         </CarouselControls>
       </TextContainer>
     </CarouselContainer>

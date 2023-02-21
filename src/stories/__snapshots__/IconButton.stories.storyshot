@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/IconButton Light 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#6D6E70",
+      "height": "100vh",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      <svg
+        fill="none"
+        height={24}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        width={24}
+      >
+        <path
+          d="M5 12h14M12 5l7 7-7 7"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/IconButton Primary 1`] = `
+.c0 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #6D6E70;
+  color: #6D6E70;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+<div
+  style={
+    Object {
+      "backgroundColor": "#F5F5F5",
+      "height": "100vh",
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <button
+      className="c0"
+    >
+      <svg
+        fill="none"
+        height={24}
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        width={24}
+      >
+        <path
+          d="M5 12h14M12 5l7 7-7 7"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

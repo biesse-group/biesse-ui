@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Select } from "../components";
-import { InputDecorator } from "./decorators/InputDecorator";
+import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -12,9 +12,9 @@ export default {
   },
   decorators: [
     (Story, { args }) => (
-      <InputDecorator shadow={args.shadow}>
+      <BackgroundDecorator shadow={args.shadow}>
         <Story />
-      </InputDecorator>
+      </BackgroundDecorator>
     ),
   ],
 } as ComponentMeta<typeof Select>;

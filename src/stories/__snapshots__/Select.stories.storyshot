@@ -61,7 +61,8 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
 <div
   style={
     Object {
-      "backgroundColor": "#6D6E70",
+      "backgroundColor": "#F5F5F5",
+      "height": "100vh",
       "padding": "30px",
     }
   }
@@ -178,6 +179,7 @@ exports[`Storyshots Components/Select Light Background 1`] = `
   style={
     Object {
       "backgroundColor": "#F5F5F5",
+      "height": "100vh",
       "padding": "30px",
     }
   }
