@@ -48,7 +48,7 @@ const CarouselControls = styled.div`
 
 const titleVariants: Variants = {
   enter: {
-    x: -500,
+    x: -100,
     opacity: 0,
   },
   center: (delayed?: boolean) => ({
@@ -56,9 +56,9 @@ const titleVariants: Variants = {
     zIndex: 1,
     opacity: 1,
     transition: {
-      opacity: { duration: 0.2 },
-      x: { type: "spring", stiffness: 100, bounce: 0, damping: 20 },
-      delay: delayed ? 0.3 : 0,
+      opacity: { duration: 0.4, ease: "easeOut" },
+      x: { type: "spring", stiffness: 70, bounce: 0, damping: 16 },
+      delay: delayed ? 0.35 : 0,
     },
   }),
   exit: {
@@ -123,8 +123,8 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
           </motion.div>
         </AnimatePresence>
         <CarouselControls>
-          <CarouselButton type="prev" onClick={() => handleSlide(-1)} />
-          <CarouselButton type="next" onClick={() => handleSlide(1)} />
+          <CarouselButton variant="light" type="prev" onClick={() => handleSlide(-1)} />
+          <CarouselButton variant="light" type="next" onClick={() => handleSlide(1)} />
         </CarouselControls>
       </TextContainer>
     </CarouselContainer>
