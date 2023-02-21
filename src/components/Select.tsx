@@ -1,9 +1,10 @@
-import styled from "styled-components";
+import { FC, useState } from "react";
+import styled, { css } from "styled-components";
 
 import ChevronDown from "../icons/ChevronDown";
 import { inputStyles } from "../styles/input-styles";
 
-export type SelectProps<T> = {
+export type SelectProps = {
   /**
    * Shows a disabled option as placeholder
    */
@@ -16,11 +17,11 @@ export type SelectProps<T> = {
    * Select change callback
    * @param newValue the newly selected value
    */
-  onChange?: (newValue: T) => void;
+  onChange?: (newValue: string) => void;
   /**
    * Select options, can have any type
    */
-  options: SelectOption<T>[];
+  options: SelectOption[];
   /**
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
@@ -33,11 +34,16 @@ const SelectContainer = styled.div`
   color: ${(props) => props.theme.color.primary};
 `;
 
-const StyledSelect = styled.select<Pick<SelectProps<unknown>, "shadow">>`
+const StyledSelect = styled.select<Pick<SelectProps, "shadow"> & { selected?: boolean }>`
   ${(props) => inputStyles(props.shadow)};
   appearance: none;
   padding-right: 63px;
   cursor: pointer;
+  ${(props) =>
+    !props.selected &&
+    css`
+      font-style: italic;
+    `}
 `;
 
 const SelectIcon = styled(ChevronDown)`
@@ -48,28 +54,34 @@ const SelectIcon = styled(ChevronDown)`
   pointer-events: none;
 `;
 
-export type SelectOption<T> = {
+export type SelectOption = {
   label: string;
-  value: T;
+  value: string;
 };
 
-export const Select = <T extends unknown>({
-  value,
-  onChange,
-  options,
-  placeholder,
-  shadow,
-}: SelectProps<T>) => {
+export const Select: FC<SelectProps> = ({ value, onChange, options, placeholder, shadow }) => {
+  const [selected, setSelected] = useState(!!value);
+
+  const handleChange = (value: string) => {
+    setSelected(!!value);
+    onChange?.(value);
+  };
+
   return (
     <SelectContainer>
-      <StyledSelect shadow={shadow} defaultValue={value || ""}>
+      <StyledSelect
+        shadow={shadow}
+        selected={selected}
+        onChange={(e) => handleChange(e.currentTarget.value)}
+        defaultValue={value || ""}
+      >
         {placeholder && (
           <option value="" disabled>
             {placeholder}
           </option>
         )}
         {options.map((option, index) => (
-          <option key={index} onClick={() => onChange?.(option.value)}>
+          <option key={index} value={option.value}>
             {option.label}
           </option>
         ))}

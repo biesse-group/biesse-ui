@@ -38,6 +38,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   icon: <ArrowRight />,
   variant: "primary",
+  "aria-label": "Example button",
 };
 
 export const PrimaryInverted = Template.bind({});
@@ -45,6 +46,7 @@ export const PrimaryInverted = Template.bind({});
 PrimaryInverted.args = {
   icon: <ArrowRight />,
   variant: "primary-inverted",
+  "aria-label": "Example button",
 };
 
 export const Light = Template.bind({});
@@ -52,4 +54,5 @@ export const Light = Template.bind({});
 Light.args = {
   icon: <ArrowRight />,
   variant: "light",
+  "aria-label": "Example button",
 };

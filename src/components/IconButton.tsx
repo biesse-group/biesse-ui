@@ -10,6 +10,10 @@ export type IconButtonProps = {
    * Shows light or primary buttons
    */
   variant: "primary" | "primary-inverted" | "light";
+  /**
+   * Label for accessibility
+   */
+  "aria-label": string;
   onClick?: () => void;
   className?: string;
 };

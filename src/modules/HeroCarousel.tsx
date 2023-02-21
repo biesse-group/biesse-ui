@@ -134,11 +134,13 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
           <IconButton
             variant="primary-inverted"
             icon={<ArrowLeft />}
+            aria-label="Prev"
             onClick={() => handleSlide(-1)}
           />
           <IconButton
             variant="primary-inverted"
             icon={<ArrowRight />}
+            aria-label="Next"
             onClick={() => handleSlide(1)}
           />
         </CarouselControls>

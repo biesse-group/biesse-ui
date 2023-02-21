@@ -34,6 +34,7 @@ exports[`Storyshots Components/IconButton Light 1`] = `
     }
   >
     <button
+      aria-label="Example button"
       className="c1"
     >
       <svg
@@ -88,6 +89,7 @@ exports[`Storyshots Components/IconButton Primary 1`] = `
     }
   >
     <button
+      aria-label="Example button"
       className="c1"
     >
       <svg
@@ -142,6 +144,7 @@ exports[`Storyshots Components/IconButton Primary Inverted 1`] = `
     }
   >
     <button
+      aria-label="Example button"
       className="c1"
     >
       <svg

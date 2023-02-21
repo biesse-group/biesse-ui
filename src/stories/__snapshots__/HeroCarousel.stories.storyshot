@@ -144,6 +144,7 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
       className="c5"
     >
       <button
+        aria-label="Prev"
         className="c6"
         onClick={[Function]}
       >
@@ -162,6 +163,7 @@ exports[`Storyshots Modules/HeroCarousel Default 1`] = `
         </svg>
       </button>
       <button
+        aria-label="Next"
         className="c6"
         onClick={[Function]}
       >

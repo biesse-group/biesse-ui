@@ -12,7 +12,7 @@ export default {
   },
   decorators: [
     (Story, { args }) => (
-      <BackgroundDecorator shadow={args.shadow}>
+      <BackgroundDecorator background={args.shadow === "dark" ? "primary" : "light"}>
         <Story />
       </BackgroundDecorator>
     ),
@@ -38,6 +38,7 @@ export const DarkBackground = Template.bind({});
 DarkBackground.args = {
   placeholder: "Select something",
   options,
+  shadow: "dark",
 };
 
 export const LightBackground = Template.bind({});
