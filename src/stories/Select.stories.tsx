@@ -39,6 +39,7 @@ DarkBackground.args = {
   placeholder: "Select something",
   options,
   shadow: "dark",
+  "aria-label": "Example select",
 };
 
 export const LightBackground = Template.bind({});
@@ -47,4 +48,5 @@ LightBackground.args = {
   placeholder: "Select something",
   options,
   shadow: "light",
+  "aria-label": "Example select",
 };

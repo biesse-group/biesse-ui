@@ -26,6 +26,10 @@ export type SelectProps = {
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
   shadow?: "dark" | "light";
+  /**
+   * Label for accessibility
+   */
+  "aria-label": string;
 };
 
 const SelectContainer = styled.div`
@@ -59,7 +63,7 @@ export type SelectOption = {
   value: string;
 };
 
-export const Select: FC<SelectProps> = ({ value, onChange, options, placeholder, shadow }) => {
+export const Select: FC<SelectProps> = ({ value, onChange, options, placeholder, ...props }) => {
   const [selected, setSelected] = useState(!!value);
 
   const handleChange = (value: string) => {
@@ -70,10 +74,10 @@ export const Select: FC<SelectProps> = ({ value, onChange, options, placeholder,
   return (
     <SelectContainer>
       <StyledSelect
-        shadow={shadow}
         selected={selected}
         onChange={(e) => handleChange(e.currentTarget.value)}
         defaultValue={value || ""}
+        {...props}
       >
         {placeholder && (
           <option value="" disabled>

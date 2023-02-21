@@ -79,6 +79,7 @@ exports[`Storyshots Components/Select Dark Background 1`] = `
       className="c1"
     >
       <select
+        aria-label="Example select"
         className="c2"
         defaultValue=""
         onChange={[Function]}
@@ -199,6 +200,7 @@ exports[`Storyshots Components/Select Light Background 1`] = `
       className="c1"
     >
       <select
+        aria-label="Example select"
         className="c2"
         defaultValue=""
         onChange={[Function]}
