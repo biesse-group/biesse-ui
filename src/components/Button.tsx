@@ -9,7 +9,7 @@ export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  variant: "primary" | "outline";
+  variant: "primary" | "primary-inverted" | "outline";
   /**
    * How large should the button be?
    */
@@ -40,8 +40,9 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
 };
 
 const getVariantStyle = (variant: ButtonProps["variant"]) => {
-  return variant === "primary"
-    ? css`
+  switch (variant) {
+    case "primary":
+      return css`
         color: ${(props) => props.theme.color.white};
         background-color: ${(props) => props.theme.color.primary};
         border: 1px solid ${(props) => props.theme.color.primary};
@@ -50,8 +51,20 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
           color: ${(props) => props.theme.color.primary};
           background-color: ${(props) => props.theme.color.white};
         }
-      `
-    : css`
+      `;
+    case "primary-inverted":
+      return css`
+        background: transparent;
+        color: ${(props) => props.theme.color.white};
+        border: 1px solid ${(props) => props.theme.color.white};
+
+        &:hover {
+          color: ${(props) => props.theme.color.primary};
+          background-color: ${(props) => props.theme.color.white};
+        }
+      `;
+    case "outline":
+      return css`
         background-color: transparent;
         color: ${(props) => props.theme.color.primary};
         border: 1px solid ${(props) => props.theme.color.primary};
@@ -61,6 +74,7 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
           color: ${(props) => props.theme.color.white};
         }
       `;
+  }
 };
 
 const ButtonStyled = styled.button<ButtonProps>`

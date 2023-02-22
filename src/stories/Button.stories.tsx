@@ -1,15 +1,20 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Button } from "../components/Button";
+import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Buttons/Button",
   component: Button,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {
-    // backgroundColor: { control: "color" }
-  },
+  decorators: [
+    (Story, { args }) =>
+      args.variant === "primary-inverted" ? (
+        <BackgroundDecorator background="primary">{Story()}</BackgroundDecorator>
+      ) : (
+        Story()
+      ),
+  ],
 } as ComponentMeta<typeof Button>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
@@ -20,6 +25,16 @@ export const Primary = Template.bind({});
 Primary.args = {
   variant: "primary",
   children: "Primary",
+};
+
+export const PrimaryInverted = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+PrimaryInverted.args = {
+  variant: "primary-inverted",
+  children: "Primary inverted",
+};
+PrimaryInverted.parameters = {
+  layout: "fullscreen",
 };
 
 export const Outline = Template.bind({});

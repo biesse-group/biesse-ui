@@ -1,6 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #6D6E70;
+}
+
 .c1 {
   background-color: #FFF;
   color: #252525;
@@ -42,12 +48,6 @@ exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
   font-style: italic;
 }
 
-.c0 {
-  padding: 30px;
-  height: 100vh;
-  background-color: #6D6E70;
-}
-
 <div
   className="c0"
 >
@@ -67,6 +67,12 @@ exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
 `;
 
 exports[`Storyshots Inputs/Textarea Light Background 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
 .c1 {
   background-color: #FFF;
   color: #252525;
@@ -106,12 +112,6 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 .c1::placeholder {
   color: #252525;
   font-style: italic;
-}
-
-.c0 {
-  padding: 30px;
-  height: 100vh;
-  background-color: #F5F5F5;
 }
 
 <div

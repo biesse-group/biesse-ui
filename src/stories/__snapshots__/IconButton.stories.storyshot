@@ -1,6 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Buttons/IconButton Light 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #252525;
+}
+
 .c1 {
   background-color: transparent;
   width: 50px;
@@ -15,12 +21,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
   color: #252525;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-.c0 {
-  padding: 30px;
-  height: 100vh;
-  background-color: #252525;
 }
 
 <div
@@ -56,6 +56,12 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 `;
 
 exports[`Storyshots Buttons/IconButton Primary 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
 .c1 {
   background-color: transparent;
   width: 50px;
@@ -70,12 +76,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-.c0 {
-  padding: 30px;
-  height: 100vh;
-  background-color: #F5F5F5;
 }
 
 <div
@@ -111,6 +111,12 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 `;
 
 exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #6D6E70;
+}
+
 .c1 {
   background-color: transparent;
   width: 50px;
@@ -125,12 +131,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-.c0 {
-  padding: 30px;
-  height: 100vh;
-  background-color: #6D6E70;
 }
 
 <div

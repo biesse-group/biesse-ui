@@ -7,7 +7,7 @@ type Props = {
 };
 
 const StyledBg = styled.div<Props>`
-  padding: 30px;
+  padding: 1rem;
   height: 100vh;
   background-color: ${({ background, theme }) => {
     switch (background) {
