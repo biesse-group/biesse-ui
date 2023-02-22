@@ -10,6 +10,13 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
+  argTypes: {
+    slides: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 } as ComponentMeta<typeof HeroCarousel>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
@@ -29,35 +36,34 @@ const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {
   );
 };
 
-export const Default = Template.bind(
-  {},
-  {
-    autoSlide: 5,
-    slides: [
-      {
-        title: "Etiam sit amet orci eget",
-        description:
-          "Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        renderImage: () => (
-          <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1" />
-        ),
-      },
-      {
-        title: "Quisque malesuada placerat nisl",
-        description:
-          "Suspendisse non nisl sit amet velit hendrerit rutrum. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Nunc interdum lacus sit amet orci. Ut leo.",
-        renderImage: () => (
-          <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+2" />
-        ),
-      },
-      {
-        title: "Fusce vel dui",
-        description:
-          "Nam at tortor in tellus interdum sagittis. Morbi ac felis. Nam commodo suscipit quam. Fusce fermentum.",
-        renderImage: () => (
-          <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+3" />
-        ),
-      },
-    ] as HeroCarouselSlide[],
-  }
-);
+export const Default = Template.bind({});
+
+Default.args = {
+  autoSlide: 5,
+  slides: [
+    {
+      title: "Etiam sit amet orci eget",
+      description:
+        "Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      renderImage: () => (
+        <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1" />
+      ),
+    },
+    {
+      title: "Quisque malesuada placerat nisl",
+      description:
+        "Suspendisse non nisl sit amet velit hendrerit rutrum. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Nunc interdum lacus sit amet orci. Ut leo.",
+      renderImage: () => (
+        <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+2" />
+      ),
+    },
+    {
+      title: "Fusce vel dui",
+      description:
+        "Nam at tortor in tellus interdum sagittis. Morbi ac felis. Nam commodo suscipit quam. Fusce fermentum.",
+      renderImage: () => (
+        <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+3" />
+      ),
+    },
+  ] as HeroCarouselSlide[],
+};
