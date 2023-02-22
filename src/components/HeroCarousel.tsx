@@ -1,6 +1,5 @@
-import { AnimatePresence, motion, Variants } from "framer-motion";
-import { wrap } from "popmotion";
-import { FC, useState } from "react";
+import { AnimatePresence, motion, Variants, wrap } from "framer-motion";
+import { FC, useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { IconButton, Text, Title } from ".";
@@ -14,7 +13,14 @@ export interface HeroCarouselSlide {
 }
 
 export type HeroCarouselProps = {
+  /**
+   * List of displayed slides
+   */
   slides: HeroCarouselSlide[];
+  /**
+   * Change slide automatically every provided seconds number
+   */
+  autoSlide?: number;
 };
 
 const CarouselContainer = styled.div`
@@ -79,22 +85,43 @@ const titleVariants: Variants = {
   },
 };
 
-export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
-  const [page, setActiveSlide] = useState(0);
+export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
+  const [activeSlide, setActiveSlide] = useState(0);
 
-  const handleSlide = (newDirection: number) => {
-    setActiveSlide(page + newDirection);
-  };
+  /**
+   * Handle slide change
+   */
+  const handleSlide = useCallback(
+    (direction: "prev" | "next") => {
+      const slideAmount = direction === "prev" ? -1 : 1;
+      const slideIndex = wrap(0, slides.length, activeSlide + slideAmount);
+      setActiveSlide(slideIndex);
+    },
+    [activeSlide, slides.length]
+  );
 
-  const slideIndex = wrap(0, slides.length, page);
+  // Auto slide effect
+  useEffect(() => {
+    let autoSlideInterval: NodeJS.Timer;
 
-  const { title, description, renderImage } = slides[slideIndex];
+    if (autoSlide) {
+      autoSlideInterval = setInterval(() => {
+        handleSlide("next");
+      }, autoSlide * 1000);
+    }
+
+    return () => {
+      clearInterval(autoSlideInterval);
+    };
+  }, [autoSlide, handleSlide]);
+
+  const { title, description, renderImage } = slides[activeSlide];
 
   return (
     <CarouselContainer>
       <AnimatePresence initial={false}>
         <StyledSlide
-          key={slideIndex}
+          key={`slide-${activeSlide}`}
           initial={{ opacity: 0 }}
           animate={{ zIndex: 1, opacity: 1 }}
           exit={{ zIndex: 0, opacity: 0 }}
@@ -105,43 +132,41 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides }) => {
       </AnimatePresence>
 
       <TextContainer>
-        <AnimatePresence initial={false}>
-          <motion.div
-            key={`title-${slideIndex}`}
-            variants={titleVariants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-          >
-            <Title variant="H1" color="light">
-              {title}
-            </Title>
-          </motion.div>
-          <motion.div
-            key={`text-${slideIndex}`}
-            variants={titleVariants}
-            custom={true}
-            initial="enter"
-            animate="center"
-            exit="exit"
-          >
-            <Text color="light" size="lg">
-              {description}
-            </Text>
-          </motion.div>
-        </AnimatePresence>
+        <motion.div
+          key={`title-${activeSlide}`}
+          variants={titleVariants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+        >
+          <Title variant="H1" color="light">
+            {title}
+          </Title>
+        </motion.div>
+        <motion.div
+          key={`text-${activeSlide}`}
+          variants={titleVariants}
+          custom={true}
+          initial="enter"
+          animate="center"
+          exit="exit"
+        >
+          <Text color="light" size="lg">
+            {description}
+          </Text>
+        </motion.div>
         <CarouselControls>
           <IconButton
             variant="primary-inverted"
             icon={<ArrowLeft />}
             aria-label="Prev"
-            onClick={() => handleSlide(-1)}
+            onClick={() => handleSlide("prev")}
           />
           <IconButton
             variant="primary-inverted"
             icon={<ArrowRight />}
             aria-label="Next"
-            onClick={() => handleSlide(1)}
+            onClick={() => handleSlide("next")}
           />
         </CarouselControls>
       </TextContainer>

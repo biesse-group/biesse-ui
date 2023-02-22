@@ -110,9 +110,8 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     <div
       style={
         Object {
-          "opacity": 1,
-          "transform": "none",
-          "zIndex": 1,
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
         }
       }
     >
@@ -126,9 +125,8 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     <div
       style={
         Object {
-          "opacity": 1,
-          "transform": "none",
-          "zIndex": 1,
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
         }
       }
     >

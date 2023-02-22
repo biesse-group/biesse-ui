@@ -32,6 +32,7 @@ const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {
 export const Default = Template.bind(
   {},
   {
+    autoSlide: 5,
     slides: [
       {
         title: "Etiam sit amet orci eget",
