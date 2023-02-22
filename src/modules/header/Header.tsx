@@ -11,7 +11,11 @@ const getHeaderRootAdditionalStyle = (version: HeaderProps["version"]) =>
         height: 134px;
       `
     : css`
-        height: 120px;
+        /* Not-accepted Jakala version, 
+          keep in case they want the different size*/
+        /* height: 120px; */
+        height: 134px;
+
         background-color: ${(props) => props.theme.color.white};
         box-shadow: 0 0 10px 0 rgba(122, 122, 122, 0.5);
       `;
@@ -36,7 +40,10 @@ const getMainHeaderWrapperAdditionalStyle = (version: HeaderProps["version"]) =>
       `
     : css`
         background-color: ${(props) => props.theme.color.primary};
-        height: 75px;
+        /* Not-accepted Jakala version, 
+          keep in case they want the different size*/
+        /* height: 75px; */
+        height: 95px;
       `;
 
 const MainHeaderWrapper = styled.div<Pick<HeaderProps, "version">>`
@@ -62,7 +69,10 @@ const LogoWrapper = styled.div<Pick<HeaderProps, "version">>`
           max-height: 35px;
         `
       : css`
-          max-height: 25px;
+          /* Not-accepted Jakala version, 
+          keep in case they want the different size*/
+          /* max-height: 25px; */
+          max-height: 35px;
         `};
 `;
 
