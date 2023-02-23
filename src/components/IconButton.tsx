@@ -16,6 +16,7 @@ export type IconButtonProps = {
   "aria-label": string;
   onClick?: () => void;
   className?: string;
+  testId?: string;
 };
 
 const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
@@ -48,6 +49,10 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   }
 `;
 
-export const IconButton: FC<IconButtonProps> = ({ icon, ...props }) => {
-  return <StyledButton {...props}>{icon}</StyledButton>;
+export const IconButton: FC<IconButtonProps> = ({ icon, testId, ...props }) => {
+  return (
+    <StyledButton data-testid={testId} {...props}>
+      {icon}
+    </StyledButton>
+  );
 };

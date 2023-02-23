@@ -12,26 +12,39 @@ export type InputProps = {
   /**
    * Input current value
    */
-  value?: string;
+  defaultValue?: string;
   /**
    * Input value change callback
    */
-  onChange?: () => void;
+  onChange?: React.ChangeEventHandler<HTMLInputElement>;
   /**
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
   shadow?: "dark" | "light";
   /**
-   * Shows a submit button with the provided label
+   * Input Test ID
    */
-  submitLabel?: string;
+  testId?: string;
   /**
-   * Called when submit button has been clicked
+   * Add trailing button for submit
    */
-  onSubmit?: (value: string) => void;
+  withButton?: {
+    /**
+     * Shows a submit button with the provided label
+     */
+    label?: string;
+    /**
+     * Called when submit button has been clicked
+     */
+    onClick?: (value: string) => void;
+    /**
+     * Button test ID
+     */
+    testId?: string;
+  };
 };
 
-const StyledInput = styled.input<Omit<InputProps, "onSubmit">>`
+const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
   ${(props) => inputStyles(props.shadow)}
 
   &:active, &:focus {
@@ -39,7 +52,7 @@ const StyledInput = styled.input<Omit<InputProps, "onSubmit">>`
   }
 
   ${(props) =>
-    props.submitLabel &&
+    props.withButton &&
     css`
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
@@ -72,15 +85,34 @@ const StyledButton = styled(Button)`
   padding-right: 15px;
 `;
 
-export const Input: FC<InputProps> = ({ submitLabel, onSubmit, ...props }) => {
+export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...props }) => {
   const [focus, setFocus] = useState(false);
+  const [value, setValue] = useState(defaultValue);
+
+  const { withButton } = props;
+
+  const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
+    setValue(e.currentTarget.value);
+    onChange?.(e);
+  };
 
   return (
     <InputContainer shadow={props.shadow} hasFocus={focus}>
-      <StyledInput {...props} onFocus={() => setFocus(true)} onBlur={() => setFocus(false)} />
-      {submitLabel && (
-        <StyledButton variant="primary" size="small">
-          {submitLabel}
+      <StyledInput
+        {...props}
+        onFocus={() => setFocus(true)}
+        onBlur={() => setFocus(false)}
+        onChange={handleChange}
+        data-testid={testId}
+      />
+      {withButton && (
+        <StyledButton
+          variant="primary"
+          size="small"
+          onClick={() => withButton.onClick?.(value)}
+          data-testid={withButton.testId}
+        >
+          {withButton.label}
         </StyledButton>
       )}
     </InputContainer>

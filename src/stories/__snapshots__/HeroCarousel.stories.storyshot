@@ -1,5 +1,191 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 603px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
+.c5 {
+  margin-top: 42px;
+}
+
+.c5 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c6:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c4 {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #FFF;
+  font-size: 50px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    style={
+      Object {
+        "opacity": 1,
+        "zIndex": 1,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+          "backgroundPosition": "center center",
+          "backgroundSize": "cover",
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
+        }
+      }
+    >
+      <h1
+        className="c3"
+        color="light"
+      >
+        Etiam sit amet orci eget
+      </h1>
+    </div>
+    <div
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
+        }
+      }
+    >
+      <span
+        className="c4"
+        color="light"
+        size="lg"
+      >
+        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </span>
+    </div>
+    <div
+      className="c5"
+    >
+      <button
+        aria-label="Prev"
+        className="c6"
+        data-testid="prev"
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height={24}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          width={24}
+        >
+          <path
+            d="M19 12H5M12 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <button
+        aria-label="Next"
+        className="c6"
+        data-testid="next"
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height={24}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          width={24}
+        >
+          <path
+            d="M5 12h14M12 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 .c0 {
   position: relative;
@@ -144,6 +330,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       <button
         aria-label="Prev"
         className="c6"
+        data-testid="prev"
         onClick={[Function]}
       >
         <svg
@@ -163,6 +350,193 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       <button
         aria-label="Next"
         className="c6"
+        data-testid="next"
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height={24}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          width={24}
+        >
+          <path
+            d="M5 12h14M12 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 603px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
+.c5 {
+  margin-top: 42px;
+}
+
+.c5 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c6:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c4 {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #FFF;
+  font-size: 50px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    style={
+      Object {
+        "opacity": 1,
+        "zIndex": 1,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+          "backgroundPosition": "center center",
+          "backgroundSize": "cover",
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
+        }
+      }
+    >
+      <h1
+        className="c3"
+        color="light"
+      >
+        Etiam sit amet orci eget
+      </h1>
+    </div>
+    <div
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
+        }
+      }
+    >
+      <span
+        className="c4"
+        color="light"
+        size="lg"
+      >
+        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </span>
+    </div>
+    <div
+      className="c5"
+    >
+      <button
+        aria-label="Prev"
+        className="c6"
+        data-testid="prev"
+        onClick={[Function]}
+      >
+        <svg
+          fill="none"
+          height={24}
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          width={24}
+        >
+          <path
+            d="M19 12H5M12 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <button
+        aria-label="Next"
+        className="c6"
+        data-testid="next"
         onClick={[Function]}
       >
         <svg

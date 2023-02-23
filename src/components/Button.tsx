@@ -18,10 +18,8 @@ export interface ButtonProps {
    * Full-width button
    */
   isBlock?: boolean;
-  /**
-   * Callback on click
-   */
   onClick?: () => void;
+  testId?: string;
 }
 
 const getSizeStyle = (size: ButtonProps["size"]) => {
@@ -99,6 +97,6 @@ const ButtonStyled = styled.button<ButtonProps>`
     `}
 `;
 
-export const Button: FC<PropsWithChildren<ButtonProps>> = (props) => {
-  return <ButtonStyled {...props} />;
+export const Button: FC<PropsWithChildren<ButtonProps>> = ({ testId, ...props }) => {
+  return <ButtonStyled data-testid={testId} {...props} />;
 };

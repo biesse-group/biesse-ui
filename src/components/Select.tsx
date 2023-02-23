@@ -30,6 +30,7 @@ export type SelectProps = {
    * Label for accessibility
    */
   "aria-label": string;
+  testId?: string;
 };
 
 const SelectContainer = styled.div`
@@ -63,7 +64,14 @@ export type SelectOption = {
   value: string;
 };
 
-export const Select: FC<SelectProps> = ({ value, onChange, options, placeholder, ...props }) => {
+export const Select: FC<SelectProps> = ({
+  value,
+  onChange,
+  options,
+  placeholder,
+  testId,
+  ...props
+}) => {
   const [selected, setSelected] = useState(!!value);
 
   const handleChange = (value: string) => {
@@ -77,6 +85,7 @@ export const Select: FC<SelectProps> = ({ value, onChange, options, placeholder,
         selected={selected}
         onChange={(e) => handleChange(e.currentTarget.value)}
         defaultValue={value || ""}
+        data-testid={testId}
         {...props}
       >
         {placeholder && (

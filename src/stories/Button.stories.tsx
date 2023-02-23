@@ -1,7 +1,8 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { userEvent, within } from "@storybook/testing-library";
 
 import { Button } from "../components/Button";
-import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
+import { BackgroundDecorator } from "./decorators";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -25,6 +26,11 @@ export const Primary = Template.bind({});
 Primary.args = {
   variant: "primary",
   children: "Primary",
+  testId: "primary-button",
+};
+Primary.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  await userEvent.click(canvas.getByTestId("primary-button"));
 };
 
 export const PrimaryInverted = Template.bind({});

@@ -1,8 +1,9 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { userEvent, within } from "@storybook/testing-library";
 
 import { IconButton } from "../components";
 import ArrowRight from "../icons/ArrowRight";
-import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
+import { BackgroundDecorator } from "./decorators";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -12,21 +13,19 @@ export default {
     layout: "fullscreen",
   },
   decorators: [
-    (Story, { args }) => {
-      return (
-        <BackgroundDecorator
-          background={
-            args.variant === "primary"
-              ? "light"
-              : args.variant === "primary-inverted"
-              ? "primary"
-              : "dark"
-          }
-        >
-          <Story />
-        </BackgroundDecorator>
-      );
-    },
+    (Story, { args }) => (
+      <BackgroundDecorator
+        background={
+          args.variant === "primary"
+            ? "light"
+            : args.variant === "primary-inverted"
+            ? "primary"
+            : "dark"
+        }
+      >
+        <Story />
+      </BackgroundDecorator>
+    ),
   ],
 } as ComponentMeta<typeof IconButton>;
 
@@ -39,6 +38,11 @@ Primary.args = {
   icon: <ArrowRight />,
   variant: "primary",
   "aria-label": "Example button",
+  testId: "primary-icon-button",
+};
+Primary.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  await userEvent.click(canvas.getByTestId("primary-icon-button"));
 };
 
 export const PrimaryInverted = Template.bind({});

@@ -1,7 +1,8 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { userEvent, within } from "@storybook/testing-library";
 
 import { Textarea } from "../components";
-import { BackgroundDecorator } from "./decorators/BackgroundDecorator";
+import { BackgroundDecorator } from "./decorators";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -36,4 +37,15 @@ export const LightBackground = Template.bind({});
 LightBackground.args = {
   placeholder: "Type something...",
   shadow: "light",
+};
+
+export const Filled = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Filled.args = {
+  placeholder: "Type something...",
+  testId: "textarea",
+};
+Filled.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  await userEvent.type(canvas.getByTestId("textarea"), "In ut quam vitae odio", { delay: 50 });
 };

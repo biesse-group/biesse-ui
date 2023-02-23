@@ -15,12 +15,13 @@ export type TextareaProps = {
   /**
    * Input value change callback
    */
-  onChange?: () => void;
+  onChange?: React.ChangeEventHandler<HTMLTextAreaElement>;
   /**
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
   shadow?: "dark" | "light";
   className?: string;
+  testId?: string;
 };
 
 const StyledTextarea = styled.textarea<TextareaProps>`
@@ -29,6 +30,6 @@ const StyledTextarea = styled.textarea<TextareaProps>`
   height: 90px;
 `;
 
-export const Textarea: FC<TextareaProps> = (props) => {
-  return <StyledTextarea {...props} />;
+export const Textarea: FC<TextareaProps> = ({ testId, ...props }) => {
+  return <StyledTextarea data-testid={testId} {...props} />;
 };
