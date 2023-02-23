@@ -37,8 +37,14 @@ export const biesseTheme: DefaultTheme = {
       sm: "30px",
       xs: "24px",
     },
+    weight: {
+      book: 300,
+      regular: 400,
+      medium: 500,
+      bold: 700,
+    },
     family:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
+      'NB International Pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
   },
   transition: "all 0.2s ease-out",
 };

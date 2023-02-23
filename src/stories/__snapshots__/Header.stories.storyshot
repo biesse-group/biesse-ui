@@ -7,12 +7,16 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 .c7 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
   font-size: 13px;
   line-height: 18px;
   color: #FFF;
 }
 
 .c9 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
   font-size: 13px;
   line-height: 18px;
   color: #6D6E70;
@@ -477,6 +481,8 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 .c7 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
   font-size: 13px;
   line-height: 18px;
   color: #FFF;

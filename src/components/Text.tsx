@@ -5,6 +5,7 @@ import { BiesseTheme } from "../themes";
 
 export type TextProps = {
   size?: keyof BiesseTheme["font"]["body"];
+  weight?: keyof BiesseTheme["font"]["weight"];
   color?: "default" | "primary" | "light";
 };
 
@@ -37,6 +38,8 @@ const getLineHeight = (size?: TextProps["size"]) => css`
 `;
 
 const StyledText = styled.span<TextProps>`
+  font-family: ${(props) => props.theme.font.family};
+  font-weight: ${(props) => props.theme.font.weight[props.weight || "book"]};
   font-size: ${(props) => props.theme.font.body[props.size || "md"]};
   ${(props) => getLineHeight(props.size)};
   ${(props) => getColor(props.color)};
