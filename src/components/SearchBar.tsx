@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
 
-import { Icon } from "./_Icon";
+import { Icon } from "./Icon";
 
 type SearchBarProps = {
   defaultValue: string;
