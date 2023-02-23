@@ -3,68 +3,21 @@
 import { IconGallery, IconItem, Meta, Title } from "@storybook/addon-docs/";
 
 import { Icon } from "../components";
+import iconsMap from "../components/Icon/icons-map";
 
-<Meta title="Iconography" />
+<Meta title="Icons/Iconography" />
 
 # Iconography
 
-<IconGallery>
-  <IconItem name="place holder">
-    <Icon size="small" name='place-holder' color="black"/>
-  </IconItem>
-  <IconItem name="search">
-    <Icon size="small" name="search" color="black"/>
-  </IconItem>
-  <IconItem name="contacts">
-    <Icon size="small" name="contacts" color="black"/>
-  </IconItem>
-  <IconItem name="customer">
-    <Icon size="small" name="customer" color="black"/>
-  </IconItem>
-  <IconItem name="fast repair">
-    <Icon size="small" name='fast-repair' color="black"/>
-  </IconItem>
-  <IconItem name="spare parts">
-    <Icon size="small" name='spare-parts' color="black"/>
-  </IconItem>
-  <IconItem name="sustainability">
-    <Icon size="small" name="sustainability" color="black"/>
-  </IconItem>
-  <IconItem name="innovation">
-    <Icon size="small" name="innovation" color="black"/>
-  </IconItem>
-  <IconItem name="arrow">
-    <Icon size="small" name="arrow" color="black"/>
-  </IconItem>
-  <IconItem name="arrow footer">
-    <Icon size="small" name='arrow-footer' color="black"/>
-  </IconItem>
-  <IconItem name="location">
-    <Icon size="small" name="location" color="black"/>
-  </IconItem>
-  <IconItem name="hamburger">
-    <Icon size="small" name="hamburger" color="black"/>
-  </IconItem>
-  <IconItem name="careers">
-    <Icon size="small" name="careers" color="black"/>
-  </IconItem>
-  <IconItem name="country">
-    <Icon size="small" name="country" color="black"/>
-  </IconItem>
+<br />
+<br />
 
-  <IconItem name="wood category">
-    <Icon size="small" name="category-wood" color="#F9942E"/>
-  </IconItem>
-  <IconItem name="metal category">
-    <Icon size="small" name='category-metal' color="#93949A"/>
-  </IconItem>
-  <IconItem name="composite category">
-    <Icon size="small" name='category-composite' color="#8080FF"/>
-  </IconItem>
-  <IconItem name="glass category">
-    <Icon size="small" name='category-glass' color="#38BEEF"/>
-  </IconItem>
-  <IconItem name="stone category">
-    <Icon size="small" name='category-stone' color="#E1523D"/>
-  </IconItem>
+<IconGallery>
+  {Object.keys(iconsMap)
+    .sort((a, b) => a.localeCompare(b))
+    .map((iconName) => (
+      <IconItem name={iconName.replace(/-/g, " ")}>
+        <Icon size="small" name={iconName} />
+      </IconItem>
+    ))}
 </IconGallery>

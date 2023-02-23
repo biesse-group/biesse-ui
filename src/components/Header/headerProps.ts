@@ -1,4 +1,4 @@
-import iconsMap from "../Icon/icons-map";
+import { IconName } from "../Icon";
 
 export interface NavIconItemProps {
   /**
@@ -8,7 +8,7 @@ export interface NavIconItemProps {
   /**
    * Icon name from gallery
    */
-  icon: keyof typeof iconsMap;
+  icon: IconName;
   /**
    * Link to the ref page
    */

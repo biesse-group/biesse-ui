@@ -3,12 +3,25 @@ export * from "./biesse-theme";
 
 export interface BiesseTheme {
   name: string;
-  borderRadius: string;
+  card: {
+    borderRadius: string;
+  };
+  button: {
+    borderRadius: string;
+  };
+  input: {
+    borderRadius: string;
+    boxShadow: {
+      dark: string;
+      light: string;
+    };
+  };
   color: {
     primary: string;
     secondary: string;
     white: string;
     black: string;
+    lightGray: string;
   };
   font: {
     body: {
@@ -27,4 +40,5 @@ export interface BiesseTheme {
     };
     family: string;
   };
+  transition: string;
 }

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Card Default 1`] = `
+exports[`Storyshots Cards/Card Default 1`] = `
 .c0 {
   background-color: #fff;
   border: 1px solid #eaeaea;
@@ -60,7 +60,7 @@ exports[`Storyshots Components/Card Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Card With Image 1`] = `
+exports[`Storyshots Cards/Card With Image 1`] = `
 .c0 {
   background-color: #fff;
   border: 1px solid #eaeaea;

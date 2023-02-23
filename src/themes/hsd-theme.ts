@@ -2,12 +2,25 @@ import { DefaultTheme } from "styled-components";
 
 export const hsdTheme: DefaultTheme = {
   name: "HSD Mechatronics",
-  borderRadius: "40px",
+  card: {
+    borderRadius: "40px",
+  },
+  button: {
+    borderRadius: "20px",
+  },
+  input: {
+    borderRadius: "25px",
+    boxShadow: {
+      dark: "rgba(0, 0, 0, 0.8)",
+      light: "rgba(135, 135, 135, 0.8)",
+    },
+  },
   color: {
     primary: "#004898",
     secondary: "#6D6E70",
     white: "#FFF",
     black: "#252525",
+    lightGray: "#F5F5F5",
   },
   font: {
     body: {
@@ -27,4 +40,5 @@ export const hsdTheme: DefaultTheme = {
     family:
       '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
   },
+  transition: "all 0.2s ease-out",
 };

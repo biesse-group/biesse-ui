@@ -1,12 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
-.c6 {
-  height: 30px;
-}
-
 .c6 > svg {
-  height: 100%;
+  height: 30px;
+  color: inherit;
 }
 
 .c7 {
@@ -42,6 +39,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
   letter-spacing: 0;
+  color: #FFF;
 }
 
 .c5 > span {
@@ -249,7 +247,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           >
             <svg
               className="feather feather-user"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -285,7 +282,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 23 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -316,7 +312,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 26 26"
               xmlns="http://www.w3.org/2000/svg"
@@ -370,7 +365,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           >
             <svg
               className="feather feather-globe"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -477,12 +471,9 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 `;
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
-.c6 {
-  height: 30px;
-}
-
 .c6 > svg {
-  height: 100%;
+  height: 30px;
+  color: inherit;
 }
 
 .c7 {
@@ -512,6 +503,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
   letter-spacing: 0;
+  color: #FFF;
 }
 
 .c5 > span {
@@ -713,7 +705,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           >
             <svg
               className="feather feather-user"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -749,7 +740,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 23 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -780,7 +770,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 26 26"
               xmlns="http://www.w3.org/2000/svg"
@@ -834,7 +823,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           >
             <svg
               className="feather feather-globe"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"

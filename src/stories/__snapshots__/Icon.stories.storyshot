@@ -1,12 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Icon Large 1`] = `
-.c0 {
-  height: 80px;
-}
-
 .c0 > svg {
-  height: 100%;
+  height: 80px;
+  color: inherit;
 }
 
 <div
@@ -14,7 +11,6 @@ exports[`Storyshots Components/Icon Large 1`] = `
   size="large"
 >
   <svg
-    color="#6D6E70"
     fill="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +36,9 @@ exports[`Storyshots Components/Icon Large 1`] = `
 `;
 
 exports[`Storyshots Components/Icon Medium 1`] = `
-.c0 {
-  height: 50px;
-}
-
 .c0 > svg {
-  height: 100%;
+  height: 50px;
+  color: inherit;
 }
 
 <div
@@ -53,7 +46,6 @@ exports[`Storyshots Components/Icon Medium 1`] = `
   size="medium"
 >
   <svg
-    color="#6D6E70"
     fill="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -79,12 +71,9 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 `;
 
 exports[`Storyshots Components/Icon Small 1`] = `
-.c0 {
-  height: 30px;
-}
-
 .c0 > svg {
-  height: 100%;
+  height: 30px;
+  color: inherit;
 }
 
 <div
@@ -92,7 +81,6 @@ exports[`Storyshots Components/Icon Small 1`] = `
   size="small"
 >
   <svg
-    color="#6D6E70"
     fill="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"

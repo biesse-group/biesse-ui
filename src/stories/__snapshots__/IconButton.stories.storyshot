@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Buttons/IconButton Light 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #252525;
+}
+
+.c2 > svg {
+  height: 26px;
+  color: inherit;
+}
+
+.c1 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background-color: #FFF;
+  color: #252525;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <button
+      aria-label="Example button"
+      className="c1"
+    >
+      <div
+        className="c2"
+        height="26px"
+      >
+        <svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M5 12h14M12 5l7 7-7 7"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Buttons/IconButton Primary 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.c2 > svg {
+  height: 26px;
+  color: inherit;
+}
+
+.c1 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #6D6E70;
+  color: #6D6E70;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <button
+      aria-label="Example button"
+      className="c1"
+      data-testid="primary-icon-button"
+    >
+      <div
+        className="c2"
+        height="26px"
+      >
+        <svg
+          className="feather feather-user"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"
+          />
+          <circle
+            cx="12"
+            cy="7"
+            r="4"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 26px;
+  color: inherit;
+}
+
+.c1 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c1:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <button
+      aria-label="Example button"
+      className="c1"
+    >
+      <div
+        className="c2"
+        height="26px"
+      >
+        <svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M5 12h14M12 5l7 7-7 7"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
