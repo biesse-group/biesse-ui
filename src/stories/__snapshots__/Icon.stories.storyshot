@@ -7,6 +7,7 @@ exports[`Storyshots Components/Icon Large 1`] = `
 
 .c0 > svg {
   height: 100%;
+  color: inherit;
 }
 
 <div
@@ -46,6 +47,7 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 .c0 > svg {
   height: 100%;
+  color: inherit;
 }
 
 <div
@@ -85,6 +87,7 @@ exports[`Storyshots Components/Icon Small 1`] = `
 
 .c0 > svg {
   height: 100%;
+  color: inherit;
 }
 
 <div

@@ -1,12 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/SearchBar Default 1`] = `
+exports[`Storyshots Inputs/SearchBar Default 1`] = `
 .c3 {
   height: 30px;
 }
 
 .c3 > svg {
   height: 100%;
+  color: inherit;
 }
 
 .c0 {

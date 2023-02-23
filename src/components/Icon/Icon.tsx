@@ -3,11 +3,13 @@ import styled, { css, useTheme } from "styled-components";
 
 import iconsMap from "./icons-map";
 
+export type IconName = keyof typeof iconsMap;
+
 export interface IconProps {
   /**
    * Id of the icon you want to use
    */
-  name: keyof typeof iconsMap;
+  icon: IconName;
   /**
    * Which from the default sizes of the icon you want to use
    */
@@ -42,6 +44,7 @@ const getIconSize = (size?: string) => {
 const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
   > svg {
     height: 100%;
+    color: inherit;
   }
 
   ${(props) =>
@@ -52,7 +55,7 @@ const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
       : getIconSize(props.size)}
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, height, ...props }) => {
+export const Icon: FC<IconProps> = ({ icon: name, size, height, ...props }) => {
   const IconComponent = iconsMap[name];
   const theme = useTheme();
   props.color = props.color || theme.color.primary;

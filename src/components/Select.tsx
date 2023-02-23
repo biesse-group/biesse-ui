@@ -1,8 +1,8 @@
 import { FC, useState } from "react";
 import styled, { css } from "styled-components";
 
-import ChevronDown from "../icons/ChevronDown";
 import { inputStyles } from "../styles/input-styles";
+import ChevronDown from "./Icon/icon-sources/ChevronDownIcon";
 
 export type SelectProps = {
   /**

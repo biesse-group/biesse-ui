@@ -1,9 +1,6 @@
 import { FC } from "react";
 
-import getIconSize from "./get-icon-size";
-import IconProps from "./IconProps";
-
-const ChevronDown: FC<IconProps> = ({ size, ...props }) => {
+const ChevronDown: FC<React.SVGProps<SVGSVGElement>> = (props) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +11,6 @@ const ChevronDown: FC<IconProps> = ({ size, ...props }) => {
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
-      {...getIconSize(size)}
     >
       <path d="m6 9 6 6 6-6" />
     </svg>

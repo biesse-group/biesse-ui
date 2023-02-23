@@ -1,11 +1,13 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
+import { Icon, IconName } from "./Icon";
+
 export type IconButtonProps = {
   /**
    * Shows left or right arrow
    */
-  icon: JSX.Element;
+  icon: IconName;
   /**
    * Shows light or primary buttons
    */
@@ -52,7 +54,7 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
 export const IconButton: FC<IconButtonProps> = ({ icon, testId, ...props }) => {
   return (
     <StyledButton data-testid={testId} {...props}>
-      {icon}
+      <Icon icon={icon} height="26px" />
     </StyledButton>
   );
 };

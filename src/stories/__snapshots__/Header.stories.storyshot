@@ -7,6 +7,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 
 .c6 > svg {
   height: 100%;
+  color: inherit;
 }
 
 .c7 {
@@ -483,6 +484,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 
 .c6 > svg {
   height: 100%;
+  color: inherit;
 }
 
 .c7 {

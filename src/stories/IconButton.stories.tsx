@@ -2,7 +2,6 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { IconButton } from "../components";
-import ArrowRight from "../icons/ArrowRight";
 import { BackgroundDecorator } from "./decorators";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -35,7 +34,7 @@ const Template: ComponentStory<typeof IconButton> = (args) => <IconButton {...ar
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  icon: <ArrowRight />,
+  icon: "careers",
   variant: "primary",
   "aria-label": "Example button",
   testId: "primary-icon-button",
@@ -48,7 +47,7 @@ Primary.play = async ({ canvasElement }) => {
 export const PrimaryInverted = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 PrimaryInverted.args = {
-  icon: <ArrowRight />,
+  icon: "arrow-right",
   variant: "primary-inverted",
   "aria-label": "Example button",
 };
@@ -56,7 +55,7 @@ PrimaryInverted.args = {
 export const Light = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Light.args = {
-  icon: <ArrowRight />,
+  icon: "arrow-right",
   variant: "light",
   "aria-label": "Example button",
 };

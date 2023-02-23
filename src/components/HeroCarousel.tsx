@@ -3,8 +3,6 @@ import { FC, useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { IconButton, Text, Title } from ".";
-import ArrowLeft from "../icons/ArrowLeft";
-import ArrowRight from "../icons/ArrowRight";
 
 export interface HeroCarouselSlide {
   renderImage: () => JSX.Element;
@@ -158,14 +156,14 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
         <CarouselControls>
           <IconButton
             variant="primary-inverted"
-            icon={<ArrowLeft />}
+            icon="arrow-left"
             aria-label="Prev"
             onClick={() => handleSlide("prev")}
             testId="prev"
           />
           <IconButton
             variant="primary-inverted"
-            icon={<ArrowRight />}
+            icon="arrow-right"
             aria-label="Next"
             onClick={() => handleSlide("next")}
             testId="next"

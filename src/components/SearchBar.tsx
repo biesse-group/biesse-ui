@@ -63,7 +63,7 @@ export const SearchBar: FC<SearchBarProps> = ({ defaultValue, onChange }) => {
         }}
       />
       <InputAdornment>
-        <Icon size="small" name="search" />
+        <Icon size="small" icon="search" />
       </InputAdornment>
     </InputRoot>
   );
