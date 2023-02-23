@@ -1,11 +1,11 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import React from "react";
 
-import { Header, HeaderProps } from "../modules";
+import { Header, HeaderProps } from "../components";
+import { Logo } from "../components/logos";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Modules/Header",
+  title: "Navigation/Header",
   component: Header,
   parameters: {
     layout: "fullscreen",
@@ -18,21 +18,19 @@ export default {
     ),
   ],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {
-    // backgroundColor: { control: "color" }
-  },
+  argTypes: {},
 } as ComponentMeta<typeof Header>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
-  logo: <img src={`/dummy-logo-285X35.png`} alt="dummy" />,
+  logo: () => <Logo name="HSD" width="482px" color="white" />,
   navIcons: [
-    { icon: "placeholder", label: "Carrieres", url: "/" },
-    { icon: "placeholder", label: "Contatti", url: "/" },
-    { icon: "placeholder", label: "Ricerca", url: "/" },
-    { icon: "placeholder", label: "Italia", url: "/" },
+    { icon: "careers", label: "Carriere", url: "/" },
+    { icon: "contacts", label: "Contatti", url: "/" },
+    { icon: "search", label: "Ricerca", url: "/" },
+    { icon: "country", label: "Italia", url: "/" },
   ],
   navLinks: [
     { label: "Azienda", url: "/" },
@@ -42,7 +40,7 @@ const defaultArgs: HeaderProps = {
     { label: "HSD nel mondo", url: "/" },
     { label: "News ed eventi", url: "/" },
   ],
-  version: "transparent",
+  variant: "transparent",
 };
 
 export const Transparent = Template.bind({});
@@ -55,6 +53,5 @@ export const Colored = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Colored.args = {
   ...defaultArgs,
-  logo: <img src={`/dummy-logo-345X25.png`} alt="dummy" />,
-  version: "colored",
+  variant: "colored",
 };

@@ -5,100 +5,93 @@ import { Text } from "../../components";
 import { HeaderProps } from "./headerProps";
 import { NavIconItem } from "./NavIconItem";
 
-const getHeaderRootAdditionalStyle = (version: HeaderProps["version"]) =>
+const getHeaderRootVariantStyle = (version: HeaderProps["variant"]) =>
   version === "transparent"
     ? css`
-        height: 134px;
+        background-color: transparent;
       `
     : css`
-        /* Not-accepted Jakala version, 
-          keep in case they want the different size*/
-        /* height: 120px; */
-        height: 134px;
+        height: 120px;
 
         background-color: ${(props) => props.theme.color.white};
         box-shadow: 0 0 10px 0 rgba(122, 122, 122, 0.5);
       `;
 
-const HeaderRoot = styled.div<Pick<HeaderProps, "version">>`
+const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 134px;
+
+  transition: all 0.2s ease-out;
 
   & * {
     text-decoration: none;
     text-align: center;
   }
 
-  ${(props) => getHeaderRootAdditionalStyle(props.version)}
+  ${(props) => getHeaderRootVariantStyle(props.variant)}
 `;
 
-const getMainHeaderWrapperAdditionalStyle = (version: HeaderProps["version"]) =>
+const getMainHeaderWrapperVariantStyle = (version: HeaderProps["variant"]) =>
   version === "transparent"
     ? css`
-        height: 95px;
+        background-color: transparent;
       `
     : css`
         background-color: ${(props) => props.theme.color.primary};
-        /* Not-accepted Jakala version, 
-          keep in case they want the different size*/
-        /* height: 75px; */
-        height: 95px;
+        height: 75px;
       `;
 
-const MainHeaderWrapper = styled.div<Pick<HeaderProps, "version">>`
+const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
+  height: 95px;
+
   padding: 0px 110px 0px 90px;
+
+  transition: all 0.2s ease-out;
 
   & * {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  ${(props) => getMainHeaderWrapperAdditionalStyle(props.version)}
+  ${(props) => getMainHeaderWrapperVariantStyle(props.variant)}
 `;
 
-const LogoWrapper = styled.div<Pick<HeaderProps, "version">>`
-  margin-top: 30px;
-  ${(props) =>
-    props.version === "transparent"
-      ? css`
-          max-height: 35px;
-        `
-      : css`
-          /* Not-accepted Jakala version, 
-          keep in case they want the different size*/
-          /* max-height: 25px; */
-          max-height: 35px;
-        `};
+const LogoWrapper = styled.div<Pick<HeaderProps, "variant">>`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
 `;
 
-const NavIconsWrapper = styled.div<Pick<HeaderProps, "version">>`
+const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
-  margin-top: ${(props) => (props.version === "transparent" ? "36px" : "26px")};
+  height: 100%;
+  align-items: center;
 `;
 
-const getNavLinksWrapperAdditionalStyle = (version: HeaderProps["version"]) =>
+const getNavLinksWrapperVariantStyle = (version: HeaderProps["variant"]) =>
   version === "transparent"
     ? css`
         border-top: 1px solid rgb(244, 244, 244, 0.2);
       `
     : css`
         & > a {
-          & > span {
-            font-family: "Bebas Neue Regular";
-          }
           &:hover {
             border-bottom: 2px solid ${(props) => props.theme.color.primary};
           }
         }
       `;
 
-const NavLinksWrapper = styled.div<Pick<HeaderProps, "version">>`
+const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
 
@@ -114,30 +107,27 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "version">>`
   & > a {
     margin-top: 12px;
     margin-right: 58px;
-    & > span {
-      font-family: "NB International Pro Medium";
-      display: inline;
-    }
+    font-weight: bold;
   }
 
-  ${(props) => getNavLinksWrapperAdditionalStyle(props.version)}
+  ${(props) => getNavLinksWrapperVariantStyle(props.variant)}
 `;
 
 export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, ...props }) => {
   return (
     <HeaderRoot {...props}>
       <MainHeaderWrapper {...props}>
-        <LogoWrapper {...props}>{logo}</LogoWrapper>
+        <LogoWrapper {...props}>{logo()}</LogoWrapper>
         <NavIconsWrapper {...props}>
           {navIcons?.map((navIcon, index) => (
-            <NavIconItem key={`nav-icon-${index}`} {...navIcon} version={props.version} />
+            <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
           ))}
         </NavIconsWrapper>
       </MainHeaderWrapper>
       <NavLinksWrapper {...props}>
         {navLinks?.map((navLink, index) => (
           <a key={`nav-link-${index}`} href={navLink.url}>
-            <Text size="xs" color={props.version === "transparent" ? "light" : "primary"}>
+            <Text size="xs" color={props.variant === "transparent" ? "light" : "primary"}>
               {navLink.label.toUpperCase()}
             </Text>
           </a>

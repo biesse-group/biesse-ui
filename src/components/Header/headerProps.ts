@@ -1,6 +1,4 @@
-import { ReactNode } from "react";
-
-import { IconName } from "../../icons/IconProps";
+import iconsMap from "../icon/icons-map";
 
 export interface NavIconItemProps {
   /**
@@ -8,9 +6,9 @@ export interface NavIconItemProps {
    */
   label: string;
   /**
-   * Icon from gallery
+   * Icon name from gallery
    */
-  icon: IconName;
+  icon: keyof typeof iconsMap;
   /**
    * Link to the ref page
    */
@@ -18,18 +16,18 @@ export interface NavIconItemProps {
   /**
    * Transparent background version or colored bg version?
    */
-  version: HeaderProps["version"];
+  variant: HeaderProps["variant"];
 }
 
 export interface HeaderProps {
   /**
    * Larger img, aligned to left
    */
-  logo: ReactNode;
+  logo: () => JSX.Element;
   /**
    * Collection of navigation icons
    */
-  navIcons?: Omit<NavIconItemProps, "version">[];
+  navIcons?: Omit<NavIconItemProps, "variant">[];
   /**
    * Collection of navigation links
    * Smaller text, under the main banner
@@ -38,5 +36,5 @@ export interface HeaderProps {
   /**
    * Transparent background version or colored bg version?
    */
-  version: "transparent" | "colored";
+  variant: "transparent" | "colored";
 }
