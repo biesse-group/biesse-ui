@@ -95,7 +95,6 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
         size="small"
       >
         <svg
-          color="#6D6E70"
           fill="currentColor"
           viewBox="0 0 26 26"
           xmlns="http://www.w3.org/2000/svg"

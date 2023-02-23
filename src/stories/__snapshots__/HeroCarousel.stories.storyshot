@@ -157,7 +157,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
           height="26px"
         >
           <svg
-            color="#6D6E70"
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"
@@ -182,7 +181,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
           height="26px"
         >
           <svg
-            color="#6D6E70"
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"
@@ -358,7 +356,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
           height="26px"
         >
           <svg
-            color="#6D6E70"
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"
@@ -383,7 +380,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
           height="26px"
         >
           <svg
-            color="#6D6E70"
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"
@@ -559,7 +555,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
           height="26px"
         >
           <svg
-            color="#6D6E70"
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"
@@ -584,7 +579,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
           height="26px"
         >
           <svg
-            color="#6D6E70"
             fill="none"
             stroke="currentColor"
             strokeLinecap="round"

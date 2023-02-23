@@ -47,7 +47,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
         height="26px"
       >
         <svg
-          color="#6D6E70"
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
@@ -114,7 +113,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
       >
         <svg
           className="feather feather-user"
-          color="#6D6E70"
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"
@@ -185,7 +183,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
         height="26px"
       >
         <svg
-          color="#6D6E70"
           fill="none"
           stroke="currentColor"
           strokeLinecap="round"

@@ -11,7 +11,6 @@ exports[`Storyshots Components/Icon Large 1`] = `
   size="large"
 >
   <svg
-    color="#6D6E70"
     fill="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +46,6 @@ exports[`Storyshots Components/Icon Medium 1`] = `
   size="medium"
 >
   <svg
-    color="#6D6E70"
     fill="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +81,6 @@ exports[`Storyshots Components/Icon Small 1`] = `
   size="small"
 >
   <svg
-    color="#6D6E70"
     fill="currentColor"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"

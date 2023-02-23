@@ -39,6 +39,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
   letter-spacing: 0;
+  color: #FFF;
 }
 
 .c5 > span {
@@ -246,7 +247,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           >
             <svg
               className="feather feather-user"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -282,7 +282,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 23 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -313,7 +312,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 26 26"
               xmlns="http://www.w3.org/2000/svg"
@@ -367,7 +365,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           >
             <svg
               className="feather feather-globe"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -506,6 +503,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
   letter-spacing: 0;
+  color: #FFF;
 }
 
 .c5 > span {
@@ -707,7 +705,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           >
             <svg
               className="feather feather-user"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -743,7 +740,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 23 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -774,7 +770,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             size="small"
           >
             <svg
-              color="#FFF"
               fill="currentColor"
               viewBox="0 0 26 26"
               xmlns="http://www.w3.org/2000/svg"
@@ -828,7 +823,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           >
             <svg
               className="feather feather-globe"
-              color="#FFF"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"

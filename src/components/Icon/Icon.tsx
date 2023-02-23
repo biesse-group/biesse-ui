@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { useTheme } from "styled-components";
+import styled from "styled-components";
 
 import iconsMap from "./icons-map";
 
@@ -18,10 +18,6 @@ export interface IconProps {
    * Custom size
    */
   height?: string;
-  /**
-   * Color of icon
-   */
-  color?: string;
 }
 
 const getIconSize = (size?: string) => {
@@ -44,8 +40,6 @@ const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
 
 export const Icon: FC<IconProps> = ({ name, size, height, ...props }) => {
   const IconComponent = iconsMap[name];
-  const theme = useTheme();
-  props.color = props.color || theme.color.primary;
   return (
     <IconRoot size={size} height={height}>
       <IconComponent {...props} />
