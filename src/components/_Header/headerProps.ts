@@ -1,4 +1,4 @@
-import iconsMap from "../icon/icons-map";
+import iconsMap from "../_Icon/icons-map";
 
 export interface NavIconItemProps {
   /**

@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { Text } from "../../components";
+import { Text } from "..";
 import { HeaderProps } from "./headerProps";
 import { NavIconItem } from "./NavIconItem";
 

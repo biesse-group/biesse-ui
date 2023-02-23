@@ -13,6 +13,10 @@ export interface IconProps {
    */
   size?: "small" | "medium" | "large";
   /**
+   * Custom size
+   */
+  height?: string;
+  /**
    * Color of icon
    */
   color?: string;
@@ -35,20 +39,25 @@ const getIconSize = (size?: string) => {
   }
 };
 
-const IconRoot = styled.div<Pick<IconProps, "size">>`
+const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
   > svg {
     height: 100%;
   }
 
-  ${(props) => getIconSize(props.size)}
+  ${(props) =>
+    props.height
+      ? css`
+          height: ${props.height};
+        `
+      : getIconSize(props.size)}
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, ...props }) => {
+export const Icon: FC<IconProps> = ({ name, size, height, ...props }) => {
   const IconComponent = iconsMap[name];
   const theme = useTheme();
   props.color = props.color || theme.color.primary;
   return (
-    <IconRoot size={size}>
+    <IconRoot size={size} height={height}>
       <IconComponent {...props} />
     </IconRoot>
   );

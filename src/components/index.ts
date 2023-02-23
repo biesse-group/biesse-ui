@@ -4,6 +4,6 @@ export * from "./CarouselButton";
 export * from "./SearchBar";
 export * from "./Text";
 export * from "./Title";
-export * from "./header";
+export * from "./_Header";
 export * from "./logos";
-export * from "./icon";
+export * from "./_Icon";

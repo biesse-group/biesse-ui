@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { useTheme } from "styled-components";
 
-import { Icon, Text } from "../../components";
+import { Icon, Text } from "..";
 import { NavIconItemProps } from "./headerProps";
 
 const NavIconItemWrapper = styled.a<Pick<NavIconItemProps, "variant">>`
