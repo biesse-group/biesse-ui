@@ -2,7 +2,7 @@
 
 exports[`Storyshots Buttons/Button Block 1`] = `
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
@@ -35,7 +35,7 @@ exports[`Storyshots Buttons/Button Block 1`] = `
 
 exports[`Storyshots Buttons/Button Outline 1`] = `
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
@@ -67,7 +67,7 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
 
 exports[`Storyshots Buttons/Button Primary 1`] = `
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
@@ -100,7 +100,7 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
 
 exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
 .c1 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
@@ -150,7 +150,7 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
 
 exports[`Storyshots Buttons/Button Small 1`] = `
 .c0 {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;

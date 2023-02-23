@@ -12,6 +12,8 @@ type HeadingProps = Omit<TitleProps, "variant">;
 const headingStyle = css`
   text-transform: uppercase;
   margin-top: 0;
+  font-family: ${(props) => props.theme.font.family};
+  font-weight: ${(props) => props.theme.font.weight.bold};
 `;
 
 const getColor = (color?: TitleProps["color"]) => css`

@@ -38,6 +38,12 @@ export interface BiesseTheme {
       sm: string;
       xs: string;
     };
+    weight: {
+      book: number;
+      regular: number;
+      medium: number;
+      bold: number;
+    };
     family: string;
   };
   transition: string;

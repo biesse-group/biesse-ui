@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import { fontFaces } from "./font-faces";
+
 const GlobalStyle = createGlobalStyle`
   html,
   body {
@@ -9,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+
+  ${fontFaces}
 `;
 
 export default GlobalStyle;
