@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { useTheme } from "styled-components";
 
 import iconsMap from "./icons-map";
 
@@ -27,32 +27,19 @@ export interface IconProps {
 const getIconSize = (size?: string) => {
   switch (size) {
     case "small":
-      return css`
-        height: 30px;
-      `;
+      return "30px";
     case "large":
-      return css`
-        height: 80px;
-      `;
+      return "80px";
     default:
-      return css`
-        height: 50px;
-      `;
+      return "50px";
   }
 };
 
 const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
   > svg {
-    height: 100%;
+    height: ${(props) => props.height || getIconSize(props.size)};
     color: inherit;
   }
-
-  ${(props) =>
-    props.height
-      ? css`
-          height: ${props.height};
-        `
-      : getIconSize(props.size)}
 `;
 
 export const Icon: FC<IconProps> = ({ name, size, height, ...props }) => {

@@ -51,12 +51,8 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   height: 100%;
 }
 
-.c7 {
-  height: 26px;
-}
-
 .c7 > svg {
-  height: 100%;
+  height: 26px;
   color: inherit;
 }
 
@@ -256,12 +252,8 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   height: 100%;
 }
 
-.c7 {
-  height: 26px;
-}
-
 .c7 > svg {
-  height: 100%;
+  height: 26px;
   color: inherit;
 }
 
@@ -461,12 +453,8 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   height: 100%;
 }
 
-.c7 {
-  height: 26px;
-}
-
 .c7 > svg {
-  height: 100%;
+  height: 26px;
   color: inherit;
 }
 

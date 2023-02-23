@@ -1,12 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
-.c6 {
-  height: 30px;
-}
-
 .c6 > svg {
-  height: 100%;
+  height: 30px;
   color: inherit;
 }
 
@@ -478,12 +474,8 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 `;
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
-.c6 {
-  height: 30px;
-}
-
 .c6 > svg {
-  height: 100%;
+  height: 30px;
   color: inherit;
 }
 
