@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
 
-import { SearchIcon } from "../icons/SearchIcon";
+import { Icon } from "./Icon";
 
 type SearchBarProps = {
   defaultValue: string;
@@ -63,7 +63,7 @@ export const SearchBar: FC<SearchBarProps> = ({ defaultValue, onChange }) => {
         }}
       />
       <InputAdornment>
-        <SearchIcon size="small" />
+        <Icon size="small" name="search" />
       </InputAdornment>
     </InputRoot>
   );
