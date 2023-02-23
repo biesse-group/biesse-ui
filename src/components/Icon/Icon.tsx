@@ -9,7 +9,7 @@ export interface IconProps {
   /**
    * Id of the icon you want to use
    */
-  icon: IconName;
+  name: IconName;
   /**
    * Which from the default sizes of the icon you want to use
    */
@@ -55,7 +55,7 @@ const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
       : getIconSize(props.size)}
 `;
 
-export const Icon: FC<IconProps> = ({ icon: name, size, height, ...props }) => {
+export const Icon: FC<IconProps> = ({ name, size, height, ...props }) => {
   const IconComponent = iconsMap[name];
   const theme = useTheme();
   props.color = props.color || theme.color.primary;

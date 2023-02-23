@@ -23,7 +23,7 @@ export const NavIconItem: FC<NavIconItemProps> = ({ label, icon, url, ...props }
 
   return (
     <NavIconItemWrapper href={url} {...props}>
-      <Icon size="small" icon={icon} color={theme.color.white} />
+      <Icon size="small" name={icon} color={theme.color.white} />
       <Text size="xs" color="light">
         {label}
       </Text>
