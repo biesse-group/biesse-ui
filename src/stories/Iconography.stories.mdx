@@ -9,10 +9,15 @@ import iconsMap from "../components/Icon/icons-map";
 
 # Iconography
 
+<br />
+<br />
+
 <IconGallery>
-  {Object.keys(iconsMap).map((iconName) => (
-    <IconItem name={iconName.replace(/-/g, " ")}>
-      <Icon size="small" name={iconName} />
-    </IconItem>
-  ))}
+  {Object.keys(iconsMap)
+    .sort((a, b) => a.localeCompare(b))
+    .map((iconName) => (
+      <IconItem name={iconName.replace(/-/g, " ")}>
+        <Icon size="small" name={iconName} />
+      </IconItem>
+    ))}
 </IconGallery>
