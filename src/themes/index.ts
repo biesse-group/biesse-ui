@@ -31,6 +31,7 @@ export interface BiesseTheme {
     white: string;
     black: string;
     lightGray: string;
+    gray: string;
   };
   font: {
     body: {

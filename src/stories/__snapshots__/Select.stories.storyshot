@@ -7,6 +7,15 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   background-color: #6D6E70;
 }
 
+.c3 {
+  color: inherit;
+}
+
+.c3 > svg {
+  height: 20px;
+  color: inherit;
+}
+
 .c1 {
   position: relative;
   width: 100%;
@@ -18,7 +27,8 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
@@ -28,7 +38,7 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding-right: 63px;
+  padding-right: 48px;
   cursor: pointer;
   font-style: italic;
 }
@@ -58,12 +68,14 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   font-style: italic;
 }
 
-.c3 {
+.c4 {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 28px;
+  right: 14px;
+  top: 12px;
   pointer-events: none;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 @media (max-width:768px) {
@@ -112,20 +124,34 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
           Option 3
         </option>
       </select>
-      <svg
-        className="c3"
-        fill="none"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="c3 c4"
+        height="20px"
       >
-        <path
-          d="m6 9 6 6 6-6"
-        />
-      </svg>
+        <svg
+          height="20px"
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+              id="a"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </div>
     </div>
   </div>
 </div>
@@ -136,6 +162,15 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   padding: 1rem;
   height: 100vh;
   background-color: #F5F5F5;
+}
+
+.c3 {
+  color: inherit;
+}
+
+.c3 > svg {
+  height: 20px;
+  color: inherit;
 }
 
 .c1 {
@@ -149,17 +184,19 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border: 1px solid #c4c4c4;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding-right: 63px;
+  padding-right: 48px;
   cursor: pointer;
   font-style: italic;
 }
@@ -189,12 +226,14 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   font-style: italic;
 }
 
-.c3 {
+.c4 {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 28px;
+  right: 14px;
+  top: 12px;
   pointer-events: none;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 @media (max-width:768px) {
@@ -243,20 +282,34 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
           Option 3
         </option>
       </select>
-      <svg
-        className="c3"
-        fill="none"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="c3 c4"
+        height="20px"
       >
-        <path
-          d="m6 9 6 6 6-6"
-        />
-      </svg>
+        <svg
+          height="20px"
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+              id="a"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </div>
     </div>
   </div>
 </div>
@@ -267,6 +320,15 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   padding: 1rem;
   height: 100vh;
   background-color: #6D6E70;
+}
+
+.c3 {
+  color: inherit;
+}
+
+.c3 > svg {
+  height: 20px;
+  color: inherit;
 }
 
 .c1 {
@@ -280,7 +342,8 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
@@ -290,7 +353,7 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding-right: 63px;
+  padding-right: 48px;
   cursor: pointer;
   font-style: italic;
 }
@@ -320,12 +383,14 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   font-style: italic;
 }
 
-.c3 {
+.c4 {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 28px;
+  right: 14px;
+  top: 12px;
   pointer-events: none;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 @media (max-width:768px) {
@@ -375,20 +440,34 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
           Option 3
         </option>
       </select>
-      <svg
-        className="c3"
-        fill="none"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="c3 c4"
+        height="20px"
       >
-        <path
-          d="m6 9 6 6 6-6"
-        />
-      </svg>
+        <svg
+          height="20px"
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+              id="a"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </div>
     </div>
   </div>
 </div>

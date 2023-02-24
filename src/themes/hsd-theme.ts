@@ -30,6 +30,7 @@ export const hsdTheme: DefaultTheme = {
     white: "#FFF",
     black: "#252525",
     lightGray: "#F5F5F5",
+    gray: "#c4c4c4",
   },
   font: {
     body: {

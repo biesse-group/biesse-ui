@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { inputStyles } from "../styles/input-styles";
-import ChevronDown from "./Icon/icon-sources/ChevronDownIcon";
+import { Icon } from "./Icon";
 
 export type SelectProps = {
   /**
@@ -42,7 +42,7 @@ const SelectContainer = styled.div`
 const StyledSelect = styled.select<Pick<SelectProps, "shadow"> & { selected?: boolean }>`
   ${(props) => inputStyles(props.shadow)};
   appearance: none;
-  padding-right: 63px;
+  padding-right: 48px;
   cursor: pointer;
   ${(props) =>
     !props.selected &&
@@ -51,12 +51,12 @@ const StyledSelect = styled.select<Pick<SelectProps, "shadow"> & { selected?: bo
     `}
 `;
 
-const SelectIcon = styled(ChevronDown)`
+const SelectIcon = styled(Icon)`
   position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 28px;
+  right: 14px;
+  top: 12px;
   pointer-events: none;
+  transform: rotate(90deg);
 `;
 
 export type SelectOption = {
@@ -99,7 +99,7 @@ export const Select: FC<SelectProps> = ({
           </option>
         ))}
       </StyledSelect>
-      <SelectIcon />
+      <SelectIcon name="chevron-right" height="20px" />
     </SelectContainer>
   );
 };

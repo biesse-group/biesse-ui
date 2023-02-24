@@ -5,12 +5,18 @@ export const inputStyles = (shadow: "dark" | "light" = "dark") => css`
   color: ${(props) => props.theme.color.black};
   font-size: ${(props) => props.theme.font.body.sm};
   border-radius: ${(props) => props.theme.input.borderRadius};
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   transition: all 0.2s ease-out;
   width: 100%;
   font-family: ${(props) => props.theme.font.family};
+
+  ${shadow === "light" &&
+  css`
+    border: 1px solid ${(props) => props.theme.color.gray};
+  `}
 
   &:focus,
   &:active {
