@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Inputs/SearchBar Default 1`] = `
+.c3 {
+  color: inherit;
+}
+
 .c3 > svg {
   height: 30px;
   color: inherit;
@@ -100,6 +104,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
       >
         <svg
           fill="currentColor"
+          size="small"
           viewBox="0 0 26 26"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

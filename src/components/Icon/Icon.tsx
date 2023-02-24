@@ -24,6 +24,7 @@ export interface IconProps {
    */
   color?: string;
   testId?: string;
+  className?: string;
 }
 
 const getIconSize = (size?: IconProps["size"]) => {
@@ -41,7 +42,9 @@ const getIconSize = (size?: IconProps["size"]) => {
   }
 };
 
-const IconRoot = styled.div<Pick<IconProps, "size" | "color">>`
+const IconRoot = styled.div<Omit<IconProps, "name">>`
+  color: ${(props) => props.color || "inherit"};
+
   > svg {
     height: ${(props) => getIconSize(props.size)};
     color: ${(props) => props.color || "inherit"};

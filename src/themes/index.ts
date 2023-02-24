@@ -13,6 +13,7 @@ export interface BiesseTheme {
   };
   card: {
     borderRadius: string;
+    boxShadow: string;
   };
   button: {
     borderRadius: string;

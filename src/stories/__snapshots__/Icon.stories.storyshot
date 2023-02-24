@@ -40,6 +40,10 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 `;
 
 exports[`Storyshots Components/Icon Large 1`] = `
+.c0 {
+  color: inherit;
+}
+
 .c0 > svg {
   height: 80px;
   color: inherit;
@@ -55,6 +59,7 @@ exports[`Storyshots Components/Icon Large 1`] = `
 >
   <svg
     fill="currentColor"
+    size="large"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -79,6 +84,10 @@ exports[`Storyshots Components/Icon Large 1`] = `
 `;
 
 exports[`Storyshots Components/Icon Medium 1`] = `
+.c0 {
+  color: inherit;
+}
+
 .c0 > svg {
   height: 50px;
   color: inherit;
@@ -94,6 +103,7 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 >
   <svg
     fill="currentColor"
+    size="medium"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -118,6 +128,10 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 `;
 
 exports[`Storyshots Components/Icon Small 1`] = `
+.c0 {
+  color: inherit;
+}
+
 .c0 > svg {
   height: 30px;
   color: inherit;
@@ -133,6 +147,7 @@ exports[`Storyshots Components/Icon Small 1`] = `
 >
   <svg
     fill="currentColor"
+    size="small"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
   >

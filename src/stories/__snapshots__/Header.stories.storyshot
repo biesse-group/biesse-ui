@@ -1,6 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
+.c6 {
+  color: inherit;
+}
+
+.c6 > svg {
+  height: 30px;
+  color: inherit;
+}
+
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -235,9 +244,16 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              className="feather feather-user"
+              fill="none"
+              size="small"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <svg
                 className="feather feather-user"
@@ -273,9 +289,11 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              fill="currentColor"
+              size="small"
+              viewBox="0 0 23 20"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <svg
                 fill="currentColor"
@@ -305,9 +323,12 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              fill="currentColor"
+              size="small"
+              viewBox="0 0 26 26"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
               <svg
                 fill="currentColor"
@@ -359,9 +380,16 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              className="feather feather-globe"
+              fill="none"
+              size="small"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <svg
                 className="feather feather-globe"
@@ -495,6 +523,15 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 `;
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
+.c6 {
+  color: inherit;
+}
+
+.c6 > svg {
+  height: 30px;
+  color: inherit;
+}
+
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -723,9 +760,16 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              className="feather feather-user"
+              fill="none"
+              size="small"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <svg
                 className="feather feather-user"
@@ -761,9 +805,11 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              fill="currentColor"
+              size="small"
+              viewBox="0 0 23 20"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <svg
                 fill="currentColor"
@@ -793,9 +839,12 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              fill="currentColor"
+              size="small"
+              viewBox="0 0 26 26"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
               <svg
                 fill="currentColor"
@@ -847,9 +896,16 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
-              className="c6"
-              size="sm"
+            <svg
+              className="feather feather-globe"
+              fill="none"
+              size="small"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <svg
                 className="feather feather-globe"
