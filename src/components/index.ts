@@ -9,5 +9,6 @@ export * from "./Text";
 export * from "./Textarea";
 export * from "./Title";
 export * from "./Header";
-export * from "./logos";
+export * from "./Logo";
 export * from "./Icon";
+export * from "./MaterialTag";

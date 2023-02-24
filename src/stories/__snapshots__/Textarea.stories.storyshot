@@ -48,6 +48,10 @@ exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
   font-style: italic;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -112,6 +116,10 @@ exports[`Storyshots Inputs/Textarea Filled 1`] = `
 .c1::placeholder {
   color: #252525;
   font-style: italic;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div
@@ -179,6 +187,10 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 .c1::placeholder {
   color: #252525;
   font-style: italic;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div

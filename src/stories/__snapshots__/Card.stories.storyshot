@@ -1,9 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/Card Default 1`] = `
+.c6 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c2 {
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 450px;
+}
+
 .c0 {
-  background-color: #fff;
-  border: 1px solid #eaeaea;
+  position: relative;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -13,11 +45,23 @@ exports[`Storyshots Cards/Card Default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.c1 {
-  padding: 0 16px 24px;
+.c0:hover .c1 > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.c5 {
+  margin-top: 29px;
+  margin-bottom: 0px;
+}
+
+.c3 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -28,12 +72,12 @@ exports[`Storyshots Cards/Card Default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-size: 14px;
 }
 
-.c2 {
-  font-weight: normal;
-  font-size: 20px;
+@media (max-width:768px) {
+  .c2 {
+    height: 400px;
+  }
 }
 
 <div
@@ -47,23 +91,101 @@ exports[`Storyshots Cards/Card Default 1`] = `
     className="c0"
   >
     <div
-      className="c1"
+      className="c1 c2"
     >
-      <h3
-        className="c2"
+      <img
+        alt="Dummy image"
+        src="https://dummyimage.com/600x400/ccc/fff.png"
+      />
+    </div>
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4 c5"
+        color="primary"
       >
         Example card
-      </h3>
-      Lorem ipsum dolor sit amet.
+      </h4>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <span
+          className="c6"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        </span>
+      </div>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Cards/Card With Image 1`] = `
+exports[`Storyshots Cards/Card With Button 1`] = `
+.c7 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c7:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c6 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c2 {
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 450px;
+}
+
 .c0 {
-  background-color: #fff;
-  border: 1px solid #eaeaea;
+  position: relative;
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -73,11 +195,23 @@ exports[`Storyshots Cards/Card With Image 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
-.c1 {
-  padding: 0 16px 24px;
+.c0:hover .c1 > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.c5 {
+  margin-top: 29px;
+  margin-bottom: 0px;
+}
+
+.c3 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -88,12 +222,12 @@ exports[`Storyshots Cards/Card With Image 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  font-size: 14px;
 }
 
-.c2 {
-  font-weight: normal;
-  font-size: 20px;
+@media (max-width:768px) {
+  .c2 {
+    height: 400px;
+  }
 }
 
 <div
@@ -106,19 +240,459 @@ exports[`Storyshots Cards/Card With Image 1`] = `
   <div
     className="c0"
   >
-    <img
-      alt="Dummy image"
-      src="https://dummyimage.com/600x400/ccc/fff.png"
-    />
+    <div
+      className="c1 c2"
+    >
+      <img
+        alt="Dummy image"
+        src="https://dummyimage.com/600x400/ccc/fff.png"
+      />
+    </div>
+    <div
+      className="c3"
+    >
+      <h4
+        className="c4 c5"
+        color="primary"
+      >
+        Example card
+      </h4>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <span
+          className="c6"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        </span>
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <button
+          className="c7"
+          data-testid="action-button"
+        >
+          Action
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/Card With Pre Title 1`] = `
+.c8 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.c6 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c2 {
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:hover .c1 > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.c7 {
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+
+.c5 {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 33px;
+}
+
+.c3 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    height: 400px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 300,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1 c2"
+    >
+      <img
+        alt="Dummy image"
+        src="https://dummyimage.com/600x400/ccc/fff.png"
+      />
+    </div>
+    <div
+      className="c3"
+    >
+      <span
+        className="c4 c5"
+        size="sm"
+      >
+        01 gennaio 2023, Location
+      </span>
+      <h4
+        className="c6 c7"
+        color="primary"
+      >
+        Example card
+      </h4>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <span
+          className="c8"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/Card With Tag And Button 1`] = `
+.c12 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c12:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c11 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c9 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c7 {
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 450px;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0:hover .c6 > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.c1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.c10 {
+  margin-top: 29px;
+  margin-bottom: 0px;
+}
+
+.c8 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c5 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #E1523D;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  border: 1px solid #FFF;
+}
+
+@media (max-width:768px) {
+  .c7 {
+    height: 400px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 300,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
     <div
       className="c1"
     >
-      <h3
+      <div
         className="c2"
+        color="#E1523D"
       >
-        Card with image
-      </h3>
-      Lorem ipsum dolor sit amet.
+        <div
+          className="c3"
+          color="#FFF"
+          size="xs"
+        >
+          <svg
+            fill="currentColor"
+            stroke="currentColor"
+            viewBox="0 0 80 80"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fillRule="evenodd"
+              strokeWidth="1"
+            >
+              <g
+                strokeWidth="2"
+                transform="translate(-1204 -1724)"
+              >
+                <g
+                  transform="translate(1204 1724)"
+                >
+                  <path
+                    d="M37.466 11.824L11.778 30.487a4.313 4.313 0 00-1.567 4.82l9.813 30.198a4.311 4.311 0 004.1 2.98h31.752a4.313 4.313 0 004.101-2.98l9.812-30.197a4.313 4.313 0 00-1.566-4.821L42.534 11.824a4.31 4.31 0 00-5.068 0"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <span
+          className="c4 c5"
+          color="light"
+          size="sm"
+        >
+          pietra
+        </span>
+      </div>
+    </div>
+    <div
+      className="c6 c7"
+    >
+      <img
+        alt="Dummy image"
+        src="https://dummyimage.com/600x400/ccc/fff.png"
+      />
+    </div>
+    <div
+      className="c8"
+    >
+      <h4
+        className="c9 c10"
+        color="primary"
+      >
+        Example card
+      </h4>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <span
+          className="c11"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        </span>
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <button
+          className="c12"
+          data-testid="action-button"
+        >
+          Action
+        </button>
+      </div>
     </div>
   </div>
 </div>

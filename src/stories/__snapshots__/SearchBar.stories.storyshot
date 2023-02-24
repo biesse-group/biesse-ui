@@ -70,6 +70,10 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
   justify-content: center;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   style={
     Object {
@@ -92,7 +96,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
     >
       <div
         className="c3"
-        size="small"
+        size="sm"
       >
         <svg
           fill="currentColor"

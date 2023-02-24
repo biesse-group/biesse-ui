@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Icon, Text } from "..";
 import { NavIconItemProps } from "./headerProps";
 
-const NavIconItemWrapper = styled.a<Pick<NavIconItemProps, "variant">>`
+const NavIconItemWrapper = styled.div<Pick<NavIconItemProps, "variant">>`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,16 +16,28 @@ const NavIconItemWrapper = styled.a<Pick<NavIconItemProps, "variant">>`
   & > span {
     margin-left: 10px;
     display: inline;
+    font-size: 15px;
   }
 `;
 
-export const NavIconItem: FC<NavIconItemProps> = ({ label, icon, url, ...props }) => {
+export const NavIconItem: FC<NavIconItemProps> = ({
+  label,
+  icon,
+  renderLink,
+  className,
+  testId,
+  ...props
+}) => {
   return (
-    <NavIconItemWrapper href={url} {...props}>
-      <Icon size="small" name={icon} />
-      <Text size="xs" color="light">
-        {label}
-      </Text>
-    </NavIconItemWrapper>
+    <>
+      {renderLink(
+        <NavIconItemWrapper className={className} data-testid={testId} {...props}>
+          <Icon size="sm" name={icon} />
+          <Text color="light" weight="book">
+            {label}
+          </Text>
+        </NavIconItemWrapper>
+      )}
+    </>
   );
 };

@@ -27,12 +27,14 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
     case "small":
       return css`
         font-size: ${(props) => props.theme.font.body.sm};
-        padding: 8px 26px;
+        padding: 0px 26px;
+        height: 30px;
       `;
     default:
       return css`
         font-size: ${(props) => props.theme.font.body.md};
-        padding: 13px 32px;
+        padding: 0px 32px;
+        height: 40px;
       `;
   }
 };
@@ -85,7 +87,6 @@ const ButtonStyled = styled.button<ButtonProps>`
   line-height: 1;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  line-height: 1;
 
   ${(props) => getSizeStyle(props.size)}
   ${(props) => getVariantStyle(props.variant)}

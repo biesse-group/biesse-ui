@@ -54,7 +54,7 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
 export const IconButton: FC<IconButtonProps> = ({ icon, testId, ...props }) => {
   return (
     <StyledButton data-testid={testId} {...props}>
-      <Icon name={icon} height="26px" />
+      <Icon name={icon} size="26px" />
     </StyledButton>
   );
 };

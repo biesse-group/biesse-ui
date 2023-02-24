@@ -1,6 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 50px;
+}
+
 .c0 {
   position: relative;
   box-sizing: border-box;
@@ -72,21 +89,8 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
+@media (max-width:768px) {
 
-.c3 {
-  text-transform: uppercase;
-  margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  color: #FFF;
-  font-size: 50px;
 }
 
 <div
@@ -158,7 +162,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       >
         <div
           className="c7"
-          height="26px"
+          size="26px"
         >
           <svg
             fill="none"
@@ -182,7 +186,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       >
         <div
           className="c7"
-          height="26px"
+          size="26px"
         >
           <svg
             fill="none"
@@ -204,6 +208,23 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 50px;
+}
+
 .c0 {
   position: relative;
   box-sizing: border-box;
@@ -275,21 +296,8 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
+@media (max-width:768px) {
 
-.c3 {
-  text-transform: uppercase;
-  margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  color: #FFF;
-  font-size: 50px;
 }
 
 <div
@@ -361,7 +369,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       >
         <div
           className="c7"
-          height="26px"
+          size="26px"
         >
           <svg
             fill="none"
@@ -385,7 +393,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       >
         <div
           className="c7"
-          height="26px"
+          size="26px"
         >
           <svg
             fill="none"
@@ -407,6 +415,23 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 50px;
+}
+
 .c0 {
   position: relative;
   box-sizing: border-box;
@@ -478,21 +503,8 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
+@media (max-width:768px) {
 
-.c3 {
-  text-transform: uppercase;
-  margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  color: #FFF;
-  font-size: 50px;
 }
 
 <div
@@ -564,7 +576,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       >
         <div
           className="c7"
-          height="26px"
+          size="26px"
         >
           <svg
             fill="none"
@@ -588,7 +600,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       >
         <div
           className="c7"
-          height="26px"
+          size="26px"
         >
           <svg
             fill="none"

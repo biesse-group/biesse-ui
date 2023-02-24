@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { Text } from "..";
@@ -25,11 +25,6 @@ const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
 
   transition: all 0.2s ease-out;
 
-  & * {
-    text-decoration: none;
-    text-align: center;
-  }
-
   ${(props) => getHeaderRootVariantStyle(props.variant)}
 `;
 
@@ -54,11 +49,6 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
 
   transition: all 0.2s ease-out;
 
-  & * {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
   ${(props) => getMainHeaderWrapperVariantStyle(props.variant)}
 `;
 
@@ -78,19 +68,6 @@ const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
   align-items: center;
 `;
 
-const getNavLinksWrapperVariantStyle = (version: HeaderProps["variant"]) =>
-  version === "transparent"
-    ? css`
-        border-top: 1px solid rgb(244, 244, 244, 0.2);
-      `
-    : css`
-        & > a {
-          &:hover {
-            border-bottom: 2px solid ${(props) => props.theme.color.primary};
-          }
-        }
-      `;
-
 const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
@@ -99,25 +76,38 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   height: 45px;
   align-items: stretch;
 
-  & * {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  & > a {
-    margin-top: 12px;
-    margin-right: 58px;
-    font-weight: bold;
-  }
-
-  ${(props) => getNavLinksWrapperVariantStyle(props.variant)}
+  ${(props) =>
+    props.variant === "transparent" &&
+    css`
+      border-top: 1px solid rgb(244, 244, 244, 0.2);
+    `}
 `;
 
-export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, ...props }) => {
+const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
+  margin-top: 12px;
+  margin-right: 58px;
+
+  ${(props) =>
+    props.variant === "colored" &&
+    css`
+      :hover {
+        border-bottom: 2px solid ${(props) => props.theme.color.primary};
+      }
+    `}
+`;
+
+export const Header: FC<HeaderProps> = ({
+  logo,
+  navIcons,
+  navLinks,
+  className,
+  testId,
+  ...props
+}) => {
   return (
-    <HeaderRoot {...props}>
+    <HeaderRoot {...props} className={className} data-testid={testId}>
       <MainHeaderWrapper {...props}>
-        <LogoWrapper {...props}>{logo()}</LogoWrapper>
+        <LogoWrapper {...props}>{logo}</LogoWrapper>
         <NavIconsWrapper {...props}>
           {navIcons?.map((navIcon, index) => (
             <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
@@ -126,11 +116,17 @@ export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, ...props }) 
       </MainHeaderWrapper>
       <NavLinksWrapper {...props}>
         {navLinks?.map((navLink, index) => (
-          <a key={`nav-link-${index}`} href={navLink.url}>
-            <Text size="xs" color={props.variant === "transparent" ? "light" : "primary"}>
-              {navLink.label.toUpperCase()}
-            </Text>
-          </a>
+          <NavLinkElementWrapper key={`nav-link-${index}`} variant={props.variant}>
+            {navLink.renderLink(
+              <Text
+                size="sm"
+                weight="medium"
+                color={props.variant === "transparent" ? "light" : "primary"}
+              >
+                {navLink.label.toUpperCase()}
+              </Text>
+            )}
+          </NavLinkElementWrapper>
         ))}
       </NavLinksWrapper>
     </HeaderRoot>
