@@ -66,6 +66,10 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   pointer-events: none;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -193,6 +197,10 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   pointer-events: none;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -318,6 +326,10 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   top: 10px;
   width: 28px;
   pointer-events: none;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div

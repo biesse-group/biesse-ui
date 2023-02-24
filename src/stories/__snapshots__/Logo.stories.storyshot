@@ -5,6 +5,10 @@ exports[`Storyshots Components/Logo Default 1`] = `
   width: 100%;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   style={
     Object {
@@ -67,6 +71,10 @@ exports[`Storyshots Components/Logo Default 1`] = `
 exports[`Storyshots Components/Logo White 1`] = `
 .c0 svg {
   width: 100%;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div

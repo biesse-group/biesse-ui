@@ -62,5 +62,5 @@ export const WithTagAndButton = Template.bind({});
 WithTagAndButton.args = {
   ...defaultArgs,
   action: <Button variant="outline" children="Action" testId="action-button" />,
-  tag: <MaterialTag color="#E1523D" label="pietra" icon="material-stone" />,
+  tag: <MaterialTag color="#E1523D" label="pietra" icon="material-stone" border={true} />,
 };

@@ -27,18 +27,18 @@ const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 const defaultArgs: HeaderProps = {
   logo: <Logo name="HSD" width="482px" color="white" />,
   navIcons: [
-    { icon: "careers", label: "Carriere", url: "/" },
-    { icon: "contacts", label: "Contatti", url: "/" },
-    { icon: "search", label: "Ricerca", url: "/" },
-    { icon: "country", label: "Italia", url: "/" },
+    { icon: "careers", label: "Carriere", renderLink: (x) => <a href="/">{x}</a> },
+    { icon: "contacts", label: "Contatti", renderLink: (x) => <a href="/">{x}</a> },
+    { icon: "search", label: "Ricerca", renderLink: (x) => <a href="/">{x}</a> },
+    { icon: "country", label: "Italia", renderLink: (x) => <a href="/">{x}</a> },
   ],
   navLinks: [
-    { label: "Azienda", url: "/" },
-    { label: "Prodotti", url: "/" },
-    { label: "Servizi", url: "/" },
-    { label: "Case History", url: "/" },
-    { label: "HSD nel mondo", url: "/" },
-    { label: "News ed eventi", url: "/" },
+    { label: "Azienda", renderLink: (x) => <a href="/">{x}</a> },
+    { label: "Prodotti", renderLink: (x) => <a href="/">{x}</a> },
+    { label: "Servizi", renderLink: (x) => <a href="/">{x}</a> },
+    { label: "Case History", renderLink: (x) => <a href="/">{x}</a> },
+    { label: "HSD nel mondo", renderLink: (x) => <a href="/">{x}</a> },
+    { label: "News ed eventi", renderLink: (x) => <a href="/">{x}</a> },
   ],
   variant: "transparent",
 };

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { useTheme } from "styled-components";
+import styled, { css, useTheme } from "styled-components";
 
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
@@ -21,6 +21,10 @@ export interface MaterialTagProps {
    * Background color
    */
   color: string;
+  /**
+   * Enable border and shadow around the tag
+   */
+  border?: boolean;
   onClick?: () => void;
   testId?: string;
 }
@@ -30,7 +34,7 @@ const TagLabel = styled(Text)`
   margin-left: 9px;
 `;
 
-const TagRoot = styled.div<Pick<MaterialTagProps, "color">>`
+const TagRoot = styled.div<Pick<MaterialTagProps, "color" | "border">>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
@@ -43,10 +47,14 @@ const TagRoot = styled.div<Pick<MaterialTagProps, "color">>`
   padding: 0px 14px 0px 10px;
   height: 30px;
   align-items: center;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
-  border: 1px solid ${(props) => props.theme.color.white};
-
   background-color: ${(props) => props.color};
+
+  ${(props) =>
+    props.border &&
+    css`
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+      border: 1px solid ${(props) => props.theme.color.white};
+    `}
 `;
 
 export const MaterialTag: FC<MaterialTagProps> = ({ label, icon, testId, ...props }) => {

@@ -4,6 +4,20 @@ import styled from "styled-components";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
+const CardImgWrapper = styled.div`
+  overflow: hidden;
+  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
+  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
+  position: relative;
+  display: flex;
+
+  justify-content: center;
+  height: 450px;
+  @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
+    height: 400px;
+  }
+`;
+
 const CardWrapper = styled.div`
   position: relative;
   width: 100%;
@@ -12,13 +26,20 @@ const CardWrapper = styled.div`
   flex-direction: column;
 
   :hover {
-    .img-wrapper {
+    ${CardImgWrapper} {
       > * {
         transform: scale(1.25);
         transition: transform 0.5s ease-out;
       }
     }
   }
+`;
+
+const TagWrapper = styled.div`
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
 `;
 
 const CardTitle = styled(Title)<Pick<CardProps, "preTitle">>`
@@ -30,18 +51,6 @@ const CardPreTitle = styled(Text)`
   font-style: italic;
   font-weight: bold;
   margin-top: 33px;
-`;
-
-const CardImgWrapper = styled.div`
-  overflow: hidden;
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-  position: relative;
-  display: flex;
-
-  > * {
-    width: 100%;
-  }
 `;
 
 const CardBody = styled.div`
@@ -100,14 +109,12 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
 }) => {
   return (
     <CardWrapper className={className} data-testid={testId}>
-      {tag && (
-        <div style={{ position: "absolute", top: "20px", left: "20px", zIndex: "1" }}>{tag}</div>
-      )}
+      {tag && <TagWrapper>{tag}</TagWrapper>}
       {image ? (
-        <CardImgWrapper className="img-wrapper">{image}</CardImgWrapper>
+        <CardImgWrapper>{image}</CardImgWrapper>
       ) : (
         imageSrc && (
-          <CardImgWrapper className="img-wrapper">
+          <CardImgWrapper>
             <img src={imageSrc} alt={imageAlt} />
           </CardImgWrapper>
         )

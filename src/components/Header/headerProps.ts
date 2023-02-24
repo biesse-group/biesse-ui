@@ -1,22 +1,22 @@
 import { IconName } from "../Icon";
 
-export interface NavIconItemProps {
+export interface NavLink {
+  label: string;
+  /**
+   * Link to the ref page
+   */
+  renderLink: (children: React.ReactElement) => JSX.Element;
+}
+
+export interface NavIconItemProps extends NavLink {
   /**
    * Optional component class name
    */
   className?: string;
   /**
-   * Small text next to icon
-   */
-  label: string;
-  /**
    * Icon name from gallery
    */
   icon: IconName;
-  /**
-   * Link to the ref page
-   */
-  url: string;
   /**
    * Transparent background version or colored bg version?
    */
@@ -41,7 +41,7 @@ export interface HeaderProps {
    * Collection of navigation links
    * Smaller text, under the main banner
    */
-  navLinks?: { label: string; url: string }[];
+  navLinks?: NavLink[];
   /**
    * Transparent background version or colored bg version?
    */

@@ -6,6 +6,10 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
   color: inherit;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="xs"
@@ -39,6 +43,10 @@ exports[`Storyshots Components/Icon Large 1`] = `
 .c0 > svg {
   height: 80px;
   color: inherit;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div
@@ -76,6 +84,10 @@ exports[`Storyshots Components/Icon Medium 1`] = `
   color: inherit;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="md"
@@ -109,6 +121,10 @@ exports[`Storyshots Components/Icon Small 1`] = `
 .c0 > svg {
   height: 30px;
   color: inherit;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div

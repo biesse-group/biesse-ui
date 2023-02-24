@@ -70,6 +70,10 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
   justify-content: center;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   style={
     Object {
