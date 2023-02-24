@@ -10,6 +10,15 @@ const CardWrapper = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
+
+  :hover {
+    .img-wrapper {
+      > * {
+        transform: scale(1.25);
+        transition: transform 0.5s ease-out;
+      }
+    }
+  }
 `;
 
 const CardTitle = styled(Title)<Pick<CardProps, "preTitle">>`
@@ -31,9 +40,6 @@ const CardImgWrapper = styled.div`
   display: flex;
 
   > * {
-    :hover {
-      transform: scale(1.25);
-    }
     width: 100%;
   }
 `;
@@ -76,7 +82,7 @@ export interface CardProps {
   /**
    * Button on the bottom on the card
    */
-  actionButton?: React.ReactElement;
+  action?: React.ReactElement;
   testId?: string;
 }
 
@@ -88,7 +94,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   children,
   imageSrc,
   imageAlt = "",
-  actionButton,
+  action,
   image,
   tag,
 }) => {
@@ -98,10 +104,10 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
         <div style={{ position: "absolute", top: "20px", left: "20px", zIndex: "1" }}>{tag}</div>
       )}
       {image ? (
-        <CardImgWrapper>{image}</CardImgWrapper>
+        <CardImgWrapper className="img-wrapper">{image}</CardImgWrapper>
       ) : (
         imageSrc && (
-          <CardImgWrapper>
+          <CardImgWrapper className="img-wrapper">
             <img src={imageSrc} alt={imageAlt} />
           </CardImgWrapper>
         )
@@ -112,7 +118,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
           {title}
         </CardTitle>
         <div style={{ marginTop: "20px" }}>{children}</div>
-        {actionButton && <div style={{ marginTop: "20px" }}>{actionButton}</div>}
+        {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>
     </CardWrapper>
   );

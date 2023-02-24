@@ -1,4 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { userEvent, within } from "@storybook/testing-library";
 
 import { Button, Card, MaterialTag, Text } from "../components";
 
@@ -48,13 +49,18 @@ export const WithButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithButton.args = {
   ...defaultArgs,
-  actionButton: <Button variant="outline" children="Action" />,
+  action: <Button variant="outline" children="Action" testId="action-button" />,
+};
+
+WithButton.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  await userEvent.click(canvas.getByTestId("action-button"));
 };
 
 export const WithTagAndButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithTagAndButton.args = {
   ...defaultArgs,
-  actionButton: <Button variant="outline" children="Action" />,
+  action: <Button variant="outline" children="Action" testId="action-button" />,
   tag: <MaterialTag color="#E1523D" label="pietra" icon="material-stone" />,
 };

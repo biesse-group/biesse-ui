@@ -18,17 +18,23 @@ const defaultArgs: IconProps = {
 export const Large = Template.bind({});
 Large.args = {
   ...defaultArgs,
-  size: "large",
+  size: "lg",
 };
 
 export const Medium = Template.bind({});
 Medium.args = {
   ...defaultArgs,
-  size: "medium",
+  size: "md",
 };
 
 export const Small = Template.bind({});
 Small.args = {
   ...defaultArgs,
-  size: "small",
+  size: "sm",
+};
+
+export const ExtraSmall = Template.bind({});
+ExtraSmall.args = {
+  ...defaultArgs,
+  size: "xs",
 };

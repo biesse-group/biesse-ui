@@ -16,6 +16,7 @@ const NavIconItemWrapper = styled.a<Pick<NavIconItemProps, "variant">>`
   & > span {
     margin-left: 10px;
     display: inline;
+    font-size: 15px;
   }
 `;
 
@@ -29,8 +30,8 @@ export const NavIconItem: FC<NavIconItemProps> = ({
 }) => {
   return (
     <NavIconItemWrapper href={url} className={className} data-testid={testId} {...props}>
-      <Icon size="small" name={icon} />
-      <Text size="xs" color="light">
+      <Icon size="sm" name={icon} />
+      <Text color="light" weight="book">
         {label}
       </Text>
     </NavIconItemWrapper>

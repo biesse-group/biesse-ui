@@ -107,9 +107,6 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   > a {
     margin-top: 12px;
     margin-right: 58px;
-    > * {
-      font-weight: bold;
-    }
   }
 
   ${(props) => getNavLinksWrapperVariantStyle(props.variant)}
@@ -136,7 +133,11 @@ export const Header: FC<HeaderProps> = ({
       <NavLinksWrapper {...props}>
         {navLinks?.map((navLink, index) => (
           <a key={`nav-link-${index}`} href={navLink.url}>
-            <Text size="xs" color={props.variant === "transparent" ? "light" : "primary"}>
+            <Text
+              size="sm"
+              weight="medium"
+              color={props.variant === "transparent" ? "light" : "primary"}
+            >
               {navLink.label.toUpperCase()}
             </Text>
           </a>

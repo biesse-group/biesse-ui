@@ -17,11 +17,7 @@ export interface IconProps {
   /**
    * Which from the default sizes of the icon you want to use
    */
-  size?: "smaller" | "small" | "medium" | "large";
-  /**
-   * Custom size
-   */
-  height?: string;
+  size?: "xs" | "sm" | "md" | "lg" | string;
   /**
    * Color fo the icon.
    * if not specified becomes inherit.
@@ -32,28 +28,30 @@ export interface IconProps {
 
 const getIconSize = (size?: IconProps["size"]) => {
   switch (size) {
-    case "smaller":
+    case "xs":
       return "20px";
-    case "small":
+    case "sm":
       return "30px";
-    case "large":
+    case "lg":
       return "80px";
-    default:
+    case "md":
       return "50px";
+    default:
+      return size;
   }
 };
 
-const IconRoot = styled.div<Pick<IconProps, "size" | "height" | "color">>`
+const IconRoot = styled.div<Pick<IconProps, "size" | "color">>`
   > svg {
-    height: ${(props) => props.height || getIconSize(props.size)};
+    height: ${(props) => getIconSize(props.size)};
     color: ${(props) => props.color || "inherit"};
   }
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, height, color, className, testId, ...props }) => {
+export const Icon: FC<IconProps> = ({ name, size, color, className, testId, ...props }) => {
   const IconComponent = iconsMap[name];
   return (
-    <IconRoot size={size} height={height} color={color} data-testid={testId} className={className}>
+    <IconRoot size={size} color={color} data-testid={testId} className={className}>
       <IconComponent {...props} />
     </IconRoot>
   );

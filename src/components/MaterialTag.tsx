@@ -35,7 +35,6 @@ const TagRoot = styled.div<Pick<MaterialTagProps, "color">>`
   font-weight: bold;
   border: 0;
   border-radius: ${(props) => props.theme.button.borderRadius};
-  cursor: pointer;
   line-height: 1;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
@@ -54,7 +53,7 @@ export const MaterialTag: FC<MaterialTagProps> = ({ label, icon, testId, ...prop
   const theme = useTheme();
   return (
     <TagRoot data-testid={testId} {...props}>
-      <Icon name={icon} color={theme.color.white} size="smaller" />
+      <Icon name={icon} color={theme.color.white} size="xs" />
       <TagLabel color="light" size="sm">
         {label}
       </TagLabel>

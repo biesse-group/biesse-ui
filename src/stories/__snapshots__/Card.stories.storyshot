@@ -31,6 +31,15 @@ exports[`Storyshots Cards/Card Default 1`] = `
   flex-direction: column;
 }
 
+.c0:hover .img-wrapper > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
 .c4 {
   margin-top: 29px;
   margin-bottom: 0px;
@@ -49,12 +58,6 @@ exports[`Storyshots Cards/Card Default 1`] = `
 
 .c1 > * {
   width: 100%;
-}
-
-.c1 > *:hover {
-  -webkit-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  transform: scale(1.25);
 }
 
 .c2 {
@@ -81,7 +84,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
     className="c0"
   >
     <div
-      className="c1"
+      className="c1 img-wrapper"
     >
       <img
         alt="Dummy image"
@@ -171,6 +174,15 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   flex-direction: column;
 }
 
+.c0:hover .img-wrapper > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
 .c4 {
   margin-top: 29px;
   margin-bottom: 0px;
@@ -189,12 +201,6 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 
 .c1 > * {
   width: 100%;
-}
-
-.c1 > *:hover {
-  -webkit-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  transform: scale(1.25);
 }
 
 .c2 {
@@ -221,7 +227,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
     className="c0"
   >
     <div
-      className="c1"
+      className="c1 img-wrapper"
     >
       <img
         alt="Dummy image"
@@ -260,6 +266,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
       >
         <button
           className="c6"
+          data-testid="action-button"
         >
           Action
         </button>
@@ -308,6 +315,15 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   flex-direction: column;
 }
 
+.c0:hover .img-wrapper > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
 .c6 {
   margin-top: 14px;
   margin-bottom: 0px;
@@ -334,12 +350,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   width: 100%;
 }
 
-.c1 > *:hover {
-  -webkit-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  transform: scale(1.25);
-}
-
 .c2 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -364,7 +374,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
     className="c0"
   >
     <div
-      className="c1"
+      className="c1 img-wrapper"
     >
       <img
         alt="Dummy image"
@@ -468,6 +478,15 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   flex-direction: column;
 }
 
+.c0:hover .img-wrapper > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
 .c8 {
   margin-top: 29px;
   margin-bottom: 0px;
@@ -486,12 +505,6 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 
 .c5 > * {
   width: 100%;
-}
-
-.c5 > *:hover {
-  -webkit-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  transform: scale(1.25);
 }
 
 .c6 {
@@ -522,7 +535,6 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   font-weight: bold;
   border: 0;
   border-radius: 20px;
-  cursor: pointer;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -572,7 +584,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
         <div
           className="c2"
           color="#FFF"
-          size="smaller"
+          size="xs"
         >
           <svg
             fill="currentColor"
@@ -609,7 +621,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       </div>
     </div>
     <div
-      className="c5"
+      className="c5 img-wrapper"
     >
       <img
         alt="Dummy image"
@@ -648,6 +660,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       >
         <button
           className="c10"
+          data-testid="action-button"
         >
           Action
         </button>

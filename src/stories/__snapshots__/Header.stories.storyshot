@@ -4,16 +4,16 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 24px;
   color: #FFF;
 }
 
 .c9 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
   color: #6D6E70;
 }
 
@@ -49,6 +49,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 .c5 > span {
   margin-left: 10px;
   display: inline;
+  font-size: 15px;
 }
 
 .c0 {
@@ -159,10 +160,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   margin-right: 58px;
 }
 
-.c8 > a > * {
-  font-weight: bold;
-}
-
 .c8 > a:hover {
   border-bottom: 2px solid #6D6E70;
 }
@@ -250,7 +247,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               className="feather feather-user"
@@ -275,7 +272,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Carriere
           </span>
@@ -286,7 +282,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               fill="currentColor"
@@ -305,7 +301,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Contatti
           </span>
@@ -316,7 +311,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               fill="currentColor"
@@ -357,7 +352,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Ricerca
           </span>
@@ -368,7 +362,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               className="feather feather-globe"
@@ -396,7 +390,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Italia
           </span>
@@ -412,7 +405,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         <span
           className="c9"
           color="primary"
-          size="xs"
+          size="sm"
         >
           AZIENDA
         </span>
@@ -423,7 +416,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         <span
           className="c9"
           color="primary"
-          size="xs"
+          size="sm"
         >
           PRODOTTI
         </span>
@@ -434,7 +427,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         <span
           className="c9"
           color="primary"
-          size="xs"
+          size="sm"
         >
           SERVIZI
         </span>
@@ -445,7 +438,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         <span
           className="c9"
           color="primary"
-          size="xs"
+          size="sm"
         >
           CASE HISTORY
         </span>
@@ -456,7 +449,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         <span
           className="c9"
           color="primary"
-          size="xs"
+          size="sm"
         >
           HSD NEL MONDO
         </span>
@@ -467,7 +460,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         <span
           className="c9"
           color="primary"
-          size="xs"
+          size="sm"
         >
           NEWS ED EVENTI
         </span>
@@ -481,8 +474,16 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c9 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
   color: #FFF;
 }
 
@@ -518,6 +519,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 .c5 > span {
   margin-left: 10px;
   display: inline;
+  font-size: 15px;
 }
 
 .c0 {
@@ -626,10 +628,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   margin-right: 58px;
 }
 
-.c8 > a > * {
-  font-weight: bold;
-}
-
 .c3 {
   width: 482px;
 }
@@ -713,7 +711,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               className="feather feather-user"
@@ -738,7 +736,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Carriere
           </span>
@@ -749,7 +746,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               fill="currentColor"
@@ -768,7 +765,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Contatti
           </span>
@@ -779,7 +775,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               fill="currentColor"
@@ -820,7 +816,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Ricerca
           </span>
@@ -831,7 +826,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         >
           <div
             className="c6"
-            size="small"
+            size="sm"
           >
             <svg
               className="feather feather-globe"
@@ -859,7 +854,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <span
             className="c7"
             color="light"
-            size="xs"
           >
             Italia
           </span>
@@ -873,9 +867,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         href="/"
       >
         <span
-          className="c7"
+          className="c9"
           color="light"
-          size="xs"
+          size="sm"
         >
           AZIENDA
         </span>
@@ -884,9 +878,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         href="/"
       >
         <span
-          className="c7"
+          className="c9"
           color="light"
-          size="xs"
+          size="sm"
         >
           PRODOTTI
         </span>
@@ -895,9 +889,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         href="/"
       >
         <span
-          className="c7"
+          className="c9"
           color="light"
-          size="xs"
+          size="sm"
         >
           SERVIZI
         </span>
@@ -906,9 +900,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         href="/"
       >
         <span
-          className="c7"
+          className="c9"
           color="light"
-          size="xs"
+          size="sm"
         >
           CASE HISTORY
         </span>
@@ -917,9 +911,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         href="/"
       >
         <span
-          className="c7"
+          className="c9"
           color="light"
-          size="xs"
+          size="sm"
         >
           HSD NEL MONDO
         </span>
@@ -928,9 +922,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         href="/"
       >
         <span
-          className="c7"
+          className="c9"
           color="light"
-          size="xs"
+          size="sm"
         >
           NEWS ED EVENTI
         </span>

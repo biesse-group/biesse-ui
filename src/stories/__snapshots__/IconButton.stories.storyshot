@@ -44,7 +44,7 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
     >
       <div
         className="c2"
-        height="26px"
+        size="26px"
       >
         <svg
           fill="none"
@@ -109,7 +109,7 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
     >
       <div
         className="c2"
-        height="26px"
+        size="26px"
       >
         <svg
           className="feather feather-user"
@@ -180,7 +180,7 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
     >
       <div
         className="c2"
-        height="26px"
+        size="26px"
       >
         <svg
           fill="none"

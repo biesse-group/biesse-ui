@@ -17,7 +17,7 @@ import iconsMap from "../components/Icon/icons-map";
     .sort((a, b) => a.localeCompare(b))
     .map((iconName) => (
       <IconItem key={iconName} name={iconName.replace(/-/g, " ")}>
-        <Icon size="small" name={iconName} />
+        <Icon size="sm" name={iconName} />
       </IconItem>
     ))}
 </IconGallery>
