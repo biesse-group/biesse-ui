@@ -106,9 +106,9 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  line-height: 1;
   font-size: 14px;
-  padding: 8px 26px;
+  padding: 0px 26px;
+  height: 30px;
   color: #FFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
@@ -335,9 +335,9 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  line-height: 1;
   font-size: 14px;
-  padding: 8px 26px;
+  padding: 0px 26px;
+  height: 30px;
   color: #FFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;

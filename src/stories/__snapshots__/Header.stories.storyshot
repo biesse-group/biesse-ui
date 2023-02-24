@@ -1,11 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
-.c6 > svg {
-  height: 30px;
-  color: inherit;
-}
-
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -20,6 +15,11 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   font-size: 13px;
   line-height: 18px;
   color: #6D6E70;
+}
+
+.c6 > svg {
+  height: 30px;
+  color: inherit;
 }
 
 .c5 {
@@ -157,6 +157,9 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 .c8 > a {
   margin-top: 12px;
   margin-right: 58px;
+}
+
+.c8 > a > * {
   font-weight: bold;
 }
 
@@ -475,17 +478,17 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 `;
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
-.c6 > svg {
-  height: 30px;
-  color: inherit;
-}
-
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 18px;
   color: #FFF;
+}
+
+.c6 > svg {
+  height: 30px;
+  color: inherit;
 }
 
 .c5 {
@@ -621,6 +624,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 .c8 > a {
   margin-top: 12px;
   margin-right: 58px;
+}
+
+.c8 > a > * {
   font-weight: bold;
 }
 

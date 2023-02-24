@@ -19,9 +19,16 @@ const NavIconItemWrapper = styled.a<Pick<NavIconItemProps, "variant">>`
   }
 `;
 
-export const NavIconItem: FC<NavIconItemProps> = ({ label, icon, url, ...props }) => {
+export const NavIconItem: FC<NavIconItemProps> = ({
+  label,
+  icon,
+  url,
+  className,
+  testId,
+  ...props
+}) => {
   return (
-    <NavIconItemWrapper href={url} {...props}>
+    <NavIconItemWrapper href={url} className={className} data-testid={testId} {...props}>
       <Icon size="small" name={icon} />
       <Text size="xs" color="light">
         {label}

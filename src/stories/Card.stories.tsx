@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Card } from "../components/Card";
+import { Button, Card, MaterialTag, Text } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -18,18 +18,43 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Card> = (args) => <Card {...args} />;
 
+const defaultArgs = {
+  title: "Example card",
+  children: (
+    <Text size="md">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+      laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto
+      beatae vitae dicta sunt, explicabo.
+    </Text>
+  ),
+  imageSrc: "https://dummyimage.com/600x400/ccc/fff.png",
+  imageAlt: "Dummy image",
+};
+
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
-  title: "Example card",
-  children: "Lorem ipsum dolor sit amet.",
+  ...defaultArgs,
 };
 
-export const WithImage = Template.bind({});
+export const WithPreTitle = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-WithImage.args = {
-  title: "Card with image",
-  children: "Lorem ipsum dolor sit amet.",
-  imageSrc: "https://dummyimage.com/600x400/ccc/fff.png",
-  imageAlt: "Dummy image",
+WithPreTitle.args = {
+  ...defaultArgs,
+  preTitle: "01 gennaio 2023, Location",
+};
+
+export const WithButton = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+WithButton.args = {
+  ...defaultArgs,
+  actionButton: <Button variant="outline" children="Action" />,
+};
+
+export const WithTagAndButton = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+WithTagAndButton.args = {
+  ...defaultArgs,
+  actionButton: <Button variant="outline" children="Action" />,
+  tag: <MaterialTag color="#E1523D" label="pietra" icon="material-stone" />,
 };

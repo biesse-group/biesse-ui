@@ -99,25 +99,34 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   height: 45px;
   align-items: stretch;
 
-  & * {
+  * {
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
-  & > a {
+  > a {
     margin-top: 12px;
     margin-right: 58px;
-    font-weight: bold;
+    > * {
+      font-weight: bold;
+    }
   }
 
   ${(props) => getNavLinksWrapperVariantStyle(props.variant)}
 `;
 
-export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, ...props }) => {
+export const Header: FC<HeaderProps> = ({
+  logo,
+  navIcons,
+  navLinks,
+  className,
+  testId,
+  ...props
+}) => {
   return (
-    <HeaderRoot {...props}>
+    <HeaderRoot {...props} className={className} data-testid={testId}>
       <MainHeaderWrapper {...props}>
-        <LogoWrapper {...props}>{logo()}</LogoWrapper>
+        <LogoWrapper {...props}>{logo}</LogoWrapper>
         <NavIconsWrapper {...props}>
           {navIcons?.map((navIcon, index) => (
             <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />

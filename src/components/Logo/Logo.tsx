@@ -5,6 +5,10 @@ import * as LogoSources from "./logo-sources";
 
 export interface LogoProps {
   /**
+   * Optional component class name
+   */
+  className?: string;
+  /**
    * Id of the logo you want to use
    */
   name: LogoName;
@@ -16,6 +20,7 @@ export interface LogoProps {
    * Color of the logo
    */
   color?: string;
+  testId?: string;
 }
 
 // Must be update each time a new logo is inserted in the library
@@ -38,8 +43,12 @@ const renderLogoImg = (name: string, props: Omit<LogoProps, "width" | "name">) =
   }
 };
 
-export const Logo: FC<LogoProps> = ({ name, width, ...props }) => {
+export const Logo: FC<LogoProps> = ({ name, width, className, testId, ...props }) => {
   const theme = useTheme();
   props.color = props.color || theme.color.primary;
-  return <LogoRoot width={width}>{renderLogoImg(name, props)}</LogoRoot>;
+  return (
+    <LogoRoot width={width} className={className} data-testid={testId}>
+      {renderLogoImg(name, props)}
+    </LogoRoot>
+  );
 };

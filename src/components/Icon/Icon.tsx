@@ -7,21 +7,33 @@ export type IconName = keyof typeof iconsMap;
 
 export interface IconProps {
   /**
+   * Optional component class name
+   */
+  className?: string;
+  /**
    * Id of the icon you want to use
    */
   name: IconName;
   /**
    * Which from the default sizes of the icon you want to use
    */
-  size?: "small" | "medium" | "large";
+  size?: "smaller" | "small" | "medium" | "large";
   /**
    * Custom size
    */
   height?: string;
+  /**
+   * Color fo the icon.
+   * if not specified becomes inherit.
+   */
+  color?: string;
+  testId?: string;
 }
 
-const getIconSize = (size?: string) => {
+const getIconSize = (size?: IconProps["size"]) => {
   switch (size) {
+    case "smaller":
+      return "20px";
     case "small":
       return "30px";
     case "large":
@@ -31,17 +43,17 @@ const getIconSize = (size?: string) => {
   }
 };
 
-const IconRoot = styled.div<Pick<IconProps, "size" | "height">>`
+const IconRoot = styled.div<Pick<IconProps, "size" | "height" | "color">>`
   > svg {
     height: ${(props) => props.height || getIconSize(props.size)};
-    color: inherit;
+    color: ${(props) => props.color || "inherit"};
   }
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, height, ...props }) => {
+export const Icon: FC<IconProps> = ({ name, size, height, color, className, testId, ...props }) => {
   const IconComponent = iconsMap[name];
   return (
-    <IconRoot size={size} height={height}>
+    <IconRoot size={size} height={height} color={color} data-testid={testId} className={className}>
       <IconComponent {...props} />
     </IconRoot>
   );

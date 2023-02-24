@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Header, HeaderProps } from "../components";
-import { Logo } from "../components/logos";
+import { Logo } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -25,7 +25,7 @@ export default {
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
-  logo: () => <Logo name="HSD" width="482px" color="white" />,
+  logo: <Logo name="HSD" width="482px" color="white" />,
   navIcons: [
     { icon: "careers", label: "Carriere", url: "/" },
     { icon: "contacts", label: "Contatti", url: "/" },
