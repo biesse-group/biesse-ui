@@ -23,8 +23,12 @@ const CardActions = styled.div`
 `;
 
 const CardImage = styled.div`
-  flex: 0 0 50%;
+  flex: 0 0 300px;
   overflow: hidden;
+
+  @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
+    display: none;
+  }
 `;
 
 const CardImageInner = styled.div`

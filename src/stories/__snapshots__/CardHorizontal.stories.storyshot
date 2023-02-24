@@ -238,9 +238,9 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 }
 
 .c9 {
-  -webkit-flex: 0 0 50%;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
+  -webkit-flex: 0 0 300px;
+  -ms-flex: 0 0 300px;
+  flex: 0 0 300px;
   overflow: hidden;
 }
 
@@ -278,6 +278,12 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
+}
+
+@media (max-width:768px) {
+  .c9 {
+    display: none;
+  }
 }
 
 <div
@@ -450,9 +456,9 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 }
 
 .c9 {
-  -webkit-flex: 0 0 50%;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
+  -webkit-flex: 0 0 300px;
+  -ms-flex: 0 0 300px;
+  flex: 0 0 300px;
   overflow: hidden;
 }
 
@@ -490,6 +496,12 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
+}
+
+@media (max-width:768px) {
+  .c9 {
+    display: none;
+  }
 }
 
 <div

@@ -93,6 +93,10 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   transition: all 0.2s ease-out;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -302,6 +306,10 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   transition: all 0.2s ease-out;
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -509,6 +517,10 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+@media (max-width:768px) {
+
 }
 
 <div
