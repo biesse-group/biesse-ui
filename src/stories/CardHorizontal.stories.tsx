@@ -58,3 +58,14 @@ WithImage.decorators = [
     </div>
   ),
 ];
+
+export const HoverState = Template.bind({});
+HoverState.decorators = [...WithImage.decorators];
+HoverState.args = {
+  ...WithImage.args,
+};
+HoverState.parameters = {
+  pseudo: {
+    hover: true,
+  },
+};

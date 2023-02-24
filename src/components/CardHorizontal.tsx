@@ -27,7 +27,7 @@ const CardImage = styled.div`
   overflow: hidden;
 `;
 
-const CardImageContent = styled.div`
+const CardImageInner = styled.div`
   transform: scale(1);
   transition: transform 0.5s ease-out;
   width: 100%;
@@ -47,7 +47,7 @@ const CardContainer = styled.div`
     background-color: ${(props) => props.theme.color.white};
     box-shadow: ${(props) => props.theme.card.boxShadow};
 
-    ${CardImageContent} {
+    ${CardImageInner} {
       transform: scale(1.25);
     }
   }
@@ -74,14 +74,14 @@ export const CardHorizontal: FC<CardHorizontalProps> = ({
   return (
     <CardContainer data-testid={testId}>
       <CardContent>
-        {icon && <CardIcon name={icon} color={theme.color.primary} height="50px" />}
+        {icon && <CardIcon name={icon} color={theme.color.primary} />}
         <CardTitle variant="H5">{title}</CardTitle>
         {typeof description === "string" ? <Text>{description}</Text> : description}
         <CardActions>{actions}</CardActions>
       </CardContent>
       {image && (
         <CardImage>
-          <CardImageContent>{image}</CardImageContent>
+          <CardImageInner>{image}</CardImageInner>
         </CardImage>
       )}
     </CardContainer>

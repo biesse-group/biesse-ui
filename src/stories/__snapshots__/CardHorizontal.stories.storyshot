@@ -105,12 +105,10 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
       <div
         className="c2 c3"
         color="#6D6E70"
-        height="50px"
       >
         <svg
           color="#6D6E70"
           fill="currentColor"
-          height="50px"
           viewBox="0 0 45 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -163,6 +161,218 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
         >
           More...
         </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
+.c8 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 14px;
+  padding: 8px 26px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c8:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: inherit;
+}
+
+.c6 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 30px;
+}
+
+.c1 {
+  padding: 45px 25px;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.c5 {
+  margin-bottom: 29px;
+}
+
+.c3 {
+  margin-bottom: 36px;
+}
+
+.c7 {
+  margin-top: 30px;
+}
+
+.c9 {
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  overflow: hidden;
+}
+
+.c11 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
+}
+
+.c0 {
+  width: 100%;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+  background-color: #F5F5F5;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.c0:hover {
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c0:hover .c10 {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2 c3"
+        color="#6D6E70"
+      >
+        <svg
+          color="#6D6E70"
+          fill="currentColor"
+          viewBox="0 0 52 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0L24.1802943 0 24.1802943 50 0 50z"
+              id="path-1"
+            />
+          </defs>
+          <g
+            fillRule="evenodd"
+            strokeWidth="1"
+          >
+            <g
+              transform="translate(-1252 -496)"
+            >
+              <g
+                transform="translate(1252 496)"
+              >
+                <g
+                  transform="translate(27.341)"
+                >
+                  <path
+                    d="M16.394 21.37l-.527.234v26.639H8.256v-26.58l-.469-.235c-3.688-1.697-6.03-5.328-6.03-9.367 0-.469.058-.878.117-1.347l7.201 7.201c.469.469 1.171.762 1.874.762.702 0 1.346-.293 1.874-.762l5.386-5.386c.469-.468.761-1.17.761-1.874 0-.702-.292-1.346-.76-1.874l-7.027-7.025c.293 0 .586-.059.879-.059 5.679 0 10.304 4.625 10.304 10.305 0 4.04-2.342 7.67-5.972 9.368zM12.06 0c-.937 0-1.932.117-2.927.351L7.612.702l9.309 9.31c.175.175.234.41.234.643 0 .234-.118.469-.234.644l-5.387 5.387c-.35.351-.937.351-1.23 0L.879 7.26l-.41 1.405C.176 9.778 0 10.89 0 12.003c0 4.508 2.576 8.665 6.557 10.714V50h11.124V22.717c3.982-2.05 6.5-6.206 6.5-10.714C24.121 5.387 18.735 0 12.06 0V0z"
+                  />
+                </g>
+                <path
+                  d="M27.342 31.792c0 1.053-.117 2.107-.41 3.103l-4.098-1.054a7.874 7.874 0 00.293-2.05c0-.526-.059-1.112-.176-1.639l4.157-.82c.117.82.234 1.64.234 2.46zm-7.377 11.416l-1.757-3.864c1.113-.527 2.167-1.288 2.928-2.225l3.22 2.694a11.86 11.86 0 01-4.391 3.395zM9.309 31.792a5.497 5.497 0 015.504-5.504 5.497 5.497 0 015.503 5.504 5.497 5.497 0 01-5.503 5.503 5.497 5.497 0 01-5.504-5.503zm5.27 12.587c-1.874-.058-3.69-.468-5.387-1.346l1.874-3.747c1.053.527 2.283.878 3.571.878l-.059 4.215zM6.674 29.86l-4.099-.995c.41-1.814 1.288-3.513 2.46-4.976l3.278 2.634a8.1 8.1 0 00-1.64 3.338zm-1.816 9.66a11.699 11.699 0 01-2.341-5.034l4.098-.878c.293 1.23.82 2.4 1.58 3.337L4.86 39.52zm9.895-20.257h.468l-.175 4.216h-.293a8.012 8.012 0 00-3.571.82l-1.815-3.806a12.297 12.297 0 015.386-1.23zm5.855 1.405a13.068 13.068 0 014.215 3.572l-3.396 2.517a8.54 8.54 0 00-2.81-2.4l1.99-3.689zm-5.855-3.63C6.616 17.037 0 23.653 0 31.791s6.616 14.754 14.754 14.754 14.754-6.616 14.754-14.754-6.616-14.754-14.754-14.754z"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <h5
+        className="c4 c5"
+      >
+        Spare parts
+      </h5>
+      <span
+        className="c6"
+      >
+        Lorem ipsum dolor sit amet, con sectetadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      </span>
+      <div
+        className="c7"
+      >
+        <button
+          className="c8"
+          size="small"
+        >
+          More...
+        </button>
+      </div>
+    </div>
+    <div
+      className="c9"
+    >
+      <div
+        className="c10 c11"
+      >
+        <div
+          style={
+            Object {
+              "backgroundImage": "url(\\"https://dummyimage.com/400x600/c0c0c0/fff\\")",
+              "backgroundPosition": "center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
       </div>
     </div>
   </div>
@@ -298,12 +508,10 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
       <div
         className="c2 c3"
         color="#6D6E70"
-        height="50px"
       >
         <svg
           color="#6D6E70"
           fill="currentColor"
-          height="50px"
           viewBox="0 0 52 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
