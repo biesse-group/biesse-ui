@@ -62,3 +62,10 @@ Block.args = {
   children: "Block",
   isBlock: true,
 };
+
+export const WithRightIcon = Template.bind({});
+WithRightIcon.args = {
+  variant: "outline",
+  children: "Download catalog",
+  rightIcon: "download",
+};

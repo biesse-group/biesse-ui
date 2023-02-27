@@ -1,12 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Inputs/Select Dark Background 1`] = `
-.c0 {
-  padding: 1rem;
-  height: 100vh;
-  background-color: #6D6E70;
-}
-
 .c3 {
   color: inherit;
 }
@@ -14,6 +8,12 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 .c3 > svg {
   height: 20px;
   color: inherit;
+}
+
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #6D6E70;
 }
 
 .c1 {
@@ -161,12 +161,6 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 `;
 
 exports[`Storyshots Inputs/Select Light Background 1`] = `
-.c0 {
-  padding: 1rem;
-  height: 100vh;
-  background-color: #F5F5F5;
-}
-
 .c3 {
   color: inherit;
 }
@@ -174,6 +168,12 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 .c3 > svg {
   height: 20px;
   color: inherit;
+}
+
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #F5F5F5;
 }
 
 .c1 {
@@ -322,12 +322,6 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 `;
 
 exports[`Storyshots Inputs/Select Selected 1`] = `
-.c0 {
-  padding: 1rem;
-  height: 100vh;
-  background-color: #6D6E70;
-}
-
 .c3 {
   color: inherit;
 }
@@ -335,6 +329,12 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
 .c3 > svg {
   height: 20px;
   color: inherit;
+}
+
+.c0 {
+  padding: 1rem;
+  height: 100vh;
+  background-color: #6D6E70;
 }
 
 .c1 {

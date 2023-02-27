@@ -1,13 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/CardHorizontal Default 1`] = `
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: #6D6E70;
+}
+
 .c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -40,15 +60,6 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 30px;
-}
-
-.c2 {
-  color: #6D6E70;
-}
-
-.c2 > svg {
-  height: 50px;
-  color: #6D6E70;
 }
 
 .c1 {
@@ -166,13 +177,33 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 `;
 
 exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: #6D6E70;
+}
+
 .c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -205,15 +236,6 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 30px;
-}
-
-.c2 {
-  color: #6D6E70;
-}
-
-.c2 > svg {
-  height: 50px;
-  color: #6D6E70;
 }
 
 .c1 {
@@ -380,13 +402,33 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 `;
 
 exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: #6D6E70;
+}
+
 .c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -419,15 +461,6 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 30px;
-}
-
-.c2 {
-  color: #6D6E70;
-}
-
-.c2 > svg {
-  height: 50px;
-  color: #6D6E70;
 }
 
 .c1 {
