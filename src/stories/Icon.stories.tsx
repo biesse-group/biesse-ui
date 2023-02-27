@@ -12,7 +12,7 @@ export default {
 const Template: ComponentStory<typeof Icon> = (args) => <Icon {...args} />;
 
 const defaultArgs: IconProps = {
-  name: "place-holder",
+  name: "careers",
 };
 
 export const Large = Template.bind({});

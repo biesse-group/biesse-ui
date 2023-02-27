@@ -12,7 +12,8 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
@@ -73,6 +74,10 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -105,7 +110,18 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -134,7 +150,8 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
@@ -203,6 +220,10 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -249,13 +270,15 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border: 1px solid #c4c4c4;
 }
 
 .c2:focus,
@@ -310,6 +333,10 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -342,7 +369,18 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -371,7 +409,8 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   color: #252525;
   font-size: 14px;
   border-radius: 25px;
-  padding: 17px 20px 14px;
+  padding: 0 20px;
+  height: 45px;
   border: none;
   outline: none;
   -webkit-transition: all 0.2s ease-out;
@@ -434,6 +473,10 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   height: 40px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media (max-width:768px) {
+
 }
 
 @media (max-width:768px) {

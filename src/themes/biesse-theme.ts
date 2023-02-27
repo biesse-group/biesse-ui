@@ -12,6 +12,7 @@ export const biesseTheme: DefaultTheme = {
   },
   card: {
     borderRadius: "40px",
+    boxShadow: "0 0 20px 0 rgba(140,140,140,0.5)",
   },
   button: {
     borderRadius: "20px",
@@ -29,6 +30,7 @@ export const biesseTheme: DefaultTheme = {
     white: "#FFF",
     black: "#252525",
     lightGray: "#F5F5F5",
+    gray: "#c4c4c4",
   },
   font: {
     body: {

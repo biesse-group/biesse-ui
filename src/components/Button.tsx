@@ -1,6 +1,8 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import { Icon, IconName } from "./Icon";
+
 export interface ButtonProps {
   /**
    * Optional component class name
@@ -18,6 +20,10 @@ export interface ButtonProps {
    * Full-width button
    */
   isBlock?: boolean;
+  /**
+   * Shows an icon on the right
+   */
+  rightIcon?: IconName;
   onClick?: () => void;
   testId?: string;
 }
@@ -77,13 +83,20 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
   }
 };
 
+const RightIcon = styled(Icon)`
+  margin-left: 12px;
+  display: inline;
+`;
+
 const ButtonStyled = styled.button<ButtonProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
   border-radius: ${(props) => props.theme.button.borderRadius};
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   line-height: 1;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
@@ -98,6 +111,16 @@ const ButtonStyled = styled.button<ButtonProps>`
     `}
 `;
 
-export const Button: FC<PropsWithChildren<ButtonProps>> = ({ testId, ...props }) => {
-  return <ButtonStyled data-testid={testId} {...props} />;
+export const Button: FC<PropsWithChildren<ButtonProps>> = ({
+  testId,
+  children,
+  rightIcon,
+  ...props
+}) => {
+  return (
+    <ButtonStyled data-testid={testId} {...props}>
+      {children}
+      {rightIcon && <RightIcon name={rightIcon} size="26px" />}
+    </ButtonStyled>
+  );
 };

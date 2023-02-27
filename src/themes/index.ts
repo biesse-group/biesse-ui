@@ -13,6 +13,7 @@ export interface BiesseTheme {
   };
   card: {
     borderRadius: string;
+    boxShadow: string;
   };
   button: {
     borderRadius: string;
@@ -30,6 +31,7 @@ export interface BiesseTheme {
     white: string;
     black: string;
     lightGray: string;
+    gray: string;
   };
   font: {
     body: {

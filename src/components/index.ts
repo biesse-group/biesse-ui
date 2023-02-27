@@ -1,5 +1,6 @@
 export * from "./Button";
 export * from "./Card";
+export * from "./CardHorizontal";
 export * from "./HeroCarousel";
 export * from "./IconButton";
 export * from "./Input";
