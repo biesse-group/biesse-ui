@@ -94,7 +94,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
       className="c1 c2"
     >
       <img
-        alt="Dummy image"
+        alt="dummy"
         src="https://dummyimage.com/600x400/ccc/fff.png"
       />
     </div>
@@ -244,7 +244,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
       className="c1 c2"
     >
       <img
-        alt="Dummy image"
+        alt="dummy"
         src="https://dummyimage.com/600x400/ccc/fff.png"
       />
     </div>
@@ -398,7 +398,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
       className="c1 c2"
     >
       <img
-        alt="Dummy image"
+        alt="dummy"
         src="https://dummyimage.com/600x400/ccc/fff.png"
       />
     </div>
@@ -652,7 +652,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       className="c6 c7"
     >
       <img
-        alt="Dummy image"
+        alt="dummy"
         src="https://dummyimage.com/600x400/ccc/fff.png"
       />
     </div>

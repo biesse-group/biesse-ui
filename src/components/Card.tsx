@@ -18,7 +18,7 @@ const CardImgWrapper = styled.div`
   }
 `;
 
-const CardWrapper = styled.div`
+const CardRoot = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
@@ -65,17 +65,9 @@ export interface CardProps {
    */
   className?: string;
   /**
-   * The card image source
-   */
-  imageSrc?: string;
-  /**
    * Tag, overlaid on image
    */
   tag?: React.ReactElement;
-  /**
-   * The card image alt text
-   */
-  imageAlt?: string;
   /**
    * Custom image render function
    */
@@ -101,24 +93,14 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   title,
   preTitle,
   children,
-  imageSrc,
-  imageAlt = "",
   action,
   image,
   tag,
 }) => {
   return (
-    <CardWrapper className={className} data-testid={testId}>
+    <CardRoot className={className} data-testid={testId}>
       {tag && <TagWrapper>{tag}</TagWrapper>}
-      {image ? (
-        <CardImgWrapper>{image}</CardImgWrapper>
-      ) : (
-        imageSrc && (
-          <CardImgWrapper>
-            <img src={imageSrc} alt={imageAlt} />
-          </CardImgWrapper>
-        )
-      )}
+      {image && <CardImgWrapper>{image}</CardImgWrapper>}
       <CardBody>
         {preTitle && <CardPreTitle size="sm">{preTitle}</CardPreTitle>}
         <CardTitle variant="H4" color="primary" preTitle={preTitle}>
@@ -127,6 +109,6 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
         <div style={{ marginTop: "20px" }}>{children}</div>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>
-    </CardWrapper>
+    </CardRoot>
   );
 };

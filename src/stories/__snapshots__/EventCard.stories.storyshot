@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Cards/EventCard Default 1`] = `
+.c15 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c15:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c13 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c11 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 45px;
+}
+
+.c9 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c5 > svg {
+  height: 23px;
+  color: #FFF;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #F5F5F5;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c8 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 30px 20px 22px;
+}
+
+.c10 {
+  margin-bottom: 11px;
+}
+
+.c12 {
+  font-style: italic;
+  margin-bottom: 27px;
+}
+
+.c14 {
+  margin-bottom: 24px;
+}
+
+.c7 {
+  margin-top: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.c1 {
+  position: relative;
+  background-color: #6D6E70;
+  width: 85px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px 15px 0px 20px;
+  border-bottom-left-radius: 40px;
+  text-align: center;
+}
+
+.c1 > h2 {
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+.c1:hover .c6 {
+  opacity: 1;
+}
+
+.c2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  border-bottom-left-radius: 40px;
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  style={
+    Object {
+      "height": 315,
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      />
+      <h2
+        className="c3"
+        color="light"
+      >
+        17
+      </h2>
+      <h2
+        className="c3"
+        color="light"
+      >
+        11
+      </h2>
+      <span
+        className="c4"
+        color="light"
+        size="md"
+      >
+        1995
+      </span>
+      <div
+        className="c5 c6 c7"
+        color="#FFF"
+        size="23px"
+      >
+        <svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M5 12h14M12 5l7 7-7 7"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="c8"
+    >
+      <h4
+        className="c9 c10"
+        color="primary"
+      >
+        Example card
+      </h4>
+      <span
+        className="c11 c12"
+        size="sm"
+      >
+        17 dicembre 1995 / 20 marzo 2022
+      </span>
+      <span
+        className="c13 c14"
+      >
+        <span
+          className="c13"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+      <button
+        className="c15"
+        data-testid="action-button"
+      >
+        Action
+      </button>
+    </div>
+  </div>
+</div>
+`;

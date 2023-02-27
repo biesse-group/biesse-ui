@@ -28,8 +28,7 @@ const defaultArgs = {
       beatae vitae dicta sunt, explicabo.
     </Text>
   ),
-  imageSrc: "https://dummyimage.com/600x400/ccc/fff.png",
-  imageAlt: "Dummy image",
+  image: <img src="https://dummyimage.com/600x400/ccc/fff.png" alt="dummy" />,
 };
 
 export const Default = Template.bind({});
