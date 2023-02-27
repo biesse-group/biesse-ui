@@ -549,6 +549,10 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   flex-direction: column;
 }
 
+.c3 {
+  color: #FFF;
+}
+
 .c3 > svg {
   height: 20px;
   color: #FFF;
@@ -615,28 +619,14 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
           size="xs"
         >
           <svg
-            fill="currentColor"
-            stroke="currentColor"
-            viewBox="0 0 80 80"
+            viewBox="0 0 50 50"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g
+            <path
+              d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+              fill="currentColor"
               fillRule="evenodd"
-              strokeWidth="1"
-            >
-              <g
-                strokeWidth="2"
-                transform="translate(-1204 -1724)"
-              >
-                <g
-                  transform="translate(1204 1724)"
-                >
-                  <path
-                    d="M37.466 11.824L11.778 30.487a4.313 4.313 0 00-1.567 4.82l9.813 30.198a4.311 4.311 0 004.1 2.98h31.752a4.313 4.313 0 004.101-2.98l9.812-30.197a4.313 4.313 0 00-1.566-4.821L42.534 11.824a4.31 4.31 0 00-5.068 0"
-                  />
-                </g>
-              </g>
-            </g>
+            />
           </svg>
         </div>
         <span

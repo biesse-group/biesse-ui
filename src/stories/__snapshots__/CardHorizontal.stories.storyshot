@@ -12,9 +12,9 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  line-height: 1;
   font-size: 14px;
-  padding: 8px 26px;
+  padding: 0px 26px;
+  height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
@@ -23,15 +23,6 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 .c8:hover {
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c2 {
-  color: #6D6E70;
-}
-
-.c2 > svg {
-  height: 50px;
-  color: inherit;
 }
 
 .c6 {
@@ -49,6 +40,15 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 30px;
+}
+
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: #6D6E70;
 }
 
 .c1 {
@@ -89,6 +89,10 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   style={
     Object {
@@ -107,7 +111,6 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
         color="#6D6E70"
       >
         <svg
-          color="#6D6E70"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -174,9 +177,9 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  line-height: 1;
   font-size: 14px;
-  padding: 8px 26px;
+  padding: 0px 26px;
+  height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
@@ -185,15 +188,6 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 .c8:hover {
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c2 {
-  color: #6D6E70;
-}
-
-.c2 > svg {
-  height: 50px;
-  color: inherit;
 }
 
 .c6 {
@@ -211,6 +205,15 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 30px;
+}
+
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: #6D6E70;
 }
 
 .c1 {
@@ -276,6 +279,10 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 }
 
 @media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
   .c9 {
     display: none;
   }
@@ -299,7 +306,6 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
         color="#6D6E70"
       >
         <svg
-          color="#6D6E70"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -385,9 +391,9 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  line-height: 1;
   font-size: 14px;
-  padding: 8px 26px;
+  padding: 0px 26px;
+  height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
@@ -396,15 +402,6 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 .c8:hover {
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c2 {
-  color: #6D6E70;
-}
-
-.c2 > svg {
-  height: 50px;
-  color: inherit;
 }
 
 .c6 {
@@ -422,6 +419,15 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 30px;
+}
+
+.c2 {
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 50px;
+  color: #6D6E70;
 }
 
 .c1 {
@@ -487,6 +493,10 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 }
 
 @media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
   .c9 {
     display: none;
   }
@@ -510,7 +520,6 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
         color="#6D6E70"
       >
         <svg
-          color="#6D6E70"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

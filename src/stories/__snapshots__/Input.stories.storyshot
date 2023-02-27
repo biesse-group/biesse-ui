@@ -74,6 +74,10 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -205,6 +209,10 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -308,6 +316,10 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   padding-right: 4px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
+}
+
+@media (max-width:768px) {
+
 }
 
 @media (max-width:768px) {
@@ -439,6 +451,10 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   height: 40px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media (max-width:768px) {
+
 }
 
 @media (max-width:768px) {

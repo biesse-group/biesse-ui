@@ -99,7 +99,7 @@ export const Select: FC<SelectProps> = ({
           </option>
         ))}
       </StyledSelect>
-      <SelectIcon name="chevron-right" height="20px" />
+      <SelectIcon name="chevron-right" size="20px" />
     </SelectContainer>
   );
 };

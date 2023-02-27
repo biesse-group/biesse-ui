@@ -1,9 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Icon Extra Small 1`] = `
+.c0 {
+  color: inherit;
+}
+
 .c0 > svg {
   height: 20px;
   color: inherit;
+}
+
+@media (max-width:768px) {
+
 }
 
 @media (max-width:768px) {
@@ -15,26 +23,33 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
   size="xs"
 >
   <svg
-    fill="currentColor"
-    viewBox="0 0 24 24"
+    viewBox="0 0 50 50"
     xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
   >
-    <path
-      clipRule="evenodd"
-      d="M3.172 3.172C2 4.343 2 6.229 2 10v4c0 3.771 0 5.657 1.172 6.828C4.343 22 6.229 22 10 22h4c3.771 0 5.657 0 6.828-1.172C22 19.657 22 17.771 22 14v-4c0-2.84 0-4.61-.5-5.811V17c-.96 0-1.881-.381-2.56-1.06l-.752-.752c-.722-.722-1.082-1.082-1.491-1.234a2 2 0 0 0-1.394 0c-.409.152-.77.512-1.49 1.234l-.114.113c-.585.585-.878.878-1.189.932a1 1 0 0 1-.699-.134c-.268-.166-.431-.547-.758-1.308L11 14.667c-.75-1.75-1.124-2.624-1.778-2.952a2 2 0 0 0-1.065-.205c-.729.062-1.401.735-2.747 2.08L3.5 15.5V2.887c-.116.086-.225.181-.328.285Z"
-      fillRule="evenodd"
-    />
-    <path
-      d="M3 10c0-1.914.002-3.249.138-4.256.131-.978.372-1.496.74-1.865.37-.37.888-.61 1.866-.741C6.751 3.002 8.086 3 10 3h4c1.914 0 3.249.002 4.256.138.978.131 1.496.372 1.865.74.37.37.61.888.742 1.866C20.998 6.751 21 8.086 21 10v4c0 1.914-.002 3.249-.137 4.256-.132.978-.373 1.496-.742 1.865-.369.37-.887.61-1.865.742-1.007.135-2.342.137-4.256.137h-4c-1.914 0-3.249-.002-4.256-.137-.978-.132-1.496-.373-1.865-.742-.37-.369-.61-.887-.741-1.865C3.002 17.249 3 15.914 3 14v-4Z"
+    <defs>
+      <path
+        d="M0 0h23.795v23.795H0z"
+        id="a"
+      />
+    </defs>
+    <g
       fill="none"
-      stroke="currentColor"
-      strokeWidth={2}
-    />
-    <circle
-      cx={15}
-      cy={9}
-      r={2}
-    />
+      fillRule="evenodd"
+    >
+      <path
+        d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
+        fill="currentColor"
+      />
+      <g
+        transform="translate(13.308 1)"
+      >
+        <path
+          d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+          fill="currentColor"
+        />
+      </g>
+    </g>
   </svg>
 </div>
 `;
@@ -53,12 +68,15 @@ exports[`Storyshots Components/Icon Large 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="lg"
 >
   <svg
-    size="large"
     viewBox="0 0 50 50"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -104,12 +122,15 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="md"
 >
   <svg
-    size="medium"
     viewBox="0 0 50 50"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -155,12 +176,15 @@ exports[`Storyshots Components/Icon Small 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="sm"
 >
   <svg
-    size="small"
     viewBox="0 0 50 50"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"

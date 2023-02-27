@@ -82,6 +82,10 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -126,10 +130,9 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
       </select>
       <div
         className="c3 c4"
-        height="20px"
+        size="20px"
       >
         <svg
-          height="20px"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -240,6 +243,10 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -284,10 +291,9 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
       </select>
       <div
         className="c3 c4"
-        height="20px"
+        size="20px"
       >
         <svg
-          height="20px"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -397,6 +403,10 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
 
 }
 
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -442,10 +452,9 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
       </select>
       <div
         className="c3 c4"
-        height="20px"
+        size="20px"
       >
         <svg
-          height="20px"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

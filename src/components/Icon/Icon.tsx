@@ -24,10 +24,9 @@ export interface IconProps {
    */
   color?: string;
   testId?: string;
-  className?: string;
 }
 
-const getIconSize = (size?: IconProps["size"]) => {
+const getIconSize = (size: IconProps["size"] = "md") => {
   switch (size) {
     case "xs":
       return "20px";
