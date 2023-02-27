@@ -13,3 +13,4 @@ export * from "./Header";
 export * from "./Logo";
 export * from "./Icon";
 export * from "./MaterialTag";
+export * from "./EventCard";
