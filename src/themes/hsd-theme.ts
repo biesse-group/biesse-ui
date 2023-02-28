@@ -30,7 +30,7 @@ export const hsdTheme: DefaultTheme = {
   },
   color: {
     primary: "#004898",
-    secondary: "#6D6E70",
+    secondary: "#98AFD9",
     white: "#FFF",
     black: "#252525",
     lightGray: "#F5F5F5",

@@ -1,10 +1,11 @@
 import { FC, PropsWithChildren } from "react";
-import styled, { css } from "styled-components";
+import styled, { css, CSSProperties } from "styled-components";
 
 export type TitleProps = {
   variant: keyof typeof HEADINGS;
   color?: "primary" | "light";
   className?: string;
+  style?: CSSProperties;
 };
 
 type HeadingProps = Omit<TitleProps, "variant">;
