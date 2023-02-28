@@ -22,6 +22,10 @@ export type InputProps = {
    */
   shadow?: "dark" | "light";
   /**
+   * Whether the input should have a border
+   */
+  border?: boolean;
+  /**
    * Input Test ID
    */
   testId?: string;
@@ -59,7 +63,7 @@ const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
     `}
 `;
 
-const InputContainer = styled.div<Pick<InputProps, "shadow"> & { hasFocus: boolean }>`
+const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasFocus: boolean }>`
   position: relative;
   width: 100%;
   border-radius: ${(props) => props.theme.input.borderRadius};
@@ -68,6 +72,11 @@ const InputContainer = styled.div<Pick<InputProps, "shadow"> & { hasFocus: boole
   align-items: center;
   padding-right: 4px;
   transition: box-shadow 0.2s ease-out;
+  ${(props) =>
+    props.border &&
+    css`
+      border: 1px solid ${props.theme.input.borderColor};
+    `}
 
   ${(props) =>
     props.hasFocus &&
@@ -97,7 +106,7 @@ export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...
   };
 
   return (
-    <InputContainer shadow={props.shadow} hasFocus={focus}>
+    <InputContainer shadow={props.shadow} hasFocus={focus} border={props.border}>
       <StyledInput
         {...props}
         onFocus={() => setFocus(true)}

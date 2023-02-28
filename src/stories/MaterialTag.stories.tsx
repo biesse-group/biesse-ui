@@ -46,7 +46,7 @@ Glass.args = {
 export const Translated = Template.bind({});
 Translated.args = {
   material: "stone",
-  translateLanguage: () => {
+  translateLabel: () => {
     return "pietra";
   },
 };

@@ -22,6 +22,10 @@ export const hsdTheme: DefaultTheme = {
       dark: "rgba(0, 0, 0, 0.8)",
       light: "rgba(135, 135, 135, 0.8)",
     },
+    borderColor: "#C4C4C4",
+  },
+  eventCard: {
+    boxShadow: "rgba(140,140,140,0.5)",
   },
   color: {
     primary: "#004898",

@@ -1,3 +1,4 @@
+import dayjs from "dayjs";
 import { FC, PropsWithChildren } from "react";
 import styled, { useTheme } from "styled-components";
 
@@ -17,11 +18,11 @@ export interface EventCardProps {
   /**
    * Starting date of the event
    */
-  startDate: Date;
+  startDate: dayjs.Dayjs;
   /**
    * Ending date of the event
    */
-  endDate: Date;
+  endDate: dayjs.Dayjs;
   /**
    * Description located under the title
    */
@@ -48,6 +49,13 @@ const EventCardRoot = styled.div`
   background-color: ${(props) => props.theme.color.lightGray};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
+
+  transition: all 0.2s linear;
+
+  :hover {
+    background-color: ${(props) => props.theme.color.white};
+    box-shadow: 0 0 20px 0 ${(props) => props.theme.eventCard.boxShadow};
+  }
 `;
 
 const EventCardMainWrapper = styled.div`
@@ -126,22 +134,15 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
 }) => {
   const theme = useTheme();
 
-  const dateText = `${startDate.getDate()} ${startDate.toLocaleString(language || "default", {
-    month: "long",
-  })} ${startDate.getFullYear()} / ${endDate.getDate()} ${endDate.toLocaleString(
-    language || "default",
-    {
-      month: "long",
-    }
-  )} ${endDate.getFullYear()}`;
+  const dateText = `${startDate.format("DD MMMM YYYY")} / ${endDate.format("DD MMMM YYYY")}`;
 
   return (
     <EventCardRoot className={className} data-testid={testId} {...props}>
       <DateLinkWrapper>
         <LinkWrapper>{link}</LinkWrapper>
-        <Title variant="H2" color="light">{`${startDate.getDate()}`}</Title>
-        <Title variant="H2" color="light">{`${startDate.getMonth()}`}</Title>
-        <Text size="md" color="light">{`${startDate.getFullYear()}`}</Text>
+        <Title variant="H2" color="light">{`${startDate.format("DD")}`}</Title>
+        <Title variant="H2" color="light">{`${startDate.format("MM")}`}</Title>
+        <Text size="md" color="light">{`${startDate.format("YYYY")}`}</Text>
         <DateLinkIcon name="arrow-right" color={theme.color.white} size="23px" />
       </DateLinkWrapper>
 
