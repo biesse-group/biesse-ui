@@ -1,0 +1,682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/MaterialTag Composite 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #8080FF;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      stroke="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fillRule="evenodd"
+        strokeWidth="1"
+      >
+        <g
+          strokeWidth="2"
+          transform="translate(-861 -1724)"
+        >
+          <g
+            transform="translate(861 1724)"
+          >
+            <path
+              d="M68.76 37.006L42.994 11.24a4.234 4.234 0 00-5.988 0L11.24 37.006a4.234 4.234 0 000 5.988L37.006 68.76a4.234 4.234 0 005.988 0L68.76 42.994a4.234 4.234 0 000-5.988"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    composite
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Glass 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #38BEEF;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <path
+          d="M0 0L60 0 60 60 0 60z"
+          id="path-1"
+        />
+      </defs>
+      <g
+        fillRule="evenodd"
+        stroke="none"
+        strokeWidth="1"
+      >
+        <g
+          transform="translate(-1032 -1724)"
+        >
+          <g
+            transform="translate(1032 1724)"
+          >
+            <g
+              transform="translate(10 10)"
+            >
+              <path
+                d="M54.344 0H5.657A5.656 5.656 0 000 5.655v48.687A5.655 5.655 0 005.657 60h48.687A5.656 5.656 0 0060 54.343V5.656A5.657 5.657 0 0054.344 0"
+              />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    glass
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Metal 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #93949A;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <path
+          d="M0 0L67.8521983 0 67.8521983 60 0 60z"
+          id="path-1"
+        />
+      </defs>
+      <g
+        fillRule="evenodd"
+        stroke="none"
+        strokeWidth="1"
+      >
+        <g
+          transform="translate(-689 -1724)"
+        >
+          <g
+            transform="translate(689 1724)"
+          >
+            <g
+              transform="translate(6 10)"
+            >
+              <path
+                d="M48.58 0H19.273c-1.65 0-3.176.88-4 2.31L.618 27.69a4.622 4.622 0 000 4.62L15.273 57.69a4.62 4.62 0 004 2.31H48.58a4.62 4.62 0 004-2.31L67.234 32.31a4.622 4.622 0 000-4.62L52.58 2.31a4.617 4.617 0 00-4-2.31"
+              />
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    metal
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Stone 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+  data-testid="action-button"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      stroke="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fillRule="evenodd"
+        strokeWidth="1"
+      >
+        <g
+          strokeWidth="2"
+          transform="translate(-1204 -1724)"
+        >
+          <g
+            transform="translate(1204 1724)"
+          >
+            <path
+              d="M37.466 11.824L11.778 30.487a4.313 4.313 0 00-1.567 4.82l9.813 30.198a4.311 4.311 0 004.1 2.98h31.752a4.313 4.313 0 004.101-2.98l9.812-30.197a4.313 4.313 0 00-1.566-4.821L42.534 11.824a4.31 4.31 0 00-5.068 0"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    stone
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Translated 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      stroke="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fillRule="evenodd"
+        strokeWidth="1"
+      >
+        <g
+          strokeWidth="2"
+          transform="translate(-1204 -1724)"
+        >
+          <g
+            transform="translate(1204 1724)"
+          >
+            <path
+              d="M37.466 11.824L11.778 30.487a4.313 4.313 0 00-1.567 4.82l9.813 30.198a4.311 4.311 0 004.1 2.98h31.752a4.313 4.313 0 004.101-2.98l9.812-30.197a4.313 4.313 0 00-1.566-4.821L42.534 11.824a4.31 4.31 0 00-5.068 0"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    pietra
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag With Border 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  border: 1px solid #FFF;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      stroke="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fillRule="evenodd"
+        strokeWidth="1"
+      >
+        <g
+          strokeWidth="2"
+          transform="translate(-1204 -1724)"
+        >
+          <g
+            transform="translate(1204 1724)"
+          >
+            <path
+              d="M37.466 11.824L11.778 30.487a4.313 4.313 0 00-1.567 4.82l9.813 30.198a4.311 4.311 0 004.1 2.98h31.752a4.313 4.313 0 004.101-2.98l9.812-30.197a4.313 4.313 0 00-1.566-4.821L42.534 11.824a4.31 4.31 0 00-5.068 0"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    stone
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Wood 1`] = `
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      fill="currentColor"
+      stroke="currentColor"
+      viewBox="0 0 80 80"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fillRule="evenodd"
+        strokeWidth="1"
+      >
+        <g
+          strokeWidth="2"
+          transform="translate(-517 -1724)"
+        >
+          <g
+            transform="translate(517 1724)"
+          >
+            <path
+              d="M36.198 12.143L6.578 63.57C4.935 66.43 6.99 70 10.282 70h59.238c3.29 0 5.347-3.571 3.702-6.429L43.602 12.143c-1.646-2.857-5.758-2.857-7.404 0"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    wood
+  </span>
+</div>
+`;

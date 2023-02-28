@@ -29,6 +29,14 @@ export const biesseTheme: DefaultTheme = {
     white: "#FFF",
     black: "#252525",
     lightGray: "#F5F5F5",
+
+    material: {
+      wood: "#F9942E",
+      composite: "#8080FF",
+      glass: "#38BEEF",
+      metal: "#93949A",
+      stone: "#F9942E",
+    },
   },
   font: {
     body: {
