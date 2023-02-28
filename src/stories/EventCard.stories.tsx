@@ -19,9 +19,9 @@ export default {
 const Template: ComponentStory<typeof EventCard> = (args) => <EventCard {...args} />;
 
 const defaultArgs = {
-  title: "Example card",
-  startDate: new Date(`December 17, 1995 03:24:00`),
-  endDate: new Date(`March 20, 2022 03:24:00`),
+  title: "Lore Ipsum",
+  startDate: new Date(`december 17, 1995 03:24:00`),
+  endDate: new Date(`march 20, 2022 03:24:00`),
   description: (
     <Text size="md">
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -47,4 +47,11 @@ export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   ...defaultArgs,
+};
+
+export const Translated = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Translated.args = {
+  ...defaultArgs,
+  language: "IT-it",
 };
