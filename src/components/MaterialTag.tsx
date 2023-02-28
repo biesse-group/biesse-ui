@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styled, { css, useTheme } from "styled-components";
 
+import { biesseTheme } from "../themes/biesse-theme";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 
@@ -10,21 +11,17 @@ export interface MaterialTagProps {
    */
   className?: string;
   /**
-   * Id of the Icon component on the left of the tag
+   * Predefined materials, will infer color, icon and label to the component
    */
-  icon: IconName;
-  /**
-   * Text inside the tag;
-   */
-  label: string;
-  /**
-   * Background color
-   */
-  color: string;
+  material: keyof typeof biesseTheme.color.material;
   /**
    * Enable border and shadow around the tag
    */
   border?: boolean;
+  /**
+   * Function used to translate labels in the current language
+   */
+  translateLanguage?: (label: MaterialTagProps["material"]) => string;
   onClick?: () => void;
   testId?: string;
 }
@@ -34,7 +31,7 @@ const TagLabel = styled(Text)`
   margin-left: 9px;
 `;
 
-const TagRoot = styled.div<Pick<MaterialTagProps, "color" | "border">>`
+const TagRoot = styled.div<Pick<MaterialTagProps, "border"> & { backGroundColor: string }>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
@@ -46,8 +43,9 @@ const TagRoot = styled.div<Pick<MaterialTagProps, "color" | "border">>`
   flex-direction: row;
   padding: 0px 14px 0px 10px;
   height: 30px;
+  width: fit-content;
   align-items: center;
-  background-color: ${(props) => props.color};
+  background-color: ${(props) => props.backGroundColor};
 
   ${(props) =>
     props.border &&
@@ -57,13 +55,36 @@ const TagRoot = styled.div<Pick<MaterialTagProps, "color" | "border">>`
     `}
 `;
 
-export const MaterialTag: FC<MaterialTagProps> = ({ label, icon, testId, ...props }) => {
+const getIconName: (material: MaterialTagProps["material"]) => IconName = (
+  material: MaterialTagProps["material"]
+) => {
+  switch (material) {
+    case "wood":
+      return "material-wood";
+    case "composite":
+      return "material-composite";
+    case "glass":
+      return "material-glass";
+    case "metal":
+      return "material-metal";
+    default:
+      return "material-stone";
+  }
+};
+
+export const MaterialTag: FC<MaterialTagProps> = ({
+  material,
+  testId,
+  translateLanguage,
+  ...props
+}) => {
   const theme = useTheme();
+  console.log(getIconName(material));
   return (
-    <TagRoot data-testid={testId} {...props}>
-      <Icon name={icon} color={theme.color.white} size="xs" />
+    <TagRoot data-testid={testId} backGroundColor={theme.color.material[material]} {...props}>
+      <Icon name={getIconName(material)} color={theme.color.white} size="xs" />
       <TagLabel color="light" size="sm">
-        {label}
+        {translateLanguage ? translateLanguage(material) : material}
       </TagLabel>
     </TagRoot>
   );

@@ -32,6 +32,14 @@ export interface BiesseTheme {
     black: string;
     lightGray: string;
     gray: string;
+
+    material: {
+      wood: string;
+      metal: string;
+      composite: string;
+      glass: string;
+      stone: string;
+    };
   };
   font: {
     body: {

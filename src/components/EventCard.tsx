@@ -31,6 +31,10 @@ export interface EventCardProps {
    * Should be transparent.
    */
   link?: JSX.Element;
+  /**
+   * Current location language
+   */
+  language?: Intl.LocalesArgument;
   testId?: string;
 }
 
@@ -117,17 +121,22 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
   description,
   children,
   link,
+  language,
+  ...props
 }) => {
   const theme = useTheme();
 
-  const dateText = `${startDate.getDate()} ${startDate.toLocaleString("it-IT", {
+  const dateText = `${startDate.getDate()} ${startDate.toLocaleString(language || "default", {
     month: "long",
-  })} ${startDate.getFullYear()} / ${endDate.getDate()} ${endDate.toLocaleString("it-IT", {
-    month: "long",
-  })} ${endDate.getFullYear()}`;
+  })} ${startDate.getFullYear()} / ${endDate.getDate()} ${endDate.toLocaleString(
+    language || "default",
+    {
+      month: "long",
+    }
+  )} ${endDate.getFullYear()}`;
 
   return (
-    <EventCardRoot className={className} data-testid={testId}>
+    <EventCardRoot className={className} data-testid={testId} {...props}>
       <DateLinkWrapper>
         <LinkWrapper>{link}</LinkWrapper>
         <Title variant="H2" color="light">{`${startDate.getDate()}`}</Title>
