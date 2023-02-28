@@ -283,13 +283,345 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
         className="c9 c10"
         color="primary"
       >
-        Example card
+        Lore Ipsum
       </h4>
       <span
         className="c11 c12"
         size="sm"
       >
         17 December 1995 / 20 March 2022
+      </span>
+      <span
+        className="c13 c14"
+      >
+        <span
+          className="c13"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+          }
+        }
+      >
+        <span
+          className="c15"
+          color="primary"
+          size="lg"
+        >
+          INPUT TITLE
+        </span>
+        <div
+          className="c16"
+        >
+          <input
+            className="c17"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/EventCard Translated 1`] = `
+.c13 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c11 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c15 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #6D6E70;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 45px;
+}
+
+.c9 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c5 > svg {
+  height: 23px;
+  color: #FFF;
+}
+
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 17px 20px 14px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:active,
+.c17:focus {
+  box-shadow: none;
+}
+
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  background-color: #F5F5F5;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c8 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 30px 20px 22px;
+}
+
+.c10 {
+  margin-bottom: 11px;
+}
+
+.c12 {
+  font-style: italic;
+  margin-bottom: 27px;
+}
+
+.c14 {
+  margin-bottom: 24px;
+}
+
+.c7 {
+  margin-top: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.c1 {
+  position: relative;
+  background-color: #6D6E70;
+  width: 85px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px 15px 0px 20px;
+  border-bottom-left-radius: 40px;
+  text-align: center;
+}
+
+.c1 > h2 {
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+.c1:hover .c6 {
+  opacity: 1;
+}
+
+.c2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  border-bottom-left-radius: 40px;
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+  style={
+    Object {
+      "height": 315,
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <a
+          href="/"
+        >
+          <div
+            style={
+              Object {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+          />
+        </a>
+      </div>
+      <h2
+        className="c3"
+        color="light"
+      >
+        17
+      </h2>
+      <h2
+        className="c3"
+        color="light"
+      >
+        11
+      </h2>
+      <span
+        className="c4"
+        color="light"
+        size="md"
+      >
+        1995
+      </span>
+      <div
+        className="c5 c6 c7"
+        color="#FFF"
+        size="23px"
+      >
+        <svg
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M5 12h14M12 5l7 7-7 7"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="c8"
+    >
+      <h4
+        className="c9 c10"
+        color="primary"
+      >
+        Lore Ipsum
+      </h4>
+      <span
+        className="c11 c12"
+        size="sm"
+      >
+        17 dicembre 1995 / 20 marzo 2022
       </span>
       <span
         className="c13 c14"
