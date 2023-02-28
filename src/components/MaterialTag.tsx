@@ -21,7 +21,7 @@ export interface MaterialTagProps {
   /**
    * Function used to translate labels in the current language
    */
-  translateLanguage?: (label: MaterialTagProps["material"]) => string;
+  translateLabel?: (label: MaterialTagProps["material"]) => string;
   onClick?: () => void;
   testId?: string;
 }
@@ -75,16 +75,15 @@ const getIconName: (material: MaterialTagProps["material"]) => IconName = (
 export const MaterialTag: FC<MaterialTagProps> = ({
   material,
   testId,
-  translateLanguage,
+  translateLabel,
   ...props
 }) => {
   const theme = useTheme();
-  console.log(getIconName(material));
   return (
     <TagRoot data-testid={testId} backGroundColor={theme.color.material[material]} {...props}>
       <Icon name={getIconName(material)} color={theme.color.white} size="xs" />
       <TagLabel color="light" size="sm">
-        {translateLanguage ? translateLanguage(material) : material}
+        {translateLabel ? translateLabel(material) : material}
       </TagLabel>
     </TagRoot>
   );
