@@ -49,7 +49,6 @@ export const WithButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithButton.args = {
   placeholder: "Name",
-  shadow: "dark",
   withButton: {
     label: "Send",
   },

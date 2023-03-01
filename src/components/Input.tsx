@@ -55,6 +55,8 @@ const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
     box-shadow: none;
   }
 
+  border: none;
+
   ${(props) =>
     props.withButton &&
     css`
