@@ -31,7 +31,7 @@ const TagLabel = styled(Text)`
   margin-left: 9px;
 `;
 
-const TagRoot = styled.div<Pick<MaterialTagProps, "border"> & { backGroundColor: string }>`
+const TagRoot = styled.div<Pick<MaterialTagProps, "border"> & { BackGroundColor: string }>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
@@ -39,13 +39,12 @@ const TagRoot = styled.div<Pick<MaterialTagProps, "border"> & { backGroundColor:
   line-height: 1;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   padding: 0px 14px 0px 10px;
   height: 30px;
-  width: fit-content;
   align-items: center;
-  background-color: ${(props) => props.backGroundColor};
+  background-color: ${(props) => props.BackGroundColor};
 
   ${(props) =>
     props.border &&
@@ -80,7 +79,7 @@ export const MaterialTag: FC<MaterialTagProps> = ({
 }) => {
   const theme = useTheme();
   return (
-    <TagRoot data-testid={testId} backGroundColor={theme.color.material[material]} {...props}>
+    <TagRoot data-testid={testId} BackGroundColor={theme.color.material[material]} {...props}>
       <Icon name={getIconName(material)} color={theme.color.white} size="xs" />
       <TagLabel color="light" size="sm">
         {translateLabel ? translateLabel(material) : material}

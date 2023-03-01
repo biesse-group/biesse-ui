@@ -45,6 +45,7 @@ const EventCardRoot = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 
   background-color: ${(props) => props.theme.color.lightGray};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
@@ -93,7 +94,6 @@ const DateLinkWrapper = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px 15px 0px 20px;
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   text-align: center;
 
   > h2 {
@@ -116,7 +116,6 @@ const LinkWrapper = styled.div`
   width: 100%;
   background-color: transparent;
   z-index: 1;
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   cursor: pointer;
 `;
 
