@@ -1,7 +1,7 @@
 import { Variant, Variants } from "framer-motion";
 
 const centerVariant: Variant = {
-  top: "48px",
+  top: 0,
   left: "50%",
   right: "auto",
   x: "-50%",
@@ -11,22 +11,22 @@ const centerVariant: Variant = {
 };
 
 const leftVariant: Variant = {
-  top: "50%",
+  top: "90%",
   left: "12.5%",
   right: "auto",
   x: "-50%",
   y: "-50%",
-  scale: 0.2,
+  scale: 0.5,
   opacity: 1,
 };
 
 const rightVariant: Variant = {
-  top: "50%",
+  top: "90%",
   right: "12.5%",
   left: "auto",
   x: "50%",
   y: "-50%",
-  scale: 0.2,
+  scale: 0.5,
   opacity: 1,
 };
 
@@ -35,7 +35,7 @@ const hiddenVariant: Variant = {
   scale: 0,
 };
 
-export const itemVariants: Record<"left" | "right" | "center", Variants> = {
+export const imageVariants: Record<"left" | "right" | "center", Variants> = {
   center: {
     initial: (direction: number) => (direction > 0 ? rightVariant : leftVariant),
     animate: centerVariant,

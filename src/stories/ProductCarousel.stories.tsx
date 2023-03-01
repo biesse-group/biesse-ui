@@ -40,7 +40,7 @@ const items: SampleProduct[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.",
     tags: ["stone", "composite"],
-    imageUrl: "https://dummyimage.com/1000x1000/c71a62/fff",
+    imageUrl: "assets/product-carousel-1.png",
   },
   {
     code: "AB564",
@@ -48,7 +48,7 @@ const items: SampleProduct[] = [
     description:
       "Sed aliquam ultrices mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras varius. Aenean vulputate eleifend tellus. Etiam vitae tortor.",
     tags: ["wood", "metal", "stone"],
-    imageUrl: "https://dummyimage.com/1000x1000/088d9c/fff",
+    imageUrl: "assets/product-carousel-2.png",
   },
   {
     code: "FR999",
@@ -56,7 +56,7 @@ const items: SampleProduct[] = [
     description:
       "Curabitur nisi.. Aenean ut eros et nisl sagittis vestibulum. Nulla facilisi. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.",
     tags: ["glass"],
-    imageUrl: "https://dummyimage.com/1000x1000/469c09/fff",
+    imageUrl: "assets/product-carousel-3.png",
   },
 ];
 

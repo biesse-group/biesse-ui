@@ -5,7 +5,8 @@ import styled from "styled-components";
 import { getKeys } from "../../utils/get-keys";
 import { IconButton } from "../IconButton";
 import { Title } from "../Title";
-import { itemVariants } from "./itemsVariants";
+import { imageVariants } from "./imageVariants";
+import { titleVariants } from "./titleVariants";
 
 const Container = styled.div`
   padding-bottom: 20px;
@@ -28,10 +29,13 @@ const CarouselTitle = styled(Title)`
 `;
 
 const ItemsStrip = styled.div`
-  width: 100%;
   align-items: center;
-  position: relative;
   flex: 1 1 auto;
+  position: absolute;
+  left: 110px;
+  right: 110px;
+  bottom: 0;
+  top: 100px;
 `;
 
 const ItemTitle = styled(motion.div)<{ position: "left" | "center" | "right" }>`
@@ -42,6 +46,17 @@ const ItemTitle = styled(motion.div)<{ position: "left" | "center" | "right" }>`
   text-align: center;
   width: 800px;
   user-select: none;
+`;
+
+const ItemImage = styled(motion.div)<{ position: "left" | "center" | "right" }>`
+  position: absolute;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const PrevButton = styled(IconButton)`
@@ -111,34 +126,45 @@ export const ProductCarousel = <T extends object>({
         </CarouselTitle>
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
-            {getKeys(shownIndex).map((key) => (
+            {getKeys(shownIndex).map((pos) => (
               <ItemTitle
-                position={key}
-                variants={itemVariants[key]}
+                position={pos}
+                variants={titleVariants[pos]}
                 initial="initial"
                 animate="animate"
                 exit="exit"
                 custom={direction}
-                key={page + key}
+                key={page + pos}
                 transition={{
                   type: "tween",
                   ease: "easeOut",
                   duration: 0.5,
                 }}
               >
-                {renderTitle(items[shownIndex[key]])}
+                {renderTitle(items[shownIndex[pos]])}
               </ItemTitle>
-              // <ItemContainer
-              //   key={index}
-              //   style={{
-              //     top: index !== currentIndex ? 80 : undefined,
-              //     left: index === prevIndex ? 120 : undefined,
-              //     right: index === nextIndex ? 120 : undefined,
-              //   }}
-              // >
-              //   <ItemTitle isActive={index === currentIndex}>{renderTitle(items[index])}</ItemTitle>
-              //   <ItemImage isActive={index === currentIndex}>{renderImage(items[index])}</ItemImage>
-              // </ItemContainer>
+            ))}
+          </AnimatePresence>
+        </ItemsStrip>
+        <ItemsStrip>
+          <AnimatePresence initial={false} custom={direction}>
+            {getKeys(shownIndex).map((pos) => (
+              <ItemImage
+                position={pos}
+                variants={imageVariants[pos]}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                custom={direction}
+                key={page + pos}
+                transition={{
+                  type: "tween",
+                  ease: "easeOut",
+                  duration: 0.5,
+                }}
+              >
+                {renderImage(items[shownIndex[pos]])}
+              </ItemImage>
             ))}
           </AnimatePresence>
         </ItemsStrip>
