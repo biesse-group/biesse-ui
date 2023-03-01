@@ -1,15 +1,17 @@
-import { AnimatePresence, motion, wrap } from "framer-motion";
-import { useState } from "react";
+import { AnimatePresence, motion, Transition, wrap } from "framer-motion";
+import { useMemo } from "react";
+import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
 import { getKeys } from "../../utils/get-keys";
 import { IconButton } from "../IconButton";
 import { Title } from "../Title";
+import { detailVariants } from "./detailVariants";
 import { imageVariants } from "./imageVariants";
 import { titleVariants } from "./titleVariants";
 
-const Container = styled.div`
-  padding-bottom: 20px;
+const Container = styled.div<{ contentHeight: number }>`
+  height: ${(props) => props.contentHeight + 750}px;
 `;
 
 const BackgroundStrip = styled.div`
@@ -21,6 +23,10 @@ const BackgroundStrip = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.xl}) {
+    height: 300px;
+  }
 `;
 
 const CarouselTitle = styled(Title)`
@@ -46,6 +52,11 @@ const ItemTitle = styled(motion.div)<{ position: "left" | "center" | "right" }>`
   text-align: center;
   width: 800px;
   user-select: none;
+
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.xl}) {
+    font-size: 150px;
+    width: 600px;
+  }
 `;
 
 const ItemImage = styled(motion.div)<{ position: "left" | "center" | "right" }>`
@@ -53,10 +64,15 @@ const ItemImage = styled(motion.div)<{ position: "left" | "center" | "right" }>`
   text-align: center;
   width: 450px;
   height: 450px;
-  user-select: none;
+  pointer-events: none;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.xl}) {
+    width: 300px;
+    height: 300px;
+  }
 `;
 
 const PrevButton = styled(IconButton)`
@@ -76,8 +92,9 @@ const ItemDetailWrapper = styled.div`
   justify-content: center;
 `;
 
-const ItemDetail = styled.div`
-  flex: 0 1 600px;
+const ItemDetail = styled(motion.div)`
+  max-width: 600px;
+  position: absolute;
 `;
 
 export type ProductCarouselProps<T extends object> = {
@@ -95,12 +112,27 @@ export const ProductCarousel = <T extends object>({
   renderDetail,
   renderImage,
 }: ProductCarouselProps<T>) => {
-  const [[page, direction], setPage] = useState([0, 0]);
+  const adaptedItems = useMemo(() => [...items, ...items, ...items], [items]);
+  const [[page, direction], setPage] = useState([items.length, 0]);
   const [disabled, setDisabled] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [contentHeight, setContentHeight] = useState(0);
 
-  const currIndex = wrap(0, items.length, page);
-  const prevIndex = wrap(0, items.length, page - 1);
-  const nextIndex = wrap(0, items.length, page + 1);
+  useEffect(() => {
+    let resizeObserver: ResizeObserver;
+    if (contentRef.current) {
+      resizeObserver = new ResizeObserver(() => {
+        console.log(contentRef.current?.clientHeight);
+        setContentHeight(contentRef.current?.clientHeight || 0);
+      });
+      resizeObserver.observe(contentRef.current);
+    }
+    return () => resizeObserver?.disconnect();
+  }, []);
+
+  const currIndex = wrap(0, adaptedItems.length, page);
+  const prevIndex = wrap(0, adaptedItems.length, page - 1);
+  const nextIndex = wrap(0, adaptedItems.length, page + 1);
 
   const shownIndex = {
     left: prevIndex,
@@ -111,15 +143,17 @@ export const ProductCarousel = <T extends object>({
   const handleChange = (newDirection: number) => {
     if (!disabled) {
       setPage([page + newDirection, newDirection]);
-      setDisabled(true);
-      setTimeout(() => {
-        setDisabled(false);
-      }, 500);
     }
   };
 
+  const transition: Transition = {
+    type: "tween",
+    ease: "easeOut",
+    duration: 0.7,
+  };
+
   return (
-    <Container>
+    <Container contentHeight={contentHeight}>
       <BackgroundStrip>
         <CarouselTitle variant="H2" color="light">
           {title}
@@ -134,14 +168,12 @@ export const ProductCarousel = <T extends object>({
                 animate="animate"
                 exit="exit"
                 custom={direction}
-                key={page + pos}
-                transition={{
-                  type: "tween",
-                  ease: "easeOut",
-                  duration: 0.5,
-                }}
+                key={shownIndex[pos]}
+                transition={transition}
+                onAnimationStart={() => setDisabled(true)}
+                onAnimationComplete={() => setDisabled(false)}
               >
-                {renderTitle(items[shownIndex[pos]])}
+                {renderTitle(adaptedItems[shownIndex[pos]])}
               </ItemTitle>
             ))}
           </AnimatePresence>
@@ -156,14 +188,10 @@ export const ProductCarousel = <T extends object>({
                 animate="animate"
                 exit="exit"
                 custom={direction}
-                key={page + pos}
-                transition={{
-                  type: "tween",
-                  ease: "easeOut",
-                  duration: 0.5,
-                }}
+                key={shownIndex[pos]}
+                transition={transition}
               >
-                {renderImage(items[shownIndex[pos]])}
+                {renderImage(adaptedItems[shownIndex[pos]])}
               </ItemImage>
             ))}
           </AnimatePresence>
@@ -182,7 +210,18 @@ export const ProductCarousel = <T extends object>({
         />
       </BackgroundStrip>
       <ItemDetailWrapper>
-        <ItemDetail>{renderDetail(items[currIndex])}</ItemDetail>
+        <AnimatePresence initial={false}>
+          <ItemDetail
+            variants={detailVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            key={page}
+            ref={contentRef}
+          >
+            {renderDetail(adaptedItems[currIndex])}
+          </ItemDetail>
+        </AnimatePresence>
       </ItemDetailWrapper>
     </Container>
   );

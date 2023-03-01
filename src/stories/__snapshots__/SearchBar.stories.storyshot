@@ -82,6 +82,18 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 
 }
 
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
 <div
   style={
     Object {

@@ -1,9 +1,11 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { FC } from "react";
+import styled from "styled-components";
 
 // import { useTheme } from "styled-components";
 import {
-  Button, // MaterialTag,
+  Button,
+  MaterialTag, // MaterialTag,
   ProductCarousel,
   ProductCarouselProps,
   Text,
@@ -58,10 +60,25 @@ const items: SampleProduct[] = [
     tags: ["glass"],
     imageUrl: "assets/product-carousel-3.png",
   },
+  {
+    code: "KK765",
+    name: "Nam quam nunc blandit",
+    description:
+      "Curabitur nisi.. Aenean ut eros et nisl sagittis vestibulum. Nulla facilisi. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc.",
+    tags: ["glass"],
+    imageUrl: "https://dummyimage.com/600x400/000/fff",
+  },
 ];
 
+const TagList = styled.div`
+  margin-top: 20px;
+
+  > *:not(:last-child) {
+    margin-right: 10px;
+  }
+`;
+
 const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
-  // const theme = useTheme();
   return (
     <div>
       <div style={{ display: "flex", alignItems: "center" }}>
@@ -80,6 +97,11 @@ const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
       <Text tag="p" style={{ marginTop: 12 }}>
         {product.description}
       </Text>
+      <TagList>
+        {product.tags.map((tag) => (
+          <MaterialTag material={tag} />
+        ))}
+      </TagList>
     </div>
   );
 };

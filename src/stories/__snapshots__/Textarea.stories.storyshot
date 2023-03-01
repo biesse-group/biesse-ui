@@ -57,6 +57,18 @@ exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
 
 }
 
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
 <div
   className="c0"
 >
@@ -129,6 +141,18 @@ exports[`Storyshots Inputs/Textarea Filled 1`] = `
 }
 
 @media (max-width:768px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
 
 }
 
@@ -206,6 +230,18 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 }
 
 @media (max-width:768px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
+
+}
+
+@media screen and (max-width:1400px) {
 
 }
 
