@@ -28,8 +28,7 @@ const defaultArgs = {
       beatae vitae dicta sunt, explicabo.
     </Text>
   ),
-  imageSrc: "https://dummyimage.com/600x400/ccc/fff.png",
-  imageAlt: "Dummy image",
+  image: <img src="https://dummyimage.com/600x400/ccc/fff.png" alt="dummy" />,
 };
 
 export const Default = Template.bind({});
@@ -62,5 +61,5 @@ export const WithTagAndButton = Template.bind({});
 WithTagAndButton.args = {
   ...defaultArgs,
   action: <Button variant="outline" children="Action" testId="action-button" />,
-  tag: <MaterialTag color="#E1523D" label="pietra" icon="material-stone" border={true} />,
+  tag: <MaterialTag material="stone" border={true} />,
 };

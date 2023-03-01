@@ -23,6 +23,10 @@ export const biesseTheme: DefaultTheme = {
       dark: "rgba(0, 0, 0, 0.8)",
       light: "rgba(135, 135, 135, 0.8)",
     },
+    borderColor: "#C4C4C4",
+  },
+  eventCard: {
+    boxShadow: "rgba(140,140,140,0.5)",
   },
   color: {
     primary: "#6D6E70",
@@ -31,6 +35,14 @@ export const biesseTheme: DefaultTheme = {
     black: "#252525",
     lightGray: "#F5F5F5",
     gray: "#c4c4c4",
+
+    material: {
+      wood: "#F9942E",
+      composite: "#8080FF",
+      glass: "#38BEEF",
+      metal: "#93949A",
+      stone: "#F9942E",
+    },
   },
   font: {
     body: {

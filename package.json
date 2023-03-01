@@ -12,6 +12,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/styled-components": "^5.1.26",
+    "dayjs": "^1.11.7",
     "framer-motion": "^9.0.4",
     "jest-styled-components": "^7.1.1",
     "popmotion": "^11.0.5",

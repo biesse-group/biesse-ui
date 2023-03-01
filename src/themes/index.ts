@@ -15,6 +15,9 @@ export interface BiesseTheme {
     borderRadius: string;
     boxShadow: string;
   };
+  eventCard: {
+    boxShadow: string;
+  };
   button: {
     borderRadius: string;
   };
@@ -24,6 +27,7 @@ export interface BiesseTheme {
       dark: string;
       light: string;
     };
+    borderColor: string;
   };
   color: {
     primary: string;
@@ -32,6 +36,14 @@ export interface BiesseTheme {
     black: string;
     lightGray: string;
     gray: string;
+
+    material: {
+      wood: string;
+      metal: string;
+      composite: string;
+      glass: string;
+      stone: string;
+    };
   };
   font: {
     body: {
