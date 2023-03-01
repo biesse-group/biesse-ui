@@ -41,7 +41,7 @@ export const hsdTheme: DefaultTheme = {
       composite: "#8080FF",
       glass: "#38BEEF",
       metal: "#93949A",
-      stone: "#F9942E",
+      stone: "#E1523D",
     },
   },
   font: {
