@@ -1,104 +1,31 @@
-import { AnimatePresence, motion, Transition, wrap } from "framer-motion";
+import { AnimatePresence, HTMLMotionProps, motion, wrap } from "framer-motion";
 import { useMemo } from "react";
 import { useState } from "react";
 import styled, { css } from "styled-components";
 
+import { useBreakpoints } from "../../hooks";
 import { mqUntil } from "../../styles/media-queries";
 import { getKeys } from "../../utils/getKeys";
-import { IconButton } from "../IconButton";
 import { Title } from "../Title";
-import { detailVariants } from "./detailVariants";
-import { imageVariants } from "./imageVariants";
-import { titleVariants } from "./titleVariants";
-
-const BackgroundStrip = styled.div`
-  background-color: ${(props) => props.theme.color.secondary};
-  color: ${(props) => props.theme.color.white};
-  padding: 42px 90px;
-  height: 440px;
-  margin-bottom: 124px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-
-  ${mqUntil(
-    "xl",
-    css`
-      height: 270px;
-      margin-bottom: 100px;
-    `
-  )}
-`;
+import { BackgroundStrip } from "./BackgroundStrip";
+import { ControlButton } from "./ControlButton";
+import { ItemImage } from "./ItemImage";
+import { ItemPosition, ItemProps } from "./itemProps";
+import { ItemsStrip } from "./ItemsStrip";
+import { ItemTitle } from "./ItemTitle";
+import { detailVariants, imageVariants, mobileVariants, titleVariants } from "./variants";
 
 const CarouselTitle = styled(Title)`
   font-size: ${(props) => props.theme.font.headings.xxl};
   margin: 0;
-`;
-
-const ItemsStrip = styled.div`
-  align-items: center;
-  flex: 1 1 auto;
-  position: absolute;
-  left: 110px;
-  right: 110px;
-  bottom: 0;
-  top: 100px;
 
   ${mqUntil(
-    "xl",
+    "sm",
     css`
-      top: 60px;
+      font-size: ${(props) => props.theme.font.headings.sm};
+      text-align: center;
     `
   )}
-`;
-
-const ItemTitle = styled(motion.div)<{ position: "left" | "center" | "right" }>`
-  color: ${(props) => props.theme.color.white};
-  font-size: 220px;
-  font-weight: ${(props) => props.theme.font.weight.bold};
-  position: absolute;
-  text-align: center;
-  width: 800px;
-  user-select: none;
-
-  ${mqUntil(
-    "xl",
-    css`
-      font-size: 150px;
-      width: 600px;
-    `
-  )}
-`;
-
-const ItemImage = styled(motion.div)<{ position: "left" | "center" | "right" }>`
-  position: absolute;
-  text-align: center;
-  width: 450px;
-  height: 450px;
-  pointer-events: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  ${mqUntil(
-    "xl",
-    css`
-      width: 300px;
-      height: 300px;
-    `
-  )}
-`;
-
-const PrevButton = styled(IconButton)`
-  position: absolute;
-  left: 40px;
-  bottom: 28px;
-`;
-
-const NextButton = styled(IconButton)`
-  position: absolute;
-  right: 40px;
-  bottom: 20px;
 `;
 
 const ItemDetailWrapper = styled.div`
@@ -107,8 +34,16 @@ const ItemDetailWrapper = styled.div`
 `;
 
 const ItemDetail = styled(motion.div)`
+  width: 100%;
   max-width: 600px;
   position: absolute;
+
+  ${mqUntil(
+    "sm",
+    css`
+      padding: 0 30px;
+    `
+  )}
 `;
 
 export type ProductCarouselProps<T extends object> = {
@@ -130,7 +65,8 @@ export const ProductCarousel = <T extends object>({
 }: ProductCarouselProps<T>) => {
   const adaptedItems = useMemo(() => [...items, ...items, ...items], [items]);
   const [[page, direction], setPage] = useState([items.length, 0]);
-  const [disabled, setDisabled] = useState(false);
+  const [locks, setLocks] = useState(0);
+  const { md: mdBreakpoint } = useBreakpoints();
 
   const currIndex = wrap(0, adaptedItems.length, page);
   const prevIndex = wrap(0, adaptedItems.length, page - 1);
@@ -143,16 +79,38 @@ export const ProductCarousel = <T extends object>({
   };
 
   const handleChange = (newDirection: number) => {
-    if (!disabled) {
+    if (!locks) {
       setPage([page + newDirection, newDirection]);
     }
   };
 
-  const transition: Transition = {
-    type: "tween",
-    ease: "easeOut",
-    duration: 0.7,
+  const lock = () => {
+    setLocks(locks + 1);
   };
+
+  const unlock = () => {
+    if (locks > 0) {
+      setLocks(locks - 1);
+    }
+  };
+
+  const getItemMotionProps = (
+    pos: ItemPosition
+  ): HTMLMotionProps<"div"> & ItemProps & { key: React.Key } => ({
+    position: pos,
+    key: mdBreakpoint ? shownIndex[pos] : `mobile-${currIndex}`,
+    initial: "initial",
+    animate: "animate",
+    exit: "exit",
+    custom: direction,
+    transition: {
+      type: "tween",
+      ease: [0.14, 0.25, 0.07, 1.01],
+      duration: 1,
+    },
+    onAnimationStart: lock,
+    onAnimationComplete: unlock,
+  });
 
   return (
     <div style={{ height: 500 + contentHeight }}>
@@ -162,54 +120,36 @@ export const ProductCarousel = <T extends object>({
         </CarouselTitle>
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
-            {getKeys(shownIndex).map((pos) => (
-              <ItemTitle
-                position={pos}
-                variants={titleVariants[pos]}
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                custom={direction}
-                key={shownIndex[pos]}
-                transition={transition}
-                onAnimationStart={() => setDisabled(true)}
-                onAnimationComplete={() => setDisabled(false)}
-              >
-                {renderTitle(adaptedItems[shownIndex[pos]])}
+            {mdBreakpoint ? (
+              getKeys(shownIndex).map((pos) => (
+                <ItemTitle variants={titleVariants[pos]} {...getItemMotionProps(pos)}>
+                  {renderTitle(adaptedItems[shownIndex[pos]])}
+                </ItemTitle>
+              ))
+            ) : (
+              <ItemTitle variants={mobileVariants} {...getItemMotionProps("center")}>
+                {renderTitle(adaptedItems[currIndex])}
               </ItemTitle>
-            ))}
+            )}
           </AnimatePresence>
         </ItemsStrip>
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
-            {getKeys(shownIndex).map((pos) => (
-              <ItemImage
-                position={pos}
-                variants={imageVariants[pos]}
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                custom={direction}
-                key={shownIndex[pos]}
-                transition={transition}
-              >
-                {renderImage(adaptedItems[shownIndex[pos]])}
+            {mdBreakpoint ? (
+              getKeys(shownIndex).map((pos) => (
+                <ItemImage variants={imageVariants[pos]} {...getItemMotionProps(pos)}>
+                  {renderImage(adaptedItems[shownIndex[pos]])}
+                </ItemImage>
+              ))
+            ) : (
+              <ItemImage variants={mobileVariants} {...getItemMotionProps("center")}>
+                {renderImage(adaptedItems[currIndex])}
               </ItemImage>
-            ))}
+            )}
           </AnimatePresence>
         </ItemsStrip>
-        <PrevButton
-          variant="primary"
-          icon="arrow-left"
-          aria-label="prev"
-          onClick={() => handleChange(-1)}
-        />
-        <NextButton
-          variant="primary"
-          icon="arrow-right"
-          aria-label="next"
-          onClick={() => handleChange(1)}
-        />
+        <ControlButton direction="prev" onClick={() => handleChange(-1)} />
+        <ControlButton direction="next" onClick={() => handleChange(1)} />
       </BackgroundStrip>
       <ItemDetailWrapper>
         <AnimatePresence initial={false}>

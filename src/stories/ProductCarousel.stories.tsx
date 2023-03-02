@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { FC } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 // import { useTheme } from "styled-components";
 import {
@@ -11,6 +11,7 @@ import {
   Text,
   Title,
 } from "../components";
+import { mqUntil } from "../styles/media-queries";
 
 type SampleProductTag = "stone" | "metal" | "glass" | "wood" | "composite";
 
@@ -78,28 +79,48 @@ const TagList = styled.div`
   }
 `;
 
+const ButtonContainer = styled.div`
+  margin-left: auto;
+  display: flex;
+
+  > button:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  ${mqUntil(
+    "sm",
+    css`
+      order: 100;
+      margin-left: 0;
+      margin-top: 30px;
+      flex: 0 0 100%;
+
+      > button {
+        flex: 1 1 50%;
+      }
+    `
+  )}
+`;
+
 const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
   return (
-    <div>
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <Title variant="H3" style={{ margin: 0 }}>
-          {product.code}
-        </Title>
-        <div style={{ marginLeft: "auto", display: "flex" }}>
-          <Button variant="outline">Dettagli</Button>
-          <div style={{ width: 15 }}></div>
-          <Button variant="outline">Confronta</Button>
-        </div>
-      </div>
-      <Text tag="p" color="primary" style={{ marginTop: 15 }}>
+    <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
+      <Title variant="H3" style={{ margin: 0 }}>
+        {product.code}
+      </Title>
+      <ButtonContainer>
+        <Button variant="outline">Dettagli</Button>
+        <Button variant="outline">Confronta</Button>
+      </ButtonContainer>
+      <Text tag="p" color="primary" style={{ marginTop: 15, flex: "0 0 100%" }}>
         {product.name}
       </Text>
       <Text tag="p" style={{ marginTop: 12 }}>
         {product.description}
       </Text>
       <TagList>
-        {product.tags.map((tag) => (
-          <MaterialTag material={tag} />
+        {product.tags.map((tag, index) => (
+          <MaterialTag material={tag} key={index} />
         ))}
       </TagList>
     </div>
