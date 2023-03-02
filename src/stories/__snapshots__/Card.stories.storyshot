@@ -74,7 +74,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   flex-direction: column;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
   .c2 {
     height: 400px;
   }
@@ -235,7 +235,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   flex-direction: column;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
   .c2 {
     height: 400px;
   }
@@ -389,7 +389,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   flex-direction: column;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
   .c2 {
     height: 400px;
   }
@@ -612,7 +612,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   border: 1px solid #FFF;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
   .c7 {
     height: 400px;
   }

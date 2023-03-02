@@ -78,23 +78,27 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   transform: rotate(90deg);
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:1399px) {
 
 }
 
@@ -251,23 +255,27 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   transform: rotate(90deg);
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:1399px) {
 
 }
 
@@ -423,23 +431,27 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   transform: rotate(90deg);
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
 
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:1399px) {
 
 }
 

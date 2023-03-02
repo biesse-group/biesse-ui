@@ -10,11 +10,11 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
   color: inherit;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -64,11 +64,11 @@ exports[`Storyshots Components/Icon Large 1`] = `
   color: inherit;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -118,11 +118,11 @@ exports[`Storyshots Components/Icon Medium 1`] = `
   color: inherit;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -172,11 +172,11 @@ exports[`Storyshots Components/Icon Small 1`] = `
   color: inherit;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 

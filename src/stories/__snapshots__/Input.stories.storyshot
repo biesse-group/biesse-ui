@@ -71,11 +71,11 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   transition: box-shadow 0.2s ease-out;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -218,11 +218,11 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   padding-right: 15px;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -332,11 +332,11 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   transition: box-shadow 0.2s ease-out;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -438,11 +438,11 @@ exports[`Storyshots Inputs/Input With Border 1`] = `
   border: 1px solid #C4C4C4;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -585,11 +585,11 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   padding-right: 15px;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 

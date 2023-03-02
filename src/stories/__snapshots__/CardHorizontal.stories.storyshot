@@ -100,7 +100,7 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -300,11 +300,11 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
   transform: scale(1.25);
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
   .c9 {
     display: none;
   }
@@ -525,11 +525,11 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
   transform: scale(1.25);
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
   .c9 {
     display: none;
   }

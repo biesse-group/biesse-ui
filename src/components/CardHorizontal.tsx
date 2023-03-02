@@ -1,6 +1,7 @@
 import { FC } from "react";
-import styled, { useTheme } from "styled-components";
+import styled, { css, useTheme } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -26,9 +27,12 @@ const CardImage = styled.div`
   flex: 0 0 300px;
   overflow: hidden;
 
-  @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
-    display: none;
-  }
+  ${mqUntil(
+    "sm",
+    css`
+      display: none;
+    `
+  )}
 `;
 
 const CardImageInner = styled.div`

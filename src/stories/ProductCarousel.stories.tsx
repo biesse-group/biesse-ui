@@ -110,6 +110,7 @@ export const Default = Template.bind({});
 Default.args = {
   title: "New products",
   items,
+  contentHeight: 300,
   renderTitle: (item) => item.code,
   renderImage: (item) => (
     <img src={item.imageUrl} alt={item.code} style={{ maxWidth: "100%", maxHeight: "100%" }} />

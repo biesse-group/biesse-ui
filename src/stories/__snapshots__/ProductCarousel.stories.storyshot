@@ -1,25 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
-.c9 {
+.c8 {
   color: inherit;
 }
 
-.c9 > svg {
+.c8 > svg {
   height: 26px;
   color: inherit;
 }
 
-.c19 {
+.c18 {
   color: #FFF;
 }
 
-.c19 > svg {
+.c18 > svg {
   height: 20px;
   color: #FFF;
 }
 
-.c14 {
+.c13 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -49,12 +49,12 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c14:hover {
+.c13:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c20 {
+.c19 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -62,7 +62,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c15 {
+.c14 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -71,7 +71,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   margin: 0;
 }
 
-.c16 {
+.c15 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -80,7 +80,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   margin: 0;
 }
 
-.c2 {
+.c1 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -89,7 +89,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-size: 45px;
 }
 
-.c13 {
+.c12 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -98,7 +98,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-size: 40px;
 }
 
-.c7 {
+.c6 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -107,19 +107,19 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   cursor: pointer;
 }
 
-.c7:hover {
+.c6:hover {
   background-color: #6D6E70;
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.c21 {
+.c20 {
   text-transform: uppercase;
   margin-left: 9px;
 }
 
-.c22 {
+.c21 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -144,7 +144,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   background-color: #8080FF;
 }
 
-.c18 {
+.c17 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -170,10 +170,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c0 {
-  height: 750px;
-}
-
-.c1 {
   background-color: #6D6E70;
   color: #FFF;
   padding: 42px 90px;
@@ -189,12 +185,12 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c2 {
   font-size: 50px;
   margin: 0;
 }
 
-.c4 {
+.c3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -209,7 +205,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   top: 100px;
 }
 
-.c5 {
+.c4 {
   color: #FFF;
   font-size: 220px;
   font-weight: 700;
@@ -222,7 +218,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   user-select: none;
 }
 
-.c6 {
+.c5 {
   position: absolute;
   text-align: center;
   width: 450px;
@@ -242,19 +238,19 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   align-items: center;
 }
 
-.c8 {
+.c7 {
   position: absolute;
   left: 40px;
   bottom: 28px;
 }
 
-.c10 {
+.c9 {
   position: absolute;
   right: 40px;
   bottom: 20px;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -265,64 +261,75 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   justify-content: center;
 }
 
-.c12 {
+.c11 {
   max-width: 600px;
   position: absolute;
 }
 
-.c17 {
+.c16 {
   margin-top: 20px;
 }
 
-.c17 > *:not(:last-child) {
+.c16 > *:not(:last-child) {
   margin-right: 10px;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media screen and (max-width:1400px) {
-  .c1 {
-    height: 300px;
+@media screen and (max-width:1399px) {
+  .c0 {
+    height: 270px;
+    margin-bottom: 100px;
   }
 }
 
-@media screen and (max-width:1400px) {
-  .c5 {
+@media screen and (max-width:1399px) {
+  .c3 {
+    top: 60px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c4 {
     font-size: 150px;
     width: 600px;
   }
 }
 
-@media screen and (max-width:1400px) {
-  .c6 {
+@media screen and (max-width:1399px) {
+  .c5 {
     width: 300px;
     height: 300px;
   }
 }
 
 <div
-  className="c0"
+  style={
+    Object {
+      "height": 800,
+    }
+  }
 >
   <div
-    className="c1"
+    className="c0"
   >
     <h2
-      className="c2 c3"
+      className="c1 c2"
       color="light"
     >
       New products
     </h2>
     <div
-      className="c4"
+      className="c3"
     >
       <div
-        className="c5"
+        className="c4"
         style={
           Object {
             "left": "12.5%",
@@ -336,7 +343,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         KK765
       </div>
       <div
-        className="c5"
+        className="c4"
         style={
           Object {
             "left": "50%",
@@ -350,7 +357,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         ES796
       </div>
       <div
-        className="c5"
+        className="c4"
         style={
           Object {
             "left": "auto",
@@ -365,10 +372,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       </div>
     </div>
     <div
-      className="c4"
+      className="c3"
     >
       <div
-        className="c6"
+        className="c5"
         style={
           Object {
             "left": "12.5%",
@@ -391,7 +398,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         />
       </div>
       <div
-        className="c6"
+        className="c5"
         style={
           Object {
             "left": "50%",
@@ -414,7 +421,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         />
       </div>
       <div
-        className="c6"
+        className="c5"
         style={
           Object {
             "left": "auto",
@@ -439,11 +446,11 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     </div>
     <button
       aria-label="prev"
-      className="c7 c8"
+      className="c6 c7"
       onClick={[Function]}
     >
       <div
-        className="c9"
+        className="c8"
         size="26px"
       >
         <svg
@@ -479,11 +486,11 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     </button>
     <button
       aria-label="next"
-      className="c7 c10"
+      className="c6 c9"
       onClick={[Function]}
     >
       <div
-        className="c9"
+        className="c8"
         size="26px"
       >
         <svg
@@ -519,10 +526,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     </button>
   </div>
   <div
-    className="c11"
+    className="c10"
   >
     <div
-      className="c12"
+      className="c11"
       style={
         Object {
           "opacity": 1,
@@ -541,7 +548,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           }
         >
           <h3
-            className="c13"
+            className="c12"
             style={
               Object {
                 "margin": 0,
@@ -559,7 +566,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
             }
           >
             <button
-              className="c14"
+              className="c13"
             >
               Dettagli
             </button>
@@ -571,14 +578,14 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
               }
             />
             <button
-              className="c14"
+              className="c13"
             >
               Confronta
             </button>
           </div>
         </div>
         <p
-          className="c15"
+          className="c14"
           color="primary"
           style={
             Object {
@@ -589,7 +596,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           Testate a 2 assi
         </p>
         <p
-          className="c16"
+          className="c15"
           style={
             Object {
               "marginTop": 12,
@@ -599,13 +606,13 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
         </p>
         <div
-          className="c17"
+          className="c16"
         >
           <div
-            className="c18"
+            className="c17"
           >
             <div
-              className="c19"
+              className="c18"
               color="#FFF"
               size="xs"
             >
@@ -621,7 +628,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
               </svg>
             </div>
             <span
-              className="c20 c21"
+              className="c19 c20"
               color="light"
               size="sm"
             >
@@ -629,10 +636,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
             </span>
           </div>
           <div
-            className="c22"
+            className="c21"
           >
             <div
-              className="c19"
+              className="c18"
               color="#FFF"
               size="xs"
             >
@@ -648,7 +655,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
               </svg>
             </div>
             <span
-              className="c20 c21"
+              className="c19 c20"
               color="light"
               size="sm"
             >

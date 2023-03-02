@@ -160,11 +160,11 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   width: 100%;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -651,11 +651,11 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   width: 100%;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 

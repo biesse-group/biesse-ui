@@ -1,18 +1,15 @@
 import { AnimatePresence, motion, Transition, wrap } from "framer-motion";
 import { useMemo } from "react";
-import { useEffect, useRef, useState } from "react";
-import styled from "styled-components";
+import { useState } from "react";
+import styled, { css } from "styled-components";
 
-import { getKeys } from "../../utils/get-keys";
+import { mqUntil } from "../../styles/media-queries";
+import { getKeys } from "../../utils/getKeys";
 import { IconButton } from "../IconButton";
 import { Title } from "../Title";
 import { detailVariants } from "./detailVariants";
 import { imageVariants } from "./imageVariants";
 import { titleVariants } from "./titleVariants";
-
-const Container = styled.div<{ contentHeight: number }>`
-  height: ${(props) => props.contentHeight + 750}px;
-`;
 
 const BackgroundStrip = styled.div`
   background-color: ${(props) => props.theme.color.secondary};
@@ -24,9 +21,13 @@ const BackgroundStrip = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.xl}) {
-    height: 300px;
-  }
+  ${mqUntil(
+    "xl",
+    css`
+      height: 270px;
+      margin-bottom: 100px;
+    `
+  )}
 `;
 
 const CarouselTitle = styled(Title)`
@@ -42,6 +43,13 @@ const ItemsStrip = styled.div`
   right: 110px;
   bottom: 0;
   top: 100px;
+
+  ${mqUntil(
+    "xl",
+    css`
+      top: 60px;
+    `
+  )}
 `;
 
 const ItemTitle = styled(motion.div)<{ position: "left" | "center" | "right" }>`
@@ -53,10 +61,13 @@ const ItemTitle = styled(motion.div)<{ position: "left" | "center" | "right" }>`
   width: 800px;
   user-select: none;
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.xl}) {
-    font-size: 150px;
-    width: 600px;
-  }
+  ${mqUntil(
+    "xl",
+    css`
+      font-size: 150px;
+      width: 600px;
+    `
+  )}
 `;
 
 const ItemImage = styled(motion.div)<{ position: "left" | "center" | "right" }>`
@@ -69,10 +80,13 @@ const ItemImage = styled(motion.div)<{ position: "left" | "center" | "right" }>`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.xl}) {
-    width: 300px;
-    height: 300px;
-  }
+  ${mqUntil(
+    "xl",
+    css`
+      width: 300px;
+      height: 300px;
+    `
+  )}
 `;
 
 const PrevButton = styled(IconButton)`
@@ -100,6 +114,7 @@ const ItemDetail = styled(motion.div)`
 export type ProductCarouselProps<T extends object> = {
   title: string;
   items: T[];
+  contentHeight?: number;
   renderTitle: (item: T) => string;
   renderImage: (item: T) => JSX.Element;
   renderDetail: (item: T) => JSX.Element;
@@ -108,6 +123,7 @@ export type ProductCarouselProps<T extends object> = {
 export const ProductCarousel = <T extends object>({
   title,
   items,
+  contentHeight = 0,
   renderTitle,
   renderDetail,
   renderImage,
@@ -115,20 +131,6 @@ export const ProductCarousel = <T extends object>({
   const adaptedItems = useMemo(() => [...items, ...items, ...items], [items]);
   const [[page, direction], setPage] = useState([items.length, 0]);
   const [disabled, setDisabled] = useState(false);
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [contentHeight, setContentHeight] = useState(0);
-
-  useEffect(() => {
-    let resizeObserver: ResizeObserver;
-    if (contentRef.current) {
-      resizeObserver = new ResizeObserver(() => {
-        console.log(contentRef.current?.clientHeight);
-        setContentHeight(contentRef.current?.clientHeight || 0);
-      });
-      resizeObserver.observe(contentRef.current);
-    }
-    return () => resizeObserver?.disconnect();
-  }, []);
 
   const currIndex = wrap(0, adaptedItems.length, page);
   const prevIndex = wrap(0, adaptedItems.length, page - 1);
@@ -153,7 +155,7 @@ export const ProductCarousel = <T extends object>({
   };
 
   return (
-    <Container contentHeight={contentHeight}>
+    <div style={{ height: 500 + contentHeight }}>
       <BackgroundStrip>
         <CarouselTitle variant="H2" color="light">
           {title}
@@ -217,12 +219,11 @@ export const ProductCarousel = <T extends object>({
             animate="center"
             exit="exit"
             key={page}
-            ref={contentRef}
           >
             {renderDetail(adaptedItems[currIndex])}
           </ItemDetail>
         </AnimatePresence>
       </ItemDetailWrapper>
-    </Container>
+    </div>
   );
 };

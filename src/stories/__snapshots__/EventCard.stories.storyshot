@@ -217,11 +217,11 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   cursor: pointer;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -583,11 +583,11 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   cursor: pointer;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -949,11 +949,11 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   cursor: pointer;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
