@@ -4,12 +4,12 @@ export * from "./biesse-theme";
 export interface BiesseTheme {
   name: string;
   breakpoints: {
-    xs: string;
-    sm: string;
-    md: string;
-    lg: string;
-    xl: string;
-    xxl: string;
+    xs: number;
+    sm: number;
+    md: number;
+    lg: number;
+    xl: number;
+    xxl: number;
   };
   card: {
     borderRadius: string;

@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
@@ -13,9 +14,12 @@ const CardImgWrapper = styled.div`
 
   justify-content: center;
   height: 450px;
-  @media (max-width: ${(props) => props.theme.breakpoints.sm}) {
-    height: 400px;
-  }
+  ${mqUntil(
+    "sm",
+    css`
+      height: 400px;
+    `
+  )}
 `;
 
 const CardRoot = styled.div`

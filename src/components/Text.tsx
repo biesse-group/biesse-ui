@@ -1,4 +1,4 @@
-import { FC, PropsWithChildren } from "react";
+import { CSSProperties, FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { BiesseTheme } from "../themes";
@@ -7,6 +7,8 @@ export type TextProps = {
   size?: keyof BiesseTheme["font"]["body"];
   weight?: keyof BiesseTheme["font"]["weight"];
   color?: "default" | "primary" | "light";
+  tag?: "span" | "p";
+  style?: CSSProperties;
 };
 
 const getColor = (color?: TextProps["color"]) => css`
@@ -37,7 +39,7 @@ const getLineHeight = (size?: TextProps["size"]) => css`
   }};
 `;
 
-const StyledText = styled.span<TextProps>`
+const textStyle = css<TextProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight[props.weight || "book"]};
   font-size: ${(props) => props.theme.font.body[props.size || "md"]};
@@ -45,6 +47,16 @@ const StyledText = styled.span<TextProps>`
   ${(props) => getColor(props.color)};
 `;
 
-export const Text: FC<PropsWithChildren<TextProps>> = (props) => {
-  return <StyledText {...props} />;
+const StyledSpan = styled.span<TextProps>`
+  ${textStyle}
+`;
+
+const StyledParagraph = styled.p<TextProps>`
+  ${textStyle};
+  margin: 0;
+`;
+
+export const Text: FC<PropsWithChildren<TextProps>> = ({ tag = "span", ...props }) => {
+  const TextComponent = tag === "span" ? StyledSpan : StyledParagraph;
+  return <TextComponent {...props} />;
 };
