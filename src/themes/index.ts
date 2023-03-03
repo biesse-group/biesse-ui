@@ -46,6 +46,40 @@ export interface BiesseTheme {
     };
   };
   font: {
+    mobile: {
+      body: {
+        xs?: string;
+        sm?: string;
+        md?: string;
+        lg?: string;
+        xl?: string;
+      };
+      headings: {
+        xxl?: string;
+        xl?: string;
+        lg?: string;
+        md?: string;
+        sm?: string;
+        xs?: string;
+      };
+    };
+    tablet: {
+      body: {
+        xs?: string;
+        sm?: string;
+        md?: string;
+        lg?: string;
+        xl?: string;
+      };
+      headings: {
+        xxl?: string;
+        xl?: string;
+        lg?: string;
+        md?: string;
+        sm?: string;
+        xs?: string;
+      };
+    };
     body: {
       xs: string;
       sm: string;

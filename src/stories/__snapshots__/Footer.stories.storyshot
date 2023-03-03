@@ -239,6 +239,86 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   margin-bottom: 0px;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c12 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -247,11 +327,15 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 

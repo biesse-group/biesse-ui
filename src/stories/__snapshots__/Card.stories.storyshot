@@ -74,6 +74,26 @@ exports[`Storyshots Cards/Card Default 1`] = `
   flex-direction: column;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c2 {
     height: 400px;
@@ -235,6 +255,26 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   flex-direction: column;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c2 {
     height: 400px;
@@ -387,6 +427,34 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -610,6 +678,42 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   background-color: #F9942E;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
   border: 1px solid #FFF;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c11 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {

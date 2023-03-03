@@ -132,7 +132,7 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   height: 100%;
   overflow: hidden;
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: repeat(2,auto);
   grid-template-columns: 85px auto;
   background-color: #F5F5F5;
   border-bottom-left-radius: 40px;
@@ -216,6 +216,84 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   padding: 20px 15px 20px 20px;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c15 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -224,13 +302,13 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
   .c1 {
     grid-area: 1/ 1;
   }
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }
@@ -512,7 +590,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   height: 100%;
   overflow: hidden;
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: repeat(2,auto);
   grid-template-columns: 85px auto;
   background-color: #F5F5F5;
   border-bottom-left-radius: 40px;
@@ -596,6 +674,84 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   padding: 20px 15px 20px 20px;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c15 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -604,13 +760,13 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
   .c1 {
     grid-area: 1/ 1;
   }
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }
@@ -892,7 +1048,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   height: 100%;
   overflow: hidden;
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: repeat(2,auto);
   grid-template-columns: 85px auto;
   background-color: #F5F5F5;
   border-bottom-left-radius: 40px;
@@ -976,6 +1132,84 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   padding: 20px 15px 20px 20px;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c15 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -984,13 +1218,13 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
   .c1 {
     grid-area: 1/ 1;
   }
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }

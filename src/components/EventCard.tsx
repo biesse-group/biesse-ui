@@ -1,7 +1,8 @@
 import dayjs from "dayjs";
 import { FC, PropsWithChildren } from "react";
-import styled, { useTheme } from "styled-components";
+import styled, { css, useTheme } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -46,7 +47,7 @@ const EventCardRoot = styled.div`
   overflow: hidden;
 
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: repeat(2, auto);
   grid-template-columns: 85px auto;
 
   background-color: ${(props) => props.theme.color.lightGray};
@@ -92,9 +93,12 @@ const DateLinkIcon = styled(Icon)`
 const DateLinkWrapper = styled.div`
   grid-area: 1/ 1 / span 2 / span 1;
 
-  @media (max-width: ${(props) => props.theme.breakpoints.xs}) {
-    grid-area: 1/ 1;
-  }
+  ${mqUntil(
+    "sm",
+    css`
+      grid-area: 1/ 1;
+    `
+  )}
 
   position: relative;
   background-color: ${(props) => props.theme.color.primary};
@@ -131,9 +135,12 @@ const ChildWrapper = styled.div`
 
   padding: 20px 15px 20px 20px;
 
-  @media (max-width: ${(props) => props.theme.breakpoints.xs}) {
-    grid-area: 2/ 1 / span 1 / span 2;
-  }
+  ${mqUntil(
+    "sm",
+    css`
+      grid-area: 2/ 1 / span 1 / span 2;
+    `
+  )}
 `;
 
 export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({

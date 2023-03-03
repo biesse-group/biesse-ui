@@ -45,6 +45,27 @@ export const hsdTheme: DefaultTheme = {
     },
   },
   font: {
+    tablet: {
+      body: {
+        xs: "12px",
+        lg: "16px",
+      },
+      headings: {
+        xl: "40px",
+      },
+    },
+    mobile: {
+      body: {
+        md: "14px",
+        lg: "14px",
+      },
+      headings: {
+        xxl: "30px",
+        xl: "30px",
+        md: "25px",
+        sm: "20px",
+      },
+    },
     body: {
       xs: "13px",
       sm: "14px",

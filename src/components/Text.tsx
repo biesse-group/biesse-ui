@@ -1,6 +1,7 @@
 import { CSSProperties, FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TextProps = {
@@ -39,10 +40,28 @@ const getLineHeight = (size?: TextProps["size"]) => css`
   }};
 `;
 
+const getSize = (size: TextProps["size"]) => css`
+  font-size: ${(props) => props.theme.font.body[size || "md"]};
+
+  ${mqUntil(
+    "md",
+    css`
+      font-size: ${(props) => props.theme.font.tablet.body[size || "md"]};
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      font-size: ${(props) => props.theme.font.mobile.body[size || "md"]};
+    `
+  )}
+`;
+
 const textStyle = css<TextProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight[props.weight || "book"]};
-  font-size: ${(props) => props.theme.font.body[props.size || "md"]};
+  ${(props) => getSize(props.size)};
   ${(props) => getLineHeight(props.size)};
   ${(props) => getColor(props.color)};
 `;
