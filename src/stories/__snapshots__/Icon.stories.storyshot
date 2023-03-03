@@ -18,6 +18,86 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 
 }
 
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="xs"
@@ -69,6 +149,86 @@ exports[`Storyshots Components/Icon Large 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
 
 }
 
@@ -126,6 +286,86 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 }
 
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
   size="md"
@@ -177,6 +417,86 @@ exports[`Storyshots Components/Icon Small 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
 
 }
 

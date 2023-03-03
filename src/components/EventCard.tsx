@@ -43,9 +43,11 @@ const EventCardRoot = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: row;
   overflow: hidden;
+
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: 85px auto;
 
   background-color: ${(props) => props.theme.color.lightGray};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
@@ -60,11 +62,13 @@ const EventCardRoot = styled.div`
 `;
 
 const EventCardMainWrapper = styled.div`
+  grid-area: 1/ 2;
+
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 30px 30px 20px 22px;
+  padding: 30px 30px 0px 22px;
 `;
 
 const CardTitle = styled(Title)`
@@ -77,9 +81,7 @@ const DateSubtitle = styled(Text)`
   margin-bottom: 27px;
 `;
 
-const DescriptionWrapper = styled(Text)`
-  margin-bottom: 24px;
-`;
+const DescriptionWrapper = styled(Text)``;
 
 const DateLinkIcon = styled(Icon)`
   margin-top: 50px;
@@ -88,12 +90,17 @@ const DateLinkIcon = styled(Icon)`
 `;
 
 const DateLinkWrapper = styled.div`
+  grid-area: 1/ 1 / span 2 / span 1;
+
+  @media (max-width: ${(props) => props.theme.breakpoints.xs}) {
+    grid-area: 1/ 1;
+  }
+
   position: relative;
   background-color: ${(props) => props.theme.color.primary};
-  width: 85px;
   display: flex;
   flex-direction: column;
-  padding: 20px 15px 0px 20px;
+  padding: 24px 15px 0px 20px;
   text-align: center;
 
   > h2 {
@@ -117,6 +124,16 @@ const LinkWrapper = styled.div`
   background-color: transparent;
   z-index: 1;
   cursor: pointer;
+`;
+
+const ChildWrapper = styled.div`
+  grid-area: 2 / 2;
+
+  padding: 20px 15px 20px 20px;
+
+  @media (max-width: ${(props) => props.theme.breakpoints.xs}) {
+    grid-area: 2/ 1 / span 1 / span 2;
+  }
 `;
 
 export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
@@ -153,8 +170,8 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
         <DescriptionWrapper>
           {typeof description === "string" ? <Text size="md">{description}</Text> : description}
         </DescriptionWrapper>
-        {children}
       </EventCardMainWrapper>
+      <ChildWrapper>{children}</ChildWrapper>
     </EventCardRoot>
   );
 };

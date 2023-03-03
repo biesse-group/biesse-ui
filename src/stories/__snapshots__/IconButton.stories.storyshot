@@ -40,6 +40,86 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 }
 
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
 <div
   className="c0"
 >
@@ -130,6 +210,86 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
 
 }
 
@@ -224,6 +384,86 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:576px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
 
 }
 

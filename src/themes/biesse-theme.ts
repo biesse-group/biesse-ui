@@ -50,6 +50,7 @@ export const biesseTheme: DefaultTheme = {
       sm: "14px",
       md: "16px",
       lg: "18px",
+      xl: "20px",
     },
     headings: {
       xxl: "50px",

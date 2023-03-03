@@ -51,6 +51,7 @@ export interface BiesseTheme {
       sm: string;
       md: string;
       lg: string;
+      xl: string;
     };
     headings: {
       xxl: string;
