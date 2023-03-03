@@ -239,23 +239,23 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   margin-bottom: 0px;
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
 
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c0 {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -263,7 +263,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c0 {
     grid-template-rows: repeat(5,auto);
     grid-template-columns: 55px auto;
@@ -272,7 +272,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c1 {
     margin-bottom: 0px;
     -webkit-align-self: center;
@@ -290,92 +290,92 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c7 {
     grid-area: 2 / 1;
     justify-self: start;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c7 {
     grid-area: 3 / 2;
     justify-self: start;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c15 {
     grid-area: 2 / 2;
     justify-self: start;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c15 {
     grid-area: 4 / 2;
     justify-self: start;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c9 {
     font-size: 20px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c13 {
     font-size: 13px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c16 {
     grid-area: 2 / 3;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c16 {
     grid-area: 2 / 2;
     justify-self: start;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
 
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c3 {
     grid-area: 5 / 1 / span 1 / span 2;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c6 {
     font-size: 12px;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c6 {
     font-size: 12px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c19 {
     display: none;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:768) {
   .c18 {
     font-size: 20px;
   }

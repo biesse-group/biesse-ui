@@ -211,21 +211,26 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   cursor: pointer;
 }
 
-@media screen and (max-width:767px) {
-
+.c14 {
+  grid-area: 2 / 2;
+  padding: 20px 15px 20px 20px;
 }
 
 @media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576px) {
+@media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576) {
   .c1 {
     grid-area: 1/ 1;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }
@@ -586,21 +591,26 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   cursor: pointer;
 }
 
-@media screen and (max-width:767px) {
-
+.c14 {
+  grid-area: 2 / 2;
+  padding: 20px 15px 20px 20px;
 }
 
 @media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576px) {
+@media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576) {
   .c1 {
     grid-area: 1/ 1;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }
@@ -961,21 +971,26 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   cursor: pointer;
 }
 
-@media screen and (max-width:767px) {
-
+.c14 {
+  grid-area: 2 / 2;
+  padding: 20px 15px 20px 20px;
 }
 
 @media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576px) {
+@media screen and (max-width:767px) {
+
+}
+
+@media (max-width:576) {
   .c1 {
     grid-area: 1/ 1;
   }
 }
 
-@media (max-width:576px) {
+@media (max-width:576) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }

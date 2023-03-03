@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Button } from "../components";
+import { Button, Icon } from "../components";
 import { CardHorizontal } from "../components/CardHorizontal";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -26,6 +26,27 @@ Default.args = {
   ),
 };
 Default.decorators = [
+  (Story) => (
+    <div style={{ maxWidth: 300 }}>
+      <Story />
+    </div>
+  ),
+];
+
+export const WithCustomIcon = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+WithCustomIcon.args = {
+  icon: <Icon name="picture" size="lg" />,
+  title: "Fast repair",
+  description:
+    "Lorem ipsum dolor sit amet, con sectetadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+  actions: (
+    <Button variant="outline" size="small">
+      More...
+    </Button>
+  ),
+};
+WithCustomIcon.decorators = [
   (Story) => (
     <div style={{ maxWidth: 300 }}>
       <Story />
