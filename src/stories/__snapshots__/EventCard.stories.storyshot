@@ -309,6 +309,12 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c1 > h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }
@@ -767,6 +773,12 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c1 > h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
   .c14 {
     grid-area: 2/ 1 / span 1 / span 2;
   }
@@ -1221,6 +1233,12 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 @media screen and (max-width:767px) {
   .c1 {
     grid-area: 1/ 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 > h2 {
+    font-size: 40px;
   }
 }
 

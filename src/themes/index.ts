@@ -80,20 +80,22 @@ export interface BiesseTheme {
         xs?: string;
       };
     };
-    body: {
-      xs: string;
-      sm: string;
-      md: string;
-      lg: string;
-      xl: string;
-    };
-    headings: {
-      xxl: string;
-      xl: string;
-      lg: string;
-      md: string;
-      sm: string;
-      xs: string;
+    regular: {
+      body: {
+        xs: string;
+        sm: string;
+        md: string;
+        lg: string;
+        xl: string;
+      };
+      headings: {
+        xxl: string;
+        xl: string;
+        lg: string;
+        md: string;
+        sm: string;
+        xs: string;
+      };
     };
     weight: {
       book: number;

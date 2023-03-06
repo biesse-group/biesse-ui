@@ -110,6 +110,13 @@ const DateLinkWrapper = styled.div`
   > h2 {
     margin-bottom: 0px;
     line-height: 40px;
+
+    ${mqUntil(
+      "sm",
+      css`
+        font-size: 40px;
+      `
+    )}
   }
 
   &:hover {

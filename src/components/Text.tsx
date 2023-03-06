@@ -1,11 +1,10 @@
 import { CSSProperties, FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TextProps = {
-  size?: keyof BiesseTheme["font"]["body"];
+  size?: keyof BiesseTheme["font"]["regular"]["body"];
   weight?: keyof BiesseTheme["font"]["weight"];
   color?: "default" | "primary" | "light";
   tag?: "span" | "p";
@@ -41,21 +40,15 @@ const getLineHeight = (size?: TextProps["size"]) => css`
 `;
 
 const getSize = (size: TextProps["size"]) => css`
-  font-size: ${(props) => props.theme.font.body[size || "md"]};
+  font-size: ${(props) => props.theme.font.regular.body[size || "md"]};
 
-  ${mqUntil(
-    "md",
-    css`
-      font-size: ${(props) => props.theme.font.tablet.body[size || "md"]};
-    `
-  )}
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.md - 1}px) {
+    font-size: ${(props) => props.theme.font.tablet.body[size || "md"]};
+  }
 
-  ${mqUntil(
-    "sm",
-    css`
-      font-size: ${(props) => props.theme.font.mobile.body[size || "md"]};
-    `
-  )}
+  @media screen and (max-width: ${(props) => props.theme.breakpoints.sm - 1}px) {
+    font-size: ${(props) => props.theme.font.mobile.body[size || "md"]};
+  }
 `;
 
 const textStyle = css<TextProps>`

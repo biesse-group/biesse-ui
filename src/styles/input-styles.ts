@@ -3,7 +3,7 @@ import { css } from "styled-components";
 export const inputStyles = (shadow: "dark" | "light" = "dark") => css`
   background-color: ${(props) => props.theme.color.white};
   color: ${(props) => props.theme.color.black};
-  font-size: ${(props) => props.theme.font.body.sm};
+  font-size: ${(props) => props.theme.font.regular.body.sm};
   font-weight: ${(props) => props.theme.font.weight.book};
   font-family: ${(props) => props.theme.font.family};
   border-radius: ${(props) => props.theme.input.borderRadius};

@@ -138,75 +138,51 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -384,75 +360,51 @@ exports[`Storyshots Components/Icon Large 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -630,75 +582,51 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -876,75 +804,51 @@ exports[`Storyshots Components/Icon Small 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 

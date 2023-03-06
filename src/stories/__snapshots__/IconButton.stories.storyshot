@@ -160,75 +160,51 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -445,75 +421,51 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -731,75 +683,51 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 

@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Footer, FooterProps } from "../components";
-import { Logo } from "../components";
+import { Logo, Text } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -19,8 +19,36 @@ const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;
 
 const defaultArgs: FooterProps = {
   logo: <Logo name="HSD" width="235px" color="white" />,
-  contactsBody:
-    "Tel. +39 0541/979001 \nService: +39 0541/979010 - Fax +39 0541/979050 \nP.IVA: IT01376450415 | C.F. 02196600965",
+  siteInfo: {
+    iconName: "location",
+    title: "HSD",
+    contactsBody: (
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <Text size="xs" color="light" font-weight="book">
+          SpA Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
+        </Text>
+        <Text size="xs" color="light" font-weight="book">
+          Sede Centrale: Via Pesaro, 10A 61012 Gradara (PU) - Italy
+        </Text>
+      </div>
+    ),
+  },
+  contactsInfo: {
+    iconName: "contacts",
+    contactsBody: (
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <Text size="xs" color="light" font-weight="book">
+          Tel. +39 0541/979001
+        </Text>
+        <Text size="xs" color="light" font-weight="book">
+          Service: +39 0541/979010 - Fax +39 0541/979050{" "}
+        </Text>
+        <Text size="xs" color="light" font-weight="book">
+          P.IVA: IT01376450415 | C.F. 02196600965
+        </Text>
+      </div>
+    ),
+  },
   contactsLocator: {
     title: "CONTATTI",
     render: <img src="https://dummyimage.com/300x140/ccc/fff.png" alt="dummy" />,
@@ -34,8 +62,7 @@ const defaultArgs: FooterProps = {
     ),
     socialIcon: "linkedin",
   },
-  locationBody:
-    "HSD \nSpA Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy) \nSede Centrale: Via Pesaro, 10A 61012 Gradara (PU) - Italy",
+
   projectsLinks: {
     title: "PROGETTI",
     links: ["UNO", "DUE", "TRE", "QUATTRO"].map((index) => ({

@@ -272,75 +272,51 @@ exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -638,75 +614,51 @@ exports[`Storyshots Inputs/Textarea Filled 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -1006,75 +958,51 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 
-@media (max-width:576) {
+@media screen and (max-width:991px) {
 
 }
 
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:576) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
-
-}
-
-@media (max-width:768) {
+@media screen and (max-width:767px) {
 
 }
 

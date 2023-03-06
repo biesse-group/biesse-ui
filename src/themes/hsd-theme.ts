@@ -66,20 +66,22 @@ export const hsdTheme: DefaultTheme = {
         sm: "20px",
       },
     },
-    body: {
-      xs: "13px",
-      sm: "14px",
-      md: "16px",
-      lg: "18px",
-      xl: "20px",
-    },
-    headings: {
-      xxl: "50px",
-      xl: "45px",
-      lg: "40px",
-      md: "34px",
-      sm: "30px",
-      xs: "24px",
+    regular: {
+      body: {
+        xs: "13px",
+        sm: "14px",
+        md: "16px",
+        lg: "18px",
+        xl: "20px",
+      },
+      headings: {
+        xxl: "50px",
+        xl: "45px",
+        lg: "40px",
+        md: "34px",
+        sm: "30px",
+        xs: "24px",
+      },
     },
     weight: {
       book: 300,
