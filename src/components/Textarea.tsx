@@ -26,6 +26,8 @@ export type TextareaProps = {
 
 const StyledTextarea = styled.textarea<TextareaProps>`
   ${(props) => inputStyles(props.shadow)};
+  padding-top: 17px;
+  padding-bottom: 17px;
   resize: none;
   height: 90px;
 `;
