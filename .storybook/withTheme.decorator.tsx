@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 
-import GlobalStyle from "../src/styles/global-styles";
+import { GlobalStyle } from "../src/styles";
 import { biesseTheme, hsdTheme } from "../src/themes";
 
 const THEMES = {
