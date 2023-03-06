@@ -1,18 +1,72 @@
-import { Theme } from "@emotion/react";
+import { DefaultTheme } from "styled-components";
 
-export const hsdTheme: Theme = {
+export const hsdTheme: DefaultTheme = {
   name: "HSD Mechatronics",
+  breakpoints: {
+    xs: 576,
+    sm: 768,
+    md: 992,
+    lg: 1200,
+    xl: 1400,
+    xxl: 1600,
+  },
+  card: {
+    borderRadius: "40px",
+    boxShadow: "0 0 20px 0 rgba(140,140,140,0.5)",
+  },
+  button: {
+    borderRadius: "20px",
+  },
+  input: {
+    borderRadius: "25px",
+    boxShadow: {
+      dark: "rgba(0, 0, 0, 0.8)",
+      light: "rgba(135, 135, 135, 0.8)",
+    },
+    borderColor: "#C4C4C4",
+  },
+  eventCard: {
+    boxShadow: "rgba(140,140,140,0.5)",
+  },
   color: {
     primary: "#004898",
-    secondary: "#6D6E70",
+    secondary: "#98AFD9",
+    white: "#FFF",
+    black: "#252525",
+    lightGray: "#F5F5F5",
+    gray: "#c4c4c4",
+
+    material: {
+      wood: "#F9942E",
+      composite: "#8080FF",
+      glass: "#38BEEF",
+      metal: "#93949A",
+      stone: "#E1523D",
+    },
   },
   font: {
-    size: {
-      small: "12px",
-      medium: "14px",
-      large: "16px",
+    body: {
+      xs: "13px",
+      sm: "14px",
+      md: "16px",
+      lg: "18px",
+    },
+    headings: {
+      xxl: "50px",
+      xl: "45px",
+      lg: "40px",
+      md: "34px",
+      sm: "30px",
+      xs: "24px",
+    },
+    weight: {
+      book: 300,
+      regular: 400,
+      medium: 500,
+      bold: 700,
     },
     family:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
+      '"NB International Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif',
   },
+  transition: "all 0.2s ease-out",
 };

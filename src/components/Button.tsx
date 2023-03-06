@@ -1,71 +1,126 @@
-/** @jsxImportSource @emotion/react */
-import { css, Theme } from "@emotion/react";
 import { FC, PropsWithChildren } from "react";
+import styled, { css } from "styled-components";
 
-const buttonStyle = (theme: Theme) => css`
-  font-family: ${theme.font.family};
-  font-weight: 500;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-`;
+import { Icon, IconName } from "./Icon";
+
+export interface ButtonProps {
+  /**
+   * Optional component class name
+   */
+  className?: string;
+  /**
+   * Is this the principal call to action on the page?
+   */
+  variant: "primary" | "primary-inverted" | "outline";
+  /**
+   * How large should the button be?
+   */
+  size?: "small" | "medium";
+  /**
+   * Full-width button
+   */
+  isBlock?: boolean;
+  /**
+   * Shows an icon on the right
+   */
+  rightIcon?: IconName;
+  onClick?: () => void;
+  testId?: string;
+}
 
 const getSizeStyle = (size: ButtonProps["size"]) => {
   switch (size) {
     case "small":
       return css`
-        font-size: 12px;
-        padding: 10px 16px;
-      `;
-    case "large":
-      return css`
-        font-size: 16px;
-        padding: 12px 24px;
+        font-size: ${(props) => props.theme.font.body.sm};
+        padding: 0px 26px;
+        height: 30px;
       `;
     default:
       return css`
-        font-size: 14px;
-        padding: 11px 20px;
+        font-size: ${(props) => props.theme.font.body.md};
+        padding: 0px 32px;
+        height: 40px;
       `;
   }
 };
 
-const getVariantStyle = (primary?: boolean) => {
-  return primary
-    ? (theme: Theme) => css`
-        color: white;
-        background-color: ${theme.color.primary};
-      `
-    : css`
-        color: #333;
-        background-color: transparent;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+const getVariantStyle = (variant: ButtonProps["variant"]) => {
+  switch (variant) {
+    case "primary":
+      return css`
+        color: ${(props) => props.theme.color.white};
+        background-color: ${(props) => props.theme.color.primary};
+        border: 1px solid ${(props) => props.theme.color.primary};
+
+        &:hover {
+          color: ${(props) => props.theme.color.primary};
+          background-color: ${(props) => props.theme.color.white};
+        }
       `;
+    case "primary-inverted":
+      return css`
+        background: transparent;
+        color: ${(props) => props.theme.color.white};
+        border: 1px solid ${(props) => props.theme.color.white};
+
+        &:hover {
+          color: ${(props) => props.theme.color.primary};
+          background-color: ${(props) => props.theme.color.white};
+        }
+      `;
+    case "outline":
+      return css`
+        background-color: transparent;
+        color: ${(props) => props.theme.color.primary};
+        border: 1px solid ${(props) => props.theme.color.primary};
+
+        &:hover {
+          background-color: ${(props) => props.theme.color.primary};
+          color: ${(props) => props.theme.color.white};
+        }
+      `;
+  }
 };
 
-export interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
-  primary?: boolean;
-  /**
-   * How large should the button be?
-   */
-  size?: "small" | "medium" | "large";
-  onClick?: () => void;
-}
+const RightIcon = styled(Icon)`
+  margin-left: 12px;
+  display: inline;
+`;
+
+const ButtonStyled = styled.button<ButtonProps>`
+  font-family: ${(props) => props.theme.font.family};
+  font-weight: bold;
+  border: 0;
+  border-radius: ${(props) => props.theme.button.borderRadius};
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+
+  ${(props) => getSizeStyle(props.size)}
+  ${(props) => getVariantStyle(props.variant)}
+
+  ${(props) =>
+    props.isBlock &&
+    css`
+      width: 100%;
+    `}
+`;
 
 export const Button: FC<PropsWithChildren<ButtonProps>> = ({
+  testId,
   children,
-  size,
-  primary,
+  rightIcon,
   ...props
 }) => {
   return (
-    <button css={[buttonStyle, getSizeStyle(size), getVariantStyle(primary)]} {...props}>
+    <ButtonStyled data-testid={testId} {...props}>
       {children}
-    </button>
+      {rightIcon && <RightIcon name={rightIcon} size="26px" />}
+    </ButtonStyled>
   );
 };

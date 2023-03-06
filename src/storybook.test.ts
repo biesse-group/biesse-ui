@@ -1,5 +1,5 @@
-import { createSerializer } from "@emotion/jest";
 import initStoryshots, { multiSnapshotWithOptions } from "@storybook/addon-storyshots";
+import { styleSheetSerializer } from "jest-styled-components/serializer";
 import path from "path";
 
 initStoryshots({
@@ -11,9 +11,5 @@ initStoryshots({
       context: { ...story.context, fileName },
     });
   },
-  snapshotSerializers: [
-    createSerializer({
-      includeStyles: true,
-    }),
-  ],
+  snapshotSerializers: [styleSheetSerializer],
 });

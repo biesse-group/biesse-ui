@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/MaterialTag Composite 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #8080FF;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M48.008 22.605 27.395 1.992a3.387 3.387 0 0 0-4.79 0L1.992 22.605a3.387 3.387 0 0 0 0 4.79l20.613 20.613a3.387 3.387 0 0 0 4.79 0l20.613-20.613a3.387 3.387 0 0 0 0-4.79"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    composite
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Glass 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #38BEEF;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M44.475 1H5.525A4.525 4.525 0 0 0 1 5.525v38.95C1 46.974 3.025 49 5.526 49h38.949c2.5 0 4.525-2.025 4.525-4.526V5.525C49 3.025 46.974 1 44.475 1"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    glass
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Metal 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #93949A;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <path
+          d="M0 0h48v42.445H0z"
+          id="a"
+        />
+      </defs>
+      <g
+        fill="none"
+        fillRule="evenodd"
+        transform="translate(1 4)"
+      >
+        <path
+          d="M34.366 0H13.634a3.266 3.266 0 0 0-2.83 1.634L.437 19.589a3.27 3.27 0 0 0 0 3.268l10.367 17.955a3.268 3.268 0 0 0 2.83 1.634h20.732a3.268 3.268 0 0 0 2.83-1.634l10.367-17.955a3.27 3.27 0 0 0 0-3.268L37.196 1.634A3.266 3.266 0 0 0 34.366 0"
+          fill="currentColor"
+        />
+      </g>
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    metal
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Stone 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+  data-testid="action-button"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    stone
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Translated 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    pietra
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag With Border 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  border: 1px solid #FFF;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    stone
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/MaterialTag Wood 1`] = `
+.c1 {
+  color: #FFF;
+}
+
+.c1 > svg {
+  height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-left: 9px;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="#FFF"
+    size="xs"
+  >
+    <svg
+      viewBox="0 0 50 50"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+        fill="currentColor"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+  <span
+    className="c2 c3"
+    color="light"
+    size="sm"
+  >
+    wood
+  </span>
+</div>
+`;

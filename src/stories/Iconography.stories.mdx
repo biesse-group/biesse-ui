@@ -1,0 +1,23 @@
+<!-- Iconography.stories.mdx -->
+
+import { IconGallery, IconItem, Meta, Title } from "@storybook/addon-docs/";
+
+import { Icon } from "../components";
+import iconsMap from "../components/Icon/icons-map";
+
+<Meta title="Icons/Iconography" />
+
+# Iconography
+
+<br />
+<br />
+
+<IconGallery>
+  {Object.keys(iconsMap)
+    .sort((a, b) => a.localeCompare(b))
+    .map((iconName) => (
+      <IconItem name={iconName}>
+        <Icon size="sm" name={iconName} />
+      </IconItem>
+    ))}
+</IconGallery>

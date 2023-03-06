@@ -4,11 +4,13 @@ const config: StorybookConfig = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   staticDirs: ["../public"],
   addons: [
+    "@storybook/addon-a11y",
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
     "@storybook/preset-create-react-app",
+    "storybook-addon-pseudo-states",
   ],
   framework: "@storybook/react",
   typescript: {

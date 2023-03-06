@@ -1,11 +1,9 @@
 {
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,9 +11,15 @@
     "@types/node": "^16.18.11",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "dayjs": "^1.11.7",
+    "framer-motion": "^9.0.4",
+    "jest-styled-components": "^7.1.1",
+    "popmotion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.6",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
@@ -28,7 +32,7 @@
     "react-test-renderer": "18.1.0"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "rimraf dist && tsc && copyfiles -u 1 src/fonts/* dist/",
     "test": "npm run prettier-check && npm run eslint && npm run test-storyshots-ci",
     "eslint": "eslint --max-warnings 0",
     "prettier-check": "prettier . --check",
@@ -61,8 +65,8 @@
     ]
   },
   "devDependencies": {
-    "@emotion/jest": "^11.10.5",
     "@react-theming/storybook-addon": "^1.1.10",
+    "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-coverage": "^0.0.7",
     "@storybook/addon-essentials": "^6.5.15",
@@ -78,11 +82,15 @@
     "@storybook/testing-library": "^0.0.13",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "copyfiles": "^2.4.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
     "prop-types": "^15.8.1",
+    "rimraf": "^4.1.2",
+    "storybook-addon-pseudo-states": "^1.15.2",
     "webpack": "^5.75.0"
   }
 }

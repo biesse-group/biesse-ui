@@ -3,6 +3,7 @@
   "printWidth": 100,
   "quoteProps": "as-needed",
   "semi": true,
+  "endOfLine": "lf",
   "tabWidth": 2,
   "trailingComma": "es5",
   "importOrder": ["<THIRD_PARTY_MODULES>", "^[./]"],

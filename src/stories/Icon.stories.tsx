@@ -1,44 +1,40 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import React from "react";
 
-import { PlaceHolderIcon } from "../icons/PlaceHolderIcon";
+import { Icon, IconProps } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Components/Icon",
-  component: PlaceHolderIcon,
-  decorators: [
-    (Story) => (
-      <div style={{ maxWidth: 300 }}>
-        <Story />
-      </div>
-    ),
-  ],
-} as ComponentMeta<typeof PlaceHolderIcon>;
+  component: Icon,
+} as ComponentMeta<typeof Icon>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof PlaceHolderIcon> = (args) => <PlaceHolderIcon {...args} />;
+const Template: ComponentStory<typeof Icon> = (args) => <Icon {...args} />;
 
-export const Small = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Small.args = {
-  size: "small",
-};
-
-export const Medium = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Medium.args = {
-  size: "medium",
+const defaultArgs: IconProps = {
+  name: "careers",
 };
 
 export const Large = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Large.args = {
-  size: "large",
+  ...defaultArgs,
+  size: "lg",
 };
 
-export const Custom = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Custom.args = {
-  width: "35px",
+export const Medium = Template.bind({});
+Medium.args = {
+  ...defaultArgs,
+  size: "md",
+};
+
+export const Small = Template.bind({});
+Small.args = {
+  ...defaultArgs,
+  size: "sm",
+};
+
+export const ExtraSmall = Template.bind({});
+ExtraSmall.args = {
+  ...defaultArgs,
+  size: "xs",
 };
