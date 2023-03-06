@@ -2,10 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 import { fontFaces } from "./font-faces";
 
-const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   html,
   body {
     font-family: ${(props) => props.theme.font.family};
+    margin: 0;
   }
 
   * {
@@ -18,5 +19,3 @@ const GlobalStyle = createGlobalStyle`
 
   ${fontFaces}
 `;
-
-export default GlobalStyle;

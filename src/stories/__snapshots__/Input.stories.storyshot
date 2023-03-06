@@ -11,6 +11,8 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -19,7 +21,6 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: none;
 }
 
@@ -150,6 +151,8 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -158,7 +161,6 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: none;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -271,6 +273,8 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -279,7 +283,6 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: 1px solid #c4c4c4;
   border: none;
 }
@@ -376,6 +379,8 @@ exports[`Storyshots Inputs/Input With Border 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -384,7 +389,6 @@ exports[`Storyshots Inputs/Input With Border 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: 1px solid #c4c4c4;
   border: none;
 }
@@ -517,6 +521,8 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -525,7 +531,6 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: none;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
