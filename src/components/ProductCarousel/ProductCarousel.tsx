@@ -113,7 +113,7 @@ export const ProductCarousel = <T extends object>({
   });
 
   return (
-    <div style={{ height: 500 + contentHeight }}>
+    <div style={{ position: "relative", height: 500 + contentHeight }}>
       <BackgroundStrip>
         <CarouselTitle variant="H2" color="light">
           {title}
