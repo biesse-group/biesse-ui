@@ -64,6 +64,8 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -72,7 +74,6 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: none;
 }
 
@@ -430,6 +431,8 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -438,7 +441,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: none;
 }
 
@@ -796,6 +798,8 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -804,7 +808,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: none;
 }
 

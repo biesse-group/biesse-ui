@@ -26,6 +26,8 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -34,7 +36,6 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -258,6 +259,8 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -266,7 +269,6 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border: 1px solid #c4c4c4;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -491,6 +493,8 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   background-color: #FFF;
   color: #252525;
   font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   border-radius: 25px;
   padding: 0 20px;
   height: 45px;
@@ -499,7 +503,6 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
