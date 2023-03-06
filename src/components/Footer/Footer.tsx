@@ -118,17 +118,15 @@ const LogoWrapper = styled.div`
 const LocatorWrapper = styled.div`
   grid-area: locator;
 
-  justify-self: end;
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-grow: 1;
   max-width: 100%;
 
   ${mqUntil(
     "sm",
     css`
-      justify-self: center;
+      justify-self: stretch;
     `
   )}
 `;

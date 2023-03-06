@@ -34,9 +34,15 @@ const LocatorTitle = styled(Title)`
   ${mqUntil(
     "sm",
     css`
-      margin-left: 45px;
+      margin-left: 51px;
     `
   )}
+`;
+
+const LocatorBodyWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 `;
 
 export const LocatorBox: FC<LocatorBoxProps> = ({ title, locator, ...props }) => {
@@ -45,7 +51,7 @@ export const LocatorBox: FC<LocatorBoxProps> = ({ title, locator, ...props }) =>
       <LocatorTitle variant="H6" color="light">
         {title}
       </LocatorTitle>
-      {locator ? locator : <StaticLocator />}
+      <LocatorBodyWrapper>{locator ? locator : <StaticLocator />}</LocatorBodyWrapper>
     </LocatorBoxRoot>
   );
 };
