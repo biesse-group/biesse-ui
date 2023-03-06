@@ -18,6 +18,14 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   color: #FFF;
 }
 
+.c4 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
 .c3 {
   text-transform: uppercase;
   margin-top: 0;
@@ -158,6 +166,70 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 @media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
   .c4 {
     font-size: 16px;
   }
@@ -165,6 +237,18 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 
 @media screen and (max-width:767px) {
   .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
     font-size: 14px;
   }
 }
@@ -342,7 +426,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
         data-testid="prev"
         onClick={[Function]}
       >
-        <div
+        <span
           className="c7"
           size="26px"
         >
@@ -375,7 +459,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
               </g>
             </g>
           </svg>
-        </div>
+        </span>
       </button>
       <button
         aria-label="Next"
@@ -383,7 +467,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
         data-testid="next"
         onClick={[Function]}
       >
-        <div
+        <span
           className="c7"
           size="26px"
         >
@@ -416,7 +500,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
               </g>
             </g>
           </svg>
-        </div>
+        </span>
       </button>
     </div>
   </div>
@@ -441,422 +525,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c3 {
-  text-transform: uppercase;
-  margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  color: #FFF;
-  font-size: 50px;
-}
-
-.c0 {
-  position: relative;
-  box-sizing: border-box;
-  border-bottom-left-radius: 40px;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c2 {
-  position: absolute;
-  background-color: #6D6E70;
-  border-top-right-radius: 40px;
-  z-index: 100;
-  width: 603px;
-  bottom: 0;
-  left: 0;
-  padding: 62px 45px 37px 122px;
-}
-
-.c5 {
-  margin-top: 42px;
-}
-
-.c5 > *:nth-child(2) {
-  margin-left: -1px;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.c6 {
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #FFF;
-  color: #FFF;
-  cursor: pointer;
-}
-
-.c6:hover {
-  background-color: #FFF;
-  color: #6D6E70;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-  .c4 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c4 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c3 {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
-        }
-      }
-    />
-  </div>
-  <div
-    className="c2"
-  >
-    <div
-      style={
-        Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
-        }
-      }
-    >
-      <h1
-        className="c3"
-        color="light"
-      >
-        Etiam sit amet orci eget
-      </h1>
-    </div>
-    <div
-      style={
-        Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
-        }
-      }
-    >
-      <span
-        className="c4"
-        color="light"
-        size="lg"
-      >
-        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </span>
-    </div>
-    <div
-      className="c5"
-    >
-      <button
-        aria-label="Prev"
-        className="c6"
-        data-testid="prev"
-        onClick={[Function]}
-      >
-        <div
-          className="c7"
-          size="26px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h38.216v48H0z"
-                id="a"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-            >
-              <path
-                d="M21.717 7.392Z"
-                fill="currentColor"
-              />
-              <g
-                transform="matrix(0 1 1 0 1.108 5.892)"
-              >
-                <path
-                  d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
-                  fill="currentColor"
-                />
-              </g>
-            </g>
-          </svg>
-        </div>
-      </button>
-      <button
-        aria-label="Next"
-        className="c6"
-        data-testid="next"
-        onClick={[Function]}
-      >
-        <div
-          className="c7"
-          size="26px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h38.216v48H0z"
-                id="a"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-            >
-              <path
-                d="M28.5 7.392Z"
-                fill="currentColor"
-              />
-              <g
-                transform="rotate(90 21.608 27.5)"
-              >
-                <path
-                  d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
-                  fill="currentColor"
-                />
-              </g>
-            </g>
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
-.c7 {
-  color: inherit;
-}
-
-.c7 > svg {
-  height: 26px;
-  color: inherit;
-}
-
-.c4 {
+.c4 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -1004,6 +673,70 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 @media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
   .c4 {
     font-size: 16px;
   }
@@ -1011,6 +744,18 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 
 @media screen and (max-width:767px) {
   .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
     font-size: 14px;
   }
 }
@@ -1188,7 +933,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
         data-testid="prev"
         onClick={[Function]}
       >
-        <div
+        <span
           className="c7"
           size="26px"
         >
@@ -1221,7 +966,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
               </g>
             </g>
           </svg>
-        </div>
+        </span>
       </button>
       <button
         aria-label="Next"
@@ -1229,7 +974,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
         data-testid="next"
         onClick={[Function]}
       >
-        <div
+        <span
           className="c7"
           size="26px"
         >
@@ -1262,7 +1007,514 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
               </g>
             </g>
           </svg>
-        </div>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
+.c7 {
+  color: inherit;
+}
+
+.c7 > svg {
+  height: 26px;
+  color: inherit;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c4 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c3 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 50px;
+}
+
+.c0 {
+  position: relative;
+  box-sizing: border-box;
+  border-bottom-left-radius: 40px;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 603px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
+.c5 {
+  margin-top: 42px;
+}
+
+.c5 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.c6:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    style={
+      Object {
+        "opacity": 1,
+        "zIndex": 1,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+          "backgroundPosition": "center center",
+          "backgroundSize": "cover",
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
+        }
+      }
+    >
+      <h1
+        className="c3"
+        color="light"
+      >
+        Etiam sit amet orci eget
+      </h1>
+    </div>
+    <div
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateX(-100px) translateZ(0)",
+        }
+      }
+    >
+      <span
+        className="c4"
+        color="light"
+        size="lg"
+      >
+        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      </span>
+    </div>
+    <div
+      className="c5"
+    >
+      <button
+        aria-label="Prev"
+        className="c6"
+        data-testid="prev"
+        onClick={[Function]}
+      >
+        <span
+          className="c7"
+          size="26px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h38.216v48H0z"
+                id="a"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+            >
+              <path
+                d="M21.717 7.392Z"
+                fill="currentColor"
+              />
+              <g
+                transform="matrix(0 1 1 0 1.108 5.892)"
+              >
+                <path
+                  d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                  fill="currentColor"
+                />
+              </g>
+            </g>
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="Next"
+        className="c6"
+        data-testid="next"
+        onClick={[Function]}
+      >
+        <span
+          className="c7"
+          size="26px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h38.216v48H0z"
+                id="a"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+            >
+              <path
+                d="M28.5 7.392Z"
+                fill="currentColor"
+              />
+              <g
+                transform="rotate(90 21.608 27.5)"
+              >
+                <path
+                  d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                  fill="currentColor"
+                />
+              </g>
+            </g>
+          </svg>
+        </span>
       </button>
     </div>
   </div>

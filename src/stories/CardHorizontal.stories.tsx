@@ -1,7 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Button, Icon } from "../components";
-import { CardHorizontal } from "../components/CardHorizontal";
+import { Button, CardHorizontal, Icon } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {

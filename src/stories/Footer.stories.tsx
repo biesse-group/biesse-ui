@@ -18,7 +18,7 @@ export default {
 const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;
 
 const defaultArgs: FooterProps = {
-  logo: <Logo name="HSD" width="235px" color="white" />,
+  logo: <Logo name="HSD" width="300px" color="white" />,
   siteInfo: {
     iconName: "location",
     title: "HSD",
@@ -51,38 +51,25 @@ const defaultArgs: FooterProps = {
   },
   contactsLocator: {
     title: "CONTATTI",
-    render: <img src="https://dummyimage.com/300x140/ccc/fff.png" alt="dummy" />,
   },
   socialLink: {
     label: "Seguici",
-    link: (
-      <a href="/">
-        <div style={{ height: "100%", width: "100%" }} />
-      </a>
-    ),
+    renderLink: (x) => <a href="/">{x}</a>,
     socialIcon: "linkedin",
   },
 
-  projectsLinks: {
+  leftLinksList: {
     title: "PROGETTI",
     links: ["UNO", "DUE", "TRE", "QUATTRO"].map((index) => ({
       label: `PROGETTO ${index}`,
-      linkComponent: (
-        <a href="/">
-          <div style={{ height: "100%", width: "100%" }} />
-        </a>
-      ),
+      renderLink: (x) => <a href="/">{x}</a>,
     })),
   },
-  servicesLinks: {
+  rightLinksList: {
     title: "Servizi",
     links: ["UNO", "Due", "TRE", "QUATTRO", "CINQUE"].map((index) => ({
       label: `SERVIZIO ${index}`,
-      linkComponent: (
-        <a href="/">
-          <div style={{ height: "100%", width: "100%" }} />
-        </a>
-      ),
+      renderLink: (x) => <a href="/">{x}</a>,
     })),
   },
 };

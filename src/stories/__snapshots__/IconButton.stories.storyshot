@@ -144,6 +144,78 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -222,7 +294,7 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
       aria-label="Example button"
       className="c1"
     >
-      <div
+      <span
         className="c2"
         size="26px"
       >
@@ -255,7 +327,7 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
             </g>
           </g>
         </svg>
-      </div>
+      </span>
     </button>
   </div>
 </div>
@@ -291,6 +363,78 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
 }
 
 @media screen and (max-width:991px) {
@@ -484,7 +628,7 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
       className="c1"
       data-testid="primary-icon-button"
     >
-      <div
+      <span
         className="c2"
         size="26px"
       >
@@ -517,7 +661,7 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
             </g>
           </g>
         </svg>
-      </div>
+      </span>
     </button>
   </div>
 </div>
@@ -553,6 +697,78 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
 }
 
 @media screen and (max-width:991px) {
@@ -745,7 +961,7 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
       aria-label="Example button"
       className="c1"
     >
-      <div
+      <span
         className="c2"
         size="26px"
       >
@@ -778,7 +994,7 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
             </g>
           </g>
         </svg>
-      </div>
+      </span>
     </button>
   </div>
 </div>

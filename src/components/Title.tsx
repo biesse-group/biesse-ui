@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css, CSSProperties } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TitleProps = {
@@ -23,13 +24,21 @@ const headingStyle = css`
 const getSize = (size: TitleProps["size"]) => css`
   font-size: ${(props) => props.theme.font.regular.headings[size || "md"]};
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.md - 1}px) {
-    font-size: ${(props) => props.theme.font.tablet.headings[size || "md"]};
-  }
+  ${(props) =>
+    mqUntil(
+      "md",
+      css`
+        font-size: ${props.theme.font.tablet.headings[size || "md"]};
+      `
+    )}
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.sm - 1}px) {
-    font-size: ${(props) => props.theme.font.mobile.headings[size || "md"]};
-  }
+  ${(props) =>
+    mqUntil(
+      "sm",
+      css`
+        font-size: ${props.theme.font.mobile.headings[size || "md"]};
+      `
+    )}
 `;
 
 const getColor = (color?: TitleProps["color"]) => css`

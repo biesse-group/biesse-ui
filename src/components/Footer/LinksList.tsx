@@ -11,9 +11,10 @@ interface LinkListElement {
    */
   label: string;
   /**
-   * External link element
+   * External link element,
+   * function should wrap the argument as children
    */
-  linkComponent?: JSX.Element;
+  renderLink?: (label: string) => JSX.Element;
 }
 
 export interface LinksListProps {
@@ -32,25 +33,15 @@ const LinkElementWrapper = styled.div`
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  margin: 4px 0px;
+  margin: 5px 0px;
   > div {
     margin-right: 5px;
   }
 `;
 
-const SocialLinkContainer = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  z-index: 1;
-`;
-
 export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
   return (
-    <LinksListRoot>
+    <LinksListRoot {...props}>
       <Title style={{ marginBottom: "20px" }} variant="H6" color="light">
         {title}
       </Title>
@@ -58,10 +49,10 @@ export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
       {links?.map((linkElement, index) => (
         <LinkElementWrapper key={index}>
           <Icon name="chevron-right" size="15px" color="light" />
+
           <Text color="light" weight="book">
-            {linkElement.label}
+            {linkElement.renderLink?.(linkElement.label)}
           </Text>
-          <SocialLinkContainer>{linkElement.linkComponent}</SocialLinkContainer>
         </LinkElementWrapper>
       ))}
     </LinksListRoot>

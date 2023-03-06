@@ -19,4 +19,4 @@ export * from "./Logo";
 export * from "./Icon";
 export * from "./MaterialTag";
 export * from "./EventCard";
-export * from "./Footer/Footer";
+export * from "./Footer";

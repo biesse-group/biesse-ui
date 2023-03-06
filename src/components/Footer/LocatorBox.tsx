@@ -14,7 +14,7 @@ export interface LocatorBoxProps {
    * Locator component,
    * Default one is a Biesse image
    */
-  locator: JSX.Element;
+  locator?: JSX.Element;
 }
 
 const LocatorBoxRoot = styled.div`

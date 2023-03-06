@@ -1,6 +1,7 @@
 import { CSSProperties, FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TextProps = {
@@ -42,13 +43,21 @@ const getLineHeight = (size?: TextProps["size"]) => css`
 const getSize = (size: TextProps["size"]) => css`
   font-size: ${(props) => props.theme.font.regular.body[size || "md"]};
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.md - 1}px) {
-    font-size: ${(props) => props.theme.font.tablet.body[size || "md"]};
-  }
+  ${(props) =>
+    mqUntil(
+      "md",
+      css`
+        font-size: ${props.theme.font.tablet.body[size || "md"]};
+      `
+    )}
 
-  @media screen and (max-width: ${(props) => props.theme.breakpoints.sm - 1}px) {
-    font-size: ${(props) => props.theme.font.mobile.body[size || "md"]};
-  }
+  ${(props) =>
+    mqUntil(
+      "sm",
+      css`
+        font-size: ${props.theme.font.mobile.body[size || "md"]};
+      `
+    )}
 `;
 
 const textStyle = css<TextProps>`
@@ -61,11 +70,19 @@ const textStyle = css<TextProps>`
 
 const StyledSpan = styled.span<TextProps>`
   ${textStyle}
+
+  a {
+    ${textStyle}
+  }
 `;
 
 const StyledParagraph = styled.p<TextProps>`
   ${textStyle};
   margin: 0;
+
+  a {
+    ${textStyle}
+  }
 `;
 
 export const Text: FC<PropsWithChildren<TextProps>> = ({ tag = "span", ...props }) => {

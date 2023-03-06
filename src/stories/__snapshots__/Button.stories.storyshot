@@ -290,7 +290,7 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   className="c0"
 >
   Download catalog
-  <div
+  <span
     className="c1 c2"
     size="26px"
   >
@@ -323,6 +323,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
         />
       </g>
     </svg>
-  </div>
+  </span>
 </button>
 `;

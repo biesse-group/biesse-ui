@@ -23,6 +23,7 @@ export interface IconProps {
    * if not specified becomes inherit.
    */
   color?: "light" | "primary" | string;
+  onClick?: () => void;
   testId?: string;
 }
 
@@ -56,7 +57,7 @@ const getColor = (color: IconProps["color"]) => css`
   }};
 `;
 
-const IconRoot = styled.div<Omit<IconProps, "name" | "color">>`
+const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
   ${(props) => getColor(props.color)};
 
   > svg {

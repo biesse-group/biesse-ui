@@ -19,11 +19,11 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: light;
 }
 
-.c22 {
+.c21 {
   color: #FFF;
 }
 
-.c22 > svg {
+.c21 > svg {
   height: 28px;
   color: light;
 }
@@ -36,7 +36,23 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: #FFF;
 }
 
+.c17 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
 .c7 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFF;
+}
+
+.c7 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 13px;
@@ -54,7 +70,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 .c2 {
-  width: 235px;
+  width: 300px;
 }
 
 .c2 svg {
@@ -115,24 +131,14 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 4px 0px;
+  margin: 5px 0px;
 }
 
 .c15 > div {
   margin-right: 5px;
 }
 
-.c18 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.c25 {
+.c23 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -143,11 +149,11 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   text-transform: uppercase;
 }
 
-.c26 {
+.c24 {
   margin-bottom: 20px;
 }
 
-.c21 {
+.c20 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -161,17 +167,8 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   align-items: center;
 }
 
-.c21 > span {
+.c20 > span {
   margin-right: 12px;
-}
-
-.c23 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .c0 {
@@ -192,7 +189,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   grid-area: logo;
 }
 
-.c24 {
+.c22 {
   grid-area: locator;
   justify-self: end;
   display: -webkit-box;
@@ -233,13 +230,38 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   grid-area: projects;
 }
 
-.c19 {
+.c18 {
   grid-area: services;
 }
 
-.c20 {
+.c19 {
   grid-area: 1 / social-link-start;
   justify-self: end;
+  z-index: 1;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
 }
 
 @media screen and (max-width:991px) {
@@ -281,11 +303,39 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c17 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 
 @media screen and (max-width:991px) {
   .c7 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c7 a {
     font-size: 12px;
   }
 }
@@ -368,19 +418,19 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c26 {
+  .c24 {
     margin-left: 20px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c26 {
+  .c24 {
     margin-left: 45px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c21 {
+  .c20 {
     display: none;
   }
 }
@@ -417,7 +467,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c24 {
+  .c22 {
     justify-self: center;
   }
 }
@@ -448,7 +498,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   >
     <div
       className="c2"
-      width="235px"
+      width="300px"
     >
       <svg
         color="white"
@@ -516,7 +566,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             HSD
           </span>
         </div>
-        <div
+        <span
           className="c8 c9"
           color="light"
           size="20px"
@@ -531,7 +581,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               fillRule="evenodd"
             />
           </svg>
-        </div>
+        </span>
         <div
           className="c10"
         >
@@ -576,7 +626,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             size="xs"
           />
         </div>
-        <div
+        <span
           className="c8 c9"
           color="light"
           size="20px"
@@ -591,7 +641,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               fillRule="evenodd"
             />
           </svg>
-        </div>
+        </span>
         <div
           className="c10"
         >
@@ -650,7 +700,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -677,34 +727,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          PROGETTO UNO
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            PROGETTO UNO
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -731,34 +769,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          PROGETTO DUE
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            PROGETTO DUE
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -785,34 +811,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          PROGETTO TRE
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            PROGETTO TRE
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -839,34 +853,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          PROGETTO QUATTRO
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            PROGETTO QUATTRO
           </a>
-        </div>
+        </span>
       </div>
     </div>
   </div>
   <div
-    className="c19"
+    className="c18"
   >
     <div
       className="c13"
@@ -885,7 +887,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -912,34 +914,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          SERVIZIO UNO
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            SERVIZIO UNO
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -966,34 +956,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          SERVIZIO Due
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            SERVIZIO Due
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -1020,34 +998,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          SERVIZIO TRE
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            SERVIZIO TRE
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -1074,34 +1040,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          SERVIZIO QUATTRO
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            SERVIZIO QUATTRO
           </a>
-        </div>
+        </span>
       </div>
       <div
         className="c15"
       >
-        <div
+        <span
           className="c16"
           color="light"
           size="15px"
@@ -1128,37 +1082,25 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
         <span
           className="c17"
           color="light"
         >
-          SERVIZIO CINQUE
-        </span>
-        <div
-          className="c18"
-        >
           <a
             href="/"
           >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
+            SERVIZIO CINQUE
           </a>
-        </div>
+        </span>
       </div>
     </div>
   </div>
   <div
-    className="c20"
+    className="c19"
   >
     <div
-      className="c21"
+      className="c20"
     >
       <span
         className="c17"
@@ -1166,15 +1108,11 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
       >
         Seguici
       </span>
-      <div
-        style={
-          Object {
-            "position": "relative",
-          }
-        }
+      <a
+        href="/"
       >
-        <div
-          className="c22"
+        <span
+          className="c21"
           color="light"
           size="28px"
         >
@@ -1191,34 +1129,18 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               fillRule="evenodd"
             />
           </svg>
-        </div>
-        <div
-          className="c23"
-        >
-          <a
-            href="/"
-          >
-            <div
-              style={
-                Object {
-                  "height": "100%",
-                  "width": "100%",
-                }
-              }
-            />
-          </a>
-        </div>
-      </div>
+        </span>
+      </a>
     </div>
   </div>
   <div
-    className="c24"
+    className="c22"
   >
     <div
-      className="c25"
+      className="c23"
     >
       <h6
-        className="c14 c26"
+        className="c14 c24"
         color="light"
       >
         CONTATTI

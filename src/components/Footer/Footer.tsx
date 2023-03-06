@@ -20,12 +20,12 @@ export interface FooterProps {
    * Link list on the central body
    * first to the left
    */
-  projectsLinks?: LinksListProps;
+  leftLinksList?: LinksListProps;
   /**
    * Link list on the central body
    * second to the left
    */
-  servicesLinks?: LinksListProps;
+  rightLinksList?: LinksListProps;
   /**
    * Element on the right, should contain contacts map,
    * default version is Biesse static one
@@ -174,25 +174,26 @@ const ContactsWrapper = styled.div`
   grid-area: info-contacts;
 `;
 
-const ProjectsWrapper = styled.div`
+const LeftLinksWrapper = styled.div`
   grid-area: projects;
 `;
 
-const ServicesWrapper = styled.div`
+const RightLinksWrapper = styled.div`
   grid-area: services;
 `;
 
 const SocialLinkWrapper = styled.div`
   grid-area: 1 / social-link-start;
   justify-self: end;
+  z-index: 1;
 `;
 
 export const Footer: FC<FooterProps> = ({
   className,
   testId,
   logo,
-  projectsLinks,
-  servicesLinks,
+  leftLinksList,
+  rightLinksList,
   contactsLocator,
   siteInfo,
   contactsInfo,
@@ -212,12 +213,12 @@ export const Footer: FC<FooterProps> = ({
         </ContactsWrapper>
       </InfoWrapper>
 
-      <ProjectsWrapper>
-        <LinksList {...projectsLinks} />
-      </ProjectsWrapper>
-      <ServicesWrapper>
-        <LinksList {...servicesLinks} />
-      </ServicesWrapper>
+      <LeftLinksWrapper>
+        <LinksList {...leftLinksList} />
+      </LeftLinksWrapper>
+      <RightLinksWrapper>
+        <LinksList {...rightLinksList} />
+      </RightLinksWrapper>
 
       <SocialLinkWrapper>
         <SocialLink {...socialLink} />

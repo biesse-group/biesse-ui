@@ -11,7 +11,11 @@ export interface SocialLinkProps {
    */
   label?: string;
   socialIcon?: IconName;
-  link?: JSX.Element;
+  /**
+   * External link element,
+   * function should wrap the argument as children
+   */
+  renderLink?: (label: JSX.Element) => JSX.Element;
 }
 
 const SocialWrapper = styled.div`
@@ -29,26 +33,14 @@ const SocialWrapper = styled.div`
     `
   )}
 `;
-const EXternalLinkWrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 
-  z-index: 1;
-`;
-
-export const SocialLink: FC<SocialLinkProps> = ({ label, socialIcon, link, ...props }) => {
+export const SocialLink: FC<SocialLinkProps> = ({ label, socialIcon, renderLink, ...props }) => {
   return (
     <SocialWrapper {...props}>
       <Text color="light" weight="book">
         {label}
       </Text>
-      <div style={{ position: "relative" }}>
-        {socialIcon && <Icon name={socialIcon} size="28px" color="light" />}
-        <EXternalLinkWrapper>{link}</EXternalLinkWrapper>
-      </div>
+      {socialIcon && renderLink?.(<Icon name={socialIcon} size="28px" color="light" />)}
     </SocialWrapper>
   );
 };

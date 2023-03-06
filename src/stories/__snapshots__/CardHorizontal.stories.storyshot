@@ -53,6 +53,14 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   color: #252525;
 }
 
+.c6 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
 .c4 {
   text-transform: uppercase;
   margin-top: 0;
@@ -115,6 +123,32 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c6 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 
@@ -164,7 +198,7 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
       <div
         className="c2"
       >
-        <div
+        <span
           className="c3"
           color="#6D6E70"
         >
@@ -197,7 +231,7 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
       </div>
       <h5
         className="c4 c5"
@@ -270,6 +304,14 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 }
 
 .c6 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -363,6 +405,32 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c6 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 
@@ -418,7 +486,7 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
       <div
         className="c2"
       >
-        <div
+        <span
           className="c3"
           color="#6D6E70"
         >
@@ -451,7 +519,7 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
       </div>
       <h5
         className="c4 c5"
@@ -550,6 +618,14 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
   color: #252525;
 }
 
+.c6 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
 .c4 {
   text-transform: uppercase;
   margin-top: 0;
@@ -612,6 +688,32 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c6 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 
@@ -665,7 +767,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
       <div
         className="c2"
       >
-        <div
+        <span
           className="c3"
           size="lg"
         >
@@ -685,7 +787,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
       </div>
       <h5
         className="c4 c5"
@@ -758,6 +860,14 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 }
 
 .c6 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -851,6 +961,32 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 }
 
 @media screen and (max-width:767px) {
+  .c6 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 
@@ -906,7 +1042,7 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
       <div
         className="c2"
       >
-        <div
+        <span
           className="c3"
           color="#6D6E70"
         >
@@ -939,7 +1075,7 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
               />
             </g>
           </svg>
-        </div>
+        </span>
       </div>
       <h5
         className="c4 c5"
