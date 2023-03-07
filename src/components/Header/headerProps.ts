@@ -1,4 +1,4 @@
-import { IconName, IconProps } from "../Icon";
+import { IconName } from "../Icon";
 
 export interface NavLink {
   label: string;
@@ -49,11 +49,11 @@ export interface HeaderProps {
   /**
    * Icon shown only on tablet version, replace Navlinks
    */
-  responsiveIconTablet?: IconProps;
+  responsiveIconTablet?: IconName;
   /**
    * Icon shown only on mobile version, alongside the tablet one;
    */
-  responsiveIconMobile?: IconProps;
+  responsiveIconMobile?: IconName;
 
   testId?: string;
 }

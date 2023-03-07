@@ -1,7 +1,8 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { Text } from "..";
+import { Icon, Text } from "..";
+import { mqUntil } from "../../styles/media-queries";
 import { HeaderProps } from "./headerProps";
 import { NavIconItem } from "./NavIconItem";
 
@@ -11,8 +12,6 @@ const getHeaderRootVariantStyle = (version: HeaderProps["variant"]) =>
         background-color: transparent;
       `
     : css`
-        height: 120px;
-
         background-color: ${(props) => props.theme.color.white};
         box-shadow: 0 0 10px 0 rgba(122, 122, 122, 0.5);
       `;
@@ -21,7 +20,7 @@ const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 134px;
+  height: auto;
 
   transition: all 0.2s ease-out;
 
@@ -50,6 +49,28 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   transition: all 0.2s ease-out;
 
   ${(props) => getMainHeaderWrapperVariantStyle(props.variant)}
+
+  ${(props) =>
+    props.variant === "transparent" &&
+    css`
+      border-bottom: 1px solid rgb(244, 244, 244, 0.2);
+    `}
+
+    ${mqUntil(
+    "md",
+    css`
+      padding: 0px 25px;
+      height: 75px;
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      padding: 0px 20px;
+      height: 70px;
+    `
+  )}
 `;
 
 const LogoWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -58,7 +79,23 @@ const LogoWrapper = styled.div<Pick<HeaderProps, "variant">>`
   justify-content: center;
   align-items: center;
 
-  height: 100%;
+  > div {
+    width: 480px;
+
+    ${mqUntil(
+      "md",
+      css`
+        width: 345px;
+      `
+    )}
+
+    ${mqUntil(
+      "sm",
+      css`
+        width: 193px;
+      `
+    )}
+  }
 `;
 
 const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -66,6 +103,13 @@ const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
   flex-direction: row;
   height: 100%;
   align-items: center;
+
+  ${mqUntil(
+    "md",
+    css`
+      display: none;
+    `
+  )}
 `;
 
 const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -76,11 +120,12 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   height: 45px;
   align-items: stretch;
 
-  ${(props) =>
-    props.variant === "transparent" &&
+  ${mqUntil(
+    "md",
     css`
-      border-top: 1px solid rgb(244, 244, 244, 0.2);
-    `}
+      display: none;
+    `
+  )}
 `;
 
 const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -96,12 +141,49 @@ const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
     `}
 `;
 
+const MobileIconWrapper = styled.div`
+  display: none;
+  ${mqUntil(
+    "sm",
+    css`
+      display: flex;
+    `
+  )}
+`;
+
+const TabletIconWrapper = styled.div`
+  width: 36px;
+  ${mqUntil(
+    "sm",
+    css`
+      width: 20px;
+      margin-left: 17px;
+    `
+  )}
+`;
+
+const ResponsiveIconsWrapper = styled.div`
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+
+  display: none;
+  ${mqUntil(
+    "md",
+    css`
+      display: flex;
+    `
+  )}
+`;
+
 export const Header: FC<HeaderProps> = ({
   logo,
   navIcons,
   navLinks,
   className,
   testId,
+  responsiveIconMobile,
+  responsiveIconTablet,
   ...props
 }) => {
   return (
@@ -113,6 +195,18 @@ export const Header: FC<HeaderProps> = ({
             <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
           ))}
         </NavIconsWrapper>
+        <ResponsiveIconsWrapper>
+          {responsiveIconMobile && (
+            <MobileIconWrapper>
+              <Icon name={responsiveIconMobile} color="light" size="20px" />
+            </MobileIconWrapper>
+          )}
+          {responsiveIconTablet && (
+            <TabletIconWrapper>
+              <Icon name={responsiveIconTablet} color="light" size="100%" />
+            </TabletIconWrapper>
+          )}
+        </ResponsiveIconsWrapper>
       </MainHeaderWrapper>
       <NavLinksWrapper {...props}>
         {navLinks?.map((navLink, index) => (

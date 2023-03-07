@@ -1,32 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
-.c7 {
+.c8 {
   color: inherit;
 }
 
-.c7 > svg {
+.c8 > svg {
   height: 26px;
   color: inherit;
 }
 
+.c5 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c5 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
 .c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
-
-.c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
-
-.c3 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -56,7 +56,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   align-items: center;
 }
 
-.c2 {
+.c3 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -67,11 +67,11 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c5 {
+.c6 {
   margin-top: 42px;
 }
 
-.c5 > *:nth-child(2) {
+.c6 > *:nth-child(2) {
   margin-left: -1px;
 }
 
@@ -83,9 +83,17 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   position: absolute;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
-.c6 {
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c7 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -94,7 +102,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   cursor: pointer;
 }
 
-.c6:hover {
+.c7:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
@@ -230,25 +238,25 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c5 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c5 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c5 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c5 a {
     font-size: 14px;
   }
 }
@@ -260,7 +268,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c4 {
     font-size: 30px;
   }
 }
@@ -294,6 +302,50 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -370,6 +422,9 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     }
   >
     <div
+      className="c2"
+    />
+    <div
       style={
         Object {
           "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
@@ -382,7 +437,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     />
   </div>
   <div
-    className="c2"
+    className="c3"
   >
     <div
       style={
@@ -408,7 +463,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c5"
         color="light"
         size="lg"
       >
@@ -416,16 +471,16 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       </span>
     </div>
     <div
-      className="c5"
+      className="c6"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c7"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c8"
           size="26px"
         >
           <svg
@@ -461,12 +516,12 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c7"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c8"
           size="26px"
         >
           <svg
@@ -506,32 +561,32 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
-.c7 {
+.c8 {
   color: inherit;
 }
 
-.c7 > svg {
+.c8 > svg {
   height: 26px;
   color: inherit;
 }
 
+.c5 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c5 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
 .c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
-
-.c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
-
-.c3 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -561,7 +616,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   align-items: center;
 }
 
-.c2 {
+.c3 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -572,11 +627,11 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c5 {
+.c6 {
   margin-top: 42px;
 }
 
-.c5 > *:nth-child(2) {
+.c6 > *:nth-child(2) {
   margin-left: -1px;
 }
 
@@ -588,9 +643,17 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   position: absolute;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
-.c6 {
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c7 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -599,7 +662,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   cursor: pointer;
 }
 
-.c6:hover {
+.c7:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
@@ -735,25 +798,25 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c5 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c5 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c5 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c5 a {
     font-size: 14px;
   }
 }
@@ -765,7 +828,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c4 {
     font-size: 30px;
   }
 }
@@ -799,6 +862,50 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -875,6 +982,9 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     }
   >
     <div
+      className="c2"
+    />
+    <div
       style={
         Object {
           "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
@@ -887,7 +997,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     />
   </div>
   <div
-    className="c2"
+    className="c3"
   >
     <div
       style={
@@ -913,7 +1023,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c5"
         color="light"
         size="lg"
       >
@@ -921,16 +1031,16 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       </span>
     </div>
     <div
-      className="c5"
+      className="c6"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c7"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c8"
           size="26px"
         >
           <svg
@@ -966,12 +1076,12 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c7"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c8"
           size="26px"
         >
           <svg
@@ -1011,32 +1121,32 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
-.c7 {
+.c8 {
   color: inherit;
 }
 
-.c7 > svg {
+.c8 > svg {
   height: 26px;
   color: inherit;
 }
 
+.c5 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.c5 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+}
+
 .c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
-
-.c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 26px;
-  color: #FFF;
-}
-
-.c3 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -1066,7 +1176,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   align-items: center;
 }
 
-.c2 {
+.c3 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -1077,11 +1187,11 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c5 {
+.c6 {
   margin-top: 42px;
 }
 
-.c5 > *:nth-child(2) {
+.c6 > *:nth-child(2) {
   margin-left: -1px;
 }
 
@@ -1093,9 +1203,17 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   position: absolute;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
-.c6 {
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c7 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -1104,7 +1222,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   cursor: pointer;
 }
 
-.c6:hover {
+.c7:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
@@ -1240,25 +1358,25 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c5 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c5 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c5 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c5 a {
     font-size: 14px;
   }
 }
@@ -1270,7 +1388,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c4 {
     font-size: 30px;
   }
 }
@@ -1304,6 +1422,50 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -1380,6 +1542,9 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     }
   >
     <div
+      className="c2"
+    />
+    <div
       style={
         Object {
           "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
@@ -1392,7 +1557,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     />
   </div>
   <div
-    className="c2"
+    className="c3"
   >
     <div
       style={
@@ -1418,7 +1583,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c5"
         color="light"
         size="lg"
       >
@@ -1426,16 +1591,16 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       </span>
     </div>
     <div
-      className="c5"
+      className="c6"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c7"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c8"
           size="26px"
         >
           <svg
@@ -1471,12 +1636,12 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c7"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c8"
           size="26px"
         >
           <svg

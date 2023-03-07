@@ -57,6 +57,14 @@ const StyledSlide = styled(motion.div)`
   position: absolute;
   width: 100%;
   height: 100%;
+  position: relative;
+`;
+
+const Mask = styled.div`
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 `;
 
 const titleVariants: Variants = {
@@ -125,6 +133,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
           exit={{ zIndex: 0, opacity: 0 }}
           transition={{ opacity: { duration: 1 } }}
         >
+          <Mask />
           {renderImage()}
         </StyledSlide>
       </AnimatePresence>

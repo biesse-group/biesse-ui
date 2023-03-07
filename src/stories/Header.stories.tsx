@@ -25,7 +25,7 @@ export default {
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
-  logo: <Logo name="HSD" width="482px" color="white" />,
+  logo: <Logo name="HSD" color="white" />,
   navIcons: [
     { icon: "careers", label: "Carriere", renderLink: (x) => <a href="/">{x}</a> },
     { icon: "contacts", label: "Contatti", renderLink: (x) => <a href="/">{x}</a> },
@@ -41,6 +41,8 @@ const defaultArgs: HeaderProps = {
     { label: "News ed eventi", renderLink: (x) => <a href="/">{x}</a> },
   ],
   variant: "transparent",
+  responsiveIconMobile: "country",
+  responsiveIconTablet: "hamburger",
 };
 
 export const Transparent = Template.bind({});
