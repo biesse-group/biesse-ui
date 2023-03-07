@@ -7,7 +7,7 @@ import { BiesseTheme } from "../themes";
 export type TextProps = {
   size?: keyof BiesseTheme["font"]["regular"]["body"];
   weight?: keyof BiesseTheme["font"]["weight"];
-  color?: "default" | "primary" | "light";
+  color?: "default" | "primary" | "light" | "dark";
   tag?: "span" | "p";
   style?: CSSProperties;
 };
@@ -19,8 +19,10 @@ const getColor = (color?: TextProps["color"]) => css`
         return props.theme.color.white;
       case "primary":
         return props.theme.color.primary;
-      default:
+      case "dark":
         return props.theme.color.black;
+      default:
+        return "inherit";
     }
   }};
 `;
