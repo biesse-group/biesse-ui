@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/Card Default 1`] = `
-.c7 {
+.c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -9,7 +9,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   color: inherit;
 }
 
-.c7 a {
+.c8 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -17,7 +17,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   color: inherit;
 }
 
-.c5 {
+.c6 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -26,11 +26,15 @@ exports[`Storyshots Cards/Card Default 1`] = `
   font-size: 34px;
 }
 
-.c2 {
+.c1 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
+  height: 450px;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -39,7 +43,14 @@ exports[`Storyshots Cards/Card Default 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 450px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
 }
 
 .c0 {
@@ -53,23 +64,22 @@ exports[`Storyshots Cards/Card Default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
-.c0:hover .c1 > * {
+.c0:hover .c2 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
-  -webkit-transition: -webkit-transform 0.5s ease-out;
-  -webkit-transition: transform 0.5s ease-out;
-  transition: transform 0.5s ease-out;
 }
 
-.c6 {
+.c7 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
-.c3 {
+.c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -86,7 +96,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   justify-content: space-between;
 }
 
-.c4 {
+.c5 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -104,7 +114,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c8 {
     font-size: 14px;
   }
 }
@@ -114,7 +124,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 a {
+  .c8 a {
     font-size: 14px;
   }
 }
@@ -124,13 +134,13 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c5 {
+  .c6 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c2 {
+  .c1 {
     height: 400px;
   }
 }
@@ -146,21 +156,25 @@ exports[`Storyshots Cards/Card Default 1`] = `
     className="c0"
   >
     <div
-      className="c1 c2"
-    >
-      <img
-        alt="dummy"
-        src="https://dummyimage.com/600x400/ccc/fff.png"
-      />
-    </div>
-    <div
-      className="c3"
+      className="c1"
     >
       <div
-        className="c4"
+        className="c2 c3"
+      >
+        <img
+          alt="dummy"
+          src="https://dummyimage.com/600x400/ccc/fff.png"
+        />
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
       >
         <h4
-          className="c5 c6"
+          className="c6 c7"
           color="primary"
         >
           Example card
@@ -173,7 +187,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
           }
         >
           <span
-            className="c7"
+            className="c8"
             size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
@@ -186,7 +200,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 `;
 
 exports[`Storyshots Cards/Card With Button 1`] = `
-.c8 {
+.c9 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -216,12 +230,12 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c8:hover {
+.c9:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c7 {
+.c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -229,7 +243,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   color: inherit;
 }
 
-.c7 a {
+.c8 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -237,7 +251,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   color: inherit;
 }
 
-.c5 {
+.c6 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -246,11 +260,15 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   font-size: 34px;
 }
 
-.c2 {
+.c1 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
+  height: 450px;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -259,7 +277,14 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 450px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
 }
 
 .c0 {
@@ -273,23 +298,22 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
-.c0:hover .c1 > * {
+.c0:hover .c2 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
-  -webkit-transition: -webkit-transform 0.5s ease-out;
-  -webkit-transition: transform 0.5s ease-out;
-  transition: transform 0.5s ease-out;
 }
 
-.c6 {
+.c7 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
-.c3 {
+.c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -306,7 +330,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   justify-content: space-between;
 }
 
-.c4 {
+.c5 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -324,7 +348,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c8 {
     font-size: 14px;
   }
 }
@@ -334,7 +358,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 a {
+  .c8 a {
     font-size: 14px;
   }
 }
@@ -344,13 +368,13 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c5 {
+  .c6 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c2 {
+  .c1 {
     height: 400px;
   }
 }
@@ -366,21 +390,25 @@ exports[`Storyshots Cards/Card With Button 1`] = `
     className="c0"
   >
     <div
-      className="c1 c2"
-    >
-      <img
-        alt="dummy"
-        src="https://dummyimage.com/600x400/ccc/fff.png"
-      />
-    </div>
-    <div
-      className="c3"
+      className="c1"
     >
       <div
-        className="c4"
+        className="c2 c3"
+      >
+        <img
+          alt="dummy"
+          src="https://dummyimage.com/600x400/ccc/fff.png"
+        />
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
       >
         <h4
-          className="c5 c6"
+          className="c6 c7"
           color="primary"
         >
           Example card
@@ -393,7 +421,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
           }
         >
           <span
-            className="c7"
+            className="c8"
             size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
@@ -408,7 +436,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
         }
       >
         <button
-          className="c8"
+          className="c9"
           data-testid="action-button"
         >
           Action
@@ -420,7 +448,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 `;
 
 exports[`Storyshots Cards/Card With Pre Title 1`] = `
-.c9 {
+.c10 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -428,7 +456,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   color: inherit;
 }
 
-.c9 a {
+.c10 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -436,7 +464,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   color: inherit;
 }
 
-.c5 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -444,7 +472,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   color: inherit;
 }
 
-.c5 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -452,7 +480,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   color: inherit;
 }
 
-.c7 {
+.c8 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -461,11 +489,15 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   font-size: 34px;
 }
 
-.c2 {
+.c1 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
+  height: 450px;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -474,7 +506,14 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 450px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
 }
 
 .c0 {
@@ -488,29 +527,28 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
-.c0:hover .c1 > * {
+.c0:hover .c2 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
-  -webkit-transition: -webkit-transform 0.5s ease-out;
-  -webkit-transition: transform 0.5s ease-out;
-  transition: transform 0.5s ease-out;
 }
 
-.c8 {
+.c9 {
   margin-top: 14px;
   margin-bottom: 0px;
 }
 
-.c6 {
+.c7 {
   font-style: italic;
   font-weight: bold;
   margin-top: 33px;
 }
 
-.c3 {
+.c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -527,7 +565,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   justify-content: space-between;
 }
 
-.c4 {
+.c5 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -545,7 +583,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c9 {
+  .c10 {
     font-size: 14px;
   }
 }
@@ -555,7 +593,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c9 a {
+  .c10 a {
     font-size: 14px;
   }
 }
@@ -581,13 +619,13 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c8 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c2 {
+  .c1 {
     height: 400px;
   }
 }
@@ -603,27 +641,31 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
     className="c0"
   >
     <div
-      className="c1 c2"
-    >
-      <img
-        alt="dummy"
-        src="https://dummyimage.com/600x400/ccc/fff.png"
-      />
-    </div>
-    <div
-      className="c3"
+      className="c1"
     >
       <div
-        className="c4"
+        className="c2 c3"
+      >
+        <img
+          alt="dummy"
+          src="https://dummyimage.com/600x400/ccc/fff.png"
+        />
+      </div>
+    </div>
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
       >
         <span
-          className="c5 c6"
+          className="c6 c7"
           size="sm"
         >
           01 gennaio 2023, Location
         </span>
         <h4
-          className="c7 c8"
+          className="c8 c9"
           color="primary"
         >
           Example card
@@ -636,7 +678,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
           }
         >
           <span
-            className="c9"
+            className="c10"
             size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
@@ -658,7 +700,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #FFF;
 }
 
-.c13 {
+.c14 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -688,12 +730,12 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c13:hover {
+.c14:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c12 {
+.c13 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -701,7 +743,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: inherit;
 }
 
-.c12 a {
+.c13 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -725,7 +767,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #FFF;
 }
 
-.c10 {
+.c11 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -734,11 +776,15 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   font-size: 34px;
 }
 
-.c7 {
+.c6 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
+  height: 450px;
+}
+
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -747,7 +793,14 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 450px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
 }
 
 .c0 {
@@ -761,15 +814,14 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
-.c0:hover .c6 > * {
+.c0:hover .c7 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
-  -webkit-transition: -webkit-transform 0.5s ease-out;
-  -webkit-transition: transform 0.5s ease-out;
-  transition: transform 0.5s ease-out;
 }
 
 .c1 {
@@ -779,12 +831,12 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   z-index: 1;
 }
 
-.c11 {
+.c12 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
-.c8 {
+.c9 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -801,7 +853,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   justify-content: space-between;
 }
 
-.c9 {
+.c10 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -851,7 +903,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c12 {
+  .c13 {
     font-size: 14px;
   }
 }
@@ -861,7 +913,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c12 a {
+  .c13 a {
     font-size: 14px;
   }
 }
@@ -903,13 +955,13 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c10 {
+  .c11 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c6 {
     height: 400px;
   }
 }
@@ -956,21 +1008,25 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       </div>
     </div>
     <div
-      className="c6 c7"
-    >
-      <img
-        alt="dummy"
-        src="https://dummyimage.com/600x400/ccc/fff.png"
-      />
-    </div>
-    <div
-      className="c8"
+      className="c6"
     >
       <div
-        className="c9"
+        className="c7 c8"
+      >
+        <img
+          alt="dummy"
+          src="https://dummyimage.com/600x400/ccc/fff.png"
+        />
+      </div>
+    </div>
+    <div
+      className="c9"
+    >
+      <div
+        className="c10"
       >
         <h4
-          className="c10 c11"
+          className="c11 c12"
           color="primary"
         >
           Example card
@@ -983,7 +1039,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
           }
         >
           <span
-            className="c12"
+            className="c13"
             size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
@@ -998,7 +1054,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
         }
       >
         <button
-          className="c13"
+          className="c14"
           data-testid="action-button"
         >
           Action
