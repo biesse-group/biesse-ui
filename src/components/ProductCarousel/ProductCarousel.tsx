@@ -16,13 +16,13 @@ import { ItemTitle } from "./ItemTitle";
 import { detailVariants, imageVariants, mobileVariants, titleVariants } from "./variants";
 
 const CarouselTitle = styled(Title)`
-  font-size: ${(props) => props.theme.font.headings.xxl};
+  font-size: ${(props) => props.theme.font.regular.headings.xxl};
   margin: 0;
 
   ${mqUntil(
     "sm",
     css`
-      font-size: ${(props) => props.theme.font.headings.sm};
+      font-size: ${(props) => props.theme.font.regular.headings.sm};
       text-align: center;
     `
   )}

@@ -1,4 +1,4 @@
-import { IconName } from "../Icon";
+import { IconName, IconProps } from "../Icon";
 
 export interface NavLink {
   label: string;
@@ -46,5 +46,14 @@ export interface HeaderProps {
    * Transparent background version or colored bg version?
    */
   variant: "transparent" | "colored";
+  /**
+   * Icon shown only on tablet version, replace Navlinks
+   */
+  responsiveIconTablet?: IconProps;
+  /**
+   * Icon shown only on mobile version, alongside the tablet one;
+   */
+  responsiveIconMobile?: IconProps;
+
   testId?: string;
 }

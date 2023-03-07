@@ -29,6 +29,7 @@ const iconsMap = {
   "spare-parts": IconSources.SpareParts,
   sustainability: IconSources.Sustainability,
   "video-pill": IconSources.VideoPill,
+  linkedin: IconSources.Linkedin,
 };
 
 export default iconsMap;

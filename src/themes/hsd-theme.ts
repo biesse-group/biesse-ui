@@ -45,19 +45,43 @@ export const hsdTheme: DefaultTheme = {
     },
   },
   font: {
-    body: {
-      xs: "13px",
-      sm: "14px",
-      md: "16px",
-      lg: "18px",
+    tablet: {
+      body: {
+        xs: "12px",
+        lg: "16px",
+      },
+      headings: {
+        xl: "40px",
+      },
     },
-    headings: {
-      xxl: "50px",
-      xl: "45px",
-      lg: "40px",
-      md: "34px",
-      sm: "30px",
-      xs: "24px",
+    mobile: {
+      body: {
+        md: "14px",
+        lg: "14px",
+      },
+      headings: {
+        xxl: "30px",
+        xl: "30px",
+        md: "25px",
+        sm: "20px",
+      },
+    },
+    regular: {
+      body: {
+        xs: "13px",
+        sm: "14px",
+        md: "16px",
+        lg: "18px",
+        xl: "20px",
+      },
+      headings: {
+        xxl: "50px",
+        xl: "45px",
+        lg: "40px",
+        md: "34px",
+        sm: "30px",
+        xs: "24px",
+      },
     },
     weight: {
       book: 300,

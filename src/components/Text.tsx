@@ -1,10 +1,11 @@
 import { CSSProperties, FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TextProps = {
-  size?: keyof BiesseTheme["font"]["body"];
+  size?: keyof BiesseTheme["font"]["regular"]["body"];
   weight?: keyof BiesseTheme["font"]["weight"];
   color?: "default" | "primary" | "light";
   tag?: "span" | "p";
@@ -39,21 +40,49 @@ const getLineHeight = (size?: TextProps["size"]) => css`
   }};
 `;
 
+const getSize = (size: TextProps["size"]) => css`
+  font-size: ${(props) => props.theme.font.regular.body[size || "md"]};
+
+  ${(props) =>
+    mqUntil(
+      "md",
+      css`
+        font-size: ${props.theme.font.tablet.body[size || "md"]};
+      `
+    )}
+
+  ${(props) =>
+    mqUntil(
+      "sm",
+      css`
+        font-size: ${props.theme.font.mobile.body[size || "md"]};
+      `
+    )}
+`;
+
 const textStyle = css<TextProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight[props.weight || "book"]};
-  font-size: ${(props) => props.theme.font.body[props.size || "md"]};
+  ${(props) => getSize(props.size)};
   ${(props) => getLineHeight(props.size)};
   ${(props) => getColor(props.color)};
 `;
 
 const StyledSpan = styled.span<TextProps>`
   ${textStyle}
+
+  a {
+    ${textStyle}
+  }
 `;
 
 const StyledParagraph = styled.p<TextProps>`
   ${textStyle};
   margin: 0;
+
+  a {
+    ${textStyle}
+  }
 `;
 
 export const Text: FC<PropsWithChildren<TextProps>> = ({ tag = "span", ...props }) => {

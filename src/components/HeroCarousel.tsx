@@ -7,7 +7,7 @@ import { IconButton, Text, Title } from ".";
 export interface HeroCarouselSlide {
   renderImage: () => JSX.Element;
   title: string;
-  description: string;
+  description: string | JSX.Element;
 }
 
 export type HeroCarouselProps = {
@@ -149,9 +149,13 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
           animate="center"
           exit="exit"
         >
-          <Text color="light" size="lg">
-            {description}
-          </Text>
+          {typeof description === "string" ? (
+            <Text color="light" size="lg">
+              {description}
+            </Text>
+          ) : (
+            description
+          )}
         </motion.div>
         <CarouselControls>
           <IconButton

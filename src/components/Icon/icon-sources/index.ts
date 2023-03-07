@@ -25,3 +25,4 @@ export * from "./Search";
 export * from "./SpareParts";
 export * from "./Sustainability";
 export * from "./VideoPill";
+export * from "./Linkedin";

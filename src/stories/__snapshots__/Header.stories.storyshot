@@ -18,7 +18,23 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   color: #FFF;
 }
 
+.c7 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
 .c10 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6D6E70;
+}
+
+.c10 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -160,7 +176,211 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   width: 100%;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c7 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c7 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -243,7 +463,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -276,7 +496,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
                   </g>
                 </g>
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -291,7 +511,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -305,7 +525,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
                   fillRule="evenodd"
                 />
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -320,7 +540,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -353,7 +573,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
                   />
                 </g>
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -368,7 +588,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -388,7 +608,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
                   />
                 </g>
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -515,7 +735,23 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   color: #FFF;
 }
 
+.c7 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
 .c10 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c10 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -651,7 +887,227 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   width: 100%;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c7 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c7 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -734,7 +1190,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -767,7 +1223,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
                   </g>
                 </g>
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -782,7 +1238,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -796,7 +1252,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
                   fillRule="evenodd"
                 />
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -811,7 +1267,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -844,7 +1300,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
                   />
                 </g>
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"
@@ -859,7 +1315,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <div
+            <span
               className="c6"
               size="sm"
             >
@@ -879,7 +1335,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
                   />
                 </g>
               </svg>
-            </div>
+            </span>
             <span
               className="c7"
               color="light"

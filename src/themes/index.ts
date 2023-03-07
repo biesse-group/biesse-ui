@@ -1,3 +1,5 @@
+import { FontSizesBody, FontSizesHeading } from "./fontSizes";
+
 export * from "./hsd-theme";
 export * from "./biesse-theme";
 
@@ -46,19 +48,17 @@ export interface BiesseTheme {
     };
   };
   font: {
-    body: {
-      xs: string;
-      sm: string;
-      md: string;
-      lg: string;
+    mobile: {
+      body: Partial<FontSizesBody>;
+      headings: Partial<FontSizesHeading>;
     };
-    headings: {
-      xxl: string;
-      xl: string;
-      lg: string;
-      md: string;
-      sm: string;
-      xs: string;
+    tablet: {
+      body: Partial<FontSizesBody>;
+      headings: Partial<FontSizesHeading>;
+    };
+    regular: {
+      body: FontSizesBody;
+      headings: FontSizesHeading;
     };
     weight: {
       book: number;
