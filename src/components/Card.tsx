@@ -61,6 +61,13 @@ const CardBody = styled.div`
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+`;
+
+const CardUpperBody = styled.div`
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
 `;
 
 export interface CardProps {
@@ -106,11 +113,13 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
       {tag && <TagWrapper>{tag}</TagWrapper>}
       {image && <CardImgWrapper>{image}</CardImgWrapper>}
       <CardBody>
-        {preTitle && <CardPreTitle size="sm">{preTitle}</CardPreTitle>}
-        <CardTitle variant="H4" color="primary" preTitle={preTitle}>
-          {title}
-        </CardTitle>
-        <div style={{ marginTop: "20px" }}>{children}</div>
+        <CardUpperBody>
+          {preTitle && <CardPreTitle size="sm">{preTitle}</CardPreTitle>}
+          <CardTitle variant="H4" color="primary" preTitle={preTitle}>
+            {title}
+          </CardTitle>
+          <div style={{ marginTop: "20px" }}>{children}</div>
+        </CardUpperBody>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>
     </CardRoot>

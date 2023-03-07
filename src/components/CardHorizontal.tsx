@@ -7,8 +7,17 @@ import { Text } from "./Text";
 import { Title } from "./Title";
 
 const CardContent = styled.div`
+  display: flex;
   padding: 45px 25px;
   flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const CardUpperContent = styled.div`
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
 `;
 
 const CardTitle = styled(Title)`
@@ -44,6 +53,7 @@ const CardImageInner = styled.div`
 
 const CardContainer = styled.div`
   width: 100%;
+  height: 100%;
   border-top-right-radius: ${({ theme }) => theme.card.borderRadius};
   border-bottom-left-radius: ${({ theme }) => theme.card.borderRadius};
   overflow: hidden;
@@ -82,13 +92,15 @@ export const CardHorizontal: FC<CardHorizontalProps> = ({
   return (
     <CardContainer data-testid={testId}>
       <CardContent>
-        {icon && (
-          <CardIconWrapper>
-            {typeof icon === "string" ? <Icon name={icon} color={theme.color.primary} /> : icon}
-          </CardIconWrapper>
-        )}
-        <CardTitle variant="H5">{title}</CardTitle>
-        {typeof description === "string" ? <Text>{description}</Text> : description}
+        <CardUpperContent>
+          {icon && (
+            <CardIconWrapper>
+              {typeof icon === "string" ? <Icon name={icon} color={theme.color.primary} /> : icon}
+            </CardIconWrapper>
+          )}
+          <CardTitle variant="H5">{title}</CardTitle>
+          {typeof description === "string" ? <Text>{description}</Text> : description}
+        </CardUpperContent>
         <CardActions>{actions}</CardActions>
       </CardContent>
       {image && (
