@@ -12,7 +12,7 @@ export function useBreakpoints() {
     return getKeys(theme.breakpoints).reduce(
       (acc, bpKey) => ({
         ...acc,
-        [bpKey]: window.innerWidth >= theme.breakpoints[bpKey],
+        [bpKey]: typeof window !== "undefined" && window.innerWidth >= theme.breakpoints[bpKey],
       }),
       {} as Breakpoints
     );
@@ -25,10 +25,13 @@ export function useBreakpoints() {
       setBreakpoints(calculateBreakpoints());
     };
 
-    window.addEventListener("resize", resizeHandler);
-    return () => {
-      window.removeEventListener("resize", resizeHandler);
-    };
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", resizeHandler);
+
+      return () => {
+        window.removeEventListener("resize", resizeHandler);
+      };
+    }
   });
 
   return breakpoints;
