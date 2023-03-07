@@ -18,7 +18,7 @@ interface LinkListElement {
 }
 
 export interface LinksListProps {
-  title?: string;
+  title: string;
   links?: LinkListElement[];
 }
 
@@ -58,7 +58,9 @@ export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
           <ArrowIcon name="chevron-right" size="18px" color="light" />
 
           <Text color="light" weight="book">
-            {linkElement.renderLink?.(linkElement.label)}
+            {linkElement.renderLink
+              ? linkElement.renderLink?.(linkElement.label)
+              : linkElement.label}
           </Text>
         </LinkElementWrapper>
       ))}

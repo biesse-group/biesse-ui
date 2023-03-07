@@ -18,11 +18,11 @@ export default {
 const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;
 
 const defaultArgs: FooterProps = {
-  logo: <Logo name="HSD" width="300px" color="white" />,
+  logo: <Logo name="HSD" color="white" />,
   siteInfo: {
     iconName: "location",
     title: "HSD",
-    contactsBody: (
+    body: (
       <div style={{ display: "flex", flexDirection: "column" }}>
         <Text size="xs" color="light" font-weight="book">
           SpA Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
@@ -35,7 +35,7 @@ const defaultArgs: FooterProps = {
   },
   contactsInfo: {
     iconName: "contacts",
-    contactsBody: (
+    body: (
       <div style={{ display: "flex", flexDirection: "column" }}>
         <Text size="xs" color="light" font-weight="book">
           Tel. +39 0541/979001
@@ -54,7 +54,6 @@ const defaultArgs: FooterProps = {
   },
   socialLink: {
     label: "Seguici",
-    renderLink: (x) => <a href="/">{x}</a>,
     socialIcon: "linkedin",
   },
 
@@ -62,7 +61,6 @@ const defaultArgs: FooterProps = {
     title: "PROGETTI",
     links: ["UNO", "DUE", "TRE", "QUATTRO"].map((index) => ({
       label: `PROGETTO ${index}`,
-      renderLink: (x) => <a href="/">{x}</a>,
     })),
   },
   rightLinksList: {

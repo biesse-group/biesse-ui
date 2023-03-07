@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { css } from "styled-components";
 
 import * as LogoSources from "./logo-sources";
 
@@ -44,8 +44,7 @@ const renderLogoImg = (name: string, props: Omit<LogoProps, "width" | "name">) =
 };
 
 export const Logo: FC<LogoProps> = ({ name, width, className, testId, ...props }) => {
-  const theme = useTheme();
-  props.color = props.color || theme.color.primary;
+  props.color = props.color || "inherit";
   return (
     <LogoRoot width={width} className={className} data-testid={testId}>
       {renderLogoImg(name, props)}

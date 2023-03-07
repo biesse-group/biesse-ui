@@ -242,6 +242,10 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 
 }
 
+@media screen and (max-width:991px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -533,6 +537,10 @@ exports[`Storyshots Components/Icon Large 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -830,6 +838,10 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 }
 
+@media screen and (max-width:991px) {
+
+}
+
 @media screen and (max-width:767px) {
 
 }
@@ -1121,6 +1133,10 @@ exports[`Storyshots Components/Icon Small 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
