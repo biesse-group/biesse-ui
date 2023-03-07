@@ -51,7 +51,13 @@ export const LocatorBox: FC<LocatorBoxProps> = ({ title, locator, ...props }) =>
       <LocatorTitle variant="H6" color="light">
         {title}
       </LocatorTitle>
-      <LocatorBodyWrapper>{locator ? locator : <StaticLocator />}</LocatorBodyWrapper>
+      {locator ? (
+        <LocatorBodyWrapper>{locator}</LocatorBodyWrapper>
+      ) : (
+        <LocatorBodyWrapper>
+          <StaticLocator />
+        </LocatorBodyWrapper>
+      )}
     </LocatorBoxRoot>
   );
 };
