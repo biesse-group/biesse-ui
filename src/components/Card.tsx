@@ -10,9 +10,6 @@ const CardImgWrapper = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   position: relative;
-  display: flex;
-
-  justify-content: center;
   height: 450px;
   ${mqUntil(
     "sm",
@@ -22,19 +19,27 @@ const CardImgWrapper = styled.div`
   )}
 `;
 
+const CardImageInner = styled.div`
+  display: flex;
+
+  justify-content: center;
+  transform: scale(1);
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
+`;
+
 const CardRoot = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  transition: all 0.5s ease-out;
 
   :hover {
-    ${CardImgWrapper} {
-      > * {
-        transform: scale(1.25);
-        transition: transform 0.5s ease-out;
-      }
+    ${CardImageInner} {
+      transform: scale(1.25);
     }
   }
 `;
@@ -111,7 +116,11 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   return (
     <CardRoot className={className} data-testid={testId}>
       {tag && <TagWrapper>{tag}</TagWrapper>}
-      {image && <CardImgWrapper>{image}</CardImgWrapper>}
+      {image && (
+        <CardImgWrapper>
+          <CardImageInner>{image}</CardImageInner>
+        </CardImgWrapper>
+      )}
       <CardBody>
         <CardUpperBody>
           {preTitle && <CardPreTitle size="sm">{preTitle}</CardPreTitle>}
