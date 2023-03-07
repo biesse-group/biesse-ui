@@ -2,7 +2,7 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
-import { ContactsInfoBox, ContactsInfoBoxProps } from "./ContactsInfoBox";
+import { ContactsInfoBox, InfoBoxProps } from "./InfoBox";
 import { LinksList, LinksListProps } from "./LinksList";
 import { LocatorBox, LocatorBoxProps } from "./LocatorBox";
 import { SocialLink, SocialLinkProps } from "./SocialLink";
@@ -35,12 +35,12 @@ export interface FooterProps {
    * First info box, containing site data
    * Placed on the bottom of the footer
    */
-  siteInfo: ContactsInfoBoxProps;
+  siteInfo?: InfoBoxProps;
   /**
    * Second info box, containing site data
    * Placed on the bottom of the footer
    */
-  contactsInfo: ContactsInfoBoxProps;
+  contactsInfo?: InfoBoxProps;
   /**
    * Social Link
    * located top right only in desktop view
@@ -52,7 +52,7 @@ export interface FooterProps {
 const FooterContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: ${(props) => props.theme.color.primary};
   min-height: 300px;
 
@@ -61,6 +61,7 @@ const FooterContainer = styled.div`
   grid-template-rows: auto 1fr;
   row-gap: 20px;
   grid-template-columns: repeat(3, auto 1fr) [social-link-start] auto;
+  column-gap: 10px;
 
   grid-template-areas:
     "logo . projects . services . locator"
@@ -105,7 +106,14 @@ const FooterContainer = styled.div`
 
 const LogoWrapper = styled.div`
   grid-area: logo;
-
+  color: ${(props) => props.theme.color.white};
+  width: 300px;
+  ${mqUntil(
+    "md",
+    css`
+      width: 260px;
+    `
+  )}
   ${mqUntil(
     "sm",
     css`
@@ -202,25 +210,37 @@ export const Footer: FC<FooterProps> = ({
     <FooterContainer className={className} data-testid={testId} {...props}>
       <LogoWrapper>{logo}</LogoWrapper>
 
-      <InfoWrapper>
-        <SiteWrapper>
-          <ContactsInfoBox {...siteInfo} />
-        </SiteWrapper>
-        <ContactsWrapper>
-          <ContactsInfoBox {...contactsInfo} />
-        </ContactsWrapper>
-      </InfoWrapper>
+      {(siteInfo || contactsInfo) && (
+        <InfoWrapper>
+          {siteInfo && (
+            <SiteWrapper>
+              <ContactsInfoBox {...siteInfo} />
+            </SiteWrapper>
+          )}
+          {contactsInfo && (
+            <ContactsWrapper>
+              <ContactsInfoBox {...contactsInfo} />
+            </ContactsWrapper>
+          )}
+        </InfoWrapper>
+      )}
 
-      <LeftLinksWrapper>
-        <LinksList {...leftLinksList} />
-      </LeftLinksWrapper>
-      <RightLinksWrapper>
-        <LinksList {...rightLinksList} />
-      </RightLinksWrapper>
+      {leftLinksList && (
+        <LeftLinksWrapper>
+          <LinksList {...leftLinksList} />
+        </LeftLinksWrapper>
+      )}
+      {rightLinksList && (
+        <RightLinksWrapper>
+          <LinksList {...rightLinksList} />
+        </RightLinksWrapper>
+      )}
 
-      <SocialLinkWrapper>
-        <SocialLink {...socialLink} />
-      </SocialLinkWrapper>
+      {socialLink && (
+        <SocialLinkWrapper>
+          <SocialLink {...socialLink} />
+        </SocialLinkWrapper>
+      )}
       {contactsLocator && (
         <LocatorWrapper>
           <LocatorBox {...contactsLocator} />

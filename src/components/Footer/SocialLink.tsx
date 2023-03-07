@@ -34,7 +34,12 @@ const SocialWrapper = styled.div`
   )}
 `;
 
-export const SocialLink: FC<SocialLinkProps> = ({ label, socialIcon, renderLink, ...props }) => {
+export const SocialLink: FC<SocialLinkProps> = ({
+  label,
+  socialIcon,
+  renderLink = (children) => children,
+  ...props
+}) => {
   return (
     <SocialWrapper {...props}>
       <Text color="light" weight="book">

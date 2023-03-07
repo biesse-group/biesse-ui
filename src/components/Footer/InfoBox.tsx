@@ -5,7 +5,7 @@ import { mqUntil } from "../../styles/media-queries";
 import { Icon, IconName } from "../Icon";
 import { Text } from "../Text";
 
-export interface ContactsInfoBoxProps {
+export interface InfoBoxProps {
   /**
    * Title of the info section, set in bold
    */
@@ -13,7 +13,7 @@ export interface ContactsInfoBoxProps {
   /**
    * Text to be displayed in the info section
    */
-  contactsBody?: string | JSX.Element;
+  body?: string | JSX.Element;
   /**
    * Icon to be placed on the left of the info box
    */
@@ -63,30 +63,27 @@ const InfoTextWrapper = styled.div`
   grid-area: 2 / 2;
 `;
 
-export const ContactsInfoBox: FC<ContactsInfoBoxProps> = ({
-  title,
-  contactsBody,
-  iconName,
-  ...props
-}) => {
+export const ContactsInfoBox: FC<InfoBoxProps> = ({ title, body, iconName, ...props }) => {
   return (
     <InfoBoxBodyContainer {...props}>
-      <InfoTitleWrapper>
-        <Text size="xs" color="light" font-weight="book">
-          {title}
-        </Text>
-      </InfoTitleWrapper>
+      {title && (
+        <InfoTitleWrapper>
+          <Text size="xs" color="light" font-weight="book">
+            {title}
+          </Text>
+        </InfoTitleWrapper>
+      )}
       {iconName && <InfoIcon name={iconName} size="20px" color="light" />}
 
-      <InfoTextWrapper>
-        {typeof contactsBody === "string" ? (
+      {typeof body === "string" ? (
+        <InfoTextWrapper>
           <Text size="xs" color="light" font-weight="book">
-            {contactsBody}
+            {body}
           </Text>
-        ) : (
-          contactsBody
-        )}
-      </InfoTextWrapper>
+        </InfoTextWrapper>
+      ) : (
+        <InfoTextWrapper>{body}</InfoTextWrapper>
+      )}
     </InfoBoxBodyContainer>
   );
 };
