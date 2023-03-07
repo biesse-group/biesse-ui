@@ -208,14 +208,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -367,14 +359,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -705,14 +689,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {

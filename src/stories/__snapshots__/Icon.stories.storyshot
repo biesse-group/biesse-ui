@@ -186,14 +186,6 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -306,14 +298,6 @@ exports[`Storyshots Components/Icon Large 1`] = `
 .c0 > svg {
   height: 80px;
   color: inherit;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -782,14 +766,6 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -902,14 +878,6 @@ exports[`Storyshots Components/Icon Small 1`] = `
 .c0 > svg {
   height: 30px;
   color: inherit;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
