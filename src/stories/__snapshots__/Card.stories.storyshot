@@ -9,6 +9,14 @@ exports[`Storyshots Cards/Card Default 1`] = `
   color: #252525;
 }
 
+.c6 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
 .c4 {
   text-transform: uppercase;
   margin-top: 0;
@@ -72,6 +80,36 @@ exports[`Storyshots Cards/Card Default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -170,6 +208,14 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   color: #252525;
 }
 
+.c6 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
 .c4 {
   text-transform: uppercase;
   margin-top: 0;
@@ -233,6 +279,36 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -310,7 +386,23 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   color: #252525;
 }
 
+.c8 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
 .c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.c4 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -387,6 +479,52 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -500,7 +638,23 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #252525;
 }
 
+.c11 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
 .c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c4 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -612,6 +766,68 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   border: 1px solid #FFF;
 }
 
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c11 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c11 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c7 {
     height: 400px;
@@ -634,7 +850,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       <div
         className="c2"
       >
-        <div
+        <span
           className="c3"
           color="#FFF"
           size="xs"
@@ -649,7 +865,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
               fillRule="evenodd"
             />
           </svg>
-        </div>
+        </span>
         <span
           className="c4 c5"
           color="light"

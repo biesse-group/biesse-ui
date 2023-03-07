@@ -16,7 +16,7 @@ import iconsMap from "../components/Icon/icons-map";
   {Object.keys(iconsMap)
     .sort((a, b) => a.localeCompare(b))
     .map((iconName) => (
-      <IconItem name={iconName}>
+      <IconItem key={iconName} name={iconName}>
         <Icon size="sm" name={iconName} />
       </IconItem>
     ))}

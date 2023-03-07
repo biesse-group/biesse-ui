@@ -32,13 +32,13 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
   switch (size) {
     case "small":
       return css`
-        font-size: ${(props) => props.theme.font.body.sm};
+        font-size: ${(props) => props.theme.font.regular.body.sm};
         padding: 0px 26px;
         height: 30px;
       `;
     default:
       return css`
-        font-size: ${(props) => props.theme.font.body.md};
+        font-size: ${(props) => props.theme.font.regular.body.md};
         padding: 0px 32px;
         height: 40px;
       `;

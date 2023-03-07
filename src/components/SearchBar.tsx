@@ -31,7 +31,7 @@ const InputRoot = styled.div`
 `;
 
 const InputElement = styled.input`
-  font-size: ${(props) => props.theme.font.body.md};
+  font-size: ${(props) => props.theme.font.regular.body.md};
   font-family: inherit;
   font-weight: 400;
   line-height: 1.5;

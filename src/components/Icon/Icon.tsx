@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 import iconsMap from "./icons-map";
 
@@ -22,7 +22,8 @@ export interface IconProps {
    * Color fo the icon.
    * if not specified becomes inherit.
    */
-  color?: string;
+  color?: "light" | "primary" | string;
+  onClick?: () => void;
   testId?: string;
 }
 
@@ -41,8 +42,23 @@ const getIconSize = (size: IconProps["size"] = "md") => {
   }
 };
 
-const IconRoot = styled.div<Omit<IconProps, "name">>`
-  color: ${(props) => props.color || "inherit"};
+const getColor = (color: IconProps["color"]) => css`
+  color: ${(props) => {
+    switch (color) {
+      case "light":
+        return props.theme.color.white;
+      case "primary":
+        return props.theme.color.primary;
+      case undefined:
+        return "inherit";
+      default:
+        return color;
+    }
+  }};
+`;
+
+const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
+  ${(props) => getColor(props.color)};
 
   > svg {
     height: ${(props) => getIconSize(props.size)};

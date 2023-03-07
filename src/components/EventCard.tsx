@@ -1,7 +1,8 @@
 import dayjs from "dayjs";
 import { FC, PropsWithChildren } from "react";
-import styled, { useTheme } from "styled-components";
+import styled, { css, useTheme } from "styled-components";
 
+import { mqUntil } from "../styles/media-queries";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -43,9 +44,11 @@ const EventCardRoot = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: row;
   overflow: hidden;
+
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 85px auto;
 
   background-color: ${(props) => props.theme.color.lightGray};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
@@ -60,11 +63,13 @@ const EventCardRoot = styled.div`
 `;
 
 const EventCardMainWrapper = styled.div`
+  grid-area: 1/ 2;
+
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 30px 30px 20px 22px;
+  padding: 30px 30px 0px 22px;
 `;
 
 const CardTitle = styled(Title)`
@@ -77,9 +82,7 @@ const DateSubtitle = styled(Text)`
   margin-bottom: 27px;
 `;
 
-const DescriptionWrapper = styled(Text)`
-  margin-bottom: 24px;
-`;
+const DescriptionWrapper = styled(Text)``;
 
 const DateLinkIcon = styled(Icon)`
   margin-top: 50px;
@@ -88,17 +91,32 @@ const DateLinkIcon = styled(Icon)`
 `;
 
 const DateLinkWrapper = styled.div`
+  grid-area: 1/ 1 / span 2 / span 1;
+
+  ${mqUntil(
+    "sm",
+    css`
+      grid-area: 1/ 1;
+    `
+  )}
+
   position: relative;
   background-color: ${(props) => props.theme.color.primary};
-  width: 85px;
   display: flex;
   flex-direction: column;
-  padding: 20px 15px 0px 20px;
+  padding: 24px 15px 0px 20px;
   text-align: center;
 
   > h2 {
     margin-bottom: 0px;
     line-height: 40px;
+
+    ${mqUntil(
+      "sm",
+      css`
+        font-size: 40px;
+      `
+    )}
   }
 
   &:hover {
@@ -117,6 +135,19 @@ const LinkWrapper = styled.div`
   background-color: transparent;
   z-index: 1;
   cursor: pointer;
+`;
+
+const ChildWrapper = styled.div`
+  grid-area: 2 / 2;
+
+  padding: 20px 15px 20px 20px;
+
+  ${mqUntil(
+    "sm",
+    css`
+      grid-area: 2/ 1 / span 1 / span 2;
+    `
+  )}
 `;
 
 export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
@@ -153,8 +184,8 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
         <DescriptionWrapper>
           {typeof description === "string" ? <Text size="md">{description}</Text> : description}
         </DescriptionWrapper>
-        {children}
       </EventCardMainWrapper>
+      <ChildWrapper>{children}</ChildWrapper>
     </EventCardRoot>
   );
 };

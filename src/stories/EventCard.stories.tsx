@@ -10,7 +10,7 @@ export default {
   component: EventCard,
   decorators: [
     (Story) => (
-      <div style={{ maxWidth: 600, height: 315 }}>
+      <div style={{ maxWidth: 600 }}>
         <Story />
       </div>
     ),

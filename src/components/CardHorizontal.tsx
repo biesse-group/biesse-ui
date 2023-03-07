@@ -15,7 +15,7 @@ const CardTitle = styled(Title)`
   margin-bottom: 29px;
 `;
 
-const CardIcon = styled(Icon)`
+const CardIconWrapper = styled.div`
   margin-bottom: 36px;
 `;
 
@@ -63,7 +63,7 @@ const CardContainer = styled.div`
 
 type CardHorizontalProps = {
   title: string;
-  icon?: IconName;
+  icon?: IconName | JSX.Element;
   description?: string | JSX.Element;
   actions?: JSX.Element;
   image?: JSX.Element;
@@ -82,7 +82,11 @@ export const CardHorizontal: FC<CardHorizontalProps> = ({
   return (
     <CardContainer data-testid={testId}>
       <CardContent>
-        {icon && <CardIcon name={icon} color={theme.color.primary} />}
+        {icon && (
+          <CardIconWrapper>
+            {typeof icon === "string" ? <Icon name={icon} color={theme.color.primary} /> : icon}
+          </CardIconWrapper>
+        )}
         <CardTitle variant="H5">{title}</CardTitle>
         {typeof description === "string" ? <Text>{description}</Text> : description}
         <CardActions>{actions}</CardActions>
