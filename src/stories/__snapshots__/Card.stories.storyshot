@@ -1,23 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/Card Default 1`] = `
-.c6 {
+.c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c6 a {
+.c7 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c4 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -64,12 +64,29 @@ exports[`Storyshots Cards/Card Default 1`] = `
   transition: transform 0.5s ease-out;
 }
 
-.c5 {
+.c6 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
 .c3 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -87,7 +104,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
+  .c7 {
     font-size: 14px;
   }
 }
@@ -97,7 +114,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 a {
+  .c7 a {
     font-size: 14px;
   }
 }
@@ -107,7 +124,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c5 {
     font-size: 25px;
   }
 }
@@ -139,25 +156,29 @@ exports[`Storyshots Cards/Card Default 1`] = `
     <div
       className="c3"
     >
-      <h4
-        className="c4 c5"
-        color="primary"
-      >
-        Example card
-      </h4>
       <div
-        style={
-          Object {
-            "marginTop": "20px",
-          }
-        }
+        className="c4"
       >
-        <span
-          className="c6"
-          size="md"
+        <h4
+          className="c5 c6"
+          color="primary"
         >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-        </span>
+          Example card
+        </h4>
+        <div
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <span
+            className="c7"
+            size="md"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </span>
+        </div>
       </div>
     </div>
   </div>
@@ -165,7 +186,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 `;
 
 exports[`Storyshots Cards/Card With Button 1`] = `
-.c7 {
+.c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -195,28 +216,28 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c6 {
+.c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c6 a {
+.c7 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c4 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -263,12 +284,29 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   transition: transform 0.5s ease-out;
 }
 
-.c5 {
+.c6 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
 .c3 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -286,7 +324,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
+  .c7 {
     font-size: 14px;
   }
 }
@@ -296,7 +334,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 a {
+  .c7 a {
     font-size: 14px;
   }
 }
@@ -306,7 +344,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c5 {
     font-size: 25px;
   }
 }
@@ -338,25 +376,29 @@ exports[`Storyshots Cards/Card With Button 1`] = `
     <div
       className="c3"
     >
-      <h4
-        className="c4 c5"
-        color="primary"
-      >
-        Example card
-      </h4>
       <div
-        style={
-          Object {
-            "marginTop": "20px",
-          }
-        }
+        className="c4"
       >
-        <span
-          className="c6"
-          size="md"
+        <h4
+          className="c5 c6"
+          color="primary"
         >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-        </span>
+          Example card
+        </h4>
+        <div
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <span
+            className="c7"
+            size="md"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </span>
+        </div>
       </div>
       <div
         style={
@@ -366,7 +408,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
         }
       >
         <button
-          className="c7"
+          className="c8"
           data-testid="action-button"
         >
           Action
@@ -378,39 +420,39 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 `;
 
 exports[`Storyshots Cards/Card With Pre Title 1`] = `
-.c8 {
+.c9 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c8 a {
+.c9 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c4 {
+.c5 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
-.c4 a {
+.c5 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
-.c6 {
+.c7 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -457,12 +499,12 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   transition: transform 0.5s ease-out;
 }
 
-.c7 {
+.c8 {
   margin-top: 14px;
   margin-bottom: 0px;
 }
 
-.c5 {
+.c6 {
   font-style: italic;
   font-weight: bold;
   margin-top: 33px;
@@ -479,6 +521,23 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c4 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (max-width:991px) {
@@ -486,7 +545,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 {
+  .c9 {
     font-size: 14px;
   }
 }
@@ -496,7 +555,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 a {
+  .c9 a {
     font-size: 14px;
   }
 }
@@ -522,7 +581,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
+  .c7 {
     font-size: 25px;
   }
 }
@@ -554,31 +613,35 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
     <div
       className="c3"
     >
-      <span
-        className="c4 c5"
-        size="sm"
-      >
-        01 gennaio 2023, Location
-      </span>
-      <h4
-        className="c6 c7"
-        color="primary"
-      >
-        Example card
-      </h4>
       <div
-        style={
-          Object {
-            "marginTop": "20px",
-          }
-        }
+        className="c4"
       >
         <span
-          className="c8"
-          size="md"
+          className="c5 c6"
+          size="sm"
         >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          01 gennaio 2023, Location
         </span>
+        <h4
+          className="c7 c8"
+          color="primary"
+        >
+          Example card
+        </h4>
+        <div
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <span
+            className="c9"
+            size="md"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </span>
+        </div>
       </div>
     </div>
   </div>
@@ -595,7 +658,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #FFF;
 }
 
-.c12 {
+.c13 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -625,25 +688,25 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c12:hover {
+.c13:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c11 {
+.c12 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
-.c11 a {
+.c12 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c4 {
@@ -662,7 +725,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #FFF;
 }
 
-.c9 {
+.c10 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -716,12 +779,29 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   z-index: 1;
 }
 
-.c10 {
+.c11 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
 .c8 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c9 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -771,7 +851,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c11 {
+  .c12 {
     font-size: 14px;
   }
 }
@@ -781,7 +861,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c11 a {
+  .c12 a {
     font-size: 14px;
   }
 }
@@ -823,7 +903,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c9 {
+  .c10 {
     font-size: 25px;
   }
 }
@@ -886,25 +966,29 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
     <div
       className="c8"
     >
-      <h4
-        className="c9 c10"
-        color="primary"
-      >
-        Example card
-      </h4>
       <div
-        style={
-          Object {
-            "marginTop": "20px",
-          }
-        }
+        className="c9"
       >
-        <span
-          className="c11"
-          size="md"
+        <h4
+          className="c10 c11"
+          color="primary"
         >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-        </span>
+          Example card
+        </h4>
+        <div
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <span
+            className="c12"
+            size="md"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </span>
+        </div>
       </div>
       <div
         style={
@@ -914,7 +998,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
         }
       >
         <button
-          className="c12"
+          className="c13"
           data-testid="action-button"
         >
           Action

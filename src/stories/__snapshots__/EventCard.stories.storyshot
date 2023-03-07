@@ -15,7 +15,7 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c13 a {
@@ -23,7 +23,7 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c11 {
@@ -31,7 +31,7 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
 .c11 a {
@@ -39,7 +39,7 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
 .c4 {
@@ -559,7 +559,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c13 a {
@@ -567,7 +567,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c11 {
@@ -575,7 +575,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
 .c11 a {
@@ -583,7 +583,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
 .c4 {
@@ -1103,7 +1103,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c13 a {
@@ -1111,7 +1111,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c11 {
@@ -1119,7 +1119,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
 .c11 a {
@@ -1127,7 +1127,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #252525;
+  color: inherit;
 }
 
 .c4 {

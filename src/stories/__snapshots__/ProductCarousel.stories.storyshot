@@ -92,7 +92,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
   margin: 0;
 }
 
@@ -101,7 +101,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #252525;
+  color: inherit;
 }
 
 .c1 {
