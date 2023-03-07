@@ -232,14 +232,6 @@ exports[`Storyshots Components/MaterialTag Composite 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -569,14 +561,6 @@ exports[`Storyshots Components/MaterialTag Glass 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -728,14 +712,6 @@ exports[`Storyshots Components/MaterialTag Metal 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: #93949A;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -1255,14 +1231,6 @@ exports[`Storyshots Components/MaterialTag Stone 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -1415,14 +1383,6 @@ exports[`Storyshots Components/MaterialTag Translated 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: #F9942E;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -1932,14 +1892,6 @@ exports[`Storyshots Components/MaterialTag With Border 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
 @media screen and (max-width:767px) {
 
 }
@@ -2091,14 +2043,6 @@ exports[`Storyshots Components/MaterialTag Wood 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: #F9942E;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {

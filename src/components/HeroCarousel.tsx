@@ -137,7 +137,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
           animate="center"
           exit="exit"
         >
-          <Title variant="H1" color="light">
+          <Title variant="H2" color="light">
             {title}
           </Title>
         </motion.div>
