@@ -11,7 +11,6 @@ export default {
   parameters: {
     layout: "fullscreen",
     viewport: {
-      // viewports: INITIAL_VIEWPORTS,
       defaultViewport: "iphone12",
     },
   },
