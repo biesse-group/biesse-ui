@@ -25,12 +25,17 @@ export default {
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
-  logo: <Logo name="HSD" width="482px" color="white" />,
+  logo: <Logo name="HSD" />,
   navIcons: [
     { icon: "careers", label: "Carriere", renderLink: (x) => <a href="/">{x}</a> },
     { icon: "contacts", label: "Contatti", renderLink: (x) => <a href="/">{x}</a> },
     { icon: "search", label: "Ricerca", renderLink: (x) => <a href="/">{x}</a> },
-    { icon: "country", label: "Italia", renderLink: (x) => <a href="/">{x}</a> },
+    {
+      icon: "country",
+      label: "Italia",
+      onMobileHeader: true,
+      renderLink: (x) => <a href="/">{x}</a>,
+    },
   ],
   navLinks: [
     { label: "Azienda", renderLink: (x) => <a href="/">{x}</a> },

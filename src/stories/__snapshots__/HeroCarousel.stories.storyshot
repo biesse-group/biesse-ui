@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
-.c7 {
+.c9 {
   color: inherit;
 }
 
-.c7 > svg {
+.c9 > svg {
   height: 26px;
   color: inherit;
 }
 
-.c4 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -18,7 +18,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   color: #FFF;
 }
 
-.c4 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -26,7 +26,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   color: #FFF;
 }
 
-.c3 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -56,7 +56,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   align-items: center;
 }
 
-.c2 {
+.c4 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -67,15 +67,15 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c5 {
+.c7 {
   margin-top: 42px;
 }
 
-.c5 > *:nth-child(2) {
+.c7 > *:nth-child(2) {
   margin-left: -1px;
 }
 
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -85,7 +85,24 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   height: 100%;
 }
 
-.c6 {
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c8 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -94,7 +111,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   cursor: pointer;
 }
 
-.c6:hover {
+.c8:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
@@ -230,37 +247,37 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c6 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c6 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c6 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c6 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c3 {
+  .c5 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c5 {
     font-size: 30px;
   }
 }
@@ -290,6 +307,82 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -362,27 +455,34 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 >
   <div
     className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
   >
     <div
+      className="c2"
+    />
+    <div
+      className="c3"
       style={
         Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
+          "opacity": 1,
+          "zIndex": 1,
         }
       }
-    />
+    >
+      <div
+        style={
+          Object {
+            "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+            "backgroundPosition": "center center",
+            "backgroundSize": "cover",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    className="c2"
+    className="c4"
   >
     <div
       style={
@@ -393,7 +493,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       }
     >
       <h2
-        className="c3"
+        className="c5"
         color="light"
       >
         Etiam sit amet orci eget
@@ -408,7 +508,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c6"
         color="light"
         size="lg"
       >
@@ -416,16 +516,16 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       </span>
     </div>
     <div
-      className="c5"
+      className="c7"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c8"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
           size="26px"
         >
           <svg
@@ -461,12 +561,12 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c8"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
           size="26px"
         >
           <svg
@@ -506,16 +606,16 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
-.c7 {
+.c9 {
   color: inherit;
 }
 
-.c7 > svg {
+.c9 > svg {
   height: 26px;
   color: inherit;
 }
 
-.c4 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -523,7 +623,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c4 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -531,7 +631,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c3 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -561,7 +661,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   align-items: center;
 }
 
-.c2 {
+.c4 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -572,15 +672,15 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c5 {
+.c7 {
   margin-top: 42px;
 }
 
-.c5 > *:nth-child(2) {
+.c7 > *:nth-child(2) {
   margin-left: -1px;
 }
 
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -590,7 +690,24 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   height: 100%;
 }
 
-.c6 {
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c8 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -599,7 +716,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   cursor: pointer;
 }
 
-.c6:hover {
+.c8:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
@@ -735,37 +852,37 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c6 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c6 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c6 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c6 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c3 {
+  .c5 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c5 {
     font-size: 30px;
   }
 }
@@ -795,6 +912,82 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -867,27 +1060,34 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 >
   <div
     className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
   >
     <div
+      className="c2"
+    />
+    <div
+      className="c3"
       style={
         Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
+          "opacity": 1,
+          "zIndex": 1,
         }
       }
-    />
+    >
+      <div
+        style={
+          Object {
+            "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+            "backgroundPosition": "center center",
+            "backgroundSize": "cover",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    className="c2"
+    className="c4"
   >
     <div
       style={
@@ -898,7 +1098,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       }
     >
       <h2
-        className="c3"
+        className="c5"
         color="light"
       >
         Etiam sit amet orci eget
@@ -913,7 +1113,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c6"
         color="light"
         size="lg"
       >
@@ -921,16 +1121,16 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       </span>
     </div>
     <div
-      className="c5"
+      className="c7"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c8"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
           size="26px"
         >
           <svg
@@ -966,12 +1166,12 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c8"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
           size="26px"
         >
           <svg
@@ -1011,16 +1211,16 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
-.c7 {
+.c9 {
   color: inherit;
 }
 
-.c7 > svg {
+.c9 > svg {
   height: 26px;
   color: inherit;
 }
 
-.c4 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -1028,7 +1228,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   color: #FFF;
 }
 
-.c4 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -1036,7 +1236,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   color: #FFF;
 }
 
-.c3 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -1066,7 +1266,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   align-items: center;
 }
 
-.c2 {
+.c4 {
   position: absolute;
   background-color: #6D6E70;
   border-top-right-radius: 40px;
@@ -1077,15 +1277,15 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   padding: 62px 45px 37px 122px;
 }
 
-.c5 {
+.c7 {
   margin-top: 42px;
 }
 
-.c5 > *:nth-child(2) {
+.c7 > *:nth-child(2) {
   margin-left: -1px;
 }
 
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1095,7 +1295,24 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   height: 100%;
 }
 
-.c6 {
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.c8 {
   background-color: transparent;
   width: 50px;
   height: 50px;
@@ -1104,7 +1321,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   cursor: pointer;
 }
 
-.c6:hover {
+.c8:hover {
   background-color: #FFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
@@ -1240,37 +1457,37 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c6 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c6 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c6 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c6 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c3 {
+  .c5 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c5 {
     font-size: 30px;
   }
 }
@@ -1300,6 +1517,82 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
 
 }
 
@@ -1372,27 +1665,34 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 >
   <div
     className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
   >
     <div
+      className="c2"
+    />
+    <div
+      className="c3"
       style={
         Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
+          "opacity": 1,
+          "zIndex": 1,
         }
       }
-    />
+    >
+      <div
+        style={
+          Object {
+            "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+            "backgroundPosition": "center center",
+            "backgroundSize": "cover",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    className="c2"
+    className="c4"
   >
     <div
       style={
@@ -1403,7 +1703,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       }
     >
       <h2
-        className="c3"
+        className="c5"
         color="light"
       >
         Etiam sit amet orci eget
@@ -1418,7 +1718,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c6"
         color="light"
         size="lg"
       >
@@ -1426,16 +1726,16 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       </span>
     </div>
     <div
-      className="c5"
+      className="c7"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c8"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
           size="26px"
         >
           <svg
@@ -1471,12 +1771,12 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c8"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
           size="26px"
         >
           <svg

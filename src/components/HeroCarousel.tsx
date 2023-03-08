@@ -59,6 +59,13 @@ const StyledSlide = styled(motion.div)`
   height: 100%;
 `;
 
+const Mask = styled.div`
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+`;
+
 const titleVariants: Variants = {
   enter: {
     x: -100,
@@ -82,6 +89,14 @@ const titleVariants: Variants = {
     },
   },
 };
+
+const ImageContainer = styled.div`
+  display: flex;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+`;
 
 export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -117,17 +132,20 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
 
   return (
     <CarouselContainer>
-      <AnimatePresence initial={false}>
-        <StyledSlide
-          key={`slide-${activeSlide}`}
-          initial={{ opacity: 0 }}
-          animate={{ zIndex: 1, opacity: 1 }}
-          exit={{ zIndex: 0, opacity: 0 }}
-          transition={{ opacity: { duration: 1 } }}
-        >
-          {renderImage()}
-        </StyledSlide>
-      </AnimatePresence>
+      <ImageContainer>
+        <Mask />
+        <AnimatePresence initial={false}>
+          <StyledSlide
+            key={`slide-${activeSlide}`}
+            initial={{ opacity: 0 }}
+            animate={{ zIndex: 1, opacity: 1 }}
+            exit={{ zIndex: 0, opacity: 0 }}
+            transition={{ opacity: { duration: 1 } }}
+          >
+            {renderImage()}
+          </StyledSlide>
+        </AnimatePresence>
+      </ImageContainer>
 
       <TextContainer>
         <motion.div

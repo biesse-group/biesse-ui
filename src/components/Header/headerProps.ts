@@ -1,4 +1,4 @@
-import { IconName, IconProps } from "../Icon";
+import { IconName } from "../Icon";
 
 export interface NavLink {
   label: string;
@@ -6,6 +6,10 @@ export interface NavLink {
    * Link to the ref page
    */
   renderLink: (children: React.ReactElement) => JSX.Element;
+  /**
+   * If true, the link label will be shown on mobile hamburger menu
+   */
+  onMobileMenu?: boolean;
 }
 
 export interface NavIconItemProps extends NavLink {
@@ -21,6 +25,14 @@ export interface NavIconItemProps extends NavLink {
    * Transparent background version or colored bg version?
    */
   variant: HeaderProps["variant"];
+  /**
+   * If true, the icon won't disappear in mobile view
+   */
+  onMobileHeader?: boolean;
+  /**
+   * If true, the icon label will be shown on mobile hamburger menu
+   */
+  onMobileMenu?: boolean;
   testId?: string;
 }
 
@@ -46,14 +58,6 @@ export interface HeaderProps {
    * Transparent background version or colored bg version?
    */
   variant: "transparent" | "colored";
-  /**
-   * Icon shown only on tablet version, replace Navlinks
-   */
-  responsiveIconTablet?: IconProps;
-  /**
-   * Icon shown only on mobile version, alongside the tablet one;
-   */
-  responsiveIconMobile?: IconProps;
 
   testId?: string;
 }

@@ -1,16 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
-.c6 {
-  color: inherit;
-}
-
-.c6 > svg {
-  height: 30px;
-  color: inherit;
-}
-
 .c7 {
+  color: inherit;
+}
+
+.c7 > svg {
+  height: 100%;
+  color: inherit;
+}
+
+.c12 {
+  color: #FFF;
+}
+
+.c12 > svg {
+  height: 100%;
+  color: light;
+}
+
+.c9 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -18,7 +27,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   color: #FFF;
 }
 
-.c7 a {
+.c9 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -26,7 +35,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   color: #FFF;
 }
 
-.c10 {
+.c15 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -34,7 +43,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   color: #6D6E70;
 }
 
-.c10 a {
+.c15 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -54,22 +63,44 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-left: 65px;
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
   letter-spacing: 0;
   color: #FFF;
+  margin-left: 65px;
 }
 
-.c5 > span {
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #FFF;
+  margin-left: 65px;
+}
+
+.c8 > span {
   margin-left: 10px;
   display: inline;
   font-size: 15px;
+}
+
+.c6 {
+  width: 30px;
 }
 
 .c0 {
@@ -81,10 +112,10 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  height: 134px;
+  height: auto;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  height: 120px;
+  color: #FFF;
   background-color: #FFF;
   box-shadow: 0 0 10px 0 rgba(122,122,122,0.5);
 }
@@ -114,18 +145,23 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.c2 > div {
+  -webkit-flex: 0 1 480px;
+  -ms-flex: 0 1 480px;
+  flex: 0 1 480px;
 }
 
 .c4 {
@@ -143,7 +179,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   align-items: center;
 }
 
-.c8 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -159,17 +195,26 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   align-items: stretch;
 }
 
-.c9 {
+.c14 {
   margin-top: 12px;
   margin-right: 58px;
 }
 
-.c9:hover {
+.c14:hover {
   border-bottom: 2px solid #6D6E70;
 }
 
-.c3 {
-  width: 482px;
+.c11 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 36px;
+  cursor: pointer;
+  display: none;
 }
 
 .c3 svg {
@@ -229,7 +274,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c9 {
     font-size: 14px;
   }
 }
@@ -239,7 +284,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 a {
+  .c9 a {
     font-size: 14px;
   }
 }
@@ -330,6 +375,109 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 
 @media screen and (max-width:767px) {
 
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
+    margin-left: 17px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c10 {
+    margin-left: 17px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c8 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c6 {
+    margin-left: 17px;
+    width: 36px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .c1 {
+    padding: 0px 50px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    padding: 0px 25px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    padding: 0px 20px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .c2 > div {
+    -webkit-flex: 0 1 345px;
+    -ms-flex: 0 1 345px;
+    flex: 0 1 345px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 > div {
+    -webkit-flex: 0 1 200px;
+    -ms-flex: 0 1 200px;
+    flex: 0 1 200px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .c13 {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c11 {
+    margin-left: 17px;
+    display: block;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c11 {
+    width: 20px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -410,10 +558,9 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
       >
         <div
           className="c3"
-          width="482px"
         >
           <svg
-            color="white"
+            color="inherit"
             fill="currentColor"
             viewBox="0 0 300 22"
             xmlns="http://www.w3.org/2000/svg"
@@ -467,46 +614,54 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <span
+            <div
               className="c6"
-              size="sm"
             >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <span
+                className="c7"
+                size="100%"
               >
-                <defs>
-                  <path
-                    d="M0 0h23.795v23.795H0z"
-                    id="a"
-                  />
-                </defs>
-                <g
-                  fill="none"
-                  fillRule="evenodd"
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
-                  <path
-                    d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
-                    fill="currentColor"
-                  />
+                  <defs>
+                    <path
+                      d="M0 0h23.795v23.795H0z"
+                      id="a"
+                    />
+                  </defs>
                   <g
-                    transform="translate(13.308 1)"
+                    fill="none"
+                    fillRule="evenodd"
                   >
                     <path
-                      d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                      d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
                       fill="currentColor"
                     />
+                    <g
+                      transform="translate(13.308 1)"
+                    >
+                      <path
+                        d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                        fill="currentColor"
+                      />
+                    </g>
                   </g>
-                </g>
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
             >
-              Carriere
-            </span>
+              <span
+                className="c9"
+                color="light"
+              >
+                Carriere
+              </span>
+            </div>
           </div>
         </a>
         <a
@@ -515,125 +670,190 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           <div
             className="c5"
           >
-            <span
+            <div
               className="c6"
-              size="sm"
             >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
+              <span
+                className="c7"
+                size="100%"
               >
-                <path
-                  d="M38.238 17.793H27.476a1.412 1.412 0 0 1-1.415-1.414c0-.809.657-1.415 1.415-1.415h10.762c.808 0 1.415.657 1.415 1.415s-.607 1.414-1.416 1.414Zm0 8.792H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.757.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm0 8.842H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.808.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm-18.139 2.476-3.385.758a2.328 2.328 0 0 1-2.173-.708c-.556-.606-1.212-1.414-1.566-2.071-1.718-2.93-2.627-6.72-2.627-10.712 0-3.991.909-7.78 2.627-10.66.354-.658 1.061-1.466 1.566-2.072.506-.607 1.365-.86 2.122-.708l3.386.657a1.461 1.461 0 0 1 1.111 1.92l-1.516 4.85c-.202.708-.909 1.113-1.617 1.011l-2.627-.303c-.505 1.718-.859 3.183-.859 5.305 0 2.021.303 3.487.809 5.255l2.678-.354c.707-.101 1.414.354 1.617 1.01l1.566 4.851c.252.91-.253 1.769-1.112 1.97v.001ZM45.109 4H4.891A3.892 3.892 0 0 0 1 7.89V42.4a3.892 3.892 0 0 0 3.89 3.89h40.22A3.892 3.892 0 0 0 49 42.4V7.89A3.892 3.892 0 0 0 45.109 4Z"
-                  fill="currentColor"
-                  fillRule="evenodd"
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M38.238 17.793H27.476a1.412 1.412 0 0 1-1.415-1.414c0-.809.657-1.415 1.415-1.415h10.762c.808 0 1.415.657 1.415 1.415s-.607 1.414-1.416 1.414Zm0 8.792H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.757.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm0 8.842H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.808.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm-18.139 2.476-3.385.758a2.328 2.328 0 0 1-2.173-.708c-.556-.606-1.212-1.414-1.566-2.071-1.718-2.93-2.627-6.72-2.627-10.712 0-3.991.909-7.78 2.627-10.66.354-.658 1.061-1.466 1.566-2.072.506-.607 1.365-.86 2.122-.708l3.386.657a1.461 1.461 0 0 1 1.111 1.92l-1.516 4.85c-.202.708-.909 1.113-1.617 1.011l-2.627-.303c-.505 1.718-.859 3.183-.859 5.305 0 2.021.303 3.487.809 5.255l2.678-.354c.707-.101 1.414.354 1.617 1.01l1.566 4.851c.252.91-.253 1.769-1.112 1.97v.001ZM45.109 4H4.891A3.892 3.892 0 0 0 1 7.89V42.4a3.892 3.892 0 0 0 3.89 3.89h40.22A3.892 3.892 0 0 0 49 42.4V7.89A3.892 3.892 0 0 0 45.109 4Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
+            >
+              <span
+                className="c9"
+                color="light"
+              >
+                Contatti
+              </span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/"
+        >
+          <div
+            className="c5"
+          >
+            <div
+              className="c6"
+            >
+              <span
+                className="c7"
+                size="100%"
+              >
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs>
+                    <path
+                      d="M0 0h47.956v48H0z"
+                      id="a"
+                    />
+                  </defs>
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <g
+                      transform="translate(1 1)"
+                    >
+                      <path
+                        d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                    <path
+                      d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
+                      fill="currentColor"
+                    />
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
+            >
+              <span
+                className="c9"
+                color="light"
+              >
+                Ricerca
+              </span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/"
+        >
+          <div
+            className="c10"
+          >
+            <div
+              className="c6"
+            >
+              <span
+                className="c7"
+                size="100%"
+              >
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="currentColor"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M24 47.352C11.698 47.352 1.648 37.302 1.648 25S11.698 2.648 24 2.648 46.352 12.698 46.352 25 36.302 47.352 24 47.352ZM24 1C10.764 1 0 11.764 0 25s10.764 24 24 24 24-10.764 24-24S37.236 1 24 1Z"
+                    />
+                    <path
+                      d="M16.115 24.224h7.117v-6.107c-2.201-.052-4.3-.31-6.195-.776-.512 2.121-.87 4.45-.922 6.883ZM17.447 15.84a29.01 29.01 0 0 0 5.785.724V5.904c-1.69.983-4.25 4.76-5.785 9.936ZM14.58 25.776H4.8c.154 4.037 1.536 7.711 3.738 10.765 1.484-1.76 3.89-3.157 6.86-4.037a35.544 35.544 0 0 1-.819-6.728ZM38.234 11.959A19.228 19.228 0 0 0 26.97 5.8c1.894 1.967 3.789 5.434 5.069 9.678 2.662-.828 4.863-2.07 6.195-3.52ZM16.883 32.09a30.431 30.431 0 0 1 6.35-.828v-5.486h-7.118c.052 2.226.308 4.348.768 6.314ZM23.232 44.2V32.815c-2.1.051-4.147.31-5.99.776 1.535 5.537 4.249 9.574 5.99 10.609ZM31.885 25.776h-7.117v5.486c2.253.052 4.403.31 6.349.828.46-1.966.717-4.088.768-6.314ZM24.768 5.904v10.66a29.007 29.007 0 0 0 5.786-.724c-1.587-5.175-4.096-8.953-5.786-9.936ZM9.51 37.783A18.861 18.861 0 0 0 20.929 44.2c-1.946-2.07-3.942-5.744-5.171-10.195-2.765.88-4.966 2.173-6.246 3.778ZM24.768 32.815v11.333c1.74-1.035 4.454-5.02 5.99-10.609a31.18 31.18 0 0 0-5.99-.724ZM30.963 17.34c-1.894.466-3.993.725-6.195.777v6.106h7.117c-.051-2.432-.41-4.76-.922-6.882ZM15.962 15.478c1.28-4.244 3.174-7.711 5.069-9.678-4.455.673-8.346 2.95-11.264 6.159 1.33 1.448 3.533 2.69 6.195 3.519ZM15.552 16.978c-2.867-.88-5.273-2.173-6.758-3.83-2.356 3.106-3.84 6.935-3.994 11.076h9.78c.05-2.536.409-4.968.972-7.245ZM32.602 32.504c2.97.931 5.376 2.329 6.86 4.037 2.202-3.054 3.584-6.728 3.738-10.765h-9.78a35.514 35.514 0 0 1-.819 6.728ZM32.192 34.005c-1.229 4.45-3.175 8.125-5.12 10.195 4.506-.725 8.5-3.053 11.418-6.417-1.28-1.605-3.482-2.898-6.298-3.778ZM33.42 24.224h9.78c-.154-4.14-1.639-7.97-3.994-11.075-1.536 1.656-3.89 2.95-6.758 3.83.563 2.276.922 4.709.973 7.245Z"
+                    />
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
+            >
+              <span
+                className="c9"
+                color="light"
+              >
+                Italia
+              </span>
+            </div>
+          </div>
+        </a>
+        <div
+          className="c11"
+        >
+          <span
+            className="c12"
+            color="light"
+            size="100%"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="currentColor"
+                fillRule="evenodd"
+              >
+                <rect
+                  height={3}
+                  rx={1.5}
+                  width={48}
+                  x={1}
+                  y={7}
                 />
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
-            >
-              Contatti
-            </span>
-          </div>
-        </a>
-        <a
-          href="/"
-        >
-          <div
-            className="c5"
-          >
-            <span
-              className="c6"
-              size="sm"
-            >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-              >
-                <defs>
-                  <path
-                    d="M0 0h47.956v48H0z"
-                    id="a"
-                  />
-                </defs>
-                <g
-                  fill="none"
-                  fillRule="evenodd"
-                >
-                  <g
-                    transform="translate(1 1)"
-                  >
-                    <path
-                      d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <path
-                    d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
-                    fill="currentColor"
-                  />
-                </g>
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
-            >
-              Ricerca
-            </span>
-          </div>
-        </a>
-        <a
-          href="/"
-        >
-          <div
-            className="c5"
-          >
-            <span
-              className="c6"
-              size="sm"
-            >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g
-                  fill="currentColor"
-                  fillRule="evenodd"
-                >
-                  <path
-                    d="M24 47.352C11.698 47.352 1.648 37.302 1.648 25S11.698 2.648 24 2.648 46.352 12.698 46.352 25 36.302 47.352 24 47.352ZM24 1C10.764 1 0 11.764 0 25s10.764 24 24 24 24-10.764 24-24S37.236 1 24 1Z"
-                  />
-                  <path
-                    d="M16.115 24.224h7.117v-6.107c-2.201-.052-4.3-.31-6.195-.776-.512 2.121-.87 4.45-.922 6.883ZM17.447 15.84a29.01 29.01 0 0 0 5.785.724V5.904c-1.69.983-4.25 4.76-5.785 9.936ZM14.58 25.776H4.8c.154 4.037 1.536 7.711 3.738 10.765 1.484-1.76 3.89-3.157 6.86-4.037a35.544 35.544 0 0 1-.819-6.728ZM38.234 11.959A19.228 19.228 0 0 0 26.97 5.8c1.894 1.967 3.789 5.434 5.069 9.678 2.662-.828 4.863-2.07 6.195-3.52ZM16.883 32.09a30.431 30.431 0 0 1 6.35-.828v-5.486h-7.118c.052 2.226.308 4.348.768 6.314ZM23.232 44.2V32.815c-2.1.051-4.147.31-5.99.776 1.535 5.537 4.249 9.574 5.99 10.609ZM31.885 25.776h-7.117v5.486c2.253.052 4.403.31 6.349.828.46-1.966.717-4.088.768-6.314ZM24.768 5.904v10.66a29.007 29.007 0 0 0 5.786-.724c-1.587-5.175-4.096-8.953-5.786-9.936ZM9.51 37.783A18.861 18.861 0 0 0 20.929 44.2c-1.946-2.07-3.942-5.744-5.171-10.195-2.765.88-4.966 2.173-6.246 3.778ZM24.768 32.815v11.333c1.74-1.035 4.454-5.02 5.99-10.609a31.18 31.18 0 0 0-5.99-.724ZM30.963 17.34c-1.894.466-3.993.725-6.195.777v6.106h7.117c-.051-2.432-.41-4.76-.922-6.882ZM15.962 15.478c1.28-4.244 3.174-7.711 5.069-9.678-4.455.673-8.346 2.95-11.264 6.159 1.33 1.448 3.533 2.69 6.195 3.519ZM15.552 16.978c-2.867-.88-5.273-2.173-6.758-3.83-2.356 3.106-3.84 6.935-3.994 11.076h9.78c.05-2.536.409-4.968.972-7.245ZM32.602 32.504c2.97.931 5.376 2.329 6.86 4.037 2.202-3.054 3.584-6.728 3.738-10.765h-9.78a35.514 35.514 0 0 1-.819 6.728ZM32.192 34.005c-1.229 4.45-3.175 8.125-5.12 10.195 4.506-.725 8.5-3.053 11.418-6.417-1.28-1.605-3.482-2.898-6.298-3.778ZM33.42 24.224h9.78c-.154-4.14-1.639-7.97-3.994-11.075-1.536 1.656-3.89 2.95-6.758 3.83.563 2.276.922 4.709.973 7.245Z"
-                  />
-                </g>
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
-            >
-              Italia
-            </span>
-          </div>
-        </a>
+                <rect
+                  height={3}
+                  rx={1.5}
+                  width={48}
+                  x={1}
+                  y={23}
+                />
+                <rect
+                  height={3}
+                  rx={1.5}
+                  width={48}
+                  x={1}
+                  y={41}
+                />
+              </g>
+            </svg>
+          </span>
+        </div>
       </div>
     </div>
     <div
-      className="c8"
+      className="c13"
     >
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="primary"
             size="sm"
           >
@@ -642,13 +862,13 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="primary"
             size="sm"
           >
@@ -657,13 +877,13 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="primary"
             size="sm"
           >
@@ -672,13 +892,13 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="primary"
             size="sm"
           >
@@ -687,13 +907,13 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="primary"
             size="sm"
           >
@@ -702,13 +922,13 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="primary"
             size="sm"
           >
@@ -722,16 +942,25 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 `;
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
-.c6 {
-  color: inherit;
-}
-
-.c6 > svg {
-  height: 30px;
-  color: inherit;
-}
-
 .c7 {
+  color: inherit;
+}
+
+.c7 > svg {
+  height: 100%;
+  color: inherit;
+}
+
+.c12 {
+  color: #FFF;
+}
+
+.c12 > svg {
+  height: 100%;
+  color: light;
+}
+
+.c9 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -739,7 +968,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   color: #FFF;
 }
 
-.c7 a {
+.c9 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -747,7 +976,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   color: #FFF;
 }
 
-.c10 {
+.c15 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -755,7 +984,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   color: #FFF;
 }
 
-.c10 a {
+.c15 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -775,22 +1004,44 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-left: 65px;
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;
   -ms-letter-spacing: 0;
   letter-spacing: 0;
   color: #FFF;
+  margin-left: 65px;
 }
 
-.c5 > span {
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #FFF;
+  margin-left: 65px;
+}
+
+.c8 > span {
   margin-left: 10px;
   display: inline;
   font-size: 15px;
+}
+
+.c6 {
+  width: 30px;
 }
 
 .c0 {
@@ -802,9 +1053,10 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  height: 134px;
+  height: auto;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  color: #FFF;
   background-color: transparent;
 }
 
@@ -825,6 +1077,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   background-color: transparent;
+  border-bottom: 1px solid rgb(244,244,244,0.2);
 }
 
 .c2 {
@@ -832,18 +1085,23 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.c2 > div {
+  -webkit-flex: 0 1 480px;
+  -ms-flex: 0 1 480px;
+  flex: 0 1 480px;
 }
 
 .c4 {
@@ -861,7 +1119,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   align-items: center;
 }
 
-.c8 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -875,16 +1133,24 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  border-top: 1px solid rgb(244,244,244,0.2);
 }
 
-.c9 {
+.c14 {
   margin-top: 12px;
   margin-right: 58px;
 }
 
-.c3 {
-  width: 482px;
+.c11 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 36px;
+  cursor: pointer;
+  display: none;
 }
 
 .c3 svg {
@@ -944,7 +1210,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c9 {
     font-size: 14px;
   }
 }
@@ -954,7 +1220,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 a {
+  .c9 a {
     font-size: 14px;
   }
 }
@@ -1061,6 +1327,121 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 
 @media screen and (max-width:767px) {
 
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
+    margin-left: 17px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c10 {
+    margin-left: 17px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c8 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c6 {
+    margin-left: 17px;
+    width: 36px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+  .c1 {
+    padding: 0px 50px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    padding: 0px 25px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    padding: 0px 20px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .c2 > div {
+    -webkit-flex: 0 1 345px;
+    -ms-flex: 0 1 345px;
+    flex: 0 1 345px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 > div {
+    -webkit-flex: 0 1 200px;
+    -ms-flex: 0 1 200px;
+    flex: 0 1 200px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .c13 {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c11 {
+    margin-left: 17px;
+    display: block;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c11 {
+    width: 20px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1141,10 +1522,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
       >
         <div
           className="c3"
-          width="482px"
         >
           <svg
-            color="white"
+            color="inherit"
             fill="currentColor"
             viewBox="0 0 300 22"
             xmlns="http://www.w3.org/2000/svg"
@@ -1198,46 +1578,54 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <span
+            <div
               className="c6"
-              size="sm"
             >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
+              <span
+                className="c7"
+                size="100%"
               >
-                <defs>
-                  <path
-                    d="M0 0h23.795v23.795H0z"
-                    id="a"
-                  />
-                </defs>
-                <g
-                  fill="none"
-                  fillRule="evenodd"
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
-                  <path
-                    d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
-                    fill="currentColor"
-                  />
+                  <defs>
+                    <path
+                      d="M0 0h23.795v23.795H0z"
+                      id="a"
+                    />
+                  </defs>
                   <g
-                    transform="translate(13.308 1)"
+                    fill="none"
+                    fillRule="evenodd"
                   >
                     <path
-                      d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                      d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
                       fill="currentColor"
                     />
+                    <g
+                      transform="translate(13.308 1)"
+                    >
+                      <path
+                        d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                        fill="currentColor"
+                      />
+                    </g>
                   </g>
-                </g>
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
             >
-              Carriere
-            </span>
+              <span
+                className="c9"
+                color="light"
+              >
+                Carriere
+              </span>
+            </div>
           </div>
         </a>
         <a
@@ -1246,125 +1634,190 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
           <div
             className="c5"
           >
-            <span
+            <div
               className="c6"
-              size="sm"
             >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
+              <span
+                className="c7"
+                size="100%"
               >
-                <path
-                  d="M38.238 17.793H27.476a1.412 1.412 0 0 1-1.415-1.414c0-.809.657-1.415 1.415-1.415h10.762c.808 0 1.415.657 1.415 1.415s-.607 1.414-1.416 1.414Zm0 8.792H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.757.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm0 8.842H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.808.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm-18.139 2.476-3.385.758a2.328 2.328 0 0 1-2.173-.708c-.556-.606-1.212-1.414-1.566-2.071-1.718-2.93-2.627-6.72-2.627-10.712 0-3.991.909-7.78 2.627-10.66.354-.658 1.061-1.466 1.566-2.072.506-.607 1.365-.86 2.122-.708l3.386.657a1.461 1.461 0 0 1 1.111 1.92l-1.516 4.85c-.202.708-.909 1.113-1.617 1.011l-2.627-.303c-.505 1.718-.859 3.183-.859 5.305 0 2.021.303 3.487.809 5.255l2.678-.354c.707-.101 1.414.354 1.617 1.01l1.566 4.851c.252.91-.253 1.769-1.112 1.97v.001ZM45.109 4H4.891A3.892 3.892 0 0 0 1 7.89V42.4a3.892 3.892 0 0 0 3.89 3.89h40.22A3.892 3.892 0 0 0 49 42.4V7.89A3.892 3.892 0 0 0 45.109 4Z"
-                  fill="currentColor"
-                  fillRule="evenodd"
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M38.238 17.793H27.476a1.412 1.412 0 0 1-1.415-1.414c0-.809.657-1.415 1.415-1.415h10.762c.808 0 1.415.657 1.415 1.415s-.607 1.414-1.416 1.414Zm0 8.792H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.757.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm0 8.842H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.808.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm-18.139 2.476-3.385.758a2.328 2.328 0 0 1-2.173-.708c-.556-.606-1.212-1.414-1.566-2.071-1.718-2.93-2.627-6.72-2.627-10.712 0-3.991.909-7.78 2.627-10.66.354-.658 1.061-1.466 1.566-2.072.506-.607 1.365-.86 2.122-.708l3.386.657a1.461 1.461 0 0 1 1.111 1.92l-1.516 4.85c-.202.708-.909 1.113-1.617 1.011l-2.627-.303c-.505 1.718-.859 3.183-.859 5.305 0 2.021.303 3.487.809 5.255l2.678-.354c.707-.101 1.414.354 1.617 1.01l1.566 4.851c.252.91-.253 1.769-1.112 1.97v.001ZM45.109 4H4.891A3.892 3.892 0 0 0 1 7.89V42.4a3.892 3.892 0 0 0 3.89 3.89h40.22A3.892 3.892 0 0 0 49 42.4V7.89A3.892 3.892 0 0 0 45.109 4Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
+            >
+              <span
+                className="c9"
+                color="light"
+              >
+                Contatti
+              </span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/"
+        >
+          <div
+            className="c5"
+          >
+            <div
+              className="c6"
+            >
+              <span
+                className="c7"
+                size="100%"
+              >
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
+                  <defs>
+                    <path
+                      d="M0 0h47.956v48H0z"
+                      id="a"
+                    />
+                  </defs>
+                  <g
+                    fill="none"
+                    fillRule="evenodd"
+                  >
+                    <g
+                      transform="translate(1 1)"
+                    >
+                      <path
+                        d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
+                        fill="currentColor"
+                      />
+                    </g>
+                    <path
+                      d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
+                      fill="currentColor"
+                    />
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
+            >
+              <span
+                className="c9"
+                color="light"
+              >
+                Ricerca
+              </span>
+            </div>
+          </div>
+        </a>
+        <a
+          href="/"
+        >
+          <div
+            className="c10"
+          >
+            <div
+              className="c6"
+            >
+              <span
+                className="c7"
+                size="100%"
+              >
+                <svg
+                  viewBox="0 0 50 50"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    fill="currentColor"
+                    fillRule="evenodd"
+                  >
+                    <path
+                      d="M24 47.352C11.698 47.352 1.648 37.302 1.648 25S11.698 2.648 24 2.648 46.352 12.698 46.352 25 36.302 47.352 24 47.352ZM24 1C10.764 1 0 11.764 0 25s10.764 24 24 24 24-10.764 24-24S37.236 1 24 1Z"
+                    />
+                    <path
+                      d="M16.115 24.224h7.117v-6.107c-2.201-.052-4.3-.31-6.195-.776-.512 2.121-.87 4.45-.922 6.883ZM17.447 15.84a29.01 29.01 0 0 0 5.785.724V5.904c-1.69.983-4.25 4.76-5.785 9.936ZM14.58 25.776H4.8c.154 4.037 1.536 7.711 3.738 10.765 1.484-1.76 3.89-3.157 6.86-4.037a35.544 35.544 0 0 1-.819-6.728ZM38.234 11.959A19.228 19.228 0 0 0 26.97 5.8c1.894 1.967 3.789 5.434 5.069 9.678 2.662-.828 4.863-2.07 6.195-3.52ZM16.883 32.09a30.431 30.431 0 0 1 6.35-.828v-5.486h-7.118c.052 2.226.308 4.348.768 6.314ZM23.232 44.2V32.815c-2.1.051-4.147.31-5.99.776 1.535 5.537 4.249 9.574 5.99 10.609ZM31.885 25.776h-7.117v5.486c2.253.052 4.403.31 6.349.828.46-1.966.717-4.088.768-6.314ZM24.768 5.904v10.66a29.007 29.007 0 0 0 5.786-.724c-1.587-5.175-4.096-8.953-5.786-9.936ZM9.51 37.783A18.861 18.861 0 0 0 20.929 44.2c-1.946-2.07-3.942-5.744-5.171-10.195-2.765.88-4.966 2.173-6.246 3.778ZM24.768 32.815v11.333c1.74-1.035 4.454-5.02 5.99-10.609a31.18 31.18 0 0 0-5.99-.724ZM30.963 17.34c-1.894.466-3.993.725-6.195.777v6.106h7.117c-.051-2.432-.41-4.76-.922-6.882ZM15.962 15.478c1.28-4.244 3.174-7.711 5.069-9.678-4.455.673-8.346 2.95-11.264 6.159 1.33 1.448 3.533 2.69 6.195 3.519ZM15.552 16.978c-2.867-.88-5.273-2.173-6.758-3.83-2.356 3.106-3.84 6.935-3.994 11.076h9.78c.05-2.536.409-4.968.972-7.245ZM32.602 32.504c2.97.931 5.376 2.329 6.86 4.037 2.202-3.054 3.584-6.728 3.738-10.765h-9.78a35.514 35.514 0 0 1-.819 6.728ZM32.192 34.005c-1.229 4.45-3.175 8.125-5.12 10.195 4.506-.725 8.5-3.053 11.418-6.417-1.28-1.605-3.482-2.898-6.298-3.778ZM33.42 24.224h9.78c-.154-4.14-1.639-7.97-3.994-11.075-1.536 1.656-3.89 2.95-6.758 3.83.563 2.276.922 4.709.973 7.245Z"
+                    />
+                  </g>
+                </svg>
+              </span>
+            </div>
+            <div
+              className="c8"
+            >
+              <span
+                className="c9"
+                color="light"
+              >
+                Italia
+              </span>
+            </div>
+          </div>
+        </a>
+        <div
+          className="c11"
+        >
+          <span
+            className="c12"
+            color="light"
+            size="100%"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="currentColor"
+                fillRule="evenodd"
+              >
+                <rect
+                  height={3}
+                  rx={1.5}
+                  width={48}
+                  x={1}
+                  y={7}
                 />
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
-            >
-              Contatti
-            </span>
-          </div>
-        </a>
-        <a
-          href="/"
-        >
-          <div
-            className="c5"
-          >
-            <span
-              className="c6"
-              size="sm"
-            >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-              >
-                <defs>
-                  <path
-                    d="M0 0h47.956v48H0z"
-                    id="a"
-                  />
-                </defs>
-                <g
-                  fill="none"
-                  fillRule="evenodd"
-                >
-                  <g
-                    transform="translate(1 1)"
-                  >
-                    <path
-                      d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
-                      fill="currentColor"
-                    />
-                  </g>
-                  <path
-                    d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
-                    fill="currentColor"
-                  />
-                </g>
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
-            >
-              Ricerca
-            </span>
-          </div>
-        </a>
-        <a
-          href="/"
-        >
-          <div
-            className="c5"
-          >
-            <span
-              className="c6"
-              size="sm"
-            >
-              <svg
-                viewBox="0 0 50 50"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g
-                  fill="currentColor"
-                  fillRule="evenodd"
-                >
-                  <path
-                    d="M24 47.352C11.698 47.352 1.648 37.302 1.648 25S11.698 2.648 24 2.648 46.352 12.698 46.352 25 36.302 47.352 24 47.352ZM24 1C10.764 1 0 11.764 0 25s10.764 24 24 24 24-10.764 24-24S37.236 1 24 1Z"
-                  />
-                  <path
-                    d="M16.115 24.224h7.117v-6.107c-2.201-.052-4.3-.31-6.195-.776-.512 2.121-.87 4.45-.922 6.883ZM17.447 15.84a29.01 29.01 0 0 0 5.785.724V5.904c-1.69.983-4.25 4.76-5.785 9.936ZM14.58 25.776H4.8c.154 4.037 1.536 7.711 3.738 10.765 1.484-1.76 3.89-3.157 6.86-4.037a35.544 35.544 0 0 1-.819-6.728ZM38.234 11.959A19.228 19.228 0 0 0 26.97 5.8c1.894 1.967 3.789 5.434 5.069 9.678 2.662-.828 4.863-2.07 6.195-3.52ZM16.883 32.09a30.431 30.431 0 0 1 6.35-.828v-5.486h-7.118c.052 2.226.308 4.348.768 6.314ZM23.232 44.2V32.815c-2.1.051-4.147.31-5.99.776 1.535 5.537 4.249 9.574 5.99 10.609ZM31.885 25.776h-7.117v5.486c2.253.052 4.403.31 6.349.828.46-1.966.717-4.088.768-6.314ZM24.768 5.904v10.66a29.007 29.007 0 0 0 5.786-.724c-1.587-5.175-4.096-8.953-5.786-9.936ZM9.51 37.783A18.861 18.861 0 0 0 20.929 44.2c-1.946-2.07-3.942-5.744-5.171-10.195-2.765.88-4.966 2.173-6.246 3.778ZM24.768 32.815v11.333c1.74-1.035 4.454-5.02 5.99-10.609a31.18 31.18 0 0 0-5.99-.724ZM30.963 17.34c-1.894.466-3.993.725-6.195.777v6.106h7.117c-.051-2.432-.41-4.76-.922-6.882ZM15.962 15.478c1.28-4.244 3.174-7.711 5.069-9.678-4.455.673-8.346 2.95-11.264 6.159 1.33 1.448 3.533 2.69 6.195 3.519ZM15.552 16.978c-2.867-.88-5.273-2.173-6.758-3.83-2.356 3.106-3.84 6.935-3.994 11.076h9.78c.05-2.536.409-4.968.972-7.245ZM32.602 32.504c2.97.931 5.376 2.329 6.86 4.037 2.202-3.054 3.584-6.728 3.738-10.765h-9.78a35.514 35.514 0 0 1-.819 6.728ZM32.192 34.005c-1.229 4.45-3.175 8.125-5.12 10.195 4.506-.725 8.5-3.053 11.418-6.417-1.28-1.605-3.482-2.898-6.298-3.778ZM33.42 24.224h9.78c-.154-4.14-1.639-7.97-3.994-11.075-1.536 1.656-3.89 2.95-6.758 3.83.563 2.276.922 4.709.973 7.245Z"
-                  />
-                </g>
-              </svg>
-            </span>
-            <span
-              className="c7"
-              color="light"
-            >
-              Italia
-            </span>
-          </div>
-        </a>
+                <rect
+                  height={3}
+                  rx={1.5}
+                  width={48}
+                  x={1}
+                  y={23}
+                />
+                <rect
+                  height={3}
+                  rx={1.5}
+                  width={48}
+                  x={1}
+                  y={41}
+                />
+              </g>
+            </svg>
+          </span>
+        </div>
       </div>
     </div>
     <div
-      className="c8"
+      className="c13"
     >
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="light"
             size="sm"
           >
@@ -1373,13 +1826,13 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="light"
             size="sm"
           >
@@ -1388,13 +1841,13 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="light"
             size="sm"
           >
@@ -1403,13 +1856,13 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="light"
             size="sm"
           >
@@ -1418,13 +1871,13 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="light"
             size="sm"
           >
@@ -1433,13 +1886,13 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
         </a>
       </div>
       <div
-        className="c9"
+        className="c14"
       >
         <a
           href="/"
         >
           <span
-            className="c10"
+            className="c15"
             color="light"
             size="sm"
           >
