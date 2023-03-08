@@ -103,13 +103,6 @@ const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
   flex-direction: row;
   height: 100%;
   align-items: center;
-
-  ${mqUntil(
-    "md",
-    css`
-      display: none;
-    `
-  )}
 `;
 
 const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -141,37 +134,26 @@ const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
     `}
 `;
 
-const MobileIconWrapper = styled.div`
-  display: none;
-  ${mqUntil(
-    "sm",
-    css`
-      display: flex;
-    `
-  )}
-`;
-
-const TabletIconWrapper = styled.div`
-  width: 36px;
-  ${mqUntil(
-    "sm",
-    css`
-      width: 20px;
-      margin-left: 17px;
-    `
-  )}
-`;
-
-const ResponsiveIconsWrapper = styled.div`
+const HamburgerMenuIconWrapper = styled.div`
   flex-direction: row;
-  height: 100%;
   align-items: center;
+
+  width: 36px;
+  cursor: pointer;
 
   display: none;
   ${mqUntil(
     "md",
     css`
-      display: flex;
+      margin-left: 17px;
+      display: block;
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      width: 20px;
     `
   )}
 `;
@@ -182,8 +164,6 @@ export const Header: FC<HeaderProps> = ({
   navLinks,
   className,
   testId,
-  responsiveIconMobile,
-  responsiveIconTablet,
   ...props
 }) => {
   return (
@@ -194,19 +174,10 @@ export const Header: FC<HeaderProps> = ({
           {navIcons?.map((navIcon, index) => (
             <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
           ))}
+          <HamburgerMenuIconWrapper>
+            <Icon name="hamburger" size="100%" color="light" />
+          </HamburgerMenuIconWrapper>
         </NavIconsWrapper>
-        <ResponsiveIconsWrapper>
-          {responsiveIconMobile && (
-            <MobileIconWrapper>
-              <Icon name={responsiveIconMobile} color="light" size="20px" />
-            </MobileIconWrapper>
-          )}
-          {responsiveIconTablet && (
-            <TabletIconWrapper>
-              <Icon name={responsiveIconTablet} color="light" size="100%" />
-            </TabletIconWrapper>
-          )}
-        </ResponsiveIconsWrapper>
       </MainHeaderWrapper>
       <NavLinksWrapper {...props}>
         {navLinks?.map((navLink, index) => (

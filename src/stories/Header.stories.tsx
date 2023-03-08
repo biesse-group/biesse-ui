@@ -30,7 +30,12 @@ const defaultArgs: HeaderProps = {
     { icon: "careers", label: "Carriere", renderLink: (x) => <a href="/">{x}</a> },
     { icon: "contacts", label: "Contatti", renderLink: (x) => <a href="/">{x}</a> },
     { icon: "search", label: "Ricerca", renderLink: (x) => <a href="/">{x}</a> },
-    { icon: "country", label: "Italia", renderLink: (x) => <a href="/">{x}</a> },
+    {
+      icon: "country",
+      label: "Italia",
+      onMobileHeader: true,
+      renderLink: (x) => <a href="/">{x}</a>,
+    },
   ],
   navLinks: [
     { label: "Azienda", renderLink: (x) => <a href="/">{x}</a> },
@@ -41,8 +46,6 @@ const defaultArgs: HeaderProps = {
     { label: "News ed eventi", renderLink: (x) => <a href="/">{x}</a> },
   ],
   variant: "transparent",
-  responsiveIconMobile: "country",
-  responsiveIconTablet: "hamburger",
 };
 
 export const Transparent = Template.bind({});
