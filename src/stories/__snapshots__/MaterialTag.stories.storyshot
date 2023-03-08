@@ -240,6 +240,66 @@ exports[`Storyshots Components/MaterialTag Composite 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -305,66 +365,6 @@ exports[`Storyshots Components/MaterialTag Composite 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 
@@ -645,6 +645,66 @@ exports[`Storyshots Components/MaterialTag Glass 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -710,66 +770,6 @@ exports[`Storyshots Components/MaterialTag Glass 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 
@@ -1050,6 +1050,66 @@ exports[`Storyshots Components/MaterialTag Metal 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -1115,66 +1175,6 @@ exports[`Storyshots Components/MaterialTag Metal 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 
@@ -1467,6 +1467,66 @@ exports[`Storyshots Components/MaterialTag Stone 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -1532,66 +1592,6 @@ exports[`Storyshots Components/MaterialTag Stone 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 
@@ -1873,6 +1873,66 @@ exports[`Storyshots Components/MaterialTag Translated 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -1938,66 +1998,6 @@ exports[`Storyshots Components/MaterialTag Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 
@@ -2280,6 +2280,66 @@ exports[`Storyshots Components/MaterialTag With Border 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -2345,66 +2405,6 @@ exports[`Storyshots Components/MaterialTag With Border 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 
@@ -2685,6 +2685,66 @@ exports[`Storyshots Components/MaterialTag Wood 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -2750,66 +2810,6 @@ exports[`Storyshots Components/MaterialTag Wood 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
 
 }
 

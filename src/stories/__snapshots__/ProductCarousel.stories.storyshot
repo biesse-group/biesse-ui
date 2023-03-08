@@ -548,7 +548,23 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
 
 }
 
@@ -556,11 +572,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
+@media screen and (max-width:767px) {
 
 }
 
@@ -576,10 +588,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 }
 
-@media screen and (max-width:1199px) {
-
-}
-
 @media screen and (max-width:991px) {
 
 }
@@ -588,31 +596,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 }
 
-@media screen and (max-width:1199px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1199px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1199px) {
-
-}
-
-@media screen and (max-width:991px) {
 
 }
 
@@ -744,66 +728,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   .c11 {
     padding: 0 30px;
   }
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {

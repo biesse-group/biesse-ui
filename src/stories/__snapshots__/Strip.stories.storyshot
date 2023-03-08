@@ -1,957 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
+exports[`Storyshots Layout/StripThreeCols Default 1`] = `
+.c2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 40px;
+}
+
 .c0 {
-  padding: 1rem;
-  height: 100vh;
-  background-color: #6D6E70;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
 }
 
 .c1 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
   width: 100%;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  resize: none;
-  height: 90px;
+  max-width: 1400px;
+  padding: 0 40px;
+  margin: 0 auto;
 }
 
-.c1:focus,
-.c1:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+.c4 {
+  display: grid;
+  grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
+  gap: 20px;
 }
 
-.c1::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
+.c3 {
+  margin-bottom: 30px;
 }
 
-.c1::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
+.c5 {
+  grid-area: main;
 }
 
-.c1:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-<div
-  className="c0"
->
-  <div
-    style={
-      Object {
-        "maxWidth": 500,
-      }
-    }
-  >
-    <textarea
-      className="c1"
-      placeholder="Type something..."
-    />
-  </div>
-</div>
-`;
-
-exports[`Storyshots Inputs/Textarea Filled 1`] = `
-.c0 {
-  padding: 1rem;
-  height: 100vh;
-  background-color: #6D6E70;
-}
-
-.c1 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+.c6 {
+  height: 300px;
   width: 100%;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  resize: none;
-  height: 90px;
-}
-
-.c1:focus,
-.c1:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c1::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:1399px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-<div
-  className="c0"
->
-  <div
-    style={
-      Object {
-        "maxWidth": 500,
-      }
-    }
-  >
-    <textarea
-      className="c1"
-      data-testid="textarea"
-      placeholder="Type something..."
-    />
-  </div>
-</div>
-`;
-
-exports[`Storyshots Inputs/Textarea Light Background 1`] = `
-.c0 {
-  padding: 1rem;
-  height: 100vh;
   background-color: #F5F5F5;
-}
-
-.c1 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: 1px solid #c4c4c4;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  resize: none;
-  height: 90px;
-}
-
-.c1:focus,
-.c1:active {
-  box-shadow: 0 0 10px rgba(135,135,135,0.8);
-}
-
-.c1::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c1::placeholder {
-  color: #252525;
-  font-style: italic;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width:991px) {
@@ -1307,27 +413,28 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    padding: 0 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    padding: 0 15px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    grid-template: "main main" "secondary1 secondary2" / 1fr 1fr;
+  }
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c4 {
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1335,19 +442,582 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 }
 
 <div
-  className="c0"
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
 >
   <div
-    style={
-      Object {
-        "maxWidth": 500,
-      }
-    }
+    className="c0"
   >
-    <textarea
+    <div
       className="c1"
-      placeholder="Type something..."
-    />
+    >
+      <h3
+        className="c2 c3"
+      >
+        Lorem ipsum dolor
+      </h3>
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            Item 1
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "gridArea": "secondary1",
+            }
+          }
+        >
+          <div
+            className="c6"
+          >
+            Item 2
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "gridArea": "secondary2",
+            }
+          }
+        >
+          <div
+            className="c6"
+          >
+            Item 3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
+.c2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 40px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.c4 {
+  overflow-x: auto;
+}
+
+.c5 {
+  display: grid;
+  grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c3 {
+  margin-bottom: 30px;
+}
+
+.c6 {
+  grid-area: main;
+}
+
+.c7 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:1399px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
+    grid-template: "main main" "secondary1 secondary2" / 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c5 {
+    grid-template-columns: repeat(3,80%);
+    grid-template-areas: "main secondary1 secondary2";
+  }
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h3
+        className="c2 c3"
+      >
+        Lorem ipsum dolor
+      </h3>
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+            >
+              Item 1
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "gridArea": "secondary1",
+              }
+            }
+          >
+            <div
+              className="c7"
+            >
+              Item 2
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "gridArea": "secondary2",
+              }
+            }
+          >
+            <div
+              className="c7"
+            >
+              Item 3
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

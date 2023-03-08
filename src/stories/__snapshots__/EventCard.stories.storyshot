@@ -92,72 +92,6 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   font-size: 34px;
 }
 
-.c17 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-}
-
-.c17:focus,
-.c17:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c17::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:active,
-.c17:focus {
-  box-shadow: none;
-}
-
-.c16 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
 .c0 {
   position: relative;
   width: 100%;
@@ -246,6 +180,72 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
 .c14 {
   grid-area: 2 / 2;
   padding: 20px 15px 20px 20px;
+}
+
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
+}
+
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:active,
+.c17:focus {
+  box-shadow: none;
+}
+
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #C4C4C4;
 }
 
 @media screen and (max-width:991px) {
@@ -636,72 +636,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-size: 34px;
 }
 
-.c17 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-}
-
-.c17:focus,
-.c17:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c17::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:active,
-.c17:focus {
-  box-shadow: none;
-}
-
-.c16 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
 .c0 {
   position: relative;
   width: 100%;
@@ -790,6 +724,72 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c14 {
   grid-area: 2 / 2;
   padding: 20px 15px 20px 20px;
+}
+
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
+}
+
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:active,
+.c17:focus {
+  box-shadow: none;
+}
+
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #C4C4C4;
 }
 
 @media screen and (max-width:991px) {
@@ -1180,72 +1180,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-size: 34px;
 }
 
-.c17 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-}
-
-.c17:focus,
-.c17:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c17::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:active,
-.c17:focus {
-  box-shadow: none;
-}
-
-.c16 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
 .c0 {
   position: relative;
   width: 100%;
@@ -1334,6 +1268,72 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c14 {
   grid-area: 2 / 2;
   padding: 20px 15px 20px 20px;
+}
+
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
+}
+
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c17:active,
+.c17:focus {
+  box-shadow: none;
+}
+
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #C4C4C4;
 }
 
 @media screen and (max-width:991px) {

@@ -1,3 +1,4 @@
+import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
 import React, { CSSProperties } from "react";
 
 import { withTheme } from "./withTheme.decorator";
@@ -12,6 +13,9 @@ export const parameters = {
       date: /Date$/,
     },
     exclude: ["as", "theme"],
+  },
+  viewport: {
+    viewports: INITIAL_VIEWPORTS,
   },
 };
 

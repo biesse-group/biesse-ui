@@ -377,6 +377,66 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
   .c5 {
     margin-left: 17px;
@@ -478,66 +538,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   .c11 {
     width: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 <div
@@ -1329,6 +1329,66 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 
 }
 
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
 @media screen and (max-width:991px) {
   .c5 {
     margin-left: 17px;
@@ -1442,66 +1502,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   .c11 {
     width: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 <div

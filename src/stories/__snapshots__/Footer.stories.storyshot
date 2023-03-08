@@ -69,10 +69,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   font-size: 24px;
 }
 
-.c2 svg {
-  width: 100%;
-}
-
 .c5 {
   display: grid;
   grid-template-rows: auto auto;
@@ -250,6 +246,10 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   grid-area: 1 / social-link-start;
   justify-self: end;
   z-index: 1;
+}
+
+.c2 svg {
+  width: 100%;
 }
 
 @media screen and (max-width:991px) {
