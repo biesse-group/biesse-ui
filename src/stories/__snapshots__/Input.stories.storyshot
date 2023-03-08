@@ -284,11 +284,7 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:1199px) {
 
 }
 
@@ -300,11 +296,27 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 
 }
 
+@media screen and (max-width:1199px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
 
 }
 
@@ -732,11 +744,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:1199px) {
 
 }
 
@@ -748,11 +756,27 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 
 }
 
+@media screen and (max-width:1199px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
 
 }
 
@@ -1147,11 +1171,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:1199px) {
 
 }
 
@@ -1163,11 +1183,27 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 
 }
 
+@media screen and (max-width:1199px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
 
 }
 
@@ -1554,11 +1590,7 @@ exports[`Storyshots Inputs/Input With Border 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:1199px) {
 
 }
 
@@ -1570,11 +1602,27 @@ exports[`Storyshots Inputs/Input With Border 1`] = `
 
 }
 
+@media screen and (max-width:1199px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
 
 }
 
@@ -2002,11 +2050,7 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:1199px) {
 
 }
 
@@ -2018,11 +2062,27 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
 
 }
 
+@media screen and (max-width:1199px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
 
 }
 

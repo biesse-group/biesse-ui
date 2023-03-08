@@ -21,8 +21,8 @@ const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   flex-direction: column;
   width: 100%;
   height: auto;
-
   transition: all 0.2s ease-out;
+  color: ${(props) => props.theme.color.white};
 
   ${(props) => getHeaderRootVariantStyle(props.variant)}
 `;
@@ -41,11 +41,8 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   height: 95px;
-
   padding: 0px 110px 0px 90px;
-
   transition: all 0.2s ease-out;
 
   ${(props) => getMainHeaderWrapperVariantStyle(props.variant)}
@@ -55,6 +52,14 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
     css`
       border-bottom: 1px solid rgb(244, 244, 244, 0.2);
     `}
+
+    ${mqUntil(
+    "lg",
+    css`
+      padding: 0px 50px;
+      height: 75px;
+    `
+  )}
 
     ${mqUntil(
     "md",
@@ -73,26 +78,26 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   )}
 `;
 
-const LogoWrapper = styled.div<Pick<HeaderProps, "variant">>`
+const LogoWrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex: 1 1 auto;
 
   > div {
-    width: 480px;
+    flex: 0 1 480px;
 
     ${mqUntil(
-      "md",
+      "lg",
       css`
-        width: 345px;
+        flex: 0 1 345px;
       `
     )}
 
     ${mqUntil(
       "sm",
       css`
-        width: 193px;
+        flex: 0 1 200px;
       `
     )}
   }
@@ -108,10 +113,16 @@ const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
 const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
-
   padding-left: 90px;
   height: 45px;
   align-items: stretch;
+
+  ${mqUntil(
+    "lg",
+    css`
+      padding-left: 50px;
+    `
+  )}
 
   ${mqUntil(
     "md",
@@ -169,7 +180,7 @@ export const Header: FC<HeaderProps> = ({
   return (
     <HeaderRoot {...props} className={className} data-testid={testId}>
       <MainHeaderWrapper {...props}>
-        <LogoWrapper {...props}>{logo}</LogoWrapper>
+        <LogoWrapper>{logo}</LogoWrapper>
         <NavIconsWrapper {...props}>
           {navIcons?.map((navIcon, index) => (
             <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />

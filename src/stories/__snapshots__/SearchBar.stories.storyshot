@@ -326,11 +326,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width:1199px) {
 
 }
 
@@ -342,11 +338,27 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 
 }
 
+@media screen and (max-width:1199px) {
+
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:1199px) {
 
 }
 

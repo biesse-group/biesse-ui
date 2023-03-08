@@ -25,7 +25,7 @@ export default {
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
-  logo: <Logo name="HSD" color="white" />,
+  logo: <Logo name="HSD" />,
   navIcons: [
     { icon: "careers", label: "Carriere", renderLink: (x) => <a href="/">{x}</a> },
     { icon: "contacts", label: "Contatti", renderLink: (x) => <a href="/">{x}</a> },
