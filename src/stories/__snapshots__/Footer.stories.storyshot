@@ -28,22 +28,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: light;
 }
 
-.c19 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFF;
-}
-
-.c19 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #FFF;
-}
-
 .c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -60,6 +44,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: #FFF;
 }
 
+.c19 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c19 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
 .c15 {
   text-transform: uppercase;
   margin-top: 0;
@@ -67,10 +67,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   font-weight: 700;
   color: #FFF;
   font-size: 24px;
-}
-
-.c2 svg {
-  width: 100%;
 }
 
 .c5 {
@@ -252,88 +248,8 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   z-index: 1;
 }
 
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c19 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c19 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c2 svg {
+  width: 100%;
 }
 
 @media screen and (max-width:991px) {
@@ -361,7 +277,9 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
+  .c19 {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -369,15 +287,9 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c19 a {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -390,26 +302,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   .c15 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {

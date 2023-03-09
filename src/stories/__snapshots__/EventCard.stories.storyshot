@@ -10,20 +10,20 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   color: #FFF;
 }
 
-.c13 {
+.c4 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #FFF;
 }
 
-.c13 a {
+.c4 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #FFF;
 }
 
 .c11 {
@@ -42,20 +42,20 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   color: inherit;
 }
 
-.c4 {
+.c13 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: inherit;
 }
 
-.c4 a {
+.c13 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: inherit;
 }
 
 .c15 {
@@ -90,72 +90,6 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 34px;
-}
-
-.c17 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-}
-
-.c17:focus,
-.c17:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c17::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:active,
-.c17:focus {
-  box-shadow: none;
-}
-
-.c16 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
 }
 
 .c0 {
@@ -248,56 +182,70 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   padding: 20px 15px 20px 20px;
 }
 
-@media screen and (max-width:991px) {
-
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
 }
 
-@media screen and (max-width:767px) {
-  .c13 {
-    font-size: 14px;
-  }
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-@media screen and (max-width:991px) {
-
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:767px) {
-  .c13 a {
-    font-size: 14px;
-  }
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:991px) {
-
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:767px) {
-
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:991px) {
-
+.c17:active,
+.c17:focus {
+  box-shadow: none;
 }
 
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #C4C4C4;
 }
 
 @media screen and (max-width:991px) {
@@ -316,6 +264,42 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
 
 @media screen and (max-width:767px) {
   .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 a {
     font-size: 14px;
   }
 }
@@ -364,22 +348,6 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
   .c9 {
     font-size: 25px;
   }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {
@@ -554,20 +522,20 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   color: #FFF;
 }
 
-.c13 {
+.c4 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #FFF;
 }
 
-.c13 a {
+.c4 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #FFF;
 }
 
 .c11 {
@@ -586,20 +554,20 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   color: inherit;
 }
 
-.c4 {
+.c13 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: inherit;
 }
 
-.c4 a {
+.c13 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: inherit;
 }
 
 .c15 {
@@ -634,72 +602,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 34px;
-}
-
-.c17 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-}
-
-.c17:focus,
-.c17:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c17::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:active,
-.c17:focus {
-  box-shadow: none;
-}
-
-.c16 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
 }
 
 .c0 {
@@ -792,56 +694,70 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   padding: 20px 15px 20px 20px;
 }
 
-@media screen and (max-width:991px) {
-
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
 }
 
-@media screen and (max-width:767px) {
-  .c13 {
-    font-size: 14px;
-  }
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-@media screen and (max-width:991px) {
-
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:767px) {
-  .c13 a {
-    font-size: 14px;
-  }
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:991px) {
-
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:767px) {
-
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:991px) {
-
+.c17:active,
+.c17:focus {
+  box-shadow: none;
 }
 
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #C4C4C4;
 }
 
 @media screen and (max-width:991px) {
@@ -860,6 +776,42 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 @media screen and (max-width:767px) {
   .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 a {
     font-size: 14px;
   }
 }
@@ -908,22 +860,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   .c9 {
     font-size: 25px;
   }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {
@@ -1098,20 +1034,20 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   color: #FFF;
 }
 
-.c13 {
+.c4 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #FFF;
 }
 
-.c13 a {
+.c4 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #FFF;
 }
 
 .c11 {
@@ -1130,20 +1066,20 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   color: inherit;
 }
 
-.c4 {
+.c13 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: inherit;
 }
 
-.c4 a {
+.c13 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: inherit;
 }
 
 .c15 {
@@ -1178,72 +1114,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-weight: 700;
   color: #6D6E70;
   font-size: 34px;
-}
-
-.c17 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-}
-
-.c17:focus,
-.c17:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c17::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c17:active,
-.c17:focus {
-  box-shadow: none;
-}
-
-.c16 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
 }
 
 .c0 {
@@ -1336,56 +1206,70 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   padding: 20px 15px 20px 20px;
 }
 
-@media screen and (max-width:991px) {
-
+.c17 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
 }
 
-@media screen and (max-width:767px) {
-  .c13 {
-    font-size: 14px;
-  }
+.c17:focus,
+.c17:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-@media screen and (max-width:991px) {
-
+.c17::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:767px) {
-  .c13 a {
-    font-size: 14px;
-  }
+.c17::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:991px) {
-
+.c17:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:767px) {
-
+.c17::placeholder {
+  color: #252525;
+  font-style: italic;
 }
 
-@media screen and (max-width:991px) {
-
+.c17:active,
+.c17:focus {
+  box-shadow: none;
 }
 
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c16 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #C4C4C4;
 }
 
 @media screen and (max-width:991px) {
@@ -1404,6 +1288,42 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 @media screen and (max-width:767px) {
   .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 a {
     font-size: 14px;
   }
 }
@@ -1452,22 +1372,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   .c9 {
     font-size: 25px;
   }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {
