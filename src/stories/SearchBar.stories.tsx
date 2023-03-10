@@ -1,4 +1,5 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { userEvent, within } from "@storybook/testing-library";
 
 import { SearchBar } from "../components/SearchBar";
 import { BackgroundDecorator } from "./decorators";
@@ -32,4 +33,13 @@ WithPlaceholder.args = {
 export const DarkBackground = Template.bind({});
 DarkBackground.parameters = {
   background: "dark",
+};
+
+export const Searched = Template.bind({});
+Searched.args = {
+  testId: "sample-search",
+};
+Searched.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  await userEvent.type(canvas.getByTestId("sample-search"), "John Doe", { delay: 100 });
 };

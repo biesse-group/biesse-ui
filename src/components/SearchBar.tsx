@@ -24,6 +24,7 @@ type SearchBarProps = {
    * Amount of milliseconds to debounce search input changes
    */
   debounce?: number;
+  testId?: string;
 };
 
 const InputRoot = styled.div`
@@ -64,6 +65,7 @@ export const SearchBar: FC<SearchBarProps> = ({
   defaultValue,
   onChange,
   debounce = DEFAULT_DEBOUNCE,
+  testId,
 }) => {
   const [value, setValue] = useState(defaultValue || "");
 
@@ -80,9 +82,11 @@ export const SearchBar: FC<SearchBarProps> = ({
   return (
     <InputRoot>
       <InputElement
+        type="text"
         placeholder={placeholder}
         defaultValue={value}
         onChange={(event) => handleChange(event.currentTarget.value)}
+        data-testid={testId}
       />
       <InputIcon size="26px" name="search" />
     </InputRoot>
