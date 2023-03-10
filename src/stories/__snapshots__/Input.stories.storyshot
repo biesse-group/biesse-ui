@@ -120,6 +120,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -368,6 +369,7 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;

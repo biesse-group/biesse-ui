@@ -222,6 +222,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -726,6 +727,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;

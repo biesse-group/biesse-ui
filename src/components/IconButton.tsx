@@ -25,6 +25,7 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   background-color: transparent;
   width: 50px;
   height: 50px;
+  outline: none !important;
   ${({ variant, theme }) => {
     const color = variant === "primary" ? theme.color.primary : theme.color.white;
     return css`
