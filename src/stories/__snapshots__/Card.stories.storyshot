@@ -692,6 +692,10 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 
 exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 .c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 

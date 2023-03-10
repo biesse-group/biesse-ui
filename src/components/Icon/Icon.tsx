@@ -58,6 +58,7 @@ const getColor = (color: IconProps["color"]) => css`
 `;
 
 const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
+  display: inline-flex;
   ${(props) => getColor(props.color)};
 
   > svg {

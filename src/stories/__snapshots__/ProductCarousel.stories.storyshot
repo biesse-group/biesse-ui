@@ -2,6 +2,10 @@
 
 exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -11,6 +15,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c20 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 

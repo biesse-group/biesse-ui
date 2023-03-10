@@ -2,6 +2,10 @@
 
 exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 .c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #6D6E70;
 }
 
@@ -245,6 +249,10 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 .c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #6D6E70;
 }
 
@@ -537,6 +545,10 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 .c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -767,6 +779,10 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 .c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #6D6E70;
 }
 

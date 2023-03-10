@@ -2,6 +2,10 @@
 
 exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -311,6 +315,10 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -620,6 +628,10 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 
 exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 .c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
