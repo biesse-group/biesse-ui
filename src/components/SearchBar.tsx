@@ -4,67 +4,59 @@ import styled from "styled-components";
 import { Icon } from "./Icon";
 
 type SearchBarProps = {
-  defaultValue: string;
+  placeholder?: string;
+  defaultValue?: string;
   onChange?: (value: string) => void;
+  debounce?: number;
 };
 
 const InputRoot = styled.div`
-  font-weight: 400;
-  border-radius: 12px;
-  color: grey;
-  background: white;
-  border: 1px solid ${(props) => props.theme.color.secondary};
-  box-shadow: 0px 2px 2px grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 4px;
-
-  &:focus-within {
-    border-color: ${(props) => props.theme.color.primary};
-    outline: 3px solid ${(props) => props.theme.color.primary};
-  }
-
-  &:hover {
-    border-color: ${(props) => props.theme.color.primary};
-  }
+  position: relative;
+  color: ${(props) => props.theme.color.white};
+  width: 100%;
 `;
 
 const InputElement = styled.input`
   font-size: ${(props) => props.theme.font.regular.body.md};
-  font-family: inherit;
-  font-weight: 400;
-  line-height: 1.5;
-  flex-grow: 1;
-  color: grey;
-  background: inherit;
-  border: none;
-  border-radius: inherit;
-  padding: 12px 12px;
-  outline: 0;
+  font-family: ${(props) => props.theme.font.family};
+  font-weight: ${(props) => props.theme.font.weight.book};
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid ${(props) => props.theme.color.white};
+  border-radius: ${(props) => props.theme.input.borderRadius};
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+
+  ::placeholder {
+    color: inherit;
+    font-style: italic;
+  }
 `;
 
-const InputAdornment = styled.div`
-  margin: 8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+const InputIcon = styled(Icon)`
+  position: absolute;
+  right: 20px;
+  top: 10px;
 `;
 
-export const SearchBar: FC<SearchBarProps> = ({ defaultValue, onChange }) => {
+export const SearchBar: FC<SearchBarProps> = ({
+  placeholder,
+  defaultValue,
+  onChange,
+  debounce,
+}) => {
   return (
     <InputRoot>
       <InputElement
-        id="search-input"
-        type="text"
+        placeholder={placeholder}
         defaultValue={defaultValue}
         onChange={(event: { target: { value: string } }) => {
           onChange && onChange(event.target.value);
         }}
       />
-      <InputAdornment>
-        <Icon size="sm" name="search" />
-      </InputAdornment>
+      <InputIcon size="sm" name="search" />
     </InputRoot>
   );
 };

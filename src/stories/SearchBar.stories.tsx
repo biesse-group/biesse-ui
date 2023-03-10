@@ -1,16 +1,19 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { SearchBar } from "../components/SearchBar";
+import { BackgroundDecorator } from "./decorators";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Inputs/SearchBar",
   component: SearchBar,
+  parameters: {
+    layout: "fullscreen",
+  },
   decorators: [
-    (Story) => (
-      <div style={{ maxWidth: 300 }}>
+    (Story, { parameters }) => (
+      <BackgroundDecorator background={parameters.background || "primary"}>
         <Story />
-      </div>
+      </BackgroundDecorator>
     ),
   ],
 } as ComponentMeta<typeof SearchBar>;
@@ -18,12 +21,15 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof SearchBar> = (args) => <SearchBar {...args} />;
 
-const defaultArgs = {
-  defaultValue: "Default Value",
+export const Default = Template.bind({});
+Default.args = {};
+
+export const WithPlaceholder = Template.bind({});
+WithPlaceholder.args = {
+  placeholder: "Search something...",
 };
 
-export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Default.args = {
-  ...defaultArgs,
+export const DarkBackground = Template.bind({});
+DarkBackground.parameters = {
+  background: "dark",
 };
