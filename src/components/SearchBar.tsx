@@ -1,12 +1,28 @@
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import styled from "styled-components";
 
 import { Icon } from "./Icon";
 
 type SearchBarProps = {
+  /**
+   * Input placeholder
+   */
   placeholder?: string;
+  /**
+   * Search default value
+   */
   defaultValue?: string;
+  /**
+   * Called when input changes, debounced by `debounce` parameter ms amount.
+   *
+   * **NB:** It must be provided with `useCallback` hook!
+   *
+   * @param value The new search term
+   */
   onChange?: (value: string) => void;
+  /**
+   * Amount of milliseconds to debounce search input changes
+   */
   debounce?: number;
 };
 
@@ -38,25 +54,37 @@ const InputElement = styled.input`
 const InputIcon = styled(Icon)`
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 12px;
 `;
+
+const DEFAULT_DEBOUNCE = 300;
 
 export const SearchBar: FC<SearchBarProps> = ({
   placeholder,
   defaultValue,
   onChange,
-  debounce,
+  debounce = DEFAULT_DEBOUNCE,
 }) => {
+  const [value, setValue] = useState(defaultValue || "");
+
+  const handleChange = (newValue: string) => {
+    setTimeout(() => {
+      setValue(newValue);
+    }, debounce);
+  };
+
+  useEffect(() => {
+    onChange?.(value);
+  }, [value, onChange]);
+
   return (
     <InputRoot>
       <InputElement
         placeholder={placeholder}
-        defaultValue={defaultValue}
-        onChange={(event: { target: { value: string } }) => {
-          onChange && onChange(event.target.value);
-        }}
+        defaultValue={value}
+        onChange={(event) => handleChange(event.currentTarget.value)}
       />
-      <InputIcon size="sm" name="search" />
+      <InputIcon size="26px" name="search" />
     </InputRoot>
   );
 };

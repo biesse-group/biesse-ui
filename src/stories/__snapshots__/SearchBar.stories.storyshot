@@ -6,7 +6,7 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 }
 
 .c3 > svg {
-  height: 30px;
+  height: 26px;
   color: inherit;
 }
 
@@ -59,7 +59,7 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 .c4 {
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 12px;
 }
 
 <div
@@ -77,11 +77,12 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
     >
       <input
         className="c2"
+        defaultValue=""
         onChange={[Function]}
       />
       <span
         className="c3 c4"
-        size="sm"
+        size="26px"
       >
         <svg
           viewBox="0 0 50 50"
@@ -124,7 +125,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 }
 
 .c3 > svg {
-  height: 30px;
+  height: 26px;
   color: inherit;
 }
 
@@ -177,7 +178,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 .c4 {
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 12px;
 }
 
 <div
@@ -195,11 +196,12 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
     >
       <input
         className="c2"
+        defaultValue=""
         onChange={[Function]}
       />
       <span
         className="c3 c4"
-        size="sm"
+        size="26px"
       >
         <svg
           viewBox="0 0 50 50"
@@ -242,7 +244,7 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
 }
 
 .c3 > svg {
-  height: 30px;
+  height: 26px;
   color: inherit;
 }
 
@@ -295,7 +297,7 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
 .c4 {
   position: absolute;
   right: 20px;
-  top: 10px;
+  top: 12px;
 }
 
 <div
@@ -313,12 +315,13 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
     >
       <input
         className="c2"
+        defaultValue=""
         onChange={[Function]}
         placeholder="Search something..."
       />
       <span
         className="c3 c4"
-        size="sm"
+        size="26px"
       >
         <svg
           viewBox="0 0 50 50"
