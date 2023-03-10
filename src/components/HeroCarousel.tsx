@@ -26,7 +26,7 @@ const CarouselContainer = styled.div`
   box-sizing: border-box;
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
