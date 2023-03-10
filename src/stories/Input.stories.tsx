@@ -35,14 +35,7 @@ export const LightBackground = Template.bind({});
 LightBackground.args = {
   placeholder: "Name",
   shadow: "light",
-};
-
-export const WithBorder = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-WithBorder.args = {
-  placeholder: "Name",
   border: true,
-  shadow: "light",
 };
 
 export const WithButton = Template.bind({});
