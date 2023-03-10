@@ -58,7 +58,7 @@ const InputIcon = styled(Icon)`
   top: 12px;
 `;
 
-const DEFAULT_DEBOUNCE = 300;
+const DEFAULT_DEBOUNCE = 500;
 
 export const SearchBar: FC<SearchBarProps> = ({
   placeholder,
@@ -68,16 +68,24 @@ export const SearchBar: FC<SearchBarProps> = ({
   testId,
 }) => {
   const [value, setValue] = useState(defaultValue || "");
+  const [touched, setTouched] = useState(false);
 
   const handleChange = (newValue: string) => {
-    setTimeout(() => {
-      setValue(newValue);
-    }, debounce);
+    setValue(newValue);
+    setTouched(true);
   };
 
   useEffect(() => {
-    onChange?.(value);
-  }, [value, onChange]);
+    const timeout = setTimeout(() => {
+      if (touched) {
+        onChange?.(value);
+      }
+    }, debounce);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [value, onChange, debounce, touched]);
 
   return (
     <InputRoot>
