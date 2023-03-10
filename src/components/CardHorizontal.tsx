@@ -72,10 +72,21 @@ const CardContainer = styled.div`
 `;
 
 type CardHorizontalProps = {
+  /** Card title */
   title: string;
+  /** Card icon (above title) */
   icon?: IconName | JSX.Element;
+  /**
+   * Card description
+   */
   description?: string | JSX.Element;
+  /**
+   * Card actions (buttons, etc.)
+   */
   actions?: JSX.Element;
+  /**
+   * Card image (on body right)
+   */
   image?: JSX.Element;
   testId?: string;
 };

@@ -5,10 +5,25 @@ import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TextProps = {
+  /**
+   * Font size, should be one of `xl`, `lg`, `md`, `sm`, `xs`
+   */
   size?: keyof BiesseTheme["font"]["regular"]["body"];
+  /**
+   * Font size, should be one of `book`, `regular`, `medium`, `bold`
+   */
   weight?: keyof BiesseTheme["font"]["weight"];
+  /**
+   * Font size, should be one of `default` (inherit), `primary`, `light`, `dark`
+   */
   color?: "default" | "primary" | "light" | "dark";
+  /**
+   * Text tag (`span` inline or `p` paragraph)
+   */
   tag?: "span" | "p";
+  /**
+   * Additional CSS style
+   */
   style?: CSSProperties;
 };
 

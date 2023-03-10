@@ -46,11 +46,35 @@ const ItemDetail = styled(motion.div)`
 `;
 
 export type ProductCarouselProps<T extends object> = {
+  /**
+   * Strip title
+   */
   title: string;
+  /**
+   * List of items to show, generic type
+   */
   items: T[];
+  /**
+   * Height in pixel of item description content
+   */
   contentHeight?: number;
+  /**
+   * Render item title
+   * @param item the nth item
+   * @returns the item title
+   */
   renderTitle: (item: T) => string;
+  /**
+   * Render item image
+   * @param item the nth item
+   * @returns a JSX element representing the item image
+   */
   renderImage: (item: T) => JSX.Element;
+  /**
+   * Render item detail
+   * @param item the nth item
+   * @returns a JSX element representing the item detail
+   */
   renderDetail: (item: T) => JSX.Element;
 };
 

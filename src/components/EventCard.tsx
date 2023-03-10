@@ -29,8 +29,7 @@ export interface EventCardProps {
    */
   description?: string | JSX.Element;
   /**
-   * Link component overlay on the left.
-   * Should be transparent.
+   * Link component overlay on the card left side
    */
   link?: JSX.Element;
   /**

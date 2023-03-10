@@ -93,7 +93,6 @@ const titleVariants: Variants = {
 const ImageContainer = styled.div`
   display: flex;
   position: relative;
-
   width: 100%;
   height: 100%;
 `;

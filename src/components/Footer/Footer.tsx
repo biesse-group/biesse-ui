@@ -17,33 +17,27 @@ export interface FooterProps {
    */
   logo?: JSX.Element;
   /**
-   * Link list on the central body
-   * first to the left
+   * Link list on the central body, first from the left
    */
   leftLinksList?: LinksListProps;
   /**
-   * Link list on the central body
-   * second to the left
+   * Link list on the central body, second from the left
    */
   rightLinksList?: LinksListProps;
   /**
-   * Element on the right, should contain contacts map,
-   * default version is Biesse static one
+   * Element on the right, should contain contacts map, default version is HSD static one
    */
   contactsLocator?: LocatorBoxProps;
   /**
-   * First info box, containing site data
-   * Placed on the bottom of the footer
+   * First info box, containing site data, placed on the bottom of the footer
    */
   siteInfo?: InfoBoxProps;
   /**
-   * Second info box, containing site data
-   * Placed on the bottom of the footer
+   * Second info box, containing site data, placed on the bottom of the footer
    */
   contactsInfo?: InfoBoxProps;
   /**
-   * Social Link
-   * located top right only in desktop view
+   * Social Link, located on top right corner (desktop view)
    */
   socialLink?: SocialLinkProps;
   testId?: string;
