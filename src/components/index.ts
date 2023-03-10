@@ -5,7 +5,7 @@ export * from "./EventCard";
 export * from "./Footer";
 export * from "./Header";
 export * from "./Header";
-export * from "./HeroCarousel/HeroCarousel";
+export * from "./HeroCarousel";
 export * from "./Icon";
 export * from "./Icon";
 export * from "./IconButton";
