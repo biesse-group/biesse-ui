@@ -24,4 +24,5 @@ export * from "./MaterialTag";
 export * from "./EventCard";
 export * from "./Footer";
 export * from "./VideoBanner";
+export * from "./PartnerCarousel";
 export * from "./VideoPlayer";

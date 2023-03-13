@@ -11,7 +11,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 .c9 > svg {
   height: 26px;
-  color: inherit;
 }
 
 .c20 {
@@ -24,7 +23,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 .c20 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c15 {
@@ -608,6 +606,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     >
       <div
         className="c4"
+        data-projection-id={1}
         style={
           Object {
             "left": "12.5%",
@@ -622,6 +621,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       </div>
       <div
         className="c4"
+        data-projection-id={2}
         style={
           Object {
             "left": "50%",
@@ -636,6 +636,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       </div>
       <div
         className="c4"
+        data-projection-id={3}
         style={
           Object {
             "left": "auto",
@@ -654,6 +655,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     >
       <div
         className="c5"
+        data-projection-id={4}
         style={
           Object {
             "left": "12.5%",
@@ -677,6 +679,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       </div>
       <div
         className="c5"
+        data-projection-id={5}
         style={
           Object {
             "left": "50%",
@@ -700,6 +703,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       </div>
       <div
         className="c5"
+        data-projection-id={6}
         style={
           Object {
             "left": "auto",
@@ -727,6 +731,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     >
       <div
         className="c4"
+        data-projection-id={7}
         style={
           Object {
             "opacity": 1,
@@ -742,6 +747,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     >
       <div
         className="c5"
+        data-projection-id={8}
         style={
           Object {
             "opacity": 1,
@@ -769,6 +775,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     >
       <span
         className="c9"
+        color="inherit"
         size="26px"
       >
         <svg
@@ -810,6 +817,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     >
       <span
         className="c9"
+        color="inherit"
         size="26px"
       >
         <svg
@@ -849,6 +857,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   >
     <div
       className="c12"
+      data-projection-id={9}
       style={
         Object {
           "opacity": 1,

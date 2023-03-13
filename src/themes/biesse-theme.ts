@@ -37,7 +37,7 @@ export const biesseTheme: DefaultTheme = {
     white: "#FFF",
     black: "#252525",
     lightGray: "#F5F5F5",
-    gray: "#c4c4c4",
+    gray: "#A2A2A2",
 
     material: {
       wood: "#F9942E",

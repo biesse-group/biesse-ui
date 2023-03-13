@@ -11,7 +11,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 
 .c8 > svg {
   height: 20px;
-  color: light;
 }
 
 .c17 {
@@ -24,7 +23,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 
 .c17 > svg {
   height: 18px;
-  color: light;
 }
 
 .c23 {
@@ -37,7 +35,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 
 .c23 > svg {
   height: 28px;
-  color: light;
 }
 
 .c7 {
@@ -260,6 +257,10 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   z-index: 1;
 }
 
+.c2 {
+  color: white;
+}
+
 .c2 svg {
   width: 100%;
 }
@@ -420,9 +421,9 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   >
     <div
       className="c2"
+      color="white"
     >
       <svg
-        color="white"
         fill="currentColor"
         viewBox="0 0 300 22"
         xmlns="http://www.w3.org/2000/svg"

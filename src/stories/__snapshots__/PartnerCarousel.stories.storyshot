@@ -1,0 +1,1405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Slideshow/PartnerCarousel Default 1`] = `
+.c1 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #A2A2A2;
+}
+
+.c1 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #A2A2A2;
+}
+
+.c7 {
+  color: #f25c19;
+  width: 300px;
+}
+
+.c7 svg {
+  width: 100%;
+}
+
+.c0 {
+  --child-margin-left: 94px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 40px 0px;
+  background-color: #F5F5F5;
+}
+
+.c2 {
+  margin-left: var(--child-margin-left);
+  margin-bottom: 20px;
+}
+
+.c3 {
+  --logo-width: 146px;
+  --logo-margin-right: 94px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  height: 88px;
+}
+
+.c4 {
+  --inner-scrollable-width: calc( 9 * (var(--logo-width) + var(--logo-margin-right)) + var(--child-margin-left) );
+  width: max(var(--inner-scrollable-width),calc(2 * var(--inner-scrollable-width) - 100%));
+  position: absolute;
+  left: min(0px,calc(0px - (var(--inner-scrollable-width) - 100%)));
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  position: absolute;
+  left: max(0px,calc(100% - var(--inner-scrollable-width)));
+}
+
+.c5:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c6 {
+  min-width: var(--logo-width);
+  max-width: var(--logo-width);
+  height: 88px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: var(--logo-margin-right);
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  opacity: 0.7;
+  -webkit-transition: filter 0.5s ease-out,opacity 0.5s ease-out;
+  transition: filter 0.5s ease-out,opacity 0.5s ease-out;
+}
+
+.c6:first-child {
+  margin-left: var(--child-margin-left);
+}
+
+.c6:hover {
+  -webkit-filter: unset;
+  filter: unset;
+  opacity: 1;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c0 {
+    --child-margin-left: 20px;
+    padding: 23px 0px 38px 0px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    --logo-width: 90px;
+    --logo-margin-right: 40px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "minHeight": 3000,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <span
+      className="c1 c2"
+      color="gray"
+      size="xl"
+    >
+      Partners
+    </span>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+          draggable={false}
+          style={
+            Object {
+              "WebkitTouchCallout": "none",
+              "WebkitUserSelect": "none",
+              "touchAction": "pan-y",
+              "userSelect": "none",
+            }
+          }
+        >
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div
+            className="c6"
+          >
+            <div
+              className="c7"
+              color="#f25c19"
+              width="300px"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 708 121"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <clipPath
+                    id="f"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="e"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="d"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="c"
+                  >
+                    <path
+                      d="M0 842h594.96V.015H0V842z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="b"
+                  >
+                    <path
+                      d="M.362 842.44H595.64V.555H.362V842.44z"
+                    />
+                  </clipPath>
+                  <clipPath
+                    id="a"
+                  >
+                    <path
+                      d="M52.685 802.76H222.76v-39.68H52.685v39.68z"
+                    />
+                  </clipPath>
+                </defs>
+                <g
+                  clipPath="url(#a)"
+                  transform="matrix(7.78547 0 0 -7.78547 -549.07 6192.274)"
+                >
+                  <g
+                    clipPath="url(#b)"
+                  >
+                    <g
+                      clipPath="url(#c)"
+                    >
+                      <g
+                        clipPath="url(#d)"
+                        style={
+                          Object {
+                            "stroke": "none",
+                          }
+                        }
+                      >
+                        <g
+                          clipPath="url(#e)"
+                        >
+                          <g
+                            clipPath="url(#f)"
+                            style={
+                              Object {
+                                "stroke": "none",
+                              }
+                            }
+                          >
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 70.525 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.36h.025L.152 0h.075L.125-.48l.102-.502H.152l-.075.377H.054v-.377H0V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 117.268 795.363)"
+                            />
+                            <path
+                              d="M0 0h.054v-.575c0-.124.008-.173.03-.173h.053c.022 0 .03.049.03.173V0H.22v-.64C.22-.883.198-1 .15-1H.072C.022-1 0-.883 0-.64V0"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 92.937 795.363)"
+                            />
+                            <path
+                              d="m0 0 .026.353H.05L.076 0H0zm.103-.385h.06l-.07.982h-.11l-.07-.982h.06l.012.174H.09l.012-.174"
+                              style={
+                                Object {
+                                  "fillRule": "nonzero",
+                                  "stroke": "none",
+                                }
+                              }
+                              transform="matrix(91.0272 0 0 15.5908 146.684 786.054)"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

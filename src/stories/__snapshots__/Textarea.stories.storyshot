@@ -162,7 +162,7 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #A2A2A2;
   padding-top: 17px;
   padding-bottom: 17px;
   resize: none;

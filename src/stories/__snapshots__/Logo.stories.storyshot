@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Components/Logo Default 1`] = `
+.c0 {
+  color: inherit;
+}
+
 .c0 svg {
   width: 100%;
 }
@@ -15,9 +19,9 @@ exports[`Storyshots Components/Logo Default 1`] = `
 >
   <div
     className="c0"
+    color="inherit"
   >
     <svg
-      color="inherit"
       fill="currentColor"
       viewBox="0 0 300 22"
       xmlns="http://www.w3.org/2000/svg"
@@ -65,6 +69,10 @@ exports[`Storyshots Components/Logo Default 1`] = `
 `;
 
 exports[`Storyshots Components/Logo White 1`] = `
+.c0 {
+  color: white;
+}
+
 .c0 svg {
   width: 100%;
 }
@@ -79,9 +87,9 @@ exports[`Storyshots Components/Logo White 1`] = `
 >
   <div
     className="c0"
+    color="white"
   >
     <svg
-      color="white"
       fill="currentColor"
       viewBox="0 0 300 22"
       xmlns="http://www.w3.org/2000/svg"

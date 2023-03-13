@@ -11,7 +11,6 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 
 .c4 > svg {
   height: 50px;
-  color: #6D6E70;
 }
 
 .c9 {
@@ -259,7 +258,6 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 
 .c4 > svg {
   height: 50px;
-  color: #6D6E70;
 }
 
 .c9 {
@@ -556,7 +554,6 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 
 .c4 > svg {
   height: 80px;
-  color: inherit;
 }
 
 .c9 {
@@ -734,6 +731,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
         >
           <span
             className="c4"
+            color="inherit"
             size="lg"
           >
             <svg
@@ -791,7 +789,6 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 
 .c4 > svg {
   height: 50px;
-  color: #6D6E70;
 }
 
 .c9 {

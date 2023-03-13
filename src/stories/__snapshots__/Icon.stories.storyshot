@@ -11,11 +11,11 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 
 .c0 > svg {
   height: 20px;
-  color: inherit;
 }
 
 <span
   className="c0"
+  color="inherit"
   size="xs"
 >
   <svg
@@ -61,11 +61,11 @@ exports[`Storyshots Components/Icon Large 1`] = `
 
 .c0 > svg {
   height: 80px;
-  color: inherit;
 }
 
 <span
   className="c0"
+  color="inherit"
   size="lg"
 >
   <svg
@@ -111,11 +111,11 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 .c0 > svg {
   height: 50px;
-  color: inherit;
 }
 
 <span
   className="c0"
+  color="inherit"
   size="md"
 >
   <svg
@@ -161,11 +161,11 @@ exports[`Storyshots Components/Icon Small 1`] = `
 
 .c0 > svg {
   height: 30px;
-  color: inherit;
 }
 
 <span
   className="c0"
+  color="inherit"
   size="sm"
 >
   <svg

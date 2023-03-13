@@ -11,7 +11,6 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
 
 .c13 > svg {
   height: 30px;
-  color: light;
 }
 
 .c6 {
@@ -308,6 +307,7 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
       >
         <div
           className="c11"
+          data-projection-id={10}
           data-testid="play-button"
           onClick={[Function]}
           style={

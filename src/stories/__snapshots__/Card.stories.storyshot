@@ -702,7 +702,6 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 
 .c3 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c14 {
