@@ -14,6 +14,9 @@ export const hsdTheme: DefaultTheme = {
     borderRadius: "40px",
     boxShadow: "0 0 20px 0 rgba(140,140,140,0.5)",
   },
+  videoPlayer: {
+    buttonBoxShadow: "0 2px 10px 0 rgba(0,0,0,0.5)",
+  },
   button: {
     borderRadius: "20px",
   },

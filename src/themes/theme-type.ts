@@ -29,6 +29,9 @@ export interface BiesseTheme {
     borderRadius: string;
     boxShadow: string;
   };
+  videoPlayer: {
+    buttonBoxShadow: string;
+  };
   eventCard: {
     boxShadow: string;
   };

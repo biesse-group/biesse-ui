@@ -25,6 +25,9 @@ export const biesseTheme: DefaultTheme = {
     },
     borderColor: "#C4C4C4",
   },
+  videoPlayer: {
+    buttonBoxShadow: "0 2px 10px 0 rgba(0,0,0,0.5)",
+  },
   eventCard: {
     boxShadow: "rgba(140,140,140,0.5)",
   },
