@@ -1,6 +1,6 @@
 import { RefObject, useCallback, useRef } from "react";
 
-const useRefWithCallback = <Type>(): [RefObject<Type>, (node: Type) => void] => {
+export const useRefWithCallback = <Type>(): [RefObject<Type>, (node: Type) => void] => {
   const ref = useRef<Type | null>(null);
   const setRef = useCallback((node: Type) => {
     ref.current = node;
@@ -8,5 +8,3 @@ const useRefWithCallback = <Type>(): [RefObject<Type>, (node: Type) => void] => 
 
   return [ref, setRef];
 };
-
-export default useRefWithCallback;

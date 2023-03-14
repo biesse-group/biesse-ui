@@ -10,8 +10,7 @@ export interface VideoPlayerProps {
   className?: string;
   url: string;
   /**
-   * Video format,
-   * if none is passed mp4 is assumed
+   * Video format, if none is passed mp4 is assumed
    */
   mimeType?: string;
   loop?: boolean;
@@ -71,11 +70,7 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
 
   return (
     <VideoPlayerRoot data-testid={testId} {...props}>
-      <PauseAction
-        isPlaying={isVideoPlaying}
-        onClick={handlePause}
-        data-testid={`${testId}-pause`}
-      />
+      <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
       <video
         width="100%"
         onPlaying={() => setIsVideoPlaying(true)}

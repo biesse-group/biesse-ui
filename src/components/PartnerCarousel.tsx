@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
-import { Text } from "../Text";
-import useRefWithCallback from "./useRefWithCallback";
+import { Text } from ".";
+import { useRefWithCallback } from "../hooks";
+import { mqUntil } from "../styles/media-queries";
 
 export interface PartnerCarouselProps {
   /**

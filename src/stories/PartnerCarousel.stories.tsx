@@ -43,3 +43,15 @@ export const Default = Template.bind({});
 Default.args = {
   ...defaultArgs,
 };
+
+export const HoverState = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+HoverState.args = {
+  ...defaultArgs,
+};
+
+HoverState.parameters = {
+  pseudo: {
+    hover: true,
+  },
+};
