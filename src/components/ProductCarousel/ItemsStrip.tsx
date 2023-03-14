@@ -1,8 +1,8 @@
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
+import { mqFrom, mqUntil } from "../../styles";
 
-export const ItemsStrip = styled.div`
+export const ItemsStrip = styled.div<{ isMobile?: boolean }>`
   align-items: center;
   flex: 1 1 auto;
   position: absolute;
@@ -26,4 +26,12 @@ export const ItemsStrip = styled.div`
       top: 200px;
     `
   )}
+
+${(props) =>
+    (props.isMobile ? mqFrom : mqUntil)(
+      "md",
+      css`
+        display: none;
+      `
+    )}
 `;

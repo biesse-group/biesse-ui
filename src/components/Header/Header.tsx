@@ -27,16 +27,6 @@ const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   ${(props) => getHeaderRootVariantStyle(props.variant)}
 `;
 
-const getMainHeaderWrapperVariantStyle = (version: HeaderProps["variant"]) =>
-  version === "transparent"
-    ? css`
-        background-color: transparent;
-      `
-    : css`
-        background-color: ${(props) => props.theme.color.primary};
-        height: 75px;
-      `;
-
 const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
@@ -45,7 +35,15 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   padding: 0px 110px 0px 90px;
   transition: all 0.2s ease-out;
 
-  ${(props) => getMainHeaderWrapperVariantStyle(props.variant)}
+  ${(props) =>
+    props.variant === "transparent"
+      ? css`
+          background-color: transparent;
+        `
+      : css`
+          background-color: ${(props) => props.theme.color.primary};
+          height: 75px;
+        `}
 
   ${(props) =>
     props.variant === "transparent" &&

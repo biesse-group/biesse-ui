@@ -2,6 +2,10 @@
 
 exports[`Storyshots Components/Icon Extra Small 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -48,6 +52,10 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 
 exports[`Storyshots Components/Icon Large 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -94,6 +102,10 @@ exports[`Storyshots Components/Icon Large 1`] = `
 
 exports[`Storyshots Components/Icon Medium 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -140,6 +152,10 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 
 exports[`Storyshots Components/Icon Small 1`] = `
 .c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 

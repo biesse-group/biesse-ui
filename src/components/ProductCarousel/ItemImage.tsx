@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
+import { mqUntil } from "../../styles";
 import { ItemProps } from "./itemProps";
 
 export const ItemImage = styled(motion.div)<ItemProps>`

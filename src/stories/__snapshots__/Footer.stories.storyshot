@@ -2,6 +2,10 @@
 
 exports[`Storyshots Navigation/Footer Default 1`] = `
 .c8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 
@@ -11,6 +15,10 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 .c17 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 
@@ -20,6 +28,10 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 .c23 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 

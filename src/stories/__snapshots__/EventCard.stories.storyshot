@@ -2,6 +2,10 @@
 
 exports[`Storyshots Cards/EventCard Default 1`] = `
 .c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 
@@ -514,6 +518,10 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
 
 exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 
@@ -1026,6 +1034,10 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 

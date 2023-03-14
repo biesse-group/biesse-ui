@@ -5,12 +5,30 @@ import { mqUntil } from "../styles";
 import { Title } from "./Title";
 
 export type StripThreeColsProps = {
+  /**
+   * Strip title
+   */
   title: string;
+  /**
+   * Strip items. Main will be shown larger on large screens.
+   */
   items: {
+    /**
+     * Main item, will be larger on large screens.
+     */
     main: JSX.Element;
-    secondary1?: JSX.Element;
-    secondary2?: JSX.Element;
+    /**
+     * Secondary item
+     */
+    secondary1: JSX.Element;
+    /**
+     * Secondary item
+     */
+    secondary2: JSX.Element;
   };
+  /**
+   * Determine whether wrap items or scroll horizontally on mobile devices
+   */
   mobileBehavior?: "wrap" | "scroll";
 };
 

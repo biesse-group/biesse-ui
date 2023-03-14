@@ -5,8 +5,17 @@ import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TitleProps = {
+  /**
+   * Font size, should be one of `xxl`, `xl`, `lg`, `md`, `sm`, `xs`
+   */
   size?: keyof BiesseTheme["font"]["regular"]["headings"];
+  /**
+   * Heading tag, should be one of `H1`, `H2`, `H3`, `H4`, `H5`, `H6`
+   */
   variant: keyof typeof HEADINGS;
+  /**
+   * Title color, can ben `primary` or `light`
+   */
   color?: "primary" | "light";
   className?: string;
   style?: CSSProperties;

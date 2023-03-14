@@ -2,6 +2,10 @@
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
 .c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -11,6 +15,10 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 .c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 
@@ -763,6 +771,10 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
 .c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: inherit;
 }
 
@@ -772,6 +784,10 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 .c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   color: #FFF;
 }
 
