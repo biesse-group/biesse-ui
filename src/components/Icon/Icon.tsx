@@ -58,11 +58,15 @@ const getColor = (color: IconProps["color"]) => css`
 `;
 
 const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
-  display: inline-flex;
+  display: inline-block;
+  height: ${(props) => getIconSize(props.size)};
+  width: ${(props) => getIconSize(props.size)};
   ${(props) => getColor(props.color)};
 
   > svg {
-    height: ${(props) => getIconSize(props.size)};
+    height: 100%;
+    width: 100%;
+    color: ${(props) => props.color || "inherit"};
   }
 `;
 
