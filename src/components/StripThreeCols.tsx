@@ -40,7 +40,7 @@ const StripRoot = styled.div`
 
 const StripInner = styled.div`
   width: 100%;
-  max-width: ${(props) => props.theme.breakpoints.xl}px;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
   padding: 0 40px;
   margin: 0 auto;
 
