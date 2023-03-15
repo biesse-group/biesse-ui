@@ -16,9 +16,22 @@ export interface PartnerCarouselProps {
   testId?: string;
 }
 
-const ProductCarouselRoot = styled.div`
-  --child-margin-left: 94px;
+const CHILD_MARGIN_LEFT = 94;
+const CHILD_MARGIN_LEFT_SM = 20;
 
+const LOGO_WIDTH = 146;
+const LOGO_WIDTH_SM = 90;
+
+const LOGO_MARGIN_RX = 94;
+const LOGO_MARGIN_RX_SM = 40;
+
+const getInnerScrollableWidth = (childrenNumber: number) =>
+  childrenNumber * (LOGO_WIDTH + LOGO_MARGIN_RX) + CHILD_MARGIN_LEFT;
+
+const getInnerScrollableWidthSm = (childrenNumber: number) =>
+  childrenNumber * (LOGO_WIDTH_SM + LOGO_MARGIN_RX_SM) + CHILD_MARGIN_LEFT_SM;
+
+const ProductCarouselRoot = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -28,8 +41,6 @@ const ProductCarouselRoot = styled.div`
   ${mqUntil(
     "sm",
     css`
-      --child-margin-left: 20px;
-
       padding: 23px 0px 38px 0px;
     `
   )}
@@ -38,29 +49,19 @@ const ProductCarouselRoot = styled.div`
 `;
 
 const StyledText = styled(Text)`
-  margin-left: var(--child-margin-left);
+  margin-left: ${CHILD_MARGIN_LEFT}px;
   margin-bottom: 20px;
 
   ${mqUntil(
     "sm",
     css`
+      margin-left: ${CHILD_MARGIN_LEFT_SM}px;
       margin-bottom: 18px;
     `
   )}
 `;
 
 const LogoListWrapper = styled.div`
-  --logo-width: 146px;
-  --logo-margin-right: 94px;
-
-  ${mqUntil(
-    "sm",
-    css`
-      --logo-width: 90px;
-      --logo-margin-right: 40px;
-    `
-  )}
-
   width: 100%;
   overflow-x: hidden;
   position: relative;
@@ -68,17 +69,38 @@ const LogoListWrapper = styled.div`
 `;
 
 const ScrollConstraints = styled.div<{ childrenNumber: number }>`
-  --inner-scrollable-width: calc(
-    ${(props) => props.childrenNumber} * (var(--logo-width) + var(--logo-margin-right)) +
-      var(--child-margin-left)
+  width: max(
+    ${(props) => getInnerScrollableWidth(props.childrenNumber)}px,
+    calc(2 * ${(props) => getInnerScrollableWidth(props.childrenNumber)}px - 100%)
   );
-  width: max(var(--inner-scrollable-width), calc(2 * var(--inner-scrollable-width) - 100%));
+
+  ${(props) =>
+    mqUntil(
+      "sm",
+      css`
+        width: max(
+          ${getInnerScrollableWidthSm(props.childrenNumber)}px,
+          calc(2 * ${getInnerScrollableWidthSm(props.childrenNumber)}px - 100%)
+        );
+      `
+    )}
 
   position: absolute;
-  left: min(0px, calc(0px - (var(--inner-scrollable-width) - 100%)));
+  left: min(
+    0px,
+    calc(0px - (${(props) => getInnerScrollableWidth(props.childrenNumber)}px - 100%))
+  );
+
+  ${(props) =>
+    mqUntil(
+      "sm",
+      css`
+        left: min(0px, calc(0px - (${getInnerScrollableWidthSm(props.childrenNumber)}px - 100%)));
+      `
+    )}
 `;
 
-const ScrollableContainer = styled(motion.div)`
+const ScrollableContainer = styled(motion.div)<{ childrenNumber: number }>`
   display: inline-flex;
   flex-direction: row;
   cursor: pointer;
@@ -87,21 +109,48 @@ const ScrollableContainer = styled(motion.div)`
   }
 
   position: absolute;
-  left: max(0px, calc(100% - var(--inner-scrollable-width)));
+  left: max(0px, calc(100% - ${(props) => getInnerScrollableWidth(props.childrenNumber)}px));
+  ${(props) =>
+    mqUntil(
+      "sm",
+      css`
+        left: max(0px, calc(100% - ${getInnerScrollableWidthSm(props.childrenNumber)}px));
+      `
+    )}
 `;
 
 const LogoWrapper = styled.div`
-  min-width: var(--logo-width);
-  max-width: var(--logo-width);
+  min-width: ${LOGO_WIDTH}px;
+  max-width: ${LOGO_WIDTH}px;
+
+  ${mqUntil(
+    "sm",
+    css`
+      min-width: ${LOGO_WIDTH_SM}px;
+      max-width: ${LOGO_WIDTH_SM}px;
+    `
+  )}
+
   height: 88px;
 
   display: inline-flex;
   align-items: center;
 
-  margin-right: var(--logo-margin-right);
+  margin-right: ${LOGO_MARGIN_RX}px;
   :first-child {
-    margin-left: var(--child-margin-left);
+    margin-left: ${CHILD_MARGIN_LEFT}px;
   }
+
+  ${mqUntil(
+    "sm",
+    css`
+      margin-right: ${LOGO_MARGIN_RX_SM}px;
+      :first-child {
+        margin-left: ${CHILD_MARGIN_LEFT_SM}px;
+      }
+    `
+  )}
+
   filter: grayscale(1);
   opacity: 0.7;
 
@@ -110,6 +159,10 @@ const LogoWrapper = styled.div`
   :hover {
     filter: unset;
     opacity: 1;
+    > * {
+      transition: filter 0.5s ease-out;
+      filter: drop-shadow(0 0 20px rgba(123, 123, 123, 0.5));
+    }
   }
 `;
 
@@ -134,9 +187,12 @@ export const PartnerCarousel: FC<PartnerCarouselProps> = ({
             dragConstraints={xScrollConstraints}
             dragElastic={0}
             dragMomentum={false}
+            childrenNumber={partners.length}
           >
             {partners.map((partnerElement, index) => (
-              <LogoWrapper key={index}>{partnerElement}</LogoWrapper>
+              <LogoWrapper key={index} className="LogoWrapper">
+                {partnerElement}
+              </LogoWrapper>
             ))}
           </ScrollableContainer>
         </ScrollConstraints>

@@ -1,6 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
+import styled from "styled-components";
 
-import { Logo, PartnerCarousel, PartnerCarouselProps } from "../components";
+import { PartnerCarousel, PartnerCarouselProps } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -9,13 +10,6 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-  decorators: [
-    (Story) => (
-      <div style={{ minHeight: 3000 }}>
-        <Story />
-      </div>
-    ),
-  ],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
 } as ComponentMeta<typeof PartnerCarousel>;
@@ -23,35 +17,24 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof PartnerCarousel> = (args) => <PartnerCarousel {...args} />;
 
+const PngStyled = styled.img`
+  width: 100%;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+`;
+
+const TestImg = <PngStyled src="/assets/kuka-logo.png" alt="kuka logo" />;
+
 const defaultArgs: PartnerCarouselProps = {
   title: "Partners",
-  partners: [
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-    <Logo name="Kuka" color="#f25c19" width="300px" />,
-  ],
+  partners: Array(10).fill(TestImg),
 };
 
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   ...defaultArgs,
-};
-
-export const HoverState = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-HoverState.args = {
-  ...defaultArgs,
-};
-
-HoverState.parameters = {
-  pseudo: {
-    hover: true,
-  },
 };

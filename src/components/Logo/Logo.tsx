@@ -26,7 +26,6 @@ export interface LogoProps {
 // Must be update each time a new logo is inserted in the library
 const logoMap = {
   HSD: LogoSources.HsdLogo,
-  Kuka: LogoSources.KukaLogo,
 };
 
 export type LogoName = keyof typeof logoMap;
