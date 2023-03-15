@@ -58,7 +58,6 @@ const CardTitle = styled(Title)<Pick<CardProps, "preTitle">>`
 
 const CardPreTitle = styled(Text)`
   font-style: italic;
-  font-weight: bold;
   margin-top: 33px;
 `;
 
@@ -123,7 +122,11 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
       )}
       <CardBody>
         <CardUpperBody>
-          {preTitle && <CardPreTitle size="sm">{preTitle}</CardPreTitle>}
+          {preTitle && (
+            <CardPreTitle weight="book" size="sm">
+              {preTitle}
+            </CardPreTitle>
+          )}
           <CardTitle variant="H4" color="primary" preTitle={preTitle}>
             {title}
           </CardTitle>

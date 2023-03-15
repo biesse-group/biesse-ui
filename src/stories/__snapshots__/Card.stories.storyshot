@@ -545,7 +545,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 
 .c7 {
   font-style: italic;
-  font-weight: bold;
   margin-top: 33px;
 }
 
