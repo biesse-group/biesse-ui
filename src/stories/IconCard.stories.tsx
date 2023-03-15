@@ -1,11 +1,11 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Button, CardIcon, CardIconProps } from "../components";
+import { Button, IconCard, IconCardProps } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Cards/CardIcon",
-  component: CardIcon,
+  title: "Cards/IconCard",
+  component: IconCard,
   decorators: [
     (Story) => (
       <div style={{ maxWidth: 300 }}>
@@ -13,14 +13,14 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof CardIcon>;
+} as ComponentMeta<typeof IconCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof CardIcon> = (args) => <CardIcon {...args} />;
+const Template: ComponentStory<typeof IconCard> = (args) => <IconCard {...args} />;
 
-const defaultArgs: CardIconProps = {
+const defaultArgs: IconCardProps = {
   icon: "sustainability",
-  title: "Example card",
+  title: "Sustainability",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
   action: <Button variant="outline" children="Action" testId="action-button" />,

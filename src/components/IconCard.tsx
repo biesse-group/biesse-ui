@@ -6,7 +6,7 @@ import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
-export type CardIconProps = {
+export type IconCardProps = {
   /**
    * An icon from icons set or an external JSX element
    */
@@ -82,7 +82,7 @@ const StyledText = styled(Text)`
   margin-bottom: 20px;
 `;
 
-export const CardIcon: FC<CardIconProps> = ({ icon, title, description, action }) => {
+export const IconCard: FC<IconCardProps> = ({ icon, title, description, action }) => {
   return (
     <Root>
       <Heading>

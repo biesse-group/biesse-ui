@@ -71,7 +71,7 @@ const CardContainer = styled.div`
   }
 `;
 
-type CardHorizontalProps = {
+type HorizontalCardProps = {
   /** Card title */
   title: string;
   /** Card icon (above title) */
@@ -91,7 +91,7 @@ type CardHorizontalProps = {
   testId?: string;
 };
 
-export const CardHorizontal: FC<CardHorizontalProps> = ({
+export const HorizontalCard: FC<HorizontalCardProps> = ({
   icon,
   title,
   description,
