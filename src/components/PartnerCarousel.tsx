@@ -68,10 +68,10 @@ const LogoListWrapper = styled.div`
   height: 88px;
 `;
 
-const ScrollConstraints = styled.div<{ childrenNumber: number }>`
+const ScrollConstraints = styled.div<{ children_number: number }>`
   width: max(
-    ${(props) => getInnerScrollableWidth(props.childrenNumber)}px,
-    calc(2 * ${(props) => getInnerScrollableWidth(props.childrenNumber)}px - 100%)
+    ${(props) => getInnerScrollableWidth(props.children_number)}px,
+    calc(2 * ${(props) => getInnerScrollableWidth(props.children_number)}px - 100%)
   );
 
   ${(props) =>
@@ -79,8 +79,8 @@ const ScrollConstraints = styled.div<{ childrenNumber: number }>`
       "sm",
       css`
         width: max(
-          ${getInnerScrollableWidthSm(props.childrenNumber)}px,
-          calc(2 * ${getInnerScrollableWidthSm(props.childrenNumber)}px - 100%)
+          ${getInnerScrollableWidthSm(props.children_number)}px,
+          calc(2 * ${getInnerScrollableWidthSm(props.children_number)}px - 100%)
         );
       `
     )}
@@ -88,19 +88,19 @@ const ScrollConstraints = styled.div<{ childrenNumber: number }>`
   position: absolute;
   left: min(
     0px,
-    calc(0px - (${(props) => getInnerScrollableWidth(props.childrenNumber)}px - 100%))
+    calc(0px - (${(props) => getInnerScrollableWidth(props.children_number)}px - 100%))
   );
 
   ${(props) =>
     mqUntil(
       "sm",
       css`
-        left: min(0px, calc(0px - (${getInnerScrollableWidthSm(props.childrenNumber)}px - 100%)));
+        left: min(0px, calc(0px - (${getInnerScrollableWidthSm(props.children_number)}px - 100%)));
       `
     )}
 `;
 
-const ScrollableContainer = styled(motion.div)<{ childrenNumber: number }>`
+const ScrollableContainer = styled(motion.div)<{ children_number: number }>`
   display: inline-flex;
   flex-direction: row;
   cursor: pointer;
@@ -109,12 +109,12 @@ const ScrollableContainer = styled(motion.div)<{ childrenNumber: number }>`
   }
 
   position: absolute;
-  left: max(0px, calc(100% - ${(props) => getInnerScrollableWidth(props.childrenNumber)}px));
+  left: max(0px, calc(100% - ${(props) => getInnerScrollableWidth(props.children_number)}px));
   ${(props) =>
     mqUntil(
       "sm",
       css`
-        left: max(0px, calc(100% - ${getInnerScrollableWidthSm(props.childrenNumber)}px));
+        left: max(0px, calc(100% - ${getInnerScrollableWidthSm(props.children_number)}px));
       `
     )}
 `;
@@ -181,13 +181,13 @@ export const PartnerCarousel: FC<PartnerCarouselProps> = ({
         {title}
       </StyledText>
       <LogoListWrapper>
-        <ScrollConstraints ref={setXScrollConstraints} childrenNumber={partners.length}>
+        <ScrollConstraints ref={setXScrollConstraints} children_number={partners.length}>
           <ScrollableContainer
             drag="x"
             dragConstraints={xScrollConstraints}
             dragElastic={0}
             dragMomentum={false}
-            childrenNumber={partners.length}
+            children_number={partners.length}
           >
             {partners.map((partnerElement, index) => (
               <LogoWrapper key={index} className="LogoWrapper">
