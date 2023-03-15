@@ -148,7 +148,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -383,7 +383,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -633,7 +633,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -958,7 +958,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >

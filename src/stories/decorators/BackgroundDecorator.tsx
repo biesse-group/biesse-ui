@@ -1,14 +1,14 @@
 import { FC, PropsWithChildren } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 type Props = {
   background?: "primary" | "light" | "dark";
+  fullScreen?: boolean;
   maxWidth?: number;
 };
 
 const StyledBg = styled.div<Props>`
   padding: 1rem;
-  height: 100vh;
   background-color: ${({ background, theme }) => {
     switch (background) {
       case "primary":
@@ -19,6 +19,11 @@ const StyledBg = styled.div<Props>`
         return theme.color.lightGray;
     }
   }};
+  ${(props) =>
+    props.fullScreen &&
+    css`
+      height: 100vh;
+    `}
 `;
 
 export const BackgroundDecorator: FC<PropsWithChildren<Props>> = ({
