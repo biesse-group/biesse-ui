@@ -8,7 +8,7 @@ export const ArrowLeft = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h38.216v48H0z" />
+      <path d="M0 0h38.216v48H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <path d="M21.717 7.392Z" fill="currentColor" />

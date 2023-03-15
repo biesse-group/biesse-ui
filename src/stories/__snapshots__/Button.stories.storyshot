@@ -243,15 +243,16 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 
 exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c1 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c2 {
@@ -312,7 +313,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
       <defs>
         <path
           d="M0 0h48v14.511H0z"
-          id="a"
         />
       </defs>
       <g

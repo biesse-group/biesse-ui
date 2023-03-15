@@ -2,27 +2,29 @@
 
 exports[`Storyshots Navigation/Header Colored 1`] = `
 .c7 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
 .c7 > svg {
   height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c12 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
   color: #FFF;
 }
 
 .c12 > svg {
   height: 100%;
+  width: 100%;
+  color: light;
 }
 
 .c9 {
@@ -402,11 +404,9 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             <defs>
               <path
                 d="M0 0h18.062v21.743H0z"
-                id="a"
               />
               <path
                 d="M0 21.743h300V0H0z"
-                id="c"
               />
             </defs>
             <g
@@ -460,7 +460,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
                   <defs>
                     <path
                       d="M0 0h23.795v23.795H0z"
-                      id="a"
                     />
                   </defs>
                   <g
@@ -555,7 +554,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
                   <defs>
                     <path
                       d="M0 0h47.956v48H0z"
-                      id="a"
                     />
                   </defs>
                   <g
@@ -777,27 +775,29 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 
 exports[`Storyshots Navigation/Header Transparent 1`] = `
 .c7 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
 .c7 > svg {
   height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c12 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
   color: #FFF;
 }
 
 .c12 > svg {
   height: 100%;
+  width: 100%;
+  color: light;
 }
 
 .c9 {
@@ -1172,11 +1172,9 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             <defs>
               <path
                 d="M0 0h18.062v21.743H0z"
-                id="a"
               />
               <path
                 d="M0 21.743h300V0H0z"
-                id="c"
               />
             </defs>
             <g
@@ -1230,7 +1228,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
                   <defs>
                     <path
                       d="M0 0h23.795v23.795H0z"
-                      id="a"
                     />
                   </defs>
                   <g
@@ -1325,7 +1322,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
                   <defs>
                     <path
                       d="M0 0h47.956v48H0z"
-                      id="a"
                     />
                   </defs>
                   <g

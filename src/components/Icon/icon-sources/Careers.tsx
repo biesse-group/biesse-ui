@@ -8,7 +8,7 @@ export const Careers = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h23.795v23.795H0z" />
+      <path d="M0 0h23.795v23.795H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <path

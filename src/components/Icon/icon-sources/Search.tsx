@@ -8,7 +8,7 @@ export const Search = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h47.956v48H0z" />
+      <path d="M0 0h47.956v48H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <g transform="translate(1 1)">

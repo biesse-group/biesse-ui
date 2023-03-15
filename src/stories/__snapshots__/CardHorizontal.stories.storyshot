@@ -2,15 +2,16 @@
 
 exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 .c4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   color: #6D6E70;
 }
 
 .c4 > svg {
-  height: 50px;
+  height: 100%;
+  width: 100%;
+  color: #6D6E70;
 }
 
 .c9 {
@@ -198,7 +199,6 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
               <defs>
                 <path
                   d="M0 0h26.586v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -249,15 +249,16 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 .c4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   color: #6D6E70;
 }
 
 .c4 > svg {
-  height: 50px;
+  height: 100%;
+  width: 100%;
+  color: #6D6E70;
 }
 
 .c9 {
@@ -475,7 +476,6 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
               <defs>
                 <path
                   d="M0 0h22.528v46.582H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -545,15 +545,16 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 .c4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
   color: inherit;
 }
 
 .c4 > svg {
-  height: 80px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c9 {
@@ -780,15 +781,16 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 .c4 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   color: #6D6E70;
 }
 
 .c4 > svg {
-  height: 50px;
+  height: 100%;
+  width: 100%;
+  color: #6D6E70;
 }
 
 .c9 {
@@ -1006,7 +1008,6 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
               <defs>
                 <path
                   d="M0 0h22.528v46.582H0z"
-                  id="a"
                 />
               </defs>
               <g

@@ -9,7 +9,7 @@ export const FastRepair = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h26.586v48H0z" />
+      <path d="M0 0h26.586v48H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <g transform="translate(4 1)">

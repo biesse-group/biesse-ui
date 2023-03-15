@@ -2,15 +2,16 @@
 
 exports[`Storyshots Components/MaterialTag Composite 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {
@@ -106,15 +107,16 @@ exports[`Storyshots Components/MaterialTag Composite 1`] = `
 
 exports[`Storyshots Components/MaterialTag Glass 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {
@@ -210,15 +212,16 @@ exports[`Storyshots Components/MaterialTag Glass 1`] = `
 
 exports[`Storyshots Components/MaterialTag Metal 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {
@@ -299,7 +302,6 @@ exports[`Storyshots Components/MaterialTag Metal 1`] = `
       <defs>
         <path
           d="M0 0h48v42.445H0z"
-          id="a"
         />
       </defs>
       <g
@@ -326,15 +328,16 @@ exports[`Storyshots Components/MaterialTag Metal 1`] = `
 
 exports[`Storyshots Components/MaterialTag Stone 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {
@@ -431,15 +434,16 @@ exports[`Storyshots Components/MaterialTag Stone 1`] = `
 
 exports[`Storyshots Components/MaterialTag Translated 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {
@@ -535,15 +539,16 @@ exports[`Storyshots Components/MaterialTag Translated 1`] = `
 
 exports[`Storyshots Components/MaterialTag With Border 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {
@@ -641,15 +646,16 @@ exports[`Storyshots Components/MaterialTag With Border 1`] = `
 
 exports[`Storyshots Components/MaterialTag Wood 1`] = `
 .c1 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c1 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c2 {

@@ -9,8 +9,8 @@ export const Sustainability = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h9.322v6.936H0z" />
-      <path id="c" d="M0 0h11.252v14.323H0z" />
+      <path d="M0 0h9.322v6.936H0z" />
+      <path d="M0 0h11.252v14.323H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <path

@@ -2,39 +2,42 @@
 
 exports[`Storyshots Navigation/Footer Default 1`] = `
 .c8 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c8 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: light;
 }
 
 .c17 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
   color: #FFF;
 }
 
 .c17 > svg {
-  height: 18px;
+  height: 100%;
+  width: 100%;
+  color: light;
 }
 
 .c23 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 28px;
+  width: 28px;
   color: #FFF;
 }
 
 .c23 > svg {
-  height: 28px;
+  height: 100%;
+  width: 100%;
+  color: light;
 }
 
 .c7 {
@@ -435,11 +438,9 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
         <defs>
           <path
             d="M0 0h18.062v21.743H0z"
-            id="a"
           />
           <path
             d="M0 21.743h300V0H0z"
-            id="c"
           />
         </defs>
         <g
@@ -630,7 +631,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -668,7 +668,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -706,7 +705,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -744,7 +742,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -805,7 +802,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -847,7 +843,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -889,7 +884,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -931,7 +925,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -973,7 +966,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h25.722v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -1063,44 +1055,34 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
           <defs>
             <path
               d="M0 0h299v140H0z"
-              id="a"
             />
             <path
               d="M143.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="d"
             />
             <path
               d="M135.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="f"
             />
             <path
               d="M165.71 38.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="h"
             />
             <path
               d="M232.71 45.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="j"
             />
             <path
               d="M248.71 54.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="l"
             />
             <path
               d="M150.71 36.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="n"
             />
             <path
               d="M59.71 53.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="p"
             />
             <path
               d="M81.71 90.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              id="r"
             />
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="c"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1135,7 +1117,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="e"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1170,7 +1151,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="g"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1205,7 +1185,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="i"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1240,7 +1219,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="k"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1275,7 +1253,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="m"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1310,7 +1287,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="o"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"
@@ -1345,7 +1321,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <filter
               filterUnits="objectBoundingBox"
               height="181.6%"
-              id="q"
               width="208.8%"
               x="-54.4%"
               y="-30.6%"

@@ -8,7 +8,7 @@ export const Call = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h37.408v48H0z" />
+      <path d="M0 0h37.408v48H0z" />
     </defs>
     <g transform="translate(6 1)" fill="none" fillRule="evenodd">
       <path

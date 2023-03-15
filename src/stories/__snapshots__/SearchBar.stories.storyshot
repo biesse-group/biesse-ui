@@ -2,15 +2,16 @@
 
 exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -97,7 +98,6 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
           <defs>
             <path
               d="M0 0h47.956v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -126,15 +126,16 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 
 exports[`Storyshots Inputs/SearchBar Default 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -221,7 +222,6 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
           <defs>
             <path
               d="M0 0h47.956v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -250,15 +250,16 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 
 exports[`Storyshots Inputs/SearchBar Searched 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -346,7 +347,6 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
           <defs>
             <path
               d="M0 0h47.956v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -375,15 +375,16 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
 
 exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -471,7 +472,6 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
           <defs>
             <path
               d="M0 0h47.956v48H0z"
-              id="a"
             />
           </defs>
           <g

@@ -33,11 +33,9 @@ exports[`Storyshots Components/Logo Default 1`] = `
       <defs>
         <path
           d="M0 0h18.062v21.743H0z"
-          id="a"
         />
         <path
           d="M0 21.743h300V0H0z"
-          id="c"
         />
       </defs>
       <g
@@ -101,11 +99,9 @@ exports[`Storyshots Components/Logo White 1`] = `
       <defs>
         <path
           d="M0 0h18.062v21.743H0z"
-          id="a"
         />
         <path
           d="M0 21.743h300V0H0z"
-          id="c"
         />
       </defs>
       <g

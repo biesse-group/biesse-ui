@@ -8,7 +8,7 @@ export const Download = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h48v14.511H0z" />
+      <path d="M0 0h48v14.511H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <g transform="translate(1 34.489)">

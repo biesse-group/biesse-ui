@@ -2,15 +2,16 @@
 
 exports[`Storyshots Buttons/IconButton Light 1`] = `
 .c2 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c2 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -63,7 +64,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -92,15 +92,16 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 exports[`Storyshots Buttons/IconButton Primary 1`] = `
 .c2 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c2 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -154,7 +155,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
           <defs>
             <path
               d="M0 0h23.795v23.795H0z"
-              id="a"
             />
           </defs>
           <g
@@ -183,15 +183,16 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 
 exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 .c2 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c2 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
@@ -244,7 +245,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g
