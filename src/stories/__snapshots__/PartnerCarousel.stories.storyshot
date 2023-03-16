@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Slideshow/PartnerCarousel Default 1`] = `
+.c1 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #A2A2A2;
+}
+
+.c1 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #A2A2A2;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 40px 0px;
+  background-color: #F5F5F5;
+}
+
+.c2 {
+  margin-left: 94px;
+  margin-bottom: 20px;
+}
+
+.c3 {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  height: 88px;
+}
+
+.c4 {
+  width: max( 2494px, calc(2 * 2494px - 100%) );
+  position: absolute;
+  left: min(0px,calc(0px - (2494px - 100%)));
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  position: absolute;
+  left: max(0px,calc(100% - 2494px));
+}
+
+.c5:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.c6 {
+  min-width: 146px;
+  max-width: 146px;
+  height: 88px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 94px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  opacity: 0.7;
+  -webkit-transition: filter 0.5s ease-out,opacity 0.5s ease-out;
+  transition: filter 0.5s ease-out,opacity 0.5s ease-out;
+}
+
+.c6:first-child {
+  margin-left: 94px;
+}
+
+.c6:hover {
+  -webkit-filter: unset;
+  filter: unset;
+  opacity: 1;
+}
+
+.c6:hover > * {
+  -webkit-transition: filter 0.5s ease-out;
+  transition: filter 0.5s ease-out;
+  -webkit-filter: drop-shadow(0 0 20px rgba(123,123,123,0.5));
+  filter: drop-shadow(0 0 20px rgba(123,123,123,0.5));
+}
+
+.c7 {
+  width: 100%;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c0 {
+    padding: 23px 0px 38px 0px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    margin-left: 20px;
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    width: max( 1320px, calc(2 * 1320px - 100%) );
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    left: min(0px,calc(0px - (1320px - 100%)));
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c5 {
+    left: max(0px,calc(100% - 1320px));
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    min-width: 90px;
+    max-width: 90px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    margin-right: 40px;
+  }
+
+  .c6:first-child {
+    margin-left: 20px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1 c2"
+    color="gray"
+    size="xl"
+  >
+    Partners
+  </span>
+  <div
+    className="c3"
+  >
+    <div
+      className="c4"
+    >
+      <div
+        className="c5"
+        draggable={false}
+        style={
+          Object {
+            "WebkitTouchCallout": "none",
+            "WebkitUserSelect": "none",
+            "touchAction": "pan-y",
+            "userSelect": "none",
+          }
+        }
+      >
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+        <div
+          className="c6 LogoWrapper"
+        >
+          <img
+            alt="kuka logo"
+            className="c7"
+            src="/assets/kuka-logo.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

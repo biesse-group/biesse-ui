@@ -11,7 +11,6 @@ exports[`Storyshots Components/MaterialTag Composite 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {
@@ -116,7 +115,6 @@ exports[`Storyshots Components/MaterialTag Glass 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {
@@ -221,7 +219,6 @@ exports[`Storyshots Components/MaterialTag Metal 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {
@@ -338,7 +335,6 @@ exports[`Storyshots Components/MaterialTag Stone 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {
@@ -444,7 +440,6 @@ exports[`Storyshots Components/MaterialTag Translated 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {
@@ -549,7 +544,6 @@ exports[`Storyshots Components/MaterialTag With Border 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {
@@ -656,7 +650,6 @@ exports[`Storyshots Components/MaterialTag Wood 1`] = `
 
 .c1 > svg {
   height: 20px;
-  color: #FFF;
 }
 
 .c2 {

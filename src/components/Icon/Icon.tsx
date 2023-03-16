@@ -63,11 +63,17 @@ const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
 
   > svg {
     height: ${(props) => getIconSize(props.size)};
-    color: ${(props) => props.color || "inherit"};
   }
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, color, className, testId, ...props }) => {
+export const Icon: FC<IconProps> = ({
+  name,
+  size,
+  color = "inherit",
+  className,
+  testId,
+  ...props
+}) => {
   const IconComponent = iconsMap[name];
   return (
     <IconRoot size={size} color={color} data-testid={testId} className={className}>

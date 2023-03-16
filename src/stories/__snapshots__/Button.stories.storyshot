@@ -252,7 +252,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 
 .c1 > svg {
   height: 26px;
-  color: inherit;
 }
 
 .c2 {
@@ -302,6 +301,7 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   Download catalog
   <span
     className="c1 c2"
+    color="inherit"
     size="26px"
   >
     <svg

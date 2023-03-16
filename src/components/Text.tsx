@@ -14,9 +14,9 @@ export type TextProps = {
    */
   weight?: keyof BiesseTheme["font"]["weight"];
   /**
-   * Font size, should be one of `default` (inherit), `primary`, `light`, `dark`
+   * Font size, should be one of `default` (inherit), `primary`, `light`, `dark`, 'gray'
    */
-  color?: "default" | "primary" | "light" | "dark";
+  color?: "default" | "primary" | "light" | "dark" | "gray";
   /**
    * Text tag (`span` inline or `p` paragraph)
    */
@@ -36,6 +36,8 @@ const getColor = (color?: TextProps["color"]) => css`
         return props.theme.color.primary;
       case "dark":
         return props.theme.color.black;
+      case "gray":
+        return props.theme.color.gray;
       default:
         return "inherit";
     }
