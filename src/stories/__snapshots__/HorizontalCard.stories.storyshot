@@ -732,6 +732,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
         >
           <span
             className="c4"
+            color="inherit"
             size="lg"
           >
             <svg
