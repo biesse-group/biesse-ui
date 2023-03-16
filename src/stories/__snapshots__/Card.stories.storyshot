@@ -439,6 +439,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
         <button
           className="c9"
           data-testid="action-button"
+          type="button"
         >
           Action
         </button>
@@ -1045,6 +1046,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
         <button
           className="c14"
           data-testid="action-button"
+          type="button"
         >
           Action
         </button>

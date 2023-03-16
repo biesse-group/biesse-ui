@@ -238,6 +238,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>
@@ -515,6 +516,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>
@@ -770,6 +772,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>
@@ -1047,6 +1050,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>

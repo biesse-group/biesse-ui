@@ -237,6 +237,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
         data-testid="submit"
         onClick={[Function]}
         size="small"
+        type="button"
       >
         Send
       </button>
@@ -482,6 +483,7 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
         className="c3 c4"
         onClick={[Function]}
         size="small"
+        type="button"
       >
         Send
       </button>

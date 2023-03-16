@@ -40,6 +40,7 @@ exports[`Storyshots Buttons/Button Block 1`] = `
 
 <button
   className="c0"
+  type="button"
 >
   Block
 </button>
@@ -84,6 +85,7 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
 
 <button
   className="c0"
+  type="button"
 >
   Outline
 </button>
@@ -129,6 +131,7 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
 <button
   className="c0"
   data-testid="primary-button"
+  type="button"
 >
   Primary
 </button>
@@ -188,6 +191,7 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   >
     <button
       className="c1"
+      type="button"
     >
       Primary inverted
     </button>
@@ -235,6 +239,7 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 <button
   className="c0"
   size="small"
+  type="button"
 >
   Small
 </button>
@@ -297,6 +302,7 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 
 <button
   className="c0"
+  type="button"
 >
   Download catalog
   <span
