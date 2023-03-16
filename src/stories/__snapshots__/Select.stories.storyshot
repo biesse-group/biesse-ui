@@ -196,7 +196,7 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
-  border: 1px solid #A2A2A2;
+  border: 1px solid #C4C4C4;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

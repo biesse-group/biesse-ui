@@ -46,7 +46,7 @@ exports[`Storyshots Slideshow/PartnerCarousel Default 1`] = `
 .c4 {
   width: max( 2494px, calc(2 * 2494px - 100%) );
   position: absolute;
-  left: min( 0px, calc(0px - (2494px - 100%)) );
+  left: min(0px,calc(0px - (2494px - 100%)));
 }
 
 .c5 {

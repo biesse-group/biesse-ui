@@ -16,7 +16,7 @@ export const inputStyles = (shadow: "dark" | "light" = "dark") => css`
 
   ${shadow === "light" &&
   css`
-    border: 1px solid ${(props) => props.theme.color.gray};
+    border: 1px solid ${(props) => props.theme.input.borderColor};
   `}
 
   &:focus,
