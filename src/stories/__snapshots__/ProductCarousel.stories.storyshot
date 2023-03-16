@@ -1,33 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
-.c9 {
+.c10 {
   display: inline-block;
   height: 26px;
   width: 26px;
   color: inherit;
 }
 
-.c9 > svg {
+.c10 > svg {
   height: 100%;
   width: 100%;
   color: inherit;
 }
 
-.c20 {
+.c21 {
   display: inline-block;
   height: 20px;
   width: 20px;
   color: #FFF;
 }
 
-.c20 > svg {
+.c21 > svg {
   height: 100%;
   width: 100%;
   color: #FFF;
 }
 
-.c15 {
+.c16 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -58,12 +58,12 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c15:hover {
+.c16:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c21 {
+.c22 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -71,29 +71,12 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c21 a {
+.c22 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
   color: #FFF;
-}
-
-.c16 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
-  margin: 0;
-}
-
-.c16 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
 }
 
 .c17 {
@@ -101,7 +84,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: inherit;
+  color: #6D6E70;
   margin: 0;
 }
 
@@ -110,10 +93,27 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
+  color: #6D6E70;
+}
+
+.c18 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+  margin: 0;
+}
+
+.c18 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
   color: inherit;
 }
 
-.c1 {
+.c2 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -122,7 +122,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-size: 45px;
 }
 
-.c13 {
+.c14 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -131,29 +131,29 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-size: 40px;
 }
 
-.c7 {
+.c8 {
   background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
   width: 50px;
   height: 50px;
-  outline: none !important;
   border: 1px solid #6D6E70;
   color: #6D6E70;
-  cursor: pointer;
 }
 
-.c7:hover {
+.c8:hover {
   background-color: #6D6E70;
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.c22 {
+.c23 {
   text-transform: uppercase;
   margin-left: 9px;
 }
 
-.c19 {
+.c20 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -178,7 +178,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   background-color: #F9942E;
 }
 
-.c23 {
+.c24 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -209,7 +209,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   padding: 42px 90px;
   height: 440px;
   margin-bottom: 124px;
-  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,22 +216,46 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-top-right-radius: 40px;
 }
 
-.c8 {
-  position: absolute;
-  bottom: 28px;
-  left: 40px;
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1600px;
 }
 
-.c10 {
+.c9 {
   position: absolute;
   bottom: 28px;
-  right: 40px;
+  left: -50px;
 }
 
-.c5 {
+.c11 {
+  position: absolute;
+  bottom: 28px;
+  right: -50px;
+}
+
+.c13 {
+  width: 100%;
+  max-width: 600px;
+  position: absolute;
+}
+
+.c6 {
   position: absolute;
   text-align: center;
   width: 450px;
@@ -252,37 +275,37 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   align-items: center;
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  position: absolute;
-  left: 110px;
-  right: 110px;
-  bottom: 0;
-  top: 100px;
-}
-
-.c6 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  position: absolute;
-  left: 110px;
-  right: 110px;
-  bottom: 0;
-  top: 100px;
-}
-
 .c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 40px;
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 40px;
+}
+
+.c5 {
   color: #FFF;
   font-size: 220px;
   font-weight: 700;
@@ -295,12 +318,12 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   user-select: none;
 }
 
-.c2 {
+.c3 {
   font-size: 50px;
   margin: 0;
 }
 
-.c11 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -311,21 +334,15 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   justify-content: center;
 }
 
-.c12 {
-  width: 100%;
-  max-width: 600px;
-  position: absolute;
-}
-
-.c18 {
+.c19 {
   margin-top: 20px;
 }
 
-.c18 > *:not(:last-child) {
+.c19 > *:not(:last-child) {
   margin-right: 10px;
 }
 
-.c14 {
+.c15 {
   margin-left: auto;
   display: -webkit-box;
   display: -webkit-flex;
@@ -333,7 +350,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   display: flex;
 }
 
-.c14 > button:not(:last-child) {
+.c15 > button:not(:last-child) {
   margin-right: 20px;
 }
 
@@ -358,26 +375,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c16 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c16 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
   .c17 {
     font-size: 14px;
   }
@@ -394,13 +391,33 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c1 {
+
+}
+
+@media screen and (max-width:767px) {
+  .c18 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c18 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c2 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c1 {
+  .c2 {
     font-size: 30px;
   }
 }
@@ -411,6 +428,13 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 @media screen and (max-width:767px) {
 
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width:1399px) {
@@ -437,138 +461,158 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c8 {
-    left: 25px;
+  .c9 {
+    left: 0;
+    bottom: -10px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c8 {
-    left: 10px;
+  .c9 {
+    left: -10px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c10 {
-    right: 25px;
+  .c11 {
+    right: 0;
+    bottom: -10px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c10 {
-    right: 10px;
+  .c11 {
+    right: -10px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    padding: 0 30px;
   }
 }
 
 @media screen and (max-width:1399px) {
-  .c5 {
+  .c6 {
     width: 300px;
     height: 300px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c5 {
+  .c6 {
     width: 450px;
     height: 450px;
+    top: -60%;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c5 {
+  .c6 {
     width: 280px;
     height: 280px;
-  }
-}
-
-@media screen and (max-width:1399px) {
-  .c3 {
-    top: 90px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c3 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    top: 200px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c3 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:1399px) {
-  .c6 {
-    top: 90px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c6 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    top: 200px;
-  }
-}
-
-@media screen and (min-width:992px) {
-  .c6 {
-    display: none;
+    top: unset;
   }
 }
 
 @media screen and (max-width:1399px) {
   .c4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 170px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 170px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c7 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c5 {
     font-size: 150px;
     width: 600px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 {
+  .c5 {
     font-size: 220px;
     top: -80px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c5 {
     font-size: 110px;
     top: -80px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c2 {
+  .c3 {
     font-size: 30px;
     text-align: center;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c12 {
-    padding: 0 30px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c14 {
+  .c15 {
     -webkit-order: 100;
     -ms-flex-order: 100;
     order: 100;
@@ -579,7 +623,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
     flex: 0 0 100%;
   }
 
-  .c14 > button {
+  .c15 > button {
     -webkit-flex: 1 1 50%;
     -ms-flex: 1 1 50%;
     flex: 1 1 50%;
@@ -597,267 +641,260 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   <div
     className="c0"
   >
-    <h2
-      className="c1 c2"
-      color="light"
-    >
-      New products
-    </h2>
     <div
-      className="c3"
+      className="c1"
     >
+      <h2
+        className="c2 c3"
+        color="light"
+      >
+        New products
+      </h2>
       <div
         className="c4"
-        data-projection-id={1}
-        style={
-          Object {
-            "left": "12.5%",
-            "opacity": 1,
-            "right": "auto",
-            "top": "40%",
-            "transform": "translateX(-50%) translateY(-50%) scale(0.2) translateZ(0)",
-          }
-        }
       >
-        KK765
-      </div>
-      <div
-        className="c4"
-        data-projection-id={2}
-        style={
-          Object {
-            "left": "50%",
-            "opacity": 1,
-            "right": "auto",
-            "top": "48px",
-            "transform": "translateX(-50%) translateY(0px) scale(1) translateZ(0)",
-          }
-        }
-      >
-        ES796
-      </div>
-      <div
-        className="c4"
-        data-projection-id={3}
-        style={
-          Object {
-            "left": "auto",
-            "opacity": 1,
-            "right": "12.5%",
-            "top": "40%",
-            "transform": "translateX(50%) translateY(-50%) scale(0.2) translateZ(0)",
-          }
-        }
-      >
-        AB564
-      </div>
-    </div>
-    <div
-      className="c3"
-    >
-      <div
-        className="c5"
-        data-projection-id={4}
-        style={
-          Object {
-            "left": "12.5%",
-            "opacity": 1,
-            "right": "auto",
-            "top": "90%",
-            "transform": "translateX(-50%) translateY(-50%) scale(0.5) translateZ(0)",
-          }
-        }
-      >
-        <img
-          alt="KK765"
-          src="https://dummyimage.com/600x400/000/fff"
+        <div
+          className="c5"
           style={
             Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
+              "left": "12.5%",
+              "opacity": 1,
+              "right": "auto",
+              "top": "50%",
+              "transform": "translateX(-50%) translateY(-50%) scale(0.2) translateZ(0)",
             }
           }
-        />
-      </div>
-      <div
-        className="c5"
-        data-projection-id={5}
-        style={
-          Object {
-            "left": "50%",
-            "opacity": 1,
-            "right": "auto",
-            "top": "0px",
-            "transform": "translateX(-50%) translateY(0px) scale(1) translateZ(0)",
-          }
-        }
-      >
-        <img
-          alt="ES796"
-          src="assets/product-carousel-1.png"
-          style={
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-            }
-          }
-        />
-      </div>
-      <div
-        className="c5"
-        data-projection-id={6}
-        style={
-          Object {
-            "left": "auto",
-            "opacity": 1,
-            "right": "12.5%",
-            "top": "90%",
-            "transform": "translateX(50%) translateY(-50%) scale(0.5) translateZ(0)",
-          }
-        }
-      >
-        <img
-          alt="AB564"
-          src="assets/product-carousel-2.png"
-          style={
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-            }
-          }
-        />
-      </div>
-    </div>
-    <div
-      className="c6"
-    >
-      <div
-        className="c4"
-        data-projection-id={7}
-        style={
-          Object {
-            "opacity": 1,
-            "transform": "none",
-          }
-        }
-      >
-        ES796
-      </div>
-    </div>
-    <div
-      className="c6"
-    >
-      <div
-        className="c5"
-        data-projection-id={8}
-        style={
-          Object {
-            "opacity": 1,
-            "transform": "none",
-          }
-        }
-      >
-        <img
-          alt="ES796"
-          src="assets/product-carousel-1.png"
-          style={
-            Object {
-              "maxHeight": "100%",
-              "maxWidth": "100%",
-            }
-          }
-        />
-      </div>
-    </div>
-    <button
-      aria-label="prev"
-      className="c7 c8"
-      direction="prev"
-      onClick={[Function]}
-    >
-      <span
-        className="c9"
-        color="inherit"
-        size="26px"
-      >
-        <svg
-          viewBox="0 0 50 50"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
         >
-          <defs>
-            <path
-              d="M0 0h38.216v48H0z"
-            />
-          </defs>
-          <g
-            fill="none"
-            fillRule="evenodd"
+          KK765
+        </div>
+        <div
+          className="c5"
+          style={
+            Object {
+              "left": "50%",
+              "opacity": 1,
+              "right": "auto",
+              "top": "48px",
+              "transform": "translateX(-50%) translateY(0px) scale(1) translateZ(0)",
+            }
+          }
+        >
+          ES796
+        </div>
+        <div
+          className="c5"
+          style={
+            Object {
+              "left": "auto",
+              "opacity": 1,
+              "right": "12.5%",
+              "top": "50%",
+              "transform": "translateX(50%) translateY(-50%) scale(0.2) translateZ(0)",
+            }
+          }
+        >
+          AB564
+        </div>
+      </div>
+      <div
+        className="c4"
+      >
+        <div
+          className="c6"
+          style={
+            Object {
+              "left": "12.5%",
+              "opacity": 1,
+              "right": "auto",
+              "top": "100%",
+              "transform": "translateX(-50%) translateY(-50%) scale(0.5) translateZ(0)",
+            }
+          }
+        >
+          <img
+            alt="KK765"
+            src="https://dummyimage.com/600x400/000/fff"
+            style={
+              Object {
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="c6"
+          style={
+            Object {
+              "left": "50%",
+              "opacity": 1,
+              "right": "auto",
+              "top": "10%",
+              "transform": "translateX(-50%) translateY(0px) scale(1) translateZ(0)",
+            }
+          }
+        >
+          <img
+            alt="ES796"
+            src="assets/product-carousel-1.png"
+            style={
+              Object {
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="c6"
+          style={
+            Object {
+              "left": "auto",
+              "opacity": 1,
+              "right": "12.5%",
+              "top": "100%",
+              "transform": "translateX(50%) translateY(-50%) scale(0.5) translateZ(0)",
+            }
+          }
+        >
+          <img
+            alt="AB564"
+            src="assets/product-carousel-2.png"
+            style={
+              Object {
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="c7"
+      >
+        <div
+          className="c5"
+          style={
+            Object {
+              "opacity": 1,
+              "transform": "none",
+            }
+          }
+        >
+          ES796
+        </div>
+      </div>
+      <div
+        className="c7"
+      >
+        <div
+          className="c6"
+          style={
+            Object {
+              "opacity": 1,
+              "transform": "none",
+            }
+          }
+        >
+          <img
+            alt="ES796"
+            src="assets/product-carousel-1.png"
+            style={
+              Object {
+                "maxHeight": "100%",
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </div>
+      </div>
+      <button
+        aria-label="prev"
+        className="c8 c9"
+        direction="prev"
+        onClick={[Function]}
+      >
+        <span
+          className="c10"
+          size="26px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
-            <path
-              d="M21.717 7.392Z"
-              fill="currentColor"
-            />
+            <defs>
+              <path
+                d="M0 0h38.216v48H0z"
+              />
+            </defs>
             <g
-              transform="matrix(0 1 1 0 1.108 5.892)"
+              fill="none"
+              fillRule="evenodd"
             >
               <path
-                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                d="M21.717 7.392Z"
                 fill="currentColor"
               />
+              <g
+                transform="matrix(0 1 1 0 1.108 5.892)"
+              >
+                <path
+                  d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                  fill="currentColor"
+                />
+              </g>
             </g>
-          </g>
-        </svg>
-      </span>
-    </button>
-    <button
-      aria-label="next"
-      className="c7 c10"
-      direction="next"
-      onClick={[Function]}
-    >
-      <span
-        className="c9"
-        color="inherit"
-        size="26px"
+          </svg>
+        </span>
+      </button>
+      <button
+        aria-label="next"
+        className="c8 c11"
+        direction="next"
+        onClick={[Function]}
       >
-        <svg
-          viewBox="0 0 50 50"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+        <span
+          className="c10"
+          size="26px"
         >
-          <defs>
-            <path
-              d="M0 0h38.216v48H0z"
-            />
-          </defs>
-          <g
-            fill="none"
-            fillRule="evenodd"
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
-            <path
-              d="M28.5 7.392Z"
-              fill="currentColor"
-            />
+            <defs>
+              <path
+                d="M0 0h38.216v48H0z"
+              />
+            </defs>
             <g
-              transform="rotate(90 21.608 27.5)"
+              fill="none"
+              fillRule="evenodd"
             >
               <path
-                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                d="M28.5 7.392Z"
                 fill="currentColor"
               />
+              <g
+                transform="rotate(90 21.608 27.5)"
+              >
+                <path
+                  d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                  fill="currentColor"
+                />
+              </g>
             </g>
-          </g>
-        </svg>
-      </span>
-    </button>
+          </svg>
+        </span>
+      </button>
+    </div>
   </div>
   <div
-    className="c11"
+    className="c12"
   >
     <div
-      className="c12"
-      data-projection-id={9}
+      className="c13"
       style={
         Object {
           "opacity": 1,
@@ -876,7 +913,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         }
       >
         <h3
-          className="c13"
+          className="c14"
           style={
             Object {
               "margin": 0,
@@ -886,21 +923,21 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           ES796
         </h3>
         <div
-          className="c14"
+          className="c15"
         >
           <button
-            className="c15"
+            className="c16"
           >
             Dettagli
           </button>
           <button
-            className="c15"
+            className="c16"
           >
             Confronta
           </button>
         </div>
         <p
-          className="c16"
+          className="c17"
           color="primary"
           style={
             Object {
@@ -912,7 +949,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           Testate a 2 assi
         </p>
         <p
-          className="c17"
+          className="c18"
           style={
             Object {
               "marginTop": 12,
@@ -922,13 +959,13 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
         </p>
         <div
-          className="c18"
+          className="c19"
         >
           <div
-            className="c19"
+            className="c20"
           >
             <span
-              className="c20"
+              className="c21"
               color="#FFF"
               size="xs"
             >
@@ -944,7 +981,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
               </svg>
             </span>
             <span
-              className="c21 c22"
+              className="c22 c23"
               color="light"
               size="sm"
             >
@@ -952,10 +989,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
             </span>
           </div>
           <div
-            className="c23"
+            className="c24"
           >
             <span
-              className="c20"
+              className="c21"
               color="#FFF"
               size="xs"
             >
@@ -971,7 +1008,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
               </svg>
             </span>
             <span
-              className="c21 c22"
+              className="c22 c23"
               color="light"
               size="sm"
             >
