@@ -8,7 +8,7 @@ export interface EventCardProps {
   /**
    * Title locate on top of the card
    */
-  title?: string;
+  title: string;
   /**
    * Starting date of the event
    */

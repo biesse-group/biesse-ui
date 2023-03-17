@@ -107,20 +107,20 @@ const TitleWrapper = styled.div`
 
 const StyledTitle = styled(Text)`
   line-height: 26px;
+  max-width: 161px;
   text-transform: uppercase;
 
-  padding: 12px 10px;
+  padding: 12px 10px 12px 5px;
 `;
 
 const StyledIcon = styled(Icon)`
   margin-right: 84px;
-
   ${mqUntil(
     "md",
     css`
       margin-right: 25px;
     `
-  )}
+  )};
 `;
 
 export const HeroEventCard: FC<EventCardProps> = ({
@@ -134,8 +134,6 @@ export const HeroEventCard: FC<EventCardProps> = ({
   descriptionMaxCharacters,
   ...props
 }) => {
-  console.log(startDate.constructor.name);
-
   return (
     <HeroEventCardRoot className={className} data-testid={testId} {...props}>
       <DateSubgrid>
@@ -150,14 +148,12 @@ export const HeroEventCard: FC<EventCardProps> = ({
           <b>{`${endDate.format("YY")}`}</b>
         </EndDateMonthYear>
       </DateSubgrid>
-      {title && (
-        <TitleWrapper>
-          <StyledTitle color="primary" size="xl" weight="bold">
-            {renderLink ? renderLink(title) : title}
-          </StyledTitle>
-          <StyledIcon name="chevron-right" color="primary" size="45px" />
-        </TitleWrapper>
-      )}
+      <TitleWrapper>
+        <StyledTitle color="primary" size="xl" weight="bold">
+          {renderLink ? renderLink(title) : title}
+        </StyledTitle>
+        <StyledIcon name="chevron-right" color="primary" size="25px" />
+      </TitleWrapper>
       {description && (
         <DescriptionItem>
           {typeof description === "string" ? (

@@ -3,8 +3,8 @@
 exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 .c13 {
   display: inline-block;
-  height: 45px;
-  width: 45px;
+  height: 25px;
+  width: 25px;
   color: #6D6E70;
 }
 
@@ -171,8 +171,9 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 
 .c12 {
   line-height: 26px;
+  max-width: 161px;
   text-transform: uppercase;
-  padding: 12px 10px;
+  padding: 12px 10px 12px 5px;
 }
 
 .c14 {
@@ -319,7 +320,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
     <span
       className="c13 c14"
       color="primary"
-      size="45px"
+      size="25px"
     >
       <svg
         viewBox="0 0 50 50"
@@ -361,8 +362,8 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 .c13 {
   display: inline-block;
-  height: 45px;
-  width: 45px;
+  height: 25px;
+  width: 25px;
   color: #6D6E70;
 }
 
@@ -529,8 +530,9 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 
 .c12 {
   line-height: 26px;
+  max-width: 161px;
   text-transform: uppercase;
-  padding: 12px 10px;
+  padding: 12px 10px 12px 5px;
 }
 
 .c14 {
@@ -677,7 +679,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
     <span
       className="c13 c14"
       color="primary"
-      size="45px"
+      size="25px"
     >
       <svg
         viewBox="0 0 50 50"
