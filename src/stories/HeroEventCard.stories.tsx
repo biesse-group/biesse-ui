@@ -11,7 +11,11 @@ export default {
 } as ComponentMeta<typeof HeroEventCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof HeroEventCard> = (args) => <HeroEventCard {...args} />;
+const Template: ComponentStory<typeof HeroEventCard> = (args) => {
+  const { startDate, endDate, ...otherArgs } = args;
+
+  return <HeroEventCard startDate={dayjs(startDate)} endDate={dayjs(endDate)} {...otherArgs} />;
+};
 
 const defaultArgs = {
   title: "Titolo della fiera in arrivo",

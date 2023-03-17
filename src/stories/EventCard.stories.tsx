@@ -18,7 +18,11 @@ export default {
 } as ComponentMeta<typeof EventCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof EventCard> = (args) => <EventCard {...args} />;
+const Template: ComponentStory<typeof EventCard> = (args) => {
+  const { startDate, endDate, ...otherArgs } = args;
+
+  return <EventCard startDate={dayjs(startDate)} endDate={dayjs(endDate)} {...otherArgs} />;
+};
 
 const defaultArgs = {
   title: "Lore Ipsum",
@@ -35,7 +39,7 @@ const defaultArgs = {
       <Text size="lg" color="primary" weight="bold">
         INPUT TITLE
       </Text>
-      <Input border={true} />
+      <Input type="text" border={true} />
     </div>
   ),
   link: (

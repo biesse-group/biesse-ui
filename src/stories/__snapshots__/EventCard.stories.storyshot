@@ -480,6 +480,7 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            type="text"
           />
         </div>
       </div>
@@ -968,6 +969,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            type="text"
           />
         </div>
       </div>
@@ -1456,6 +1458,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
+            type="text"
           />
         </div>
       </div>
