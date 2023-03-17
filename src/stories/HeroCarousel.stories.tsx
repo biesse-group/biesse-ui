@@ -5,7 +5,6 @@ import { FC } from "react";
 import { HeroCarousel, HeroCarouselSlide } from "../components";
 import { sleep } from "./utils/sleep";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Slideshow/HeroCarousel",
   component: HeroCarousel,
@@ -40,9 +39,9 @@ const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {
 
 const slides: HeroCarouselSlide[] = [
   {
-    title: "Etiam sit amet orci eget",
+    title: "Focus sulla brand awareness",
     description:
-      "Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     renderImage: () => (
       <SlideImage imageUrl="https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1" />
     ),

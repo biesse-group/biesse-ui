@@ -3,7 +3,6 @@
 exports[`Storyshots Inputs/Input Dark Background 1`] = `
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
@@ -136,7 +135,6 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
@@ -239,6 +237,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
         data-testid="submit"
         onClick={[Function]}
         size="small"
+        type="button"
       >
         Send
       </button>
@@ -250,7 +249,6 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 exports[`Storyshots Inputs/Input Light Background 1`] = `
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #F5F5F5;
 }
 
@@ -385,7 +383,6 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
@@ -486,6 +483,7 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
         className="c3 c4"
         onClick={[Function]}
         size="small"
+        type="button"
       >
         Send
       </button>

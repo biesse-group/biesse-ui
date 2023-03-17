@@ -1,7 +1,7 @@
 import { Variant, Variants } from "framer-motion";
 
 const centerVariant: Variant = {
-  top: 0,
+  top: "10%",
   left: "50%",
   right: "auto",
   x: "-50%",
@@ -11,7 +11,7 @@ const centerVariant: Variant = {
 };
 
 const leftVariant: Variant = {
-  top: "90%",
+  top: "100%",
   left: "12.5%",
   right: "auto",
   x: "-50%",
@@ -21,7 +21,7 @@ const leftVariant: Variant = {
 };
 
 const rightVariant: Variant = {
-  top: "90%",
+  top: "100%",
   right: "12.5%",
   left: "auto",
   x: "50%",

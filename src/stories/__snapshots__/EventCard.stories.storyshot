@@ -2,15 +2,16 @@
 
 exports[`Storyshots Cards/EventCard Default 1`] = `
 .c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
   color: #FFF;
 }
 
 .c5 > svg {
-  height: 23px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c4 {
@@ -432,7 +433,6 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -517,15 +517,16 @@ exports[`Storyshots Cards/EventCard Default 1`] = `
 
 exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
   color: #FFF;
 }
 
 .c5 > svg {
-  height: 23px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c4 {
@@ -947,7 +948,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -1032,15 +1032,16 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c5 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
   color: #FFF;
 }
 
 .c5 > svg {
-  height: 23px;
+  height: 100%;
+  width: 100%;
+  color: #FFF;
 }
 
 .c4 {
@@ -1462,7 +1463,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g

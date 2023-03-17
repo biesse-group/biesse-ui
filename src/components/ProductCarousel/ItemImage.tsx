@@ -27,6 +27,7 @@ export const ItemImage = styled(motion.div)<ItemProps>`
     css`
       width: 450px;
       height: 450px;
+      top: -60%;
     `
   )}
 
@@ -35,6 +36,7 @@ ${mqUntil(
     css`
       width: 280px;
       height: 280px;
+      top: unset;
     `
   )}
 `;

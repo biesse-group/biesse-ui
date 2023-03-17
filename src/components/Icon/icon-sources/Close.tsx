@@ -8,7 +8,7 @@ export const Close = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h48v48H0z" />
+      <path d="M0 0h48v48H0z" />
     </defs>
     <g transform="translate(1 1)" fill="none" fillRule="evenodd">
       <path

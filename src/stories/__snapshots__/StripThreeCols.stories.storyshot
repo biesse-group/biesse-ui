@@ -23,7 +23,7 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 
 .c1 {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   padding: 0 40px;
   margin: 0 auto;
 }
@@ -178,7 +178,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 
 .c1 {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1600px;
   padding: 0 40px;
   margin: 0 auto;
 }

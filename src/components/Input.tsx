@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { inputStyles } from "../styles/input-styles";
-import { Button } from "./Button";
+import { Button, ButtonProps } from "./Button";
 
 export type InputProps = {
   /**
@@ -30,6 +30,10 @@ export type InputProps = {
    */
   testId?: string;
   /**
+   * Input type
+   */
+  type: React.InputHTMLAttributes<HTMLInputElement>["type"];
+  /**
    * Add trailing button for submit
    */
   withButton?: {
@@ -45,7 +49,7 @@ export type InputProps = {
      * Button test ID
      */
     testId?: string;
-  };
+  } & Pick<ButtonProps, "type">;
 };
 
 const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
@@ -120,6 +124,7 @@ export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...
         <StyledButton
           variant="primary"
           size="small"
+          type={withButton.type}
           onClick={() => withButton.onClick?.(value)}
           data-testid={withButton.testId}
         >

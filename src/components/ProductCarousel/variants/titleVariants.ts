@@ -11,7 +11,7 @@ const centerVariant: Variant = {
 };
 
 const leftVariant: Variant = {
-  top: "40%",
+  top: "50%",
   left: "12.5%",
   right: "auto",
   x: "-50%",
@@ -21,7 +21,7 @@ const leftVariant: Variant = {
 };
 
 const rightVariant: Variant = {
-  top: "40%",
+  top: "50%",
   right: "12.5%",
   left: "auto",
   x: "50%",

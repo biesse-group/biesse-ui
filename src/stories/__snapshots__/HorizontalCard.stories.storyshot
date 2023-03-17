@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Cards/CardHorizontal Default 1`] = `
+exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 .c4 {
   display: inline-block;
   height: 50px;
@@ -238,6 +238,7 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>
@@ -247,7 +248,7 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
+exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 .c4 {
   display: inline-block;
   height: 50px;
@@ -515,6 +516,7 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>
@@ -543,7 +545,7 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
+exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 .c4 {
   display: inline-block;
   height: 80px;
@@ -770,6 +772,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>
@@ -779,7 +782,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
+exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
 .c4 {
   display: inline-block;
   height: 50px;
@@ -1047,6 +1050,7 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
         <button
           className="c9"
           size="small"
+          type="button"
         >
           More...
         </button>

@@ -9,7 +9,7 @@ export const SpareParts = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h22.528v46.582H0z" />
+      <path d="M0 0h22.528v46.582H0z" />
     </defs>
     <g fill="none" fillRule="evenodd">
       <g transform="translate(26.472 2)">

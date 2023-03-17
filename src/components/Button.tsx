@@ -24,6 +24,10 @@ export interface ButtonProps {
    * Shows an icon on the right
    */
   rightIcon?: IconName;
+  /**
+   * Button HTML type (default `"button"`)
+   */
+  type?: React.ButtonHTMLAttributes<HTMLButtonElement>["type"];
   onClick?: () => void;
   testId?: string;
 }
@@ -88,7 +92,7 @@ const RightIcon = styled(Icon)`
   display: inline;
 `;
 
-const ButtonStyled = styled.button<ButtonProps>`
+const StyledButton = styled.button<ButtonProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
@@ -116,12 +120,13 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   testId,
   children,
   rightIcon,
+  type = "button",
   ...props
 }) => {
   return (
-    <ButtonStyled data-testid={testId} {...props}>
+    <StyledButton data-testid={testId} type={type} {...props}>
       {children}
       {rightIcon && <RightIcon name={rightIcon} size="26px" />}
-    </ButtonStyled>
+    </StyledButton>
   );
 };

@@ -1,16 +1,20 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Logo, LogoProps } from "../components";
+import { BackgroundDecorator } from "./decorators";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Components/Logo",
   component: Logo,
+  parameters: {
+    layout: "fullscreen",
+  },
   decorators: [
-    (Story) => (
-      <div style={{ backgroundColor: "grey", padding: "50px" }}>
+    (Story, { args }) => (
+      <BackgroundDecorator background={args.color === "white" ? "primary" : "light"}>
         <Story />
-      </div>
+      </BackgroundDecorator>
     ),
   ],
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes

@@ -1,15 +1,15 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import { Button, CardHorizontal, Icon } from "../components";
+import { Button, HorizontalCard, Icon } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Cards/CardHorizontal",
-  component: CardHorizontal,
-} as ComponentMeta<typeof CardHorizontal>;
+  title: "Cards/HorizontalCard",
+  component: HorizontalCard,
+} as ComponentMeta<typeof HorizontalCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof CardHorizontal> = (args) => <CardHorizontal {...args} />;
+const Template: ComponentStory<typeof HorizontalCard> = (args) => <HorizontalCard {...args} />;
 
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args

@@ -31,15 +31,15 @@ const CarouselContainer = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   ${mqUntil(
-    "md",
+    "sm",
     css`
-      height: 700px;
+      height: 500px;
     `
   )}
 `;

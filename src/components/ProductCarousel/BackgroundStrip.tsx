@@ -1,16 +1,17 @@
+import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
 
-export const BackgroundStrip = styled.div`
+const BackgroundOuter = styled.div`
   background-color: ${(props) => props.theme.color.secondary};
   color: ${(props) => props.theme.color.white};
   padding: 42px 90px;
   height: 440px;
   margin-bottom: 124px;
-  position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
 
   ${mqUntil(
@@ -39,3 +40,20 @@ ${mqUntil(
     `
   )}
 `;
+
+const BackgroundInner = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
+`;
+
+export const BackgroundStrip: FC<PropsWithChildren> = ({ children }) => {
+  return (
+    <BackgroundOuter>
+      <BackgroundInner>{children}</BackgroundInner>
+    </BackgroundOuter>
+  );
+};

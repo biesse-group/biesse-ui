@@ -2,20 +2,20 @@
 
 exports[`Storyshots Inputs/Select Dark Background 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
@@ -137,7 +137,6 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
           <defs>
             <path
               d="M0 0h25.722v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -159,20 +158,20 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 
 exports[`Storyshots Inputs/Select Light Background 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #F5F5F5;
 }
 
@@ -295,7 +294,6 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
           <defs>
             <path
               d="M0 0h25.722v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -317,20 +315,20 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 
 exports[`Storyshots Inputs/Select Selected 1`] = `
 .c3 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: inherit;
 }
 
 .c3 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
+  color: inherit;
 }
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
@@ -453,7 +451,6 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
           <defs>
             <path
               d="M0 0h25.722v48H0z"
-              id="a"
             />
           </defs>
           <g
