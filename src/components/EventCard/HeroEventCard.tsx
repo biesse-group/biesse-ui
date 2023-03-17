@@ -61,11 +61,13 @@ const DateSubgrid = styled.div`
 const DayStyledText = styled(Text)`
   font-size: 32px;
   line-height: 28px;
+  justify-self: end;
 `;
 
 const MonthYearStyledText = styled(Text)`
   font-size: 17px;
   line-height: 18px;
+  letter-spacing: 1px;
 `;
 
 const StartDateDay = styled(DayStyledText)`
@@ -81,7 +83,7 @@ const StartDateMonthYear = styled(MonthYearStyledText)`
 const EndDateDay = styled(DayStyledText)`
   grid-area: end-DD;
 `;
-const EndDateMonth = styled(MonthYearStyledText)`
+const EndDateMonthYear = styled(MonthYearStyledText)`
   grid-area: end-MMYY;
 `;
 
@@ -111,7 +113,7 @@ const StyledTitle = styled(Text)`
 `;
 
 const StyledIcon = styled(Icon)`
-  margin-right: 60px;
+  margin-right: 84px;
 
   ${mqUntil(
     "md",
@@ -121,17 +123,6 @@ const StyledIcon = styled(Icon)`
   )}
 `;
 
-const LinkWrapper = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  z-index: 1;
-  cursor: pointer;
-`;
-
 export const HeroEventCard: FC<EventCardProps> = ({
   className,
   testId,
@@ -139,13 +130,14 @@ export const HeroEventCard: FC<EventCardProps> = ({
   startDate,
   endDate,
   description,
-  link,
-  language,
+  renderLink,
+  descriptionMaxCharacters,
   ...props
 }) => {
+  console.log(startDate.constructor.name);
+
   return (
     <HeroEventCardRoot className={className} data-testid={testId} {...props}>
-      <LinkWrapper>{link}</LinkWrapper>
       <DateSubgrid>
         <StartDateDay color="primary" weight="bold">{`${startDate.format("DD")}`}</StartDateDay>
         <StartDateMonthYear color="dark">
@@ -153,24 +145,28 @@ export const HeroEventCard: FC<EventCardProps> = ({
           <b>{`${startDate.format("YY")}`}</b>
         </StartDateMonthYear>
         <EndDateDay color="primary" weight="bold">{`${endDate.format("DD")}`}</EndDateDay>
-        <EndDateMonth color="dark">
+        <EndDateMonthYear color="dark">
           {`${endDate.format("MMM")}`}
           <b>{`${endDate.format("YY")}`}</b>
-        </EndDateMonth>
+        </EndDateMonthYear>
       </DateSubgrid>
       {title && (
         <TitleWrapper>
           <StyledTitle color="primary" size="xl" weight="bold">
-            {title}
+            {renderLink ? renderLink(title) : title}
           </StyledTitle>
-          <StyledIcon name="chevron-right" color="primary" size="22px" />
+          <StyledIcon name="chevron-right" color="primary" size="45px" />
         </TitleWrapper>
       )}
       {description && (
         <DescriptionItem>
           {typeof description === "string" ? (
             <Text size="sm" color="light" weight="book">
-              {`${description.substring(0, 80)}${description.length > 80 && "..."}`}
+              {descriptionMaxCharacters
+                ? `${description.substring(0, descriptionMaxCharacters)}${
+                    description.length > descriptionMaxCharacters && "..."
+                  }`
+                : description}
             </Text>
           ) : (
             description

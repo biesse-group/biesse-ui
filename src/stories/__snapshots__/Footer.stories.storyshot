@@ -1,40 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Navigation/Footer Default 1`] = `
-.c8 {
+.c9 {
   display: inline-block;
   height: 20px;
   width: 20px;
   color: #FFF;
 }
 
-.c8 > svg {
+.c9 > svg {
   height: 100%;
   width: 100%;
   color: light;
 }
 
-.c17 {
+.c18 {
   display: inline-block;
   height: 18px;
   width: 18px;
   color: #FFF;
 }
 
-.c17 > svg {
+.c18 > svg {
   height: 100%;
   width: 100%;
   color: light;
 }
 
-.c23 {
+.c24 {
   display: inline-block;
   height: 28px;
   width: 28px;
   color: #FFF;
 }
 
-.c23 > svg {
+.c24 > svg {
   height: 100%;
   width: 100%;
   color: light;
@@ -203,6 +203,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   justify-content: center;
   width: 100%;
   background-color: #6D6E70;
+  padding: 40px 90px 50px 90px;
 }
 
 .c1 {
@@ -218,7 +219,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   -webkit-column-gap: 10px;
   column-gap: 10px;
   grid-template-areas: "logo . projects . services . locator" "info-box . projects . services . locator";
-  padding: 40px 90px 50px 90px;
 }
 
 .c2 {
@@ -273,11 +273,11 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   z-index: 1;
 }
 
-.c2 {
+.c3 {
   color: white;
 }
 
-.c2 svg {
+.c3 svg {
   width: 100%;
 }
 
@@ -369,6 +369,18 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
+  .c0 {
+    padding: 60px 25px 40px 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c0 {
+    padding: 60px 5px 45px 5px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c1 {
     grid-template-rows: minmax(40px,auto) 1fr auto;
     row-gap: 24px;
@@ -376,7 +388,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
     -webkit-column-gap: 0px;
     column-gap: 0px;
     grid-template-areas: "logo logo logo" "projects services locator" "info-box info-box info-box";
-    padding: 60px 25px 40px 25px;
   }
 }
 
@@ -384,7 +395,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   .c1 {
     grid-template-rows: repeat(5,auto);
     grid-template-columns: 45px 1fr;
-    padding: 60px 5px 45px 5px;
     row-gap: 45px;
     grid-template-areas: "logo logo" "locator locator" ". projects" ". services" "info-box info-box";
   }
@@ -437,28 +447,16 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   >
     <div
       className="c2"
-      color="white"
     >
-      <svg
-        fill="currentColor"
-        viewBox="0 0 300 22"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
+      <div
+        className="c3"
+        color="white"
       >
-        <title>
-          3A0A9E44-AD49-492A-86D1-A802067D00CA
-        </title>
-        <defs>
-          <path
-            d="M0 0h18.062v21.743H0z"
-          />
-          <path
-            d="M0 21.743h300V0H0z"
-          />
-        </defs>
-        <g
-          fillRule="evenodd"
-          transform="translate(0 .257)"
+        <svg
+          fill="currentColor"
+          viewBox="0 0 300 22"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
         >
           <title>
             3A0A9E44-AD49-492A-86D1-A802067D00CA
@@ -466,11 +464,9 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
           <defs>
             <path
               d="M0 0h18.062v21.743H0z"
-              id="a"
             />
             <path
               d="M0 21.743h300V0H0z"
-              id="c"
             />
           </defs>
           <g
@@ -661,7 +657,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -699,7 +694,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -737,7 +731,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -775,7 +768,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -836,7 +828,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -878,7 +869,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -920,7 +910,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -962,7 +951,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -1004,7 +992,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <defs>
                 <path
                   d="M0 0h25.722v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -1032,409 +1019,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
         </div>
       </div>
     </div>
-  </div>
-  <div
-    className="c12"
-  >
-    <div
-      className="c13"
-    >
-      <div
-        className="c14"
-      >
-        <h6
-          className="c15"
-          color="light"
-          style={
-            Object {
-              "marginBottom": "20px",
-            }
-          }
-        >
-          PROGETTI
-        </h6>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          PROGETTO UNO
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          PROGETTO DUE
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          PROGETTO TRE
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          PROGETTO QUATTRO
-        </span>
-      </div>
-    </div>
-  </div>
-  <div
-    className="c20"
-  >
-    <div
-      className="c13"
-    >
-      <div
-        className="c14"
-      >
-        <h6
-          className="c15"
-          color="light"
-          style={
-            Object {
-              "marginBottom": "20px",
-            }
-          }
-        >
-          Servizi
-        </h6>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          <a
-            href="/"
-          >
-            SERVIZIO UNO
-          </a>
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          <a
-            href="/"
-          >
-            SERVIZIO Due
-          </a>
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          <a
-            href="/"
-          >
-            SERVIZIO TRE
-          </a>
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          <a
-            href="/"
-          >
-            SERVIZIO QUATTRO
-          </a>
-        </span>
-      </div>
-      <div
-        className="c16"
-      >
-        <span
-          className="c17 c18"
-          color="light"
-          size="18px"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <path
-                d="M0 0h25.722v48H0z"
-              />
-            </defs>
-            <g
-              fill="none"
-              fillRule="evenodd"
-              transform="translate(12 1)"
-            >
-              <path
-                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                fill="currentColor"
-              />
-            </g>
-          </svg>
-        </span>
-        <span
-          className="c19"
-          color="light"
-        >
-          <a
-            href="/"
-          >
-            SERVIZIO CINQUE
-          </a>
-        </span>
-      </div>
-    </div>
-  </div>
-  <div
-    className="c21"
-  >
     <div
       className="c22"
     >
@@ -1478,313 +1062,18 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
           className="c16 c27"
           color="light"
         >
-          <title>
-            8E49A992-A598-47A6-8EF5-7013305C5F0E
-          </title>
-          <defs>
-            <path
-              d="M0 0h299v140H0z"
-            />
-            <path
-              d="M143.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M135.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M165.71 38.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M232.71 45.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M248.71 54.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M150.71 36.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M59.71 53.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <path
-              d="M81.71 90.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-            />
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-            <filter
-              filterUnits="objectBoundingBox"
-              height="181.6%"
-              width="208.8%"
-              x="-54.4%"
-              y="-30.6%"
-            >
-              <feMorphology
-                in="SourceAlpha"
-                operator="dilate"
-                radius={0.5}
-                result="shadowSpreadOuter1"
-              />
-              <feOffset
-                dy={2}
-                in="shadowSpreadOuter1"
-                result="shadowOffsetOuter1"
-              />
-              <feGaussianBlur
-                in="shadowOffsetOuter1"
-                result="shadowBlurOuter1"
-                stdDeviation={2}
-              />
-              <feComposite
-                in="shadowBlurOuter1"
-                in2="SourceAlpha"
-                operator="out"
-                result="shadowBlurOuter1"
-              />
-              <feColorMatrix
-                in="shadowBlurOuter1"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-              />
-            </filter>
-          </defs>
-          <g
-            fill="none"
-            fillRule="evenodd"
+          CONTATTI
+        </h6>
+        <div
+          className="c28"
+        >
+          <svg
+            color="#6D6E70"
+            height={140}
+            viewBox="0 0 299 140"
+            width={299}
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
             <title>
               8E49A992-A598-47A6-8EF5-7013305C5F0E
@@ -1792,44 +1081,34 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
             <defs>
               <path
                 d="M0 0h299v140H0z"
-                id="a"
               />
               <path
                 d="M143.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="d"
               />
               <path
                 d="M135.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="f"
               />
               <path
                 d="M165.71 38.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="h"
               />
               <path
                 d="M232.71 45.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="j"
               />
               <path
                 d="M248.71 54.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="l"
               />
               <path
                 d="M150.71 36.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="n"
               />
               <path
                 d="M59.71 53.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="p"
               />
               <path
                 d="M81.71 90.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-                id="r"
               />
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="c"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -1864,7 +1143,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="e"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -1899,7 +1177,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="g"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -1934,7 +1211,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="i"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -1969,7 +1245,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="k"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -2004,7 +1279,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="m"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -2039,7 +1313,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="o"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"
@@ -2074,7 +1347,6 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
               <filter
                 filterUnits="objectBoundingBox"
                 height="181.6%"
-                id="q"
                 width="208.8%"
                 x="-54.4%"
                 y="-30.6%"

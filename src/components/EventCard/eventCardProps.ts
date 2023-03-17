@@ -22,12 +22,13 @@ export interface EventCardProps {
    */
   description?: string | JSX.Element;
   /**
-   * Link component overlay on the card left side
+   * If undefined, no ellipsis will happen
    */
-  link?: JSX.Element;
+  descriptionMaxCharacters?: number;
   /**
-   * Current location language
+   * Link component overlay on the card left side.
+   * If HeroEventCard is being used, it will be applied on the title text.
    */
-  language?: Intl.LocalesArgument;
+  renderLink?: (child?: string) => JSX.Element;
   testId?: string;
 }
