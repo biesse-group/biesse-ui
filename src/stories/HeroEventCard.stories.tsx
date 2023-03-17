@@ -44,13 +44,3 @@ Translated.args = {
   startDate: dayjs(new Date(`december 17, 1995 03:24:00`)).locale("it"),
   endDate: dayjs(new Date(`march 20, 2022 03:24:00`)).locale("it"),
 };
-
-export const HoverState = Template.bind({});
-HoverState.args = {
-  ...defaultArgs,
-};
-HoverState.parameters = {
-  pseudo: {
-    hover: true,
-  },
-};

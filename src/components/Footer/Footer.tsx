@@ -43,12 +43,19 @@ export interface FooterProps {
   testId?: string;
 }
 
+const FooterRoot = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: ${(props) => props.theme.color.primary};
+`;
+
 const FooterContainer = styled.div`
   position: relative;
   width: 100%;
   height: auto;
-  background-color: ${(props) => props.theme.color.primary};
   min-height: 300px;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
 
   display: grid;
 
@@ -201,45 +208,47 @@ export const Footer: FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <FooterContainer className={className} data-testid={testId} {...props}>
-      <LogoWrapper>{logo}</LogoWrapper>
+    <FooterRoot>
+      <FooterContainer className={className} data-testid={testId} {...props}>
+        <LogoWrapper>{logo}</LogoWrapper>
 
-      {(siteInfo || contactsInfo) && (
-        <InfoWrapper>
-          {siteInfo && (
-            <SiteWrapper>
-              <ContactsInfoBox {...siteInfo} />
-            </SiteWrapper>
-          )}
-          {contactsInfo && (
-            <ContactsWrapper>
-              <ContactsInfoBox {...contactsInfo} />
-            </ContactsWrapper>
-          )}
-        </InfoWrapper>
-      )}
+        {(siteInfo || contactsInfo) && (
+          <InfoWrapper>
+            {siteInfo && (
+              <SiteWrapper>
+                <ContactsInfoBox {...siteInfo} />
+              </SiteWrapper>
+            )}
+            {contactsInfo && (
+              <ContactsWrapper>
+                <ContactsInfoBox {...contactsInfo} />
+              </ContactsWrapper>
+            )}
+          </InfoWrapper>
+        )}
 
-      {leftLinksList && (
-        <LeftLinksWrapper>
-          <LinksList {...leftLinksList} />
-        </LeftLinksWrapper>
-      )}
-      {rightLinksList && (
-        <RightLinksWrapper>
-          <LinksList {...rightLinksList} />
-        </RightLinksWrapper>
-      )}
+        {leftLinksList && (
+          <LeftLinksWrapper>
+            <LinksList {...leftLinksList} />
+          </LeftLinksWrapper>
+        )}
+        {rightLinksList && (
+          <RightLinksWrapper>
+            <LinksList {...rightLinksList} />
+          </RightLinksWrapper>
+        )}
 
-      {socialLink && (
-        <SocialLinkWrapper>
-          <SocialLink {...socialLink} />
-        </SocialLinkWrapper>
-      )}
-      {contactsLocator && (
-        <LocatorWrapper>
-          <LocatorBox {...contactsLocator} />
-        </LocatorWrapper>
-      )}
-    </FooterContainer>
+        {socialLink && (
+          <SocialLinkWrapper>
+            <SocialLink {...socialLink} />
+          </SocialLinkWrapper>
+        )}
+        {contactsLocator && (
+          <LocatorWrapper>
+            <LocatorBox {...contactsLocator} />
+          </LocatorWrapper>
+        )}
+      </FooterContainer>
+    </FooterRoot>
   );
 };

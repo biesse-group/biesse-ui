@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/HeroEventCard Default 1`] = `
-.c13 {
+.c14 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -9,12 +9,12 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #6D6E70;
 }
 
-.c13 > svg {
+.c14 > svg {
   height: 22px;
   color: primary;
 }
 
-.c2 {
+.c3 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -22,7 +22,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #6D6E70;
 }
 
-.c2 a {
+.c3 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -30,7 +30,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #6D6E70;
 }
 
-.c5 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -38,7 +38,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #252525;
 }
 
-.c5 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -46,7 +46,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #252525;
 }
 
-.c11 {
+.c12 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -54,7 +54,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #6D6E70;
 }
 
-.c11 a {
+.c12 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -62,7 +62,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #6D6E70;
 }
 
-.c16 {
+.c17 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -70,7 +70,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   color: #FFF;
 }
 
-.c16 a {
+.c17 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -91,15 +91,10 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   background-color: #FFF;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.5);
 }
 
-.c0:hover {
-  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
-}
-
-.c1 {
+.c2 {
   grid-area: date-subgrid;
   display: inline-grid;
   grid-template-rows: repeat(2,auto);
@@ -113,21 +108,21 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   text-transform: uppercase;
 }
 
-.c3 {
+.c4 {
   font-size: 32px;
   line-height: 28px;
 }
 
-.c6 {
+.c7 {
   font-size: 17px;
   line-height: 18px;
 }
 
-.c4 {
+.c5 {
   grid-area: start-DD;
 }
 
-.c7 {
+.c8 {
   grid-area: start-MMYY;
   -webkit-align-self: end;
   -ms-flex-item-align: end;
@@ -135,21 +130,21 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   margin-bottom: 5px;
 }
 
-.c8 {
+.c9 {
   grid-area: end-DD;
 }
 
-.c9 {
+.c10 {
   grid-area: end-MMYY;
 }
 
-.c15 {
+.c16 {
   grid-area: description;
   padding: 12px 36px 12px 15%;
   background-color: #6D6E70;
 }
 
-.c10 {
+.c11 {
   grid-area: title;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -169,22 +164,33 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   height: 80px;
 }
 
-.c12 {
+.c13 {
   line-height: 26px;
   text-transform: uppercase;
   padding: 12px 10px;
 }
 
-.c14 {
+.c15 {
   margin-right: 60px;
 }
 
+.c1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  cursor: pointer;
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
-  .c2 {
+  .c3 {
     font-size: 14px;
   }
 }
@@ -194,7 +200,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c2 a {
+  .c3 a {
     font-size: 14px;
   }
 }
@@ -204,7 +210,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c5 {
+  .c6 {
     font-size: 14px;
   }
 }
@@ -214,7 +220,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c5 a {
+  .c6 a {
     font-size: 14px;
   }
 }
@@ -264,7 +270,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c14 {
+  .c15 {
     margin-right: 25px;
   }
 }
@@ -275,14 +281,30 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   <div
     className="c1"
   >
+    <a
+      href="/"
+    >
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </a>
+  </div>
+  <div
+    className="c2"
+  >
     <span
-      className="c2 c3 c4"
+      className="c3 c4 c5"
       color="primary"
     >
       17
     </span>
     <span
-      className="c5 c6 c7"
+      className="c6 c7 c8"
       color="dark"
     >
       Dec
@@ -291,13 +313,13 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
       </b>
     </span>
     <span
-      className="c2 c3 c8"
+      className="c3 c4 c9"
       color="primary"
     >
       20
     </span>
     <span
-      className="c5 c6 c9"
+      className="c6 c7 c10"
       color="dark"
     >
       Mar
@@ -307,17 +329,17 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
     </span>
   </div>
   <div
-    className="c10"
+    className="c11"
   >
     <span
-      className="c11 c12"
+      className="c12 c13"
       color="primary"
       size="xl"
     >
       Titolo della fiera in arrivo
     </span>
     <span
-      className="c13 c14"
+      className="c14 c15"
       color="primary"
       size="22px"
     >
@@ -346,369 +368,10 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
     </span>
   </div>
   <div
-    className="c15"
+    className="c16"
   >
     <span
-      className="c16"
-      color="light"
-      size="sm"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor
-    </span>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Cards/HeroEventCard Hover State 1`] = `
-.c13 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  color: #6D6E70;
-}
-
-.c13 > svg {
-  height: 22px;
-  color: primary;
-}
-
-.c2 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
-}
-
-.c2 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #6D6E70;
-}
-
-.c5 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #252525;
-}
-
-.c5 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: #252525;
-}
-
-.c11 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #6D6E70;
-}
-
-.c11 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  color: #6D6E70;
-}
-
-.c16 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFF;
-}
-
-.c16 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFF;
-}
-
-.c0 {
-  position: relative;
-  width: auto;
-  max-width: 400px;
-  height: auto;
-  overflow: hidden;
-  display: inline-grid;
-  grid-template-rows: repeat(2,auto);
-  grid-template-columns: auto 1fr;
-  grid-template-areas: "date-subgrid title" "description description";
-  background-color: #FFF;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.c0:hover {
-  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
-}
-
-.c1 {
-  grid-area: date-subgrid;
-  display: inline-grid;
-  grid-template-rows: repeat(2,auto);
-  grid-template-columns: repeat(2,auto);
-  -webkit-column-gap: 4px;
-  column-gap: 4px;
-  grid-template-areas: "start-DD start-MMYY" "end-DD end-MMYY";
-  padding: 12px 8px 12px 15px;
-  height: 80px;
-  background-color: #F5F5F5;
-  text-transform: uppercase;
-}
-
-.c3 {
-  font-size: 32px;
-  line-height: 28px;
-}
-
-.c6 {
-  font-size: 17px;
-  line-height: 18px;
-}
-
-.c4 {
-  grid-area: start-DD;
-}
-
-.c7 {
-  grid-area: start-MMYY;
-  -webkit-align-self: end;
-  -ms-flex-item-align: end;
-  align-self: end;
-  margin-bottom: 5px;
-}
-
-.c8 {
-  grid-area: end-DD;
-}
-
-.c9 {
-  grid-area: end-MMYY;
-}
-
-.c15 {
-  grid-area: description;
-  padding: 12px 36px 12px 15%;
-  background-color: #6D6E70;
-}
-
-.c10 {
-  grid-area: title;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 80px;
-}
-
-.c12 {
-  line-height: 26px;
-  text-transform: uppercase;
-  padding: 12px 10px;
-}
-
-.c14 {
-  margin-right: 60px;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c2 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c2 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c5 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-  .c5 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-  .c0 {
-    max-width: 350px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c0 {
-    display: none;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c14 {
-    margin-right: 25px;
-  }
-}
-
-<div
-  className="c0"
->
-  <div
-    className="c1"
-  >
-    <span
-      className="c2 c3 c4"
-      color="primary"
-    >
-      17
-    </span>
-    <span
-      className="c5 c6 c7"
-      color="dark"
-    >
-      Dec
-      <b>
-        95
-      </b>
-    </span>
-    <span
-      className="c2 c3 c8"
-      color="primary"
-    >
-      20
-    </span>
-    <span
-      className="c5 c6 c9"
-      color="dark"
-    >
-      Mar
-      <b>
-        22
-      </b>
-    </span>
-  </div>
-  <div
-    className="c10"
-  >
-    <span
-      className="c11 c12"
-      color="primary"
-      size="xl"
-    >
-      Titolo della fiera in arrivo
-    </span>
-    <span
-      className="c13 c14"
-      color="primary"
-      size="22px"
-    >
-      <svg
-        viewBox="0 0 50 50"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        <defs>
-          <path
-            d="M0 0h25.722v48H0z"
-            id="a"
-          />
-        </defs>
-        <g
-          fill="none"
-          fillRule="evenodd"
-          transform="translate(12 1)"
-        >
-          <path
-            d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-            fill="currentColor"
-          />
-        </g>
-      </svg>
-    </span>
-  </div>
-  <div
-    className="c15"
-  >
-    <span
-      className="c16"
+      className="c17"
       color="light"
       size="sm"
     >
@@ -719,7 +382,7 @@ exports[`Storyshots Cards/HeroEventCard Hover State 1`] = `
 `;
 
 exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
-.c13 {
+.c14 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -727,12 +390,12 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #6D6E70;
 }
 
-.c13 > svg {
+.c14 > svg {
   height: 22px;
   color: primary;
 }
 
-.c2 {
+.c3 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -740,7 +403,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #6D6E70;
 }
 
-.c2 a {
+.c3 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -748,7 +411,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #6D6E70;
 }
 
-.c5 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -756,7 +419,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #252525;
 }
 
-.c5 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -764,7 +427,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #252525;
 }
 
-.c11 {
+.c12 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -772,7 +435,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #6D6E70;
 }
 
-.c11 a {
+.c12 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -780,7 +443,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #6D6E70;
 }
 
-.c16 {
+.c17 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -788,7 +451,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   color: #FFF;
 }
 
-.c16 a {
+.c17 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -809,15 +472,10 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   background-color: #FFF;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.5);
 }
 
-.c0:hover {
-  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
-}
-
-.c1 {
+.c2 {
   grid-area: date-subgrid;
   display: inline-grid;
   grid-template-rows: repeat(2,auto);
@@ -831,21 +489,21 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   text-transform: uppercase;
 }
 
-.c3 {
+.c4 {
   font-size: 32px;
   line-height: 28px;
 }
 
-.c6 {
+.c7 {
   font-size: 17px;
   line-height: 18px;
 }
 
-.c4 {
+.c5 {
   grid-area: start-DD;
 }
 
-.c7 {
+.c8 {
   grid-area: start-MMYY;
   -webkit-align-self: end;
   -ms-flex-item-align: end;
@@ -853,21 +511,21 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   margin-bottom: 5px;
 }
 
-.c8 {
+.c9 {
   grid-area: end-DD;
 }
 
-.c9 {
+.c10 {
   grid-area: end-MMYY;
 }
 
-.c15 {
+.c16 {
   grid-area: description;
   padding: 12px 36px 12px 15%;
   background-color: #6D6E70;
 }
 
-.c10 {
+.c11 {
   grid-area: title;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -887,22 +545,33 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   height: 80px;
 }
 
-.c12 {
+.c13 {
   line-height: 26px;
   text-transform: uppercase;
   padding: 12px 10px;
 }
 
-.c14 {
+.c15 {
   margin-right: 60px;
 }
 
+.c1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  cursor: pointer;
+}
+
 @media screen and (max-width:991px) {
 
 }
 
 @media screen and (max-width:767px) {
-  .c2 {
+  .c3 {
     font-size: 14px;
   }
 }
@@ -912,7 +581,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c2 a {
+  .c3 a {
     font-size: 14px;
   }
 }
@@ -922,7 +591,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c5 {
+  .c6 {
     font-size: 14px;
   }
 }
@@ -932,7 +601,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c5 a {
+  .c6 a {
     font-size: 14px;
   }
 }
@@ -982,7 +651,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c14 {
+  .c15 {
     margin-right: 25px;
   }
 }
@@ -993,14 +662,30 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   <div
     className="c1"
   >
+    <a
+      href="/"
+    >
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </a>
+  </div>
+  <div
+    className="c2"
+  >
     <span
-      className="c2 c3 c4"
+      className="c3 c4 c5"
       color="primary"
     >
       17
     </span>
     <span
-      className="c5 c6 c7"
+      className="c6 c7 c8"
       color="dark"
     >
       dic
@@ -1009,13 +694,13 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
       </b>
     </span>
     <span
-      className="c2 c3 c8"
+      className="c3 c4 c9"
       color="primary"
     >
       20
     </span>
     <span
-      className="c5 c6 c9"
+      className="c6 c7 c10"
       color="dark"
     >
       mar
@@ -1025,17 +710,17 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
     </span>
   </div>
   <div
-    className="c10"
+    className="c11"
   >
     <span
-      className="c11 c12"
+      className="c12 c13"
       color="primary"
       size="xl"
     >
       Titolo della fiera in arrivo
     </span>
     <span
-      className="c13 c14"
+      className="c14 c15"
       color="primary"
       size="22px"
     >
@@ -1064,10 +749,10 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
     </span>
   </div>
   <div
-    className="c15"
+    className="c16"
   >
     <span
-      className="c16"
+      className="c17"
       color="light"
       size="sm"
     >

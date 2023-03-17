@@ -24,11 +24,7 @@ const HeroEventCardRoot = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
 
-  transition: all 0.2s linear;
-
-  :hover {
-    box-shadow: 0 0 20px 0 ${(props) => props.theme.eventCard.boxShadow};
-  }
+  box-shadow: 0 2px 6px 0 ${(props) => props.theme.eventCard.heroBoxShadow};
 
   ${mqUntil(
     "md",
@@ -125,6 +121,17 @@ const StyledIcon = styled(Icon)`
   )}
 `;
 
+const LinkWrapper = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  cursor: pointer;
+`;
+
 export const HeroEventCard: FC<EventCardProps> = ({
   className,
   testId,
@@ -138,6 +145,7 @@ export const HeroEventCard: FC<EventCardProps> = ({
 }) => {
   return (
     <HeroEventCardRoot className={className} data-testid={testId} {...props}>
+      <LinkWrapper>{link}</LinkWrapper>
       <DateSubgrid>
         <StartDateDay color="primary" weight="bold">{`${startDate.format("DD")}`}</StartDateDay>
         <StartDateMonthYear color="dark">
