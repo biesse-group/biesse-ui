@@ -10,6 +10,9 @@ export default {
   component: Input,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["onChange", "type", "withButton"],
+    },
   },
   decorators: [
     (Story, { args }) => (

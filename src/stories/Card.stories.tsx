@@ -14,6 +14,11 @@ export default {
       </div>
     ),
   ],
+  parameters: {
+    controls: {
+      exclude: ["children", "image", "tag", "action"],
+    },
+  },
 } as ComponentMeta<typeof Card>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

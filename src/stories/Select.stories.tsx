@@ -11,6 +11,9 @@ export default {
   component: Select,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["options", "onChange"],
+    },
   },
   decorators: [
     (Story, { args }) => (

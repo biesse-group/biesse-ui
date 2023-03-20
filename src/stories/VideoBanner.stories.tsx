@@ -9,6 +9,9 @@ export default {
   component: VideoBanner,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["video"],
+    },
   },
 } as ComponentMeta<typeof VideoBanner>;
 

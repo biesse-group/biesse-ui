@@ -6,6 +6,11 @@ import { Button, HorizontalCard, Icon } from "../components";
 export default {
   title: "Cards/HorizontalCard",
   component: HorizontalCard,
+  parameters: {
+    controls: {
+      exclude: ["actions", "image"],
+    },
+  },
 } as ComponentMeta<typeof HorizontalCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

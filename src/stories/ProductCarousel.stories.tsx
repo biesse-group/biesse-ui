@@ -28,6 +28,9 @@ export default {
   component: ProductCarousel,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["items", "renderTitle", "renderImage", "renderDetail"],
+    },
   },
 } as ComponentMeta<typeof ProductCarousel>;
 

@@ -13,6 +13,11 @@ export default {
       </div>
     ),
   ],
+  parameters: {
+    controls: {
+      exclude: ["action"],
+    },
+  },
 } as ComponentMeta<typeof IconCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

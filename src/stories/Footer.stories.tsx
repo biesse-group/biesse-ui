@@ -9,9 +9,18 @@ export default {
   component: Footer,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: [
+        "logo",
+        "siteInfo",
+        "contactsInfo",
+        "contactsLocator",
+        "socialLink",
+        "leftLinksList",
+        "rightLinksList",
+      ],
+    },
   },
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {},
 } as ComponentMeta<typeof Footer>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

@@ -10,6 +10,9 @@ export default {
   component: Textarea,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["onChange"],
+    },
   },
   decorators: [
     (Story, { args }) => (

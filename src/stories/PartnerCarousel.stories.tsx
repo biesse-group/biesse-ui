@@ -9,9 +9,10 @@ export default {
   component: PartnerCarousel,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["partners"],
+    },
   },
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {},
 } as ComponentMeta<typeof PartnerCarousel>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

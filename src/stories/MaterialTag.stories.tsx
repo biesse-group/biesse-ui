@@ -7,6 +7,11 @@ import { MaterialTag } from "../components";
 export default {
   title: "Components/MaterialTag",
   component: MaterialTag,
+  parameters: {
+    controls: {
+      exclude: ["onClick", "translateLabel"],
+    },
+  },
 } as ComponentMeta<typeof MaterialTag>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

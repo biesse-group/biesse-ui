@@ -13,6 +13,9 @@ export default {
     viewport: {
       defaultViewport: "iphone12",
     },
+    controls: {
+      exclude: ["items"],
+    },
   },
   decorators: [
     (Story, { args }) => (

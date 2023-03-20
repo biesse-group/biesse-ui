@@ -6,6 +6,11 @@ import { Icon, IconProps } from "../components";
 export default {
   title: "Components/Icon",
   component: Icon,
+  parameters: {
+    controls: {
+      exclude: ["onClick"],
+    },
+  },
 } as ComponentMeta<typeof Icon>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

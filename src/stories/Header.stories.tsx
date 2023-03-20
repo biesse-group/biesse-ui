@@ -9,6 +9,9 @@ export default {
   component: Header,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["logo", "navIcons", "navLinks"],
+    },
   },
   decorators: [
     (Story) => (
@@ -17,8 +20,6 @@ export default {
       </div>
     ),
   ],
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {},
 } as ComponentMeta<typeof Header>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

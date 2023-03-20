@@ -9,6 +9,9 @@ export default {
   component: SearchBar,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["onChange"],
+    },
   },
   decorators: [
     (Story, { parameters }) => (

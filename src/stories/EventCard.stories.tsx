@@ -15,6 +15,11 @@ export default {
       </div>
     ),
   ],
+  parameters: {
+    controls: {
+      exclude: ["children", "description", "link"],
+    },
+  },
 } as ComponentMeta<typeof EventCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
@@ -28,12 +33,8 @@ const defaultArgs = {
   title: "Lore Ipsum",
   startDate: dayjs(new Date(`december 17, 1995 03:24:00`)),
   endDate: dayjs(new Date(`march 20, 2022 03:24:00`)),
-  description: (
-    <Text size="md">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-      laudantium, totam rem aperiam eaque ipsa...
-    </Text>
-  ),
+  description:
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
   children: (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <Text size="lg" color="primary" weight="bold">
