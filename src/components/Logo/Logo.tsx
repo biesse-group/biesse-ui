@@ -24,30 +24,36 @@ export interface LogoProps {
 }
 
 // Must be update each time a new logo is inserted in the library
-export type LogoName = "HSD";
+const logoMap = {
+  HSD: LogoSources.HsdLogo,
+};
 
-const LogoRoot = styled.div<Pick<LogoProps, "width">>`
+export type LogoName = keyof typeof logoMap;
+
+const LogoRoot = styled.div<Pick<LogoProps, "width" | "color">>`
   & svg {
     width: 100%;
   }
+
+  color: ${(props) => props.color};
 
   ${(props) => css`
     width: ${props.width};
   `}
 `;
 
-const renderLogoImg = (name: string, props: Omit<LogoProps, "width" | "name">) => {
-  switch (name) {
-    default:
-      return <LogoSources.HsdLogo {...props} />;
-  }
-};
-
-export const Logo: FC<LogoProps> = ({ name, width, className, testId, ...props }) => {
-  props.color = props.color || "inherit";
+export const Logo: FC<LogoProps> = ({
+  name,
+  width,
+  className,
+  testId,
+  color = "inherit",
+  ...props
+}) => {
+  const LogoComponent = logoMap[name];
   return (
-    <LogoRoot width={width} className={className} data-testid={testId}>
-      {renderLogoImg(name, props)}
+    <LogoRoot width={width} className={className} data-testid={testId} color={color}>
+      <LogoComponent {...props} />
     </LogoRoot>
   );
 };

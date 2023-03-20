@@ -71,16 +71,27 @@ const CardContainer = styled.div`
   }
 `;
 
-type CardHorizontalProps = {
+type HorizontalCardProps = {
+  /** Card title */
   title: string;
+  /** Card icon (above title) */
   icon?: IconName | JSX.Element;
+  /**
+   * Card description
+   */
   description?: string | JSX.Element;
+  /**
+   * Card actions (buttons, etc.)
+   */
   actions?: JSX.Element;
+  /**
+   * Card image (on body right)
+   */
   image?: JSX.Element;
   testId?: string;
 };
 
-export const CardHorizontal: FC<CardHorizontalProps> = ({
+export const HorizontalCard: FC<HorizontalCardProps> = ({
   icon,
   title,
   description,

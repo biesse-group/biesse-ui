@@ -1,16 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
-.c7 {
-  color: inherit;
-}
-
-.c7 > svg {
+.c9 {
+  display: inline-block;
   height: 26px;
+  width: 26px;
   color: inherit;
 }
 
-.c4 {
+.c9 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -18,7 +22,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   color: #FFF;
 }
 
-.c4 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -26,7 +30,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   color: #FFF;
 }
 
-.c3 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -35,13 +39,49 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   font-size: 45px;
 }
 
+.c8 {
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+.c8:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c7 {
+  margin-top: 42px;
+}
+
+.c7 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+.c4 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 600px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
 .c0 {
   position: relative;
   box-sizing: border-box;
   border-bottom-left-radius: 40px;
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -56,26 +96,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   align-items: center;
 }
 
-.c2 {
-  position: absolute;
-  background-color: #6D6E70;
-  border-top-right-radius: 40px;
-  z-index: 100;
-  width: 603px;
-  bottom: 0;
-  left: 0;
-  padding: 62px 45px 37px 122px;
-}
-
-.c5 {
-  margin-top: 42px;
-}
-
-.c5 > *:nth-child(2) {
-  margin-left: -1px;
-}
-
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -85,276 +106,84 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   height: 100%;
 }
 
-.c6 {
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #FFF;
-  color: #FFF;
-  cursor: pointer;
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.c6:hover {
-  background-color: #FFF;
-  color: #6D6E70;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-  .c4 {
+  .c6 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c6 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c6 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c6 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c3 {
+  .c5 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c5 {
     font-size: 30px;
   }
 }
 
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c8 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    padding: 36px 17px 36px 25px;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c4 {
+    padding: 26px 12px 26px 24px;
+    width: 245px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c0 {
+    height: 500px;
+  }
 }
 
 <div
@@ -362,27 +191,34 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 >
   <div
     className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
   >
     <div
+      className="c2"
+    />
+    <div
+      className="c3"
       style={
         Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
+          "opacity": 1,
+          "zIndex": 1,
         }
       }
-    />
+    >
+      <div
+        style={
+          Object {
+            "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+            "backgroundPosition": "center center",
+            "backgroundSize": "cover",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    className="c2"
+    className="c4"
   >
     <div
       style={
@@ -393,10 +229,10 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       }
     >
       <h2
-        className="c3"
+        className="c5"
         color="light"
       >
-        Etiam sit amet orci eget
+        Focus sulla brand awareness
       </h2>
     </div>
     <div
@@ -408,24 +244,25 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c6"
         color="light"
         size="lg"
       >
-        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </span>
     </div>
     <div
-      className="c5"
+      className="c7"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c8"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
+          color="inherit"
           size="26px"
         >
           <svg
@@ -436,7 +273,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
             <defs>
               <path
                 d="M0 0h38.216v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -461,12 +297,13 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c8"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
+          color="inherit"
           size="26px"
         >
           <svg
@@ -477,7 +314,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
             <defs>
               <path
                 d="M0 0h38.216v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -506,16 +342,20 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
-.c7 {
-  color: inherit;
-}
-
-.c7 > svg {
+.c9 {
+  display: inline-block;
   height: 26px;
+  width: 26px;
   color: inherit;
 }
 
-.c4 {
+.c9 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -523,7 +363,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c4 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -531,7 +371,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   color: #FFF;
 }
 
-.c3 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -540,13 +380,49 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   font-size: 45px;
 }
 
+.c8 {
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+.c8:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c7 {
+  margin-top: 42px;
+}
+
+.c7 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+.c4 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 600px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
 .c0 {
   position: relative;
   box-sizing: border-box;
   border-bottom-left-radius: 40px;
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -561,26 +437,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   align-items: center;
 }
 
-.c2 {
-  position: absolute;
-  background-color: #6D6E70;
-  border-top-right-radius: 40px;
-  z-index: 100;
-  width: 603px;
-  bottom: 0;
-  left: 0;
-  padding: 62px 45px 37px 122px;
-}
-
-.c5 {
-  margin-top: 42px;
-}
-
-.c5 > *:nth-child(2) {
-  margin-left: -1px;
-}
-
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -590,276 +447,84 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   height: 100%;
 }
 
-.c6 {
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #FFF;
-  color: #FFF;
-  cursor: pointer;
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.c6:hover {
-  background-color: #FFF;
-  color: #6D6E70;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-  .c4 {
+  .c6 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c6 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c6 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c6 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c3 {
+  .c5 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c5 {
     font-size: 30px;
   }
 }
 
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c8 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    padding: 36px 17px 36px 25px;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c4 {
+    padding: 26px 12px 26px 24px;
+    width: 245px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c0 {
+    height: 500px;
+  }
 }
 
 <div
@@ -867,27 +532,34 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 >
   <div
     className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
   >
     <div
+      className="c2"
+    />
+    <div
+      className="c3"
       style={
         Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
+          "opacity": 1,
+          "zIndex": 1,
         }
       }
-    />
+    >
+      <div
+        style={
+          Object {
+            "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+            "backgroundPosition": "center center",
+            "backgroundSize": "cover",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    className="c2"
+    className="c4"
   >
     <div
       style={
@@ -898,10 +570,10 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       }
     >
       <h2
-        className="c3"
+        className="c5"
         color="light"
       >
-        Etiam sit amet orci eget
+        Focus sulla brand awareness
       </h2>
     </div>
     <div
@@ -913,24 +585,25 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c6"
         color="light"
         size="lg"
       >
-        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </span>
     </div>
     <div
-      className="c5"
+      className="c7"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c8"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
+          color="inherit"
           size="26px"
         >
           <svg
@@ -941,7 +614,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
             <defs>
               <path
                 d="M0 0h38.216v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -966,12 +638,13 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c8"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
+          color="inherit"
           size="26px"
         >
           <svg
@@ -982,7 +655,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
             <defs>
               <path
                 d="M0 0h38.216v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -1011,16 +683,20 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 `;
 
 exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
-.c7 {
-  color: inherit;
-}
-
-.c7 > svg {
+.c9 {
+  display: inline-block;
   height: 26px;
+  width: 26px;
   color: inherit;
 }
 
-.c4 {
+.c9 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -1028,7 +704,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   color: #FFF;
 }
 
-.c4 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -1036,7 +712,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   color: #FFF;
 }
 
-.c3 {
+.c5 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -1045,13 +721,49 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   font-size: 45px;
 }
 
+.c8 {
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+.c8:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c7 {
+  margin-top: 42px;
+}
+
+.c7 > *:nth-child(2) {
+  margin-left: -1px;
+}
+
+.c4 {
+  position: absolute;
+  background-color: #6D6E70;
+  border-top-right-radius: 40px;
+  z-index: 100;
+  width: 600px;
+  bottom: 0;
+  left: 0;
+  padding: 62px 45px 37px 122px;
+}
+
 .c0 {
   position: relative;
   box-sizing: border-box;
   border-bottom-left-radius: 40px;
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1066,26 +778,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   align-items: center;
 }
 
-.c2 {
-  position: absolute;
-  background-color: #6D6E70;
-  border-top-right-radius: 40px;
-  z-index: 100;
-  width: 603px;
-  bottom: 0;
-  left: 0;
-  padding: 62px 45px 37px 122px;
-}
-
-.c5 {
-  margin-top: 42px;
-}
-
-.c5 > *:nth-child(2) {
-  margin-left: -1px;
-}
-
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1095,276 +788,84 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   height: 100%;
 }
 
-.c6 {
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #FFF;
-  color: #FFF;
-  cursor: pointer;
+.c2 {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-.c6:hover {
-  background-color: #FFF;
-  color: #6D6E70;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-  .c4 {
+  .c6 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 {
+  .c6 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c4 a {
+  .c6 a {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c6 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c3 {
+  .c5 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c5 {
     font-size: 30px;
   }
 }
 
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c8 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    padding: 36px 17px 36px 25px;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c4 {
+    padding: 26px 12px 26px 24px;
+    width: 245px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c0 {
+    height: 500px;
+  }
 }
 
 <div
@@ -1372,27 +873,34 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 >
   <div
     className="c1"
-    style={
-      Object {
-        "opacity": 1,
-        "zIndex": 1,
-      }
-    }
   >
     <div
+      className="c2"
+    />
+    <div
+      className="c3"
       style={
         Object {
-          "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
-          "backgroundPosition": "center center",
-          "backgroundSize": "cover",
-          "height": "100%",
-          "width": "100%",
+          "opacity": 1,
+          "zIndex": 1,
         }
       }
-    />
+    >
+      <div
+        style={
+          Object {
+            "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
+            "backgroundPosition": "center center",
+            "backgroundSize": "cover",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
   </div>
   <div
-    className="c2"
+    className="c4"
   >
     <div
       style={
@@ -1403,10 +911,10 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       }
     >
       <h2
-        className="c3"
+        className="c5"
         color="light"
       >
-        Etiam sit amet orci eget
+        Focus sulla brand awareness
       </h2>
     </div>
     <div
@@ -1418,24 +926,25 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       }
     >
       <span
-        className="c4"
+        className="c6"
         color="light"
         size="lg"
       >
-        Phasellus ullamcorper ipsum rutrum nunc. Sed cursus turpis vitae tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </span>
     </div>
     <div
-      className="c5"
+      className="c7"
     >
       <button
         aria-label="Prev"
-        className="c6"
+        className="c8"
         data-testid="prev"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
+          color="inherit"
           size="26px"
         >
           <svg
@@ -1446,7 +955,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
             <defs>
               <path
                 d="M0 0h38.216v48H0z"
-                id="a"
               />
             </defs>
             <g
@@ -1471,12 +979,13 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       </button>
       <button
         aria-label="Next"
-        className="c6"
+        className="c8"
         data-testid="next"
         onClick={[Function]}
       >
         <span
-          className="c7"
+          className="c9"
+          color="inherit"
           size="26px"
         >
           <svg
@@ -1487,7 +996,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
             <defs>
               <path
                 d="M0 0h38.216v48H0z"
-                id="a"
               />
             </defs>
             <g

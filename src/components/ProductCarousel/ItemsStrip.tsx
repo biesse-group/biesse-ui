@@ -1,20 +1,22 @@
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
+import { mqFrom, mqUntil } from "../../styles";
 
-export const ItemsStrip = styled.div`
+export const ItemsStrip = styled.div<{ isMobile?: boolean }>`
   align-items: center;
   flex: 1 1 auto;
   position: absolute;
-  left: 110px;
-  right: 110px;
+  left: 0;
+  right: 0;
   bottom: 0;
-  top: 100px;
+  top: 40px;
 
   ${mqUntil(
     "xl",
     css`
-      top: 90px;
+      display: flex;
+      justify-content: center;
+      top: 20px;
     `
   )}
 
@@ -23,7 +25,15 @@ export const ItemsStrip = styled.div`
     css`
       display: flex;
       justify-content: center;
-      top: 200px;
+      top: 170px;
     `
   )}
+
+  ${(props) =>
+    (props.isMobile ? mqFrom : mqUntil)(
+      "md",
+      css`
+        display: none;
+      `
+    )}
 `;

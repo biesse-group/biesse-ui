@@ -5,10 +5,25 @@ import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
 
 export type TextProps = {
+  /**
+   * Font size, should be one of `xl`, `lg`, `md`, `sm`, `xs`
+   */
   size?: keyof BiesseTheme["font"]["regular"]["body"];
+  /**
+   * Font size, should be one of `book`, `regular`, `medium`, `bold`
+   */
   weight?: keyof BiesseTheme["font"]["weight"];
-  color?: "default" | "primary" | "light" | "dark";
+  /**
+   * Font size, should be one of `default` (inherit), `primary`, `light`, `dark`, 'gray'
+   */
+  color?: "default" | "primary" | "light" | "dark" | "gray";
+  /**
+   * Text tag (`span` inline or `p` paragraph)
+   */
   tag?: "span" | "p";
+  /**
+   * Additional CSS style
+   */
   style?: CSSProperties;
 };
 
@@ -21,6 +36,8 @@ const getColor = (color?: TextProps["color"]) => css`
         return props.theme.color.primary;
       case "dark":
         return props.theme.color.black;
+      case "gray":
+        return props.theme.color.gray;
       default:
         return "inherit";
     }

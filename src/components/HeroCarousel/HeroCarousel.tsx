@@ -1,8 +1,12 @@
-import { AnimatePresence, motion, Variants, wrap } from "framer-motion";
+import { AnimatePresence, motion, wrap } from "framer-motion";
 import { FC, useCallback, useEffect, useState } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-import { IconButton, Text, Title } from ".";
+import { Text, Title } from "..";
+import { mqUntil } from "../../styles";
+import CarouselControls from "./CarouselControls";
+import { TextContainer } from "./TextContainer";
+import { titleVariants } from "./variants";
 
 export interface HeroCarouselSlide {
   renderImage: () => JSX.Element;
@@ -26,30 +30,18 @@ const CarouselContainer = styled.div`
   box-sizing: border-box;
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   overflow: hidden;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-`;
 
-const TextContainer = styled.div`
-  position: absolute;
-  background-color: ${(props) => props.theme.color.primary};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-  z-index: 100;
-  width: 603px;
-  bottom: 0;
-  left: 0;
-  padding: 62px 45px 37px 122px;
-`;
-
-const CarouselControls = styled.div`
-  margin-top: 42px;
-
-  > *:nth-child(2) {
-    margin-left: -1px;
-  }
+  ${mqUntil(
+    "sm",
+    css`
+      height: 500px;
+    `
+  )}
 `;
 
 const StyledSlide = styled(motion.div)`
@@ -59,29 +51,19 @@ const StyledSlide = styled(motion.div)`
   height: 100%;
 `;
 
-const titleVariants: Variants = {
-  enter: {
-    x: -100,
-    opacity: 0,
-  },
-  center: (delayed?: boolean) => ({
-    x: 0,
-    zIndex: 1,
-    opacity: 1,
-    transition: {
-      opacity: { duration: 0.4, ease: "easeOut" },
-      x: { type: "spring", stiffness: 70, bounce: 0, damping: 16 },
-      delay: delayed ? 0.35 : 0,
-    },
-  }),
-  exit: {
-    opacity: 0,
-    position: "absolute",
-    transition: {
-      duration: 0,
-    },
-  },
-};
+const Mask = styled.div`
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+`;
+
+const ImageContainer = styled.div`
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+`;
 
 export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -117,17 +99,20 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
 
   return (
     <CarouselContainer>
-      <AnimatePresence initial={false}>
-        <StyledSlide
-          key={`slide-${activeSlide}`}
-          initial={{ opacity: 0 }}
-          animate={{ zIndex: 1, opacity: 1 }}
-          exit={{ zIndex: 0, opacity: 0 }}
-          transition={{ opacity: { duration: 1 } }}
-        >
-          {renderImage()}
-        </StyledSlide>
-      </AnimatePresence>
+      <ImageContainer>
+        <Mask />
+        <AnimatePresence initial={false}>
+          <StyledSlide
+            key={`slide-${activeSlide}`}
+            initial={{ opacity: 0 }}
+            animate={{ zIndex: 1, opacity: 1 }}
+            exit={{ zIndex: 0, opacity: 0 }}
+            transition={{ opacity: { duration: 1 } }}
+          >
+            {renderImage()}
+          </StyledSlide>
+        </AnimatePresence>
+      </ImageContainer>
 
       <TextContainer>
         <motion.div
@@ -157,22 +142,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
             description
           )}
         </motion.div>
-        <CarouselControls>
-          <IconButton
-            variant="primary-inverted"
-            icon="arrow-left"
-            aria-label="Prev"
-            onClick={() => handleSlide("prev")}
-            testId="prev"
-          />
-          <IconButton
-            variant="primary-inverted"
-            icon="arrow-right"
-            aria-label="Next"
-            onClick={() => handleSlide("next")}
-            testId="next"
-          />
-        </CarouselControls>
+        <CarouselControls onPrev={() => handleSlide("prev")} onNext={() => handleSlide("next")} />
       </TextContainer>
     </CarouselContainer>
   );

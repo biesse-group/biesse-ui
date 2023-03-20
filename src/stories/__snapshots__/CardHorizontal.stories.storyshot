@@ -2,11 +2,15 @@
 
 exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 .c4 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   color: #6D6E70;
 }
 
 .c4 > svg {
-  height: 50px;
+  height: 100%;
+  width: 100%;
   color: #6D6E70;
 }
 
@@ -32,6 +36,7 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -158,53 +163,9 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
   .c5 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 <div
@@ -238,7 +199,6 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
               <defs>
                 <path
                   d="M0 0h26.586v48H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -289,11 +249,15 @@ exports[`Storyshots Cards/CardHorizontal Default 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 .c4 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   color: #6D6E70;
 }
 
 .c4 > svg {
-  height: 50px;
+  height: 100%;
+  width: 100%;
   color: #6D6E70;
 }
 
@@ -319,6 +283,7 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -469,53 +434,9 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
   .c5 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {
@@ -555,7 +476,6 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
               <defs>
                 <path
                   d="M0 0h22.528v46.582H0z"
-                  id="a"
                 />
               </defs>
               <g
@@ -625,11 +545,15 @@ exports[`Storyshots Cards/CardHorizontal Hover State 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 .c4 {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
   color: inherit;
 }
 
 .c4 > svg {
-  height: 80px;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
@@ -655,6 +579,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -781,57 +706,9 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
   .c5 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 <div
@@ -855,6 +732,7 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
         >
           <span
             className="c4"
+            color="inherit"
             size="lg"
           >
             <svg
@@ -903,11 +781,15 @@ exports[`Storyshots Cards/CardHorizontal With Custom Icon 1`] = `
 
 exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 .c4 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
   color: #6D6E70;
 }
 
 .c4 > svg {
-  height: 50px;
+  height: 100%;
+  width: 100%;
   color: #6D6E70;
 }
 
@@ -933,6 +815,7 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -1083,53 +966,9 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
   .c5 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:767px) {
@@ -1169,7 +1008,6 @@ exports[`Storyshots Cards/CardHorizontal With Image 1`] = `
               <defs>
                 <path
                   d="M0 0h22.528v46.582H0z"
-                  id="a"
                 />
               </defs>
               <g

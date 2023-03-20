@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
+import { mqUntil } from "../../styles";
 import { ItemProps } from "./itemProps";
 
 export const ItemImage = styled(motion.div)<ItemProps>`
@@ -27,6 +27,7 @@ export const ItemImage = styled(motion.div)<ItemProps>`
     css`
       width: 450px;
       height: 450px;
+      top: -60%;
     `
   )}
 
@@ -35,6 +36,7 @@ ${mqUntil(
     css`
       width: 280px;
       height: 280px;
+      top: unset;
     `
   )}
 `;

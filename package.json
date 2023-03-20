@@ -1,7 +1,7 @@
 {
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,8 +14,6 @@
     "@types/styled-components": "^5.1.26",
     "dayjs": "^1.11.7",
     "framer-motion": "^9.0.4",
-    "jest-styled-components": "^7.1.1",
-    "popmotion": "^11.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -40,12 +38,14 @@
     "test-storyshots": "react-scripts test storybook.test.ts",
     "test-storyshots-ci": "npm run test-storyshots -- --watchAll false",
     "test-storybook": "test-storybook",
-    "build-storybook": "rm -rf storybook-static && build-storybook",
+    "build-storybook": "rimraf storybook-static && build-storybook",
+    "test-storybook:ci-old": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"npm run build-storybook --quiet && npx http-server storybook-static --port 6006 --silent\" \"wait-on tcp:6006 && npm run test-storybook\"",
+    "test-storybook:ci": "concurrently -k -s first -n \"SB,TEST\" -c \"magenta,blue\" \"npx http-server storybook-static --port 6006 --silent\" \"wait-on http://localhost:6006 && npm run test-storybook\"",
     "predeploy": "npm run build-storybook",
     "deploy": "gh-pages -d storybook-static",
     "prepare": "husky install",
     "prepublishOnly": "npm run build",
-    "local-package": "rm -rf *.tgz && npm run build && npm pack"
+    "local-package": "rimraf *.tgz && npm run build && npm pack"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -82,15 +82,20 @@
     "@storybook/testing-library": "^0.0.13",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "concurrently": "^7.6.0",
     "copyfiles": "^2.4.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
+    "jest-image-snapshot": "^6.1.0",
+    "jest-specific-snapshot": "^8.0.0",
+    "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
     "prop-types": "^15.8.1",
     "rimraf": "^4.1.2",
     "storybook-addon-pseudo-states": "^1.15.2",
+    "wait-on": "^7.0.1",
     "webpack": "^5.75.0"
   }
 }

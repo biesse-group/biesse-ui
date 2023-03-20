@@ -17,44 +17,60 @@ export interface FooterProps {
    */
   logo?: JSX.Element;
   /**
-   * Link list on the central body
-   * first to the left
+   * Link list on the central body, first from the left
    */
   leftLinksList?: LinksListProps;
   /**
-   * Link list on the central body
-   * second to the left
+   * Link list on the central body, second from the left
    */
   rightLinksList?: LinksListProps;
   /**
-   * Element on the right, should contain contacts map,
-   * default version is Biesse static one
+   * Element on the right, should contain contacts map, default version is HSD static one
    */
   contactsLocator?: LocatorBoxProps;
   /**
-   * First info box, containing site data
-   * Placed on the bottom of the footer
+   * First info box, containing site data, placed on the bottom of the footer
    */
   siteInfo?: InfoBoxProps;
   /**
-   * Second info box, containing site data
-   * Placed on the bottom of the footer
+   * Second info box, containing site data, placed on the bottom of the footer
    */
   contactsInfo?: InfoBoxProps;
   /**
-   * Social Link
-   * located top right only in desktop view
+   * Social Link, located on top right corner (desktop view)
    */
   socialLink?: SocialLinkProps;
   testId?: string;
 }
 
+const FooterRoot = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: ${(props) => props.theme.color.primary};
+
+  padding: 40px 90px 50px 90px;
+  ${mqUntil(
+    "md",
+    css`
+      padding: 60px 25px 40px 25px;
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      padding: 60px 5px 45px 5px;
+    `
+  )}
+`;
+
 const FooterContainer = styled.div`
   position: relative;
   width: 100%;
   height: auto;
-  background-color: ${(props) => props.theme.color.primary};
   min-height: 300px;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
 
   display: grid;
 
@@ -66,8 +82,6 @@ const FooterContainer = styled.div`
   grid-template-areas:
     "logo . projects . services . locator"
     "info-box . projects . services . locator";
-
-  padding: 40px 90px 50px 90px;
 
   ${mqUntil(
     "md",
@@ -81,8 +95,6 @@ const FooterContainer = styled.div`
         "logo logo logo"
         "projects services locator"
         "info-box info-box info-box";
-
-      padding: 60px 25px 40px 25px;
     `
   )}
 
@@ -91,7 +103,6 @@ const FooterContainer = styled.div`
     css`
       grid-template-rows: repeat(5, auto);
       grid-template-columns: 45px 1fr;
-      padding: 60px 5px 45px 5px;
       row-gap: 45px;
 
       grid-template-areas:
@@ -207,45 +218,47 @@ export const Footer: FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <FooterContainer className={className} data-testid={testId} {...props}>
-      <LogoWrapper>{logo}</LogoWrapper>
+    <FooterRoot className={className} data-testid={testId} {...props}>
+      <FooterContainer>
+        <LogoWrapper>{logo}</LogoWrapper>
 
-      {(siteInfo || contactsInfo) && (
-        <InfoWrapper>
-          {siteInfo && (
-            <SiteWrapper>
-              <ContactsInfoBox {...siteInfo} />
-            </SiteWrapper>
-          )}
-          {contactsInfo && (
-            <ContactsWrapper>
-              <ContactsInfoBox {...contactsInfo} />
-            </ContactsWrapper>
-          )}
-        </InfoWrapper>
-      )}
+        {(siteInfo || contactsInfo) && (
+          <InfoWrapper>
+            {siteInfo && (
+              <SiteWrapper>
+                <ContactsInfoBox {...siteInfo} />
+              </SiteWrapper>
+            )}
+            {contactsInfo && (
+              <ContactsWrapper>
+                <ContactsInfoBox {...contactsInfo} />
+              </ContactsWrapper>
+            )}
+          </InfoWrapper>
+        )}
 
-      {leftLinksList && (
-        <LeftLinksWrapper>
-          <LinksList {...leftLinksList} />
-        </LeftLinksWrapper>
-      )}
-      {rightLinksList && (
-        <RightLinksWrapper>
-          <LinksList {...rightLinksList} />
-        </RightLinksWrapper>
-      )}
+        {leftLinksList && (
+          <LeftLinksWrapper>
+            <LinksList {...leftLinksList} />
+          </LeftLinksWrapper>
+        )}
+        {rightLinksList && (
+          <RightLinksWrapper>
+            <LinksList {...rightLinksList} />
+          </RightLinksWrapper>
+        )}
 
-      {socialLink && (
-        <SocialLinkWrapper>
-          <SocialLink {...socialLink} />
-        </SocialLinkWrapper>
-      )}
-      {contactsLocator && (
-        <LocatorWrapper>
-          <LocatorBox {...contactsLocator} />
-        </LocatorWrapper>
-      )}
-    </FooterContainer>
+        {socialLink && (
+          <SocialLinkWrapper>
+            <SocialLink {...socialLink} />
+          </SocialLinkWrapper>
+        )}
+        {contactsLocator && (
+          <LocatorWrapper>
+            <LocatorBox {...contactsLocator} />
+          </LocatorWrapper>
+        )}
+      </FooterContainer>
+    </FooterRoot>
   );
 };

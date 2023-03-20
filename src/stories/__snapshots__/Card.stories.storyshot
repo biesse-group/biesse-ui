@@ -148,7 +148,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -222,6 +222,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -382,7 +383,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -438,6 +439,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
         <button
           className="c9"
           data-testid="action-button"
+          type="button"
         >
           Action
         </button>
@@ -448,22 +450,6 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 `;
 
 exports[`Storyshots Cards/Card With Pre Title 1`] = `
-.c10 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
-.c10 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
 .c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -477,6 +463,22 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
+  color: inherit;
+}
+
+.c10 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c10 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
   color: inherit;
 }
 
@@ -544,7 +546,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 
 .c7 {
   font-style: italic;
-  font-weight: bold;
   margin-top: 33px;
 }
 
@@ -583,6 +584,22 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
   .c10 {
     font-size: 14px;
   }
@@ -596,22 +613,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   .c10 a {
     font-size: 14px;
   }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -633,7 +634,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -692,11 +693,15 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 
 exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 .c3 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
   color: #FFF;
 }
 
 .c3 > svg {
-  height: 20px;
+  height: 100%;
+  width: 100%;
   color: #FFF;
 }
 
@@ -722,6 +727,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -732,6 +738,22 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 
 .c14:hover {
   background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c4 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
   color: #FFF;
 }
 
@@ -749,22 +771,6 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
-}
-
-.c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFF;
-}
-
-.c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFF;
 }
 
 .c11 {
@@ -903,6 +909,22 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
   .c13 {
     font-size: 14px;
   }
@@ -916,38 +938,6 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   .c13 a {
     font-size: 14px;
   }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -969,7 +959,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 <div
   style={
     Object {
-      "maxWidth": 300,
+      "maxWidth": 500,
     }
   }
 >
@@ -1056,6 +1046,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
         <button
           className="c14"
           data-testid="action-button"
+          type="button"
         >
           Action
         </button>

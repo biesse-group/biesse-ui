@@ -1,19 +1,17 @@
-import { AnimatePresence, HTMLMotionProps, motion, wrap } from "framer-motion";
-import { useMemo } from "react";
-import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
 import styled, { css } from "styled-components";
 
-import { useBreakpoints } from "../../hooks";
 import { mqUntil } from "../../styles/media-queries";
 import { getKeys } from "../../utils/getKeys";
 import { Title } from "../Title";
 import { BackgroundStrip } from "./BackgroundStrip";
 import { ControlButton } from "./ControlButton";
+import { ItemDetail } from "./ItemDetail";
 import { ItemImage } from "./ItemImage";
-import { ItemPosition, ItemProps } from "./itemProps";
 import { ItemsStrip } from "./ItemsStrip";
 import { ItemTitle } from "./ItemTitle";
-import { detailVariants, imageVariants, mobileVariants, titleVariants } from "./variants";
+import { useProductCarousel } from "./useProductCarousel";
+import { imageVariants, mobileVariants, titleVariants } from "./variants";
 
 const CarouselTitle = styled(Title)`
   font-size: ${(props) => props.theme.font.regular.headings.xxl};
@@ -33,25 +31,36 @@ const ItemDetailWrapper = styled.div`
   justify-content: center;
 `;
 
-const ItemDetail = styled(motion.div)`
-  width: 100%;
-  max-width: 600px;
-  position: absolute;
-
-  ${mqUntil(
-    "sm",
-    css`
-      padding: 0 30px;
-    `
-  )}
-`;
-
 export type ProductCarouselProps<T extends object> = {
+  /**
+   * Strip title
+   */
   title: string;
+  /**
+   * List of items to show, generic type
+   */
   items: T[];
+  /**
+   * Height in pixel of item description content
+   */
   contentHeight?: number;
+  /**
+   * Render item title
+   * @param item the nth item
+   * @returns the item title
+   */
   renderTitle: (item: T) => string;
+  /**
+   * Render item image
+   * @param item the nth item
+   * @returns a JSX element representing the item image
+   */
   renderImage: (item: T) => JSX.Element;
+  /**
+   * Render item detail
+   * @param item the nth item
+   * @returns a JSX element representing the item detail
+   */
   renderDetail: (item: T) => JSX.Element;
 };
 
@@ -63,54 +72,8 @@ export const ProductCarousel = <T extends object>({
   renderDetail,
   renderImage,
 }: ProductCarouselProps<T>) => {
-  const adaptedItems = useMemo(() => [...items, ...items, ...items], [items]);
-  const [[page, direction], setPage] = useState([items.length, 0]);
-  const [locks, setLocks] = useState(0);
-  const { md: mdBreakpoint } = useBreakpoints();
-
-  const currIndex = wrap(0, adaptedItems.length, page);
-  const prevIndex = wrap(0, adaptedItems.length, page - 1);
-  const nextIndex = wrap(0, adaptedItems.length, page + 1);
-
-  const shownIndex = {
-    left: prevIndex,
-    center: currIndex,
-    right: nextIndex,
-  };
-
-  const handleChange = (newDirection: number) => {
-    if (!locks) {
-      setPage([page + newDirection, newDirection]);
-    }
-  };
-
-  const lock = () => {
-    setLocks(locks + 1);
-  };
-
-  const unlock = () => {
-    if (locks > 0) {
-      setLocks(locks - 1);
-    }
-  };
-
-  const getItemMotionProps = (
-    pos: ItemPosition
-  ): HTMLMotionProps<"div"> & ItemProps & { key: React.Key } => ({
-    position: pos,
-    key: mdBreakpoint ? shownIndex[pos] : `mobile-${currIndex}`,
-    initial: "initial",
-    animate: "animate",
-    exit: "exit",
-    custom: direction,
-    transition: {
-      type: "tween",
-      ease: [0.14, 0.25, 0.07, 1.01],
-      duration: 1,
-    },
-    onAnimationStart: lock,
-    onAnimationComplete: unlock,
-  });
+  const { direction, page, nextPage, prevPage, getItemMotionProps, shownItems } =
+    useProductCarousel(items);
 
   return (
     <div style={{ position: "relative", height: 500 + contentHeight }}>
@@ -118,50 +81,50 @@ export const ProductCarousel = <T extends object>({
         <CarouselTitle variant="H2" color="light">
           {title}
         </CarouselTitle>
+
+        {/* Desktop carousel */}
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
-            {mdBreakpoint ? (
-              getKeys(shownIndex).map((pos) => (
-                <ItemTitle variants={titleVariants[pos]} {...getItemMotionProps(pos)}>
-                  {renderTitle(adaptedItems[shownIndex[pos]])}
-                </ItemTitle>
-              ))
-            ) : (
-              <ItemTitle variants={mobileVariants} {...getItemMotionProps("center")}>
-                {renderTitle(adaptedItems[currIndex])}
+            {getKeys(shownItems).map((pos) => (
+              <ItemTitle variants={titleVariants[pos]} {...getItemMotionProps(pos)}>
+                {renderTitle(shownItems[pos])}
               </ItemTitle>
-            )}
+            ))}
           </AnimatePresence>
         </ItemsStrip>
         <ItemsStrip>
           <AnimatePresence initial={false} custom={direction}>
-            {mdBreakpoint ? (
-              getKeys(shownIndex).map((pos) => (
-                <ItemImage variants={imageVariants[pos]} {...getItemMotionProps(pos)}>
-                  {renderImage(adaptedItems[shownIndex[pos]])}
-                </ItemImage>
-              ))
-            ) : (
-              <ItemImage variants={mobileVariants} {...getItemMotionProps("center")}>
-                {renderImage(adaptedItems[currIndex])}
+            {getKeys(shownItems).map((pos) => (
+              <ItemImage variants={imageVariants[pos]} {...getItemMotionProps(pos)}>
+                {renderImage(shownItems[pos])}
               </ItemImage>
-            )}
+            ))}
           </AnimatePresence>
         </ItemsStrip>
-        <ControlButton direction="prev" onClick={() => handleChange(-1)} />
-        <ControlButton direction="next" onClick={() => handleChange(1)} />
+
+        {/* Mobile carousel */}
+        <ItemsStrip isMobile>
+          <AnimatePresence initial={false} custom={direction}>
+            <ItemTitle variants={mobileVariants} {...getItemMotionProps("center")}>
+              {renderTitle(shownItems["center"])}
+            </ItemTitle>
+          </AnimatePresence>
+        </ItemsStrip>
+        <ItemsStrip isMobile>
+          <AnimatePresence initial={false} custom={direction}>
+            <ItemImage variants={mobileVariants} {...getItemMotionProps("center")}>
+              {renderImage(shownItems["center"])}
+            </ItemImage>
+          </AnimatePresence>
+        </ItemsStrip>
+
+        {/* Control buttons */}
+        <ControlButton direction="prev" onClick={nextPage} />
+        <ControlButton direction="next" onClick={prevPage} />
       </BackgroundStrip>
       <ItemDetailWrapper>
         <AnimatePresence initial={false}>
-          <ItemDetail
-            variants={detailVariants}
-            initial="enter"
-            animate="center"
-            exit="exit"
-            key={page}
-          >
-            {renderDetail(adaptedItems[currIndex])}
-          </ItemDetail>
+          <ItemDetail uniqueId={page}>{renderDetail(shownItems["center"])}</ItemDetail>
         </AnimatePresence>
       </ItemDetailWrapper>
     </div>

@@ -17,18 +17,19 @@ const StyledIconButton = styled<ComponentType<IconButtonProps & Pick<Props, "dir
   ${(props) => {
     const side = props.direction === "prev" ? "left" : "right";
     return css`
-      ${side}: 40px;
+      ${side}: -50px;
 
       ${mqUntil(
         "md",
         css`
-          ${side}: 25px;
+          ${side}: 0;
+          bottom: -10px;
         `
       )}
       ${mqUntil(
         "sm",
         css`
-          ${side}: 10px;
+          ${side}: -10px;
         `
       )}
     `;

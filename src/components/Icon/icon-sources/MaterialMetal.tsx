@@ -9,7 +9,7 @@ export const MaterialMetal = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h48v42.445H0z" />
+      <path d="M0 0h48v42.445H0z" />
     </defs>
     <g transform="translate(1 4)" fill="none" fillRule="evenodd">
       <path

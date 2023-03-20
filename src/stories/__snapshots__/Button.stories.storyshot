@@ -23,6 +23,7 @@ exports[`Storyshots Buttons/Button Block 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -39,6 +40,7 @@ exports[`Storyshots Buttons/Button Block 1`] = `
 
 <button
   className="c0"
+  type="button"
 >
   Block
 </button>
@@ -67,6 +69,7 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -82,6 +85,7 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
 
 <button
   className="c0"
+  type="button"
 >
   Outline
 </button>
@@ -110,6 +114,7 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -126,6 +131,7 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
 <button
   className="c0"
   data-testid="primary-button"
+  type="button"
 >
   Primary
 </button>
@@ -154,6 +160,7 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -169,7 +176,6 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
@@ -185,6 +191,7 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   >
     <button
       className="c1"
+      type="button"
     >
       Primary inverted
     </button>
@@ -215,6 +222,7 @@ exports[`Storyshots Buttons/Button Small 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -231,6 +239,7 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 <button
   className="c0"
   size="small"
+  type="button"
 >
   Small
 </button>
@@ -238,11 +247,15 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 
 exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 .c1 {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c1 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
@@ -273,6 +286,7 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-transform: uppercase;
+  outline: none !important;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -288,10 +302,12 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 
 <button
   className="c0"
+  type="button"
 >
   Download catalog
   <span
     className="c1 c2"
+    color="inherit"
     size="26px"
   >
     <svg
@@ -302,7 +318,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
       <defs>
         <path
           d="M0 0h48v14.511H0z"
-          id="a"
         />
       </defs>
       <g

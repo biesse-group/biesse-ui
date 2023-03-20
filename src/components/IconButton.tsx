@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../styles";
 import { Icon, IconName } from "./Icon";
 
 export type IconButtonProps = {
@@ -23,8 +24,19 @@ export type IconButtonProps = {
 
 const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
   width: 50px;
   height: 50px;
+
+  ${mqUntil(
+    "sm",
+    css`
+      width: 40px;
+      height: 40px;
+    `
+  )}
+
   ${({ variant, theme }) => {
     const color = variant === "primary" ? theme.color.primary : theme.color.white;
     return css`
@@ -32,7 +44,6 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
       color: ${color};
     `;
   }};
-  cursor: pointer;
 
   &:hover {
     background-color: ${({ variant, theme }) =>

@@ -25,8 +25,12 @@ export const biesseTheme: DefaultTheme = {
     },
     borderColor: "#C4C4C4",
   },
+  videoPlayer: {
+    buttonBoxShadow: "0 2px 10px 0 rgba(0,0,0,0.5)",
+  },
   eventCard: {
     boxShadow: "rgba(140,140,140,0.5)",
+    heroBoxShadow: "rgba(0,0,0,0.5)",
   },
   color: {
     primary: "#6D6E70",
@@ -34,7 +38,7 @@ export const biesseTheme: DefaultTheme = {
     white: "#FFF",
     black: "#252525",
     lightGray: "#F5F5F5",
-    gray: "#c4c4c4",
+    gray: "#A2A2A2",
 
     material: {
       wood: "#F9942E",

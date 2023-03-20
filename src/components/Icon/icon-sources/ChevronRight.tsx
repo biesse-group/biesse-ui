@@ -8,7 +8,7 @@ export const ChevronRight = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <defs>
-      <path id="a" d="M0 0h25.722v48H0z" />
+      <path d="M0 0h25.722v48H0z" />
     </defs>
     <g transform="translate(12 1)" fill="none" fillRule="evenodd">
       <path

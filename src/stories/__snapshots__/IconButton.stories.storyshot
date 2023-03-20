@@ -2,27 +2,31 @@
 
 exports[`Storyshots Buttons/IconButton Light 1`] = `
 .c2 {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c2 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #252525;
 }
 
 .c1 {
   background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border: 1px solid #FFF;
   color: #FFF;
-  cursor: pointer;
 }
 
 .c1:hover {
@@ -32,248 +36,11 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
   transition: all 0.2s ease-out;
 }
 
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c1 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 <div
@@ -292,6 +59,7 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
     >
       <span
         className="c2"
+        color="inherit"
         size="26px"
       >
         <svg
@@ -302,7 +70,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g
@@ -331,27 +98,31 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 exports[`Storyshots Buttons/IconButton Primary 1`] = `
 .c2 {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c2 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #F5F5F5;
 }
 
 .c1 {
   background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border: 1px solid #6D6E70;
   color: #6D6E70;
-  cursor: pointer;
 }
 
 .c1:hover {
@@ -361,248 +132,11 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   transition: all 0.2s ease-out;
 }
 
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c1 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 <div
@@ -622,6 +156,7 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
     >
       <span
         className="c2"
+        color="inherit"
         size="26px"
       >
         <svg
@@ -632,7 +167,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
           <defs>
             <path
               d="M0 0h23.795v23.795H0z"
-              id="a"
             />
           </defs>
           <g
@@ -661,27 +195,31 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 
 exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 .c2 {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
   color: inherit;
 }
 
 .c2 > svg {
-  height: 26px;
+  height: 100%;
+  width: 100%;
   color: inherit;
 }
 
 .c0 {
   padding: 1rem;
-  height: 100vh;
   background-color: #6D6E70;
 }
 
 .c1 {
   background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border: 1px solid #FFF;
   color: #FFF;
-  cursor: pointer;
 }
 
 .c1:hover {
@@ -691,248 +229,11 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   transition: all 0.2s ease-out;
 }
 
-@media screen and (max-width:991px) {
-
-}
-
 @media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:767px) {
-
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
+  .c1 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 <div
@@ -951,6 +252,7 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
     >
       <span
         className="c2"
+        color="inherit"
         size="26px"
       >
         <svg
@@ -961,7 +263,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
           <defs>
             <path
               d="M0 0h38.216v48H0z"
-              id="a"
             />
           </defs>
           <g

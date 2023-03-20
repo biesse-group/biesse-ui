@@ -58,15 +58,26 @@ const getColor = (color: IconProps["color"]) => css`
 `;
 
 const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
+  display: inline-block;
+  height: ${(props) => getIconSize(props.size)};
+  width: ${(props) => getIconSize(props.size)};
   ${(props) => getColor(props.color)};
 
   > svg {
-    height: ${(props) => getIconSize(props.size)};
+    height: 100%;
+    width: 100%;
     color: ${(props) => props.color || "inherit"};
   }
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, color, className, testId, ...props }) => {
+export const Icon: FC<IconProps> = ({
+  name,
+  size,
+  color = "inherit",
+  className,
+  testId,
+  ...props
+}) => {
   const IconComponent = iconsMap[name];
   return (
     <IconRoot size={size} color={color} data-testid={testId} className={className}>
