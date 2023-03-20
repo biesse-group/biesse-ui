@@ -44,14 +44,14 @@ const HeroEventCardRoot = styled.div`
 const DateSubgrid = styled.div`
   grid-area: date-subgrid;
   display: inline-grid;
-  grid-template-rows: repeat(2, auto);
-  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto auto;
+  grid-template-columns: 56px auto;
   column-gap: 4px;
   grid-template-areas:
     "start-DD start-MMYY"
     "end-DD end-MMYY";
 
-  padding: 12px 8px 12px 15px;
+  padding: 12px 8px 12px 0;
   height: 80px;
 
   background-color: ${(props) => props.theme.color.lightGray};
@@ -89,7 +89,7 @@ const EndDateMonthYear = styled(MonthYearStyledText)`
 
 const DescriptionItem = styled.div`
   grid-area: description;
-  padding: 12px 36px 12px 15%;
+  padding: 12px 36px 12px 60px;
 
   background-color: ${(props) => props.theme.color.primary};
 `;
@@ -103,24 +103,18 @@ const TitleWrapper = styled.div`
   align-items: center;
 
   height: 80px;
+  padding-right: 36px;
 `;
 
 const StyledTitle = styled(Text)`
   line-height: 26px;
-  max-width: 161px;
   text-transform: uppercase;
 
-  padding: 12px 10px 12px 5px;
+  padding: 12px 10px 12px 15px;
 `;
 
 const StyledIcon = styled(Icon)`
-  margin-right: 84px;
-  ${mqUntil(
-    "md",
-    css`
-      margin-right: 25px;
-    `
-  )};
+  flex: 0 0 30px;
 `;
 
 export const HeroEventCard: FC<EventCardProps> = ({
@@ -152,7 +146,7 @@ export const HeroEventCard: FC<EventCardProps> = ({
         <StyledTitle color="primary" size="xl" weight="bold">
           {renderLink ? renderLink(title) : title}
         </StyledTitle>
-        <StyledIcon name="chevron-right" color="primary" size="25px" />
+        <StyledIcon name="chevron-right" color="primary" size="30px" />
       </TitleWrapper>
       {description && (
         <DescriptionItem>

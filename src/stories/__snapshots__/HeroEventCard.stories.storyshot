@@ -3,8 +3,8 @@
 exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 .c13 {
   display: inline-block;
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   color: #6D6E70;
 }
 
@@ -97,12 +97,12 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 .c1 {
   grid-area: date-subgrid;
   display: inline-grid;
-  grid-template-rows: repeat(2,auto);
-  grid-template-columns: repeat(2,auto);
+  grid-template-rows: auto auto;
+  grid-template-columns: 56px auto;
   -webkit-column-gap: 4px;
   column-gap: 4px;
   grid-template-areas: "start-DD start-MMYY" "end-DD end-MMYY";
-  padding: 12px 8px 12px 15px;
+  padding: 12px 8px 12px 0;
   height: 80px;
   background-color: #F5F5F5;
   text-transform: uppercase;
@@ -145,7 +145,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 
 .c15 {
   grid-area: description;
-  padding: 12px 36px 12px 15%;
+  padding: 12px 36px 12px 60px;
   background-color: #6D6E70;
 }
 
@@ -167,17 +167,19 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 80px;
+  padding-right: 36px;
 }
 
 .c12 {
   line-height: 26px;
-  max-width: 161px;
   text-transform: uppercase;
-  padding: 12px 10px 12px 5px;
+  padding: 12px 10px 12px 15px;
 }
 
 .c14 {
-  margin-right: 84px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
 }
 
 @media screen and (max-width:991px) {
@@ -261,12 +263,6 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 @media screen and (max-width:767px) {
   .c0 {
     display: none;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c14 {
-    margin-right: 25px;
   }
 }
 
@@ -320,7 +316,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
     <span
       className="c13 c14"
       color="primary"
-      size="25px"
+      size="30px"
     >
       <svg
         viewBox="0 0 50 50"
@@ -362,8 +358,8 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 .c13 {
   display: inline-block;
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   color: #6D6E70;
 }
 
@@ -456,12 +452,12 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 .c1 {
   grid-area: date-subgrid;
   display: inline-grid;
-  grid-template-rows: repeat(2,auto);
-  grid-template-columns: repeat(2,auto);
+  grid-template-rows: auto auto;
+  grid-template-columns: 56px auto;
   -webkit-column-gap: 4px;
   column-gap: 4px;
   grid-template-areas: "start-DD start-MMYY" "end-DD end-MMYY";
-  padding: 12px 8px 12px 15px;
+  padding: 12px 8px 12px 0;
   height: 80px;
   background-color: #F5F5F5;
   text-transform: uppercase;
@@ -504,7 +500,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 
 .c15 {
   grid-area: description;
-  padding: 12px 36px 12px 15%;
+  padding: 12px 36px 12px 60px;
   background-color: #6D6E70;
 }
 
@@ -526,17 +522,19 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 80px;
+  padding-right: 36px;
 }
 
 .c12 {
   line-height: 26px;
-  max-width: 161px;
   text-transform: uppercase;
-  padding: 12px 10px 12px 5px;
+  padding: 12px 10px 12px 15px;
 }
 
 .c14 {
-  margin-right: 84px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
 }
 
 @media screen and (max-width:991px) {
@@ -623,12 +621,6 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   }
 }
 
-@media screen and (max-width:991px) {
-  .c14 {
-    margin-right: 25px;
-  }
-}
-
 <div
   className="c0"
 >
@@ -679,7 +671,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
     <span
       className="c13 c14"
       color="primary"
-      size="25px"
+      size="30px"
     >
       <svg
         viewBox="0 0 50 50"
