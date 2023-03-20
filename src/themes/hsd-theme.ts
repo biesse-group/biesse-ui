@@ -30,6 +30,7 @@ export const hsdTheme: DefaultTheme = {
   },
   eventCard: {
     boxShadow: "rgba(140,140,140,0.5)",
+    heroBoxShadow: "rgba(0,0,0,0.5)",
   },
   color: {
     primary: "#004898",

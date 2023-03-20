@@ -34,6 +34,7 @@ export interface BiesseTheme {
   };
   eventCard: {
     boxShadow: string;
+    heroBoxShadow: string;
   };
   button: {
     borderRadius: string;

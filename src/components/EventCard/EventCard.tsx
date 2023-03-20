@@ -1,43 +1,11 @@
-import dayjs from "dayjs";
 import { FC, PropsWithChildren } from "react";
 import styled, { css, useTheme } from "styled-components";
 
-import { mqUntil } from "../styles/media-queries";
-import { Icon } from "./Icon";
-import { Text } from "./Text";
-import { Title } from "./Title";
-
-export interface EventCardProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
-  /**
-   * Title locate on top of the card
-   */
-  title?: string;
-  /**
-   * Starting date of the event
-   */
-  startDate: dayjs.Dayjs;
-  /**
-   * Ending date of the event
-   */
-  endDate: dayjs.Dayjs;
-  /**
-   * Description located under the title
-   */
-  description?: string | JSX.Element;
-  /**
-   * Link component overlay on the card left side
-   */
-  link?: JSX.Element;
-  /**
-   * Current location language
-   */
-  language?: Intl.LocalesArgument;
-  testId?: string;
-}
+import { mqUntil } from "../../styles/media-queries";
+import { Icon } from "../Icon";
+import { Text } from "../Text";
+import { Title } from "../Title";
+import { EventCardProps } from "./eventCardProps";
 
 const EventCardRoot = styled.div`
   position: relative;
@@ -156,9 +124,9 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
   startDate,
   endDate,
   description,
+  descriptionMaxCharacters,
   children,
-  link,
-  language,
+  renderLink,
   ...props
 }) => {
   const theme = useTheme();
@@ -168,7 +136,7 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
   return (
     <EventCardRoot className={className} data-testid={testId} {...props}>
       <DateLinkWrapper>
-        <LinkWrapper>{link}</LinkWrapper>
+        {renderLink && <LinkWrapper>{renderLink()}</LinkWrapper>}
         <Title variant="H2" color="light">{`${startDate.format("DD")}`}</Title>
         <Title variant="H2" color="light">{`${startDate.format("MM")}`}</Title>
         <Text size="md" color="light">{`${startDate.format("YYYY")}`}</Text>
@@ -181,7 +149,17 @@ export const EventCard: FC<PropsWithChildren<EventCardProps>> = ({
         </CardTitle>
         <DateSubtitle size="sm">{dateText}</DateSubtitle>
         <DescriptionWrapper>
-          {typeof description === "string" ? <Text size="md">{description}</Text> : description}
+          {typeof description === "string" ? (
+            <Text size="md">
+              {descriptionMaxCharacters
+                ? `${description.substring(0, descriptionMaxCharacters)}${
+                    description.length > descriptionMaxCharacters && "..."
+                  }`
+                : description}
+            </Text>
+          ) : (
+            description
+          )}
         </DescriptionWrapper>
       </EventCardMainWrapper>
       <ChildWrapper>{children}</ChildWrapper>

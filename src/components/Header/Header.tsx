@@ -29,8 +29,7 @@ const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
 
 const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   height: 95px;
   padding: 0px 110px 0px 90px;
   transition: all 0.2s ease-out;
@@ -76,6 +75,15 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   )}
 `;
 
+const MainHeaderInnerContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
+`;
+
 const LogoWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
@@ -110,15 +118,14 @@ const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
 
 const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
-  flex-direction: row;
-  padding-left: 90px;
+  justify-content: center;
+  padding: 0 110px 0 90px;
   height: 45px;
-  align-items: stretch;
 
   ${mqUntil(
     "lg",
     css`
-      padding-left: 50px;
+      padding: 0 50px;
     `
   )}
 
@@ -128,6 +135,15 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
       display: none;
     `
   )}
+`;
+
+const NavLinkInnerContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
+  align-items: stretch;
 `;
 
 const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -178,30 +194,34 @@ export const Header: FC<HeaderProps> = ({
   return (
     <HeaderRoot {...props} className={className} data-testid={testId}>
       <MainHeaderWrapper {...props}>
-        <LogoWrapper>{logo}</LogoWrapper>
-        <NavIconsWrapper {...props}>
-          {navIcons?.map((navIcon, index) => (
-            <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
-          ))}
-          <HamburgerMenuIconWrapper>
-            <Icon name="hamburger" size="100%" color="light" />
-          </HamburgerMenuIconWrapper>
-        </NavIconsWrapper>
+        <MainHeaderInnerContainer>
+          <LogoWrapper>{logo}</LogoWrapper>
+          <NavIconsWrapper {...props}>
+            {navIcons?.map((navIcon, index) => (
+              <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
+            ))}
+            <HamburgerMenuIconWrapper>
+              <Icon name="hamburger" size="100%" color="light" />
+            </HamburgerMenuIconWrapper>
+          </NavIconsWrapper>
+        </MainHeaderInnerContainer>
       </MainHeaderWrapper>
       <NavLinksWrapper {...props}>
-        {navLinks?.map((navLink, index) => (
-          <NavLinkElementWrapper key={`nav-link-${index}`} variant={props.variant}>
-            {navLink.renderLink(
-              <Text
-                size="sm"
-                weight="medium"
-                color={props.variant === "transparent" ? "light" : "primary"}
-              >
-                {navLink.label.toUpperCase()}
-              </Text>
-            )}
-          </NavLinkElementWrapper>
-        ))}
+        <NavLinkInnerContainer>
+          {navLinks?.map((navLink, index) => (
+            <NavLinkElementWrapper key={`nav-link-${index}`} variant={props.variant}>
+              {navLink.renderLink(
+                <Text
+                  size="sm"
+                  weight="medium"
+                  color={props.variant === "transparent" ? "light" : "primary"}
+                >
+                  {navLink.label.toUpperCase()}
+                </Text>
+              )}
+            </NavLinkElementWrapper>
+          ))}
+        </NavLinkInnerContainer>
       </NavLinksWrapper>
     </HeaderRoot>
   );
