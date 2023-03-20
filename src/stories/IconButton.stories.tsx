@@ -10,6 +10,9 @@ export default {
   component: IconButton,
   parameters: {
     layout: "fullscreen",
+    controls: {
+      exclude: ["onClick"],
+    },
   },
   decorators: [
     (Story, { args }) => (

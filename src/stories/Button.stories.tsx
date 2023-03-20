@@ -16,6 +16,11 @@ export default {
         Story()
       ),
   ],
+  parameters: {
+    controls: {
+      exclude: ["onClick"],
+    },
+  },
 } as ComponentMeta<typeof Button>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args

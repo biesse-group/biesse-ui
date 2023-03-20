@@ -17,7 +17,7 @@ export default {
   ],
   parameters: {
     controls: {
-      exclude: ["children", "description", "link"],
+      exclude: ["children", "description", "renderLink"],
     },
   },
 } as ComponentMeta<typeof EventCard>;
@@ -42,11 +42,6 @@ const defaultArgs = {
       </Text>
       <Input type="text" border={true} />
     </div>
-  ),
-  link: (
-    <a href="/">
-      <div style={{ height: "100%", width: "100%" }} />
-    </a>
   ),
 };
 

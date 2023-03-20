@@ -8,7 +8,7 @@ export default {
   component: HorizontalCard,
   parameters: {
     controls: {
-      exclude: ["actions", "image"],
+      exclude: ["actions", "image", "icon"],
     },
   },
 } as ComponentMeta<typeof HorizontalCard>;

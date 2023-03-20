@@ -8,6 +8,11 @@ import { HeroEventCard } from "../components";
 export default {
   title: "Cards/HeroEventCard",
   component: HeroEventCard,
+  parameters: {
+    controls: {
+      exclude: ["children", "description", "renderLink"],
+    },
+  },
 } as ComponentMeta<typeof HeroEventCard>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
@@ -22,11 +27,6 @@ const defaultArgs = {
   startDate: dayjs(new Date(`december 17, 1995 03:24:00`)),
   endDate: dayjs(new Date(`march 20, 2022 03:24:00`)),
   description: "Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor",
-  link: (
-    <a href="/">
-      <div style={{ height: "100%", width: "100%" }} />
-    </a>
-  ),
 };
 
 export const Default = Template.bind({});
