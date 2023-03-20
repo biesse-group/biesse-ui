@@ -124,7 +124,7 @@ export const ProductCarousel = <T extends object>({
       </BackgroundStrip>
       <ItemDetailWrapper>
         <AnimatePresence initial={false}>
-          <ItemDetail key={page}>{renderDetail(shownItems["center"])}</ItemDetail>
+          <ItemDetail uniqueId={page}>{renderDetail(shownItems["center"])}</ItemDetail>
         </AnimatePresence>
       </ItemDetailWrapper>
     </div>

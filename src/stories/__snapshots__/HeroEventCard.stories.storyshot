@@ -103,7 +103,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   column-gap: 4px;
   grid-template-areas: "start-DD start-MMYY" "end-DD end-MMYY";
   padding: 12px 8px 12px 0;
-  height: 80px;
+  min-height: 80px;
   background-color: #F5F5F5;
   text-transform: uppercase;
 }
@@ -125,6 +125,10 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 
 .c4 {
   grid-area: start-DD;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  justify-self: end;
 }
 
 .c7 {
@@ -137,6 +141,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
 
 .c8 {
   grid-area: end-DD;
+  justify-self: end;
 }
 
 .c9 {
@@ -166,7 +171,7 @@ exports[`Storyshots Cards/HeroEventCard Default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 80px;
+  min-height: 80px;
   padding-right: 36px;
 }
 
@@ -458,7 +463,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   column-gap: 4px;
   grid-template-areas: "start-DD start-MMYY" "end-DD end-MMYY";
   padding: 12px 8px 12px 0;
-  height: 80px;
+  min-height: 80px;
   background-color: #F5F5F5;
   text-transform: uppercase;
 }
@@ -480,6 +485,10 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 
 .c4 {
   grid-area: start-DD;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  justify-self: end;
 }
 
 .c7 {
@@ -492,6 +501,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
 
 .c8 {
   grid-area: end-DD;
+  justify-self: end;
 }
 
 .c9 {
@@ -521,7 +531,7 @@ exports[`Storyshots Cards/HeroEventCard Translated 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 80px;
+  min-height: 80px;
   padding-right: 36px;
 }
 

@@ -52,7 +52,7 @@ const DateSubgrid = styled.div`
     "end-DD end-MMYY";
 
   padding: 12px 8px 12px 0;
-  height: 80px;
+  min-height: 80px;
 
   background-color: ${(props) => props.theme.color.lightGray};
   text-transform: uppercase;
@@ -72,6 +72,8 @@ const MonthYearStyledText = styled(Text)`
 
 const StartDateDay = styled(DayStyledText)`
   grid-area: start-DD;
+  align-self: end;
+  justify-self: end;
 `;
 
 const StartDateMonthYear = styled(MonthYearStyledText)`
@@ -82,6 +84,7 @@ const StartDateMonthYear = styled(MonthYearStyledText)`
 
 const EndDateDay = styled(DayStyledText)`
   grid-area: end-DD;
+  justify-self: end;
 `;
 const EndDateMonthYear = styled(MonthYearStyledText)`
   grid-area: end-MMYY;
@@ -102,7 +105,7 @@ const TitleWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
 
-  height: 80px;
+  min-height: 80px;
   padding-right: 36px;
 `;
 

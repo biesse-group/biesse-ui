@@ -19,17 +19,17 @@ const ItemDetailInner = styled(motion.div)`
 `;
 
 type Props = {
-  key: React.Key;
+  uniqueId: React.Key;
 };
 
-export const ItemDetail: FC<PropsWithChildren<Props>> = ({ key, children }) => {
+export const ItemDetail: FC<PropsWithChildren<Props>> = ({ uniqueId, children }) => {
   return (
     <ItemDetailInner
       variants={detailVariants}
       initial="enter"
       animate="center"
       exit="exit"
-      key={key}
+      key={uniqueId}
     >
       {children}
     </ItemDetailInner>
