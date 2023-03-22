@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
@@ -48,6 +48,8 @@ const Heading = styled.div`
 const Body = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 
   ${mqUntil(
     "md",

@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Video/VideoPlayer Default 1`] = `
-.c5 {
+.c6 {
   display: inline-block;
   height: 30px;
   width: 30px;
   color: #FFF;
 }
 
-.c5 > svg {
+.c6 > svg {
   height: 100%;
   width: 100%;
   color: light;
 }
 
-.c3 {
+.c4 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -38,7 +38,7 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
   overflow: hidden;
 }
 
-.c4 {
+.c5 {
   height: 100%;
   width: 100%;
   border: 3px solid #FFF;
@@ -48,7 +48,7 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
   position: absolute;
 }
 
-.c6 {
+.c7 {
   margin-left: 7px;
 }
 
@@ -59,9 +59,18 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.c2 {
+.c3 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -88,6 +97,17 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
   display: none;
 }
 
+.c2 {
+  width: 100%;
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    width: auto;
+    height: 100%;
+  }
+}
+
 <div
   style={
     Object {
@@ -105,10 +125,10 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
       onClick={[Function]}
     />
     <video
+      className="c2"
       loop={true}
       onPause={[Function]}
       onPlaying={[Function]}
-      width="100%"
     >
       <source
         src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
@@ -117,10 +137,10 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
       Your browser does not support HTML video.
     </video>
     <div
-      className="c2"
+      className="c3"
     >
       <div
-        className="c3"
+        className="c4"
         data-projection-id={11}
         data-testid="play-button"
         onClick={[Function]}
@@ -131,10 +151,10 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
         }
       >
         <div
-          className="c4"
+          className="c5"
         />
         <span
-          className="c5 c6"
+          className="c6 c7"
           color="light"
           size="30px"
         >

@@ -44,6 +44,7 @@ export interface FooterProps {
 }
 
 const FooterRoot = styled.div`
+  min-height: 300px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -69,7 +70,6 @@ const FooterContainer = styled.div`
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 300px;
   max-width: ${(props) => props.theme.breakpoints.xxl}px;
 
   display: grid;
