@@ -30,5 +30,9 @@ export interface EventCardProps {
    * If HeroEventCard is being used, it will be applied on the title text.
    */
   renderLink?: (child?: string) => JSX.Element;
+  /**
+   *
+   */
+  variant?: "primary" | "secondary" | "hero";
   testId?: string;
 }

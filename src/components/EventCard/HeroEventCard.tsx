@@ -120,7 +120,7 @@ const StyledIcon = styled(Icon)`
   flex: 0 0 30px;
 `;
 
-export const HeroEventCard: FC<EventCardProps> = ({
+export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
   className,
   testId,
   title,

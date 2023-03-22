@@ -28,12 +28,8 @@ const defaultArgs = {
   title: "Lore Ipsum",
   startDate: dayjs(new Date(`december 17, 1995 03:24:00`)),
   endDate: dayjs(new Date(`march 20, 2022 03:24:00`)),
-  description: (
-    <Text size="md">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-      laudantium, totam rem aperiam eaque ipsa...
-    </Text>
-  ),
+  description:
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
   children: (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <Text size="lg" color="primary" weight="bold">
@@ -42,16 +38,11 @@ const defaultArgs = {
       <Input type="text" border={true} />
     </div>
   ),
-  link: (
-    <a href="/">
-      <div style={{ height: "100%", width: "100%" }} />
-    </a>
-  ),
 };
 
-export const Default = Template.bind({});
+export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Default.args = {
+Primary.args = {
   ...defaultArgs,
 };
 
@@ -71,4 +62,18 @@ HoverState.parameters = {
   pseudo: {
     hover: true,
   },
+};
+
+export const Hero = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Hero.args = {
+  ...defaultArgs,
+  variant: "hero",
+};
+
+export const Secondary = Template.bind({});
+// More on args: https://storybook.js.org/docs/react/writing-stories/args
+Secondary.args = {
+  ...defaultArgs,
+  variant: "secondary",
 };

@@ -1,6 +1,7 @@
 import { createRef, FC, PropsWithChildren, useState } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../../styles";
 import { PlayButton } from "./PlayButton";
 
 export interface VideoPlayerProps {
@@ -14,13 +15,25 @@ export interface VideoPlayerProps {
    */
   mimeType?: string;
   loop?: boolean;
+  /**
+   * Video viewbox. If Different from container, video will be cropped
+   */
+  viewBox?: {
+    height?: string;
+    width?: string;
+  };
   testId?: string;
 }
 
-const VideoPlayerRoot = styled.div`
+const VideoPlayerRoot = styled.div<Pick<VideoPlayerProps, "viewBox">>`
   position: relative;
   overflow: hidden;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: ${(props) => props.viewBox?.height};
+  width: ${(props) => props.viewBox?.width};
 `;
 
 const PlayButtonWrapper = styled.div`
@@ -46,6 +59,18 @@ const PauseAction = styled.div<{ isPlaying: boolean }>`
     `}
 `;
 
+const StyledVideo = styled.video`
+  width: 100%;
+
+  ${mqUntil(
+    "sm",
+    css`
+      width: auto;
+      height: 100%;
+    `
+  )}
+`;
+
 export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
   testId,
   url,
@@ -69,10 +94,9 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
   };
 
   return (
-    <VideoPlayerRoot data-testid={testId} {...props}>
+    <VideoPlayerRoot className={"VIDEO-root"} data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
-      <video
-        width="100%"
+      <StyledVideo
         onPlaying={() => setIsVideoPlaying(true)}
         onPause={() => setIsVideoPlaying(false)}
         ref={videoRef}
@@ -80,7 +104,7 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
       >
         <source src={url} type={mimeType || "video/mp4"} />
         Your browser does not support HTML video.
-      </video>
+      </StyledVideo>
 
       <PlayButtonWrapper>
         <PlayButton
