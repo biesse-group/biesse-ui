@@ -25,10 +25,6 @@ Default.args = {
   video: {
     testId: "video-player",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-    viewBox: {
-      height: "500px",
-      width: "100%",
-    },
   },
 };
 

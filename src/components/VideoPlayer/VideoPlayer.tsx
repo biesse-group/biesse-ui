@@ -15,25 +15,16 @@ export interface VideoPlayerProps {
    */
   mimeType?: string;
   loop?: boolean;
-  /**
-   * Video viewbox. If Different from container, video will be cropped
-   */
-  viewBox?: {
-    height?: string;
-    width?: string;
-  };
   testId?: string;
 }
 
-const VideoPlayerRoot = styled.div<Pick<VideoPlayerProps, "viewBox">>`
+const VideoPlayerRoot = styled.div`
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  height: ${(props) => props.viewBox?.height};
-  width: ${(props) => props.viewBox?.width};
+  width: 100%;
 `;
 
 const PlayButtonWrapper = styled.div`
@@ -94,7 +85,7 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
   };
 
   return (
-    <VideoPlayerRoot className={"VIDEO-root"} data-testid={testId} {...props}>
+    <VideoPlayerRoot data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
       <StyledVideo
         onPlaying={() => setIsVideoPlaying(true)}

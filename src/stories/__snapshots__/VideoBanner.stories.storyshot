@@ -49,6 +49,7 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
 }
 
 .c0 {
+  width: 100%;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -93,6 +94,20 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
 
 .c7 {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 500px;
 }
 
 .c12 {
@@ -148,7 +163,6 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 500px;
   width: 100%;
 }
 
@@ -259,6 +273,18 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
   }
 }
 
+@media screen and (max-width:991px) {
+  .c7 {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c7 {
+    height: 450px;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c10 {
     width: auto;
@@ -304,14 +330,8 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
     className="c7"
   >
     <div
-      className="c8 VIDEO-root"
+      className="c8"
       data-testid="video-player"
-      viewBox={
-        Object {
-          "height": "500px",
-          "width": "100%",
-        }
-      }
     >
       <div
         className="c9"

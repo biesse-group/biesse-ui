@@ -25,11 +25,3 @@ Default.args = {
   testId: "video-player",
   url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
 };
-
-export const Crop = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-Crop.args = {
-  testId: "video-player",
-  url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-  viewBox: { height: "200px", width: "100%" },
-};

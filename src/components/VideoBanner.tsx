@@ -29,6 +29,7 @@ export interface VideoBannerProps {
 }
 
 const VideoBannerRoot = styled.div`
+  width: 100%;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -106,6 +107,27 @@ const DescriptionWrapper = styled.div`
 
 const VideoPlayerWrapper = styled.div`
   width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  height: 500px;
+
+  ${mqUntil(
+    "md",
+    css`
+      height: 400px;
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      height: 450px;
+    `
+  )}
 `;
 
 export const VideoBanner: FC<PropsWithChildren<VideoBannerProps>> = ({
