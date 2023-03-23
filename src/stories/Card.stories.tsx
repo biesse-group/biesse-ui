@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
-import { Button, Card, MaterialTag, Text } from "../components";
+import { Button, Card, Tag, Text } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -61,5 +61,5 @@ export const WithTagAndButton = Template.bind({});
 WithTagAndButton.args = {
   ...defaultArgs,
   action: <Button variant="outline" children="Action" testId="action-button" />,
-  tag: <MaterialTag material="stone" border={true} />,
+  tag: <Tag color="stone" icon="material-stone" border />,
 };

@@ -3,14 +3,7 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 // import { useTheme } from "styled-components";
-import {
-  Button,
-  MaterialTag, // MaterialTag,
-  ProductCarousel,
-  ProductCarouselProps,
-  Text,
-  Title,
-} from "../components";
+import { Button, ProductCarousel, ProductCarouselProps, Tag, Text, Title } from "../components";
 import { mqUntil } from "../styles/media-queries";
 
 type SampleProductTag = "stone" | "metal" | "glass" | "wood" | "composite";
@@ -120,7 +113,9 @@ const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
       </Text>
       <TagList>
         {product.tags.map((tag, index) => (
-          <MaterialTag material={tag} key={index} />
+          <Tag color={tag} icon={`material-${tag}`} key={index}>
+            {tag}
+          </Tag>
         ))}
       </TagList>
     </div>

@@ -705,7 +705,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #FFF;
 }
 
-.c14 {
+.c15 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -736,28 +736,28 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c14:hover {
+.c15:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
 
-.c4 {
+.c5 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: #FFF;
 }
 
-.c4 a {
+.c5 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: #FFF;
 }
 
-.c13 {
+.c14 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -765,7 +765,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: inherit;
 }
 
-.c13 a {
+.c14 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -773,7 +773,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: inherit;
 }
 
-.c11 {
+.c12 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -782,7 +782,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   font-size: 34px;
 }
 
-.c6 {
+.c7 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -790,7 +790,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   height: 450px;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -824,7 +824,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   transition: all 0.5s ease-out;
 }
 
-.c0:hover .c7 {
+.c0:hover .c8 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
@@ -837,12 +837,12 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   z-index: 1;
 }
 
-.c12 {
+.c13 {
   margin-top: 29px;
   margin-bottom: 0px;
 }
 
-.c9 {
+.c10 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -859,7 +859,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   justify-content: space-between;
 }
 
-.c10 {
+.c11 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -872,9 +872,12 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   flex-direction: column;
 }
 
-.c5 {
+.c6 {
   text-transform: uppercase;
-  margin-left: 9px;
+}
+
+.c4 {
+  margin-right: 9px;
 }
 
 .c2 {
@@ -925,7 +928,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c13 {
+  .c14 {
     font-size: 14px;
   }
 }
@@ -935,7 +938,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c13 a {
+  .c14 a {
     font-size: 14px;
   }
 }
@@ -945,13 +948,13 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c11 {
+  .c12 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
+  .c7 {
     height: 400px;
   }
 }
@@ -971,9 +974,10 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
     >
       <div
         className="c2"
+        color="stone"
       >
         <span
-          className="c3"
+          className="c3 c4"
           color="#FFF"
           size="xs"
         >
@@ -989,19 +993,17 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
           </svg>
         </span>
         <span
-          className="c4 c5"
+          className="c5 c6"
           color="light"
           size="sm"
-        >
-          stone
-        </span>
+        />
       </div>
     </div>
     <div
-      className="c6"
+      className="c7"
     >
       <div
-        className="c7 c8"
+        className="c8 c9"
       >
         <img
           alt="dummy"
@@ -1010,13 +1012,13 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       </div>
     </div>
     <div
-      className="c9"
+      className="c10"
     >
       <div
-        className="c10"
+        className="c11"
       >
         <h4
-          className="c11 c12"
+          className="c12 c13"
           color="primary"
         >
           Example card
@@ -1029,7 +1031,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
           }
         >
           <span
-            className="c13"
+            className="c14"
             size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
@@ -1044,7 +1046,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
         }
       >
         <button
-          className="c14"
+          className="c15"
           data-testid="action-button"
           type="button"
         >
