@@ -33,7 +33,7 @@ export const hsdTheme: DefaultTheme = {
     heroBoxShadow: "rgba(0,0,0,0.5)",
   },
   color: {
-    primary: "#004898",
+    primary: "#003594",
     secondary: "#98AFD9",
     white: "#FFF",
     black: "#252525",

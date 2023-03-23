@@ -1,6 +1,7 @@
 import { createRef, FC, PropsWithChildren, useState } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../../styles";
 import { PlayButton } from "./PlayButton";
 
 export interface VideoPlayerProps {
@@ -21,6 +22,9 @@ const VideoPlayerRoot = styled.div`
   position: relative;
   overflow: hidden;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 `;
 
 const PlayButtonWrapper = styled.div`
@@ -44,6 +48,18 @@ const PauseAction = styled.div<{ isPlaying: boolean }>`
     css`
       display: none;
     `}
+`;
+
+const StyledVideo = styled.video`
+  width: 100%;
+
+  ${mqUntil(
+    "sm",
+    css`
+      width: auto;
+      height: 100%;
+    `
+  )}
 `;
 
 export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
@@ -71,8 +87,7 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
   return (
     <VideoPlayerRoot data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
-      <video
-        width="100%"
+      <StyledVideo
         onPlaying={() => setIsVideoPlaying(true)}
         onPause={() => setIsVideoPlaying(false)}
         ref={videoRef}
@@ -80,7 +95,7 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
       >
         <source src={url} type={mimeType || "video/mp4"} />
         Your browser does not support HTML video.
-      </video>
+      </StyledVideo>
 
       <PlayButtonWrapper>
         <PlayButton
