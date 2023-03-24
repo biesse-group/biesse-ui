@@ -9,6 +9,11 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
+  argTypes: {
+    logo: {
+      control: false,
+    },
+  },
   decorators: [
     (Story) => (
       <div style={{ backgroundColor: "grey" }}>
@@ -16,7 +21,6 @@ export default {
       </div>
     ),
   ],
-  argTypes: {},
 } as ComponentMeta<typeof Header>;
 
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;

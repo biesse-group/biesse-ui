@@ -5,6 +5,11 @@ import { Button, HorizontalCard, Icon } from "../components";
 export default {
   title: "Cards/HorizontalCard",
   component: HorizontalCard,
+  argTypes: {
+    actions: {
+      control: false,
+    },
+  },
 } as ComponentMeta<typeof HorizontalCard>;
 
 const Template: ComponentStory<typeof HorizontalCard> = (args) => <HorizontalCard {...args} />;

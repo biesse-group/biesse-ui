@@ -10,6 +10,11 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
+  argTypes: {
+    onChange: {
+      control: false,
+    },
+  },
   decorators: [
     (Story, { args }) => (
       <BackgroundDecorator background={args.shadow === "light" ? "light" : "primary"}>

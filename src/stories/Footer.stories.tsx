@@ -6,10 +6,14 @@ import { Logo, Text } from "../components";
 export default {
   title: "Navigation/Footer",
   component: Footer,
+  argTypes: {
+    logo: {
+      control: false,
+    },
+  },
   parameters: {
     layout: "fullscreen",
   },
-  argTypes: {},
 } as ComponentMeta<typeof Footer>;
 
 const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;

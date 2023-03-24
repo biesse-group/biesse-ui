@@ -5,6 +5,11 @@ import { Button, IconCard } from "../components";
 export default {
   title: "Cards/IconCard",
   component: IconCard,
+  argTypes: {
+    actions: {
+      control: false,
+    },
+  },
   decorators: [
     (Story) => (
       <div style={{ maxWidth: 300 }}>

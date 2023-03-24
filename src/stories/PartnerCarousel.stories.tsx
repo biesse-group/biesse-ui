@@ -9,6 +9,11 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
+  argTypes: {
+    partners: {
+      control: false,
+    },
+  },
 } as ComponentMeta<typeof PartnerCarousel>;
 
 const Template: ComponentStory<typeof PartnerCarousel> = (args) => <PartnerCarousel {...args} />;

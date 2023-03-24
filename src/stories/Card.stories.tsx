@@ -37,9 +37,9 @@ const defaultArgs = {
   title: "Example card",
   children: (
     <Text size="md">
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
       laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto
-      beatae vitae dicta sunt, explicabo."
+      beatae vitae dicta sunt, explicabo.
     </Text>
   ),
   image: <img src="https://dummyimage.com/600x400/ccc/fff.png" alt="dummy" />,
