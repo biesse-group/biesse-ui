@@ -37,6 +37,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;

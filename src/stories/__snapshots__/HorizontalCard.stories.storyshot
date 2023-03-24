@@ -37,6 +37,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -285,6 +286,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -582,6 +584,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -819,6 +822,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
