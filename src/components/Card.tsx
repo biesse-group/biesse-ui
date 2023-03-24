@@ -63,8 +63,10 @@ const TagsWrapper = styled.div`
   }
 `;
 
-const CardTitle = styled(Title)<Pick<CardProps, "preTitle">>`
+const CardTitle = styled(Title)<Pick<CardProps, "preTitle" | "titleSize">>`
   margin-top: ${(props) => (props.preTitle ? "14px" : "29px")};
+  font-size: ${(props) => (props.titleSize === "default" ? "32px" : "26px")};
+  text-transform: none;
   margin-bottom: 0px;
 `;
 
@@ -104,6 +106,10 @@ export interface CardProps {
    */
   title?: string;
   /**
+   * Card title size
+   */
+  titleSize?: "default" | "small";
+  /**
    * Smaller text to be inserted above the title
    */
   preTitle?: string;
@@ -118,6 +124,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   className,
   testId,
   title,
+  titleSize = "default",
   preTitle,
   children,
   action,
@@ -139,7 +146,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
               {preTitle}
             </CardPreTitle>
           )}
-          <CardTitle variant="H4" color="primary" preTitle={preTitle}>
+          <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle }}>
             {title}
           </CardTitle>
           <div style={{ marginTop: "20px" }}>{children}</div>
