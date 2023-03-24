@@ -3,18 +3,15 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Footer, FooterProps } from "../components";
 import { Logo, Text } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Navigation/Footer",
   component: Footer,
   parameters: {
     layout: "fullscreen",
   },
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
 } as ComponentMeta<typeof Footer>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;
 
 const defaultArgs: FooterProps = {
@@ -79,7 +76,6 @@ const defaultArgs: FooterProps = {
 };
 
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   ...defaultArgs,
 };

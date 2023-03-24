@@ -32,20 +32,17 @@ const defaultArgs = {
 };
 
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   ...defaultArgs,
 };
 
 export const WithPreTitle = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithPreTitle.args = {
   ...defaultArgs,
   preTitle: "01 gennaio 2023, Location",
 };
 
 export const WithButton = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithButton.args = {
   ...defaultArgs,
   action: <Button variant="outline" children="Action" testId="action-button" />,
@@ -57,7 +54,6 @@ WithButton.play = async ({ canvasElement }) => {
 };
 
 export const WithTagsAndButton = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithTagsAndButton.args = {
   ...defaultArgs,
   action: <Button variant="outline" children="Action" testId="action-button" />,

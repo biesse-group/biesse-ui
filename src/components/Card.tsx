@@ -11,6 +11,7 @@ const CardImgWrapper = styled.div`
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   position: relative;
   height: 450px;
+
   ${mqUntil(
     "sm",
     css`
@@ -21,7 +22,6 @@ const CardImgWrapper = styled.div`
 
 const CardImageInner = styled.div`
   display: flex;
-
   justify-content: center;
   transform: scale(1);
   transition: transform 0.5s ease-out;

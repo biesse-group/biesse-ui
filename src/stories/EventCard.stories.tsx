@@ -41,13 +41,11 @@ const defaultArgs = {
 };
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   ...defaultArgs,
 };
 
 export const Translated = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Translated.args = {
   ...defaultArgs,
   startDate: dayjs(new Date(`december 17, 1995 03:24:00`)).locale("it"),
@@ -65,14 +63,12 @@ HoverState.parameters = {
 };
 
 export const Hero = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Hero.args = {
   ...defaultArgs,
   variant: "hero",
 };
 
 export const Secondary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Secondary.args = {
   ...defaultArgs,
   variant: "secondary",

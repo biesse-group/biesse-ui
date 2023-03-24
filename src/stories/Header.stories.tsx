@@ -3,7 +3,6 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Header, HeaderProps } from "../components";
 import { Logo } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Navigation/Header",
   component: Header,
@@ -17,11 +16,9 @@ export default {
       </div>
     ),
   ],
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
 } as ComponentMeta<typeof Header>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
@@ -49,13 +46,11 @@ const defaultArgs: HeaderProps = {
 };
 
 export const Transparent = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Transparent.args = {
   ...defaultArgs,
 };
 
 export const Colored = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Colored.args = {
   ...defaultArgs,
   variant: "colored",

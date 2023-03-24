@@ -2,7 +2,6 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-// import { useTheme } from "styled-components";
 import { Button, ProductCarousel, ProductCarouselProps, Tag, Text, Title } from "../components";
 import { mqUntil } from "../styles/media-queries";
 
@@ -24,7 +23,6 @@ export default {
   },
 } as ComponentMeta<typeof ProductCarousel>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof ProductCarousel<SampleProduct>> = (args) => (
   <ProductCarousel {...args} />
 );

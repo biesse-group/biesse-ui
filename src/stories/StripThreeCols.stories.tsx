@@ -40,7 +40,6 @@ const SampleItem = styled.div`
 `;
 
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   title: "Lorem ipsum dolor",
   items: {
@@ -51,7 +50,6 @@ Default.args = {
 };
 
 export const MobileScroll = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 MobileScroll.args = {
   title: "Lorem ipsum dolor",
   mobileBehavior: "scroll",
