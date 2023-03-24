@@ -254,6 +254,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
       </div>
       <h5
         className="c4 c5"
+        color="primary"
       >
         Sustainability
       </h5>

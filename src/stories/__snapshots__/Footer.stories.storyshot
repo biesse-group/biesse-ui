@@ -312,7 +312,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 .c3 {
-  color: white;
+  color: #FFF;
 }
 
 .c3 svg {

@@ -118,7 +118,9 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
   return (
     <StripRoot>
       <StripInner>
-        <StripTitle variant="H3">{title}</StripTitle>
+        <StripTitle variant="H3" color="primary">
+          {title}
+        </StripTitle>
         {mobileBehavior === "scroll" ? <StripScroll>{grid}</StripScroll> : grid}
       </StripInner>
     </StripRoot>

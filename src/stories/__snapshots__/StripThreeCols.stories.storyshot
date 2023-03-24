@@ -108,6 +108,7 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
     >
       <h3
         className="c2 c3"
+        color="primary"
       >
         Lorem ipsum dolor
       </h3>
@@ -267,6 +268,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
     >
       <h3
         className="c2 c3"
+        color="primary"
       >
         Lorem ipsum dolor
       </h3>
