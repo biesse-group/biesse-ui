@@ -25,9 +25,9 @@ const Template: ComponentStory<typeof EventCard> = (args) => {
 };
 
 const defaultArgs = {
-  title: "Lore Ipsum",
-  startDate: dayjs(new Date(`december 17, 1995 03:24:00`)),
-  endDate: dayjs(new Date(`march 20, 2022 03:24:00`)),
+  title: "Lorem Ipsum",
+  startDate: dayjs(new Date(`january 24, 2023`)),
+  endDate: dayjs(new Date(`february 10, 2023`)),
   description:
     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
   children: (
@@ -35,7 +35,7 @@ const defaultArgs = {
       <Text size="lg" color="primary" weight="bold">
         INPUT TITLE
       </Text>
-      <Input type="text" border={true} />
+      <Input type="text" border placeholder="Sample input" withButton={{ label: "Send" }} />
     </div>
   ),
 };
