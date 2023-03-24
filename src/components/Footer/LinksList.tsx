@@ -1,6 +1,7 @@
 import { FC } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
+import { mqUntil } from "../../styles";
 import { Icon } from "../Icon";
 import { Text } from "../Text";
 import { Title } from "../Title";
@@ -11,10 +12,10 @@ interface LinkListElement {
    */
   label: string;
   /**
-   * External link element,
-   * function should wrap the argument as children
+   * External link element, function should wrap the argument as children
    */
   renderLink?: (label: string) => JSX.Element;
+  className?: string;
 }
 
 export interface LinksListProps {
@@ -37,7 +38,26 @@ const LinkElementWrapper = styled.div`
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  margin: 5px 0px;
+
+  :not(:last-child) {
+    margin-bottom: 10px;
+  }
+`;
+
+const LinkText = styled(Text)`
+  ${mqUntil(
+    "md",
+    css`
+      font-size: 13px;
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      font-size: 14px;
+    `
+  )}
 `;
 
 const ArrowIcon = styled(Icon)`
@@ -52,16 +72,14 @@ export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
           {title}
         </Title>
       </TitleWrapper>
-
       {links?.map((linkElement, index) => (
         <LinkElementWrapper key={index}>
           <ArrowIcon name="chevron-right" size="18px" color="light" />
-
-          <Text color="light" weight="book">
+          <LinkText color="light" weight="book">
             {linkElement.renderLink
               ? linkElement.renderLink?.(linkElement.label)
               : linkElement.label}
-          </Text>
+          </LinkText>
         </LinkElementWrapper>
       ))}
     </LinksListRoot>

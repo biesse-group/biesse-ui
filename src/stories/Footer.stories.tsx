@@ -21,11 +21,11 @@ const defaultArgs: FooterProps = {
   logo: <Logo name="HSD" color="white" />,
   siteInfo: {
     iconName: "location",
-    title: "HSD",
+    title: "HSD SpA",
     body: (
       <div style={{ display: "flex", flexDirection: "column" }}>
         <Text size="xs" color="light" font-weight="book">
-          SpA Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
+          Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
         </Text>
         <Text size="xs" color="light" font-weight="book">
           Sede Centrale: Via Pesaro, 10A 61012 Gradara (PU) - Italy
@@ -49,9 +49,16 @@ const defaultArgs: FooterProps = {
       </div>
     ),
   },
-  contactsLocator: {
-    title: "CONTATTI",
-  },
+  extraInfo: [
+    {
+      title: "Assistenza telefonica:",
+      lines: ["+39 0541 979010", "Fax: +39 0541 979050"],
+    },
+    {
+      title: "Service Italia:",
+      lines: [<a href="mailto:servicehsd@hsd.it">servicehsd@hsd.it</a>],
+    },
+  ],
   socialLink: {
     label: "Seguici",
     socialIcon: "linkedin",
@@ -67,7 +74,6 @@ const defaultArgs: FooterProps = {
     title: "Servizi",
     links: ["UNO", "Due", "TRE", "QUATTRO", "CINQUE"].map((index) => ({
       label: `SERVIZIO ${index}`,
-      renderLink: (x) => <a href="/">{x}</a>,
     })),
   },
 };

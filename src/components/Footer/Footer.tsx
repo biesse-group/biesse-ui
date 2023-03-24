@@ -2,9 +2,9 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
-import { ContactsInfoBox, InfoBoxProps } from "./InfoBox";
+import { ExtraInfo, ExtraInfoProps } from "./ExtraInfo";
+import { InfoBox, InfoBoxProps } from "./InfoBox";
 import { LinksList, LinksListProps } from "./LinksList";
-import { LocatorBox, LocatorBoxProps } from "./LocatorBox";
 import { SocialLink, SocialLinkProps } from "./SocialLink";
 
 export interface FooterProps {
@@ -25,9 +25,9 @@ export interface FooterProps {
    */
   rightLinksList?: LinksListProps;
   /**
-   * Element on the right, should contain contacts map, default version is HSD static one
+   * Element containing extra information
    */
-  contactsLocator?: LocatorBoxProps;
+  extraInfo?: ExtraInfoProps[];
   /**
    * First info box, containing site data, placed on the bottom of the footer
    */
@@ -49,8 +49,9 @@ const FooterRoot = styled.div`
   justify-content: center;
   width: 100%;
   background-color: ${(props) => props.theme.color.primary};
-
+  color: ${(props) => props.theme.color.white};
   padding: 40px 90px 50px 90px;
+
   ${mqUntil(
     "md",
     css`
@@ -71,88 +72,101 @@ const FooterContainer = styled.div`
   width: 100%;
   height: auto;
   max-width: ${(props) => props.theme.breakpoints.xxl}px;
-
   display: grid;
-
-  grid-template-rows: auto 1fr;
   row-gap: 20px;
-  grid-template-columns: repeat(3, auto 1fr) [social-link-start] auto;
   column-gap: 10px;
-
+  grid-template-rows: auto 1fr;
+  grid-template-columns: repeat(3, auto 1fr) [social-link-start] auto;
   grid-template-areas:
-    "logo . projects . services . locator"
-    "info-box . projects . services . locator";
+    "logo . projects . services . social-link"
+    "info-box . projects . services . ."
+    "info-box . projects . services . extra";
 
   ${mqUntil(
     "md",
     css`
-      grid-template-rows: minmax(40px, auto) 1fr auto;
       row-gap: 24px;
-      grid-template-columns: 1fr 1fr auto;
       column-gap: 0px;
-
+      grid-template-columns: repeat(2, auto 1fr) auto;
       grid-template-areas:
-        "logo logo logo"
-        "projects services locator"
-        "info-box info-box info-box";
+        "logo . projects . services"
+        "info-box . projects . services"
+        "info-box . projects . services"
+        "social-link . projects . services"
+        "extra extra extra extra extra";
     `
   )}
 
   ${mqUntil(
     "sm",
     css`
+      row-gap: 45px;
       grid-template-rows: repeat(5, auto);
       grid-template-columns: 45px 1fr;
-      row-gap: 45px;
-
       grid-template-areas:
-        "logo logo"
-        "locator locator"
+        ". logo"
+        "info-box info-box"
         ". projects"
         ". services"
-        "info-box info-box";
+        ". social-link"
+        ". extra";
     `
   )}
 `;
 
 const LogoWrapper = styled.div`
   grid-area: logo;
-  color: ${(props) => props.theme.color.white};
   width: 300px;
+
   ${mqUntil(
     "md",
     css`
       width: 260px;
     `
   )}
-  ${mqUntil(
-    "sm",
-    css`
-      align-self: center;
-      justify-self: center;
-    `
-  )}
 `;
 
-const LocatorWrapper = styled.div`
-  grid-area: locator;
-
+const ExtraWrapper = styled.div`
+  grid-area: extra;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   max-width: 100%;
 
+  > :not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  ${mqUntil(
+    "md",
+    css`
+      flex-direction: row;
+      margin-left: 36px;
+
+      > :not(:last-child) {
+        margin-right: 24px;
+        margin-bottom: 0;
+      }
+    `
+  )}
+
   ${mqUntil(
     "sm",
     css`
-      justify-self: stretch;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0;
+
+      > :not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 24px;
+      }
     `
   )}
 `;
 
 const InfoWrapper = styled.div`
   grid-area: info-box;
-
   display: grid;
   grid-template-rows: 1fr repeat(2, auto);
   grid-template-columns: auto;
@@ -164,45 +178,44 @@ const InfoWrapper = styled.div`
   ${mqUntil(
     "md",
     css`
-      grid-template-rows: auto;
-      grid-template-columns: repeat(2, auto);
+      grid-template-rows: auto auto 1fr;
       column-gap: 10px;
-      grid-template-areas: "info-site info-contacts";
+      row-gap: 15px;
+      align-items: start;
+      grid-template-areas:
+        "info-site"
+        "info-contacts"
+        ".";
     `
   )}
 
   ${mqUntil(
     "sm",
     css`
-      grid-template-rows: repeat(2, auto);
       grid-template-columns: auto;
-      grid-template-areas:
-        "info-site"
-        "info-contacts";
+      row-gap: 0;
     `
   )}
 `;
 
-const SiteWrapper = styled.div`
+const SiteInfoBox = styled(InfoBox)`
   grid-area: info-site;
 `;
 
-const ContactsWrapper = styled.div`
+const ContactsInfoBox = styled(InfoBox)`
   grid-area: info-contacts;
 `;
 
-const LeftLinksWrapper = styled.div`
+const LeftLinksList = styled(LinksList)`
   grid-area: projects;
 `;
 
-const RightLinksWrapper = styled.div`
+const RightLinksList = styled(LinksList)`
   grid-area: services;
 `;
 
-const SocialLinkWrapper = styled.div`
-  grid-area: 1 / social-link-start;
-  justify-self: end;
-  z-index: 1;
+const StyledSocialLink = styled(SocialLink)`
+  grid-area: social-link;
 `;
 
 export const Footer: FC<FooterProps> = ({
@@ -211,9 +224,9 @@ export const Footer: FC<FooterProps> = ({
   logo,
   leftLinksList,
   rightLinksList,
-  contactsLocator,
   siteInfo,
   contactsInfo,
+  extraInfo,
   socialLink,
   ...props
 }) => {
@@ -221,43 +234,26 @@ export const Footer: FC<FooterProps> = ({
     <FooterRoot className={className} data-testid={testId} {...props}>
       <FooterContainer>
         <LogoWrapper>{logo}</LogoWrapper>
-
         {(siteInfo || contactsInfo) && (
           <InfoWrapper>
-            {siteInfo && (
-              <SiteWrapper>
-                <ContactsInfoBox {...siteInfo} />
-              </SiteWrapper>
-            )}
-            {contactsInfo && (
-              <ContactsWrapper>
-                <ContactsInfoBox {...contactsInfo} />
-              </ContactsWrapper>
-            )}
+            {siteInfo && <SiteInfoBox {...siteInfo} />}
+            {contactsInfo && <ContactsInfoBox {...contactsInfo} />}
           </InfoWrapper>
         )}
-
-        {leftLinksList && (
-          <LeftLinksWrapper>
-            <LinksList {...leftLinksList} />
-          </LeftLinksWrapper>
+        {leftLinksList && <LeftLinksList {...leftLinksList} />}
+        {rightLinksList && <RightLinksList {...rightLinksList} />}
+        {socialLink && <StyledSocialLink {...socialLink} />}
+        {extraInfo && (
+          <ExtraWrapper>
+            {extraInfo.map((props) => (
+              <ExtraInfo {...props} />
+            ))}
+          </ExtraWrapper>
         )}
-        {rightLinksList && (
-          <RightLinksWrapper>
-            <LinksList {...rightLinksList} />
-          </RightLinksWrapper>
-        )}
-
-        {socialLink && (
-          <SocialLinkWrapper>
-            <SocialLink {...socialLink} />
-          </SocialLinkWrapper>
-        )}
-        {contactsLocator && (
-          <LocatorWrapper>
-            <LocatorBox {...contactsLocator} />
-          </LocatorWrapper>
-        )}
+        {/* <ExtraWrapper>
+          {socialLink && <SocialLink {...socialLink} />}
+          {extraInfo && <ExtraInfoWrapper>{extraInfo}</ExtraInfoWrapper>}
+        </ExtraWrapper> */}
       </FooterContainer>
     </FooterRoot>
   );
