@@ -44,11 +44,23 @@ const CardRoot = styled.div`
   }
 `;
 
-const TagWrapper = styled.div`
+const TagsWrapper = styled.div`
   position: absolute;
+  z-index: 1;
   top: 20px;
   left: 20px;
-  z-index: 1;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  > * {
+    margin-bottom: 10px;
+
+    :not(:last-child) {
+      margin-right: 10px;
+    }
+  }
 `;
 
 const CardTitle = styled(Title)<Pick<CardProps, "preTitle">>`
@@ -82,7 +94,7 @@ export interface CardProps {
   /**
    * Tag, overlaid on image
    */
-  tag?: React.ReactElement;
+  tags?: React.ReactElement[];
   /**
    * Custom image render function
    */
@@ -110,11 +122,11 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   children,
   action,
   image,
-  tag,
+  tags,
 }) => {
   return (
     <CardRoot className={className} data-testid={testId}>
-      {tag && <TagWrapper>{tag}</TagWrapper>}
+      {tags && <TagsWrapper>{tags}</TagsWrapper>}
       {image && (
         <CardImgWrapper>
           <CardImageInner>{image}</CardImageInner>

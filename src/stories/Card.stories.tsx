@@ -56,10 +56,17 @@ WithButton.play = async ({ canvasElement }) => {
   await userEvent.click(canvas.getByTestId("action-button"));
 };
 
-export const WithTagAndButton = Template.bind({});
+export const WithTagsAndButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-WithTagAndButton.args = {
+WithTagsAndButton.args = {
   ...defaultArgs,
   action: <Button variant="outline" children="Action" testId="action-button" />,
-  tag: <Tag color="stone" icon="material-stone" border />,
+  tags: [
+    <Tag key="1" color="stone" icon="material-stone" border>
+      Stone
+    </Tag>,
+    <Tag key="2" color="wood" icon="material-wood" border>
+      Wood
+    </Tag>,
+  ],
 };

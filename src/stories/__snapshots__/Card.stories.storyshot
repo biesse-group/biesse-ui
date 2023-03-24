@@ -691,7 +691,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards/Card With Tag And Button 1`] = `
+exports[`Storyshots Cards/Card With Tags And Button 1`] = `
 .c3 {
   display: inline-block;
   height: 20px;
@@ -832,9 +832,29 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 
 .c1 {
   position: absolute;
+  z-index: 1;
   top: 20px;
   left: 20px;
-  z-index: 1;
+  right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c1 > * {
+  margin-bottom: 10px;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 10px;
 }
 
 .c13 {
@@ -996,7 +1016,37 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
           className="c5 c6"
           color="light"
           size="sm"
-        />
+        >
+          Stone
+        </span>
+      </div>
+      <div
+        className="c2"
+        color="wood"
+      >
+        <span
+          className="c3 c4"
+          color="#FFF"
+          size="xs"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+              fill="currentColor"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <span
+          className="c5 c6"
+          color="light"
+          size="sm"
+        >
+          Wood
+        </span>
       </div>
     </div>
     <div
