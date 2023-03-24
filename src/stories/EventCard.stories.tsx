@@ -4,7 +4,6 @@ import "dayjs/locale/it";
 
 import { EventCard, Input, Text } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Cards/EventCard",
   component: EventCard,
@@ -17,7 +16,6 @@ export default {
   ],
 } as ComponentMeta<typeof EventCard>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof EventCard> = (args) => {
   const { startDate, endDate, ...otherArgs } = args;
 
