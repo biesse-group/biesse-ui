@@ -30,21 +30,22 @@ const EventCardRoot = styled.div`
 const EventCardMainWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 30px 30px 0px 22px;
+  padding: 20px 30px 0px 22px;
 `;
 
 const CardTitle = styled(Title)`
   margin-bottom: 11px;
+  font-size: 30px;
 `;
 
 const DateSubtitle = styled(Text)`
   font-style: italic;
 
-  margin-bottom: 27px;
+  margin-bottom: 14px;
 `;
 
 const ActionWrapper = styled.div`
-  padding: 20px 15px 20px 20px;
+  padding: 0px 15px 20px 20px;
   position: relative;
 `;
 
