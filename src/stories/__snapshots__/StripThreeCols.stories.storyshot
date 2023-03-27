@@ -24,7 +24,7 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 .c1 {
   width: 100%;
   max-width: 1600px;
-  padding: 0 40px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -68,15 +68,15 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
+@media screen and (min-width:768px) {
   .c1 {
     padding: 0 25px;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:1200px) {
   .c1 {
-    padding: 0 15px;
+    padding: 0 90px;
   }
 }
 
@@ -180,7 +180,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 .c1 {
   width: 100%;
   max-width: 1600px;
-  padding: 0 40px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -228,15 +228,15 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 
 }
 
-@media screen and (max-width:991px) {
+@media screen and (min-width:768px) {
   .c1 {
     padding: 0 25px;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:1200px) {
   .c1 {
-    padding: 0 15px;
+    padding: 0 90px;
   }
 }
 
