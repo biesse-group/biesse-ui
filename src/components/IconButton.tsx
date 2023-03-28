@@ -28,6 +28,7 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   cursor: pointer;
   width: 50px;
   height: 50px;
+  padding: 0;
 
   ${mqUntil(
     "sm",
