@@ -30,7 +30,8 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 .c4 {
   display: grid;
   grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
-  gap: 20px;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
 }
 
 .c3 {
@@ -88,6 +89,8 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 
 @media screen and (max-width:767px) {
   .c4 {
+    row-gap: 40px;
+    padding: 0 15px;
     grid-template-columns: auto;
     grid-template-areas: "main" "secondary1" "secondary2";
   }
@@ -198,7 +201,8 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 .c4 {
   display: grid;
   grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
-  gap: 20px;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
 }
 
 .c3 {
