@@ -1,12 +1,26 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
-import { Button, Card, MaterialTag, Text } from "../components";
+import { Button, Card, Tag } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Cards/Card",
   component: Card,
+  argTypes: {
+    children: {
+      type: "string",
+    },
+    action: {
+      control: false,
+    },
+    image: {
+      control: false,
+    },
+    tags: {
+      control: false,
+    },
+  },
   decorators: [
     (Story) => (
       <div style={{ maxWidth: 500 }}>
@@ -21,34 +35,37 @@ const Template: ComponentStory<typeof Card> = (args) => <Card {...args} />;
 
 const defaultArgs = {
   title: "Example card",
-  children: (
-    <Text size="md">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-      laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto
-      beatae vitae dicta sunt, explicabo.
-    </Text>
-  ),
+  children:
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
   image: <img src="https://dummyimage.com/600x400/ccc/fff.png" alt="dummy" />,
 };
 
+const tags = [
+  <Tag key="1" color="stone" icon="material-stone" border>
+    Stone
+  </Tag>,
+  <Tag key="2" color="wood" icon="material-wood" border>
+    Wood
+  </Tag>,
+];
+const preTitle = "01 gennaio 2023, Location";
+const action = <Button variant="outline" children="Action" testId="action-button" />;
+
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   ...defaultArgs,
 };
 
 export const WithPreTitle = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithPreTitle.args = {
   ...defaultArgs,
-  preTitle: "01 gennaio 2023, Location",
+  preTitle,
 };
 
 export const WithButton = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithButton.args = {
   ...defaultArgs,
-  action: <Button variant="outline" children="Action" testId="action-button" />,
+  action,
 };
 
 WithButton.play = async ({ canvasElement }) => {
@@ -56,10 +73,16 @@ WithButton.play = async ({ canvasElement }) => {
   await userEvent.click(canvas.getByTestId("action-button"));
 };
 
-export const WithTagAndButton = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-WithTagAndButton.args = {
+export const WithTags = Template.bind({});
+WithTags.args = {
   ...defaultArgs,
-  action: <Button variant="outline" children="Action" testId="action-button" />,
-  tag: <MaterialTag material="stone" border={true} />,
+  tags,
+};
+
+export const CompleteExample = Template.bind({});
+CompleteExample.args = {
+  ...defaultArgs,
+  preTitle,
+  tags,
+  action,
 };

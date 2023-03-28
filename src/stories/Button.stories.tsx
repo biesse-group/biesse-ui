@@ -22,7 +22,6 @@ export default {
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   variant: "primary",
   children: "Primary",
@@ -34,7 +33,6 @@ Primary.play = async ({ canvasElement }) => {
 };
 
 export const PrimaryInverted = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 PrimaryInverted.args = {
   variant: "primary-inverted",
   children: "Primary inverted",

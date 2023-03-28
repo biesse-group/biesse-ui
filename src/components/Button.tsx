@@ -105,6 +105,7 @@ const StyledButton = styled.button<ButtonProps>`
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
 
   ${(props) => getSizeStyle(props.size)}
   ${(props) => getVariantStyle(props.variant)}

@@ -26,6 +26,7 @@ const CardTitle = styled(Title)`
 
 const CardIconWrapper = styled.div`
   margin-bottom: 36px;
+  color: ${(props) => props.theme.color.primary};
 `;
 
 const CardActions = styled.div`
@@ -109,7 +110,9 @@ export const HorizontalCard: FC<HorizontalCardProps> = ({
               {typeof icon === "string" ? <Icon name={icon} color={theme.color.primary} /> : icon}
             </CardIconWrapper>
           )}
-          <CardTitle variant="H5">{title}</CardTitle>
+          <CardTitle variant="H5" color="primary">
+            {title}
+          </CardTitle>
           {typeof description === "string" ? <Text>{description}</Text> : description}
         </CardUpperContent>
         <CardActions>{actions}</CardActions>

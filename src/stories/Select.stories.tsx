@@ -40,7 +40,6 @@ const options: SelectOption[] = [
 ];
 
 export const DarkBackground = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 DarkBackground.args = {
   placeholder: "Select something",
   options,
@@ -49,7 +48,6 @@ DarkBackground.args = {
 };
 
 export const LightBackground = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 LightBackground.args = {
   placeholder: "Select something",
   options,
@@ -58,7 +56,6 @@ LightBackground.args = {
 };
 
 export const Selected = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Selected.args = {
   placeholder: "Select something",
   options,

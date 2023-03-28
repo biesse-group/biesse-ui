@@ -4,7 +4,6 @@ import { userEvent, within } from "@storybook/testing-library";
 import { IconButton } from "../components";
 import { BackgroundDecorator } from "./decorators";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Buttons/IconButton",
   component: IconButton,
@@ -28,11 +27,9 @@ export default {
   ],
 } as ComponentMeta<typeof IconButton>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof IconButton> = (args) => <IconButton {...args} />;
 
 export const Primary = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
   icon: "careers",
   variant: "primary",
@@ -45,7 +42,6 @@ Primary.play = async ({ canvasElement }) => {
 };
 
 export const PrimaryInverted = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 PrimaryInverted.args = {
   icon: "arrow-right",
   variant: "primary-inverted",
@@ -53,7 +49,6 @@ PrimaryInverted.args = {
 };
 
 export const Light = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Light.args = {
   icon: "arrow-right",
   variant: "light",

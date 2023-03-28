@@ -1,9 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-// import { userEvent, within } from "@storybook/testing-library";
 import { VideoBanner } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Video/VideoBanner",
   component: VideoBanner,
@@ -12,11 +10,9 @@ export default {
   },
 } as ComponentMeta<typeof VideoBanner>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof VideoBanner> = (args) => <VideoBanner {...args} />;
 
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   title: "La Produzione",
   subTitle: "Efficienza e competenza",
@@ -28,7 +24,7 @@ Default.args = {
   },
 };
 
-// Chrome policies breaks the component, TODO
+// TODO Chrome policies breaks the component
 // Default.play = async ({ canvasElement }) => {
 //   const canvas = within(canvasElement);
 //   await userEvent.click(canvas.getByTestId("video-player"));

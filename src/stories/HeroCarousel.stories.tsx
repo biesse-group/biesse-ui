@@ -13,14 +13,11 @@ export default {
   },
   argTypes: {
     slides: {
-      table: {
-        disable: true,
-      },
+      control: false,
     },
   },
 } as ComponentMeta<typeof HeroCarousel>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof HeroCarousel> = (args) => <HeroCarousel {...args} />;
 
 const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {

@@ -19,7 +19,7 @@ export interface LogoProps {
   /**
    * Color of the logo
    */
-  color?: string;
+  color?: "primary" | "white" | string;
   testId?: string;
 }
 
@@ -35,7 +35,11 @@ const LogoRoot = styled.div<Pick<LogoProps, "width" | "color">>`
     width: 100%;
   }
 
-  color: ${(props) => props.color};
+  ${({ color, theme }) =>
+    color &&
+    css`
+      color: ${color === "primary" || color === "white" ? theme.color[color] : color};
+    `}
 
   ${(props) => css`
     width: ${props.width};

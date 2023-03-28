@@ -3,29 +3,30 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Footer, FooterProps } from "../components";
 import { Logo, Text } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Navigation/Footer",
   component: Footer,
+  argTypes: {
+    logo: {
+      control: false,
+    },
+  },
   parameters: {
     layout: "fullscreen",
   },
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-  argTypes: {},
 } as ComponentMeta<typeof Footer>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;
 
 const defaultArgs: FooterProps = {
   logo: <Logo name="HSD" color="white" />,
   siteInfo: {
     iconName: "location",
-    title: "HSD",
+    title: "HSD SpA",
     body: (
       <div style={{ display: "flex", flexDirection: "column" }}>
         <Text size="xs" color="light" font-weight="book">
-          SpA Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
+          Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
         </Text>
         <Text size="xs" color="light" font-weight="book">
           Sede Centrale: Via Pesaro, 10A 61012 Gradara (PU) - Italy
@@ -49,9 +50,16 @@ const defaultArgs: FooterProps = {
       </div>
     ),
   },
-  contactsLocator: {
-    title: "CONTATTI",
-  },
+  extraInfo: [
+    {
+      title: "Assistenza telefonica:",
+      lines: ["+39 0541 979010", "Fax: +39 0541 979050"],
+    },
+    {
+      title: "Service Italia:",
+      lines: [<a href="mailto:servicehsd@hsd.it">servicehsd@hsd.it</a>],
+    },
+  ],
   socialLink: {
     label: "Seguici",
     socialIcon: "linkedin",
@@ -67,13 +75,11 @@ const defaultArgs: FooterProps = {
     title: "Servizi",
     links: ["UNO", "Due", "TRE", "QUATTRO", "CINQUE"].map((index) => ({
       label: `SERVIZIO ${index}`,
-      renderLink: (x) => <a href="/">{x}</a>,
     })),
   },
 };
 
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   ...defaultArgs,
 };

@@ -10,7 +10,7 @@ export * from "./IconButton";
 export * from "./IconCard";
 export * from "./Input";
 export * from "./Logo";
-export * from "./MaterialTag";
+export * from "./Tag";
 export * from "./ProductCarousel";
 export * from "./SearchBar";
 export * from "./Select";

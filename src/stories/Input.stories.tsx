@@ -4,12 +4,16 @@ import { userEvent, within } from "@storybook/testing-library";
 import { Input } from "../components";
 import { BackgroundDecorator } from "./decorators";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Inputs/Input",
   component: Input,
   parameters: {
     layout: "fullscreen",
+  },
+  argTypes: {
+    onChange: {
+      control: false,
+    },
   },
   decorators: [
     (Story, { args }) => (
@@ -20,18 +24,15 @@ export default {
   ],
 } as ComponentMeta<typeof Input>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
 
 export const DarkBackground = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 DarkBackground.args = {
   placeholder: "Name",
   shadow: "dark",
 };
 
 export const LightBackground = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 LightBackground.args = {
   placeholder: "Name",
   shadow: "light",
@@ -39,7 +40,6 @@ LightBackground.args = {
 };
 
 export const WithButton = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithButton.args = {
   placeholder: "Name",
   withButton: {
@@ -48,7 +48,6 @@ WithButton.args = {
 };
 
 export const Filled = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Filled.args = {
   placeholder: "Name",
   shadow: "dark",

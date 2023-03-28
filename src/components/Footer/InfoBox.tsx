@@ -18,6 +18,7 @@ export interface InfoBoxProps {
    * Icon to be placed on the left of the info box
    */
   iconName?: IconName;
+  className?: string;
 }
 
 const InfoBoxBodyContainer = styled.div`
@@ -27,31 +28,32 @@ const InfoBoxBodyContainer = styled.div`
   column-gap: 20px;
 
   ${mqUntil(
+    "md",
+    css`
+      column-gap: 10px;
+    `
+  )}
+
+  ${mqUntil(
     "sm",
     css`
-      grid-template-rows: auto auto;
       grid-template-columns: 35px 1fr;
-      column-gap: 10px;
     `
   )}
 `;
 
-const InfoTitleWrapper = styled.div`
+const InfoTitle = styled(Text)`
   grid-area: 1/2;
-  > span {
-    font-weight: bold;
-  }
 `;
 
 const InfoIcon = styled(Icon)`
   grid-area: 2 / 1;
   justify-self: end;
   align-self: end;
-
   margin-bottom: 5px;
 
   ${mqUntil(
-    "sm",
+    "md",
     css`
       align-self: start;
     `
@@ -63,27 +65,24 @@ const InfoTextWrapper = styled.div`
   grid-area: 2 / 2;
 `;
 
-export const ContactsInfoBox: FC<InfoBoxProps> = ({ title, body, iconName, ...props }) => {
+export const InfoBox: FC<InfoBoxProps> = ({ title, body, iconName, ...props }) => {
   return (
     <InfoBoxBodyContainer {...props}>
       {title && (
-        <InfoTitleWrapper>
-          <Text size="xs" color="light" font-weight="book">
-            {title}
-          </Text>
-        </InfoTitleWrapper>
+        <InfoTitle size="xs" color="light" weight="bold">
+          {title}
+        </InfoTitle>
       )}
-      {iconName && <InfoIcon name={iconName} size="20px" color="light" />}
-
-      {typeof body === "string" ? (
-        <InfoTextWrapper>
-          <Text size="xs" color="light" font-weight="book">
+      {iconName && <InfoIcon name={iconName} size="24px" color="light" />}
+      <InfoTextWrapper>
+        {typeof body === "string" ? (
+          <Text size="xs" color="light" weight="book">
             {body}
           </Text>
-        </InfoTextWrapper>
-      ) : (
-        <InfoTextWrapper>{body}</InfoTextWrapper>
-      )}
+        ) : (
+          body
+        )}
+      </InfoTextWrapper>
     </InfoBoxBodyContainer>
   );
 };

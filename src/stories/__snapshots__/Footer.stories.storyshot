@@ -3,8 +3,8 @@
 exports[`Storyshots Navigation/Footer Default 1`] = `
 .c9 {
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
   color: #FFF;
 }
 
@@ -14,33 +14,49 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: light;
 }
 
-.c18 {
+.c19 {
   display: inline-block;
   height: 18px;
   width: 18px;
   color: #FFF;
 }
 
-.c18 > svg {
+.c19 > svg {
   height: 100%;
   width: 100%;
   color: light;
 }
 
-.c24 {
+.c26 {
   display: inline-block;
   height: 28px;
   width: 28px;
   color: #FFF;
 }
 
-.c24 > svg {
+.c26 > svg {
   height: 100%;
   width: 100%;
   color: light;
 }
 
-.c8 {
+.c7 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFF;
+}
+
+.c7 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFF;
+}
+
+.c12 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 13px;
@@ -48,7 +64,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: #FFF;
 }
 
-.c8 a {
+.c12 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 13px;
@@ -56,7 +72,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: #FFF;
 }
 
-.c20 {
+.c21 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -64,7 +80,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: #FFF;
 }
 
-.c20 a {
+.c21 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -72,7 +88,41 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   color: #FFF;
 }
 
-.c16 {
+.c30 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+  margin: 0;
+}
+
+.c30 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.c32 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+  margin: 0;
+}
+
+.c32 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.c17 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -81,7 +131,22 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   font-size: 24px;
 }
 
-.c6 {
+.c29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c34 {
+  display: none;
+  margin: 0 8px;
+}
+
+.c5 {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto 1fr;
@@ -89,12 +154,8 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   column-gap: 20px;
 }
 
-.c7 {
+.c8 {
   grid-area: 1/2;
-}
-
-.c7 > span {
-  font-weight: bold;
 }
 
 .c10 {
@@ -122,11 +183,11 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   text-transform: uppercase;
 }
 
-.c15 {
+.c16 {
   margin-left: 6px;
 }
 
-.c17 {
+.c18 {
   position: relative;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -139,42 +200,17 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin: 5px 0px;
 }
 
-.c19 {
+.c18:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.c20 {
   margin-right: 10px;
 }
 
-.c26 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-transform: uppercase;
-}
-
-.c27 {
-  margin-bottom: 20px;
-}
-
-.c28 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.c23 {
+.c24 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -188,8 +224,8 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   align-items: center;
 }
 
-.c23 > span {
-  margin-right: 12px;
+.c27 {
+  margin-left: 15px;
 }
 
 .c0 {
@@ -204,6 +240,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   justify-content: center;
   width: 100%;
   background-color: #6D6E70;
+  color: #FFF;
   padding: 40px 90px 50px 90px;
 }
 
@@ -213,22 +250,21 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   height: auto;
   max-width: 1600px;
   display: grid;
-  grid-template-rows: auto 1fr;
   row-gap: 20px;
-  grid-template-columns: repeat(3,auto 1fr) [social-link-start] auto;
   -webkit-column-gap: 10px;
   column-gap: 10px;
-  grid-template-areas: "logo . projects . services . locator" "info-box . projects . services . locator";
+  grid-template-rows: auto 1fr;
+  grid-template-columns: repeat(3,auto 1fr) [social-link-start] auto;
+  grid-template-areas: "logo . projects . services . social-link" "info-box . projects . services . ." "info-box . projects . services . extra";
 }
 
 .c2 {
   grid-area: logo;
-  color: #FFF;
   width: 300px;
 }
 
-.c25 {
-  grid-area: locator;
+.c28 {
+  grid-area: extra;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -243,6 +279,10 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   max-width: 100%;
 }
 
+.c28 > :not(:last-child) {
+  margin-bottom: 24px;
+}
+
 .c4 {
   grid-area: info-box;
   display: grid;
@@ -251,30 +291,28 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   grid-template-areas: "." "info-site" "info-contacts";
 }
 
-.c5 {
+.c6 {
   grid-area: info-site;
 }
 
-.c12 {
+.c13 {
   grid-area: info-contacts;
 }
 
-.c13 {
+.c15 {
   grid-area: projects;
 }
 
-.c21 {
+.c23 {
   grid-area: services;
 }
 
-.c22 {
-  grid-area: 1 / social-link-start;
-  justify-self: end;
-  z-index: 1;
+.c25 {
+  grid-area: social-link;
 }
 
 .c3 {
-  color: white;
+  color: #FFF;
 }
 
 .c3 svg {
@@ -282,7 +320,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c8 {
+  .c7 {
     font-size: 12px;
   }
 }
@@ -292,7 +330,27 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c8 a {
+  .c7 a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c12 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c12 a {
     font-size: 12px;
   }
 }
@@ -306,7 +364,7 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c20 {
+  .c21 {
     font-size: 14px;
   }
 }
@@ -316,33 +374,174 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c20 a {
+  .c21 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c16 {
+  .c30 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c30 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c30 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c30 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c32 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c32 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c32 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c32 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c17 {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c16 {
+  .c17 {
     font-size: 20px;
   }
 }
 
+@media screen and (max-width:991px) {
+  .c29 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width:767px) {
-  .c6 {
-    grid-template-rows: auto auto;
-    grid-template-columns: 35px 1fr;
+  .c29 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c31 {
+    font-size: 13px;
+  }
+
+  .c31 a {
+    font-size: 13px;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c31 {
+    font-size: 14px;
+  }
+
+  .c31 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c31 {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c33 {
+    font-size: 13px;
+  }
+
+  .c33 a {
+    font-size: 13px;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c33 {
+    font-size: 14px;
+  }
+
+  .c33 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c34 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c34 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c5 {
     -webkit-column-gap: 10px;
     column-gap: 10px;
   }
 }
 
 @media screen and (max-width:767px) {
+  .c5 {
+    grid-template-columns: 35px 1fr;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c10 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
@@ -351,20 +550,52 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
+  .c22 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c22 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c24 {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c24 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c27 {
-    margin-left: 20px;
+    margin-left: 0;
+    margin-right: 8px;
   }
 }
 
 @media screen and (max-width:767px) {
   .c27 {
-    margin-left: 51px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c23 {
-    display: none;
+    margin-left: 15px;
+    margin-right: 0;
   }
 }
 
@@ -382,21 +613,20 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 
 @media screen and (max-width:991px) {
   .c1 {
-    grid-template-rows: minmax(40px,auto) 1fr auto;
     row-gap: 24px;
-    grid-template-columns: 1fr 1fr auto;
     -webkit-column-gap: 0px;
     column-gap: 0px;
-    grid-template-areas: "logo logo logo" "projects services locator" "info-box info-box info-box";
+    grid-template-columns: repeat(2,auto 1fr) auto;
+    grid-template-areas: "logo . projects . services" "info-box . projects . services" "info-box . projects . services" "social-link . projects . services" "extra extra extra extra extra";
   }
 }
 
 @media screen and (max-width:767px) {
   .c1 {
+    row-gap: 45px;
     grid-template-rows: repeat(5,auto);
     grid-template-columns: 45px 1fr;
-    row-gap: 45px;
-    grid-template-areas: "logo logo" "locator locator" ". projects" ". services" "info-box info-box";
+    grid-template-areas: "logo logo" "info-box info-box" ". projects" ". services" ". social-link" ". extra";
   }
 }
 
@@ -408,34 +638,60 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
 
 @media screen and (max-width:767px) {
   .c2 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
     justify-self: center;
   }
 }
 
+@media screen and (max-width:991px) {
+  .c28 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: 36px;
+  }
+
+  .c28 > :not(:last-child) {
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (max-width:767px) {
-  .c25 {
-    justify-self: stretch;
+  .c28 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+
+  .c28 > :not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 24px;
   }
 }
 
 @media screen and (max-width:991px) {
   .c4 {
-    grid-template-rows: auto;
-    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto auto 1fr;
     -webkit-column-gap: 10px;
     column-gap: 10px;
-    grid-template-areas: "info-site info-contacts";
+    row-gap: 15px;
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    grid-template-areas: "info-site" "info-contacts" ".";
   }
 }
 
 @media screen and (max-width:767px) {
   .c4 {
-    grid-template-rows: repeat(2,auto);
     grid-template-columns: auto;
-    grid-template-areas: "info-site" "info-contacts";
+    row-gap: 0;
   }
 }
 
@@ -499,1013 +755,564 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
       className="c4"
     >
       <div
-        className="c5"
-      >
-        <div
-          className="c6"
-        >
-          <div
-            className="c7"
-          >
-            <span
-              className="c8"
-              color="light"
-              size="xs"
-            >
-              HSD
-            </span>
-          </div>
-          <span
-            className="c9 c10"
-            color="light"
-            size="20px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M20.982 23.735c.37 1.403.891 2.618 1.523 3.552a8.611 8.611 0 0 1-5.13-4.94c.958.597 2.191 1.072 3.607 1.388Zm-.412-7.602a19.885 19.885 0 0 0-.185 3.136c.02 1.07.122 2.12.302 3.126-2.198-.688-3.515-1.823-3.538-3.066-.024-1.242 1.25-2.426 3.42-3.196Zm1.631-4.957c-.596.958-1.071 2.191-1.387 3.607-1.404.369-2.619.89-3.553 1.523a8.612 8.612 0 0 1 4.94-5.13Zm3.017-.227c1.243-.01 2.427 1.25 3.197 3.422a19.88 19.88 0 0 0-3.135-.184c-1.07.02-2.121.121-3.126.302.687-2.2 1.822-3.516 3.064-3.54Zm8.154 5.053c-.957-.597-2.19-1.072-3.607-1.388-.369-1.403-.89-2.618-1.522-3.552a8.61 8.61 0 0 1 5.129 4.94Zm-3.194 6.214c.142-1.012.204-2.065.184-3.135-.02-1.07-.122-2.12-.302-3.127 2.199.688 3.515 1.823 3.539 3.065.024 1.243-1.25 2.427-3.421 3.197Zm-1.631 4.957c.596-.957 1.071-2.19 1.387-3.607 1.403-.37 2.618-.891 3.553-1.523a8.612 8.612 0 0 1-4.94 5.13Zm-6.587-4.454a16.13 16.13 0 0 1-.43-3.472 16.141 16.141 0 0 1 .3-3.486 16.154 16.154 0 0 1 3.471-.43 16.11 16.11 0 0 1 3.486.3 16.13 16.13 0 0 1 .43 3.47 16.141 16.141 0 0 1-.299 3.487c-1.09.263-2.257.407-3.471.43a16.087 16.087 0 0 1-3.487-.299Zm3.57 4.681c-1.232.017-2.428-1.25-3.198-3.421 1.012.142 2.066.203 3.136.184 1.07-.02 2.12-.122 3.126-.302-.687 2.199-1.822 3.515-3.065 3.539Zm-.156 2.05c5.665 0 10.274-4.61 10.274-10.275S31.04 8.9 25.374 8.9c-5.666 0-10.275 4.61-10.275 10.275S19.71 29.45 25.374 29.45Zm0-23.589c7.34 0 13.313 5.972 13.313 13.313 0 7.34-5.972 13.313-13.313 13.313-7.34 0-13.313-5.972-13.313-13.313 0-7.34 5.972-13.313 13.313-13.313Zm-7.628 34.274c2.65 2.846 7.624 8.871 7.628 8.865.004.006 4.98-6.019 7.629-8.865 2.085-2.241 4.124-4.52 5.889-7.028 2.29-3.255 4.04-6.955 4.635-10.87.208-1.365.275-2.755.176-4.162a18.19 18.19 0 0 0-3.514-9.57 18.142 18.142 0 0 0-5.413-4.906A18.255 18.255 0 0 0 25.374 1a18.26 18.26 0 0 0-9.401 2.599 18.143 18.143 0 0 0-5.502 5.028 18.188 18.188 0 0 0-3.425 9.448c-.386 5.493 1.697 10.608 4.811 15.031 1.765 2.508 3.804 4.787 5.89 7.028Z"
-                fill="currentColor"
-                fillRule="evenodd"
-              />
-            </svg>
-          </span>
-          <div
-            className="c11"
-          >
-            <div
-              style={
-                Object {
-                  "display": "flex",
-                  "flexDirection": "column",
-                }
-              }
-            >
-              <span
-                className="c8"
-                color="light"
-                size="xs"
-              >
-                SpA Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
-              </span>
-              <span
-                className="c8"
-                color="light"
-                size="xs"
-              >
-                Sede Centrale: Via Pesaro, 10A 61012 Gradara (PU) - Italy
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="c12"
-      >
-        <div
-          className="c6"
-        >
-          <span
-            className="c9 c10"
-            color="light"
-            size="20px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M38.238 17.793H27.476a1.412 1.412 0 0 1-1.415-1.414c0-.809.657-1.415 1.415-1.415h10.762c.808 0 1.415.657 1.415 1.415s-.607 1.414-1.416 1.414Zm0 8.792H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.757.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm0 8.842H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.808.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm-18.139 2.476-3.385.758a2.328 2.328 0 0 1-2.173-.708c-.556-.606-1.212-1.414-1.566-2.071-1.718-2.93-2.627-6.72-2.627-10.712 0-3.991.909-7.78 2.627-10.66.354-.658 1.061-1.466 1.566-2.072.506-.607 1.365-.86 2.122-.708l3.386.657a1.461 1.461 0 0 1 1.111 1.92l-1.516 4.85c-.202.708-.909 1.113-1.617 1.011l-2.627-.303c-.505 1.718-.859 3.183-.859 5.305 0 2.021.303 3.487.809 5.255l2.678-.354c.707-.101 1.414.354 1.617 1.01l1.566 4.851c.252.91-.253 1.769-1.112 1.97v.001ZM45.109 4H4.891A3.892 3.892 0 0 0 1 7.89V42.4a3.892 3.892 0 0 0 3.89 3.89h40.22A3.892 3.892 0 0 0 49 42.4V7.89A3.892 3.892 0 0 0 45.109 4Z"
-                fill="currentColor"
-                fillRule="evenodd"
-              />
-            </svg>
-          </span>
-          <div
-            className="c11"
-          >
-            <div
-              style={
-                Object {
-                  "display": "flex",
-                  "flexDirection": "column",
-                }
-              }
-            >
-              <span
-                className="c8"
-                color="light"
-                size="xs"
-              >
-                Tel. +39 0541/979001
-              </span>
-              <span
-                className="c8"
-                color="light"
-                size="xs"
-              >
-                Service: +39 0541/979010 - Fax +39 0541/979050
-                 
-              </span>
-              <span
-                className="c8"
-                color="light"
-                size="xs"
-              >
-                P.IVA: IT01376450415 | C.F. 02196600965
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c13"
-    >
-      <div
-        className="c14"
-      >
-        <div
-          className="c15"
-        >
-          <h6
-            className="c16"
-            color="light"
-            style={
-              Object {
-                "marginBottom": "20px",
-              }
-            }
-          >
-            PROGETTI
-          </h6>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            PROGETTO UNO
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            PROGETTO DUE
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            PROGETTO TRE
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            PROGETTO QUATTRO
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c21"
-    >
-      <div
-        className="c14"
-      >
-        <div
-          className="c15"
-        >
-          <h6
-            className="c16"
-            color="light"
-            style={
-              Object {
-                "marginBottom": "20px",
-              }
-            }
-          >
-            Servizi
-          </h6>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            <a
-              href="/"
-            >
-              SERVIZIO UNO
-            </a>
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            <a
-              href="/"
-            >
-              SERVIZIO Due
-            </a>
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            <a
-              href="/"
-            >
-              SERVIZIO TRE
-            </a>
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            <a
-              href="/"
-            >
-              SERVIZIO QUATTRO
-            </a>
-          </span>
-        </div>
-        <div
-          className="c17"
-        >
-          <span
-            className="c18 c19"
-            color="light"
-            size="18px"
-          >
-            <svg
-              viewBox="0 0 50 50"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-            >
-              <defs>
-                <path
-                  d="M0 0h25.722v48H0z"
-                />
-              </defs>
-              <g
-                fill="none"
-                fillRule="evenodd"
-                transform="translate(12 1)"
-              >
-                <path
-                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
-                  fill="currentColor"
-                />
-              </g>
-            </svg>
-          </span>
-          <span
-            className="c20"
-            color="light"
-          >
-            <a
-              href="/"
-            >
-              SERVIZIO CINQUE
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
-    <div
-      className="c22"
-    >
-      <div
-        className="c23"
+        className="c5 c6"
       >
         <span
-          className="c20"
+          className="c7 c8"
           color="light"
+          size="xs"
         >
-          Seguici
+          HSD SpA
         </span>
         <span
-          className="c24"
+          className="c9 c10"
           color="light"
-          size="28px"
+          size="24px"
         >
           <svg
-            fill="currentColor"
-            viewBox="0 0 46 46"
+            viewBox="0 0 50 50"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>
-              CF55E7EE-9478-42D4-B1DA-F33607BCA15A
-            </title>
             <path
-              d="M35 33h-4v-7.5a3.51 3.51 0 0 0-3.5-3.5 3.51 3.51 0 0 0-3.5 3.5V33h-4V18h4v1.816A6.476 6.476 0 0 1 28.5 18a6.5 6.5 0 0 1 6.5 6.5V33ZM14 15a2 2 0 1 1-.001-3.999A2 2 0 0 1 14 15Zm-2 18h4V18h-4v15ZM23 0C10.318 0 0 10.317 0 23s10.318 23 23 23 23-10.317 23-23S35.682 0 23 0Z"
+              d="M20.982 23.735c.37 1.403.891 2.618 1.523 3.552a8.611 8.611 0 0 1-5.13-4.94c.958.597 2.191 1.072 3.607 1.388Zm-.412-7.602a19.885 19.885 0 0 0-.185 3.136c.02 1.07.122 2.12.302 3.126-2.198-.688-3.515-1.823-3.538-3.066-.024-1.242 1.25-2.426 3.42-3.196Zm1.631-4.957c-.596.958-1.071 2.191-1.387 3.607-1.404.369-2.619.89-3.553 1.523a8.612 8.612 0 0 1 4.94-5.13Zm3.017-.227c1.243-.01 2.427 1.25 3.197 3.422a19.88 19.88 0 0 0-3.135-.184c-1.07.02-2.121.121-3.126.302.687-2.2 1.822-3.516 3.064-3.54Zm8.154 5.053c-.957-.597-2.19-1.072-3.607-1.388-.369-1.403-.89-2.618-1.522-3.552a8.61 8.61 0 0 1 5.129 4.94Zm-3.194 6.214c.142-1.012.204-2.065.184-3.135-.02-1.07-.122-2.12-.302-3.127 2.199.688 3.515 1.823 3.539 3.065.024 1.243-1.25 2.427-3.421 3.197Zm-1.631 4.957c.596-.957 1.071-2.19 1.387-3.607 1.403-.37 2.618-.891 3.553-1.523a8.612 8.612 0 0 1-4.94 5.13Zm-6.587-4.454a16.13 16.13 0 0 1-.43-3.472 16.141 16.141 0 0 1 .3-3.486 16.154 16.154 0 0 1 3.471-.43 16.11 16.11 0 0 1 3.486.3 16.13 16.13 0 0 1 .43 3.47 16.141 16.141 0 0 1-.299 3.487c-1.09.263-2.257.407-3.471.43a16.087 16.087 0 0 1-3.487-.299Zm3.57 4.681c-1.232.017-2.428-1.25-3.198-3.421 1.012.142 2.066.203 3.136.184 1.07-.02 2.12-.122 3.126-.302-.687 2.199-1.822 3.515-3.065 3.539Zm-.156 2.05c5.665 0 10.274-4.61 10.274-10.275S31.04 8.9 25.374 8.9c-5.666 0-10.275 4.61-10.275 10.275S19.71 29.45 25.374 29.45Zm0-23.589c7.34 0 13.313 5.972 13.313 13.313 0 7.34-5.972 13.313-13.313 13.313-7.34 0-13.313-5.972-13.313-13.313 0-7.34 5.972-13.313 13.313-13.313Zm-7.628 34.274c2.65 2.846 7.624 8.871 7.628 8.865.004.006 4.98-6.019 7.629-8.865 2.085-2.241 4.124-4.52 5.889-7.028 2.29-3.255 4.04-6.955 4.635-10.87.208-1.365.275-2.755.176-4.162a18.19 18.19 0 0 0-3.514-9.57 18.142 18.142 0 0 0-5.413-4.906A18.255 18.255 0 0 0 25.374 1a18.26 18.26 0 0 0-9.401 2.599 18.143 18.143 0 0 0-5.502 5.028 18.188 18.188 0 0 0-3.425 9.448c-.386 5.493 1.697 10.608 4.811 15.031 1.765 2.508 3.804 4.787 5.89 7.028Z"
+              fill="currentColor"
               fillRule="evenodd"
             />
           </svg>
         </span>
+        <div
+          className="c11"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+              }
+            }
+          >
+            <span
+              className="c12"
+              color="light"
+              size="xs"
+            >
+              Sede Legale: Via della Meccanica 16 61122 Pesaro (Italy)
+            </span>
+            <span
+              className="c12"
+              color="light"
+              size="xs"
+            >
+              Sede Centrale: Via Pesaro, 10A 61012 Gradara (PU) - Italy
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="c5 c13"
+      >
+        <span
+          className="c9 c10"
+          color="light"
+          size="24px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M38.238 17.793H27.476a1.412 1.412 0 0 1-1.415-1.414c0-.809.657-1.415 1.415-1.415h10.762c.808 0 1.415.657 1.415 1.415s-.607 1.414-1.416 1.414Zm0 8.792H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.757.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm0 8.842H27.476a1.412 1.412 0 0 1-1.415-1.415c0-.808.657-1.414 1.415-1.414h10.762c.808 0 1.415.657 1.415 1.414 0 .758-.607 1.415-1.416 1.415Zm-18.139 2.476-3.385.758a2.328 2.328 0 0 1-2.173-.708c-.556-.606-1.212-1.414-1.566-2.071-1.718-2.93-2.627-6.72-2.627-10.712 0-3.991.909-7.78 2.627-10.66.354-.658 1.061-1.466 1.566-2.072.506-.607 1.365-.86 2.122-.708l3.386.657a1.461 1.461 0 0 1 1.111 1.92l-1.516 4.85c-.202.708-.909 1.113-1.617 1.011l-2.627-.303c-.505 1.718-.859 3.183-.859 5.305 0 2.021.303 3.487.809 5.255l2.678-.354c.707-.101 1.414.354 1.617 1.01l1.566 4.851c.252.91-.253 1.769-1.112 1.97v.001ZM45.109 4H4.891A3.892 3.892 0 0 0 1 7.89V42.4a3.892 3.892 0 0 0 3.89 3.89h40.22A3.892 3.892 0 0 0 49 42.4V7.89A3.892 3.892 0 0 0 45.109 4Z"
+              fill="currentColor"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <div
+          className="c11"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+              }
+            }
+          >
+            <span
+              className="c12"
+              color="light"
+              size="xs"
+            >
+              Tel. +39 0541/979001
+            </span>
+            <span
+              className="c12"
+              color="light"
+              size="xs"
+            >
+              Service: +39 0541/979010 - Fax +39 0541/979050
+               
+            </span>
+            <span
+              className="c12"
+              color="light"
+              size="xs"
+            >
+              P.IVA: IT01376450415 | C.F. 02196600965
+            </span>
+          </div>
+        </div>
       </div>
     </div>
     <div
-      className="c25"
+      className="c14 c15"
     >
       <div
-        className="c26"
+        className="c16"
       >
         <h6
-          className="c16 c27"
+          className="c17"
           color="light"
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
         >
-          CONTATTI
+          PROGETTI
         </h6>
-        <div
-          className="c28"
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
         >
           <svg
-            color="#6D6E70"
-            height={140}
-            viewBox="0 0 299 140"
-            width={299}
+            viewBox="0 0 50 50"
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
           >
-            <title>
-              8E49A992-A598-47A6-8EF5-7013305C5F0E
-            </title>
             <defs>
               <path
-                d="M0 0h299v140H0z"
+                d="M0 0h25.722v48H0z"
               />
-              <path
-                d="M143.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M135.71 31.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M165.71 38.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M232.71 45.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M248.71 54.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M150.71 36.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M59.71 53.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <path
-                d="M81.71 90.176c.993 1.067 2.858 3.326 2.86 3.324.001.002 1.867-2.257 2.86-3.324.782-.84 1.547-1.695 2.209-2.636.859-1.22 1.515-2.608 1.738-4.076a7.062 7.062 0 0 0 .066-1.56 6.821 6.821 0 0 0-1.317-3.59 6.803 6.803 0 0 0-2.03-1.84 6.846 6.846 0 0 0-3.526-.974 6.847 6.847 0 0 0-3.526.974 6.804 6.804 0 0 0-2.063 1.886 6.82 6.82 0 0 0-1.284 3.543c-.145 2.06.636 3.978 1.804 5.637.662.94 1.426 1.795 2.208 2.635Z"
-              />
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
-              <filter
-                filterUnits="objectBoundingBox"
-                height="181.6%"
-                width="208.8%"
-                x="-54.4%"
-                y="-30.6%"
-              >
-                <feMorphology
-                  in="SourceAlpha"
-                  operator="dilate"
-                  radius={0.5}
-                  result="shadowSpreadOuter1"
-                />
-                <feOffset
-                  dy={2}
-                  in="shadowSpreadOuter1"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                  stdDeviation={2}
-                />
-                <feComposite
-                  in="shadowBlurOuter1"
-                  in2="SourceAlpha"
-                  operator="out"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  in="shadowBlurOuter1"
-                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                />
-              </filter>
             </defs>
             <g
               fill="none"
               fillRule="evenodd"
+              transform="translate(12 1)"
             >
-              <g
-                opacity={0.7}
-              >
-                <path
-                  d="M77.915 134.796c-1.429 0-2.657 1.115-2.657 2.546 0 1.431 1.228 2.658 2.657 2.658 1.432 0 2.548-1.227 2.548-2.658a2.517 2.517 0 0 0-2.548-2.546Zm195.899-7.533c-1.432 0-2.66 1.228-2.66 2.657 0 1.432 1.228 2.549 2.66 2.549a2.518 2.518 0 0 0 2.545-2.549c0-1.429-1.116-2.657-2.545-2.657Zm-195.899 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.116-2.657-2.548-2.657Zm-7.529 0c-1.431 0-2.657 1.228-2.657 2.657 0 1.432 1.226 2.549 2.657 2.549a2.516 2.516 0 0 0 2.546-2.549c0-1.429-1.114-2.657-2.546-2.657Zm203.429-7.42c-1.431 0-2.66 1.115-2.66 2.546 0 1.432 1.229 2.547 2.66 2.547a2.516 2.516 0 0 0 2.546-2.547 2.516 2.516 0 0 0-2.546-2.546Zm-7.531 0c-1.43 0-2.657 1.115-2.657 2.546 0 1.432 1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547 2.517 2.517 0 0 0-2.548-2.546Zm-7.53 0c-1.43 0-2.656 1.115-2.656 2.546 0 1.432 1.225 2.547 2.657 2.547a2.516 2.516 0 0 0 2.545-2.547 2.516 2.516 0 0 0-2.545-2.546Zm-7.53 0c-1.43 0-2.658 1.115-2.658 2.546 0 1.432 1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547 2.517 2.517 0 0 0-2.548-2.546Zm-7.53 0c-1.431 0-2.657 1.115-2.657 2.546 0 1.432 1.226 2.547 2.657 2.547a2.515 2.515 0 0 0 2.546-2.547 2.515 2.515 0 0 0-2.546-2.546Zm-75.415 0a2.516 2.516 0 0 0-2.546 2.546 2.516 2.516 0 0 0 2.546 2.547c1.431 0 2.657-1.115 2.657-2.547 0-1.43-1.226-2.546-2.657-2.546Zm-7.53 0a2.517 2.517 0 0 0-2.548 2.546 2.517 2.517 0 0 0 2.549 2.547c1.429 0 2.657-1.115 2.657-2.547 0-1.43-1.228-2.546-2.657-2.546Zm-75.301 0c-1.431 0-2.657 1.115-2.657 2.546 0 1.432 1.226 2.547 2.657 2.547a2.516 2.516 0 0 0 2.546-2.547 2.516 2.516 0 0 0-2.546-2.546Zm-7.532 0c-1.428 0-2.657 1.115-2.657 2.546 0 1.432 1.229 2.547 2.657 2.547a2.517 2.517 0 0 0 2.549-2.547 2.517 2.517 0 0 0-2.549-2.546Zm-7.528 0c-1.432 0-2.658 1.115-2.658 2.546 0 1.432 1.226 2.547 2.658 2.547a2.515 2.515 0 0 0 2.545-2.547 2.515 2.515 0 0 0-2.545-2.546Zm203.428-7.533c-1.431 0-2.66 1.118-2.66 2.549 0 1.429 1.229 2.657 2.66 2.657 1.43 0 2.546-1.228 2.546-2.657a2.518 2.518 0 0 0-2.546-2.55Zm-7.531 0c-1.429 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.55Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.226 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.518 2.518 0 0 0-2.546-2.55Zm-7.53 0c-1.43 0-2.658 1.118-2.658 2.549 0 1.429 1.229 2.657 2.657 2.657 1.432 0 2.549-1.228 2.549-2.657a2.519 2.519 0 0 0-2.549-2.55Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.225 2.657 2.657 2.657 1.43 0 2.545-1.228 2.545-2.657a2.517 2.517 0 0 0-2.545-2.55Zm-60.352 0a2.517 2.517 0 0 0-2.545 2.549c0 1.429 1.114 2.657 2.545 2.657 1.432 0 2.657-1.228 2.657-2.657 0-1.431-1.225-2.55-2.657-2.55Zm-15.06 0a2.518 2.518 0 0 0-2.546 2.549c0 1.429 1.117 2.657 2.545 2.657 1.432 0 2.657-1.228 2.657-2.657 0-1.431-1.225-2.55-2.657-2.55Zm-7.53 0a2.519 2.519 0 0 0-2.548 2.549c0 1.429 1.117 2.657 2.549 2.657 1.428 0 2.657-1.228 2.657-2.657 0-1.431-1.229-2.55-2.657-2.55Zm-67.771 0c-1.429 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.55Zm-7.529 0c-1.431 0-2.657 1.118-2.657 2.549 0 1.429 1.226 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.518 2.518 0 0 0-2.546-2.55Zm-7.531 0c-1.43 0-2.658 1.118-2.658 2.549 0 1.429 1.229 2.657 2.658 2.657 1.43 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.55Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.225 2.657 2.657 2.657 1.431 0 2.545-1.228 2.545-2.657a2.517 2.517 0 0 0-2.545-2.55Zm203.43-7.53c-1.432 0-2.66 1.225-2.66 2.657s1.228 2.547 2.66 2.547a2.516 2.516 0 0 0 2.545-2.547c0-1.432-1.117-2.658-2.546-2.658Zm-7.532 0c-1.429 0-2.657 1.225-2.657 2.657s1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.432-1.117-2.658-2.548-2.658Zm-7.529 0c-1.431 0-2.657 1.225-2.657 2.657s1.226 2.547 2.657 2.547a2.516 2.516 0 0 0 2.546-2.547c0-1.432-1.117-2.658-2.546-2.658Zm-7.531 0c-1.43 0-2.658 1.225-2.658 2.657s1.229 2.547 2.658 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.432-1.117-2.658-2.548-2.658Zm-7.53 0c-1.43 0-2.656 1.225-2.656 2.657s1.225 2.547 2.657 2.547a2.515 2.515 0 0 0 2.545-2.547c0-1.432-1.114-2.658-2.545-2.658Zm-52.823 0c-1.428 0-2.545 1.225-2.545 2.657a2.516 2.516 0 0 0 2.545 2.547c1.432 0 2.66-1.115 2.66-2.547 0-1.432-1.228-2.658-2.66-2.658Zm-15.058 0c-1.431 0-2.548 1.225-2.548 2.657a2.517 2.517 0 0 0 2.548 2.547c1.429 0 2.657-1.115 2.657-2.547 0-1.432-1.228-2.658-2.657-2.658Zm-7.532 0c-1.428 0-2.545 1.225-2.545 2.657a2.516 2.516 0 0 0 2.545 2.547c1.432 0 2.658-1.115 2.658-2.547 0-1.432-1.226-2.658-2.658-2.658Zm-7.528 0c-1.432 0-2.549 1.225-2.549 2.657a2.517 2.517 0 0 0 2.549 2.547c1.428 0 2.657-1.115 2.657-2.547 0-1.432-1.229-2.658-2.657-2.658Zm-7.532 0c-1.429 0-2.546 1.225-2.546 2.657a2.516 2.516 0 0 0 2.546 2.547c1.431 0 2.66-1.115 2.66-2.547 0-1.432-1.229-2.658-2.66-2.658Zm-52.71 0c-1.43 0-2.547 1.225-2.547 2.657a2.517 2.517 0 0 0 2.548 2.547 2.516 2.516 0 0 0 2.545-2.547c0-1.432-1.116-2.658-2.545-2.658Zm-7.53 0c-1.43 0-2.658 1.225-2.658 2.657s1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.549-2.547c0-1.432-1.117-2.658-2.549-2.658Zm-7.53 0c-1.431 0-2.657 1.225-2.657 2.657s1.226 2.547 2.657 2.547a2.516 2.516 0 0 0 2.546-2.547c0-1.432-1.117-2.658-2.546-2.658Zm-7.531 0c-1.429 0-2.657 1.225-2.657 2.657s1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.432-1.117-2.658-2.548-2.658Zm-7.529 0c-1.431 0-2.657 1.225-2.657 2.657s1.226 2.547 2.657 2.547a2.515 2.515 0 0 0 2.546-2.547c0-1.432-1.115-2.658-2.546-2.658Zm188.368-7.423c-1.43 0-2.657 1.118-2.657 2.549 0 1.43 1.226 2.658 2.657 2.658 1.43 0 2.546-1.229 2.546-2.658a2.518 2.518 0 0 0-2.546-2.549Zm-82.94 0a2.519 2.519 0 0 0-2.547 2.549c0 1.43 1.117 2.658 2.548 2.658 1.429 0 2.657-1.229 2.657-2.658 0-1.431-1.228-2.549-2.657-2.549Zm-7.53 0a2.518 2.518 0 0 0-2.546 2.549c0 1.43 1.117 2.658 2.545 2.658 1.432 0 2.658-1.229 2.658-2.658 0-1.431-1.226-2.549-2.658-2.549Zm-7.53 0a2.519 2.519 0 0 0-2.548 2.549c0 1.43 1.117 2.658 2.549 2.658 1.428 0 2.657-1.229 2.657-2.658 0-1.431-1.229-2.549-2.657-2.549Zm-7.53 0a2.518 2.518 0 0 0-2.547 2.549c0 1.43 1.117 2.658 2.546 2.658 1.431 0 2.66-1.229 2.66-2.658 0-1.431-1.229-2.549-2.66-2.549Zm-52.71 0a2.519 2.519 0 0 0-2.549 2.549c0 1.43 1.117 2.658 2.549 2.658 1.429 0 2.545-1.229 2.545-2.658a2.518 2.518 0 0 0-2.545-2.549Zm-7.532 0c-1.429 0-2.657 1.118-2.657 2.549 0 1.43 1.228 2.658 2.657 2.658 1.432 0 2.549-1.229 2.549-2.658a2.519 2.519 0 0 0-2.549-2.549Zm-7.529 0c-1.431 0-2.657 1.118-2.657 2.549 0 1.43 1.226 2.658 2.657 2.658 1.43 0 2.546-1.229 2.546-2.658a2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.429 0-2.657 1.118-2.657 2.549 0 1.43 1.228 2.658 2.657 2.658 1.431 0 2.548-1.229 2.548-2.658a2.519 2.519 0 0 0-2.548-2.549Zm-7.529 0c-1.431 0-2.657 1.118-2.657 2.549 0 1.43 1.226 2.658 2.657 2.658s2.546-1.229 2.546-2.658a2.517 2.517 0 0 0-2.546-2.549Zm-7.529 0c-1.431 0-2.66 1.118-2.66 2.549 0 1.43 1.229 2.658 2.66 2.658 1.429 0 2.546-1.229 2.546-2.658a2.518 2.518 0 0 0-2.546-2.549Zm210.959-7.53c-1.431 0-2.66 1.226-2.66 2.657 0 1.432 1.229 2.547 2.66 2.547a2.516 2.516 0 0 0 2.546-2.547c0-1.431-1.117-2.657-2.546-2.657Zm-22.592 0c-1.43 0-2.657 1.226-2.657 2.657 0 1.432 1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.431-1.117-2.657-2.548-2.657Zm-75.41 0c-1.431 0-2.548 1.226-2.548 2.657a2.517 2.517 0 0 0 2.548 2.547c1.429 0 2.657-1.115 2.657-2.547 0-1.431-1.228-2.657-2.657-2.657Zm-7.531 0c-1.43 0-2.546 1.226-2.546 2.657a2.516 2.516 0 0 0 2.546 2.547c1.431 0 2.657-1.115 2.657-2.547 0-1.431-1.226-2.657-2.657-2.657Zm-7.53 0c-1.43 0-2.547 1.226-2.547 2.657a2.517 2.517 0 0 0 2.548 2.547c1.429 0 2.657-1.115 2.657-2.547 0-1.431-1.228-2.657-2.657-2.657Zm-7.53 0c-1.43 0-2.546 1.226-2.546 2.657a2.516 2.516 0 0 0 2.545 2.547c1.432 0 2.66-1.115 2.66-2.547 0-1.431-1.228-2.657-2.66-2.657Zm-52.71 0c-1.431 0-2.548 1.226-2.548 2.657a2.517 2.517 0 0 0 2.548 2.547 2.516 2.516 0 0 0 2.546-2.547c0-1.431-1.117-2.657-2.546-2.657Zm-7.531 0c-1.43 0-2.657 1.226-2.657 2.657 0 1.432 1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.431-1.117-2.657-2.548-2.657Zm-7.53 0c-1.43 0-2.656 1.226-2.656 2.657 0 1.432 1.225 2.547 2.657 2.547a2.516 2.516 0 0 0 2.545-2.547c0-1.431-1.116-2.657-2.545-2.657Zm-7.53 0c-1.43 0-2.658 1.226-2.658 2.657 0 1.432 1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.431-1.116-2.657-2.548-2.657Zm-7.53 0c-1.431 0-2.657 1.226-2.657 2.657 0 1.432 1.226 2.547 2.657 2.547a2.515 2.515 0 0 0 2.546-2.547c0-1.431-1.114-2.657-2.546-2.657Zm-7.529 0c-1.43 0-2.66 1.226-2.66 2.657 0 1.432 1.23 2.547 2.66 2.547a2.516 2.516 0 0 0 2.546-2.547c0-1.431-1.117-2.657-2.546-2.657Zm-7.531 0c-1.429 0-2.657 1.226-2.657 2.657 0 1.432 1.228 2.547 2.657 2.547a2.517 2.517 0 0 0 2.548-2.547c0-1.431-1.117-2.657-2.548-2.657Zm188.368-7.422c-1.431 0-2.657 1.117-2.657 2.548 0 1.43 1.226 2.547 2.657 2.547a2.516 2.516 0 0 0 2.546-2.547 2.517 2.517 0 0 0-2.546-2.548Zm-60.352 0a2.517 2.517 0 0 0-2.546 2.548 2.517 2.517 0 0 0 2.546 2.547c1.432 0 2.657-1.118 2.657-2.547 0-1.43-1.225-2.548-2.657-2.548Zm-7.529 0a2.519 2.519 0 0 0-2.548 2.548 2.518 2.518 0 0 0 2.548 2.547c1.43 0 2.657-1.118 2.657-2.547 0-1.43-1.228-2.548-2.657-2.548Zm-7.531 0a2.519 2.519 0 0 0-2.547 2.548 2.518 2.518 0 0 0 2.547 2.547c1.431 0 2.657-1.118 2.657-2.547 0-1.43-1.226-2.548-2.657-2.548Zm-7.53 0a2.519 2.519 0 0 0-2.547 2.548 2.518 2.518 0 0 0 2.548 2.547c1.429 0 2.657-1.118 2.657-2.547 0-1.43-1.228-2.548-2.657-2.548Zm-7.53 0a2.519 2.519 0 0 0-2.547 2.548 2.518 2.518 0 0 0 2.546 2.547c1.432 0 2.66-1.118 2.66-2.547 0-1.43-1.228-2.548-2.66-2.548Zm-67.772 0c-1.432 0-2.657 1.117-2.657 2.548 0 1.43 1.225 2.547 2.657 2.547a2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.548Zm-7.532 0c-1.428 0-2.657 1.117-2.657 2.548 0 1.43 1.229 2.547 2.657 2.547a2.518 2.518 0 0 0 2.549-2.547 2.519 2.519 0 0 0-2.549-2.548Zm-7.528 0c-1.432 0-2.658 1.117-2.658 2.548 0 1.43 1.226 2.547 2.658 2.547a2.516 2.516 0 0 0 2.545-2.547 2.517 2.517 0 0 0-2.545-2.548Zm-7.53 0c-1.43 0-2.659 1.117-2.659 2.548 0 1.43 1.228 2.547 2.66 2.547a2.518 2.518 0 0 0 2.545-2.547 2.518 2.518 0 0 0-2.545-2.548Zm180.832-7.53c-1.43 0-2.657 1.117-2.657 2.545 0 1.432 1.226 2.659 2.657 2.659 1.432 0 2.546-1.227 2.546-2.659a2.516 2.516 0 0 0-2.546-2.546Zm-22.59 0c-1.43 0-2.657 1.117-2.657 2.545 0 1.432 1.226 2.659 2.658 2.659 1.428 0 2.545-1.227 2.545-2.659a2.518 2.518 0 0 0-2.545-2.546Zm-37.762 0a2.517 2.517 0 0 0-2.546 2.545c0 1.432 1.115 2.659 2.546 2.659 1.432 0 2.657-1.227 2.657-2.659 0-1.428-1.225-2.546-2.657-2.546Zm-7.529 0a2.518 2.518 0 0 0-2.548 2.545c0 1.432 1.117 2.659 2.548 2.659 1.43 0 2.657-1.227 2.657-2.659 0-1.428-1.228-2.546-2.657-2.546Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.545c0 1.432 1.117 2.659 2.546 2.659 1.431 0 2.657-1.227 2.657-2.659 0-1.428-1.226-2.546-2.657-2.546Zm-7.529 0a2.518 2.518 0 0 0-2.548 2.545c0 1.432 1.117 2.659 2.548 2.659 1.429 0 2.657-1.227 2.657-2.659 0-1.428-1.228-2.546-2.657-2.546Zm-7.531 0a2.518 2.518 0 0 0-2.547 2.545c0 1.432 1.118 2.659 2.547 2.659 1.43 0 2.66-1.227 2.66-2.659 0-1.428-1.23-2.546-2.66-2.546Zm-7.53 0a2.517 2.517 0 0 0-2.546 2.545c0 1.432 1.115 2.659 2.547 2.659 1.431 0 2.657-1.227 2.657-2.659 0-1.428-1.227-2.546-2.657-2.546Zm-7.528 0a2.519 2.519 0 0 0-2.55 2.545c0 1.432 1.118 2.659 2.55 2.659 1.429 0 2.545-1.227 2.545-2.659a2.518 2.518 0 0 0-2.545-2.546Zm-7.532 0a2.518 2.518 0 0 0-2.546 2.545c0 1.432 1.117 2.659 2.546 2.659 1.431 0 2.549-1.227 2.549-2.659a2.519 2.519 0 0 0-2.549-2.546Zm-52.712 0c-1.428 0-2.657 1.117-2.657 2.545 0 1.432 1.229 2.659 2.657 2.659 1.431 0 2.549-1.227 2.549-2.659a2.519 2.519 0 0 0-2.549-2.546Zm-7.528 0c-1.432 0-2.658 1.117-2.658 2.545 0 1.432 1.226 2.659 2.658 2.659 1.43 0 2.545-1.227 2.545-2.659a2.516 2.516 0 0 0-2.545-2.546Zm-7.53 0c-1.43 0-2.659 1.117-2.659 2.545 0 1.432 1.228 2.659 2.66 2.659 1.428 0 2.545-1.227 2.545-2.659a2.518 2.518 0 0 0-2.545-2.546Zm-7.53 0c-1.43 0-2.658 1.117-2.658 2.545 0 1.432 1.228 2.659 2.657 2.659 1.43 0 2.548-1.227 2.548-2.659a2.519 2.519 0 0 0-2.548-2.546Zm195.891-7.534c-1.428 0-2.657 1.229-2.657 2.66 0 1.43 1.229 2.546 2.657 2.546a2.518 2.518 0 0 0 2.549-2.546c0-1.431-1.117-2.66-2.549-2.66Zm-7.529 0c-1.43 0-2.657 1.229-2.657 2.66 0 1.43 1.226 2.546 2.657 2.546a2.516 2.516 0 0 0 2.546-2.546c0-1.431-1.114-2.66-2.546-2.66Zm-15.06 0c-1.43 0-2.658 1.229-2.658 2.66 0 1.43 1.229 2.546 2.657 2.546a2.518 2.518 0 0 0 2.549-2.546c0-1.431-1.118-2.66-2.549-2.66Zm-7.53 0c-1.43 0-2.657 1.229-2.657 2.66 0 1.43 1.226 2.546 2.658 2.546a2.517 2.517 0 0 0 2.545-2.546c0-1.431-1.117-2.66-2.545-2.66Zm-7.64 0c-1.431 0-2.549 1.229-2.549 2.66a2.518 2.518 0 0 0 2.55 2.546c1.428 0 2.656-1.117 2.656-2.546 0-1.431-1.228-2.66-2.657-2.66Zm-22.592 0c-1.429 0-2.547 1.229-2.547 2.66a2.518 2.518 0 0 0 2.547 2.546c1.43 0 2.66-1.117 2.66-2.546 0-1.431-1.23-2.66-2.66-2.66Zm-15.059 0c-1.431 0-2.548 1.229-2.548 2.66a2.518 2.518 0 0 0 2.548 2.546c1.43 0 2.657-1.117 2.657-2.546 0-1.431-1.228-2.66-2.657-2.66Zm-7.531 0c-1.429 0-2.546 1.229-2.546 2.66a2.518 2.518 0 0 0 2.546 2.546c1.43 0 2.657-1.117 2.657-2.546 0-1.431-1.226-2.66-2.657-2.66Zm-7.529 0c-1.431 0-2.549 1.229-2.549 2.66a2.518 2.518 0 0 0 2.549 2.546c1.429 0 2.657-1.117 2.657-2.546 0-1.431-1.228-2.66-2.657-2.66Zm-7.531 0c-1.43 0-2.547 1.229-2.547 2.66a2.518 2.518 0 0 0 2.547 2.546c1.43 0 2.66-1.117 2.66-2.546 0-1.431-1.23-2.66-2.66-2.66Zm-7.53 0c-1.43 0-2.546 1.229-2.546 2.66a2.516 2.516 0 0 0 2.547 2.546c1.43 0 2.657-1.117 2.657-2.546 0-1.431-1.227-2.66-2.657-2.66Zm-7.528 0c-1.432 0-2.55 1.229-2.55 2.66a2.518 2.518 0 0 0 2.55 2.546 2.517 2.517 0 0 0 2.545-2.546c0-1.431-1.116-2.66-2.545-2.66Zm-7.532 0c-1.429 0-2.546 1.229-2.546 2.66a2.518 2.518 0 0 0 2.546 2.546 2.518 2.518 0 0 0 2.549-2.546c0-1.431-1.118-2.66-2.549-2.66Zm-7.529 0c-1.431 0-2.548 1.229-2.548 2.66a2.518 2.518 0 0 0 2.548 2.546 2.517 2.517 0 0 0 2.546-2.546c0-1.431-1.117-2.66-2.546-2.66Zm-75.301 0c-1.432 0-2.657 1.229-2.657 2.66 0 1.43 1.225 2.546 2.657 2.546a2.517 2.517 0 0 0 2.545-2.546c0-1.431-1.117-2.66-2.545-2.66Zm203.422-7.42c-1.429 0-2.658 1.118-2.658 2.547 0 1.431 1.23 2.658 2.658 2.658 1.43 0 2.548-1.227 2.548-2.658a2.519 2.519 0 0 0-2.548-2.547Zm-7.529 0c-1.431 0-2.658 1.118-2.658 2.547 0 1.431 1.227 2.658 2.658 2.658 1.43 0 2.546-1.227 2.546-2.658a2.516 2.516 0 0 0-2.546-2.547Zm-7.529 0c-1.431 0-2.66 1.118-2.66 2.547 0 1.431 1.229 2.658 2.66 2.658 1.429 0 2.546-1.227 2.546-2.658a2.518 2.518 0 0 0-2.546-2.547Zm-7.531 0c-1.43 0-2.657 1.118-2.657 2.547 0 1.431 1.228 2.658 2.657 2.658 1.43 0 2.548-1.227 2.548-2.658a2.519 2.519 0 0 0-2.548-2.547Zm-7.53 0c-1.43 0-2.657 1.118-2.657 2.547 0 1.431 1.226 2.658 2.658 2.658 1.428 0 2.546-1.227 2.546-2.658a2.518 2.518 0 0 0-2.546-2.547Zm-7.64 0a2.519 2.519 0 0 0-2.548 2.547c0 1.431 1.117 2.658 2.549 2.658 1.428 0 2.657-1.227 2.657-2.658 0-1.429-1.23-2.547-2.657-2.547Zm-15.06 0a2.519 2.519 0 0 0-2.55 2.547c0 1.431 1.118 2.658 2.55 2.658 1.428 0 2.657-1.227 2.657-2.658 0-1.429-1.23-2.547-2.657-2.547Zm-7.532 0a2.518 2.518 0 0 0-2.546 2.547c0 1.431 1.117 2.658 2.546 2.658 1.43 0 2.66-1.227 2.66-2.658 0-1.429-1.23-2.547-2.66-2.547Zm-7.529 0a2.517 2.517 0 0 0-2.546 2.547c0 1.431 1.115 2.658 2.546 2.658 1.43 0 2.657-1.227 2.657-2.658 0-1.429-1.226-2.547-2.657-2.547Zm-15.06 0a2.518 2.518 0 0 0-2.547 2.547c0 1.431 1.117 2.658 2.546 2.658 1.43 0 2.657-1.227 2.657-2.658 0-1.429-1.226-2.547-2.657-2.547Zm-7.53 0a2.519 2.519 0 0 0-2.549 2.547c0 1.431 1.118 2.658 2.55 2.658 1.427 0 2.656-1.227 2.656-2.658 0-1.429-1.229-2.547-2.657-2.547Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.547c0 1.431 1.117 2.658 2.546 2.658 1.43 0 2.66-1.227 2.66-2.658 0-1.429-1.23-2.547-2.66-2.547Zm-7.53 0a2.517 2.517 0 0 0-2.545 2.547c0 1.431 1.115 2.658 2.546 2.658 1.43 0 2.657-1.227 2.657-2.658 0-1.429-1.226-2.547-2.657-2.547Zm-7.528 0a2.519 2.519 0 0 0-2.549 2.547c0 1.431 1.118 2.658 2.549 2.658 1.428 0 2.546-1.227 2.546-2.658a2.518 2.518 0 0 0-2.546-2.547Zm-7.531 0a2.518 2.518 0 0 0-2.547 2.547c0 1.431 1.118 2.658 2.547 2.658 1.43 0 2.548-1.227 2.548-2.658a2.519 2.519 0 0 0-2.548-2.547Zm-7.53 0a2.519 2.519 0 0 0-2.548 2.547c0 1.431 1.117 2.658 2.549 2.658 1.428 0 2.545-1.227 2.545-2.658a2.518 2.518 0 0 0-2.545-2.547Zm-82.831 0c-1.43 0-2.658 1.118-2.658 2.547 0 1.431 1.229 2.658 2.658 2.658 1.43 0 2.548-1.227 2.548-2.658a2.519 2.519 0 0 0-2.548-2.547Zm-7.53 0c-1.43 0-2.657 1.118-2.657 2.547 0 1.431 1.226 2.658 2.658 2.658 1.43 0 2.545-1.227 2.545-2.658a2.516 2.516 0 0 0-2.545-2.547Zm218.484-7.533c-1.43 0-2.658 1.229-2.658 2.66 0 1.43 1.229 2.547 2.658 2.547a2.518 2.518 0 0 0 2.548-2.546c0-1.432-1.118-2.66-2.548-2.66Zm-7.53 0c-1.43 0-2.657 1.229-2.657 2.66 0 1.43 1.226 2.547 2.658 2.547a2.516 2.516 0 0 0 2.545-2.546c0-1.432-1.115-2.66-2.545-2.66Zm-7.528 0c-1.432 0-2.66 1.229-2.66 2.66 0 1.43 1.228 2.547 2.66 2.547a2.518 2.518 0 0 0 2.545-2.546c0-1.432-1.117-2.66-2.545-2.66Zm-7.532 0c-1.429 0-2.657 1.229-2.657 2.66 0 1.43 1.228 2.547 2.657 2.547a2.518 2.518 0 0 0 2.549-2.546c0-1.432-1.118-2.66-2.549-2.66Zm-7.529 0c-1.431 0-2.657 1.229-2.657 2.66 0 1.43 1.226 2.547 2.657 2.547a2.518 2.518 0 0 0 2.546-2.546c0-1.432-1.117-2.66-2.546-2.66Zm-7.64 0c-1.431 0-2.549 1.229-2.549 2.66a2.518 2.518 0 0 0 2.55 2.547c1.427 0 2.656-1.117 2.656-2.546 0-1.432-1.229-2.66-2.657-2.66Zm-7.531 0c-1.43 0-2.547 1.229-2.547 2.66a2.518 2.518 0 0 0 2.547 2.547c1.43 0 2.657-1.117 2.657-2.546 0-1.432-1.227-2.66-2.657-2.66Zm-7.53 0c-1.43 0-2.548 1.229-2.548 2.66a2.518 2.518 0 0 0 2.549 2.547c1.428 0 2.657-1.117 2.657-2.546 0-1.432-1.23-2.66-2.657-2.66Zm-7.53 0c-1.43 0-2.547 1.229-2.547 2.66a2.518 2.518 0 0 0 2.546 2.547c1.431 0 2.66-1.117 2.66-2.546 0-1.432-1.229-2.66-2.66-2.66Zm-7.53 0c-1.431 0-2.546 1.229-2.546 2.66a2.516 2.516 0 0 0 2.546 2.547c1.431 0 2.657-1.117 2.657-2.546 0-1.432-1.226-2.66-2.657-2.66Zm-7.529 0c-1.43 0-2.548 1.229-2.548 2.66a2.518 2.518 0 0 0 2.548 2.547c1.429 0 2.658-1.117 2.658-2.546 0-1.432-1.23-2.66-2.658-2.66Zm-7.531 0c-1.429 0-2.546 1.229-2.546 2.66a2.518 2.518 0 0 0 2.546 2.547c1.43 0 2.657-1.117 2.657-2.546 0-1.432-1.226-2.66-2.657-2.66Zm-7.529 0c-1.431 0-2.549 1.229-2.549 2.66a2.518 2.518 0 0 0 2.55 2.547c1.427 0 2.656-1.117 2.656-2.546 0-1.432-1.229-2.66-2.657-2.66Zm-7.532 0c-1.428 0-2.546 1.229-2.546 2.66a2.518 2.518 0 0 0 2.546 2.547c1.431 0 2.66-1.117 2.66-2.546 0-1.432-1.229-2.66-2.66-2.66Zm-7.529 0c-1.43 0-2.546 1.229-2.546 2.66a2.516 2.516 0 0 0 2.546 2.547c1.431 0 2.658-1.117 2.658-2.546 0-1.432-1.227-2.66-2.658-2.66Zm-7.529 0c-1.43 0-2.548 1.229-2.548 2.66a2.518 2.518 0 0 0 2.548 2.547 2.518 2.518 0 0 0 2.547-2.546c0-1.432-1.118-2.66-2.547-2.66Zm-7.531 0c-1.428 0-2.546 1.229-2.546 2.66a2.518 2.518 0 0 0 2.546 2.547 2.518 2.518 0 0 0 2.549-2.546c0-1.432-1.118-2.66-2.55-2.66Zm-67.772 0c-1.43 0-2.66 1.229-2.66 2.66 0 1.43 1.23 2.547 2.66 2.547a2.518 2.518 0 0 0 2.546-2.546c0-1.432-1.117-2.66-2.546-2.66Zm-22.592 0c-1.429 0-2.657 1.229-2.657 2.66 0 1.43 1.228 2.547 2.657 2.547a2.518 2.518 0 0 0 2.549-2.546c0-1.432-1.118-2.66-2.55-2.66Zm-7.53 0c-1.43 0-2.656 1.229-2.656 2.66 0 1.43 1.226 2.547 2.657 2.547a2.516 2.516 0 0 0 2.546-2.546c0-1.432-1.115-2.66-2.546-2.66Zm218.484-7.42c-1.429 0-2.658 1.118-2.658 2.547 0 1.432 1.23 2.55 2.658 2.55a2.52 2.52 0 0 0 2.548-2.55 2.519 2.519 0 0 0-2.548-2.546Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.547 0 1.432 1.226 2.55 2.657 2.55a2.517 2.517 0 0 0 2.546-2.55 2.517 2.517 0 0 0-2.546-2.546Zm-7.528 0c-1.431 0-2.66 1.118-2.66 2.547 0 1.432 1.229 2.55 2.66 2.55a2.519 2.519 0 0 0 2.546-2.55 2.518 2.518 0 0 0-2.546-2.546Zm-7.532 0c-1.428 0-2.657 1.118-2.657 2.547 0 1.432 1.23 2.55 2.657 2.55a2.52 2.52 0 0 0 2.55-2.55 2.519 2.519 0 0 0-2.55-2.546Zm-7.529 0c-1.43 0-2.657 1.118-2.657 2.547 0 1.432 1.227 2.55 2.657 2.55a2.519 2.519 0 0 0 2.547-2.55 2.518 2.518 0 0 0-2.547-2.546Zm-7.64 0a2.519 2.519 0 0 0-2.548 2.547 2.52 2.52 0 0 0 2.548 2.55c1.429 0 2.658-1.118 2.658-2.55 0-1.429-1.23-2.546-2.658-2.546Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.547 2.519 2.519 0 0 0 2.546 2.55c1.431 0 2.657-1.118 2.657-2.55 0-1.429-1.226-2.546-2.657-2.546Zm-7.53 0a2.519 2.519 0 0 0-2.548 2.547 2.52 2.52 0 0 0 2.549 2.55c1.429 0 2.657-1.118 2.657-2.55 0-1.429-1.228-2.546-2.657-2.546Zm-7.53 0a2.518 2.518 0 0 0-2.546 2.547 2.519 2.519 0 0 0 2.545 2.55c1.432 0 2.66-1.118 2.66-2.55 0-1.429-1.228-2.546-2.66-2.546Zm-7.53 0a2.516 2.516 0 0 0-2.545 2.547 2.517 2.517 0 0 0 2.545 2.55c1.432 0 2.658-1.118 2.658-2.55 0-1.429-1.226-2.546-2.658-2.546Zm-7.529 0a2.519 2.519 0 0 0-2.548 2.547 2.52 2.52 0 0 0 2.548 2.55c1.43 0 2.658-1.118 2.658-2.55 0-1.429-1.229-2.546-2.658-2.546Zm-30.122 0a2.516 2.516 0 0 0-2.545 2.547 2.517 2.517 0 0 0 2.545 2.55c1.432 0 2.658-1.118 2.658-2.55 0-1.429-1.226-2.546-2.658-2.546Zm-7.528 0a2.519 2.519 0 0 0-2.549 2.547 2.52 2.52 0 0 0 2.549 2.55 2.519 2.519 0 0 0 2.546-2.55 2.518 2.518 0 0 0-2.546-2.546Zm-75.302 0c-1.431 0-2.66 1.118-2.66 2.547 0 1.432 1.229 2.55 2.66 2.55a2.519 2.519 0 0 0 2.546-2.55 2.518 2.518 0 0 0-2.546-2.546Zm-7.532 0c-1.428 0-2.657 1.118-2.657 2.547 0 1.432 1.23 2.55 2.657 2.55a2.52 2.52 0 0 0 2.55-2.55 2.519 2.519 0 0 0-2.55-2.546Zm-7.529 0c-1.43 0-2.657 1.118-2.657 2.547 0 1.432 1.227 2.55 2.657 2.55a2.519 2.519 0 0 0 2.547-2.55 2.518 2.518 0 0 0-2.547-2.546Zm-7.531 0c-1.428 0-2.657 1.118-2.657 2.547 0 1.432 1.229 2.55 2.657 2.55a2.52 2.52 0 0 0 2.549-2.55 2.519 2.519 0 0 0-2.549-2.546Zm-7.529 0c-1.43 0-2.657 1.118-2.657 2.547 0 1.432 1.226 2.55 2.657 2.55a2.517 2.517 0 0 0 2.546-2.55 2.517 2.517 0 0 0-2.546-2.546Zm-7.529 0c-1.43 0-2.66 1.118-2.66 2.547 0 1.432 1.23 2.55 2.66 2.55a2.519 2.519 0 0 0 2.546-2.55 2.518 2.518 0 0 0-2.546-2.546Zm241.073-7.532c-1.428 0-2.657 1.118-2.657 2.549 0 1.429 1.23 2.657 2.657 2.657 1.432 0 2.55-1.228 2.55-2.657a2.52 2.52 0 0 0-2.55-2.55Zm-7.528 0c-1.431 0-2.658 1.118-2.658 2.549 0 1.429 1.227 2.657 2.658 2.657 1.428 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.55Zm-7.532 0c-1.428 0-2.657 1.118-2.657 2.549 0 1.429 1.229 2.657 2.657 2.657 1.431 0 2.549-1.228 2.549-2.657a2.52 2.52 0 0 0-2.549-2.55Zm-7.529 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.226 2.657 2.657 2.657 1.432 0 2.546-1.228 2.546-2.657a2.517 2.517 0 0 0-2.546-2.55Zm-7.529 0c-1.43 0-2.66 1.118-2.66 2.549 0 1.429 1.23 2.657 2.66 2.657 1.43 0 2.547-1.228 2.547-2.657a2.519 2.519 0 0 0-2.547-2.55Zm-7.531 0c-1.428 0-2.657 1.118-2.657 2.549 0 1.429 1.229 2.657 2.657 2.657 1.431 0 2.549-1.228 2.549-2.657a2.52 2.52 0 0 0-2.55-2.55Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.226 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.55Zm-7.64 0a2.52 2.52 0 0 0-2.548 2.549c0 1.429 1.118 2.657 2.549 2.657 1.428 0 2.657-1.228 2.657-2.657 0-1.431-1.229-2.55-2.657-2.55Zm-7.53 0a2.518 2.518 0 0 0-2.547 2.549c0 1.429 1.117 2.657 2.546 2.657 1.432 0 2.658-1.228 2.658-2.657 0-1.431-1.226-2.55-2.658-2.55Zm-7.53 0a2.52 2.52 0 0 0-2.548 2.549c0 1.429 1.118 2.657 2.548 2.657s2.658-1.228 2.658-2.657c0-1.431-1.229-2.55-2.658-2.55Zm-7.531 0a2.519 2.519 0 0 0-2.546 2.549c0 1.429 1.118 2.657 2.546 2.657 1.431 0 2.66-1.228 2.66-2.657 0-1.431-1.229-2.55-2.66-2.55Zm-7.53 0a2.517 2.517 0 0 0-2.545 2.549c0 1.429 1.115 2.657 2.546 2.657 1.431 0 2.657-1.228 2.657-2.657 0-1.431-1.226-2.55-2.657-2.55Zm-7.528 0a2.52 2.52 0 0 0-2.548 2.549c0 1.429 1.117 2.657 2.548 2.657 1.429 0 2.657-1.228 2.657-2.657 0-1.431-1.228-2.55-2.657-2.55Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.549c0 1.429 1.117 2.657 2.546 2.657 1.43 0 2.657-1.228 2.657-2.657 0-1.431-1.226-2.55-2.657-2.55Zm-7.53 0a2.52 2.52 0 0 0-2.548 2.549c0 1.429 1.118 2.657 2.549 2.657 1.428 0 2.657-1.228 2.657-2.657 0-1.431-1.229-2.55-2.657-2.55Zm-7.53 0a2.518 2.518 0 0 0-2.547 2.549c0 1.429 1.117 2.657 2.546 2.657 1.432 0 2.66-1.228 2.66-2.657 0-1.431-1.228-2.55-2.66-2.55Zm-15.06 0a2.52 2.52 0 0 0-2.548 2.549c0 1.429 1.118 2.657 2.549 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.55Zm-67.77 0c-1.432 0-2.658 1.118-2.658 2.549 0 1.429 1.226 2.657 2.657 2.657s2.546-1.228 2.546-2.657a2.517 2.517 0 0 0-2.546-2.55Zm-7.53 0c-1.43 0-2.66 1.118-2.66 2.549 0 1.429 1.23 2.657 2.66 2.657 1.429 0 2.547-1.228 2.547-2.657a2.519 2.519 0 0 0-2.547-2.55Zm-7.531 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.549-1.228 2.549-2.657a2.52 2.52 0 0 0-2.55-2.55Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.226 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.55Zm-7.53 0c-1.43 0-2.658 1.118-2.658 2.549 0 1.429 1.229 2.657 2.657 2.657 1.432 0 2.55-1.228 2.55-2.657a2.52 2.52 0 0 0-2.55-2.55Zm-7.53 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.227 2.657 2.657 2.657 1.432 0 2.547-1.228 2.547-2.657a2.517 2.517 0 0 0-2.547-2.55Zm-7.528 0c-1.431 0-2.66 1.118-2.66 2.549 0 1.429 1.229 2.657 2.66 2.657 1.428 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.55Zm263.663-7.53c-1.428 0-2.657 1.228-2.657 2.657 0 1.432 1.229 2.549 2.657 2.549a2.519 2.519 0 0 0 2.55-2.549c0-1.43-1.118-2.658-2.55-2.658Zm-22.59 0c-1.428 0-2.657 1.228-2.657 2.657 0 1.432 1.229 2.549 2.657 2.549a2.519 2.519 0 0 0 2.55-2.549c0-1.43-1.118-2.658-2.55-2.658Zm-7.528 0c-1.431 0-2.658 1.228-2.658 2.657 0 1.432 1.227 2.549 2.658 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.43-1.118-2.658-2.546-2.658Zm-7.532 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.519 2.519 0 0 0 2.549-2.549c0-1.43-1.118-2.658-2.549-2.658Zm-7.529 0c-1.43 0-2.657 1.228-2.657 2.657 0 1.432 1.226 2.549 2.657 2.549a2.517 2.517 0 0 0 2.547-2.549c0-1.43-1.115-2.658-2.547-2.658Zm-7.529 0c-1.43 0-2.66 1.228-2.66 2.657 0 1.432 1.23 2.549 2.66 2.549a2.518 2.518 0 0 0 2.547-2.549c0-1.43-1.118-2.658-2.547-2.658Zm-7.531 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.229 2.549 2.657 2.549a2.519 2.519 0 0 0 2.549-2.549c0-1.43-1.118-2.658-2.55-2.658Zm-7.53 0c-1.43 0-2.656 1.228-2.656 2.657 0 1.432 1.226 2.549 2.657 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.43-1.117-2.658-2.546-2.658Zm-7.64 0c-1.43 0-2.548 1.228-2.548 2.657a2.519 2.519 0 0 0 2.549 2.549c1.428 0 2.657-1.117 2.657-2.549 0-1.43-1.229-2.658-2.657-2.658Zm-7.53 0c-1.43 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.545 2.549c1.432 0 2.657-1.117 2.657-2.549 0-1.43-1.225-2.658-2.657-2.658Zm-7.53 0c-1.43 0-2.548 1.228-2.548 2.657a2.519 2.519 0 0 0 2.548 2.549c1.43 0 2.657-1.117 2.657-2.549 0-1.43-1.228-2.658-2.657-2.658Zm-7.531 0c-1.429 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.546 2.549c1.431 0 2.66-1.117 2.66-2.549 0-1.43-1.229-2.658-2.66-2.658Zm-7.53 0c-1.43 0-2.545 1.228-2.545 2.657a2.517 2.517 0 0 0 2.546 2.549c1.431 0 2.657-1.117 2.657-2.549 0-1.43-1.226-2.658-2.657-2.658Zm-7.528 0c-1.43 0-2.548 1.228-2.548 2.657a2.519 2.519 0 0 0 2.548 2.549c1.429 0 2.657-1.117 2.657-2.549 0-1.43-1.228-2.658-2.657-2.658Zm-7.531 0c-1.43 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.546 2.549c1.431 0 2.657-1.117 2.657-2.549 0-1.43-1.226-2.658-2.657-2.658Zm-7.53 0c-1.43 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.549 2.549c1.429 0 2.657-1.117 2.657-2.549 0-1.43-1.228-2.658-2.657-2.658Zm-7.53 0c-1.43 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.545 2.549c1.432 0 2.66-1.117 2.66-2.549 0-1.43-1.228-2.658-2.66-2.658Zm-7.53 0c-1.431 0-2.545 1.228-2.545 2.657a2.516 2.516 0 0 0 2.545 2.549c1.432 0 2.657-1.117 2.657-2.549 0-1.43-1.225-2.658-2.657-2.658Zm-7.529 0c-1.431 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.548 2.549 2.518 2.518 0 0 0 2.547-2.549c0-1.43-1.118-2.658-2.547-2.658Zm-60.243 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.43-1.117-2.658-2.548-2.658Zm-7.529 0c-1.431 0-2.657 1.228-2.657 2.657 0 1.432 1.226 2.549 2.657 2.549a2.517 2.517 0 0 0 2.546-2.549c0-1.43-1.114-2.658-2.546-2.658Zm-7.529 0c-1.431 0-2.66 1.228-2.66 2.657 0 1.432 1.229 2.549 2.66 2.549a2.518 2.518 0 0 0 2.547-2.549c0-1.43-1.118-2.658-2.547-2.658Zm-7.531 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.43-1.117-2.658-2.548-2.658Zm-7.53 0c-1.43 0-2.656 1.228-2.656 2.657 0 1.432 1.226 2.549 2.657 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.43-1.117-2.658-2.546-2.658Zm-7.53 0c-1.43 0-2.658 1.228-2.658 2.657 0 1.432 1.229 2.549 2.657 2.549a2.518 2.518 0 0 0 2.549-2.549c0-1.43-1.117-2.658-2.549-2.658Zm-7.53 0c-1.43 0-2.657 1.228-2.657 2.657 0 1.432 1.227 2.549 2.658 2.549a2.517 2.517 0 0 0 2.546-2.549c0-1.43-1.115-2.658-2.546-2.658Zm233.544-7.423c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.225 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.549Zm-7.53 0c-1.43 0-2.658 1.118-2.658 2.549 0 1.429 1.228 2.657 2.657 2.657 1.432 0 2.549-1.228 2.549-2.657a2.519 2.519 0 0 0-2.549-2.549Zm-7.53 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.227 2.657 2.657 2.657 1.432 0 2.547-1.228 2.547-2.657a2.517 2.517 0 0 0-2.547-2.549Zm-7.529 0c-1.43 0-2.66 1.118-2.66 2.549 0 1.429 1.23 2.657 2.66 2.657 1.43 0 2.547-1.228 2.547-2.657a2.519 2.519 0 0 0-2.547-2.549Zm-7.531 0c-1.429 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.549Zm-7.529 0c-1.431 0-2.657 1.118-2.657 2.549 0 1.429 1.226 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.549Zm-7.64 0a2.52 2.52 0 0 0-2.548 2.549c0 1.429 1.116 2.657 2.548 2.657 1.429 0 2.657-1.228 2.657-2.657 0-1.431-1.228-2.549-2.657-2.549Zm-7.532 0a2.518 2.518 0 0 0-2.545 2.549c0 1.429 1.117 2.657 2.545 2.657 1.432 0 2.657-1.228 2.657-2.657 0-1.431-1.225-2.549-2.657-2.549Zm-7.529 0a2.519 2.519 0 0 0-2.548 2.549c0 1.429 1.117 2.657 2.548 2.657 1.43 0 2.658-1.228 2.658-2.657 0-1.431-1.229-2.549-2.658-2.549Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.549c0 1.429 1.117 2.657 2.546 2.657 1.431 0 2.66-1.228 2.66-2.657 0-1.431-1.229-2.549-2.66-2.549Zm-7.529 0a2.517 2.517 0 0 0-2.546 2.549c0 1.429 1.115 2.657 2.546 2.657 1.431 0 2.657-1.228 2.657-2.657 0-1.431-1.226-2.549-2.657-2.549Zm-7.529 0a2.519 2.519 0 0 0-2.548 2.549c0 1.429 1.117 2.657 2.548 2.657 1.429 0 2.657-1.228 2.657-2.657 0-1.431-1.228-2.549-2.657-2.549Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.549c0 1.429 1.117 2.657 2.546 2.657 1.431 0 2.657-1.228 2.657-2.657 0-1.431-1.226-2.549-2.657-2.549Zm-7.53 0a2.519 2.519 0 0 0-2.547 2.549c0 1.429 1.116 2.657 2.548 2.657 1.429 0 2.657-1.228 2.657-2.657 0-1.431-1.228-2.549-2.657-2.549Zm-7.53 0a2.518 2.518 0 0 0-2.546 2.549c0 1.429 1.117 2.657 2.545 2.657 1.432 0 2.66-1.228 2.66-2.657 0-1.431-1.228-2.549-2.66-2.549Zm-15.06 0a2.519 2.519 0 0 0-2.547 2.549c0 1.429 1.117 2.657 2.548 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.549Zm-52.711 0c-1.431 0-2.657 1.118-2.657 2.549 0 1.429 1.226 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.549Zm-7.531 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.549Zm-15.059 0c-1.431 0-2.66 1.118-2.66 2.549 0 1.429 1.229 2.657 2.66 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.549Zm-7.531 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.228 2.657 2.657 2.657 1.431 0 2.548-1.228 2.548-2.657a2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.549 0 1.429 1.225 2.657 2.657 2.657 1.429 0 2.546-1.228 2.546-2.657a2.519 2.519 0 0 0-2.546-2.549Zm-7.53 0c-1.43 0-2.658 1.118-2.658 2.549 0 1.429 1.229 2.657 2.657 2.657 1.432 0 2.549-1.228 2.549-2.657a2.519 2.519 0 0 0-2.549-2.549Zm-7.53 0c-1.43 0-2.657 1.118-2.657 2.549 0 1.429 1.226 2.657 2.657 2.657 1.432 0 2.547-1.228 2.547-2.657a2.517 2.517 0 0 0-2.547-2.549Zm-30.23 0A2.519 2.519 0 0 0 0 25.032c0 1.429 1.117 2.657 2.548 2.657 1.43 0 2.657-1.228 2.657-2.657 0-1.431-1.228-2.549-2.657-2.549Zm286.369-7.53c-1.43 0-2.658 1.228-2.658 2.657 0 1.432 1.229 2.549 2.658 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.117-2.657-2.548-2.657Zm-7.53 0c-1.43 0-2.656 1.228-2.656 2.657 0 1.432 1.225 2.549 2.657 2.549a2.516 2.516 0 0 0 2.545-2.549c0-1.429-1.114-2.657-2.545-2.657Zm-7.528 0c-1.432 0-2.66 1.228-2.66 2.657 0 1.432 1.228 2.549 2.66 2.549a2.518 2.518 0 0 0 2.545-2.549c0-1.429-1.116-2.657-2.545-2.657Zm-7.532 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.116-2.657-2.548-2.657Zm-7.529 0c-1.431 0-2.657 1.228-2.657 2.657 0 1.432 1.226 2.549 2.657 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.429-1.117-2.657-2.546-2.657Zm-7.531 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.117-2.657-2.548-2.657Zm-7.529 0c-1.431 0-2.657 1.228-2.657 2.657 0 1.432 1.226 2.549 2.657 2.549a2.516 2.516 0 0 0 2.546-2.549c0-1.429-1.115-2.657-2.546-2.657Zm-7.529 0c-1.431 0-2.66 1.228-2.66 2.657 0 1.432 1.229 2.549 2.66 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.429-1.117-2.657-2.546-2.657Zm-7.531 0c-1.43 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.117-2.657-2.548-2.657Zm-7.53 0c-1.43 0-2.656 1.228-2.656 2.657 0 1.432 1.225 2.549 2.657 2.549a2.518 2.518 0 0 0 2.545-2.549c0-1.429-1.116-2.657-2.545-2.657Zm-7.64 0c-1.43 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.548 2.549c1.43 0 2.657-1.117 2.657-2.549 0-1.429-1.228-2.657-2.657-2.657Zm-7.531 0c-1.429 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.546 2.549c1.431 0 2.657-1.117 2.657-2.549 0-1.429-1.226-2.657-2.657-2.657Zm-7.529 0c-1.431 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.548 2.549c1.429 0 2.657-1.117 2.657-2.549 0-1.429-1.228-2.657-2.657-2.657Zm-7.531 0c-1.43 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.546 2.549c1.431 0 2.66-1.117 2.66-2.549 0-1.429-1.229-2.657-2.66-2.657Zm-7.53 0c-1.43 0-2.545 1.228-2.545 2.657a2.516 2.516 0 0 0 2.546 2.549c1.431 0 2.657-1.117 2.657-2.549 0-1.429-1.226-2.657-2.657-2.657Zm-7.528 0c-1.432 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.548 2.549c1.429 0 2.657-1.117 2.657-2.549 0-1.429-1.228-2.657-2.657-2.657Zm-7.532 0c-1.428 0-2.545 1.228-2.545 2.657a2.518 2.518 0 0 0 2.545 2.549c1.432 0 2.657-1.117 2.657-2.549 0-1.429-1.225-2.657-2.657-2.657Zm-7.529 0c-1.43 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.548 2.549c1.43 0 2.658-1.117 2.658-2.549 0-1.429-1.229-2.657-2.658-2.657Zm-7.531 0c-1.429 0-2.546 1.228-2.546 2.657a2.518 2.518 0 0 0 2.546 2.549c1.431 0 2.66-1.117 2.66-2.549 0-1.429-1.229-2.657-2.66-2.657Zm-22.59 0c-.356 0-.687.091-.996.222-.93.393-1.55 1.362-1.55 2.435a2.518 2.518 0 0 0 2.546 2.55 2.519 2.519 0 0 0 2.548-2.55c0-1.429-1.117-2.657-2.548-2.657Zm-30.12 0c-1.43 0-2.548 1.228-2.548 2.657a2.518 2.518 0 0 0 2.549 2.549 2.518 2.518 0 0 0 2.545-2.549c0-1.429-1.117-2.657-2.545-2.657Zm-7.53 0c-1.43 0-2.658 1.228-2.658 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.116-2.657-2.548-2.657Zm-22.59 0c-1.432 0-2.658 1.228-2.658 2.657 0 1.432 1.226 2.549 2.657 2.549a2.516 2.516 0 0 0 2.546-2.549c0-1.429-1.114-2.657-2.546-2.657Zm-7.53 0c-1.431 0-2.66 1.228-2.66 2.657 0 1.432 1.229 2.549 2.66 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.429-1.117-2.657-2.546-2.657Zm-7.531 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.117-2.657-2.548-2.657Zm-7.529 0c-1.431 0-2.657 1.228-2.657 2.657 0 1.432 1.226 2.549 2.657 2.549a2.518 2.518 0 0 0 2.546-2.549c0-1.429-1.117-2.657-2.546-2.657Zm-7.531 0c-1.43 0-2.658 1.228-2.658 2.657 0 1.432 1.229 2.549 2.658 2.549a2.518 2.518 0 0 0 2.548-2.549c0-1.429-1.117-2.657-2.548-2.657Zm-7.53 0c-1.43 0-2.656 1.228-2.656 2.657 0 1.432 1.225 2.549 2.657 2.549a2.516 2.516 0 0 0 2.545-2.549c0-1.429-1.114-2.657-2.545-2.657Zm-7.528 0c-1.432 0-2.66 1.228-2.66 2.657 0 1.432 1.228 2.549 2.66 2.549a2.518 2.518 0 0 0 2.545-2.549c0-1.429-1.116-2.657-2.545-2.657Zm-7.532 0c-1.429 0-2.657 1.228-2.657 2.657 0 1.432 1.228 2.549 2.657 2.549a2.518 2.518 0 0 0 2.549-2.549c0-1.429-1.117-2.657-2.549-2.657Zm-7.64 0c-1.431 0-2.546 1.228-2.546 2.657a2.516 2.516 0 0 0 2.546 2.549c1.431 0 2.657-1.117 2.657-2.549 0-1.429-1.226-2.657-2.657-2.657ZM296.454 7.53c-1.431 0-2.657 1.118-2.657 2.55 0 1.428 1.226 2.546 2.657 2.546A2.518 2.518 0 0 0 299 10.08a2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.429 0-2.657 1.118-2.657 2.55 0 1.428 1.228 2.546 2.657 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.55 0 1.428 1.226 2.546 2.657 2.546a2.516 2.516 0 0 0 2.546-2.547 2.517 2.517 0 0 0-2.546-2.549Zm-7.528 0c-1.431 0-2.66 1.118-2.66 2.55 0 1.428 1.229 2.546 2.66 2.546a2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.43 0-2.658 1.118-2.658 2.55 0 1.428 1.229 2.546 2.658 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.55 0 1.428 1.225 2.546 2.657 2.546a2.518 2.518 0 0 0 2.545-2.547 2.518 2.518 0 0 0-2.545-2.549Zm-7.53 0c-1.43 0-2.658 1.118-2.658 2.55 0 1.428 1.228 2.546 2.657 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.431 0-2.657 1.118-2.657 2.55 0 1.428 1.226 2.546 2.657 2.546a2.516 2.516 0 0 0 2.546-2.547 2.517 2.517 0 0 0-2.546-2.549Zm-7.529 0c-1.431 0-2.66 1.118-2.66 2.55 0 1.428 1.229 2.546 2.66 2.546a2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.429 0-2.657 1.118-2.657 2.55 0 1.428 1.228 2.546 2.657 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.529 0c-1.431 0-2.657 1.118-2.657 2.55 0 1.428 1.226 2.546 2.657 2.546a2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.549Zm-7.64 0a2.519 2.519 0 0 0-2.548 2.55 2.518 2.518 0 0 0 2.548 2.546c1.429 0 2.657-1.118 2.657-2.547 0-1.43-1.228-2.549-2.657-2.549Zm-7.532 0a2.518 2.518 0 0 0-2.545 2.55 2.518 2.518 0 0 0 2.545 2.546c1.432 0 2.657-1.118 2.657-2.547 0-1.43-1.225-2.549-2.657-2.549Zm-7.529 0a2.519 2.519 0 0 0-2.548 2.55 2.518 2.518 0 0 0 2.548 2.546c1.43 0 2.657-1.118 2.657-2.547 0-1.43-1.228-2.549-2.657-2.549Zm-7.531 0a2.519 2.519 0 0 0-2.546 2.55 2.518 2.518 0 0 0 2.546 2.546c1.431 0 2.66-1.118 2.66-2.547 0-1.43-1.229-2.549-2.66-2.549Zm-7.529 0a2.517 2.517 0 0 0-2.546 2.55 2.517 2.517 0 0 0 2.546 2.546c1.431 0 2.657-1.118 2.657-2.547 0-1.43-1.226-2.549-2.657-2.549Zm-15.061 0a2.518 2.518 0 0 0-2.546 2.55 2.518 2.518 0 0 0 2.546 2.546c1.431 0 2.657-1.118 2.657-2.547 0-1.43-1.226-2.549-2.657-2.549Zm-7.529 0a2.519 2.519 0 0 0-2.548 2.55 2.518 2.518 0 0 0 2.548 2.546c1.429 0 2.657-1.118 2.657-2.547 0-1.43-1.228-2.549-2.657-2.549Zm-37.65 0a2.519 2.519 0 0 0-2.549 2.55 2.518 2.518 0 0 0 2.548 2.546 2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.549Zm-7.532 0a2.519 2.519 0 0 0-2.547 2.55 2.518 2.518 0 0 0 2.547 2.546 2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0a2.517 2.517 0 0 0-2.545 2.55 2.517 2.517 0 0 0 2.546 2.546 2.516 2.516 0 0 0 2.546-2.547 2.517 2.517 0 0 0-2.546-2.549Zm-7.528 0a2.519 2.519 0 0 0-2.548 2.55 2.518 2.518 0 0 0 2.548 2.546 2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.43 0-2.658 1.118-2.658 2.55 0 1.428 1.229 2.546 2.658 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.55 0 1.428 1.225 2.546 2.657 2.546a2.518 2.518 0 0 0 2.545-2.547 2.518 2.518 0 0 0-2.545-2.549Zm-7.53 0c-1.43 0-2.658 1.118-2.658 2.55 0 1.428 1.228 2.546 2.657 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.431 0-2.657 1.118-2.657 2.55 0 1.428 1.226 2.546 2.657 2.546a2.516 2.516 0 0 0 2.546-2.547 2.517 2.517 0 0 0-2.546-2.549Zm-7.529 0c-1.431 0-2.66 1.118-2.66 2.55 0 1.428 1.229 2.546 2.66 2.546a2.518 2.518 0 0 0 2.546-2.547 2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.429 0-2.657 1.118-2.657 2.55 0 1.428 1.228 2.546 2.657 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.529 0c-1.431 0-2.657 1.118-2.657 2.55 0 1.428 1.226 2.546 2.657 2.546A2.518 2.518 0 0 0 50.4 10.08a2.518 2.518 0 0 0-2.546-2.549Zm-7.531 0c-1.43 0-2.658 1.118-2.658 2.55 0 1.428 1.229 2.546 2.658 2.546a2.518 2.518 0 0 0 2.548-2.547 2.519 2.519 0 0 0-2.548-2.549Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.55 0 1.428 1.225 2.546 2.657 2.546a2.516 2.516 0 0 0 2.545-2.547 2.517 2.517 0 0 0-2.545-2.549Zm-7.528 0c-1.432 0-2.66 1.118-2.66 2.55 0 1.428 1.228 2.546 2.66 2.546a2.518 2.518 0 0 0 2.545-2.547 2.518 2.518 0 0 0-2.545-2.549ZM251.278 0c-1.43 0-2.657 1.118-2.657 2.546 0 1.432 1.228 2.66 2.657 2.66 1.431 0 2.548-1.228 2.548-2.66A2.518 2.518 0 0 0 251.278 0Zm-7.53 0c-1.43 0-2.656 1.118-2.656 2.546 0 1.432 1.225 2.66 2.657 2.66 1.431 0 2.545-1.228 2.545-2.66A2.516 2.516 0 0 0 243.75 0Zm-7.528 0c-1.432 0-2.66 1.118-2.66 2.546 0 1.432 1.228 2.66 2.66 2.66 1.429 0 2.546-1.228 2.546-2.66A2.518 2.518 0 0 0 236.22 0Zm-7.532 0c-1.428 0-2.657 1.118-2.657 2.546 0 1.432 1.229 2.66 2.657 2.66 1.432 0 2.549-1.228 2.549-2.66A2.518 2.518 0 0 0 228.688 0Zm-7.529 0c-1.43 0-2.657 1.118-2.657 2.546 0 1.432 1.226 2.66 2.657 2.66 1.43 0 2.546-1.228 2.546-2.66A2.518 2.518 0 0 0 221.16 0Zm-7.64 0a2.518 2.518 0 0 0-2.548 2.546c0 1.432 1.117 2.66 2.548 2.66 1.429 0 2.657-1.228 2.657-2.66 0-1.428-1.228-2.546-2.657-2.546Zm-82.832 0a2.518 2.518 0 0 0-2.546 2.546c0 1.432 1.117 2.66 2.546 2.66 1.432 0 2.548-1.228 2.548-2.66A2.518 2.518 0 0 0 130.687 0Zm-7.529 0a2.518 2.518 0 0 0-2.548 2.546c0 1.432 1.117 2.66 2.548 2.66 1.43 0 2.546-1.228 2.546-2.66A2.518 2.518 0 0 0 123.158 0Zm-7.531 0a2.518 2.518 0 0 0-2.546 2.546c0 1.432 1.117 2.66 2.546 2.66 1.431 0 2.548-1.228 2.548-2.66A2.518 2.518 0 0 0 115.627 0Zm-7.53 0a2.517 2.517 0 0 0-2.545 2.546c0 1.432 1.115 2.66 2.546 2.66 1.431 0 2.546-1.228 2.546-2.66A2.516 2.516 0 0 0 108.098 0Zm-7.528 0a2.519 2.519 0 0 0-2.549 2.546c0 1.432 1.118 2.66 2.549 2.66 1.429 0 2.546-1.228 2.546-2.66A2.518 2.518 0 0 0 100.569 0Zm-7.531 0c-1.43 0-2.657 1.118-2.657 2.546 0 1.432 1.228 2.66 2.657 2.66 1.43 0 2.548-1.228 2.548-2.66A2.518 2.518 0 0 0 93.038 0Z"
-                  fill="#FFF"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#c)"
-                  xlinkHref="#d"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#d"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#e)"
-                  xlinkHref="#f"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#f"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#g)"
-                  xlinkHref="#h"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#h"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#i)"
-                  xlinkHref="#j"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#j"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#k)"
-                  xlinkHref="#l"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#l"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#m)"
-                  xlinkHref="#n"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#n"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#o)"
-                  xlinkHref="#p"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#p"
-                />
-              </g>
-              <g
-                transform="translate(0 -2)"
-              >
-                <use
-                  fill="#000"
-                  filter="url(#q)"
-                  xlinkHref="#r"
-                />
-                <use
-                  fill="#FFF"
-                  stroke="currentColor"
-                  xlinkHref="#r"
-                />
-              </g>
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
             </g>
           </svg>
-        </div>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          PROGETTO UNO
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          PROGETTO DUE
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          PROGETTO TRE
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          PROGETTO QUATTRO
+        </span>
+      </div>
+    </div>
+    <div
+      className="c14 c23"
+    >
+      <div
+        className="c16"
+      >
+        <h6
+          className="c17"
+          color="light"
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+          Servizi
+        </h6>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          SERVIZIO UNO
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          SERVIZIO Due
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          SERVIZIO TRE
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          SERVIZIO QUATTRO
+        </span>
+      </div>
+      <div
+        className="c18"
+      >
+        <span
+          className="c19 c20"
+          color="light"
+          size="18px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path
+                d="M0 0h25.722v48H0z"
+              />
+            </defs>
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(12 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c21 c22"
+          color="light"
+        >
+          SERVIZIO CINQUE
+        </span>
+      </div>
+    </div>
+    <div
+      className="c24 c25"
+    >
+      <span
+        className="c21"
+        color="light"
+      >
+        Seguici
+      </span>
+      <span
+        className="c26 c27"
+        color="light"
+        size="28px"
+      >
+        <svg
+          fill="currentColor"
+          viewBox="0 0 46 46"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            CF55E7EE-9478-42D4-B1DA-F33607BCA15A
+          </title>
+          <path
+            d="M35 33h-4v-7.5a3.51 3.51 0 0 0-3.5-3.5 3.51 3.51 0 0 0-3.5 3.5V33h-4V18h4v1.816A6.476 6.476 0 0 1 28.5 18a6.5 6.5 0 0 1 6.5 6.5V33ZM14 15a2 2 0 1 1-.001-3.999A2 2 0 0 1 14 15Zm-2 18h4V18h-4v15ZM23 0C10.318 0 0 10.317 0 23s10.318 23 23 23 23-10.317 23-23S35.682 0 23 0Z"
+            fillRule="evenodd"
+          />
+        </svg>
+      </span>
+    </div>
+    <div
+      className="c28"
+    >
+      <div
+        className="c29"
+      >
+        <p
+          className="c30 c31"
+          size="lg"
+        >
+          Assistenza telefonica:
+        </p>
+        <p
+          className="c32 c33"
+          size="lg"
+        >
+          +39 0541 979010
+        </p>
+        <span
+          className="c34"
+        >
+          -
+        </span>
+        <p
+          className="c32 c33"
+          size="lg"
+        >
+          Fax: +39 0541 979050
+        </p>
+      </div>
+      <div
+        className="c29"
+      >
+        <p
+          className="c30 c31"
+          size="lg"
+        >
+          Service Italia:
+        </p>
+        <p
+          className="c32 c33"
+          size="lg"
+        >
+          <a
+            href="mailto:servicehsd@hsd.it"
+          >
+            servicehsd@hsd.it
+          </a>
+        </p>
       </div>
     </div>
   </div>
