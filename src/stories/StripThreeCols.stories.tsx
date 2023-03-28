@@ -42,20 +42,20 @@ const SampleItem = styled.div`
 export const Default = Template.bind({});
 Default.args = {
   title: "Lorem ipsum dolor",
-  items: {
-    main: <SampleItem>Item 1</SampleItem>,
-    secondary1: <SampleItem>Item 2</SampleItem>,
-    secondary2: <SampleItem>Item 3</SampleItem>,
-  },
+  items: [
+    <SampleItem key={1}>Item 1</SampleItem>,
+    <SampleItem key={2}>Item 2</SampleItem>,
+    <SampleItem key={3}>Item 3</SampleItem>,
+  ],
 };
 
 export const MobileScroll = Template.bind({});
 MobileScroll.args = {
   title: "Lorem ipsum dolor",
   mobileBehavior: "scroll",
-  items: {
-    main: <SampleItem>Item 1</SampleItem>,
-    secondary1: <SampleItem>Item 2</SampleItem>,
-    secondary2: <SampleItem>Item 3</SampleItem>,
-  },
+  items: [
+    <SampleItem key={1}>Item 1</SampleItem>,
+    <SampleItem key={2}>Item 2</SampleItem>,
+    <SampleItem key={3}>Item 3</SampleItem>,
+  ],
 };

@@ -24,7 +24,6 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 .c1 {
   width: 100%;
   max-width: 1600px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -36,6 +35,7 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 
 .c3 {
   margin-bottom: 30px;
+  padding: 0 15px;
 }
 
 .c5 {
@@ -69,13 +69,13 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 }
 
 @media screen and (min-width:768px) {
-  .c1 {
+  .c4 {
     padding: 0 25px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .c1 {
+  .c4 {
     padding: 0 90px;
   }
 }
@@ -90,6 +90,18 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
   .c4 {
     grid-template-columns: auto;
     grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c3 {
+    padding: 0 90px;
   }
 }
 
@@ -180,15 +192,10 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 .c1 {
   width: 100%;
   max-width: 1600px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 
 .c4 {
-  overflow-x: auto;
-}
-
-.c5 {
   display: grid;
   grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
   gap: 20px;
@@ -196,13 +203,14 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 
 .c3 {
   margin-bottom: 30px;
+  padding: 0 15px;
 }
 
-.c6 {
+.c5 {
   grid-area: main;
 }
 
-.c7 {
+.c6 {
   height: 300px;
   width: 100%;
   background-color: #F5F5F5;
@@ -229,27 +237,40 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 }
 
 @media screen and (min-width:768px) {
-  .c1 {
+  .c4 {
     padding: 0 25px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .c1 {
+  .c4 {
     padding: 0 90px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c5 {
+  .c4 {
     grid-template: "main main" "secondary1 secondary2" / 1fr 1fr;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c5 {
-    grid-template-columns: repeat(3,80%);
-    grid-template-areas: "main secondary1 secondary2";
+  .c4 {
+    grid-template-columns: 0 repeat(3,80%) 0;
+    grid-template-areas: ". main secondary1 secondary2 .";
+    overflow-x: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c3 {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .c3 {
+    padding: 0 90px;
   }
 }
 
@@ -281,37 +302,33 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
           <div
             className="c6"
           >
-            <div
-              className="c7"
-            >
-              Item 1
-            </div>
+            Item 1
           </div>
-          <div
-            style={
-              Object {
-                "gridArea": "secondary1",
-              }
+        </div>
+        <div
+          style={
+            Object {
+              "gridArea": "secondary1",
             }
+          }
+        >
+          <div
+            className="c6"
           >
-            <div
-              className="c7"
-            >
-              Item 2
-            </div>
+            Item 2
           </div>
-          <div
-            style={
-              Object {
-                "gridArea": "secondary2",
-              }
+        </div>
+        <div
+          style={
+            Object {
+              "gridArea": "secondary2",
             }
+          }
+        >
+          <div
+            className="c6"
           >
-            <div
-              className="c7"
-            >
-              Item 3
-            </div>
+            Item 3
           </div>
         </div>
       </div>

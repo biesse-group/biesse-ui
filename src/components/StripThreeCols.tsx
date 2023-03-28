@@ -12,38 +12,14 @@ export type StripThreeColsProps = {
   /**
    * Strip items. Main will be shown larger on large screens.
    */
-  items: {
-    /**
-     * Main item, will be larger on large screens.
-     */
-    main: JSX.Element;
-    /**
-     * Secondary item
-     */
-    secondary1: JSX.Element;
-    /**
-     * Secondary item
-     */
-    secondary2: JSX.Element;
-  };
+  items: [JSX.Element, JSX.Element?, JSX.Element?];
   /**
    * Determine whether wrap items or scroll horizontally on mobile devices
    */
   mobileBehavior?: "wrap" | "scroll";
 };
 
-const StripRoot = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-`;
-
-const StripInner = styled.div`
-  width: 100%;
-  max-width: ${(props) => props.theme.breakpoints.xxl}px;
-  padding: 0 15px;
-  margin: 0 auto;
-
+const stripPaddingStyle = css`
   ${mqFrom(
     "sm",
     css`
@@ -59,14 +35,24 @@ const StripInner = styled.div`
   )}
 `;
 
-const StripScroll = styled.div`
-  overflow-x: auto;
+const StripRoot = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+const StripInner = styled.div`
+  width: 100%;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
+  margin: 0 auto;
 `;
 
 const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior">>`
   display: grid;
   grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
   gap: 20px;
+
+  ${stripPaddingStyle}
 
   ${mqUntil(
     "md",
@@ -89,14 +75,18 @@ const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior">>`
               "secondary2";
           `
         : css`
-            grid-template-columns: repeat(3, 80%);
-            grid-template-areas: "main secondary1 secondary2";
+            grid-template-columns: 0 repeat(3, 80%) 0;
+            grid-template-areas: ". main secondary1 secondary2 .";
+            overflow-x: auto;
           `
     )}
 `;
 
 const StripTitle = styled(Title)`
   margin-bottom: 30px;
+  padding: 0 15px;
+
+  ${stripPaddingStyle}
 `;
 
 const MainItem = styled.div`
@@ -106,22 +96,19 @@ const MainItem = styled.div`
 export const StripThreeCols: FC<StripThreeColsProps> = ({
   title,
   mobileBehavior = "wrap",
-  items: { main, secondary1, secondary2 },
+  items: [main, secondary1, secondary2],
 }) => {
-  const grid = (
-    <ItemsGrid mobileBehavior={mobileBehavior}>
-      <MainItem>{main}</MainItem>
-      <div style={{ gridArea: "secondary1" }}>{secondary1}</div>
-      <div style={{ gridArea: "secondary2" }}>{secondary2}</div>
-    </ItemsGrid>
-  );
   return (
     <StripRoot>
       <StripInner>
         <StripTitle variant="H3" color="primary">
           {title}
         </StripTitle>
-        {mobileBehavior === "scroll" ? <StripScroll>{grid}</StripScroll> : grid}
+        <ItemsGrid mobileBehavior={mobileBehavior}>
+          <MainItem>{main}</MainItem>
+          <div style={{ gridArea: "secondary1" }}>{secondary1}</div>
+          <div style={{ gridArea: "secondary2" }}>{secondary2}</div>
+        </ItemsGrid>
       </StripInner>
     </StripRoot>
   );
