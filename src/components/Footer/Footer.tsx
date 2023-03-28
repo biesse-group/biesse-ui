@@ -257,10 +257,6 @@ export const Footer: FC<FooterProps> = ({
             ))}
           </ExtraWrapper>
         )}
-        {/* <ExtraWrapper>
-          {socialLink && <SocialLink {...socialLink} />}
-          {extraInfo && <ExtraInfoWrapper>{extraInfo}</ExtraInfoWrapper>}
-        </ExtraWrapper> */}
       </FooterContainer>
     </FooterRoot>
   );
