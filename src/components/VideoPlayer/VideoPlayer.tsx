@@ -14,6 +14,9 @@ export interface VideoPlayerProps {
    * Video format, if none is passed mp4 is assumed
    */
   mimeType?: string;
+  /**
+   * Whether the video should be repeated in loop
+   */
   loop?: boolean;
   testId?: string;
 }
@@ -92,6 +95,8 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
         onPlaying={() => setIsVideoPlaying(true)}
         onPause={() => setIsVideoPlaying(false)}
         ref={videoRef}
+        controls={false}
+        playsInline
         loop={loop}
       >
         <source src={url} type={mimeType || "video/mp4"} />

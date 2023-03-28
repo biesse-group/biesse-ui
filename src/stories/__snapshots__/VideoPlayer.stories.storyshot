@@ -127,9 +127,11 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
     />
     <video
       className="c2"
+      controls={false}
       loop={true}
       onPause={[Function]}
       onPlaying={[Function]}
+      playsInline={true}
     >
       <source
         src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
