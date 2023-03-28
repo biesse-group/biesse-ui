@@ -104,7 +104,7 @@ const FooterContainer = styled.div`
       grid-template-rows: repeat(5, auto);
       grid-template-columns: 45px 1fr;
       grid-template-areas:
-        ". logo"
+        "logo logo"
         "info-box info-box"
         ". projects"
         ". services"
@@ -122,6 +122,13 @@ const LogoWrapper = styled.div`
     "md",
     css`
       width: 260px;
+    `
+  )}
+
+  ${mqUntil(
+    "sm",
+    css`
+      justify-self: center;
     `
   )}
 `;

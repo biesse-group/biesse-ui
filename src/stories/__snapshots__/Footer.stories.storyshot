@@ -626,13 +626,19 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
     row-gap: 45px;
     grid-template-rows: repeat(5,auto);
     grid-template-columns: 45px 1fr;
-    grid-template-areas: ". logo" "info-box info-box" ". projects" ". services" ". social-link" ". extra";
+    grid-template-areas: "logo logo" "info-box info-box" ". projects" ". services" ". social-link" ". extra";
   }
 }
 
 @media screen and (max-width:991px) {
   .c2 {
     width: 260px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    justify-self: center;
   }
 }
 
