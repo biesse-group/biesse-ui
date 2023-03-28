@@ -50,7 +50,7 @@ const StripInner = styled.div`
 const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior">>`
   display: grid;
   grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
-  column-gap: 20px;
+  gap: 20px;
 
   ${stripPaddingStyle}
 
