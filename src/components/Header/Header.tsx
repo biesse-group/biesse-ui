@@ -6,16 +6,6 @@ import { mqUntil } from "../../styles/media-queries";
 import { HeaderProps } from "./headerProps";
 import { NavIconItem } from "./NavIconItem";
 
-const getHeaderRootVariantStyle = (version: HeaderProps["variant"]) =>
-  version === "transparent"
-    ? css`
-        background-color: transparent;
-      `
-    : css`
-        background-color: ${(props) => props.theme.color.white};
-        box-shadow: 0 0 10px 0 rgba(122, 122, 122, 0.5);
-      `;
-
 const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: column;
@@ -24,7 +14,15 @@ const HeaderRoot = styled.div<Pick<HeaderProps, "variant">>`
   transition: all 0.2s ease-out;
   color: ${(props) => props.theme.color.white};
 
-  ${(props) => getHeaderRootVariantStyle(props.variant)}
+  ${(props) =>
+    props.variant === "transparent"
+      ? css`
+          background-color: transparent;
+        `
+      : css`
+          background-color: ${props.theme.color.white};
+          box-shadow: 0 0 10px 0 rgba(122, 122, 122, 0.5);
+        `}
 `;
 
 const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
@@ -38,19 +36,14 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
     props.variant === "transparent"
       ? css`
           background-color: transparent;
+          border-bottom: 1px solid rgba(244, 244, 244, 0.2);
         `
       : css`
-          background-color: ${(props) => props.theme.color.primary};
+          background-color: ${props.theme.color.primary};
           height: 75px;
         `}
 
-  ${(props) =>
-    props.variant === "transparent" &&
-    css`
-      border-bottom: 1px solid rgb(244, 244, 244, 0.2);
-    `}
-
-    ${mqUntil(
+  ${mqUntil(
     "lg",
     css`
       padding: 0px 50px;
@@ -62,7 +55,6 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
     "md",
     css`
       padding: 0px 25px;
-      height: 75px;
     `
   )}
 
@@ -75,7 +67,7 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   )}
 `;
 
-const MainHeaderInnerContainer = styled.div`
+const MainHeaderInner = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -109,14 +101,14 @@ const LogoWrapper = styled.div`
   }
 `;
 
-const NavIconsWrapper = styled.div<Pick<HeaderProps, "variant">>`
+const MainNav = styled.nav<Pick<HeaderProps, "variant">>`
   display: flex;
   flex-direction: row;
   height: 100%;
   align-items: center;
 `;
 
-const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
+const SecondaryHeader = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   justify-content: center;
   padding: 0 110px 0 90px;
@@ -137,7 +129,7 @@ const NavLinksWrapper = styled.div<Pick<HeaderProps, "variant">>`
   )}
 `;
 
-const NavLinkInnerContainer = styled.div`
+const SecondaryNav = styled.nav`
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -146,7 +138,7 @@ const NavLinkInnerContainer = styled.div`
   align-items: stretch;
 `;
 
-const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
+const SecondaryNavItem = styled.div<Pick<HeaderProps, "variant">>`
   margin-top: 12px;
   margin-right: 58px;
 
@@ -160,13 +152,10 @@ const NavLinkElementWrapper = styled.div<Pick<HeaderProps, "variant">>`
 `;
 
 const HamburgerMenuIconWrapper = styled.div`
-  flex-direction: row;
-  align-items: center;
-
   width: 36px;
   cursor: pointer;
-
   display: none;
+
   ${mqUntil(
     "md",
     css`
@@ -193,23 +182,26 @@ export const Header: FC<HeaderProps> = ({
 }) => {
   return (
     <HeaderRoot {...props} className={className} data-testid={testId}>
+      {/* Main Header */}
       <MainHeaderWrapper {...props}>
-        <MainHeaderInnerContainer>
+        <MainHeaderInner>
           <LogoWrapper>{logo}</LogoWrapper>
-          <NavIconsWrapper {...props}>
+          <MainNav {...props}>
             {navIcons?.map((navIcon, index) => (
               <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
             ))}
             <HamburgerMenuIconWrapper>
               <Icon name="hamburger" size="100%" color="light" />
             </HamburgerMenuIconWrapper>
-          </NavIconsWrapper>
-        </MainHeaderInnerContainer>
+          </MainNav>
+        </MainHeaderInner>
       </MainHeaderWrapper>
-      <NavLinksWrapper {...props}>
-        <NavLinkInnerContainer>
+
+      {/* Secondary Header */}
+      <SecondaryHeader {...props}>
+        <SecondaryNav>
           {navLinks?.map((navLink, index) => (
-            <NavLinkElementWrapper key={`nav-link-${index}`} variant={props.variant}>
+            <SecondaryNavItem key={`nav-link-${index}`} variant={props.variant}>
               {navLink.renderLink(
                 <Text
                   size="sm"
@@ -219,10 +211,10 @@ export const Header: FC<HeaderProps> = ({
                   {navLink.label.toUpperCase()}
                 </Text>
               )}
-            </NavLinkElementWrapper>
+            </SecondaryNavItem>
           ))}
-        </NavLinkInnerContainer>
-      </NavLinksWrapper>
+        </SecondaryNav>
+      </SecondaryHeader>
     </HeaderRoot>
   );
 };
