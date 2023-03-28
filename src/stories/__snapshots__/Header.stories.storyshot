@@ -138,7 +138,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   height: 95px;
-  padding: 0px 110px 0px 90px;
+  padding: 0 90px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   background-color: #6D6E70;
@@ -210,7 +210,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 110px 0 90px;
+  padding: 0 90px;
   height: 45px;
 }
 
@@ -938,7 +938,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   height: 95px;
-  padding: 0px 110px 0px 90px;
+  padding: 0 90px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   background-color: transparent;
@@ -1010,7 +1010,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 110px 0 90px;
+  padding: 0 90px;
   height: 45px;
 }
 

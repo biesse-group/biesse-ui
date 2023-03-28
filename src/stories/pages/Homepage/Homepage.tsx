@@ -8,6 +8,8 @@ import {
   HeaderProps,
   HeroCarousel,
   HeroCarouselProps,
+  PartnerCarousel,
+  PartnerCarouselProps,
   StripThreeCols,
   StripThreeColsProps,
 } from "../../../components";
@@ -16,6 +18,7 @@ type Props = {
   headerProps: HeaderProps;
   heroCarouselProps: HeroCarouselProps;
   stripThreeColsProps: StripThreeColsProps;
+  partnerCarouselProps: PartnerCarouselProps;
   footerProps: FooterProps;
 };
 
@@ -35,6 +38,7 @@ const Homepage: FC<Props> = ({
   headerProps,
   heroCarouselProps,
   stripThreeColsProps,
+  partnerCarouselProps,
   footerProps,
 }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -62,6 +66,7 @@ const Homepage: FC<Props> = ({
       <Section>
         <StripThreeCols {...stripThreeColsProps} mobileBehavior="scroll" />
       </Section>
+      <PartnerCarousel {...partnerCarouselProps} />
       <Footer {...footerProps} />
     </div>
   );

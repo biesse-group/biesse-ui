@@ -29,7 +29,7 @@ const MainHeaderWrapper = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   justify-content: center;
   height: 95px;
-  padding: 0px 110px 0px 90px;
+  padding: 0 90px;
   transition: all 0.2s ease-out;
 
   ${(props) =>
@@ -111,7 +111,7 @@ const MainNav = styled.nav<Pick<HeaderProps, "variant">>`
 const SecondaryHeader = styled.div<Pick<HeaderProps, "variant">>`
   display: flex;
   justify-content: center;
-  padding: 0 110px 0 90px;
+  padding: 0 90px;
   height: 45px;
 
   ${mqUntil(
