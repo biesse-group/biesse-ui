@@ -2,15 +2,7 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-// import { useTheme } from "styled-components";
-import {
-  Button,
-  MaterialTag, // MaterialTag,
-  ProductCarousel,
-  ProductCarouselProps,
-  Text,
-  Title,
-} from "../components";
+import { Button, ProductCarousel, ProductCarouselProps, Tag, Text, Title } from "../components";
 import { mqUntil } from "../styles/media-queries";
 
 type SampleProductTag = "stone" | "metal" | "glass" | "wood" | "composite";
@@ -31,7 +23,6 @@ export default {
   },
 } as ComponentMeta<typeof ProductCarousel>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof ProductCarousel<SampleProduct>> = (args) => (
   <ProductCarousel {...args} />
 );
@@ -105,7 +96,7 @@ const ButtonContainer = styled.div`
 const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
   return (
     <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
-      <Title variant="H3" style={{ margin: 0 }}>
+      <Title variant="H3" color="primary" style={{ margin: 0 }}>
         {product.code}
       </Title>
       <ButtonContainer>
@@ -120,7 +111,9 @@ const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
       </Text>
       <TagList>
         {product.tags.map((tag, index) => (
-          <MaterialTag material={tag} key={index} />
+          <Tag color={tag} icon={`material-${tag}`} key={index}>
+            {tag}
+          </Tag>
         ))}
       </TagList>
     </div>

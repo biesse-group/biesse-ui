@@ -81,7 +81,7 @@ exports[`Storyshots Components/Logo White 1`] = `
 }
 
 .c1 {
-  color: white;
+  color: #FFF;
 }
 
 .c1 svg {

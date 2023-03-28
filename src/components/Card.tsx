@@ -11,6 +11,7 @@ const CardImgWrapper = styled.div`
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   position: relative;
   height: 450px;
+
   ${mqUntil(
     "sm",
     css`
@@ -21,7 +22,6 @@ const CardImgWrapper = styled.div`
 
 const CardImageInner = styled.div`
   display: flex;
-
   justify-content: center;
   transform: scale(1);
   transition: transform 0.5s ease-out;
@@ -44,15 +44,29 @@ const CardRoot = styled.div`
   }
 `;
 
-const TagWrapper = styled.div`
+const TagsWrapper = styled.div`
   position: absolute;
+  z-index: 1;
   top: 20px;
   left: 20px;
-  z-index: 1;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  > * {
+    margin-bottom: 10px;
+
+    :not(:last-child) {
+      margin-right: 10px;
+    }
+  }
 `;
 
-const CardTitle = styled(Title)<Pick<CardProps, "preTitle">>`
+const CardTitle = styled(Title)<Pick<CardProps, "preTitle" | "titleSize">>`
   margin-top: ${(props) => (props.preTitle ? "14px" : "29px")};
+  font-size: ${(props) => (props.titleSize === "default" ? "32px" : "26px")};
+  text-transform: none;
   margin-bottom: 0px;
 `;
 
@@ -82,7 +96,7 @@ export interface CardProps {
   /**
    * Tag, overlaid on image
    */
-  tag?: React.ReactElement;
+  tags?: React.ReactElement[];
   /**
    * Custom image render function
    */
@@ -91,6 +105,10 @@ export interface CardProps {
    * The card title
    */
   title?: string;
+  /**
+   * Card title size
+   */
+  titleSize?: "default" | "small";
   /**
    * Smaller text to be inserted above the title
    */
@@ -106,15 +124,16 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   className,
   testId,
   title,
+  titleSize = "default",
   preTitle,
   children,
   action,
   image,
-  tag,
+  tags,
 }) => {
   return (
     <CardRoot className={className} data-testid={testId}>
-      {tag && <TagWrapper>{tag}</TagWrapper>}
+      {tags && <TagsWrapper>{tags}</TagsWrapper>}
       {image && (
         <CardImgWrapper>
           <CardImageInner>{image}</CardImageInner>
@@ -127,10 +146,12 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
               {preTitle}
             </CardPreTitle>
           )}
-          <CardTitle variant="H4" color="primary" preTitle={preTitle}>
+          <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle }}>
             {title}
           </CardTitle>
-          <div style={{ marginTop: "20px" }}>{children}</div>
+          <div style={{ marginTop: "20px" }}>
+            {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
+          </div>
         </CardUpperBody>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>

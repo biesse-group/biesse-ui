@@ -94,10 +94,11 @@ const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasF
     `}
 `;
 
-const StyledButton = styled(Button)`
-  height: 40px;
+const InputButton = styled(Button)`
+  height: 38px;
   padding-left: 15px;
   padding-right: 15px;
+  font-size: ${(props) => props.theme.font.regular.body.sm};
 `;
 
 export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...props }) => {
@@ -121,15 +122,14 @@ export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...
         data-testid={testId}
       />
       {withButton && (
-        <StyledButton
+        <InputButton
           variant="primary"
-          size="small"
           type={withButton.type}
           onClick={() => withButton.onClick?.(value)}
           data-testid={withButton.testId}
         >
           {withButton.label}
-        </StyledButton>
+        </InputButton>
       )}
     </InputContainer>
   );

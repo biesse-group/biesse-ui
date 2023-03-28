@@ -12,26 +12,22 @@ const EventCardRoot = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: 85px auto;
-
   background-color: ${(props) => props.theme.color.lightGray};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-
-  transition: all 0.2s linear;
+  transition: all 0.2s ease-out;
 
   :hover {
     background-color: ${(props) => props.theme.color.white};
-    box-shadow: 0 0 20px 0 ${(props) => props.theme.eventCard.boxShadow};
+    box-shadow: ${(props) => props.theme.card.boxShadow};
   }
 `;
 
 const EventCardMainWrapper = styled.div`
   grid-area: 1/ 2;
-
   width: 100%;
   height: 100%;
   display: flex;
@@ -43,22 +39,54 @@ const CardTitle = styled(Title)`
   margin-bottom: 11px;
 `;
 
-const DateSubtitle = styled(Text)`
-  font-style: italic;
+const DateSeparator = styled.span`
+  margin: 0 4px;
 
-  margin-bottom: 27px;
+  ${mqUntil(
+    "sm",
+    css`
+      display: none;
+    `
+  )}
 `;
 
-const DescriptionWrapper = styled(Text)``;
+const DateSubtitle = styled(Text)`
+  font-style: italic;
+  margin-bottom: 27px;
+
+  ${mqUntil(
+    "sm",
+    css`
+      display: flex;
+      flex-direction: column;
+    `
+  )}
+`;
 
 const DateLinkIcon = styled(Icon)`
-  margin-top: 50px;
   opacity: 0;
   transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  ${mqUntil(
+    "md",
+    css`
+      opacity: 1;
+    `
+  )}
 `;
 
 const DateLinkWrapper = styled.div`
   grid-area: 1/ 1 / span 2 / span 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 15px 0px 20px;
+  text-align: center;
+  background-color: ${(props) => props.theme.color.primary};
+  color: ${(props) => props.theme.color.white};
 
   ${mqUntil(
     "sm",
@@ -66,25 +94,6 @@ const DateLinkWrapper = styled.div`
       grid-area: 1/ 1;
     `
   )}
-
-  position: relative;
-  background-color: ${(props) => props.theme.color.primary};
-  display: flex;
-  flex-direction: column;
-  padding: 24px 15px 0px 20px;
-  text-align: center;
-
-  > h2 {
-    margin-bottom: 0px;
-    line-height: 40px;
-
-    ${mqUntil(
-      "sm",
-      css`
-        font-size: 40px;
-      `
-    )}
-  }
 
   &:hover {
     ${DateLinkIcon} {
@@ -106,13 +115,24 @@ const LinkWrapper = styled.div`
 
 const ChildWrapper = styled.div`
   grid-area: 2 / 2;
-
-  padding: 20px 15px 20px 20px;
+  padding: 28px 15px 20px 20px;
 
   ${mqUntil(
     "sm",
     css`
       grid-area: 2/ 1 / span 1 / span 2;
+    `
+  )}
+`;
+
+const DateDay = styled(Title)`
+  margin-bottom: 0px;
+  line-height: 40px;
+
+  ${mqUntil(
+    "sm",
+    css`
+      font-size: 40px;
     `
   )}
 `;
@@ -131,15 +151,21 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
 }) => {
   const theme = useTheme();
 
-  const dateText = `${startDate.format("DD MMMM YYYY")} / ${endDate.format("DD MMMM YYYY")}`;
+  const formattedStartDate = startDate.format("DD MMMM YYYY");
+  const formattedEndDate = endDate.format("DD MMMM YYYY");
 
   return (
     <EventCardRoot className={className} data-testid={testId} {...props}>
       <DateLinkWrapper>
         {renderLink && <LinkWrapper>{renderLink()}</LinkWrapper>}
-        <Title variant="H2" color="light">{`${startDate.format("DD")}`}</Title>
-        <Title variant="H2" color="light">{`${startDate.format("MM")}`}</Title>
-        <Text size="md" color="light">{`${startDate.format("YYYY")}`}</Text>
+        <DateDay variant="H2">{`${startDate.format("DD")}`}</DateDay>
+        <Text size="md" weight="medium">
+          {`${startDate.format("MMMYY")}`.toUpperCase()}
+        </Text>
+        <DateDay variant="H2">{`${endDate.format("MM")}`}</DateDay>
+        <Text size="md" weight="medium">
+          {`${endDate.format("MMMYY")}`.toUpperCase()}
+        </Text>
         <DateLinkIcon name="arrow-right" color={theme.color.white} size="23px" />
       </DateLinkWrapper>
 
@@ -147,8 +173,12 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
         <CardTitle variant="H4" color="primary">
           {title}
         </CardTitle>
-        <DateSubtitle size="sm">{dateText}</DateSubtitle>
-        <DescriptionWrapper>
+        <DateSubtitle size="sm">
+          <span>{formattedStartDate}</span>
+          <DateSeparator>/</DateSeparator>
+          <span>{formattedEndDate}</span>
+        </DateSubtitle>
+        <Text>
           {typeof description === "string" ? (
             <Text size="md">
               {descriptionMaxCharacters
@@ -160,7 +190,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
           ) : (
             description
           )}
-        </DescriptionWrapper>
+        </Text>
       </EventCardMainWrapper>
       <ChildWrapper>{children}</ChildWrapper>
     </EventCardRoot>

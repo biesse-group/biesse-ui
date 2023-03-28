@@ -4,12 +4,16 @@ import { userEvent, within } from "@storybook/testing-library";
 import { Textarea } from "../components";
 import { BackgroundDecorator } from "./decorators";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Inputs/Textarea",
   component: Textarea,
   parameters: {
     layout: "fullscreen",
+  },
+  argTypes: {
+    onChange: {
+      control: false,
+    },
   },
   decorators: [
     (Story, { args }) => (
@@ -23,24 +27,20 @@ export default {
   ],
 } as ComponentMeta<typeof Textarea>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Textarea> = (args) => <Textarea {...args} />;
 
 export const DarkBackground = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 DarkBackground.args = {
   placeholder: "Type something...",
 };
 
 export const LightBackground = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 LightBackground.args = {
   placeholder: "Type something...",
   shadow: "light",
 };
 
 export const Filled = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Filled.args = {
   placeholder: "Type something...",
   testId: "textarea",

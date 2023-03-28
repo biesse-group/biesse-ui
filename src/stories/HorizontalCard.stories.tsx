@@ -2,17 +2,19 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Button, HorizontalCard, Icon } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Cards/HorizontalCard",
   component: HorizontalCard,
+  argTypes: {
+    actions: {
+      control: false,
+    },
+  },
 } as ComponentMeta<typeof HorizontalCard>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof HorizontalCard> = (args) => <HorizontalCard {...args} />;
 
 export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 Default.args = {
   icon: "fast-repair",
   title: "Fast repair",
@@ -33,9 +35,8 @@ Default.decorators = [
 ];
 
 export const WithCustomIcon = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithCustomIcon.args = {
-  icon: <Icon name="picture" size="lg" />,
+  icon: <Icon name="picture" />,
   title: "Fast repair",
   description:
     "Lorem ipsum dolor sit amet, con sectetadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
@@ -54,7 +55,6 @@ WithCustomIcon.decorators = [
 ];
 
 export const WithImage = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
 WithImage.args = {
   ...Default.args,
   title: "Spare parts",

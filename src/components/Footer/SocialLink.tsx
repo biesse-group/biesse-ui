@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
+import { mqUntil } from "../../styles";
 import { Icon, IconName } from "../Icon";
 import { Text } from "../Text";
 
@@ -10,26 +10,53 @@ export interface SocialLinkProps {
    * Label next to the social link
    */
   label?: string;
+  /**
+   * Social network icon
+   */
   socialIcon?: IconName;
   /**
-   * External link element,
-   * function should wrap the argument as children
+   * External link element, function should wrap the argument as children
    */
   renderLink?: (label: JSX.Element) => JSX.Element;
+  className?: string;
 }
 
 const SocialWrapper = styled.div`
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  > span {
-    margin-right: 12px;
-  }
 
   ${mqUntil(
     "md",
     css`
-      display: none;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+    `
+  )}
+  ${mqUntil(
+    "sm",
+    css`
+      flex-direction: row;
+      justify-content: flex-start;
+    `
+  )}
+`;
+
+const SocialIcon = styled(Icon)`
+  margin-left: 15px;
+
+  ${mqUntil(
+    "md",
+    css`
+      margin-left: 0;
+      margin-right: 8px;
+    `
+  )}
+  ${mqUntil(
+    "sm",
+    css`
+      margin-left: 15px;
+      margin-right: 0;
     `
   )}
 `;
@@ -45,7 +72,7 @@ export const SocialLink: FC<SocialLinkProps> = ({
       <Text color="light" weight="book">
         {label}
       </Text>
-      {socialIcon && renderLink?.(<Icon name={socialIcon} size="28px" color="light" />)}
+      {socialIcon && renderLink?.(<SocialIcon name={socialIcon} size="28px" color="light" />)}
     </SocialWrapper>
   );
 };

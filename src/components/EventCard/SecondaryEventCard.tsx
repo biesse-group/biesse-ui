@@ -10,20 +10,17 @@ const EventCardRoot = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   background-color: ${(props) => props.theme.color.lightGray};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-
-  transition: all 0.2s linear;
+  transition: all 0.2s ease-out;
 
   :hover {
     background-color: ${(props) => props.theme.color.white};
-    box-shadow: 0 0 20px 0 ${(props) => props.theme.eventCard.boxShadow};
+    box-shadow: ${(props) => props.theme.card.boxShadow};
   }
 `;
 
@@ -40,12 +37,11 @@ const CardTitle = styled(Title)`
 
 const DateSubtitle = styled(Text)`
   font-style: italic;
-
   margin-bottom: 14px;
 `;
 
 const ActionWrapper = styled.div`
-  padding: 0px 15px 20px 20px;
+  padding: 14px 15px 20px 20px;
   position: relative;
 `;
 

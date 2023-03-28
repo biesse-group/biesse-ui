@@ -12,19 +12,16 @@ const HeroEventCardRoot = styled.div`
   max-width: 400px;
   height: auto;
   overflow: hidden;
-
   display: inline-grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: auto 1fr;
   grid-template-areas:
     "date-subgrid title"
     "description description";
-
   background-color: ${(props) => props.theme.color.white};
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-
-  box-shadow: 0 2px 6px 0 ${(props) => props.theme.eventCard.heroBoxShadow};
+  box-shadow: ${(props) => props.theme.eventCard.heroBoxShadow};
 
   ${mqUntil(
     "md",
@@ -50,10 +47,8 @@ const DateSubgrid = styled.div`
   grid-template-areas:
     "start-DD start-MMYY"
     "end-DD end-MMYY";
-
   padding: 12px 8px 12px 0;
   min-height: 80px;
-
   background-color: ${(props) => props.theme.color.lightGray};
   text-transform: uppercase;
 `;

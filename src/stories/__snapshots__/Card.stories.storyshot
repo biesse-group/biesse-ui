@@ -1,5 +1,468 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Cards/Card Complete Example 1`] = `
+.c3 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  color: #FFF;
+}
+
+.c3 > svg {
+  height: 100%;
+  width: 100%;
+  color: #FFF;
+}
+
+.c17 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c17:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c5 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c5 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c12 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c12 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c16 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+  margin: 0;
+}
+
+.c16 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c14 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c7 {
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  height: 450px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.c0:hover .c8 {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.c1 {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c1 > * {
+  margin-bottom: 10px;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.c15 {
+  margin-top: 14px;
+  font-size: 32px;
+  text-transform: none;
+  margin-bottom: 0px;
+}
+
+.c13 {
+  font-style: italic;
+  margin-top: 33px;
+}
+
+.c10 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c11 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  text-transform: uppercase;
+}
+
+.c4 {
+  margin-right: 9px;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  border: 1px solid #FFF;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c16 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c16 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c7 {
+    height: 400px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 500,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+        color="stone"
+      >
+        <span
+          className="c3 c4"
+          color="#FFF"
+          size="xs"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+              fill="currentColor"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <span
+          className="c5 c6"
+          color="light"
+          size="sm"
+        >
+          Stone
+        </span>
+      </div>
+      <div
+        className="c2"
+        color="wood"
+      >
+        <span
+          className="c3 c4"
+          color="#FFF"
+          size="xs"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+              fill="currentColor"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <span
+          className="c5 c6"
+          color="light"
+          size="sm"
+        >
+          Wood
+        </span>
+      </div>
+    </div>
+    <div
+      className="c7"
+    >
+      <div
+        className="c8 c9"
+      >
+        <img
+          alt="dummy"
+          src="https://dummyimage.com/600x400/ccc/fff.png"
+        />
+      </div>
+    </div>
+    <div
+      className="c10"
+    >
+      <div
+        className="c11"
+      >
+        <span
+          className="c12 c13"
+          size="sm"
+        >
+          01 gennaio 2023, Location
+        </span>
+        <h4
+          className="c14 c15"
+          color="primary"
+        >
+          Example card
+        </h4>
+        <div
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <p
+            className="c16"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <button
+          className="c17"
+          data-testid="action-button"
+          type="button"
+        >
+          Action
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Cards/Card Default 1`] = `
 .c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -7,6 +470,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
+  margin: 0;
 }
 
 .c8 a {
@@ -76,6 +540,8 @@ exports[`Storyshots Cards/Card Default 1`] = `
 
 .c7 {
   margin-top: 29px;
+  font-size: 32px;
+  text-transform: none;
   margin-bottom: 0px;
 }
 
@@ -186,12 +652,11 @@ exports[`Storyshots Cards/Card Default 1`] = `
             }
           }
         >
-          <span
+          <p
             className="c8"
-            size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-          </span>
+          </p>
         </div>
       </div>
     </div>
@@ -223,6 +688,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -242,6 +708,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
+  margin: 0;
 }
 
 .c8 a {
@@ -311,6 +778,8 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 
 .c7 {
   margin-top: 29px;
+  font-size: 32px;
+  text-transform: none;
   margin-bottom: 0px;
 }
 
@@ -421,12 +890,11 @@ exports[`Storyshots Cards/Card With Button 1`] = `
             }
           }
         >
-          <span
+          <p
             className="c8"
-            size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-          </span>
+          </p>
         </div>
       </div>
       <div
@@ -472,6 +940,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
+  margin: 0;
 }
 
 .c10 a {
@@ -541,6 +1010,8 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 
 .c9 {
   margin-top: 14px;
+  font-size: 32px;
+  text-transform: none;
   margin-bottom: 0px;
 }
 
@@ -678,12 +1149,11 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
             }
           }
         >
-          <span
+          <p
             className="c10"
-            size="md"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-          </span>
+          </p>
         </div>
       </div>
     </div>
@@ -691,7 +1161,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 </div>
 `;
 
-exports[`Storyshots Cards/Card With Tag And Button 1`] = `
+exports[`Storyshots Cards/Card With Tags 1`] = `
 .c3 {
   display: inline-block;
   height: 20px;
@@ -705,59 +1175,32 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: #FFF;
 }
 
+.c5 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c5 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
 .c14 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: bold;
-  border: 0;
-  border-radius: 20px;
-  cursor: pointer;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
-  outline: none !important;
+  font-weight: 300;
   font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  background-color: transparent;
-  color: #6D6E70;
-  border: 1px solid #6D6E70;
+  line-height: 24px;
+  color: inherit;
+  margin: 0;
 }
 
-.c14:hover {
-  background-color: #6D6E70;
-  color: #FFF;
-}
-
-.c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFF;
-}
-
-.c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFF;
-}
-
-.c13 {
+.c14 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -765,15 +1208,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   color: inherit;
 }
 
-.c13 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 24px;
-  color: inherit;
-}
-
-.c11 {
+.c12 {
   text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -782,7 +1217,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   font-size: 34px;
 }
 
-.c6 {
+.c7 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -790,7 +1225,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   height: 450px;
 }
 
-.c8 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -824,7 +1259,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   transition: all 0.5s ease-out;
 }
 
-.c0:hover .c7 {
+.c0:hover .c8 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
@@ -832,17 +1267,39 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 
 .c1 {
   position: absolute;
+  z-index: 1;
   top: 20px;
   left: 20px;
-  z-index: 1;
+  right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.c12 {
+.c1 > * {
+  margin-bottom: 10px;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.c13 {
   margin-top: 29px;
+  font-size: 32px;
+  text-transform: none;
   margin-bottom: 0px;
 }
 
-.c9 {
+.c10 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -859,7 +1316,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   justify-content: space-between;
 }
 
-.c10 {
+.c11 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -872,9 +1329,12 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
   flex-direction: column;
 }
 
-.c5 {
+.c6 {
   text-transform: uppercase;
-  margin-left: 9px;
+}
+
+.c4 {
+  margin-right: 9px;
 }
 
 .c2 {
@@ -925,7 +1385,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c13 {
+  .c14 {
     font-size: 14px;
   }
 }
@@ -935,7 +1395,7 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c13 a {
+  .c14 a {
     font-size: 14px;
   }
 }
@@ -945,13 +1405,13 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c11 {
+  .c12 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
+  .c7 {
     height: 400px;
   }
 }
@@ -971,9 +1431,10 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
     >
       <div
         className="c2"
+        color="stone"
       >
         <span
-          className="c3"
+          className="c3 c4"
           color="#FFF"
           size="xs"
         >
@@ -989,19 +1450,47 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
           </svg>
         </span>
         <span
-          className="c4 c5"
+          className="c5 c6"
           color="light"
           size="sm"
         >
-          stone
+          Stone
+        </span>
+      </div>
+      <div
+        className="c2"
+        color="wood"
+      >
+        <span
+          className="c3 c4"
+          color="#FFF"
+          size="xs"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+              fill="currentColor"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <span
+          className="c5 c6"
+          color="light"
+          size="sm"
+        >
+          Wood
         </span>
       </div>
     </div>
     <div
-      className="c6"
+      className="c7"
     >
       <div
-        className="c7 c8"
+        className="c8 c9"
       >
         <img
           alt="dummy"
@@ -1010,13 +1499,13 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
       </div>
     </div>
     <div
-      className="c9"
+      className="c10"
     >
       <div
-        className="c10"
+        className="c11"
       >
         <h4
-          className="c11 c12"
+          className="c12 c13"
           color="primary"
         >
           Example card
@@ -1028,28 +1517,12 @@ exports[`Storyshots Cards/Card With Tag And Button 1`] = `
             }
           }
         >
-          <span
-            className="c13"
-            size="md"
+          <p
+            className="c14"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-          </span>
+          </p>
         </div>
-      </div>
-      <div
-        style={
-          Object {
-            "marginTop": "20px",
-          }
-        }
-      >
-        <button
-          className="c14"
-          data-testid="action-button"
-          type="button"
-        >
-          Action
-        </button>
       </div>
     </div>
   </div>

@@ -51,7 +51,16 @@ const getSize = (size: TitleProps["size"]) => css`
 `;
 
 const getColor = (color?: TitleProps["color"]) => css`
-  color: ${(props) => props.theme.color[color === "light" ? "white" : "primary"]};
+  color: ${(props) => {
+    switch (color) {
+      case "light":
+        return props.theme.color["white"];
+      case "primary":
+        return props.theme.color["primary"];
+      default:
+        return "inherit";
+    }
+  }};
 `;
 
 const HEADINGS = {

@@ -24,6 +24,7 @@ exports[`Storyshots Buttons/Button Block 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -70,6 +71,7 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -115,6 +117,7 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -161,6 +164,7 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -223,6 +227,7 @@ exports[`Storyshots Buttons/Button Small 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -287,6 +292,7 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   transition: all 0.2s ease-out;
   text-transform: uppercase;
   outline: none !important;
+  white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
