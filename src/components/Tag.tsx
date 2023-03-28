@@ -5,7 +5,7 @@ import { biesseTheme } from "../themes/biesse-theme";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 
-export interface MaterialTagProps {
+export interface TagProps {
   /**
    * Optional component class name
    */
@@ -34,7 +34,7 @@ const TagIcon = styled(Icon)`
   margin-right: 9px;
 `;
 
-const TagRoot = styled.div<Pick<MaterialTagProps, "border" | "color"> & { hasIcon: boolean }>`
+const TagRoot = styled.div<Pick<TagProps, "border" | "color"> & { hasIcon: boolean }>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: bold;
   border: 0;
@@ -58,12 +58,7 @@ const TagRoot = styled.div<Pick<MaterialTagProps, "border" | "color"> & { hasIco
     `}
 `;
 
-export const Tag: FC<PropsWithChildren<MaterialTagProps>> = ({
-  icon,
-  testId,
-  children,
-  ...props
-}) => {
+export const Tag: FC<PropsWithChildren<TagProps>> = ({ icon, testId, children, ...props }) => {
   const theme = useTheme();
   return (
     <TagRoot data-testid={testId} hasIcon={!!icon} {...props}>
