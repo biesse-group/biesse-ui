@@ -382,7 +382,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   color: #FFF;
 }
 
-.c19 {
+.c16 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -406,17 +406,17 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
-  font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  color: #FFF;
-  background-color: #6D6E70;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
-.c19:hover {
-  color: #6D6E70;
-  background-color: #FFF;
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
 }
 
 .c4 {
@@ -465,22 +465,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
-}
-
-.c16 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
-}
-
-.c16 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
 }
 
 .c2 {
@@ -587,81 +571,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   line-height: 40px;
 }
 
-.c18 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c18:focus,
-.c18:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c18::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18:active,
-.c18:focus {
-  box-shadow: none;
-}
-
-.c17 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
-.c20 {
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-}
-
 @media screen and (max-width:991px) {
 
 }
@@ -714,30 +623,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 @media screen and (max-width:767px) {
   .c14 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c16 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c16 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c16 a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c16 a {
     font-size: 14px;
   }
 }
@@ -915,41 +800,13 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
     <div
       className="c15"
     >
-      <div
-        style={
-          Object {
-            "display": "flex",
-            "flexDirection": "column",
-          }
-        }
+      <button
+        className="c16"
+        size="small"
+        type="button"
       >
-        <span
-          className="c16"
-          color="primary"
-          size="lg"
-        >
-          INPUT TITLE
-        </span>
-        <div
-          className="c17"
-        >
-          <input
-            className="c18"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            placeholder="Sample input"
-            type="text"
-          />
-          <button
-            className="c19 c20"
-            onClick={[Function]}
-            type="button"
-          >
-            Send
-          </button>
-        </div>
-      </div>
+        Get free ticket
+      </button>
     </div>
   </div>
 </div>
@@ -969,7 +826,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   color: #FFF;
 }
 
-.c19 {
+.c16 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -993,17 +850,17 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
-  font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  color: #FFF;
-  background-color: #6D6E70;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
-.c19:hover {
-  color: #6D6E70;
-  background-color: #FFF;
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
 }
 
 .c4 {
@@ -1052,22 +909,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
-}
-
-.c16 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
-}
-
-.c16 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
 }
 
 .c2 {
@@ -1174,81 +1015,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   line-height: 40px;
 }
 
-.c18 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c18:focus,
-.c18:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c18::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18:active,
-.c18:focus {
-  box-shadow: none;
-}
-
-.c17 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
-.c20 {
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-}
-
 @media screen and (max-width:991px) {
 
 }
@@ -1301,30 +1067,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 
 @media screen and (max-width:767px) {
   .c14 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c16 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c16 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c16 a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c16 a {
     font-size: 14px;
   }
 }
@@ -1502,48 +1244,20 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
     <div
       className="c15"
     >
-      <div
-        style={
-          Object {
-            "display": "flex",
-            "flexDirection": "column",
-          }
-        }
+      <button
+        className="c16"
+        size="small"
+        type="button"
       >
-        <span
-          className="c16"
-          color="primary"
-          size="lg"
-        >
-          INPUT TITLE
-        </span>
-        <div
-          className="c17"
-        >
-          <input
-            className="c18"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            placeholder="Sample input"
-            type="text"
-          />
-          <button
-            className="c19 c20"
-            onClick={[Function]}
-            type="button"
-          >
-            Send
-          </button>
-        </div>
-      </div>
+        Get free ticket
+      </button>
     </div>
   </div>
 </div>
 `;
 
 exports[`Storyshots Cards/EventCard Secondary 1`] = `
-.c11 {
+.c8 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -1567,17 +1281,17 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
-  font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  color: #FFF;
-  background-color: #6D6E70;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
-.c11:hover {
-  color: #6D6E70;
-  background-color: #FFF;
+.c8:hover {
+  background-color: #6D6E70;
+  color: #FFF;
 }
 
 .c4 {
@@ -1610,22 +1324,6 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
-}
-
-.c8 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
-}
-
-.c8 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
 }
 
 .c2 {
@@ -1687,83 +1385,8 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 }
 
 .c7 {
-  padding: 0px 15px 20px 20px;
+  padding: 14px 15px 20px 20px;
   position: relative;
-}
-
-.c10 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c10:focus,
-.c10:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c10::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c10::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c10:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c10::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c10:active,
-.c10:focus {
-  box-shadow: none;
-}
-
-.c9 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
-.c12 {
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
 }
 
 @media screen and (max-width:991px) {
@@ -1798,30 +1421,6 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 
 @media screen and (max-width:767px) {
   .c6 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c8 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c8 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c8 a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c8 a {
     font-size: 14px;
   }
 }
@@ -1871,41 +1470,13 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
     <div
       className="c7"
     >
-      <div
-        style={
-          Object {
-            "display": "flex",
-            "flexDirection": "column",
-          }
-        }
+      <button
+        className="c8"
+        size="small"
+        type="button"
       >
-        <span
-          className="c8"
-          color="primary"
-          size="lg"
-        >
-          INPUT TITLE
-        </span>
-        <div
-          className="c9"
-        >
-          <input
-            className="c10"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            placeholder="Sample input"
-            type="text"
-          />
-          <button
-            className="c11 c12"
-            onClick={[Function]}
-            type="button"
-          >
-            Send
-          </button>
-        </div>
-      </div>
+        Get free ticket
+      </button>
     </div>
   </div>
 </div>
@@ -1925,7 +1496,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   color: #FFF;
 }
 
-.c19 {
+.c16 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -1949,17 +1520,17 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
-  font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  color: #FFF;
-  background-color: #6D6E70;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
-.c19:hover {
-  color: #6D6E70;
-  background-color: #FFF;
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
 }
 
 .c4 {
@@ -2008,22 +1579,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-size: 16px;
   line-height: 24px;
   color: inherit;
-}
-
-.c16 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
-}
-
-.c16 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
-  color: #6D6E70;
 }
 
 .c2 {
@@ -2130,81 +1685,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   line-height: 40px;
 }
 
-.c18 {
-  background-color: #FFF;
-  color: #252525;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  border-radius: 25px;
-  padding: 0 20px;
-  height: 45px;
-  border: none;
-  outline: none;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  width: 100%;
-  border: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.c18:focus,
-.c18:active {
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
-}
-
-.c18::-webkit-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18::-moz-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18:-ms-input-placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18::placeholder {
-  color: #252525;
-  font-style: italic;
-}
-
-.c18:active,
-.c18:focus {
-  box-shadow: none;
-}
-
-.c17 {
-  position: relative;
-  width: 100%;
-  border-radius: 25px;
-  background-color: #FFF;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 4px;
-  -webkit-transition: box-shadow 0.2s ease-out;
-  transition: box-shadow 0.2s ease-out;
-  border: 1px solid #C4C4C4;
-}
-
-.c20 {
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-}
-
 @media screen and (max-width:991px) {
 
 }
@@ -2257,30 +1737,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 @media screen and (max-width:767px) {
   .c14 a {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c16 {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c16 {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c16 a {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c16 a {
     font-size: 14px;
   }
 }
@@ -2365,24 +1821,24 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
       <h2
         className="c2 c3"
       >
-        17
+        24
       </h2>
       <span
         className="c4"
         size="md"
       >
-        DIC95
+        GEN23
       </span>
       <h2
         className="c2 c3"
       >
-        03
+        02
       </h2>
       <span
         className="c4"
         size="md"
       >
-        MAR22
+        FEB23
       </span>
       <span
         className="c5 c6 c7"
@@ -2433,7 +1889,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
         size="sm"
       >
         <span>
-          17 dicembre 1995
+          24 gennaio 2023
         </span>
         <span
           className="c13"
@@ -2441,7 +1897,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
           /
         </span>
         <span>
-          20 marzo 2022
+          10 febbraio 2023
         </span>
       </span>
       <span
@@ -2458,41 +1914,13 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
     <div
       className="c15"
     >
-      <div
-        style={
-          Object {
-            "display": "flex",
-            "flexDirection": "column",
-          }
-        }
+      <button
+        className="c16"
+        size="small"
+        type="button"
       >
-        <span
-          className="c16"
-          color="primary"
-          size="lg"
-        >
-          INPUT TITLE
-        </span>
-        <div
-          className="c17"
-        >
-          <input
-            className="c18"
-            onBlur={[Function]}
-            onChange={[Function]}
-            onFocus={[Function]}
-            placeholder="Sample input"
-            type="text"
-          />
-          <button
-            className="c19 c20"
-            onClick={[Function]}
-            type="button"
-          >
-            Send
-          </button>
-        </div>
-      </div>
+        Get free ticket
+      </button>
     </div>
   </div>
 </div>

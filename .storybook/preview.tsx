@@ -13,6 +13,7 @@ export const parameters = {
       date: /Date$/,
     },
     exclude: ["as", "theme"],
+    expanded: true,
   },
   viewport: {
     viewports: INITIAL_VIEWPORTS,

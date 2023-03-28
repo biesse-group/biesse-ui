@@ -149,7 +149,9 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
           <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle }}>
             {title}
           </CardTitle>
-          <div style={{ marginTop: "20px" }}>{children}</div>
+          <div style={{ marginTop: "20px" }}>
+            {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
+          </div>
         </CardUpperBody>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>

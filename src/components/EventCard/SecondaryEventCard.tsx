@@ -41,7 +41,7 @@ const DateSubtitle = styled(Text)`
 `;
 
 const ActionWrapper = styled.div`
-  padding: 0px 15px 20px 20px;
+  padding: 14px 15px 20px 20px;
   position: relative;
 `;
 

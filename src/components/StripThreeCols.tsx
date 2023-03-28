@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../styles";
+import { mqFrom, mqUntil } from "../styles";
 import { Title } from "./Title";
 
 export type StripThreeColsProps = {
@@ -41,20 +41,20 @@ const StripRoot = styled.div`
 const StripInner = styled.div`
   width: 100%;
   max-width: ${(props) => props.theme.breakpoints.xxl}px;
-  padding: 0 40px;
+  padding: 0 15px;
   margin: 0 auto;
 
-  ${mqUntil(
-    "md",
+  ${mqFrom(
+    "sm",
     css`
       padding: 0 25px;
     `
   )}
 
-  ${mqUntil(
-    "sm",
+  ${mqFrom(
+    "lg",
     css`
-      padding: 0 15px;
+      padding: 0 90px;
     `
   )}
 `;

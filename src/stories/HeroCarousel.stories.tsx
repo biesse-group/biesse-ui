@@ -13,9 +13,7 @@ export default {
   },
   argTypes: {
     slides: {
-      table: {
-        disable: true,
-      },
+      control: false,
     },
   },
 } as ComponentMeta<typeof HeroCarousel>;
