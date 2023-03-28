@@ -19,7 +19,11 @@ export type StripThreeColsProps = {
   mobileBehavior?: "wrap" | "scroll";
 };
 
-const stripPaddingStyle = css`
+const StripRoot = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
   ${mqFrom(
     "sm",
     css`
@@ -35,12 +39,6 @@ const stripPaddingStyle = css`
   )}
 `;
 
-const StripRoot = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-`;
-
 const StripInner = styled.div`
   width: 100%;
   max-width: ${(props) => props.theme.breakpoints.xxl}px;
@@ -51,8 +49,6 @@ const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior">>`
   display: grid;
   grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
   gap: 20px;
-
-  ${stripPaddingStyle}
 
   ${mqUntil(
     "md",
@@ -88,7 +84,12 @@ const StripTitle = styled(Title)`
   margin-bottom: 30px;
   padding: 0 15px;
 
-  ${stripPaddingStyle}
+  ${mqFrom(
+    "sm",
+    css`
+      padding: 0;
+    `
+  )}
 `;
 
 const MainItem = styled.div`

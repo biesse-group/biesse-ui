@@ -69,13 +69,13 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 }
 
 @media screen and (min-width:768px) {
-  .c4 {
+  .c0 {
     padding: 0 25px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .c4 {
+  .c0 {
     padding: 0 90px;
   }
 }
@@ -97,13 +97,7 @@ exports[`Storyshots Layout/StripThreeCols Default 1`] = `
 
 @media screen and (min-width:768px) {
   .c3 {
-    padding: 0 25px;
-  }
-}
-
-@media screen and (min-width:1200px) {
-  .c3 {
-    padding: 0 90px;
+    padding: 0;
   }
 }
 
@@ -239,13 +233,13 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 }
 
 @media screen and (min-width:768px) {
-  .c4 {
+  .c0 {
     padding: 0 25px;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .c4 {
+  .c0 {
     padding: 0 90px;
   }
 }
@@ -266,13 +260,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 
 @media screen and (min-width:768px) {
   .c3 {
-    padding: 0 25px;
-  }
-}
-
-@media screen and (min-width:1200px) {
-  .c3 {
-    padding: 0 90px;
+    padding: 0;
   }
 }
 
