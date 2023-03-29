@@ -111,7 +111,7 @@ const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
       </Text>
       <TagList>
         {product.tags.map((tag, index) => (
-          <Tag color={tag} icon={`material-${tag}`} key={index}>
+          <Tag key={index} color={tag} icon={`material-${tag}`}>
             {tag}
           </Tag>
         ))}

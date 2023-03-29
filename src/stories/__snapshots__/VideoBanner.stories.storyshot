@@ -341,9 +341,11 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
       />
       <video
         className="c10"
+        controls={false}
         loop={true}
         onPause={[Function]}
         onPlaying={[Function]}
+        playsInline={true}
       >
         <source
           src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
@@ -356,7 +358,7 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
       >
         <div
           className="c12"
-          data-projection-id={10}
+          data-projection-id={11}
           data-testid="play-button"
           onClick={[Function]}
           style={

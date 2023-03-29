@@ -252,15 +252,11 @@ export const Footer: FC<FooterProps> = ({
         {socialLink && <StyledSocialLink {...socialLink} />}
         {extraInfo && (
           <ExtraWrapper>
-            {extraInfo.map((props) => (
-              <ExtraInfo {...props} />
+            {extraInfo.map((props, index) => (
+              <ExtraInfo key={index} {...props} />
             ))}
           </ExtraWrapper>
         )}
-        {/* <ExtraWrapper>
-          {socialLink && <SocialLink {...socialLink} />}
-          {extraInfo && <ExtraInfoWrapper>{extraInfo}</ExtraInfoWrapper>}
-        </ExtraWrapper> */}
       </FooterContainer>
     </FooterRoot>
   );

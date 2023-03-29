@@ -36,6 +36,7 @@ const ProductCarouselRoot = styled.div`
   flex-direction: column;
   width: 100%;
   text-transform: uppercase;
+  background-color: ${(props) => props.theme.color.lightGray};
   padding: 40px 0px;
 
   ${mqUntil(
@@ -44,21 +45,26 @@ const ProductCarouselRoot = styled.div`
       padding: 23px 0px 38px 0px;
     `
   )}
-
-  background-color: ${(props) => props.theme.color.lightGray};
 `;
 
-const StyledText = styled(Text)`
-  margin-left: ${CHILD_MARGIN_LEFT}px;
+const TitleWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 0 ${CHILD_MARGIN_LEFT}px;
   margin-bottom: 20px;
 
   ${mqUntil(
     "sm",
     css`
-      margin-left: ${CHILD_MARGIN_LEFT_SM}px;
+      padding: 0 ${CHILD_MARGIN_LEFT_SM}px;
       margin-bottom: 18px;
     `
   )}
+`;
+
+const StyledText = styled(Text)`
+  width: 100%;
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
 `;
 
 const LogoListWrapper = styled.div`
@@ -98,15 +104,17 @@ const ScrollConstraints = styled.div<{ itemsCount: number }>`
 `;
 
 const ScrollableContainer = styled(motion.div)<{ $itemsCount: number }>`
+  position: absolute;
   display: inline-flex;
   flex-direction: row;
   cursor: pointer;
+
   :active {
     cursor: grabbing;
   }
 
-  position: absolute;
   left: max(0px, calc(100% - ${(props) => getInnerScrollableWidth(props.$itemsCount)}px));
+
   ${(props) =>
     mqUntil(
       "sm",
@@ -129,11 +137,10 @@ const LogoWrapper = styled.div`
   )}
 
   height: 88px;
-
   display: inline-flex;
   align-items: center;
-
   margin-right: ${LOGO_MARGIN_RX}px;
+
   :first-child {
     margin-left: ${CHILD_MARGIN_LEFT}px;
   }
@@ -150,12 +157,12 @@ const LogoWrapper = styled.div`
 
   filter: grayscale(1);
   opacity: 0.7;
-
   transition: filter 0.5s ease-out, opacity 0.5s ease-out;
 
   :hover {
     filter: unset;
     opacity: 1;
+
     > * {
       transition: filter 0.5s ease-out;
       filter: drop-shadow(0 0 20px rgba(123, 123, 123, 0.5));
@@ -174,9 +181,11 @@ export const PartnerCarousel: FC<PartnerCarouselProps> = ({
 
   return (
     <ProductCarouselRoot data-testid={testId} {...props}>
-      <StyledText size="xl" color="gray" weight="bold">
-        {title}
-      </StyledText>
+      <TitleWrapper>
+        <StyledText size="xl" color="gray" weight="bold">
+          {title}
+        </StyledText>
+      </TitleWrapper>
       <LogoListWrapper>
         <ScrollConstraints ref={setXScrollConstraints} itemsCount={partners.length}>
           <ScrollableContainer
