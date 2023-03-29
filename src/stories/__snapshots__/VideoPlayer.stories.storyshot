@@ -144,7 +144,7 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
     >
       <div
         className="c4"
-        data-projection-id={11}
+        data-projection-id={12}
         data-testid="play-button"
         onClick={[Function]}
         style={

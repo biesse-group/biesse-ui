@@ -216,6 +216,7 @@ exports[`Storyshots Slideshow/PartnerCarousel Default 1`] = `
     >
       <div
         className="c6"
+        data-projection-id={1}
         draggable={false}
         style={
           Object {
