@@ -138,7 +138,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   height: 95px;
-  padding: 0px 110px 0px 90px;
+  padding: 0 90px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   background-color: #6D6E70;
@@ -210,7 +210,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 110px 0 90px;
+  padding: 0 90px;
   height: 45px;
 }
 
@@ -241,13 +241,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 .c12 {
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: 36px;
   cursor: pointer;
   display: none;
@@ -348,7 +341,6 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 @media screen and (max-width:991px) {
   .c1 {
     padding: 0px 25px;
-    height: 75px;
   }
 }
 
@@ -466,7 +458,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             </svg>
           </div>
         </div>
-        <div
+        <nav
           className="c5"
         >
           <a
@@ -704,13 +696,13 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
               </svg>
             </span>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
     <div
       className="c14"
     >
-      <div
+      <nav
         className="c15"
       >
         <div
@@ -803,7 +795,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
             </span>
           </a>
         </div>
-      </div>
+      </nav>
     </div>
   </div>
 </div>
@@ -946,11 +938,11 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   height: 95px;
-  padding: 0px 110px 0px 90px;
+  padding: 0 90px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   background-color: transparent;
-  border-bottom: 1px solid rgb(244,244,244,0.2);
+  border-bottom: 1px solid rgba(244,244,244,0.2);
 }
 
 .c2 {
@@ -1018,7 +1010,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 0 110px 0 90px;
+  padding: 0 90px;
   height: 45px;
 }
 
@@ -1045,13 +1037,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 .c12 {
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   width: 36px;
   cursor: pointer;
   display: none;
@@ -1152,7 +1137,6 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 @media screen and (max-width:991px) {
   .c1 {
     padding: 0px 25px;
-    height: 75px;
   }
 }
 
@@ -1270,7 +1254,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             </svg>
           </div>
         </div>
-        <div
+        <nav
           className="c5"
         >
           <a
@@ -1508,13 +1492,13 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
               </svg>
             </span>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
     <div
       className="c14"
     >
-      <div
+      <nav
         className="c15"
       >
         <div
@@ -1607,7 +1591,7 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
             </span>
           </a>
         </div>
-      </div>
+      </nav>
     </div>
   </div>
 </div>

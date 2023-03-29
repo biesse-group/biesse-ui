@@ -13,7 +13,7 @@ export interface SocialLinkProps {
   /**
    * Social network icon
    */
-  socialIcon?: IconName;
+  socialIcon?: IconName | JSX.Element;
   /**
    * External link element, function should wrap the argument as children
    */
@@ -67,12 +67,19 @@ export const SocialLink: FC<SocialLinkProps> = ({
   renderLink = (children) => children,
   ...props
 }) => {
+  const icon =
+    typeof socialIcon === "string" ? (
+      <SocialIcon name={socialIcon} size="28px" color="light" />
+    ) : (
+      socialIcon
+    );
+
   return (
     <SocialWrapper {...props}>
       <Text color="light" weight="book">
         {label}
       </Text>
-      {socialIcon && renderLink?.(<SocialIcon name={socialIcon} size="28px" color="light" />)}
+      {icon && renderLink?.(icon)}
     </SocialWrapper>
   );
 };

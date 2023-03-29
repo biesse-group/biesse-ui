@@ -1,3 +1,4 @@
+import React from "react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
@@ -90,12 +91,12 @@ export const ExtraInfo: FC<ExtraInfoProps> = ({ title, lines }) => {
         {title}
       </ExtraText>
       {lines.map((line, index) => (
-        <>
+        <React.Fragment key={index}>
           <ExtraText tag="p" size="lg">
             {line}
           </ExtraText>
           {index < lines.length - 1 && <Separator>-</Separator>}
-        </>
+        </React.Fragment>
       ))}
     </Root>
   );
