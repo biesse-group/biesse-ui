@@ -660,7 +660,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       >
         <div
           className="c5"
-          data-projection-id={1}
+          data-projection-id={2}
           style={
             Object {
               "left": "12.5%",
@@ -675,7 +675,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         </div>
         <div
           className="c5"
-          data-projection-id={2}
+          data-projection-id={3}
           style={
             Object {
               "left": "50%",
@@ -690,7 +690,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         </div>
         <div
           className="c5"
-          data-projection-id={3}
+          data-projection-id={4}
           style={
             Object {
               "left": "auto",
@@ -709,7 +709,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       >
         <div
           className="c6"
-          data-projection-id={4}
+          data-projection-id={5}
           style={
             Object {
               "left": "12.5%",
@@ -733,7 +733,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         </div>
         <div
           className="c6"
-          data-projection-id={5}
+          data-projection-id={6}
           style={
             Object {
               "left": "50%",
@@ -757,7 +757,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
         </div>
         <div
           className="c6"
-          data-projection-id={6}
+          data-projection-id={7}
           style={
             Object {
               "left": "auto",
@@ -785,7 +785,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       >
         <div
           className="c5"
-          data-projection-id={7}
+          data-projection-id={8}
           style={
             Object {
               "opacity": 1,
@@ -801,7 +801,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       >
         <div
           className="c6"
-          data-projection-id={8}
+          data-projection-id={9}
           style={
             Object {
               "opacity": 1,
@@ -910,7 +910,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   >
     <div
       className="c13"
-      data-projection-id={9}
+      data-projection-id={10}
       style={
         Object {
           "opacity": 1,

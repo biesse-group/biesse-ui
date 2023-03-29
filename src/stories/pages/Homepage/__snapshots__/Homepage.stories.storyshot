@@ -1967,7 +1967,6 @@ exports[`Storyshots Pages/Home Default 1`] = `
       />
       <div
         className="c22"
-        data-projection-id={12}
         style={
           Object {
             "opacity": 1,
@@ -1992,7 +1991,6 @@ exports[`Storyshots Pages/Home Default 1`] = `
       className="c23"
     >
       <div
-        data-projection-id={13}
         style={
           Object {
             "opacity": 0,
@@ -2008,7 +2006,6 @@ exports[`Storyshots Pages/Home Default 1`] = `
         </h2>
       </div>
       <div
-        data-projection-id={14}
         style={
           Object {
             "opacity": 0,
@@ -2248,7 +2245,6 @@ exports[`Storyshots Pages/Home Default 1`] = `
       >
         <div
           className="c44"
-          data-projection-id={15}
           draggable={false}
           style={
             Object {
