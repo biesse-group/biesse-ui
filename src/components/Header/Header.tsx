@@ -1,8 +1,9 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { Icon, Text } from "..";
 import { mqUntil } from "../../styles/media-queries";
+import { Icon } from "../Icon";
+import { Text } from "../Text";
 import { HeaderProps } from "./headerProps";
 import { NavIconItem } from "./NavIconItem";
 

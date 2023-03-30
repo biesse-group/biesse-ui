@@ -2,16 +2,22 @@ import { motion } from "framer-motion";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { Text } from ".";
 import { useRefWithCallback } from "../hooks";
 import { mqUntil } from "../styles/media-queries";
+import { Text } from "./Text";
 
 export interface PartnerCarouselProps {
   /**
    * Optional component class name
    */
   className?: string;
+  /**
+   * Partners carousel title
+   */
   title?: string;
+  /**
+   * List of partner items
+   */
   partners: JSX.Element[];
   testId?: string;
 }
