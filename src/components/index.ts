@@ -21,3 +21,4 @@ export * from "./Title";
 export * from "./VideoBanner";
 export * from "./PartnerCarousel";
 export * from "./VideoPlayer";
+export * from "./HeroBanner";
