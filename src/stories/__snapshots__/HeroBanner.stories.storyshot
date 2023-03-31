@@ -49,11 +49,11 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 
 .c1 {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   z-index: 1;
   width: 600px;
+  height: 500px;
   padding: 65px 58px 65px 120px;
   background-color: #6D6E70;
   color: #FFF;
@@ -99,8 +99,16 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
+  .c0 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c1 {
     width: 400px;
+    height: auto;
+    min-height: 400px;
     padding: 36px 17px 36px 25px;
   }
 }
@@ -230,11 +238,11 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 
 .c1 {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   z-index: 1;
   width: 600px;
+  height: 500px;
   padding: 65px 58px 65px 120px;
   background-color: #6D6E70;
   color: #FFF;
@@ -280,8 +288,16 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 }
 
 @media screen and (max-width:991px) {
+  .c0 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c1 {
     width: 400px;
+    height: auto;
+    min-height: 400px;
     padding: 36px 17px 36px 25px;
   }
 }

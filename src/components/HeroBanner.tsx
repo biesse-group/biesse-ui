@@ -29,15 +29,22 @@ const Root = styled.div`
   align-items: center;
   justify-content: center;
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
+
+  ${mqUntil(
+    "md",
+    css`
+      height: 600px;
+    `
+  )}
 `;
 
 const Banner = styled.div`
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   z-index: 1;
   width: 600px;
+  height: 500px;
   padding: 65px 58px 65px 120px;
   background-color: ${(props) => props.theme.color.primary};
   color: ${(props) => props.theme.color.white};
@@ -49,6 +56,8 @@ const Banner = styled.div`
     "md",
     css`
       width: 400px;
+      height: auto;
+      min-height: 400px;
       padding: 36px 17px 36px 25px;
     `
   )}
