@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/Card Complete Example 1`] = `
-.c3 {
+.c4 {
   display: inline-block;
   height: 20px;
   width: 20px;
   color: #FFF;
 }
 
-.c3 > svg {
+.c4 > svg {
   height: 100%;
   width: 100%;
   color: #FFF;
@@ -51,7 +51,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   color: #FFF;
 }
 
-.c5 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -59,7 +59,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   color: #FFF;
 }
 
-.c5 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -109,7 +109,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   font-size: 34px;
 }
 
-.c7 {
+.c1 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -157,7 +157,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   transform: scale(1.25);
 }
 
-.c1 {
+.c2 {
   position: absolute;
   z-index: 1;
   top: 20px;
@@ -176,11 +176,11 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   flex-wrap: wrap;
 }
 
-.c1 > * {
+.c2 > * {
   margin-bottom: 10px;
 }
 
-.c1 > *:not(:last-child) {
+.c2 > *:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -194,6 +194,19 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 .c13 {
   font-style: italic;
   margin-top: 33px;
+}
+
+.c11 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c10 {
@@ -213,28 +226,15 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   justify-content: space-between;
 }
 
-.c11 {
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c6 {
+.c7 {
   text-transform: uppercase;
 }
 
-.c4 {
+.c5 {
   margin-right: 9px;
 }
 
-.c2 {
+.c3 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -324,7 +324,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c1 {
     height: 400px;
   }
 }
@@ -338,81 +338,90 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 >
   <div
     className="c0"
+    direction="vertical"
   >
     <div
       className="c1"
+      direction="vertical"
     >
       <div
         className="c2"
-        color="stone"
       >
-        <span
-          className="c3 c4"
-          color="#FFF"
-          size="xs"
+        <div
+          className="c3"
+          color="stone"
         >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
+          <span
+            className="c4 c5"
+            color="#FFF"
+            size="xs"
           >
-            <path
-              d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
-              fill="currentColor"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <span
-          className="c5 c6"
-          color="light"
-          size="sm"
-        >
-          Stone
-        </span>
-      </div>
-      <div
-        className="c2"
-        color="wood"
-      >
-        <span
-          className="c3 c4"
-          color="#FFF"
-          size="xs"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </span>
+          <span
+            className="c6 c7"
+            color="light"
+            size="sm"
           >
-            <path
-              d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
-              fill="currentColor"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <span
-          className="c5 c6"
-          color="light"
-          size="sm"
+            Stone
+          </span>
+        </div>
+        <div
+          className="c3"
+          color="wood"
         >
-          Wood
-        </span>
+          <span
+            className="c4 c5"
+            color="#FFF"
+            size="xs"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </span>
+          <span
+            className="c6 c7"
+            color="light"
+            size="sm"
+          >
+            Wood
+          </span>
+        </div>
       </div>
-    </div>
-    <div
-      className="c7"
-    >
       <div
         className="c8 c9"
       >
-        <img
-          alt="dummy"
-          src="https://dummyimage.com/600x400/ccc/fff.png"
+        <div
+          style={
+            Object {
+              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
         />
       </div>
     </div>
     <div
       className="c10"
+      direction="vertical"
     >
       <div
         className="c11"
@@ -545,6 +554,19 @@ exports[`Storyshots Cards/Card Default 1`] = `
   margin-bottom: 0px;
 }
 
+.c5 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -560,19 +582,6 @@ exports[`Storyshots Cards/Card Default 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-.c5 {
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
 }
 
 @media screen and (max-width:991px) {
@@ -620,21 +629,30 @@ exports[`Storyshots Cards/Card Default 1`] = `
 >
   <div
     className="c0"
+    direction="vertical"
   >
     <div
       className="c1"
+      direction="vertical"
     >
       <div
         className="c2 c3"
       >
-        <img
-          alt="dummy"
-          src="https://dummyimage.com/600x400/ccc/fff.png"
+        <div
+          style={
+            Object {
+              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
         />
       </div>
     </div>
     <div
       className="c4"
+      direction="vertical"
     >
       <div
         className="c5"
@@ -658,6 +676,446 @@ exports[`Storyshots Cards/Card Default 1`] = `
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
           </p>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/Card Horizontal 1`] = `
+.c4 {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  color: #FFF;
+}
+
+.c4 > svg {
+  height: 100%;
+  width: 100%;
+  color: #FFF;
+}
+
+.c16 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c6 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c6 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c15 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+  margin: 0;
+}
+
+.c15 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c13 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: #6D6E70;
+  font-size: 34px;
+}
+
+.c1 {
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+  height: 450px;
+  -webkit-flex: 1 1 calc(100% / 4 * 3);
+  -ms-flex: 1 1 calc(100% / 4 * 3);
+  flex: 1 1 calc(100% / 4 * 3);
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  width: 100%;
+  height: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.c0:hover .c8 {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.c2 {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c2 > * {
+  margin-bottom: 10px;
+}
+
+.c2 > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.c14 {
+  margin-top: 29px;
+  font-size: 32px;
+  text-transform: none;
+  margin-bottom: 0px;
+}
+
+.c12 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c10 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex: 1 1 calc(100% / 4);
+  -ms-flex: 1 1 calc(100% / 4);
+  flex: 1 1 calc(100% / 4);
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.c10 .c11 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c7 {
+  text-transform: uppercase;
+}
+
+.c5 {
+  margin-right: 9px;
+}
+
+.c3 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 10px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F9942E;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  border: 1px solid #FFF;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c15 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    height: 400px;
+  }
+}
+
+<div>
+  <div
+    className="c0"
+    direction="horizontal"
+  >
+    <div
+      className="c1"
+      direction="horizontal"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+          color="stone"
+        >
+          <span
+            className="c4 c5"
+            color="#FFF"
+            size="xs"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </span>
+          <span
+            className="c6 c7"
+            color="light"
+            size="sm"
+          >
+            Stone
+          </span>
+        </div>
+        <div
+          className="c3"
+          color="wood"
+        >
+          <span
+            className="c4 c5"
+            color="#FFF"
+            size="xs"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </span>
+          <span
+            className="c6 c7"
+            color="light"
+            size="sm"
+          >
+            Wood
+          </span>
+        </div>
+      </div>
+      <div
+        className="c8 c9"
+      >
+        <div
+          style={
+            Object {
+              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="c10"
+      direction="horizontal"
+    >
+      <div
+        className="c11 c12"
+      >
+        <h4
+          className="c13 c14"
+          color="primary"
+        >
+          Example card
+        </h4>
+        <div
+          style={
+            Object {
+              "marginTop": "20px",
+            }
+          }
+        >
+          <p
+            className="c15"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "marginTop": "20px",
+          }
+        }
+      >
+        <button
+          className="c16"
+          data-testid="action-button"
+          type="button"
+        >
+          Action
+        </button>
       </div>
     </div>
   </div>
@@ -783,6 +1241,19 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   margin-bottom: 0px;
 }
 
+.c5 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -798,19 +1269,6 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-.c5 {
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
 }
 
 @media screen and (max-width:991px) {
@@ -858,21 +1316,30 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 >
   <div
     className="c0"
+    direction="vertical"
   >
     <div
       className="c1"
+      direction="vertical"
     >
       <div
         className="c2 c3"
       >
-        <img
-          alt="dummy"
-          src="https://dummyimage.com/600x400/ccc/fff.png"
+        <div
+          style={
+            Object {
+              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
         />
       </div>
     </div>
     <div
       className="c4"
+      direction="vertical"
     >
       <div
         className="c5"
@@ -1020,6 +1487,19 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   margin-top: 33px;
 }
 
+.c5 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .c4 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
@@ -1035,19 +1515,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-.c5 {
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
 }
 
 @media screen and (max-width:991px) {
@@ -1111,21 +1578,30 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 >
   <div
     className="c0"
+    direction="vertical"
   >
     <div
       className="c1"
+      direction="vertical"
     >
       <div
         className="c2 c3"
       >
-        <img
-          alt="dummy"
-          src="https://dummyimage.com/600x400/ccc/fff.png"
+        <div
+          style={
+            Object {
+              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
         />
       </div>
     </div>
     <div
       className="c4"
+      direction="vertical"
     >
       <div
         className="c5"
@@ -1162,20 +1638,20 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 `;
 
 exports[`Storyshots Cards/Card With Tags 1`] = `
-.c3 {
+.c4 {
   display: inline-block;
   height: 20px;
   width: 20px;
   color: #FFF;
 }
 
-.c3 > svg {
+.c4 > svg {
   height: 100%;
   width: 100%;
   color: #FFF;
 }
 
-.c5 {
+.c6 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1183,7 +1659,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   color: #FFF;
 }
 
-.c5 a {
+.c6 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -1217,7 +1693,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   font-size: 34px;
 }
 
-.c7 {
+.c1 {
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -1265,7 +1741,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   transform: scale(1.25);
 }
 
-.c1 {
+.c2 {
   position: absolute;
   z-index: 1;
   top: 20px;
@@ -1284,11 +1760,11 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   flex-wrap: wrap;
 }
 
-.c1 > * {
+.c2 > * {
   margin-bottom: 10px;
 }
 
-.c1 > *:not(:last-child) {
+.c2 > *:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -1297,6 +1773,19 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   font-size: 32px;
   text-transform: none;
   margin-bottom: 0px;
+}
+
+.c11 {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .c10 {
@@ -1316,28 +1805,15 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   justify-content: space-between;
 }
 
-.c11 {
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c6 {
+.c7 {
   text-transform: uppercase;
 }
 
-.c4 {
+.c5 {
   margin-right: 9px;
 }
 
-.c2 {
+.c3 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -1411,7 +1887,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c1 {
     height: 400px;
   }
 }
@@ -1425,81 +1901,90 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 >
   <div
     className="c0"
+    direction="vertical"
   >
     <div
       className="c1"
+      direction="vertical"
     >
       <div
         className="c2"
-        color="stone"
       >
-        <span
-          className="c3 c4"
-          color="#FFF"
-          size="xs"
+        <div
+          className="c3"
+          color="stone"
         >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
+          <span
+            className="c4 c5"
+            color="#FFF"
+            size="xs"
           >
-            <path
-              d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
-              fill="currentColor"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <span
-          className="c5 c6"
-          color="light"
-          size="sm"
-        >
-          Stone
-        </span>
-      </div>
-      <div
-        className="c2"
-        color="wood"
-      >
-        <span
-          className="c3 c4"
-          color="#FFF"
-          size="xs"
-        >
-          <svg
-            viewBox="0 0 50 50"
-            xmlns="http://www.w3.org/2000/svg"
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </span>
+          <span
+            className="c6 c7"
+            color="light"
+            size="sm"
           >
-            <path
-              d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
-              fill="currentColor"
-              fillRule="evenodd"
-            />
-          </svg>
-        </span>
-        <span
-          className="c5 c6"
-          color="light"
-          size="sm"
+            Stone
+          </span>
+        </div>
+        <div
+          className="c3"
+          color="wood"
         >
-          Wood
-        </span>
+          <span
+            className="c4 c5"
+            color="#FFF"
+            size="xs"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </span>
+          <span
+            className="c6 c7"
+            color="light"
+            size="sm"
+          >
+            Wood
+          </span>
+        </div>
       </div>
-    </div>
-    <div
-      className="c7"
-    >
       <div
         className="c8 c9"
       >
-        <img
-          alt="dummy"
-          src="https://dummyimage.com/600x400/ccc/fff.png"
+        <div
+          style={
+            Object {
+              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
         />
       </div>
     </div>
     <div
       className="c10"
+      direction="vertical"
     >
       <div
         className="c11"
