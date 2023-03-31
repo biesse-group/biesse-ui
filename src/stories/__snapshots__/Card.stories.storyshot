@@ -781,9 +781,6 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   border-top-right-radius: 40px;
   position: relative;
   height: 450px;
-  -webkit-flex: 1 1 calc(100% / 4 * 3);
-  -ms-flex: 1 1 calc(100% / 4 * 3);
-  flex: 1 1 calc(100% / 4 * 3);
 }
 
 .c9 {
@@ -813,9 +810,9 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -888,20 +885,6 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex: 1 1 calc(100% / 4);
-  -ms-flex: 1 1 calc(100% / 4);
-  flex: 1 1 calc(100% / 4);
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  margin-right: 20px;
-}
-
-.c10 .c11 {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
 }
 
 .c7 {
@@ -985,9 +968,44 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   }
 }
 
+@media screen and (min-width:992px) {
+  .c1 {
+    -webkit-flex: 1 1 calc(100% / 4 * 3);
+    -ms-flex: 1 1 calc(100% / 4 * 3);
+    flex: 1 1 calc(100% / 4 * 3);
+  }
+}
+
 @media screen and (max-width:767px) {
   .c1 {
     height: 400px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c0 {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .c10 {
+    -webkit-flex: 1 1 calc(100% / 4);
+    -ms-flex: 1 1 calc(100% / 4);
+    flex: 1 1 calc(100% / 4);
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .c10 .c11 {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 }
 

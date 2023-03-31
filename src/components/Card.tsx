@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../styles/media-queries";
+import { mqFrom, mqUntil } from "../styles/media-queries";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
@@ -14,9 +14,12 @@ const CardImageWrapper = styled.div<Pick<CardProps, "direction">>`
 
   ${(props) =>
     props.direction === "horizontal" &&
-    css`
-      flex: 1 1 calc(100% / 4 * 3);
-    `}
+    mqFrom(
+      "md",
+      css`
+        flex: 1 1 calc(100% / 4 * 3);
+      `
+    )}
 
   ${mqUntil(
     "sm",
@@ -40,8 +43,17 @@ const CardRoot = styled.div<Pick<CardProps, "direction">>`
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: ${(props) => (props.direction === "vertical" ? "column" : "row-reverse")};
+  flex-direction: column;
   transition: all 0.5s ease-out;
+
+  ${(props) =>
+    props.direction === "horizontal" &&
+    mqFrom(
+      "md",
+      css`
+        flex-direction: row-reverse;
+      `
+    )}
 
   :hover {
     ${CardImageInner} {
@@ -95,15 +107,18 @@ const CardBody = styled.div<Pick<CardProps, "direction">>`
 
   ${(props) =>
     props.direction === "horizontal" &&
-    css`
-      flex: 1 1 calc(100% / 4);
-      justify-content: flex-end;
-      margin-right: 20px;
+    mqFrom(
+      "md",
+      css`
+        flex: 1 1 calc(100% / 4);
+        justify-content: flex-end;
+        margin-right: 20px;
 
-      ${CardBodyContent} {
-        flex: 0 0 auto;
-      }
-    `}
+        ${CardBodyContent} {
+          flex: 0 0 auto;
+        }
+      `
+    )}
 `;
 
 export interface CardProps {
