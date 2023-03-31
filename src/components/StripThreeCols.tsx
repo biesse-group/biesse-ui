@@ -17,6 +17,13 @@ export type StripThreeColsProps = {
    * Determine whether wrap items or scroll horizontally on mobile devices
    */
   mobileBehavior?: "wrap" | "scroll";
+  /**
+   * Items size variant (for desktop devices only):
+   * - `2-1-1` (default): First item is 50% while 2nd and 3rd are 25% of available space
+   * - `1-2-2`: First item is 25% while 2nd and 3rd are 37.5% of available space
+   * - `1-1-1`: Items are 33.33% of available space each
+   */
+  variant?: "2-1-1" | "1-2-2" | "1-1-1";
 };
 
 const StripRoot = styled.div`
@@ -45,9 +52,18 @@ const StripInner = styled.div`
   margin: 0 auto;
 `;
 
-const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior">>`
+const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior" | "variant">>`
   display: grid;
-  grid-template: "main secondary1 secondary2" / 2fr 1fr 1fr;
+  grid-template: "main secondary1 secondary2" / ${(props) => {
+      switch (props.variant) {
+        case "2-1-1":
+          return "2fr 1fr 1fr";
+        case "1-2-2":
+          return "25% 1fr 1fr";
+        case "1-1-1":
+          return "1fr 1fr 1fr";
+      }
+    }};
   gap: 20px;
 
   ${mqUntil(
@@ -96,9 +112,14 @@ const MainItem = styled.div`
   grid-area: main;
 `;
 
+/**
+ * Three columns with different sizes and vary layouts available.
+ * On mobile devices it can either wrap or scroll horizontally.
+ */
 export const StripThreeCols: FC<StripThreeColsProps> = ({
   title,
   mobileBehavior = "wrap",
+  variant = "2-1-1",
   items: [main, secondary1, secondary2],
 }) => {
   return (
@@ -107,7 +128,7 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
         <StripTitle variant="H3" color="primary">
           {title}
         </StripTitle>
-        <ItemsGrid mobileBehavior={mobileBehavior}>
+        <ItemsGrid {...{ mobileBehavior, variant }}>
           <MainItem>{main}</MainItem>
           <div style={{ gridArea: "secondary1" }}>{secondary1}</div>
           <div style={{ gridArea: "secondary2" }}>{secondary2}</div>
