@@ -132,7 +132,7 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
       className="c2 c3"
       size="lg"
     >
-      Case History
+      Lorem ipsum
     </h1>
     <p
       className="c4"
@@ -140,6 +140,201 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
+.c5 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background: transparent;
+  color: #FFF;
+  border: 1px solid #FFF;
+}
+
+.c5:hover {
+  color: #6D6E70;
+  background-color: #FFF;
+}
+
+.c4 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+  margin: 0;
+}
+
+.c4 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.c2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  color: inherit;
+  font-size: 40px;
+}
+
+.c0 {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom-left-radius: 40px;
+}
+
+.c1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 600px;
+  padding: 65px 58px 65px 120px;
+  background-color: #6D6E70;
+  color: #FFF;
+  font-size: 18px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.c3 {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    width: 400px;
+    padding: 36px 17px 36px 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    width: 265px;
+    padding: 27px 13px 27px 24px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    margin-bottom: 21px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <img
+    alt=""
+    src="https://dummyimage.com/1920x1080/cccccc/ffffff.png"
+  />
+  <div
+    className="c1"
+  >
+    <h1
+      className="c2 c3"
+      size="lg"
+    >
+      Lorem ipsum
+    </h1>
+    <p
+      className="c4"
+      size="lg"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <div
+      style={
+        Object {
+          "marginTop": 40,
+        }
+      }
+    >
+      <button
+        className="c5"
+        type="button"
+      >
+        More...
+      </button>
+    </div>
   </div>
 </div>
 `;

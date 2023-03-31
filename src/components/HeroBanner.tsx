@@ -6,8 +6,17 @@ import { Text } from "./Text";
 import { Title } from "./Title";
 
 export type HeroBannerProps = {
+  /**
+   * Banner background image
+   */
   image: JSX.Element;
+  /**
+   * Banner title
+   */
   title: string;
+  /**
+   * Banner description
+   */
   description: string | JSX.Element;
 };
 
