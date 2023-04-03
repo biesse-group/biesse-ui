@@ -52,28 +52,43 @@ const StripInner = styled.div`
   margin: 0 auto;
 `;
 
-const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior" | "variant">>`
+const getAreas = (itemsCount: number, separator: string = " ") => {
+  return ["main", "secondary1", "secondary2"].slice(0, itemsCount).join(separator);
+};
+
+const ItemsGrid = styled.div<
+  Pick<StripThreeColsProps, "mobileBehavior" | "variant"> & { itemsCount: number }
+>`
   display: grid;
-  grid-template: "main secondary1 secondary2" / ${(props) => {
-      switch (props.variant) {
-        case "2-1-1":
-          return "2fr 1fr 1fr";
-        case "1-2-2":
-          return "25% 1fr 1fr";
-        case "1-1-1":
-          return "1fr 1fr 1fr";
-      }
-    }};
+  grid-template-areas: ${(props) => `"${getAreas(props.itemsCount)}"`};
+  grid-template-columns: ${(props) => {
+    if (props.itemsCount === 1) {
+      return "1fr";
+    }
+    if (props.itemsCount === 2) {
+      return props.variant === "1-2-2" ? "25% 1fr" : "1fr 1fr";
+    }
+    switch (props.variant) {
+      case "2-1-1":
+        return "2fr 1fr 1fr";
+      case "1-2-2":
+        return "25% 1fr 1fr";
+      case "1-1-1":
+        return "1fr 1fr 1fr";
+    }
+  }};
   gap: 20px;
 
-  ${mqUntil(
-    "md",
-    css`
-      grid-template:
-        "main main"
-        "secondary1 secondary2" / 1fr 1fr;
-    `
-  )}
+  ${(props) =>
+    mqUntil(
+      "md",
+      css`
+        grid-template-areas:
+          "main main"
+          ${props.itemsCount > 1 && `"secondary1 secondary${props.itemsCount > 2 ? "2" : "1"}"`};
+        grid-template-columns: 1fr 1fr;
+      `
+    )}
 
   ${(props) =>
     mqUntil(
@@ -83,14 +98,13 @@ const ItemsGrid = styled.div<Pick<StripThreeColsProps, "mobileBehavior" | "varia
             row-gap: 40px;
             padding: 0 15px;
             grid-template-columns: auto;
-            grid-template-areas:
-              "main"
-              "secondary1"
-              "secondary2";
+            grid-template-areas: "${getAreas(props.itemsCount, `" "`)}";
           `
         : css`
-            grid-template-columns: 0 repeat(3, 80%) 0;
-            grid-template-areas: ". main secondary1 secondary2 .";
+            grid-template-columns:
+              0 repeat(${props.itemsCount}, ${props.itemsCount > 1 ? "80%" : "1fr"})
+              0;
+            grid-template-areas: ". ${getAreas(props.itemsCount)} .";
             overflow-x: auto;
           `
     )}
@@ -120,18 +134,20 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
   title,
   mobileBehavior = "wrap",
   variant = "2-1-1",
-  items: [main, secondary1, secondary2],
+  items,
 }) => {
+  const [main, secondary1, secondary2] = items;
+
   return (
     <StripRoot>
       <StripInner>
         <StripTitle variant="H3" color="primary">
           {title}
         </StripTitle>
-        <ItemsGrid {...{ mobileBehavior, variant }}>
+        <ItemsGrid itemsCount={Math.min(items.length, 3)} {...{ mobileBehavior, variant }}>
           <MainItem>{main}</MainItem>
-          <div style={{ gridArea: "secondary1" }}>{secondary1}</div>
-          <div style={{ gridArea: "secondary2" }}>{secondary2}</div>
+          {secondary1 && <div style={{ gridArea: "secondary1" }}>{secondary1}</div>}
+          {secondary2 && <div style={{ gridArea: "secondary2" }}>{secondary2}</div>}
         </ItemsGrid>
       </StripInner>
     </StripRoot>

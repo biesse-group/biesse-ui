@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import styled from "styled-components";
 
-import { StripThreeCols } from "../components";
+import { StripThreeCols, StripThreeColsProps } from "../components";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -25,16 +25,26 @@ const SampleItem = styled.div`
   align-items: center;
 `;
 
+const items: StripThreeColsProps["items"] = [
+  <SampleItem key={1}>Item 1</SampleItem>,
+  <SampleItem key={2}>Item 2</SampleItem>,
+  <SampleItem key={3}>Item 3</SampleItem>,
+];
+
 export const MainItemLarge = Template.bind({});
 MainItemLarge.args = {
   title: "Lorem ipsum dolor",
   variant: "2-1-1",
   mobileBehavior: "wrap",
-  items: [
-    <SampleItem key={1}>Item 1</SampleItem>,
-    <SampleItem key={2}>Item 2</SampleItem>,
-    <SampleItem key={3}>Item 3</SampleItem>,
-  ],
+  items,
+};
+
+export const MainItemLargeTwoItems = Template.bind({});
+MainItemLargeTwoItems.args = {
+  title: "Lorem ipsum dolor",
+  variant: "2-1-1",
+  mobileBehavior: "wrap",
+  items: items.slice(0, 2) as StripThreeColsProps["items"],
 };
 
 export const SecondaryItemsLarge = Template.bind({});
@@ -42,11 +52,15 @@ SecondaryItemsLarge.args = {
   title: "Lorem ipsum dolor",
   variant: "1-2-2",
   mobileBehavior: "wrap",
-  items: [
-    <SampleItem key={1}>Item 1</SampleItem>,
-    <SampleItem key={2}>Item 2</SampleItem>,
-    <SampleItem key={3}>Item 3</SampleItem>,
-  ],
+  items,
+};
+
+export const SecondaryItemsLargeTwoItems = Template.bind({});
+SecondaryItemsLargeTwoItems.args = {
+  title: "Lorem ipsum dolor",
+  variant: "1-2-2",
+  mobileBehavior: "wrap",
+  items: items.slice(0, 2) as StripThreeColsProps["items"],
 };
 
 export const EqualSizeItems = Template.bind({});
@@ -54,21 +68,21 @@ EqualSizeItems.args = {
   title: "Lorem ipsum dolor",
   variant: "1-1-1",
   mobileBehavior: "wrap",
-  items: [
-    <SampleItem key={1}>Item 1</SampleItem>,
-    <SampleItem key={2}>Item 2</SampleItem>,
-    <SampleItem key={3}>Item 3</SampleItem>,
-  ],
+  items,
+};
+
+export const OneItem = Template.bind({});
+OneItem.args = {
+  title: "Lorem ipsum dolor",
+  variant: "1-1-1",
+  mobileBehavior: "wrap",
+  items: items.slice(0, 1) as StripThreeColsProps["items"],
 };
 
 export const TabletWrap = Template.bind({});
 TabletWrap.args = {
   title: "Lorem ipsum",
-  items: [
-    <SampleItem key={1}>Item 1</SampleItem>,
-    <SampleItem key={2}>Item 2</SampleItem>,
-    <SampleItem key={3}>Item 3</SampleItem>,
-  ],
+  items,
 };
 TabletWrap.parameters = {
   viewport: {
@@ -79,11 +93,7 @@ TabletWrap.parameters = {
 export const MobileWrap = Template.bind({});
 MobileWrap.args = {
   title: "Lorem ipsum",
-  items: [
-    <SampleItem key={1}>Item 1</SampleItem>,
-    <SampleItem key={2}>Item 2</SampleItem>,
-    <SampleItem key={3}>Item 3</SampleItem>,
-  ],
+  items,
 };
 MobileWrap.parameters = {
   viewport: {
@@ -95,11 +105,7 @@ export const MobileScroll = Template.bind({});
 MobileScroll.args = {
   title: "Lorem ipsum",
   mobileBehavior: "scroll",
-  items: [
-    <SampleItem key={1}>Item 1</SampleItem>,
-    <SampleItem key={2}>Item 2</SampleItem>,
-    <SampleItem key={3}>Item 3</SampleItem>,
-  ],
+  items,
 };
 MobileScroll.parameters = {
   viewport: {
