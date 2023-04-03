@@ -1,16 +1,25 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../styles/media-queries";
+import { mqFrom, mqUntil } from "../styles/media-queries";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
-const CardImgWrapper = styled.div`
+const CardImageWrapper = styled.div<Pick<CardProps, "direction">>`
   overflow: hidden;
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   position: relative;
   height: 450px;
+
+  ${(props) =>
+    props.direction === "horizontal" &&
+    mqFrom(
+      "md",
+      css`
+        flex: 1 1 calc(100% / 4 * 3);
+      `
+    )}
 
   ${mqUntil(
     "sm",
@@ -29,13 +38,22 @@ const CardImageInner = styled.div`
   height: 100%;
 `;
 
-const CardRoot = styled.div`
+const CardRoot = styled.div<Pick<CardProps, "direction">>`
   position: relative;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   transition: all 0.5s ease-out;
+
+  ${(props) =>
+    props.direction === "horizontal" &&
+    mqFrom(
+      "md",
+      css`
+        flex-direction: row-reverse;
+      `
+    )}
 
   :hover {
     ${CardImageInner} {
@@ -75,17 +93,32 @@ const CardPreTitle = styled(Text)`
   margin-top: 33px;
 `;
 
-const CardBody = styled.div`
+const CardBodyContent = styled.div`
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+`;
+
+const CardBody = styled.div<Pick<CardProps, "direction">>`
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-`;
 
-const CardUpperBody = styled.div`
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: column;
+  ${(props) =>
+    props.direction === "horizontal" &&
+    mqFrom(
+      "md",
+      css`
+        flex: 1 1 calc(100% / 4);
+        justify-content: flex-end;
+        margin-right: 20px;
+
+        ${CardBodyContent} {
+          flex: 0 0 auto;
+        }
+      `
+    )}
 `;
 
 export interface CardProps {
@@ -93,6 +126,10 @@ export interface CardProps {
    * Optional component class name
    */
   className?: string;
+  /**
+   * Card direction
+   */
+  direction?: "vertical" | "horizontal";
   /**
    * Tag, overlaid on image
    */
@@ -122,6 +159,7 @@ export interface CardProps {
 
 export const Card: FC<PropsWithChildren<CardProps>> = ({
   className,
+  direction = "vertical",
   testId,
   title,
   titleSize = "default",
@@ -132,15 +170,13 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   tags,
 }) => {
   return (
-    <CardRoot className={className} data-testid={testId}>
-      {tags && <TagsWrapper>{tags}</TagsWrapper>}
-      {image && (
-        <CardImgWrapper>
-          <CardImageInner>{image}</CardImageInner>
-        </CardImgWrapper>
-      )}
-      <CardBody>
-        <CardUpperBody>
+    <CardRoot className={className} data-testid={testId} direction={direction}>
+      <CardImageWrapper direction={direction}>
+        {tags && <TagsWrapper>{tags}</TagsWrapper>}
+        {image && <CardImageInner>{image}</CardImageInner>}
+      </CardImageWrapper>
+      <CardBody direction={direction}>
+        <CardBodyContent>
           {preTitle && (
             <CardPreTitle weight="book" size="sm">
               {preTitle}
@@ -152,7 +188,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
           <div style={{ marginTop: "20px" }}>
             {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
           </div>
-        </CardUpperBody>
+        </CardBodyContent>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>
     </CardRoot>
