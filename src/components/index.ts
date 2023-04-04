@@ -23,3 +23,4 @@ export * from "./Textarea";
 export * from "./Title";
 export * from "./VideoBanner";
 export * from "./VideoPlayer";
+export * from "./CtaCard";
