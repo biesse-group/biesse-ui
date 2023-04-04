@@ -16,8 +16,6 @@ export const Default = Template.bind({});
 Default.args = {
   citation:
     "Il nuovo mandrino ES951 e la piattaforma My HSD sono un connubio ad alta performance perché andiamo ad unire quella che è la performance del mandrino alla possibilità di andare a rilevare tutti i dati che questo può trasmettere a distanza, dando la possibilità di monitorare in tempo reale tutto quello che sta succedendo sul mandrino",
-  author: {
-    name: "John Doe",
-    description: "UTE/Service Manager A.C.M.E. spa",
-  },
+  authorName: "John Doe",
+  authorDescription: "UTE/Service Manager A.C.M.E. spa",
 };

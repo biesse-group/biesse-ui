@@ -7,10 +7,8 @@ import { Text } from "./Text";
 
 export type QuoteProps = {
   citation: string;
-  author: {
-    name: string;
-    description: string;
-  };
+  authorName: string;
+  authorDescription: string;
 };
 
 const Background = styled.div`
@@ -86,7 +84,7 @@ const QuoteAuthor = styled(Text)`
   text-transform: uppercase;
 `;
 
-export const Quote: FC<QuoteProps> = ({ citation, author }) => {
+export const Quote: FC<QuoteProps> = ({ citation, authorName, authorDescription }) => {
   return (
     <Background>
       <Inner>
@@ -96,10 +94,10 @@ export const Quote: FC<QuoteProps> = ({ citation, author }) => {
           {citation}
         </CitationText>
         <QuoteAuthor tag="p" weight="bold" size="lg" responsive={false}>
-          {author.name}
+          {authorName}
         </QuoteAuthor>
         <Text tag="p" weight="bold" responsive={false}>
-          {author.description}
+          {authorDescription}
         </Text>
       </Inner>
     </Background>
