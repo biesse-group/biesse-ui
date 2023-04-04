@@ -50,7 +50,7 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 28px;
   color: #6D6E70;
 }
 
@@ -58,7 +58,7 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 28px;
   color: #6D6E70;
 }
 

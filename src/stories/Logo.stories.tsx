@@ -24,9 +24,10 @@ const defaultArgs: LogoProps = {
   name: "HSD",
 };
 
-export const Default = Template.bind({});
-Default.args = {
+export const Primary = Template.bind({});
+Primary.args = {
   ...defaultArgs,
+  color: "primary",
 };
 
 export const White = Template.bind({});

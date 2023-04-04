@@ -13,6 +13,7 @@ export * from "./Input";
 export * from "./Logo";
 export * from "./PartnerCarousel";
 export * from "./ProductCarousel";
+export * from "./Quote";
 export * from "./SearchBar";
 export * from "./Select";
 export * from "./StripThreeCols";

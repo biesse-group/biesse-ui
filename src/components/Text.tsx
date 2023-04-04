@@ -18,6 +18,14 @@ export type TextProps = {
    */
   color?: "default" | "primary" | "light" | "dark" | "gray";
   /**
+   * Use italic font style
+   */
+  italic?: boolean;
+  /**
+   * Whether font size changes on smaller screens (default `true`)
+   */
+  responsive?: boolean;
+  /**
    * Text tag (`span` inline or `p` paragraph)
    */
   tag?: "span" | "p";
@@ -45,7 +53,7 @@ const getColor = (color?: TextProps["color"]) => css`
 `;
 
 const getLineHeight = (size?: TextProps["size"]) => css`
-  line-height: ${(props) => {
+  line-height: ${() => {
     switch (size) {
       case "xs":
         return "18px";
@@ -53,28 +61,32 @@ const getLineHeight = (size?: TextProps["size"]) => css`
         return "20px";
       case "lg":
         return "26px";
+      case "xl":
+        return "28px";
       default:
         return "24px";
     }
   }};
 `;
 
-const getSize = (size: TextProps["size"]) => css`
-  font-size: ${(props) => props.theme.font.regular.body[size || "md"]};
+const getSize = (size: TextProps["size"] = "md", responsive = true) => css`
+  font-size: ${(props) => props.theme.font.regular.body[size]};
 
   ${(props) =>
+    responsive &&
     mqUntil(
       "md",
       css`
-        font-size: ${props.theme.font.tablet.body[size || "md"]};
+        font-size: ${props.theme.font.tablet.body[size]};
       `
     )}
 
   ${(props) =>
+    responsive &&
     mqUntil(
       "sm",
       css`
-        font-size: ${props.theme.font.mobile.body[size || "md"]};
+        font-size: ${props.theme.font.mobile.body[size]};
       `
     )}
 `;
@@ -82,7 +94,12 @@ const getSize = (size: TextProps["size"]) => css`
 const textStyle = css<TextProps>`
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight[props.weight || "book"]};
-  ${(props) => getSize(props.size)};
+  ${(props) =>
+    props.italic &&
+    css`
+      font-style: italic;
+    `}
+  ${(props) => getSize(props.size, props.responsive)};
   ${(props) => getLineHeight(props.size)};
   ${(props) => getColor(props.color)};
 `;
