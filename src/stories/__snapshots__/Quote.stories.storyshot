@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots components/Quote Default 1`] = `
+.c4 {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  color: #6D6E70;
+}
+
+.c4 > svg {
+  height: 100%;
+  width: 100%;
+  color: primary;
+}
+
+.c2 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 28px;
+  color: inherit;
+  margin: 0;
+}
+
+.c2 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 28px;
+  color: inherit;
+}
+
+.c7 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+  margin: 0;
+}
+
+.c7 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.c9 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+  margin: 0;
+}
+
+.c9 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c0 {
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 66px 25px 58px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  max-width: calc(100% / 3 * 2);
+  width: 100%;
+  text-align: center;
+}
+
+.c3 {
+  margin-bottom: 20px !important;
+  position: relative;
+}
+
+.c5 {
+  position: absolute;
+  top: -14px;
+  left: -60px;
+}
+
+.c6 {
+  position: absolute;
+  bottom: 0;
+  right: -60px;
+}
+
+.c8 {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c0 {
+    padding-top: 84px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    margin-bottom: 60px !important;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c5 {
+    top: -55px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c6 {
+    bottom: -45px;
+    right: 0;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <p
+      className="c2 c3"
+      size="xl"
+    >
+      <span
+        className="c4 c5"
+        color="primary"
+        size="40px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0H50V50H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g>
+              <g
+                fill="currentColor"
+                fillRule="nonzero"
+                mask="url(#mask-2)"
+              >
+                <path
+                  d="M11.895 0l7.246 4.922c-4.239 5.788-6.426 12.031-6.563 18.73v9.297H0v-7.93c0-4.648 1.105-9.25 3.315-13.808C5.525 6.654 8.385 2.917 11.895 0zm21.533 0l7.246 4.922c-4.238 5.788-6.426 12.031-6.563 18.73v9.297H21.533v-7.93c0-4.648 1.105-9.25 3.316-13.808 2.21-4.557 5.07-8.294 8.579-11.211z"
+                  transform="translate(7.11 8.701)"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+      </span>
+      <span
+        className="c4 c6"
+        color="primary"
+        size="40px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0H50V50H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            stroke="none"
+            strokeWidth="1"
+          >
+            <g
+              fill="currentColor"
+              fillRule="nonzero"
+              mask="url(#mask-2)"
+            >
+              <path
+                d="M7.178 33.496L0 28.574c4.238-5.924 6.426-12.168 6.563-18.73V0h12.51v8.887c-.046 4.557-1.174 9.103-3.385 13.637-2.21 4.535-5.047 8.192-8.51 10.972zm20.986 0l-7.178-4.922c4.239-5.924 6.426-12.168 6.563-18.73V0h12.51v8.887c-.046 4.557-1.174 9.103-3.384 13.637-2.21 4.535-5.047 8.192-8.51 10.972z"
+                transform="translate(4.102 9)"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+      Il nuovo mandrino ES951 e la piattaforma My HSD sono un connubio ad alta performance perché andiamo ad unire quella che è la performance del mandrino alla possibilità di andare a rilevare tutti i dati che questo può trasmettere a distanza, dando la possibilità di monitorare in tempo reale tutto quello che sta succedendo sul mandrino
+    </p>
+    <p
+      className="c7 c8"
+      size="lg"
+    >
+      John Doe
+    </p>
+    <p
+      className="c9"
+    >
+      UTE/Service Manager A.C.M.E. spa
+    </p>
+  </div>
+</div>
+`;
