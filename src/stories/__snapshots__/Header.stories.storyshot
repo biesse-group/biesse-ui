@@ -180,7 +180,8 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
   flex: 1 1 auto;
 }
 
-.c3 > div {
+.c3 > div,
+.c3 > a {
   -webkit-flex: 0 1 480px;
   -ms-flex: 0 1 480px;
   flex: 0 1 480px;
@@ -234,9 +235,19 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 .c16 {
   margin-top: 12px;
   margin-right: 58px;
+  border-bottom: 2px solid #6D6E70;
 }
 
 .c16:hover {
+  border-bottom: 2px solid #6D6E70;
+}
+
+.c18 {
+  margin-top: 12px;
+  margin-right: 58px;
+}
+
+.c18:hover {
   border-bottom: 2px solid #6D6E70;
 }
 
@@ -352,7 +363,8 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 @media screen and (max-width:1199px) {
-  .c3 > div {
+  .c3 > div,
+  .c3 > a {
     -webkit-flex: 0 1 345px;
     -ms-flex: 0 1 345px;
     flex: 0 1 345px;
@@ -360,7 +372,8 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c3 > div {
+  .c3 > div,
+  .c3 > a {
     -webkit-flex: 0 1 200px;
     -ms-flex: 0 1 200px;
     flex: 0 1 200px;
@@ -721,7 +734,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           </a>
         </div>
         <div
-          className="c16"
+          className="c18"
         >
           <a
             href="/"
@@ -736,7 +749,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           </a>
         </div>
         <div
-          className="c16"
+          className="c18"
         >
           <a
             href="/"
@@ -751,7 +764,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           </a>
         </div>
         <div
-          className="c16"
+          className="c18"
         >
           <a
             href="/"
@@ -766,7 +779,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           </a>
         </div>
         <div
-          className="c16"
+          className="c18"
         >
           <a
             href="/"
@@ -781,7 +794,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
           </a>
         </div>
         <div
-          className="c16"
+          className="c18"
         >
           <a
             href="/"
@@ -980,7 +993,8 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
   flex: 1 1 auto;
 }
 
-.c3 > div {
+.c3 > div,
+.c3 > a {
   -webkit-flex: 0 1 480px;
   -ms-flex: 0 1 480px;
   flex: 0 1 480px;
@@ -1148,7 +1162,8 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 @media screen and (max-width:1199px) {
-  .c3 > div {
+  .c3 > div,
+  .c3 > a {
     -webkit-flex: 0 1 345px;
     -ms-flex: 0 1 345px;
     flex: 0 1 345px;
@@ -1156,7 +1171,8 @@ exports[`Storyshots Navigation/Header Transparent 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c3 > div {
+  .c3 > div,
+  .c3 > a {
     -webkit-flex: 0 1 200px;
     -ms-flex: 0 1 200px;
     flex: 0 1 200px;
