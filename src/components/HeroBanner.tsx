@@ -82,6 +82,15 @@ const BannerTitle = styled(Title)`
   )}
 `;
 
+const ImageWrapper = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+`;
+
 export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
   image,
   title,
@@ -90,7 +99,7 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
 }) => {
   return (
     <Root>
-      {image}
+      <ImageWrapper>{image}</ImageWrapper>
       <Banner>
         <BannerTitle variant="H1" size="lg">
           {title}
