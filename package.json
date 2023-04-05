@@ -1,7 +1,7 @@
 {
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -83,7 +83,8 @@ const LogoWrapper = styled.div`
   align-items: center;
   flex: 1 1 auto;
 
-  > div {
+  > div,
+  > a {
     flex: 0 1 480px;
 
     ${mqUntil(
@@ -139,9 +140,16 @@ const SecondaryNav = styled.nav`
   align-items: stretch;
 `;
 
-const SecondaryNavItem = styled.div<Pick<HeaderProps, "variant">>`
+const SecondaryNavItem = styled.div<{ isSelected?: boolean } & Pick<HeaderProps, "variant">>`
   margin-top: 12px;
   margin-right: 58px;
+
+  ${(props) =>
+    props.variant === "colored" &&
+    props.isSelected &&
+    css`
+      border-bottom: 2px solid ${(props) => props.theme.color.primary};
+    `}
 
   ${(props) =>
     props.variant === "colored" &&
@@ -202,7 +210,11 @@ export const Header: FC<HeaderProps> = ({
       <SecondaryHeader {...props}>
         <SecondaryNav>
           {navLinks?.map((navLink, index) => (
-            <SecondaryNavItem key={`nav-link-${index}`} variant={props.variant}>
+            <SecondaryNavItem
+              key={`nav-link-${index}`}
+              variant={props.variant}
+              isSelected={navLink.isSelected}
+            >
               {navLink.renderLink(
                 <Text
                   size="sm"
