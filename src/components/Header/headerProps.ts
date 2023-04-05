@@ -10,6 +10,10 @@ export interface NavLink {
    * If true, the link label will be shown on mobile hamburger menu
    */
   onMobileMenu?: boolean;
+  /**
+   * Underline element if true
+   */
+  isSelected?: boolean;
 }
 
 export interface NavIconItemProps extends NavLink {

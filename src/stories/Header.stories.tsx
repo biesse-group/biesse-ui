@@ -39,7 +39,7 @@ const defaultArgs: HeaderProps = {
     },
   ],
   navLinks: [
-    { label: "Azienda", renderLink: (x) => <a href="/">{x}</a> },
+    { label: "Azienda", isSelected: true, renderLink: (x) => <a href="/">{x}</a> },
     { label: "Prodotti", renderLink: (x) => <a href="/">{x}</a> },
     { label: "Servizi", renderLink: (x) => <a href="/">{x}</a> },
     { label: "Case History", renderLink: (x) => <a href="/">{x}</a> },
