@@ -45,6 +45,11 @@ const LinkElementWrapper = styled.div`
 `;
 
 const LinkText = styled(Text)`
+  :hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
   ${mqUntil(
     "md",
     css`

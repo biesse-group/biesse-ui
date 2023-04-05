@@ -206,6 +206,12 @@ exports[`Storyshots Navigation/Footer Default 1`] = `
   margin-bottom: 10px;
 }
 
+.c22:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .c20 {
   margin-right: 10px;
 }
