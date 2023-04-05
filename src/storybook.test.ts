@@ -14,6 +14,6 @@ initStoryshots({
     });
   },
   renderer: render,
-  snapshotSerializers: [styleSheetSerializer],
   storyKindRegex: /^((?!.*?Pages\/).)*$/,
+  snapshotSerializers: [styleSheetSerializer],
 });

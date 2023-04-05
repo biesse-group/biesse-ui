@@ -24,6 +24,8 @@ const iconsMap = {
   "material-stone": IconSources.MaterialStone,
   picture: IconSources.Picture,
   play: IconSources.Play,
+  "quote-close": IconSources.QuoteClose,
+  "quote-open": IconSources.QuoteOpen,
   "round-angle": IconSources.RoundAngle,
   search: IconSources.Search,
   "spare-parts": IconSources.SpareParts,

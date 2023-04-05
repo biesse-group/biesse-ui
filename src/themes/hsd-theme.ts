@@ -53,6 +53,7 @@ export const hsdTheme: DefaultTheme = {
       body: {
         xs: "12px",
         lg: "16px",
+        xl: "18px",
       },
       headings: {
         xl: "40px",
@@ -62,6 +63,7 @@ export const hsdTheme: DefaultTheme = {
       body: {
         md: "14px",
         lg: "14px",
+        xl: "18px",
       },
       headings: {
         xxl: "30px",

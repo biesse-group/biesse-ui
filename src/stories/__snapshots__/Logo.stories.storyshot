@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Logo Default 1`] = `
+exports[`Storyshots Components/Logo Primary 1`] = `
 .c0 {
   padding: 1rem;
   background-color: #F5F5F5;
 }
 
 .c1 {
-  color: inherit;
+  color: #6D6E70;
 }
 
 .c1 svg {
@@ -26,7 +26,7 @@ exports[`Storyshots Components/Logo Default 1`] = `
   >
     <div
       className="c1"
-      color="inherit"
+      color="primary"
     >
       <svg
         fill="currentColor"

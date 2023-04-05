@@ -11,7 +11,7 @@ import { Default as Footer } from "../../Footer.stories";
 import { Transparent as Header } from "../../Header.stories";
 import { Default as HeroCarousel } from "../../HeroCarousel.stories";
 import { Default as PartnerCarousel } from "../../PartnerCarousel.stories";
-import { Default as StripThreeCols } from "../../StripThreeCols.stories";
+import { MainItemLarge as StripThreeCols } from "../../StripThreeCols.stories";
 import Homepage from "./Homepage";
 
 export default {

@@ -22,8 +22,8 @@ export default {
     },
   },
   decorators: [
-    (Story) => (
-      <div style={{ maxWidth: 500 }}>
+    (Story, { args }) => (
+      <div style={args.direction !== "horizontal" ? { maxWidth: 500 } : undefined}>
         <Story />
       </div>
     ),
@@ -37,7 +37,16 @@ const defaultArgs = {
   title: "Example card",
   children:
     "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
-  image: <img src="https://dummyimage.com/600x400/ccc/fff.png" alt="dummy" />,
+  image: (
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        background: 'url("https://dummyimage.com/1920x1080/ccc/fff.png") center center',
+        backgroundSize: "cover",
+      }}
+    />
+  ),
 };
 
 const tags = [
@@ -77,6 +86,14 @@ export const WithTags = Template.bind({});
 WithTags.args = {
   ...defaultArgs,
   tags,
+};
+
+export const Horizontal = Template.bind({});
+Horizontal.args = {
+  ...defaultArgs,
+  tags,
+  action,
+  direction: "horizontal",
 };
 
 export const CompleteExample = Template.bind({});
