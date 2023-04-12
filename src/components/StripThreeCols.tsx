@@ -8,11 +8,16 @@ export type StripThreeColsProps = {
   /**
    * Strip title
    */
-  title: string;
+  title?: string;
   /**
    * Strip items. Main will be shown larger on large screens.
    */
   items: [JSX.Element, JSX.Element?, JSX.Element?];
+  /**
+   * Determine whether the items on tablet devices keeps their proportion
+   * or wrap to show the first item as bigger
+   */
+  tabletBehavior?: "wrap" | "maintain-proportion";
   /**
    * Determine whether wrap items or scroll horizontally on mobile devices
    */
@@ -57,7 +62,9 @@ const getAreas = (itemsCount: number, separator: string = " ") => {
 };
 
 const ItemsGrid = styled.div<
-  Pick<StripThreeColsProps, "mobileBehavior" | "variant"> & { itemsCount: number }
+  Pick<StripThreeColsProps, "tabletBehavior" | "mobileBehavior" | "variant"> & {
+    itemsCount: number;
+  }
 >`
   display: grid;
   grid-template-areas: ${(props) => `"${getAreas(props.itemsCount)}"`};
@@ -79,16 +86,20 @@ const ItemsGrid = styled.div<
   }};
   gap: 20px;
 
-  ${(props) =>
-    mqUntil(
-      "md",
-      css`
-        grid-template-areas:
-          "main main"
-          ${props.itemsCount > 1 && `"secondary1 secondary${props.itemsCount > 2 ? "2" : "1"}"`};
-        grid-template-columns: 1fr 1fr;
-      `
-    )}
+  ${(props) => {
+    console.log(props.tabletBehavior);
+    if (props.tabletBehavior === "wrap") {
+      return mqUntil(
+        "md",
+        css`
+          grid-template-areas:
+            "main main"
+            ${props.itemsCount > 1 && `"secondary1 secondary${props.itemsCount > 2 ? "2" : "1"}"`};
+          grid-template-columns: 1fr 1fr;
+        `
+      );
+    }
+  }}
 
   ${(props) =>
     mqUntil(
@@ -132,6 +143,7 @@ const MainItem = styled.div`
  */
 export const StripThreeCols: FC<StripThreeColsProps> = ({
   title,
+  tabletBehavior = "wrap",
   mobileBehavior = "wrap",
   variant = "2-1-1",
   items,
@@ -141,10 +153,15 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
   return (
     <StripRoot>
       <StripInner>
-        <StripTitle variant="H3" color="primary">
-          {title}
-        </StripTitle>
-        <ItemsGrid itemsCount={Math.min(items.length, 3)} {...{ mobileBehavior, variant }}>
+        {title && (
+          <StripTitle variant="H3" color="primary">
+            {title}
+          </StripTitle>
+        )}
+        <ItemsGrid
+          itemsCount={Math.min(items.length, 3)}
+          {...{ tabletBehavior, mobileBehavior, variant }}
+        >
           <MainItem>{main}</MainItem>
           {secondary1 && <div style={{ gridArea: "secondary1" }}>{secondary1}</div>}
           {secondary2 && <div style={{ gridArea: "secondary2" }}>{secondary2}</div>}
