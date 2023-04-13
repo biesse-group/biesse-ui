@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import "dayjs/locale/it";
 import styled, { css } from "styled-components";
 
@@ -38,9 +38,9 @@ export default {
       </StoryContainer>
     ),
   ],
-} as ComponentMeta<typeof CtaCard>;
+} as Meta<typeof CtaCard>;
 
-const Template: ComponentStory<typeof CtaCard> = (args) => <CtaCard {...args} />;
+const Template: StoryFn<typeof CtaCard> = (args) => <CtaCard {...args} />;
 
 const PngContainer = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};

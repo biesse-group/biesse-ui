@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import dayjs from "dayjs";
 import "dayjs/locale/it";
 
@@ -19,9 +19,9 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof EventCard>;
+} as Meta<typeof EventCard>;
 
-const Template: ComponentStory<typeof EventCard> = (args) => {
+const Template: StoryFn<typeof EventCard> = (args) => {
   const { startDate, endDate, ...otherArgs } = args;
 
   return <EventCard startDate={dayjs(startDate)} endDate={dayjs(endDate)} {...otherArgs} />;

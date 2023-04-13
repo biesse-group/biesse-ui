@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import styled from "styled-components";
 
 import { StripThreeCols, StripThreeColsProps } from "../components";
@@ -11,10 +11,10 @@ export default {
     layout: "fullscreen",
   },
   decorators: [(Story, { args }) => <div style={{ margin: "30px 0" }}>{Story()}</div>],
-} as ComponentMeta<typeof StripThreeCols>;
+} as Meta<typeof StripThreeCols>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof StripThreeCols> = (args) => <StripThreeCols {...args} />;
+const Template: StoryFn<typeof StripThreeCols> = (args) => <StripThreeCols {...args} />;
 
 const SampleItem = styled.div`
   height: 300px;

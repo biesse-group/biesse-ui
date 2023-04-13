@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { PlayButton } from "../components";
@@ -9,15 +9,15 @@ export default {
   component: PlayButton,
   decorators: [
     (Story, { args }) =>
-      args.variant === "primary-inverted" ? (
+      args.variant === "inverted" ? (
         <BackgroundDecorator background="primary">{Story()}</BackgroundDecorator>
       ) : (
         Story()
       ),
   ],
-} as ComponentMeta<typeof PlayButton>;
+} as Meta<typeof PlayButton>;
 
-const Template: ComponentStory<typeof PlayButton> = (args) => <PlayButton {...args} />;
+const Template: StoryFn<typeof PlayButton> = (args) => <PlayButton {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
@@ -32,4 +32,7 @@ Primary.play = async ({ canvasElement }) => {
 export const Inverted = Template.bind({});
 Inverted.args = {
   variant: "inverted",
+};
+Inverted.parameters = {
+  layout: "fullscreen",
 };

@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Logo, LogoProps } from "../components";
 import { BackgroundDecorator } from "./decorators";
@@ -16,9 +16,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof Logo>;
+} as Meta<typeof Logo>;
 
-const Template: ComponentStory<typeof Logo> = (args) => <Logo {...args} />;
+const Template: StoryFn<typeof Logo> = (args) => <Logo {...args} />;
 
 const defaultArgs: LogoProps = {
   name: "HSD",

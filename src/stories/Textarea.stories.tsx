@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Textarea } from "../components";
@@ -25,9 +25,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof Textarea>;
+} as Meta<typeof Textarea>;
 
-const Template: ComponentStory<typeof Textarea> = (args) => <Textarea {...args} />;
+const Template: StoryFn<typeof Textarea> = (args) => <Textarea {...args} />;
 
 export const DarkBackground = Template.bind({});
 DarkBackground.args = {

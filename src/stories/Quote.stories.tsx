@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Quote } from "../components";
 
@@ -8,9 +8,9 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-} as ComponentMeta<typeof Quote>;
+} as Meta<typeof Quote>;
 
-const Template: ComponentStory<typeof Quote> = (args) => <Quote {...args} />;
+const Template: StoryFn<typeof Quote> = (args) => <Quote {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

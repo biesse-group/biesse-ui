@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Button, HorizontalCard, Icon } from "../components";
 
@@ -10,9 +10,9 @@ export default {
       control: false,
     },
   },
-} as ComponentMeta<typeof HorizontalCard>;
+} as Meta<typeof HorizontalCard>;
 
-const Template: ComponentStory<typeof HorizontalCard> = (args) => <HorizontalCard {...args} />;
+const Template: StoryFn<typeof HorizontalCard> = (args) => <HorizontalCard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

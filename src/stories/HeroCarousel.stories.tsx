@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 import { FC } from "react";
 
@@ -16,9 +16,9 @@ export default {
       control: false,
     },
   },
-} as ComponentMeta<typeof HeroCarousel>;
+} as Meta<typeof HeroCarousel>;
 
-const Template: ComponentStory<typeof HeroCarousel> = (args) => <HeroCarousel {...args} />;
+const Template: StoryFn<typeof HeroCarousel> = (args) => <HeroCarousel {...args} />;
 
 const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {
   return (

@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { VideoBanner } from "../components";
 
@@ -8,9 +8,9 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-} as ComponentMeta<typeof VideoBanner>;
+} as Meta<typeof VideoBanner>;
 
-const Template: ComponentStory<typeof VideoBanner> = (args) => <VideoBanner {...args} />;
+const Template: StoryFn<typeof VideoBanner> = (args) => <VideoBanner {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import {
   FooterProps,
@@ -20,9 +20,9 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-} as ComponentMeta<typeof Homepage>;
+} as Meta<typeof Homepage>;
 
-const Template: ComponentStory<typeof Homepage> = (args) => <Homepage {...args} />;
+const Template: StoryFn<typeof Homepage> = (args) => <Homepage {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

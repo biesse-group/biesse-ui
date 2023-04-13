@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
@@ -21,9 +21,9 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-} as ComponentMeta<typeof ProductCarousel>;
+} as Meta<typeof ProductCarousel>;
 
-const Template: ComponentStory<typeof ProductCarousel<SampleProduct>> = (args) => (
+const Template: StoryFn<typeof ProductCarousel<SampleProduct>> = (args) => (
   <ProductCarousel {...args} />
 );
 

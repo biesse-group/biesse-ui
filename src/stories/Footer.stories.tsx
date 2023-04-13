@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Footer, FooterProps } from "../components";
 import { Logo, Text } from "../components";
@@ -14,9 +14,9 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-} as ComponentMeta<typeof Footer>;
+} as Meta<typeof Footer>;
 
-const Template: ComponentStory<typeof Footer> = (args) => <Footer {...args} />;
+const Template: StoryFn<typeof Footer> = (args) => <Footer {...args} />;
 
 const defaultArgs: FooterProps = {
   logo: <Logo name="HSD" color="white" />,

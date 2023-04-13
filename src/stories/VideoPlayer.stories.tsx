@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { VideoPlayer } from "../components";
 
@@ -12,9 +12,9 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof VideoPlayer>;
+} as Meta<typeof VideoPlayer>;
 
-const Template: ComponentStory<typeof VideoPlayer> = (args) => <VideoPlayer {...args} />;
+const Template: StoryFn<typeof VideoPlayer> = (args) => <VideoPlayer {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

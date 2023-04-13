@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Button, HeroBanner } from "../components";
 
@@ -13,9 +13,9 @@ export default {
       control: false,
     },
   },
-} as ComponentMeta<typeof HeroBanner>;
+} as Meta<typeof HeroBanner>;
 
-const Template: ComponentStory<typeof HeroBanner> = (args) => <HeroBanner {...args} />;
+const Template: StoryFn<typeof HeroBanner> = (args) => <HeroBanner {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

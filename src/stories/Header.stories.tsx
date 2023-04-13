@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Header, HeaderProps } from "../components";
 import { Logo } from "../components";
@@ -21,9 +21,9 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof Header>;
+} as Meta<typeof Header>;
 
-const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
+const Template: StoryFn<typeof Header> = (args) => <Header {...args} />;
 
 const defaultArgs: HeaderProps = {
   logo: <Logo name="HSD" />,

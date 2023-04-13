@@ -1,11 +1,10 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Select, SelectOption } from "../components";
 import { BackgroundDecorator } from "./decorators";
 import { sleep } from "./utils/sleep";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Inputs/Select",
   component: Select,
@@ -19,10 +18,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof Select>;
+} as Meta<typeof Select>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Select> = (args) => <Select {...args} />;
+const Template: StoryFn<typeof Select> = (args) => <Select {...args} />;
 
 const options: SelectOption[] = [
   {

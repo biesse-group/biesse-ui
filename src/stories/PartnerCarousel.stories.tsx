@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import styled from "styled-components";
 
 import { PartnerCarousel, PartnerCarouselProps } from "../components";
@@ -14,9 +14,9 @@ export default {
       control: false,
     },
   },
-} as ComponentMeta<typeof PartnerCarousel>;
+} as Meta<typeof PartnerCarousel>;
 
-const Template: ComponentStory<typeof PartnerCarousel> = (args) => <PartnerCarousel {...args} />;
+const Template: StoryFn<typeof PartnerCarousel> = (args) => <PartnerCarousel {...args} />;
 
 const PngStyled = styled.img`
   width: 100%;

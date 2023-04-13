@@ -1,4 +1,4 @@
-import type { StorybookConfig } from "@storybook/core-common";
+import type { StorybookConfig } from "@storybook/react-webpack5";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
@@ -11,8 +11,12 @@ const config: StorybookConfig = {
     "@storybook/addon-coverage",
     "@storybook/preset-create-react-app",
     "storybook-addon-pseudo-states",
+    "@storybook/addon-mdx-gfm",
   ],
-  framework: "@storybook/react",
+  framework: {
+    name: "@storybook/react-webpack5",
+    options: {},
+  },
   typescript: {
     check: false,
     checkOptions: {},
@@ -23,9 +27,9 @@ const config: StorybookConfig = {
       propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
     },
   },
-  core: {
-    builder: "@storybook/builder-webpack5",
+  core: {},
+  docs: {
+    autodocs: true,
   },
 };
-
 module.exports = config;

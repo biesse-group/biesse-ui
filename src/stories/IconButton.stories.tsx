@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { IconButton } from "../components";
@@ -25,9 +25,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof IconButton>;
+} as Meta<typeof IconButton>;
 
-const Template: ComponentStory<typeof IconButton> = (args) => <IconButton {...args} />;
+const Template: StoryFn<typeof IconButton> = (args) => <IconButton {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {

@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { SearchBar } from "../components/SearchBar";
@@ -17,9 +17,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof SearchBar>;
+} as Meta<typeof SearchBar>;
 
-const Template: ComponentStory<typeof SearchBar> = (args) => <SearchBar {...args} />;
+const Template: StoryFn<typeof SearchBar> = (args) => <SearchBar {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {};

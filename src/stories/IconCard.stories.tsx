@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryFn } from "@storybook/react";
 
 import { Button, IconCard } from "../components";
 
@@ -17,9 +17,9 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof IconCard>;
+} as Meta<typeof IconCard>;
 
-const Template: ComponentStory<typeof IconCard> = (args) => <IconCard {...args} />;
+const Template: StoryFn<typeof IconCard> = (args) => <IconCard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
