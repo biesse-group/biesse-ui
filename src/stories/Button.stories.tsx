@@ -65,3 +65,17 @@ WithRightIcon.args = {
   children: "Download catalog",
   rightIcon: "download",
 };
+
+export const WithLeftIcon = Template.bind({});
+WithLeftIcon.args = {
+  variant: "outline",
+  children: "Download catalog",
+  leftIcon: "download",
+};
+
+export const WithLeftIconNaked = Template.bind({});
+WithLeftIconNaked.args = {
+  variant: "primary-naked",
+  children: "Naked",
+  leftIcon: "chevron-left",
+};

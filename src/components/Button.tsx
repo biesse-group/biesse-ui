@@ -11,7 +11,7 @@ export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  variant: "primary" | "primary-inverted" | "outline";
+  variant: "primary" | "primary-inverted" | "outline" | "primary-naked";
   /**
    * How large should the button be?
    */
@@ -20,6 +20,10 @@ export interface ButtonProps {
    * Full-width button
    */
   isBlock?: boolean;
+  /**
+   * Shows an icon on the left
+   */
+  leftIcon?: IconName;
   /**
    * Shows an icon on the right
    */
@@ -84,11 +88,23 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
           color: ${(props) => props.theme.color.white};
         }
       `;
+    case "primary-naked":
+      return css`
+        background: transparent;
+        color: ${(props) => props.theme.color.primary};
+        text-transform: none;
+        padding: 0px;
+      `;
   }
 };
 
-const RightIcon = styled(Icon)`
-  margin-left: 12px;
+const LeftIcon = styled(Icon)<Pick<ButtonProps, "variant">>`
+  margin-right: ${(props) => (props.variant === "primary-naked" ? "6px" : "12px")};
+  display: inline;
+`;
+
+const RightIcon = styled(Icon)<Pick<ButtonProps, "variant">>`
+  margin-left: ${(props) => (props.variant === "primary-naked" ? "6px" : "12px")};
   display: inline;
 `;
 
@@ -122,12 +138,15 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   children,
   rightIcon,
   type = "button",
+  leftIcon,
+  variant,
   ...props
 }) => {
   return (
-    <StyledButton data-testid={testId} type={type} {...props}>
+    <StyledButton data-testid={testId} type={type} {...{ ...props, variant }}>
+      {leftIcon && <LeftIcon name={leftIcon} size="26px" variant={variant} />}
       {children}
-      {rightIcon && <RightIcon name={rightIcon} size="26px" />}
+      {rightIcon && <RightIcon name={rightIcon} size="26px" variant={variant} />}
     </StyledButton>
   );
 };
