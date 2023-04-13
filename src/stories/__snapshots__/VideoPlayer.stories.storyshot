@@ -20,8 +20,6 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 80px;
-  width: 80px;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -33,9 +31,12 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
   border: 3px solid #FFF;
   border-radius: 50px;
   background-color: #6D6E70;
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
+  box-shadow: unset;
   cursor: pointer;
   overflow: hidden;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
 }
 
 .c5 {
@@ -144,7 +145,7 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
     >
       <div
         className="c4"
-        data-projection-id={11}
+        data-projection-id={13}
         data-testid="play-button"
         onClick={[Function]}
         style={
