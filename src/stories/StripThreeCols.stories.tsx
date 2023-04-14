@@ -90,6 +90,18 @@ TabletWrap.parameters = {
   },
 };
 
+export const TabletMaintain = Template.bind({});
+TabletMaintain.args = {
+  title: "Lorem ipsum",
+  items,
+  tabletBehavior: "maintain-proportion",
+};
+TabletMaintain.parameters = {
+  viewport: {
+    defaultViewport: "ipad",
+  },
+};
+
 export const MobileWrap = Template.bind({});
 MobileWrap.args = {
   title: "Lorem ipsum",

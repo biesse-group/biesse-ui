@@ -2,33 +2,40 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FC } from "react";
 import styled from "styled-components";
 
-import { Icon } from "../Icon";
+import { Icon } from "./Icon";
 
 export interface PlayButtonProps {
   isPlaying?: boolean;
   onClick?: () => void;
   testId?: string;
+  variant?: "primary" | "inverted";
+  shadow?: boolean;
+  style?: React.CSSProperties;
 }
 
-const PlayButtonRoot = styled(motion.div)`
+const PlayButtonRoot = styled(motion.div)<Pick<PlayButtonProps, "shadow" | "variant">>`
   position: relative;
   display: flex;
-  height: 80px;
-  width: 80px;
   align-items: center;
   justify-content: center;
   border: 3px solid ${(props) => props.theme.color.white};
   border-radius: 50px;
-  background-color: ${(props) => props.theme.color.primary};
-  box-shadow: ${(props) => props.theme.videoPlayer.buttonBoxShadow};
+  background-color: ${(props) =>
+    props.variant === "inverted" ? props.theme.color.white : props.theme.color.primary};
+  box-shadow: ${(props) => (props.shadow ? props.theme.videoPlayer.buttonBoxShadow : "unset")};
   cursor: pointer;
   overflow: hidden;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
 `;
 
-const InternalBorder = styled.div`
+const InternalBorder = styled.div<Pick<PlayButtonProps, "variant">>`
   height: 100%;
   width: 100%;
-  border: 3px solid ${(props) => props.theme.color.white};
+  border: 3px solid
+    ${(props) =>
+      props.variant === "inverted" ? props.theme.color.primary : props.theme.color.white};
   opacity: 0.4;
   border-radius: 50px;
   z-index: 1;
@@ -52,8 +59,12 @@ export const PlayButton: FC<PlayButtonProps> = ({ testId, isPlaying, ...props })
           data-testid={testId}
           {...props}
         >
-          <InternalBorder />
-          <StyledIcon name="play" color="light" size="30px" />
+          <InternalBorder variant={props.variant} />
+          <StyledIcon
+            name="play"
+            color={props.variant === "inverted" ? "primary" : "light"}
+            size="30px"
+          />
         </PlayButtonRoot>
       )}
     </AnimatePresence>

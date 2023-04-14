@@ -6,6 +6,7 @@ const iconsMap = {
   "arrow-left": IconSources.ArrowLeft,
   call: IconSources.Call,
   careers: IconSources.Careers,
+  "chevron-left": IconSources.ChevronLeft,
   "chevron-right": IconSources.ChevronRight,
   close: IconSources.Close,
   contacts: IconSources.Contacts,

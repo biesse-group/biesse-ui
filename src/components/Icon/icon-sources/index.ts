@@ -2,6 +2,7 @@ export * from "./ArrowLeft";
 export * from "./ArrowRight";
 export * from "./Call";
 export * from "./Careers";
+export * from "./ChevronLeft";
 export * from "./ChevronRight";
 export * from "./Close";
 export * from "./Contacts";
