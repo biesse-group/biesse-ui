@@ -2,6 +2,7 @@ import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { mqFrom, mqUntil } from "../styles/media-queries";
+import { getEllipsisStyle } from "../utils";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
@@ -81,11 +82,13 @@ const TagsWrapper = styled.div`
   }
 `;
 
-const CardTitle = styled(Title)<Pick<CardProps, "preTitle" | "titleSize">>`
+const CardTitle = styled(Title)<Pick<CardProps, "preTitle" | "titleSize" | "titleLines">>`
   margin-top: ${(props) => (props.preTitle ? "14px" : "29px")};
   font-size: ${(props) => (props.titleSize === "default" ? "32px" : "26px")};
   text-transform: none;
   margin-bottom: 0px;
+
+  ${(props) => getEllipsisStyle(props.titleLines)};
 `;
 
 const CardPreTitle = styled(Text)`
@@ -143,6 +146,11 @@ export interface CardProps {
    */
   title?: string;
   /**
+   * Max lines of title before ellipsis
+   * If undefined no Ellipsis will be applied
+   */
+  titleLines?: number;
+  /**
    * Card title size
    */
   titleSize?: "default" | "small";
@@ -163,6 +171,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   testId,
   title,
   titleSize = "default",
+  titleLines,
   preTitle,
   children,
   action,
@@ -182,7 +191,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
               {preTitle}
             </CardPreTitle>
           )}
-          <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle }}>
+          <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle, titleLines }}>
             {title}
           </CardTitle>
           <div style={{ marginTop: "20px" }}>
