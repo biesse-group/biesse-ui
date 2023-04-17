@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Buttons/Button",
   component: Button,
+  tags: ["autodocs"],
   decorators: [
     (Story, { args }) =>
       args.variant === "primary-inverted" ? (

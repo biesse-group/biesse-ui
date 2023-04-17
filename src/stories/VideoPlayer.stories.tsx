@@ -5,6 +5,7 @@ import { VideoPlayer } from "../components";
 export default {
   title: "Video/VideoPlayer",
   component: VideoPlayer,
+  tags: ["autodocs"],
   decorators: [
     (Story) => (
       <div style={{ maxWidth: 500 }}>

@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Inputs/Textarea",
   component: Textarea,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

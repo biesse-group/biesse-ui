@@ -6,6 +6,7 @@ import { Logo } from "../components";
 export default {
   title: "Navigation/Header",
   component: Header,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

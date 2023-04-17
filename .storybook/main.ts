@@ -29,7 +29,7 @@ const config: StorybookConfig = {
   },
   core: {},
   docs: {
-    autodocs: true,
+    autodocs: "tag",
   },
 };
 module.exports = config;

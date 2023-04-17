@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Buttons/PlayButton",
   component: PlayButton,
+  tags: ["autodocs"],
   decorators: [
     (Story, { args }) =>
       args.variant === "inverted" ? (

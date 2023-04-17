@@ -7,8 +7,10 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Inputs/Input",
   component: Input,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
+    docs: {},
   },
   argTypes: {
     onChange: {

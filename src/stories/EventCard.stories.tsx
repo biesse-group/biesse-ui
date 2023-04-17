@@ -7,6 +7,7 @@ import { Button, EventCard } from "../components";
 export default {
   title: "Cards/EventCard",
   component: EventCard,
+  tags: ["autodocs"],
   argTypes: {
     children: {
       control: false,

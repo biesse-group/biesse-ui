@@ -5,6 +5,7 @@ import { Button, HorizontalCard, Icon } from "../components";
 export default {
   title: "Cards/HorizontalCard",
   component: HorizontalCard,
+  tags: ["autodocs"],
   argTypes: {
     actions: {
       control: false,

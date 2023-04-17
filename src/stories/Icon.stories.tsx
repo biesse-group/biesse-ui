@@ -5,6 +5,7 @@ import { Icon, IconProps } from "../components";
 export default {
   title: "Components/Icon",
   component: Icon,
+  tags: ["autodocs"],
 } as Meta<typeof Icon>;
 
 const Template: StoryFn<typeof Icon> = (args) => <Icon {...args} />;

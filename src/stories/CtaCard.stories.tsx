@@ -26,6 +26,7 @@ const StoryContainer = styled.div`
 export default {
   title: "Cards/CtaCard",
   component: CtaCard,
+  tags: ["autodocs"],
   argTypes: {
     children: {
       control: false,

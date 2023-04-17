@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Inputs/SearchBar",
   component: SearchBar,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

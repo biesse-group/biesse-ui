@@ -5,6 +5,7 @@ import { Quote } from "../components";
 export default {
   title: "components/Quote",
   component: Quote,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

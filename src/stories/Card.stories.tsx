@@ -7,6 +7,7 @@ import { Button, Card, Tag } from "../components";
 export default {
   title: "Cards/Card",
   component: Card,
+  tags: ["autodocs"],
   argTypes: {
     children: {
       type: "string",

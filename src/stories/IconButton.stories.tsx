@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Buttons/IconButton",
   component: IconButton,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

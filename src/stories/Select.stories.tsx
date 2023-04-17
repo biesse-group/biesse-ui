@@ -8,6 +8,7 @@ import { sleep } from "./utils/sleep";
 export default {
   title: "Inputs/Select",
   component: Select,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

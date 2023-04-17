@@ -5,6 +5,7 @@ import { Tag } from "../components";
 export default {
   title: "Components/Tag",
   component: Tag,
+  tags: ["autodocs"],
 } as Meta<typeof Tag>;
 
 const Template: StoryFn<typeof Tag> = (args) => <Tag {...args} />;

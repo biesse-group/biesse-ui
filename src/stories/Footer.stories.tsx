@@ -6,6 +6,7 @@ import { Logo, Text } from "../components";
 export default {
   title: "Navigation/Footer",
   component: Footer,
+  tags: ["autodocs"],
   argTypes: {
     logo: {
       control: false,

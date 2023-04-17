@@ -11,6 +11,7 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
+  tags: ["autodocs"],
   argTypes: {
     slides: {
       control: false,

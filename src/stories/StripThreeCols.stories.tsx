@@ -7,6 +7,7 @@ import { StripThreeCols, StripThreeColsProps } from "../components";
 export default {
   title: "Layout/StripThreeCols",
   component: StripThreeCols,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

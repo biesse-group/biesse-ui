@@ -18,6 +18,7 @@ interface SampleProduct {
 export default {
   title: "Slideshow/ProductCarousel",
   component: ProductCarousel,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

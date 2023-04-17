@@ -6,6 +6,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Components/Logo",
   component: Logo,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

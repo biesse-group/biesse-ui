@@ -5,6 +5,7 @@ import { Button, IconCard } from "../components";
 export default {
   title: "Cards/IconCard",
   component: IconCard,
+  tags: ["autodocs"],
   argTypes: {
     actions: {
       control: false,

@@ -6,6 +6,7 @@ import { PartnerCarousel, PartnerCarouselProps } from "../components";
 export default {
   title: "Slideshow/PartnerCarousel",
   component: PartnerCarousel,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },

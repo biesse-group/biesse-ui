@@ -5,6 +5,7 @@ import { VideoBanner } from "../components";
 export default {
   title: "Video/VideoBanner",
   component: VideoBanner,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
