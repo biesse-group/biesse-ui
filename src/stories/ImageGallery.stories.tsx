@@ -21,6 +21,7 @@ const image = (
       width: "100%",
       background: 'url("https://dummyimage.com/250x800/ccc/fff.png") center center',
       backgroundSize: "cover",
+      height: "250px",
     }}
   />
 );

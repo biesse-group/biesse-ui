@@ -23,8 +23,8 @@ export interface ModalProps {
 }
 
 const Overlay = styled(motion.div)`
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: ${(props) => props.theme.color.modalBackground};
   position: absolute;
   top: 0;
