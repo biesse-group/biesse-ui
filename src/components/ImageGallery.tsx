@@ -17,7 +17,10 @@ const CardImageWrapper = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   position: relative;
-  height: 250px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   :hover {
     ${CardImageInner} {
       transform: scale(1.25);
