@@ -142,11 +142,12 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   variant,
   ...props
 }) => {
+  const iconSize = variant === "primary-naked" && props.size === "small" ? "10px" : "26px";
   return (
     <StyledButton data-testid={testId} type={type} {...{ ...props, variant }}>
-      {leftIcon && <LeftIcon name={leftIcon} size="26px" variant={variant} />}
+      {leftIcon && <LeftIcon name={leftIcon} size={iconSize} variant={variant} />}
       {children}
-      {rightIcon && <RightIcon name={rightIcon} size="26px" variant={variant} />}
+      {rightIcon && <RightIcon name={rightIcon} size={iconSize} variant={variant} />}
     </StyledButton>
   );
 };
