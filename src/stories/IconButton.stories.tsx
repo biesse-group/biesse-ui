@@ -54,3 +54,10 @@ Light.args = {
   variant: "light",
   "aria-label": "Example button",
 };
+
+export const Naked = Template.bind({});
+Naked.args = {
+  icon: "arrow-right",
+  variant: "naked",
+  "aria-label": "Example button",
+};

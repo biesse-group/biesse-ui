@@ -87,7 +87,6 @@ const ItemsGrid = styled.div<
   gap: 20px;
 
   ${(props) => {
-    console.log(props.tabletBehavior);
     if (props.tabletBehavior === "wrap") {
       return mqUntil(
         "md",

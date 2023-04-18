@@ -12,7 +12,7 @@ export type IconButtonProps = {
   /**
    * Shows light or primary buttons
    */
-  variant: "primary" | "primary-inverted" | "light";
+  variant: "primary" | "primary-inverted" | "light" | "naked";
   /**
    * Label for accessibility
    */
@@ -39,28 +39,39 @@ const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   )}
 
   ${({ variant, theme }) => {
-    const color = variant === "primary" ? theme.color.primary : theme.color.white;
-    return css`
-      border: 1px solid ${color};
-      color: ${color};
-    `;
+    if (variant !== "naked") {
+      const color = variant === "primary" ? theme.color.primary : theme.color.white;
+      return css`
+        border: 1px solid ${color};
+        color: ${color};
+      `;
+    } else {
+      return css`
+        border: none;
+      `;
+    }
   }};
 
-  &:hover {
-    background-color: ${({ variant, theme }) =>
-      variant === "primary" ? theme.color.primary : theme.color.white};
-    color: ${({ variant, theme }) => {
-      switch (variant) {
-        case "primary":
-          return theme.color.white;
-        case "light":
-          return theme.color.black;
-        case "primary-inverted":
-          return theme.color.primary;
-      }
-    }};
-    transition: all 0.2s ease-out;
-  }
+  ${({ variant, theme }) => {
+    if (variant !== "naked") {
+      return css`
+        &:hover {
+          background-color: ${variant === "primary" ? theme.color.primary : theme.color.white};
+          color: ${() => {
+            switch (variant) {
+              case "primary":
+                return theme.color.white;
+              case "light":
+                return theme.color.black;
+              case "primary-inverted":
+                return theme.color.primary;
+            }
+          }};
+          transition: all 0.2s ease-out;
+        }
+      `;
+    }
+  }}
 `;
 
 export const IconButton: FC<IconButtonProps> = ({ icon, testId, ...props }) => {
