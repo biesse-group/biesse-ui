@@ -4,7 +4,7 @@ import { Footer, FooterProps } from "../components";
 import { Logo, Text } from "../components";
 
 export default {
-  title: "Navigation/Footer",
+  title: "Layout/Footer",
   component: Footer,
   tags: ["autodocs"],
   argTypes: {

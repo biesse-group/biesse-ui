@@ -3,7 +3,7 @@ import { Meta, StoryFn } from "@storybook/react";
 import { Button, HeroBanner } from "../components";
 
 export default {
-  title: "Slideshow/HeroBanner",
+  title: "Layout/HeroBanner",
   component: HeroBanner,
   parameters: {
     layout: "fullscreen",

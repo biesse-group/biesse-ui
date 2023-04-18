@@ -4,7 +4,7 @@ import { Header, HeaderProps } from "../components";
 import { Logo } from "../components";
 
 export default {
-  title: "Navigation/Header",
+  title: "Layout/Header",
   component: Header,
   tags: ["autodocs"],
   parameters: {
