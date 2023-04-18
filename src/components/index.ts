@@ -22,6 +22,8 @@ export * from "./Text";
 export * from "./Textarea";
 export * from "./Title";
 export * from "./VideoBanner";
+export * from "./Modal";
 export * from "./VideoPlayer";
 export * from "./PlayButton";
 export * from "./CtaCard";
+export * from "./ImageGallery";

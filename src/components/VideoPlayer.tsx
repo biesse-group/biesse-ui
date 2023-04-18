@@ -1,4 +1,4 @@
-import { createRef, FC, PropsWithChildren, useState } from "react";
+import { createRef, FC, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
@@ -18,6 +18,14 @@ export interface VideoPlayerProps {
    * Whether the video should be repeated in loop
    */
   loop?: boolean;
+  /**
+   * Whether the video should start playing automatically
+   */
+  isPlayingOnRender?: boolean;
+  /**
+   * Whether the small scaled video should be cut horizontally or resize
+   */
+  variant?: "cover" | "fit";
   testId?: string;
 }
 
@@ -54,23 +62,27 @@ const PauseAction = styled.div<{ isPlaying: boolean }>`
     `}
 `;
 
-const StyledVideo = styled.video`
+const StyledVideo = styled.video<Pick<VideoPlayerProps, "variant">>`
   width: 100%;
 
-  ${mqUntil(
-    "sm",
-    css`
-      width: auto;
-      height: 100%;
-    `
-  )}
+  ${({ variant }) =>
+    variant === "cover" &&
+    mqUntil(
+      "sm",
+      css`
+        width: auto;
+        height: 100%;
+      `
+    )}
 `;
 
-export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
+export const VideoPlayer: FC<VideoPlayerProps> = ({
   testId,
   url,
   mimeType,
   loop = true,
+  variant = "cover",
+  isPlayingOnRender = false,
   ...props
 }) => {
   const videoRef = createRef<HTMLVideoElement>();
@@ -88,6 +100,12 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
     }
   };
 
+  useEffect(() => {
+    if (isPlayingOnRender) {
+      videoRef.current?.play();
+    }
+  }, [isPlayingOnRender, videoRef]);
+
   return (
     <VideoPlayerRoot data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
@@ -98,6 +116,7 @@ export const VideoPlayer: FC<PropsWithChildren<VideoPlayerProps>> = ({
         controls={false}
         playsInline
         loop={loop}
+        variant={variant}
       >
         <source src={url} type={mimeType || "video/mp4"} />
         Your browser does not support HTML video.
