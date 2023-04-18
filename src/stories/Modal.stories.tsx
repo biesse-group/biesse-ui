@@ -31,7 +31,7 @@ const Template: ComponentStory<typeof Modal> = (args) => {
 const VideoChild = (
   <VideoPlayer
     variant="fit"
-    isPlayingOnRender={true}
+    autoPlay={true}
     url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
   />
 );
