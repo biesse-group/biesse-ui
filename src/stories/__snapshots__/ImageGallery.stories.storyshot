@@ -53,7 +53,19 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
   position: relative;
-  height: 250px;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c4:hover .c5 {
@@ -112,6 +124,7 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
                   Object {
                     "background": "url(\\"https://dummyimage.com/250x800/ccc/fff.png\\") center center",
                     "backgroundSize": "cover",
+                    "height": "250px",
                     "width": "100%",
                   }
                 }
@@ -137,6 +150,7 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
                   Object {
                     "background": "url(\\"https://dummyimage.com/250x800/ccc/fff.png\\") center center",
                     "backgroundSize": "cover",
+                    "height": "250px",
                     "width": "100%",
                   }
                 }
@@ -162,6 +176,7 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
                   Object {
                     "background": "url(\\"https://dummyimage.com/250x800/ccc/fff.png\\") center center",
                     "backgroundSize": "cover",
+                    "height": "250px",
                     "width": "100%",
                   }
                 }

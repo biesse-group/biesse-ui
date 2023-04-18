@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button, Modal, VideoPlayer } from "../components";
 
 export default {
-  title: "Video/Modal",
+  title: "Layout/Modal",
   component: Modal,
   decorators: [
     (Story) => (
