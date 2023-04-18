@@ -341,6 +341,7 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
         onClick={[Function]}
       />
       <video
+        autoPlay={true}
         className="c10"
         controls={false}
         loop={true}

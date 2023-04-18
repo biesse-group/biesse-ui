@@ -1,4 +1,4 @@
-import { createRef, FC, useEffect, useState } from "react";
+import { createRef, FC, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
@@ -21,7 +21,7 @@ export interface VideoPlayerProps {
   /**
    * Whether the video should start playing automatically
    */
-  isPlayingOnRender?: boolean;
+  autoPlay?: boolean;
   /**
    * Whether the small scaled video should be cut horizontally or resize
    */
@@ -82,12 +82,12 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
   mimeType,
   loop = true,
   variant = "cover",
-  isPlayingOnRender = false,
+  autoPlay = false,
   ...props
 }) => {
   const videoRef = createRef<HTMLVideoElement>();
 
-  const [isVideoPlaying, setIsVideoPlaying] = useState<boolean>(false);
+  const [isVideoPlaying, setIsVideoPlaying] = useState<boolean>(autoPlay);
 
   const handlePlayButton = () => {
     if (!isVideoPlaying) {
@@ -100,12 +100,6 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
     }
   };
 
-  useEffect(() => {
-    if (isPlayingOnRender) {
-      videoRef.current?.play();
-    }
-  }, [isPlayingOnRender, videoRef]);
-
   return (
     <VideoPlayerRoot data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
@@ -117,6 +111,7 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
         playsInline
         loop={loop}
         variant={variant}
+        autoPlay={true}
       >
         <source src={url} type={mimeType || "video/mp4"} />
         Your browser does not support HTML video.
