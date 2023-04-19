@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import {
   FooterProps,
@@ -22,13 +22,14 @@ export default {
   },
 } as Meta<typeof Homepage>;
 
-const Template: StoryFn<typeof Homepage> = (args) => <Homepage {...args} />;
+type Story = StoryObj<typeof Homepage>;
 
-export const Default = Template.bind({});
-Default.args = {
-  headerProps: Header.args as HeaderProps,
-  heroCarouselProps: HeroCarousel.args as HeroCarouselProps,
-  stripThreeColsProps: StripThreeCols.args as StripThreeColsProps,
-  partnerCarouselProps: PartnerCarousel.args as PartnerCarouselProps,
-  footerProps: Footer.args as FooterProps,
+export const Default: Story = {
+  args: {
+    headerProps: Header.args as HeaderProps,
+    heroCarouselProps: HeroCarousel.args as HeroCarouselProps,
+    stripThreeColsProps: StripThreeCols.args as StripThreeColsProps,
+    partnerCarouselProps: PartnerCarousel.args as PartnerCarouselProps,
+    footerProps: Footer.args as FooterProps,
+  },
 };
