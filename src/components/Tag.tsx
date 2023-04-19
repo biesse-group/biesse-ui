@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css, useTheme } from "styled-components";
 
-import { biesseTheme } from "../themes/biesse-theme";
+import { BiesseTheme } from "../themes";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 
@@ -13,7 +13,9 @@ export interface TagProps {
   /**
    * Predefined materials, will infer color, icon and label to the component
    */
-  color: keyof typeof biesseTheme.color.material | "primary";
+  color:
+    | keyof BiesseTheme["color"]["material"]
+    | keyof Pick<BiesseTheme["color"], "primary" | "secondary">;
   /**
    * Optional icon
    */
@@ -48,7 +50,9 @@ const TagRoot = styled.div<Pick<TagProps, "border" | "color"> & { hasIcon: boole
   height: 30px;
   align-items: center;
   background-color: ${({ theme, color }) =>
-    color === "primary" ? theme.color.primary : theme.color.material[color]};
+    color === "primary" || color === "secondary"
+      ? theme.color[color]
+      : theme.color.material[color]};
 
   ${(props) =>
     props.border &&

@@ -17,6 +17,13 @@ export const Primary: Story = {
   },
 };
 
+export const Secondary: Story = {
+  args: {
+    color: "secondary",
+    children: "Secondary tag",
+  },
+};
+
 export const WithBorder: Story = {
   args: {
     ...Primary.args,
