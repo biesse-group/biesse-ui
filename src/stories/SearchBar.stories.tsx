@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { SearchBar } from "../components/SearchBar";
@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Inputs/SearchBar",
   component: SearchBar,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
@@ -17,28 +18,30 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof SearchBar>;
+} as Meta<typeof SearchBar>;
 
-const Template: ComponentStory<typeof SearchBar> = (args) => <SearchBar {...args} />;
+type Story = StoryObj<typeof SearchBar>;
 
-export const Default = Template.bind({});
-Default.args = {};
+export const Default: Story = {};
 
-export const WithPlaceholder = Template.bind({});
-WithPlaceholder.args = {
-  placeholder: "Search something...",
+export const WithPlaceholder: Story = {
+  args: {
+    placeholder: "Search something...",
+  },
 };
 
-export const DarkBackground = Template.bind({});
-DarkBackground.parameters = {
-  background: "dark",
+export const DarkBackground: Story = {
+  parameters: {
+    background: "dark",
+  },
 };
 
-export const Searched = Template.bind({});
-Searched.args = {
-  testId: "sample-search",
-};
-Searched.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  await userEvent.type(canvas.getByTestId("sample-search"), "John Doe", { delay: 100 });
+export const Searched: Story = {
+  args: {
+    testId: "sample-search",
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.type(canvas.getByTestId("sample-search"), "John Doe", { delay: 100 });
+  },
 };

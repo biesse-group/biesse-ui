@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Navigation/Header Colored 1`] = `
+exports[`Storyshots Layout/Header Colored 1`] = `
 .c8 {
   display: inline-block;
   height: 100%;
@@ -814,7 +814,7 @@ exports[`Storyshots Navigation/Header Colored 1`] = `
 </div>
 `;
 
-exports[`Storyshots Navigation/Header Transparent 1`] = `
+exports[`Storyshots Layout/Header Transparent 1`] = `
 .c8 {
   display: inline-block;
   height: 100%;

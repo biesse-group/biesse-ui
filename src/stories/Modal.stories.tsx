@@ -1,11 +1,17 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { useState } from "react";
+import { Meta, StoryObj } from "@storybook/react";
+import { FC, useState } from "react";
 
-import { Button, Modal, VideoPlayer } from "../components";
+import { Button, Modal, ModalProps, Text, VideoPlayer } from "../components";
 
 export default {
   title: "Layout/Modal",
   component: Modal,
+  tags: ["autodocs"],
+  argTypes: {
+    children: {
+      control: false,
+    },
+  },
   decorators: [
     (Story) => (
       <div style={{ maxWidth: 500 }}>
@@ -13,31 +19,45 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof Modal>;
+  render: (args, context) => (
+    <ModalTemplate {...args} buttonLabel={context.parameters.buttonLabel || "Open modal"} />
+  ),
+} as Meta<typeof Modal>;
 
-const Template: ComponentStory<typeof Modal> = (args) => {
-  const [isShown, setIsShown] = useState(false);
-  const onCloseAction = () => setIsShown(false);
+const ModalTemplate: FC<ModalProps & { buttonLabel: string }> = ({
+  buttonLabel,
+  ...modalProps
+}) => {
+  const [open, setOpen] = useState(false);
   return (
     <div>
-      <Button onClick={() => setIsShown(true)} variant="primary">
-        SHOW VIDEO
+      <Button onClick={() => setOpen(true)} variant="primary">
+        {buttonLabel || "Open modal"}
       </Button>
-      <Modal {...{ ...args, isShown, onCloseAction }} />
+      <Modal {...modalProps} onCloseAction={() => setOpen(false)} isShown={open} />
     </div>
   );
 };
 
-const VideoChild = (
-  <VideoPlayer
-    variant="fit"
-    autoPlay={true}
-    url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
-  />
-);
+type Story = StoryObj<typeof Modal>;
 
-export const WithVideo = Template.bind({});
-WithVideo.args = {
-  testId: "video-player",
-  children: VideoChild,
+export const Default: Story = {
+  args: {
+    children: <Text color="light">I am the modal content</Text>,
+  },
+};
+
+export const WithVideo: Story = {
+  args: {
+    children: (
+      <VideoPlayer
+        variant="fit"
+        autoPlay={true}
+        url="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      />
+    ),
+  },
+  parameters: {
+    buttonLabel: "Play video",
+  },
 };

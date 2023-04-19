@@ -1,14 +1,14 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
-import { Select, SelectOption } from "../components";
+import { Select } from "../components";
 import { BackgroundDecorator } from "./decorators";
 import { sleep } from "./utils/sleep";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Inputs/Select",
   component: Select,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
@@ -19,61 +19,56 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof Select>;
+} as Meta<typeof Select>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Select> = (args) => <Select {...args} />;
+type Story = StoryObj<typeof Select>;
 
-const options: SelectOption[] = [
-  {
-    label: "Option 1",
-    value: "1",
+export const DarkBackground: Story = {
+  args: {
+    placeholder: "Select something",
+    options: [
+      {
+        label: "Option 1",
+        value: "1",
+      },
+      {
+        label: "Option 2",
+        value: "2",
+      },
+      {
+        label: "Option 3",
+        value: "3",
+      },
+    ],
+    shadow: "dark",
+    "aria-label": "Example select",
   },
-  {
-    label: "Option 2",
-    value: "2",
-  },
-  {
-    label: "Option 3",
-    value: "3",
-  },
-];
-
-export const DarkBackground = Template.bind({});
-DarkBackground.args = {
-  placeholder: "Select something",
-  options,
-  shadow: "dark",
-  "aria-label": "Example select",
 };
 
-export const LightBackground = Template.bind({});
-LightBackground.args = {
-  placeholder: "Select something",
-  options,
-  shadow: "light",
-  "aria-label": "Example select",
+export const LightBackground: Story = {
+  args: {
+    ...DarkBackground.args,
+    shadow: "light",
+  },
 };
 
-export const Selected = Template.bind({});
-Selected.args = {
-  placeholder: "Select something",
-  options,
-  shadow: "dark",
-  "aria-label": "Example select",
-  testId: "select",
-};
-Selected.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
+export const Selected: Story = {
+  args: {
+    ...DarkBackground.args,
+    testId: "select",
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
 
-  const select = canvas.getByTestId("select");
+    const select = canvas.getByTestId("select");
 
-  await sleep(1000);
-  await userEvent.selectOptions(select, ["Option 1"]);
+    await sleep(1000);
+    await userEvent.selectOptions(select, ["Option 1"]);
 
-  await sleep(1000);
-  await userEvent.selectOptions(select, ["Option 2"]);
+    await sleep(1000);
+    await userEvent.selectOptions(select, ["Option 2"]);
 
-  await sleep(1000);
-  await userEvent.selectOptions(select, ["Option 3"]);
+    await sleep(1000);
+    await userEvent.selectOptions(select, ["Option 3"]);
+  },
 };

@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 import { FC } from "react";
 
@@ -11,14 +11,15 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
+  tags: ["autodocs"],
   argTypes: {
     slides: {
       control: false,
     },
   },
-} as ComponentMeta<typeof HeroCarousel>;
+} as Meta<typeof HeroCarousel>;
 
-const Template: ComponentStory<typeof HeroCarousel> = (args) => <HeroCarousel {...args} />;
+type Story = StoryObj<typeof HeroCarousel>;
 
 const SlideImage: FC<{ imageUrl: string }> = ({ imageUrl }) => {
   return (
@@ -61,30 +62,32 @@ const slides: HeroCarouselSlide[] = [
   },
 ];
 
-export const Default = Template.bind({});
+export const Default: Story = {
+  args: { slides },
+};
 Default.args = {
   slides,
 };
 
-export const AutoSlide = Template.bind({});
-AutoSlide.args = {
-  autoSlide: 5,
-  slides,
+export const AutoSlide: Story = {
+  args: {
+    autoSlide: 5,
+    slides,
+  },
 };
 
-export const Played = Template.bind({});
-Played.args = {
-  slides,
-};
-Played.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
+export const Played: Story = {
+  args: { slides },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
 
-  await sleep(2000);
-  await userEvent.click(canvas.getByTestId("prev"));
+    await sleep(2000);
+    await userEvent.click(canvas.getByTestId("prev"));
 
-  await sleep(2000);
-  await userEvent.click(canvas.getByTestId("next"));
+    await sleep(2000);
+    await userEvent.click(canvas.getByTestId("next"));
 
-  await sleep(2000);
-  await userEvent.click(canvas.getByTestId("next"));
+    await sleep(2000);
+    await userEvent.click(canvas.getByTestId("next"));
+  },
 };

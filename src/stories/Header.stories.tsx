@@ -1,11 +1,11 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
-import { Header, HeaderProps } from "../components";
-import { Logo } from "../components";
+import { Header, HeaderProps, Logo } from "../components";
 
 export default {
-  title: "Navigation/Header",
+  title: "Layout/Header",
   component: Header,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
@@ -21,9 +21,9 @@ export default {
       </div>
     ),
   ],
-} as ComponentMeta<typeof Header>;
+} as Meta<typeof Header>;
 
-const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
+type Story = StoryObj<typeof Header>;
 
 const defaultArgs: HeaderProps = {
   logo: <Logo name="HSD" />,
@@ -49,13 +49,13 @@ const defaultArgs: HeaderProps = {
   variant: "transparent",
 };
 
-export const Transparent = Template.bind({});
-Transparent.args = {
-  ...defaultArgs,
+export const Transparent: Story = {
+  args: defaultArgs,
 };
 
-export const Colored = Template.bind({});
-Colored.args = {
-  ...defaultArgs,
-  variant: "colored",
+export const Colored: Story = {
+  args: {
+    ...defaultArgs,
+    variant: "colored",
+  },
 };

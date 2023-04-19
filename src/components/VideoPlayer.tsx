@@ -111,7 +111,7 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
         playsInline
         loop={loop}
         variant={variant}
-        autoPlay={true}
+        autoPlay={autoPlay}
       >
         <source src={url} type={mimeType || "video/mp4"} />
         Your browser does not support HTML video.

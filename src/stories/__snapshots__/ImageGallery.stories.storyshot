@@ -122,7 +122,7 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
               <div
                 style={
                   Object {
-                    "background": "url(\\"https://dummyimage.com/250x800/ccc/fff.png\\") center center",
+                    "background": "url(\\"https://dummyimage.com/1080x1920/ccc/fff.png\\") center center",
                     "backgroundSize": "cover",
                     "height": "250px",
                     "width": "100%",
@@ -148,7 +148,7 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
               <div
                 style={
                   Object {
-                    "background": "url(\\"https://dummyimage.com/250x800/ccc/fff.png\\") center center",
+                    "background": "url(\\"https://dummyimage.com/1080x1920/ccc/fff.png\\") center center",
                     "backgroundSize": "cover",
                     "height": "250px",
                     "width": "100%",
@@ -174,7 +174,7 @@ exports[`Storyshots Layout/ImageGallery Default 1`] = `
               <div
                 style={
                   Object {
-                    "background": "url(\\"https://dummyimage.com/250x800/ccc/fff.png\\") center center",
+                    "background": "url(\\"https://dummyimage.com/1080x1920/ccc/fff.png\\") center center",
                     "backgroundSize": "cover",
                     "height": "250px",
                     "width": "100%",

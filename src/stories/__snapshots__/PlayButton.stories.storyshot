@@ -1,20 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
-.c2 {
+.c3 {
   display: inline-block;
   height: 30px;
   width: 30px;
   color: #6D6E70;
 }
 
-.c2 > svg {
+.c3 > svg {
   height: 100%;
   width: 100%;
   color: primary;
 }
 
 .c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
+.c1 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -39,7 +44,7 @@ exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
   height: 80px;
 }
 
-.c1 {
+.c2 {
   height: 100%;
   width: 100%;
   border: 3px solid #6D6E70;
@@ -49,42 +54,54 @@ exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
   position: absolute;
 }
 
-.c3 {
+.c4 {
   margin-left: 7px;
 }
 
 <div
   className="c0"
-  data-projection-id={1}
-  style={
-    Object {
-      "opacity": 0,
-    }
-  }
 >
   <div
-    className="c1"
-  />
-  <span
-    className="c2 c3"
-    color="primary"
-    size="30px"
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
   >
-    <svg
-      viewBox="0 0 50 50"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="c1"
+      data-projection-id={1}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
     >
-      <path
-        d="m12.267 48.996 25.929-23.597L12.266.379v48.617Z"
-        fill="currentColor"
-        fillRule="evenodd"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
+      <div
+        className="c2"
       />
-    </svg>
-  </span>
+      <span
+        className="c3 c4"
+        color="primary"
+        size="30px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="m12.267 48.996 25.929-23.597L12.266.379v48.617Z"
+            fill="currentColor"
+            fillRule="evenodd"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
 </div>
 `;
 

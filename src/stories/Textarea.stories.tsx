@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Textarea } from "../components";
@@ -7,6 +7,7 @@ import { BackgroundDecorator } from "./decorators";
 export default {
   title: "Inputs/Textarea",
   component: Textarea,
+  tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
@@ -25,27 +26,30 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as ComponentMeta<typeof Textarea>;
+} as Meta<typeof Textarea>;
 
-const Template: ComponentStory<typeof Textarea> = (args) => <Textarea {...args} />;
+type Story = StoryObj<typeof Textarea>;
 
-export const DarkBackground = Template.bind({});
-DarkBackground.args = {
-  placeholder: "Type something...",
+export const DarkBackground: Story = {
+  args: {
+    placeholder: "Type something...",
+  },
 };
 
-export const LightBackground = Template.bind({});
-LightBackground.args = {
-  placeholder: "Type something...",
-  shadow: "light",
+export const LightBackground: Story = {
+  args: {
+    ...DarkBackground.args,
+    shadow: "light",
+  },
 };
 
-export const Filled = Template.bind({});
-Filled.args = {
-  placeholder: "Type something...",
-  testId: "textarea",
-};
-Filled.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  await userEvent.type(canvas.getByTestId("textarea"), "In ut quam vitae odio", { delay: 50 });
+export const Filled: Story = {
+  args: {
+    ...DarkBackground.args,
+    testId: "textarea",
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.type(canvas.getByTestId("textarea"), "In ut quam vitae odio", { delay: 50 });
+  },
 };

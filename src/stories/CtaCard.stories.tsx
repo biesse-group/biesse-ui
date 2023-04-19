@@ -1,4 +1,4 @@
-import { ComponentMeta, ComponentStory } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import "dayjs/locale/it";
 import styled, { css } from "styled-components";
 
@@ -26,6 +26,7 @@ const StoryContainer = styled.div`
 export default {
   title: "Cards/CtaCard",
   component: CtaCard,
+  tags: ["autodocs"],
   argTypes: {
     children: {
       control: false,
@@ -38,9 +39,9 @@ export default {
       </StoryContainer>
     ),
   ],
-} as ComponentMeta<typeof CtaCard>;
+} as Meta<typeof CtaCard>;
 
-const Template: ComponentStory<typeof CtaCard> = (args) => <CtaCard {...args} />;
+type Story = StoryObj<typeof CtaCard>;
 
 const PngContainer = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
@@ -61,12 +62,13 @@ const TestImg = (
   </PngContainer>
 );
 
-export const WithTitle = Template.bind({});
-WithTitle.args = {
-  variant: "with-title",
-  title: "ES951",
-  description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
-  image: TestImg,
+export const WithTitle: Story = {
+  args: {
+    variant: "with-title",
+    title: "ES951",
+    description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+    image: TestImg,
+  },
 };
 
 const PngLogoStyled = styled.img`
@@ -76,10 +78,11 @@ const PngLogoStyled = styled.img`
 
 const TestLogo = <PngLogoStyled src="/assets/kuka-logo.png" alt="kuka logo" />;
 
-export const FullImage = Template.bind({});
-FullImage.args = {
-  variant: "full-image",
-  description:
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
-  image: TestLogo,
+export const FullImage: Story = {
+  args: {
+    variant: "full-image",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
+    image: TestLogo,
+  },
 };
