@@ -1,7 +1,7 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import styled from "styled-components";
 
-import { PartnerCarousel, PartnerCarouselProps } from "../components";
+import { PartnerCarousel } from "../components";
 
 export default {
   title: "Slideshow/PartnerCarousel",
@@ -17,7 +17,7 @@ export default {
   },
 } as Meta<typeof PartnerCarousel>;
 
-const Template: StoryFn<typeof PartnerCarousel> = (args) => <PartnerCarousel {...args} />;
+type Story = StoryObj<typeof PartnerCarousel>;
 
 const PngStyled = styled.img`
   width: 100%;
@@ -30,12 +30,9 @@ const PngStyled = styled.img`
 
 const TestImg = <PngStyled src="/assets/kuka-logo.png" alt="kuka logo" />;
 
-const defaultArgs: PartnerCarouselProps = {
-  title: "Partners",
-  partners: Array(10).fill(TestImg),
-};
-
-export const Default = Template.bind({});
-Default.args = {
-  ...defaultArgs,
+export const Default: Story = {
+  args: {
+    title: "Partners",
+    partners: Array(10).fill(TestImg),
+  },
 };

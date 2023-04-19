@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Input } from "../components";
@@ -26,41 +26,44 @@ export default {
   ],
 } as Meta<typeof Input>;
 
-const Template: StoryFn<typeof Input> = (args) => <Input {...args} />;
+type Story = StoryObj<typeof Input>;
 
-export const DarkBackground = Template.bind({});
-DarkBackground.args = {
-  placeholder: "Name",
-  shadow: "dark",
-};
-
-export const LightBackground = Template.bind({});
-LightBackground.args = {
-  placeholder: "Name",
-  shadow: "light",
-  border: true,
-};
-
-export const WithButton = Template.bind({});
-WithButton.args = {
-  placeholder: "Name",
-  withButton: {
-    label: "Send",
+export const DarkBackground: Story = {
+  args: {
+    placeholder: "Name",
+    shadow: "dark",
   },
 };
 
-export const Filled = Template.bind({});
-Filled.args = {
-  placeholder: "Name",
-  shadow: "dark",
-  testId: "input",
-  withButton: {
-    label: "Send",
-    testId: "submit",
+export const LightBackground: Story = {
+  args: {
+    ...DarkBackground.args,
+    shadow: "light",
+    border: true,
   },
 };
-Filled.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  await userEvent.type(canvas.getByTestId("input"), "John Doe", { delay: 100 });
-  await userEvent.click(canvas.getByTestId("submit"));
+
+export const WithButton: Story = {
+  args: {
+    ...DarkBackground.args,
+    withButton: {
+      label: "Send",
+    },
+  },
+};
+
+export const Filled: Story = {
+  args: {
+    ...DarkBackground.args,
+    testId: "input",
+    withButton: {
+      label: "Send",
+      testId: "submit",
+    },
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.type(canvas.getByTestId("input"), "John Doe", { delay: 100 });
+    await userEvent.click(canvas.getByTestId("submit"));
+  },
 };

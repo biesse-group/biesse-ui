@@ -1,8 +1,8 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
-import { Button, ProductCarousel, ProductCarouselProps, Tag, Text, Title } from "../components";
+import { Button, ProductCarousel, Tag, Text, Title } from "../components";
 import { mqUntil } from "../styles/media-queries";
 
 type SampleProductTag = "stone" | "metal" | "glass" | "wood" | "composite";
@@ -24,9 +24,7 @@ export default {
   },
 } as Meta<typeof ProductCarousel>;
 
-const Template: StoryFn<typeof ProductCarousel<SampleProduct>> = (args) => (
-  <ProductCarousel {...args} />
-);
+type Story = StoryObj<typeof ProductCarousel<SampleProduct>>;
 
 const items: SampleProduct[] = [
   {
@@ -121,14 +119,15 @@ const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
   );
 };
 
-export const Default = Template.bind({});
-Default.args = {
-  title: "New products",
-  items,
-  contentHeight: 300,
-  renderTitle: (item) => item.code,
-  renderImage: (item) => (
-    <img src={item.imageUrl} alt={item.code} style={{ maxWidth: "100%", maxHeight: "100%" }} />
-  ),
-  renderDetail: (item) => <SampleProductDetail product={item} />,
-} as ProductCarouselProps<SampleProduct>;
+export const Default: Story = {
+  args: {
+    title: "New products",
+    items,
+    contentHeight: 300,
+    renderTitle: (item) => item.code,
+    renderImage: (item) => (
+      <img src={item.imageUrl} alt={item.code} style={{ maxWidth: "100%", maxHeight: "100%" }} />
+    ),
+    renderDetail: (item) => <SampleProductDetail product={item} />,
+  },
+};

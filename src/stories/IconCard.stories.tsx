@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { Button, IconCard } from "../components";
 
@@ -20,13 +20,14 @@ export default {
   ],
 } as Meta<typeof IconCard>;
 
-const Template: StoryFn<typeof IconCard> = (args) => <IconCard {...args} />;
+type Story = StoryObj<typeof IconCard>;
 
-export const Default = Template.bind({});
-Default.args = {
-  icon: "sustainability",
-  title: "Sustainability",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-  action: <Button variant="outline" children="Action" testId="action-button" />,
+export const Default: Story = {
+  args: {
+    icon: "sustainability",
+    title: "Sustainability",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    action: <Button variant="outline" children="Action" testId="action-button" />,
+  },
 };

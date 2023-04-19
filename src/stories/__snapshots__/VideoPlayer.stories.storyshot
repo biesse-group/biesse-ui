@@ -222,7 +222,7 @@ exports[`Storyshots Video/VideoPlayer Default 1`] = `
       onClick={[Function]}
     />
     <video
-      autoPlay={true}
+      autoPlay={false}
       className="c2"
       controls={false}
       loop={true}

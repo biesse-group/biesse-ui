@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 type Props = {
   background?: "primary" | "light" | "dark";
   fullScreen?: boolean;
-  maxWidth?: number;
+  maxWidth?: number | string;
 };
 
 const StyledBg = styled.div<Props>`

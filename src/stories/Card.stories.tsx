@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Button, Card, Tag } from "../components";
@@ -31,8 +31,7 @@ export default {
   ],
 } as Meta<typeof Card>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: StoryFn<typeof Card> = (args) => <Card {...args} />;
+type Story = StoryObj<typeof Card>;
 
 const defaultArgs = {
   title: "Example card",
@@ -61,54 +60,58 @@ const tags = [
 const preTitle = "01 gennaio 2023, Location";
 const action = <Button variant="outline" children="Action" testId="action-button" />;
 
-export const Default = Template.bind({});
-Default.args = {
-  ...defaultArgs,
+export const Default: Story = {
+  args: defaultArgs,
 };
 
-export const WithEllipsis = Template.bind({});
-WithEllipsis.args = {
-  ...defaultArgs,
-  titleLines: 3,
-  title:
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
+export const WithEllipsis: Story = {
+  args: {
+    ...defaultArgs,
+    titleLines: 3,
+    title:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.",
+  },
 };
 
-export const WithPreTitle = Template.bind({});
-WithPreTitle.args = {
-  ...defaultArgs,
-  preTitle,
+export const WithPreTitle: Story = {
+  args: {
+    ...defaultArgs,
+    preTitle,
+  },
 };
 
-export const WithButton = Template.bind({});
-WithButton.args = {
-  ...defaultArgs,
-  action,
+export const WithButton: Story = {
+  args: {
+    ...defaultArgs,
+    action,
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByTestId("action-button"));
+  },
 };
 
-WithButton.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  await userEvent.click(canvas.getByTestId("action-button"));
+export const WithTags: Story = {
+  args: {
+    ...defaultArgs,
+    tags,
+  },
 };
 
-export const WithTags = Template.bind({});
-WithTags.args = {
-  ...defaultArgs,
-  tags,
+export const Horizontal: Story = {
+  args: {
+    ...defaultArgs,
+    tags,
+    action,
+    direction: "horizontal",
+  },
 };
 
-export const Horizontal = Template.bind({});
-Horizontal.args = {
-  ...defaultArgs,
-  tags,
-  action,
-  direction: "horizontal",
-};
-
-export const CompleteExample = Template.bind({});
-CompleteExample.args = {
-  ...defaultArgs,
-  preTitle,
-  tags,
-  action,
+export const CompleteExample: Story = {
+  args: {
+    ...defaultArgs,
+    preTitle,
+    tags,
+    action,
+  },
 };

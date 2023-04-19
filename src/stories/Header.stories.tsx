@@ -1,7 +1,6 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
-import { Header, HeaderProps } from "../components";
-import { Logo } from "../components";
+import { Header, HeaderProps, Logo } from "../components";
 
 export default {
   title: "Layout/Header",
@@ -24,7 +23,7 @@ export default {
   ],
 } as Meta<typeof Header>;
 
-const Template: StoryFn<typeof Header> = (args) => <Header {...args} />;
+type Story = StoryObj<typeof Header>;
 
 const defaultArgs: HeaderProps = {
   logo: <Logo name="HSD" />,
@@ -50,13 +49,13 @@ const defaultArgs: HeaderProps = {
   variant: "transparent",
 };
 
-export const Transparent = Template.bind({});
-Transparent.args = {
-  ...defaultArgs,
+export const Transparent: Story = {
+  args: defaultArgs,
 };
 
-export const Colored = Template.bind({});
-Colored.args = {
-  ...defaultArgs,
-  variant: "colored",
+export const Colored: Story = {
+  args: {
+    ...defaultArgs,
+    variant: "colored",
+  },
 };

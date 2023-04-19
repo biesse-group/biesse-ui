@@ -1,82 +1,99 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { Button } from "../components/Button";
 import { BackgroundDecorator } from "./decorators";
 
-export default {
+const meta: Meta<typeof Button> = {
   title: "Buttons/Button",
   component: Button,
   tags: ["autodocs"],
+  parameters: {
+    layout: "fullscreen",
+  },
   decorators: [
-    (Story, { args }) =>
-      args.variant === "primary-inverted" ? (
-        <BackgroundDecorator background="primary">{Story()}</BackgroundDecorator>
-      ) : (
-        Story()
-      ),
+    (Story, { args }) => (
+      <BackgroundDecorator
+        maxWidth="100%"
+        background={args.variant === "primary-inverted" ? "primary" : "light"}
+      >
+        {Story()}
+      </BackgroundDecorator>
+    ),
   ],
-} as Meta<typeof Button>;
-
-const Template: StoryFn<typeof Button> = (args) => <Button {...args} />;
-
-export const Primary = Template.bind({});
-Primary.args = {
-  variant: "primary",
-  children: "Primary",
-  testId: "primary-button",
-};
-Primary.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  await userEvent.click(canvas.getByTestId("primary-button"));
 };
 
-export const PrimaryInverted = Template.bind({});
-PrimaryInverted.args = {
-  variant: "primary-inverted",
-  children: "Primary inverted",
-};
-PrimaryInverted.parameters = {
-  layout: "fullscreen",
+export default meta;
+
+type Story = StoryObj<typeof Button>;
+
+export const Primary: Story = {
+  args: {
+    variant: "primary",
+    children: "Primary",
+    testId: "primary-button",
+  },
 };
 
-export const Outline = Template.bind({});
-Outline.args = {
-  variant: "outline",
-  children: "Outline",
+export const PrimaryInverted: Story = {
+  args: {
+    variant: "primary-inverted",
+    children: "Primary inverted",
+  },
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  variant: "outline",
-  size: "small",
-  children: "Small",
+export const Outline: Story = {
+  args: {
+    variant: "outline",
+    children: "Outline",
+  },
 };
 
-export const Block = Template.bind({});
-Block.args = {
-  variant: "primary",
-  children: "Block",
-  isBlock: true,
+export const Small: Story = {
+  args: {
+    variant: "outline",
+    size: "small",
+    children: "Small",
+  },
 };
 
-export const WithRightIcon = Template.bind({});
-WithRightIcon.args = {
-  variant: "outline",
-  children: "Download catalog",
-  rightIcon: "download",
+export const Block: Story = {
+  ...Primary,
+  args: {
+    ...Primary.args,
+    children: "Block",
+    isBlock: true,
+  },
 };
 
-export const WithLeftIcon = Template.bind({});
-WithLeftIcon.args = {
-  variant: "outline",
-  children: "Download catalog",
-  leftIcon: "download",
+export const WithRightIcon: Story = {
+  args: {
+    variant: "outline",
+    children: "Download catalog",
+    rightIcon: "download",
+  },
 };
 
-export const WithLeftIconNaked = Template.bind({});
-WithLeftIconNaked.args = {
-  variant: "primary-naked",
-  children: "Naked",
-  leftIcon: "chevron-left",
+export const WithLeftIcon: Story = {
+  args: {
+    variant: "outline",
+    children: "Download catalog",
+    leftIcon: "download",
+  },
+};
+
+export const PrimaryNaked: Story = {
+  args: {
+    variant: "primary-naked",
+    children: "Naked",
+    leftIcon: "chevron-left",
+  },
+};
+
+export const Clicked: Story = {
+  ...Primary,
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByTestId("primary-button"));
+  },
 };

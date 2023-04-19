@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
 import { PlayButton } from "../components";
@@ -18,22 +18,24 @@ export default {
   ],
 } as Meta<typeof PlayButton>;
 
-const Template: StoryFn<typeof PlayButton> = (args) => <PlayButton {...args} />;
+type Story = StoryObj<typeof PlayButton>;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  variant: "primary",
-  testId: "primary-button",
-};
-Primary.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  await userEvent.click(canvas.getByTestId("primary-button"));
+export const Primary: Story = {
+  args: {
+    variant: "primary",
+    testId: "primary-button",
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByTestId("primary-button"));
+  },
 };
 
-export const Inverted = Template.bind({});
-Inverted.args = {
-  variant: "inverted",
-};
-Inverted.parameters = {
-  layout: "fullscreen",
+export const Inverted: Story = {
+  args: {
+    variant: "inverted",
+  },
+  parameters: {
+    layout: "fullscreen",
+  },
 };

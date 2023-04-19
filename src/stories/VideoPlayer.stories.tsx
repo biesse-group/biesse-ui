@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { VideoPlayer } from "../components";
 
@@ -15,17 +15,18 @@ export default {
   ],
 } as Meta<typeof VideoPlayer>;
 
-const Template: StoryFn<typeof VideoPlayer> = (args) => <VideoPlayer {...args} />;
+type Story = StoryObj<typeof VideoPlayer>;
 
-export const Default = Template.bind({});
-Default.args = {
-  testId: "video-player",
-  url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+export const Default: Story = {
+  args: {
+    testId: "video-player",
+    url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+  },
 };
 
-export const AutoPlay = Template.bind({});
-AutoPlay.args = {
-  testId: "video-player",
-  url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-  autoPlay: true,
+export const AutoPlay: Story = {
+  args: {
+    ...Default.args,
+    autoPlay: true,
+  },
 };

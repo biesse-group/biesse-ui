@@ -1,5 +1,103 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Buttons/IconButton Clicked 1`] = `
+.c2 {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  color: inherit;
+}
+
+.c2 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
+.c1 {
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: 1px solid #6D6E70;
+  color: #6D6E70;
+}
+
+.c1:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <button
+      aria-label="Example button"
+      className="c1"
+      data-testid="primary-icon-button"
+    >
+      <span
+        className="c2"
+        color="inherit"
+        size="26px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h23.795v23.795H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
+              fill="currentColor"
+            />
+            <g
+              transform="translate(13.308 1)"
+            >
+              <path
+                d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Buttons/IconButton Light 1`] = `
 .c2 {
   display: inline-block;

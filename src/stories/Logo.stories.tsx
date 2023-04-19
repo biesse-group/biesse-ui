@@ -1,6 +1,6 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
-import { Logo, LogoProps } from "../components";
+import { Logo } from "../components";
 import { BackgroundDecorator } from "./decorators";
 
 export default {
@@ -19,20 +19,18 @@ export default {
   ],
 } as Meta<typeof Logo>;
 
-const Template: StoryFn<typeof Logo> = (args) => <Logo {...args} />;
+type Story = StoryObj<typeof Logo>;
 
-const defaultArgs: LogoProps = {
-  name: "HSD",
+export const Primary: Story = {
+  args: {
+    name: "HSD",
+    color: "primary",
+  },
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
-  ...defaultArgs,
-  color: "primary",
-};
-
-export const White = Template.bind({});
-White.args = {
-  ...defaultArgs,
-  color: "white",
+export const White: Story = {
+  args: {
+    ...Primary.args,
+    color: "white",
+  },
 };

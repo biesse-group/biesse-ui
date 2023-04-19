@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { VideoBanner } from "../components";
 
@@ -11,17 +11,18 @@ export default {
   },
 } as Meta<typeof VideoBanner>;
 
-const Template: StoryFn<typeof VideoBanner> = (args) => <VideoBanner {...args} />;
+type Story = StoryObj<typeof VideoBanner>;
 
-export const Default = Template.bind({});
-Default.args = {
-  title: "La Produzione",
-  subTitle: "Efficienza e competenza",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate",
-  video: {
-    testId: "video-player",
-    url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+export const Default: Story = {
+  args: {
+    title: "La Produzione",
+    subTitle: "Efficienza e competenza",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate",
+    video: {
+      testId: "video-player",
+      url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    },
   },
 };
 

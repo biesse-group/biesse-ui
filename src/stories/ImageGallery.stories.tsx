@@ -1,8 +1,7 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { ImageGallery } from "../components";
 
-// More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Layout/ImageGallery",
   component: ImageGallery,
@@ -18,8 +17,7 @@ export default {
   decorators: [(Story, { args }) => <div style={{ margin: "30px 0" }}>{Story()}</div>],
 } as Meta<typeof ImageGallery>;
 
-// More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: StoryFn<typeof ImageGallery> = (args) => <ImageGallery {...args} />;
+type Story = StoryObj<typeof ImageGallery>;
 
 const image = (
   <div
@@ -32,7 +30,8 @@ const image = (
   />
 );
 
-export const Default = Template.bind({});
-Default.args = {
-  images: [image, image, image],
+export const Default: Story = {
+  args: {
+    images: [image, image, image],
+  },
 };

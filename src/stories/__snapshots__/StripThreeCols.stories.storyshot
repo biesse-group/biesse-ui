@@ -604,7 +604,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
         className="c2 c3"
         color="primary"
       >
-        Lorem ipsum
+        Lorem ipsum dolor
       </h3>
       <div
         className="c4"
@@ -770,7 +770,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
         className="c2 c3"
         color="primary"
       >
-        Lorem ipsum
+        Lorem ipsum dolor
       </h3>
       <div
         className="c4"
@@ -1388,7 +1388,7 @@ exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
         className="c2 c3"
         color="primary"
       >
-        Lorem ipsum
+        Lorem ipsum dolor
       </h3>
       <div
         className="c4"
@@ -1554,7 +1554,7 @@ exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
         className="c2 c3"
         color="primary"
       >
-        Lorem ipsum
+        Lorem ipsum dolor
       </h3>
       <div
         className="c4"

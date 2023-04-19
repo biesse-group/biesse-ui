@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 
 import { Icon, IconProps } from "../components";
 
@@ -8,32 +8,36 @@ export default {
   tags: ["autodocs"],
 } as Meta<typeof Icon>;
 
-const Template: StoryFn<typeof Icon> = (args) => <Icon {...args} />;
+type Story = StoryObj<typeof Icon>;
 
 const defaultArgs: IconProps = {
   name: "careers",
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  ...defaultArgs,
-  size: "lg",
+export const Large: Story = {
+  args: {
+    ...defaultArgs,
+    size: "lg",
+  },
 };
 
-export const Medium = Template.bind({});
-Medium.args = {
-  ...defaultArgs,
-  size: "md",
+export const Medium: Story = {
+  args: {
+    ...defaultArgs,
+    size: "md",
+  },
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  ...defaultArgs,
-  size: "sm",
+export const Small: Story = {
+  args: {
+    ...defaultArgs,
+    size: "sm",
+  },
 };
 
-export const ExtraSmall = Template.bind({});
-ExtraSmall.args = {
-  ...defaultArgs,
-  size: "xs",
+export const ExtraSmall: Story = {
+  args: {
+    ...defaultArgs,
+    size: "xs",
+  },
 };

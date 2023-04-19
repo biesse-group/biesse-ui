@@ -1,4 +1,4 @@
-import { Meta, StoryFn } from "@storybook/react";
+import { Meta, StoryObj } from "@storybook/react";
 import dayjs from "dayjs";
 import "dayjs/locale/it";
 
@@ -20,57 +20,56 @@ export default {
       </div>
     ),
   ],
+  render: ({ startDate, endDate, ...args }) => (
+    <EventCard startDate={dayjs(startDate)} endDate={dayjs(endDate)} {...args} />
+  ),
 } as Meta<typeof EventCard>;
 
-const Template: StoryFn<typeof EventCard> = (args) => {
-  const { startDate, endDate, ...otherArgs } = args;
+type Story = StoryObj<typeof EventCard>;
 
-  return <EventCard startDate={dayjs(startDate)} endDate={dayjs(endDate)} {...otherArgs} />;
-};
-
-const defaultArgs = {
-  title: "Lorem Ipsum",
-  startDate: dayjs(new Date(`january 24, 2023`)),
-  endDate: dayjs(new Date(`february 10, 2023`)),
-  description:
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
-  children: (
-    <Button variant="outline" size="small">
-      Get free ticket
-    </Button>
-  ),
-};
-
-export const Primary = Template.bind({});
-Primary.args = {
-  ...defaultArgs,
-};
-
-export const Translated = Template.bind({});
-Translated.args = {
-  ...defaultArgs,
-  startDate: dayjs(new Date(`january 24, 2023`)).locale("it"),
-  endDate: dayjs(new Date(`february 10, 2023`)).locale("it"),
-};
-
-export const HoverState = Template.bind({});
-HoverState.args = {
-  ...defaultArgs,
-};
-HoverState.parameters = {
-  pseudo: {
-    hover: true,
+export const Primary: Story = {
+  args: {
+    title: "Lorem Ipsum",
+    startDate: dayjs(new Date(`january 24, 2023`)),
+    endDate: dayjs(new Date(`february 10, 2023`)),
+    variant: "primary",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
+    children: (
+      <Button variant="outline" size="small">
+        Get free ticket
+      </Button>
+    ),
   },
 };
 
-export const Hero = Template.bind({});
-Hero.args = {
-  ...defaultArgs,
-  variant: "hero",
+export const Secondary: Story = {
+  args: {
+    ...Primary.args,
+    variant: "secondary",
+  },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  ...defaultArgs,
-  variant: "secondary",
+export const Hero: Story = {
+  args: {
+    ...Primary.args,
+    variant: "hero",
+  },
+};
+
+export const Translated: Story = {
+  args: {
+    ...Primary.args,
+    startDate: dayjs(new Date(`january 24, 2023`)).locale("it"),
+    endDate: dayjs(new Date(`february 10, 2023`)).locale("it"),
+  },
+};
+
+export const HoverState: Story = {
+  ...Primary,
+  parameters: {
+    pseudo: {
+      hover: true,
+    },
+  },
 };
