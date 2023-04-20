@@ -21,6 +21,7 @@ export * from "./Tag";
 export * from "./Text";
 export * from "./Textarea";
 export * from "./Title";
+export * from "./Tabs";
 export * from "./VideoBanner";
 export * from "./Modal";
 export * from "./VideoPlayer";
