@@ -17,21 +17,26 @@ export type TitleProps = {
    * Title color, can ben `primary` or `light`
    */
   color?: "primary" | "light";
+  /**
+   * Whether the title has to be upper case
+   */
+  uppercase?: boolean;
   className?: string;
   style?: CSSProperties;
 };
 
 type HeadingProps = Omit<TitleProps, "variant">;
 
-const headingStyle = css`
-  text-transform: uppercase;
+const getHeadingStyle = ({
+  size,
+  color,
+  uppercase,
+}: Pick<TitleProps, "size" | "color" | "uppercase">) => css`
   margin-top: 0;
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight.bold};
-`;
-
-const getSize = (size: TitleProps["size"]) => css`
   font-size: ${(props) => props.theme.font.regular.headings[size || "md"]};
+  text-transform: ${uppercase ? "uppercase" : "none"};
 
   ${(props) =>
     mqUntil(
@@ -48,9 +53,7 @@ const getSize = (size: TitleProps["size"]) => css`
         font-size: ${props.theme.font.mobile.headings[size || "md"]};
       `
     )}
-`;
 
-const getColor = (color?: TitleProps["color"]) => css`
   color: ${(props) => {
     switch (color) {
       case "light":
@@ -65,34 +68,22 @@ const getColor = (color?: TitleProps["color"]) => css`
 
 const HEADINGS = {
   H1: styled.h1<HeadingProps>`
-    ${headingStyle}
-    ${(props) => getColor(props.color)}
-    ${(props) => getSize(props.size || "xxl")};
+    ${({ size = "xxl", ...props }) => getHeadingStyle({ size, ...props })}
   `,
   H2: styled.h2<HeadingProps>`
-    ${headingStyle}
-    ${(props) => getColor(props.color)}
-    ${(props) => getSize(props.size || "xl")};
+    ${({ size = "xl", ...props }) => getHeadingStyle({ size, ...props })}
   `,
   H3: styled.h3<HeadingProps>`
-    ${headingStyle}
-    ${(props) => getColor(props.color)}
-    ${(props) => getSize(props.size || "lg")};
+    ${({ size = "lg", ...props }) => getHeadingStyle({ size, ...props })}
   `,
   H4: styled.h4<HeadingProps>`
-    ${headingStyle}
-    ${(props) => getColor(props.color)}
-    ${(props) => getSize(props.size || "md")};
+    ${({ size = "md", ...props }) => getHeadingStyle({ size, ...props })}
   `,
   H5: styled.h5<HeadingProps>`
-    ${headingStyle}
-    ${(props) => getColor(props.color)}
-    ${(props) => getSize(props.size || "sm")};
+    ${({ size = "sm", ...props }) => getHeadingStyle({ size, ...props })}
   `,
   H6: styled.h6<HeadingProps>`
-    ${headingStyle}
-    ${(props) => getColor(props.color)}
-    ${(props) => getSize(props.size || "xs")};
+    ${({ size = "xs", ...props }) => getHeadingStyle({ size, ...props })}
   `,
 } as const;
 
