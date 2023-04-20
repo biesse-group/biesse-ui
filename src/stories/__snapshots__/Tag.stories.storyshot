@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Tag Composite 1`] = `
+exports[`Storyshots Display/Tag Composite 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -109,7 +109,7 @@ exports[`Storyshots Components/Tag Composite 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Glass 1`] = `
+exports[`Storyshots Display/Tag Glass 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -218,7 +218,7 @@ exports[`Storyshots Components/Tag Glass 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Metal 1`] = `
+exports[`Storyshots Display/Tag Metal 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -338,7 +338,7 @@ exports[`Storyshots Components/Tag Metal 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Primary 1`] = `
+exports[`Storyshots Display/Tag Primary 1`] = `
 .c1 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -414,7 +414,83 @@ exports[`Storyshots Components/Tag Primary 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Stone 1`] = `
+exports[`Storyshots Display/Tag Secondary 1`] = `
+.c1 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c1 a {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c2 {
+  text-transform: uppercase;
+}
+
+.c0 {
+  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px 14px 0px 14px;
+  height: 30px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #6D6E70;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  className="c0"
+  color="secondary"
+>
+  <span
+    className="c1 c2"
+    color="light"
+    size="sm"
+  >
+    Secondary tag
+  </span>
+</div>
+`;
+
+exports[`Storyshots Display/Tag Stone 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -523,7 +599,7 @@ exports[`Storyshots Components/Tag Stone 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag With Border 1`] = `
+exports[`Storyshots Display/Tag With Border 1`] = `
 .c1 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -601,7 +677,7 @@ exports[`Storyshots Components/Tag With Border 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag With Icon 1`] = `
+exports[`Storyshots Display/Tag With Icon 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -728,7 +804,7 @@ exports[`Storyshots Components/Tag With Icon 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Wood 1`] = `
+exports[`Storyshots Display/Tag Wood 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;

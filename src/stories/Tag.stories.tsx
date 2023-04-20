@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { Tag } from "../components";
 
 export default {
-  title: "Components/Tag",
+  title: "Display/Tag",
   component: Tag,
   tags: ["autodocs"],
 } as Meta<typeof Tag>;
@@ -14,6 +14,13 @@ export const Primary: Story = {
   args: {
     color: "primary",
     children: "Primary tag",
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    color: "secondary",
+    children: "Secondary tag",
   },
 };
 

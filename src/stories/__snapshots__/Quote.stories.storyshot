@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots components/Quote Default 1`] = `
+exports[`Storyshots Display/Quote Default 1`] = `
 .c4 {
   display: inline-block;
   height: 40px;

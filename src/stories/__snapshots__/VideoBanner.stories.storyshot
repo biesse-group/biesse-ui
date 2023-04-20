@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Video/VideoBanner Default 1`] = `
+exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 .c14 {
   display: inline-block;
   height: 30px;
@@ -31,21 +31,21 @@ exports[`Storyshots Video/VideoBanner Default 1`] = `
 }
 
 .c2 {
-  text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  color: #FFF;
   font-size: 50px;
+  text-transform: none;
+  color: #FFF;
 }
 
 .c4 {
-  text-transform: uppercase;
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  color: #FFF;
   font-size: 30px;
+  text-transform: none;
+  color: #FFF;
 }
 
 .c0 {

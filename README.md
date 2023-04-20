@@ -5,7 +5,7 @@ This project is a React component library for Biesse Group websites:
 - [HSD Mechatronics](https://www.hsd.it/)
 - [Biesse Group](https://www.biessegroup.com/it/)
 
-The library is written in [React](https://it.reactjs.org/) and [Typescript](https://www.typescriptlang.org/), and it uses [Emotion UI](https://emotion.sh/docs/introduction) as CSS-in-JS framework for styling and theming.
+The library is written in [React](https://it.reactjs.org/) and [Typescript](https://www.typescriptlang.org/), and it uses [Styled Components](https://styled-components.com/) as CSS-in-JS framework for styling and theming.
 
 ## Available Scripts
 
@@ -59,5 +59,5 @@ You can learn more in the following documentation pages:
 - [React](https://it.reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Create React App](https://create-react-app.dev/)
-- [Emotion UI](https://emotion.sh/docs/introduction)
+- [Styled Components](https://styled-components.com/)
 - [Storybook](https://storybook.js.org/)
