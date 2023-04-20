@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Tag Composite 1`] = `
+exports[`Storyshots Display/Tag Composite 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -109,7 +109,7 @@ exports[`Storyshots Components/Tag Composite 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Glass 1`] = `
+exports[`Storyshots Display/Tag Glass 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -218,7 +218,7 @@ exports[`Storyshots Components/Tag Glass 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Metal 1`] = `
+exports[`Storyshots Display/Tag Metal 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -338,7 +338,7 @@ exports[`Storyshots Components/Tag Metal 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Primary 1`] = `
+exports[`Storyshots Display/Tag Primary 1`] = `
 .c1 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -414,7 +414,7 @@ exports[`Storyshots Components/Tag Primary 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Secondary 1`] = `
+exports[`Storyshots Display/Tag Secondary 1`] = `
 .c1 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -490,7 +490,7 @@ exports[`Storyshots Components/Tag Secondary 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Stone 1`] = `
+exports[`Storyshots Display/Tag Stone 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -599,7 +599,7 @@ exports[`Storyshots Components/Tag Stone 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag With Border 1`] = `
+exports[`Storyshots Display/Tag With Border 1`] = `
 .c1 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
@@ -677,7 +677,7 @@ exports[`Storyshots Components/Tag With Border 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag With Icon 1`] = `
+exports[`Storyshots Display/Tag With Icon 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;
@@ -804,7 +804,7 @@ exports[`Storyshots Components/Tag With Icon 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Tag Wood 1`] = `
+exports[`Storyshots Display/Tag Wood 1`] = `
 .c1 {
   display: inline-block;
   height: 20px;

@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { VideoPlayer } from "../components";
 
 export default {
-  title: "Video/VideoPlayer",
+  title: "Media/VideoPlayer",
   component: VideoPlayer,
   tags: ["autodocs"],
   decorators: [

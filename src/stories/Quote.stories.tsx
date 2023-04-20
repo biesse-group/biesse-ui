@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { Quote } from "../components";
 
 export default {
-  title: "components/Quote",
+  title: "Display/Quote",
   component: Quote,
   tags: ["autodocs"],
   parameters: {

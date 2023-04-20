@@ -13,6 +13,7 @@ initStoryshots({
       context: { ...story.context, fileName },
     });
   },
+  framework: "react",
   renderer: render,
   storyKindRegex: /^((?!.*?Pages\/).)*$/,
   snapshotSerializers: [styleSheetSerializer],

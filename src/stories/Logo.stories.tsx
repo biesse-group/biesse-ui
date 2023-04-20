@@ -4,7 +4,7 @@ import { Logo } from "../components";
 import { BackgroundDecorator } from "./decorators";
 
 export default {
-  title: "Components/Logo",
+  title: "Display/Logo",
   component: Logo,
   tags: ["autodocs"],
   parameters: {

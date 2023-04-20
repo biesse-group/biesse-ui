@@ -4,7 +4,7 @@ import { FC, useState } from "react";
 import { Button, Modal, ModalProps, Text, VideoPlayer } from "../components";
 
 export default {
-  title: "Layout/Modal",
+  title: "Dialogs/Modal",
   component: Modal,
   tags: ["autodocs"],
   argTypes: {

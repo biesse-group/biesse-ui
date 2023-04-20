@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { VideoBanner } from "../components";
 
 export default {
-  title: "Video/VideoBanner",
+  title: "Slideshow/VideoBanner",
   component: VideoBanner,
   tags: ["autodocs"],
   parameters: {

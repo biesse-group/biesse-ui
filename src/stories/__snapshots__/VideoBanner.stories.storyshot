@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Video/VideoBanner Default 1`] = `
+exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 .c14 {
   display: inline-block;
   height: 30px;
