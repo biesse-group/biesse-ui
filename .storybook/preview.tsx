@@ -51,7 +51,7 @@ const preview: Preview = {
     theme: {
       name: "Theme",
       description: "Global theme for components",
-      defaultValue: "biesse",
+      defaultValue: "hsd",
       toolbar: {
         icon: "paintbrush",
         // Array of plain string values or MenuItem shape

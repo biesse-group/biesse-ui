@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Video/VideoPlayer Auto Play 1`] = `
+exports[`Storyshots Media/VideoPlayer Auto Play 1`] = `
 .c0 {
   position: relative;
   overflow: hidden;
@@ -95,7 +95,7 @@ exports[`Storyshots Video/VideoPlayer Auto Play 1`] = `
 </div>
 `;
 
-exports[`Storyshots Video/VideoPlayer Default 1`] = `
+exports[`Storyshots Media/VideoPlayer Default 1`] = `
 .c6 {
   display: inline-block;
   height: 30px;

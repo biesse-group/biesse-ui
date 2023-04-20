@@ -3,7 +3,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { ImageGallery } from "../components";
 
 export default {
-  title: "Layout/ImageGallery",
+  title: "Slideshow/ImageGallery",
   component: ImageGallery,
   tags: ["autodocs"],
   argTypes: {

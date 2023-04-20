@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Logo Primary 1`] = `
+exports[`Storyshots Display/Logo Primary 1`] = `
 .c0 {
   padding: 1rem;
   background-color: #F5F5F5;
@@ -74,7 +74,7 @@ exports[`Storyshots Components/Logo Primary 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Logo White 1`] = `
+exports[`Storyshots Display/Logo White 1`] = `
 .c0 {
   padding: 1rem;
   background-color: #6D6E70;

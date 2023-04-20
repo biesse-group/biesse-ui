@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Components/Icon Extra Small 1`] = `
+exports[`Storyshots Icons/Icon Extra Small 1`] = `
 .c0 {
   display: inline-block;
   height: 20px;
@@ -50,7 +50,7 @@ exports[`Storyshots Components/Icon Extra Small 1`] = `
 </span>
 `;
 
-exports[`Storyshots Components/Icon Large 1`] = `
+exports[`Storyshots Icons/Icon Large 1`] = `
 .c0 {
   display: inline-block;
   height: 80px;
@@ -100,7 +100,7 @@ exports[`Storyshots Components/Icon Large 1`] = `
 </span>
 `;
 
-exports[`Storyshots Components/Icon Medium 1`] = `
+exports[`Storyshots Icons/Icon Medium 1`] = `
 .c0 {
   display: inline-block;
   height: 50px;
@@ -150,7 +150,7 @@ exports[`Storyshots Components/Icon Medium 1`] = `
 </span>
 `;
 
-exports[`Storyshots Components/Icon Small 1`] = `
+exports[`Storyshots Icons/Icon Small 1`] = `
 .c0 {
   display: inline-block;
   height: 30px;
