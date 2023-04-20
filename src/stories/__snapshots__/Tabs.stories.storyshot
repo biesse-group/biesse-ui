@@ -70,6 +70,12 @@ exports[`Storyshots Layout/Tabs Default 1`] = `
   margin-right: 20px;
 }
 
+@media screen and (max-width:767px) {
+  .c0 {
+    overflow-x: auto;
+  }
+}
+
 <div
   className="c0"
 >

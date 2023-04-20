@@ -1,6 +1,7 @@
 import { FC } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
+import { mqUntil } from "../../styles";
 import { Tab } from "./Tab";
 
 interface TabData {
@@ -22,6 +23,13 @@ const TabsContainer = styled.div`
   ${Tab}:not(:last-child) {
     margin-right: 20px;
   }
+
+  ${mqUntil(
+    "sm",
+    css`
+      overflow-x: auto;
+    `
+  )}
 `;
 
 export const Tabs: FC<TabsProps> = ({ tabs, onSelect, selected }) => {
