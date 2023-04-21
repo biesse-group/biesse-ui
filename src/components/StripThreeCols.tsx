@@ -153,7 +153,7 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
     <StripRoot>
       <StripInner>
         {title && (
-          <StripTitle variant="H3" color="primary">
+          <StripTitle variant="H3" color="primary" uppercase>
             {title}
           </StripTitle>
         )}

@@ -108,7 +108,7 @@ export const HorizontalCard: FC<HorizontalCardProps> = ({
               {typeof icon === "string" ? <Icon name={icon} color={theme.color.primary} /> : icon}
             </CardIconWrapper>
           )}
-          <CardTitle variant="H5" color="primary">
+          <CardTitle variant="H5" color="primary" uppercase>
             {title}
           </CardTitle>
           {typeof description === "string" ? <Text>{description}</Text> : description}

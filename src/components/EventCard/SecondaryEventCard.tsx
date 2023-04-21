@@ -61,7 +61,7 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   return (
     <EventCardRoot className={className} data-testid={testId} {...props}>
       <EventCardMainWrapper>
-        <CardTitle variant="H4" color="primary">
+        <CardTitle variant="H4" color="primary" uppercase>
           {title}
         </CardTitle>
         <DateSubtitle size="sm">{dateText}</DateSubtitle>

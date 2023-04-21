@@ -173,7 +173,7 @@ export const CtaCard: FC<CtaCardProps> = ({
       {(title || description) && (
         <TextWrapper variant={variant}>
           {title && variant === "with-title" && (
-            <StyledTitle variant="H4" color="primary">
+            <StyledTitle variant="H4" color="primary" uppercase>
               {title}
             </StyledTitle>
           )}

@@ -72,7 +72,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #6D6E70;
 }
 
@@ -323,7 +323,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #6D6E70;
 }
 
@@ -623,7 +623,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #6D6E70;
 }
 
@@ -862,7 +862,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #6D6E70;
 }
 

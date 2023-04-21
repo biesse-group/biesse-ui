@@ -169,7 +169,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       </DateLinkWrapper>
 
       <EventCardMainWrapper>
-        <CardTitle variant="H4" color="primary">
+        <CardTitle variant="H4" color="primary" uppercase>
           {title}
         </CardTitle>
         <DateSubtitle size="sm">

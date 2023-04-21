@@ -91,7 +91,7 @@ export const IconCard: FC<IconCardProps> = ({ icon, title, description, action }
         <IconContainer>
           {typeof icon === "string" ? <Icon name={icon} size="100%" /> : icon}
         </IconContainer>
-        <StyledTitle variant="H5" color="primary">
+        <StyledTitle variant="H5" color="primary" uppercase>
           {title}
         </StyledTitle>
       </Heading>

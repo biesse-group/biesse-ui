@@ -91,7 +91,7 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
     <Root>
       {image}
       <Banner>
-        <BannerTitle variant="H1" size="lg">
+        <BannerTitle variant="H1" size="lg" uppercase>
           {title}
         </BannerTitle>
         {typeof description === "string" ? (

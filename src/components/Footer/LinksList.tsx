@@ -29,8 +29,9 @@ const LinksListRoot = styled.div`
   text-transform: uppercase;
 `;
 
-const TitleWrapper = styled.div`
+const LinkListTitle = styled(Title)`
   margin-left: 6px;
+  margin-bottom: 20px;
 `;
 
 const LinkElementWrapper = styled.div`
@@ -72,11 +73,9 @@ const ArrowIcon = styled(Icon)`
 export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
   return (
     <LinksListRoot {...props}>
-      <TitleWrapper>
-        <Title style={{ marginBottom: "20px" }} variant="H6" color="light">
-          {title}
-        </Title>
-      </TitleWrapper>
+      <LinkListTitle variant="H6" color="light" uppercase>
+        {title}
+      </LinkListTitle>
       {links?.map((linkElement, index) => (
         <LinkElementWrapper key={index}>
           <ArrowIcon name="chevron-right" size="18px" color="light" />
