@@ -151,6 +151,32 @@ exports[`Storyshots Layout/Pagination Default 1`] = `
     3
   </button>
   <button
+    className="c5"
+    onClick={[Function]}
+    selected={false}
+  >
+    4
+  </button>
+  <button
+    className="c5"
+    onClick={[Function]}
+    selected={false}
+  >
+    5
+  </button>
+  <button
+    className="c5"
+    onClick={[Function]}
+  >
+    ...
+  </button>
+  <button
+    className="c5"
+    onClick={[Function]}
+  >
+    100
+  </button>
+  <button
     aria-label="next"
     className="c1 c6"
     onClick={[Function]}
