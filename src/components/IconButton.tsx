@@ -12,7 +12,7 @@ export type IconButtonProps = {
   /**
    * Shows light or primary buttons
    */
-  variant: "primary" | "primary-inverted" | "light" | "naked";
+  variant: "primary" | "primary-inverted" | "light" | "primary-naked";
   /**
    * Label for accessibility
    */
@@ -23,55 +23,47 @@ export type IconButtonProps = {
 };
 
 const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
+  color: ${({ variant, theme }) =>
+    variant === "primary" || "primary-naked" ? theme.color.primary : theme.color.white};
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
   padding: 0;
+  width: ${(props) => (props.variant === "primary-naked" ? 30 : 50)}px;
+  height: ${(props) => (props.variant === "primary-naked" ? 30 : 50)}px;
+  border: ${({ variant, theme }) =>
+    variant === "primary-naked"
+      ? "none"
+      : `1px solid ${variant === "primary" ? theme.color.primary : theme.color.white}`};
 
-  ${mqUntil(
-    "sm",
+  ${(props) =>
+    props.variant !== "primary-naked" &&
+    mqUntil(
+      "sm",
+      css`
+        width: 40px;
+        height: 40px;
+      `
+    )}
+
+  ${({ variant, theme }) =>
+    variant !== "primary-naked" &&
     css`
-      width: 40px;
-      height: 40px;
-    `
-  )}
-
-  ${({ variant, theme }) => {
-    if (variant !== "naked") {
-      const color = variant === "primary" ? theme.color.primary : theme.color.white;
-      return css`
-        border: 1px solid ${color};
-        color: ${color};
-      `;
-    } else {
-      return css`
-        border: none;
-      `;
-    }
-  }};
-
-  ${({ variant, theme }) => {
-    if (variant !== "naked") {
-      return css`
-        &:hover {
-          background-color: ${variant === "primary" ? theme.color.primary : theme.color.white};
-          color: ${() => {
-            switch (variant) {
-              case "primary":
-                return theme.color.white;
-              case "light":
-                return theme.color.black;
-              case "primary-inverted":
-                return theme.color.primary;
-            }
-          }};
-          transition: all 0.2s ease-out;
-        }
-      `;
-    }
-  }}
+      &:hover {
+        background-color: ${variant === "primary" ? theme.color.primary : theme.color.white};
+        color: ${() => {
+          switch (variant) {
+            case "primary":
+              return theme.color.white;
+            case "light":
+              return theme.color.black;
+            case "primary-inverted":
+              return theme.color.primary;
+          }
+        }};
+        transition: all 0.2s ease-out;
+      }
+    `}
 `;
 
 export const IconButton: FC<IconButtonProps> = ({ icon, testId, ...props }) => {

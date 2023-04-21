@@ -20,14 +20,14 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
 }
 
 .c1 {
+  color: #6D6E70;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
+  padding: 0;
   width: 50px;
   height: 50px;
-  padding: 0;
   border: 1px solid #6D6E70;
-  color: #6D6E70;
 }
 
 .c1:hover {
@@ -118,14 +118,14 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 }
 
 .c1 {
+  color: #6D6E70;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
+  padding: 0;
   width: 50px;
   height: 50px;
-  padding: 0;
   border: 1px solid #FFF;
-  color: #FFF;
 }
 
 .c1:hover {
@@ -215,13 +215,20 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
 }
 
 .c1 {
+  color: #6D6E70;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
+  padding: 0;
   width: 50px;
   height: 50px;
-  padding: 0;
-  border: none;
+  border: 1px solid #FFF;
+}
+
+.c1:hover {
+  background-color: #FFF;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 @media screen and (max-width:767px) {
@@ -304,14 +311,14 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 }
 
 .c1 {
+  color: #6D6E70;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
+  padding: 0;
   width: 50px;
   height: 50px;
-  padding: 0;
   border: 1px solid #6D6E70;
-  color: #6D6E70;
 }
 
 .c1:hover {
@@ -402,14 +409,14 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 }
 
 .c1 {
+  color: #6D6E70;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
+  padding: 0;
   width: 50px;
   height: 50px;
-  padding: 0;
   border: 1px solid #FFF;
-  color: #FFF;
 }
 
 .c1:hover {
