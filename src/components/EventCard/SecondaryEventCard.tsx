@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled from "styled-components";
 
+import { borderRadius } from "../../styles";
 import { Text } from "../Text";
 import { Title } from "../Title";
 import { EventCardProps } from "./eventCardProps";
@@ -9,14 +10,12 @@ const EventCardRoot = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: ${(props) => props.theme.color.lightGray};
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   transition: all 0.2s ease-out;
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   :hover {
     background-color: ${(props) => props.theme.color.white};

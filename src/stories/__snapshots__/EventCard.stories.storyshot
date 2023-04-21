@@ -83,15 +83,15 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   width: auto;
   max-width: 400px;
   height: auto;
-  overflow: hidden;
   display: inline-grid;
   grid-template-rows: repeat(2,auto);
   grid-template-columns: auto 1fr;
   grid-template-areas: "date-subgrid title" "description description";
   background-color: #FFF;
+  box-shadow: rgba(0,0,0,0.5);
+  overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  box-shadow: rgba(0,0,0,0.5);
 }
 
 .c1 {
@@ -489,15 +489,15 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-rows: repeat(2,auto);
   grid-template-columns: 85px auto;
   background-color: #F5F5F5;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .c0:hover {
@@ -933,15 +933,15 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-rows: repeat(2,auto);
   grid-template-columns: 85px auto;
   background-color: #F5F5F5;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .c0:hover {
@@ -1339,7 +1339,6 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1352,10 +1351,11 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: #F5F5F5;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .c0:hover {
@@ -1603,15 +1603,15 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-rows: repeat(2,auto);
   grid-template-columns: 85px auto;
   background-color: #F5F5F5;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .c0:hover {

@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import { borderRadius } from "../styles";
 import { mqUntil } from "../styles/media-queries";
 import { Text, Title, VideoPlayer, VideoPlayerProps } from "./";
 
@@ -51,8 +52,7 @@ const VideoBannerRoot = styled.div`
   )}
 
   background-color: ${(props) => props.theme.color.primary};
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
 `;
 
 const TitleWrapper = styled.div`

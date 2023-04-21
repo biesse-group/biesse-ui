@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled from "styled-components";
 
+import { borderRadius } from "../styles";
 import { StripThreeCols, StripThreeColsProps } from "./StripThreeCols";
 
 const CardImageInner = styled.div`
@@ -13,9 +14,7 @@ const CardImageInner = styled.div`
 `;
 
 const CardImageWrapper = styled.div`
-  overflow: hidden;
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
   position: relative;
   height: 100%;
   display: flex;

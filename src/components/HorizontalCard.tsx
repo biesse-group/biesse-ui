@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css, useTheme } from "styled-components";
 
-import { mqUntil } from "../styles/media-queries";
+import { borderRadius, mqUntil } from "../styles";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -55,9 +55,7 @@ const CardImageInner = styled.div`
 const CardContainer = styled.div`
   width: 100%;
   height: 100%;
-  border-top-right-radius: ${({ theme }) => theme.card.borderRadius};
-  border-bottom-left-radius: ${({ theme }) => theme.card.borderRadius};
-  overflow: hidden;
+  ${({ theme }) => borderRadius(theme.card.borderRadius)}
   background-color: ${({ theme }) => theme.color.lightGray};
   display: inline-flex;
   transition: all 0.5s ease-out;

@@ -1,15 +1,12 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqFrom, mqUntil } from "../styles/media-queries";
-import { getEllipsisStyle } from "../utils";
+import { borderRadius, mqFrom, mqUntil, multilineEllipsis } from "../styles";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
 const CardImageWrapper = styled.div<Pick<CardProps, "direction">>`
-  overflow: hidden;
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
   position: relative;
   height: 450px;
 
@@ -88,7 +85,7 @@ const CardTitle = styled(Title)<Pick<CardProps, "preTitle" | "titleSize" | "titl
   text-transform: none;
   margin-bottom: 0px;
 
-  ${(props) => getEllipsisStyle(props.titleLines)};
+  ${(props) => props.titleLines && multilineEllipsis(props.titleLines)};
 `;
 
 const CardPreTitle = styled(Text)`

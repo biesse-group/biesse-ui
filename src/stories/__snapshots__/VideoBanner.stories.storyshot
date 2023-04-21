@@ -64,6 +64,7 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
   padding-top: 47px;
   overflow: hidden;
   background-color: #6D6E70;
+  overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
 }

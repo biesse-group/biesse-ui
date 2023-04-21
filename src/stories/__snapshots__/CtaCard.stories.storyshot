@@ -51,6 +51,9 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 
 .c1 {
   position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
   overflow-y: visible;
   display: -webkit-box;
   display: -webkit-flex;
@@ -64,8 +67,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   background-color: #F5F5F5;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -322,6 +323,9 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 
 .c1 {
   position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
   overflow-y: visible;
   display: -webkit-box;
   display: -webkit-flex;
@@ -331,8 +335,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   background-color: #F5F5F5;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
