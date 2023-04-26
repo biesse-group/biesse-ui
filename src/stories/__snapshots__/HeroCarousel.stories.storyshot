@@ -40,7 +40,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 }
 
 .c8 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
@@ -382,7 +382,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 }
 
 .c8 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
@@ -724,7 +724,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 }
 
 .c8 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;

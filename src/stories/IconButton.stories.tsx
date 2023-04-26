@@ -15,7 +15,7 @@ export default {
     (Story, { args }) => (
       <BackgroundDecorator
         background={
-          args.variant === "primary"
+          args.variant === "primary" || args.variant === "primary-naked"
             ? "light"
             : args.variant === "primary-inverted"
             ? "primary"
@@ -58,7 +58,7 @@ export const Light: Story = {
 export const Naked: Story = {
   args: {
     icon: "arrow-right",
-    variant: "naked",
+    variant: "primary-naked",
     "aria-label": "Example button",
   },
 };

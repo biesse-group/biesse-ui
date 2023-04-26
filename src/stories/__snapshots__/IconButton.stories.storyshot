@@ -118,7 +118,7 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 }
 
 .c1 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
@@ -211,7 +211,7 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
 
 .c0 {
   padding: 1rem;
-  background-color: #252525;
+  background-color: #F5F5F5;
 }
 
 .c1 {
@@ -220,22 +220,9 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
   outline: none !important;
   cursor: pointer;
   padding: 0;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #FFF;
-}
-
-.c1:hover {
-  background-color: #FFF;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width:767px) {
-  .c1 {
-    width: 40px;
-    height: 40px;
-  }
+  width: 30px;
+  height: 30px;
+  border: none;
 }
 
 <div
@@ -409,7 +396,7 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 }
 
 .c1 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
