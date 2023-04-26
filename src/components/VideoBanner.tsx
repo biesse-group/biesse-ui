@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import { borderRadius } from "../styles";
 import { mqUntil } from "../styles/media-queries";
 import { Text, Title, VideoPlayer, VideoPlayerProps } from "./";
 
@@ -51,24 +52,15 @@ const VideoBannerRoot = styled.div`
   )}
 
   background-color: ${(props) => props.theme.color.primary};
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
 `;
 
-const TitleWrapper = styled.div`
-  text-transform: uppercase;
+const StyledTitle = styled(Title)`
   margin-bottom: 7px;
-  > h1 {
-    margin-bottom: 0px;
-  }
 `;
 
-const SubTitleWrapper = styled.div`
+const StyledSubtitle = styled(Title)`
   margin-bottom: 40px;
-  text-transform: uppercase;
-  > h5 {
-    margin-bottom: 0px;
-  }
 
   ${mqUntil(
     "md",
@@ -107,12 +99,10 @@ const DescriptionWrapper = styled.div`
 
 const VideoPlayerWrapper = styled.div`
   width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-
   height: 500px;
 
   ${mqUntil(
@@ -141,18 +131,14 @@ export const VideoBanner: FC<PropsWithChildren<VideoBannerProps>> = ({
   return (
     <VideoBannerRoot data-testid={testId} {...props}>
       {title && (
-        <TitleWrapper>
-          <Title variant="H1" color="light">
-            {title}
-          </Title>
-        </TitleWrapper>
+        <StyledTitle variant="H1" color="light" uppercase>
+          {title}
+        </StyledTitle>
       )}
       {subTitle && (
-        <SubTitleWrapper>
-          <Title variant="H5" color="light">
-            {subTitle}
-          </Title>
-        </SubTitleWrapper>
+        <StyledSubtitle variant="H5" color="light" uppercase>
+          {subTitle}
+        </StyledSubtitle>
       )}
 
       {description && typeof description === "string" ? (

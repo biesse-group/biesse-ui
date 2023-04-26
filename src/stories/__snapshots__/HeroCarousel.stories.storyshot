@@ -35,12 +35,12 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #FFF;
 }
 
 .c8 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
@@ -377,12 +377,12 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #FFF;
 }
 
 .c8 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
@@ -719,12 +719,12 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #FFF;
 }
 
 .c8 {
-  color: #6D6E70;
+  color: #FFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;

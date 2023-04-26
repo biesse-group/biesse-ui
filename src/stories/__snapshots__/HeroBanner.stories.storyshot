@@ -23,7 +23,7 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
+  text-transform: uppercase;
   color: inherit;
 }
 
@@ -58,8 +58,9 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
   background-color: #6D6E70;
   color: #FFF;
   font-size: 18px;
-  border-top-right-radius: 40px;
+  overflow: hidden;
   border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .c3 {
@@ -212,7 +213,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
+  text-transform: uppercase;
   color: inherit;
 }
 
@@ -247,8 +248,9 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   background-color: #6D6E70;
   color: #FFF;
   font-size: 18px;
-  border-top-right-radius: 40px;
+  overflow: hidden;
   border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
 }
 
 .c3 {

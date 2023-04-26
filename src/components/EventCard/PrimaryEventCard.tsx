@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css, useTheme } from "styled-components";
 
+import { borderRadius } from "../../styles";
 import { mqUntil } from "../../styles/media-queries";
 import { Icon } from "../Icon";
 import { Text } from "../Text";
@@ -11,14 +12,12 @@ const EventCardRoot = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   display: grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: 85px auto;
   background-color: ${(props) => props.theme.color.lightGray};
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   transition: all 0.2s ease-out;
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   :hover {
     background-color: ${(props) => props.theme.color.white};
@@ -170,7 +169,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       </DateLinkWrapper>
 
       <EventCardMainWrapper>
-        <CardTitle variant="H4" color="primary">
+        <CardTitle variant="H4" color="primary" uppercase>
           {title}
         </CardTitle>
         <DateSubtitle size="sm">

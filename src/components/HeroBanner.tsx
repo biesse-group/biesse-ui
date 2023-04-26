@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../styles";
+import { borderRadius, mqUntil } from "../styles";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
@@ -49,8 +49,7 @@ const Banner = styled.div`
   background-color: ${(props) => props.theme.color.primary};
   color: ${(props) => props.theme.color.white};
   font-size: ${(props) => props.theme.font.regular.body.lg};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   ${mqUntil(
     "md",
@@ -87,12 +86,13 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
   title,
   description,
   children,
+  ...props
 }) => {
   return (
-    <Root>
+    <Root {...props}>
       {image}
       <Banner>
-        <BannerTitle variant="H1" size="lg">
+        <BannerTitle variant="H1" size="lg" uppercase>
           {title}
         </BannerTitle>
         {typeof description === "string" ? (
