@@ -82,8 +82,8 @@ exports[`Storyshots Display/Quote Default 1`] = `
 }
 
 .c1 {
-  max-width: calc(100% / 3 * 2);
-  width: 100%;
+  width: calc(100% / 3 * 2);
+  max-width: 1600px;
   text-align: center;
 }
 
@@ -133,6 +133,7 @@ exports[`Storyshots Display/Quote Default 1`] = `
 
 @media screen and (max-width:991px) {
   .c1 {
+    width: 100%;
     max-width: 540px;
   }
 }

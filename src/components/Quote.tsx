@@ -28,13 +28,14 @@ const Background = styled.div`
 `;
 
 const Inner = styled.div`
-  max-width: calc(100% / 3 * 2);
-  width: 100%;
+  width: calc(100% / 3 * 2);
+  max-width: ${(props) => props.theme.breakpoints.xxl}px;
   text-align: center;
 
   ${mqUntil(
     "md",
     css`
+      width: 100%;
       max-width: 540px;
     `
   )}
