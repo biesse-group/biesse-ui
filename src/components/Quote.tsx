@@ -85,9 +85,9 @@ const QuoteAuthor = styled(Text)`
   text-transform: uppercase;
 `;
 
-export const Quote: FC<QuoteProps> = ({ citation, authorName, authorDescription }) => {
+export const Quote: FC<QuoteProps> = ({ citation, authorName, authorDescription, ...props }) => {
   return (
-    <Background>
+    <Background {...props}>
       <Inner>
         <CitationText tag="p" italic size="xl">
           <QuoteOpenIcon name="quote-open" color="primary" size="40px" />

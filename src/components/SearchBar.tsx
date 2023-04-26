@@ -66,6 +66,7 @@ export const SearchBar: FC<SearchBarProps> = ({
   onChange,
   debounce = DEFAULT_DEBOUNCE,
   testId,
+  ...props
 }) => {
   const [value, setValue] = useState(defaultValue || "");
   const [touched, setTouched] = useState(false);
@@ -88,7 +89,7 @@ export const SearchBar: FC<SearchBarProps> = ({
   }, [value, onChange, debounce, touched]);
 
   return (
-    <InputRoot>
+    <InputRoot {...props}>
       <InputElement
         type="text"
         placeholder={placeholder}

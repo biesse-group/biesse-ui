@@ -97,10 +97,11 @@ export const HorizontalCard: FC<HorizontalCardProps> = ({
   actions,
   image,
   testId,
+  ...props
 }) => {
   const theme = useTheme();
   return (
-    <CardContainer data-testid={testId}>
+    <CardContainer data-testid={testId} {...props}>
       <CardContent>
         <CardUpperContent>
           {icon && (

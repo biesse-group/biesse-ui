@@ -66,7 +66,7 @@ const ImageContainer = styled.div`
   height: 100%;
 `;
 
-export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
+export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...props }) => {
   const [activeSlide, setActiveSlide] = useState(0);
 
   /**
@@ -99,7 +99,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide }) => {
   const { title, description, renderImage } = slides[activeSlide];
 
   return (
-    <CarouselContainer>
+    <CarouselContainer {...props}>
       <ImageContainer>
         <Mask />
         <AnimatePresence initial={false}>

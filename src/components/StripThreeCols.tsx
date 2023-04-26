@@ -31,30 +31,11 @@ export type StripThreeColsProps = {
   variant?: "2-1-1" | "1-2-2" | "1-1-1";
 };
 
-const StripRoot = styled.div`
+const Root = styled.div`
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  width: 100%;
-
-  ${mqFrom(
-    "sm",
-    css`
-      padding: 0 25px;
-    `
-  )}
-
-  ${mqFrom(
-    "lg",
-    css`
-      padding: 0 90px;
-    `
-  )}
-`;
-
-const StripInner = styled.div`
-  width: 100%;
-  max-width: ${(props) => props.theme.breakpoints.xxl}px;
-  margin: 0 auto;
 `;
 
 const getAreas = (itemsCount: number, separator: string = " ") => {
@@ -146,26 +127,25 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
   mobileBehavior = "wrap",
   variant = "2-1-1",
   items,
+  ...props
 }) => {
   const [main, secondary1, secondary2] = items;
 
   return (
-    <StripRoot>
-      <StripInner>
-        {title && (
-          <StripTitle variant="H3" color="primary" uppercase>
-            {title}
-          </StripTitle>
-        )}
-        <ItemsGrid
-          itemsCount={Math.min(items.length, 3)}
-          {...{ tabletBehavior, mobileBehavior, variant }}
-        >
-          <MainItem>{main}</MainItem>
-          {secondary1 && <div style={{ gridArea: "secondary1" }}>{secondary1}</div>}
-          {secondary2 && <div style={{ gridArea: "secondary2" }}>{secondary2}</div>}
-        </ItemsGrid>
-      </StripInner>
-    </StripRoot>
+    <Root {...props}>
+      {title && (
+        <StripTitle variant="H3" color="primary" uppercase>
+          {title}
+        </StripTitle>
+      )}
+      <ItemsGrid
+        itemsCount={Math.min(items.length, 3)}
+        {...{ tabletBehavior, mobileBehavior, variant }}
+      >
+        <MainItem>{main}</MainItem>
+        {secondary1 && <div style={{ gridArea: "secondary1" }}>{secondary1}</div>}
+        {secondary2 && <div style={{ gridArea: "secondary2" }}>{secondary2}</div>}
+      </ItemsGrid>
+    </Root>
   );
 };

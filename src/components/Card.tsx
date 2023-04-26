@@ -174,9 +174,10 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   action,
   image,
   tags,
+  ...props
 }) => {
   return (
-    <CardRoot className={className} data-testid={testId} direction={direction}>
+    <CardRoot className={className} data-testid={testId} direction={direction} {...props}>
       <CardImageWrapper direction={direction}>
         {tags && <TagsWrapper>{tags}</TagsWrapper>}
         {image && <CardImageInner>{image}</CardImageInner>}

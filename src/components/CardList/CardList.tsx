@@ -16,9 +16,9 @@ export type CardListProps = {
   title?: string;
 };
 
-export const CardList: FC<PropsWithChildren<CardListProps>> = ({ title, children }) => {
+export const CardList: FC<PropsWithChildren<CardListProps>> = ({ title, children, ...props }) => {
   return (
-    <Grid>
+    <Grid {...props}>
       {title && (
         <Title variant="H5" color="primary" uppercase style={{ marginBottom: 0 }}>
           {title}

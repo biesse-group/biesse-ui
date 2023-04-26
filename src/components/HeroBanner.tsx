@@ -86,9 +86,10 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
   title,
   description,
   children,
+  ...props
 }) => {
   return (
-    <Root>
+    <Root {...props}>
       {image}
       <Banner>
         <BannerTitle variant="H1" size="lg" uppercase>
