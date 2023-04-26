@@ -36,7 +36,12 @@ const NextButton = styled(IconButton)`
   margin-left: 12px;
 `;
 
-export const Pagination: FC<PaginationProps> = ({ pagesCount, currentPage, onChangePage }) => {
+export const Pagination: FC<PaginationProps> = ({
+  pagesCount,
+  currentPage,
+  onChangePage,
+  ...props
+}) => {
   const visiblePagesCount = Math.min(pagesCount, MAX_VISIBLE_PAGES);
 
   const firstVisiblePage =
@@ -60,7 +65,7 @@ export const Pagination: FC<PaginationProps> = ({ pagesCount, currentPage, onCha
   };
 
   return (
-    <Container>
+    <Container {...props}>
       <PrevButton
         aria-label="prev"
         icon="chevron-left"

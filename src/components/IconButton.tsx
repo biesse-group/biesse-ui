@@ -24,7 +24,7 @@ export type IconButtonProps = {
 
 const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   color: ${({ variant, theme }) =>
-    variant === "primary" || "primary-naked" ? theme.color.primary : theme.color.white};
+    variant === "primary" || variant === "primary-naked" ? theme.color.primary : theme.color.white};
   background-color: transparent;
   outline: none !important;
   cursor: pointer;

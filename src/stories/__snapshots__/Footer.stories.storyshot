@@ -122,12 +122,12 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   color: inherit;
 }
 
-.c17 {
+.c16 {
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 24px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #FFF;
 }
 
@@ -183,8 +183,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   text-transform: uppercase;
 }
 
-.c16 {
+.c17 {
   margin-left: 6px;
+  margin-bottom: 20px;
 }
 
 .c18 {
@@ -434,13 +435,13 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c17 {
+  .c16 {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c17 {
+  .c16 {
     font-size: 20px;
   }
 }
@@ -873,21 +874,12 @@ exports[`Storyshots Layout/Footer Default 1`] = `
     <div
       className="c14 c15"
     >
-      <div
-        className="c16"
+      <h6
+        className="c16 c17"
+        color="light"
       >
-        <h6
-          className="c17"
-          color="light"
-          style={
-            Object {
-              "marginBottom": "20px",
-            }
-          }
-        >
-          PROGETTI
-        </h6>
-      </div>
+        PROGETTI
+      </h6>
       <div
         className="c18"
       >
@@ -1040,21 +1032,12 @@ exports[`Storyshots Layout/Footer Default 1`] = `
     <div
       className="c14 c23"
     >
-      <div
-        className="c16"
+      <h6
+        className="c16 c17"
+        color="light"
       >
-        <h6
-          className="c17"
-          color="light"
-          style={
-            Object {
-              "marginBottom": "20px",
-            }
-          }
-        >
-          Servizi
-        </h6>
-      </div>
+        Servizi
+      </h6>
       <div
         className="c18"
       >

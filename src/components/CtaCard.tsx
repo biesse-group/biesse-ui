@@ -1,7 +1,7 @@
 import { FC } from "react";
 import styled, { css, useTheme } from "styled-components";
 
-import { mqUntil } from "../styles/media-queries";
+import { borderRadius, mqUntil } from "../styles";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -35,6 +35,7 @@ const StyledIcon = styled(Icon)`
 
 const Root = styled.div<Pick<CtaCardProps, "variant">>`
   position: relative;
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
   overflow-y: visible;
   display: flex;
   ${(props) =>
@@ -44,8 +45,6 @@ const Root = styled.div<Pick<CtaCardProps, "variant">>`
     `}
   height: 100%;
   flex-direction: row;
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   background-color: ${({ theme }) => theme.color.lightGray};
   transition: all 0.5s ease-out;
 
@@ -174,7 +173,7 @@ export const CtaCard: FC<CtaCardProps> = ({
       {(title || description) && (
         <TextWrapper variant={variant}>
           {title && variant === "with-title" && (
-            <StyledTitle variant="H4" color="primary">
+            <StyledTitle variant="H4" color="primary" uppercase>
               {title}
             </StyledTitle>
           )}

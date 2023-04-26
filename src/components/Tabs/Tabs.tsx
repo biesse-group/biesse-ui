@@ -32,9 +32,9 @@ const TabsContainer = styled.div`
   )}
 `;
 
-export const Tabs: FC<TabsProps> = ({ tabs, onSelect, selected }) => {
+export const Tabs: FC<TabsProps> = ({ tabs, onSelect, selected, ...props }) => {
   return (
-    <TabsContainer>
+    <TabsContainer {...props}>
       {tabs.map(({ id, label }) => (
         <Tab key={id} selected={id === selected} onClick={() => onSelect?.(id)}>
           {label}

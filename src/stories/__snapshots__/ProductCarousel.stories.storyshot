@@ -119,7 +119,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #FFF;
 }
 

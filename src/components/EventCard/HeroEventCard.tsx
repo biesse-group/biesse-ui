@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
+import { borderRadius } from "../../styles";
 import { mqUntil } from "../../styles/media-queries";
 import { Icon } from "../Icon";
 import { Text } from "../Text";
@@ -11,7 +12,6 @@ const HeroEventCardRoot = styled.div`
   width: auto;
   max-width: 400px;
   height: auto;
-  overflow: hidden;
   display: inline-grid;
   grid-template-rows: repeat(2, auto);
   grid-template-columns: auto 1fr;
@@ -19,9 +19,8 @@ const HeroEventCardRoot = styled.div`
     "date-subgrid title"
     "description description";
   background-color: ${(props) => props.theme.color.white};
-  border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
-  border-top-right-radius: ${(props) => props.theme.card.borderRadius};
   box-shadow: ${(props) => props.theme.eventCard.heroBoxShadow};
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   ${mqUntil(
     "md",

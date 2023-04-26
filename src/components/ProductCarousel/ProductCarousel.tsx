@@ -71,14 +71,15 @@ export const ProductCarousel = <T extends object>({
   renderTitle,
   renderDetail,
   renderImage,
+  ...props
 }: ProductCarouselProps<T>) => {
   const { direction, page, nextPage, prevPage, getItemMotionProps, shownItems } =
     useProductCarousel(items);
 
   return (
-    <div style={{ position: "relative", height: 500 + contentHeight }}>
+    <div style={{ position: "relative", height: 500 + contentHeight }} {...props}>
       <BackgroundStrip>
-        <CarouselTitle variant="H2" color="light">
+        <CarouselTitle variant="H2" color="light" uppercase>
           {title}
         </CarouselTitle>
 

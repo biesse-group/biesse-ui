@@ -84,14 +84,14 @@ const StyledText = styled(Text)`
   margin-bottom: 20px;
 `;
 
-export const IconCard: FC<IconCardProps> = ({ icon, title, description, action }) => {
+export const IconCard: FC<IconCardProps> = ({ icon, title, description, action, ...props }) => {
   return (
-    <Root>
+    <Root {...props}>
       <Heading>
         <IconContainer>
           {typeof icon === "string" ? <Icon name={icon} size="100%" /> : icon}
         </IconContainer>
-        <StyledTitle variant="H5" color="primary">
+        <StyledTitle variant="H5" color="primary" uppercase>
           {title}
         </StyledTitle>
       </Heading>
