@@ -4,6 +4,7 @@
   "version": "0.16.0",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
+    "@floating-ui/react": "^0.23.1",
     "@storybook/core-common": "^7.0.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
