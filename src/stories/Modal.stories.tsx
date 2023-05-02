@@ -20,21 +20,6 @@ export default {
   ],
 } as Meta<typeof Modal>;
 
-// const ModalTemplate: FC<ModalProps & { buttonLabel: string }> = ({
-//   buttonLabel,
-//   ...modalProps
-// }) => {
-//   const [open, setOpen] = useState(false);
-//   return (
-//     <div>
-//       <Button onClick={() => setOpen(true)} variant="primary">
-//         {buttonLabel || "Open modal"}
-//       </Button>
-//       <Modal {...modalProps} onClose={() => setOpen(false)} isOpen={open} />
-//     </div>
-//   );
-// };
-
 type Story = StoryObj<typeof Modal>;
 
 export const Default: Story = {
