@@ -2,7 +2,10 @@
 
 exports[`Storyshots Cards/IconCard Default 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 100%;
   width: 100%;
   color: inherit;

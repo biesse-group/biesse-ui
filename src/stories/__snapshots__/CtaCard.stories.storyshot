@@ -2,7 +2,10 @@
 
 exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 .c8 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #6D6E70;
@@ -265,7 +268,10 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 
 exports[`Storyshots Cards/CtaCard With Title 1`] = `
 .c11 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #6D6E70;

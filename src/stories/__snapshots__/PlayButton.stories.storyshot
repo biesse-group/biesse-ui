@@ -2,7 +2,10 @@
 
 exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 30px;
   width: 30px;
   color: #6D6E70;
@@ -107,7 +110,10 @@ exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
 
 exports[`Storyshots Buttons/PlayButton Primary 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 30px;
   width: 30px;
   color: #FFF;

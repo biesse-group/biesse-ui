@@ -2,7 +2,10 @@
 
 exports[`Storyshots Icons/Icon Extra Small 1`] = `
 .c0 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: inherit;
@@ -52,7 +55,10 @@ exports[`Storyshots Icons/Icon Extra Small 1`] = `
 
 exports[`Storyshots Icons/Icon Large 1`] = `
 .c0 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 80px;
   width: 80px;
   color: inherit;
@@ -102,7 +108,10 @@ exports[`Storyshots Icons/Icon Large 1`] = `
 
 exports[`Storyshots Icons/Icon Medium 1`] = `
 .c0 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 50px;
   width: 50px;
   color: inherit;
@@ -152,7 +161,10 @@ exports[`Storyshots Icons/Icon Medium 1`] = `
 
 exports[`Storyshots Icons/Icon Small 1`] = `
 .c0 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 30px;
   width: 30px;
   color: inherit;

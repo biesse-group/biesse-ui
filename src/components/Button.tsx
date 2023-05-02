@@ -16,7 +16,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: "small" | "medium";
+  size?: "small" | "medium" | "large";
   /**
    * Full-width button
    */
@@ -44,6 +44,12 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
         font-size: ${(props) => props.theme.font.regular.body.sm};
         padding: 0px 26px;
         height: 30px;
+      `;
+    case "large":
+      return css`
+        font-size: ${(props) => props.theme.font.regular.body.lg};
+        padding: 0px 32px;
+        height: 50px;
       `;
     default:
       return css`

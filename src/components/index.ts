@@ -29,3 +29,4 @@ export * from "./PlayButton";
 export * from "./CtaCard";
 export * from "./Pagination";
 export * from "./CardList";
+export * from "./MenuPanel";
