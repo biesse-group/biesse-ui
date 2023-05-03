@@ -18,7 +18,7 @@ export const hsdTheme: DefaultTheme = {
     buttonBoxShadow: "0 2px 10px 0 rgba(0, 0, 0, 0.5)",
   },
   button: {
-    borderRadius: "20px",
+    borderRadius: "50px",
   },
   input: {
     borderRadius: "25px",

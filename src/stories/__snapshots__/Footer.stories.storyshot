@@ -2,7 +2,10 @@
 
 exports[`Storyshots Layout/Footer Default 1`] = `
 .c9 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 24px;
   width: 24px;
   color: #FFF;
@@ -15,7 +18,10 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 .c19 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 18px;
   width: 18px;
   color: #FFF;
@@ -28,7 +34,10 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 .c26 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 28px;
   width: 28px;
   color: #FFF;

@@ -1,4 +1,5 @@
-import { FC, PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
+import React from "react";
 import styled, { css } from "styled-components";
 
 import { Icon, IconName } from "./Icon";
@@ -15,7 +16,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: "small" | "medium";
+  size?: "small" | "medium" | "large";
   /**
    * Full-width button
    */
@@ -43,6 +44,12 @@ const getSizeStyle = (size: ButtonProps["size"]) => {
         font-size: ${(props) => props.theme.font.regular.body.sm};
         padding: 0px 26px;
         height: 30px;
+      `;
+    case "large":
+      return css`
+        font-size: ${(props) => props.theme.font.regular.body.lg};
+        padding: 0px 32px;
+        height: 50px;
       `;
     default:
       return css`
@@ -133,21 +140,15 @@ const StyledButton = styled.button<ButtonProps>`
     `}
 `;
 
-export const Button: FC<PropsWithChildren<ButtonProps>> = ({
-  testId,
-  children,
-  rightIcon,
-  type = "button",
-  leftIcon,
-  variant,
-  ...props
-}) => {
-  const iconSize = variant === "primary-naked" && props.size === "small" ? "10px" : "26px";
-  return (
-    <StyledButton data-testid={testId} type={type} {...{ ...props, variant }}>
-      {leftIcon && <LeftIcon name={leftIcon} size={iconSize} variant={variant} />}
-      {children}
-      {rightIcon && <RightIcon name={rightIcon} size={iconSize} variant={variant} />}
-    </StyledButton>
-  );
-};
+export const Button = React.forwardRef<HTMLButtonElement, PropsWithChildren<ButtonProps>>(
+  ({ testId, children, rightIcon, type = "button", leftIcon, variant, ...props }, ref) => {
+    const iconSize = variant === "primary-naked" && props.size === "small" ? "10px" : "26px";
+    return (
+      <StyledButton ref={ref} data-testid={testId} type={type} {...{ ...props, variant }}>
+        {leftIcon && <LeftIcon name={leftIcon} size={iconSize} variant={variant} />}
+        {children}
+        {rightIcon && <RightIcon name={rightIcon} size={iconSize} variant={variant} />}
+      </StyledButton>
+    );
+  }
+);

@@ -2,7 +2,10 @@
 
 exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 .c4 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 50px;
   width: 50px;
   color: #6D6E70;
@@ -253,7 +256,10 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 
 exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 .c4 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 50px;
   width: 50px;
   color: #6D6E70;
@@ -553,7 +559,10 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 
 exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 .c4 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 50px;
   width: 50px;
   color: inherit;
@@ -792,7 +801,10 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 
 exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
 .c4 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 50px;
   width: 50px;
   color: #6D6E70;

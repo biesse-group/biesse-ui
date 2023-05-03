@@ -58,7 +58,7 @@ const getColor = (color: IconProps["color"]) => css`
 `;
 
 const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
-  display: inline-block;
+  display: inline-flex;
   height: ${(props) => getIconSize(props.size)};
   width: ${(props) => getIconSize(props.size)};
   ${(props) => getColor(props.color)};

@@ -45,15 +45,19 @@ exports[`Storyshots Dialogs/Modal Default 1`] = `
     }
   }
 >
-  <div>
-    <button
-      className="c0"
-      onClick={[Function]}
-      type="button"
-    >
-      Open modal
-    </button>
-  </div>
+  <button
+    aria-expanded="false"
+    aria-haspopup="dialog"
+    className="c0"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onPointerDown={[Function]}
+    type="button"
+  >
+    Open modal
+  </button>
 </div>
 `;
 
@@ -102,14 +106,18 @@ exports[`Storyshots Dialogs/Modal With Video 1`] = `
     }
   }
 >
-  <div>
-    <button
-      className="c0"
-      onClick={[Function]}
-      type="button"
-    >
-      Play video
-    </button>
-  </div>
+  <button
+    aria-expanded="false"
+    aria-haspopup="dialog"
+    className="c0"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onPointerDown={[Function]}
+    type="button"
+  >
+    Play video
+  </button>
 </div>
 `;

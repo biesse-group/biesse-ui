@@ -23,6 +23,7 @@ const StyledBg = styled.div<Props>`
     props.fullScreen &&
     css`
       height: 100vh;
+      padding: 0;
     `}
 `;
 

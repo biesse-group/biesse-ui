@@ -2,7 +2,10 @@
 
 exports[`Storyshots Display/Tag Composite 1`] = `
 .c1 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #FFF;
@@ -111,7 +114,10 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 
 exports[`Storyshots Display/Tag Glass 1`] = `
 .c1 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #FFF;
@@ -220,7 +226,10 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 
 exports[`Storyshots Display/Tag Metal 1`] = `
 .c1 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #FFF;
@@ -492,7 +501,10 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
 
 exports[`Storyshots Display/Tag Stone 1`] = `
 .c1 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #FFF;
@@ -679,7 +691,10 @@ exports[`Storyshots Display/Tag With Border 1`] = `
 
 exports[`Storyshots Display/Tag With Icon 1`] = `
 .c1 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #FFF;
@@ -806,7 +821,10 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 
 exports[`Storyshots Display/Tag Wood 1`] = `
 .c1 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: #FFF;
