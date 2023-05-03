@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { css } from "styled-components";
 
 import { BiesseTheme } from "../themes";
 import { Icon, IconName } from "./Icon";
@@ -63,10 +63,9 @@ const TagRoot = styled.div<Pick<TagProps, "border" | "color"> & { hasIcon: boole
 `;
 
 export const Tag: FC<PropsWithChildren<TagProps>> = ({ icon, testId, children, ...props }) => {
-  const theme = useTheme();
   return (
     <TagRoot data-testid={testId} hasIcon={!!icon} {...props}>
-      {icon && <TagIcon name={icon} color={theme.color.white} size="xs" />}
+      {icon && <TagIcon name={icon} color="white" size="xs" />}
       <TagLabel color="light" size="sm" weight="medium">
         {children}
       </TagLabel>

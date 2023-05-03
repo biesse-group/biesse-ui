@@ -2,7 +2,10 @@
 
 exports[`Storyshots Inputs/Select Dark Background 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: inherit;
@@ -126,7 +129,6 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
       </select>
       <span
         className="c3 c4"
-        color="inherit"
         size="20px"
       >
         <svg
@@ -158,7 +160,10 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 
 exports[`Storyshots Inputs/Select Light Background 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: inherit;
@@ -283,7 +288,6 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
       </select>
       <span
         className="c3 c4"
-        color="inherit"
         size="20px"
       >
         <svg
@@ -315,7 +319,10 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 
 exports[`Storyshots Inputs/Select Selected 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 20px;
   width: 20px;
   color: inherit;
@@ -440,7 +447,6 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
       </select>
       <span
         className="c3 c4"
-        color="inherit"
         size="20px"
       >
         <svg

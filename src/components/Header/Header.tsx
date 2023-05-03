@@ -200,7 +200,7 @@ export const Header: FC<HeaderProps> = ({
               <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
             ))}
             <HamburgerMenuIconWrapper>
-              <Icon name="hamburger" size="100%" color="light" />
+              <Icon name="hamburger" size="100%" color="white" />
             </HamburgerMenuIconWrapper>
           </MainNav>
         </MainHeaderInner>

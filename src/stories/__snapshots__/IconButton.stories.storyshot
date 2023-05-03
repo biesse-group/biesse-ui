@@ -2,7 +2,10 @@
 
 exports[`Storyshots Buttons/IconButton Clicked 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -61,7 +64,6 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
     >
       <span
         className="c2"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -100,7 +102,10 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
 
 exports[`Storyshots Buttons/IconButton Light 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -158,7 +163,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
     >
       <span
         className="c2"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -197,7 +201,10 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 
 exports[`Storyshots Buttons/IconButton Naked 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -241,7 +248,6 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
     >
       <span
         className="c2"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -280,7 +286,10 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
 
 exports[`Storyshots Buttons/IconButton Primary 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -339,7 +348,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
     >
       <span
         className="c2"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -378,7 +386,10 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 
 exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -436,7 +447,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
     >
       <span
         className="c2"
-        color="inherit"
         size="26px"
       >
         <svg

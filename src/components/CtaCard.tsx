@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { css } from "styled-components";
 
 import { borderRadius, mqUntil } from "../styles";
 import { Icon } from "./Icon";
@@ -164,8 +164,6 @@ export const CtaCard: FC<CtaCardProps> = ({
   testId,
   ...props
 }) => {
-  const theme = useTheme();
-
   return (
     <Root data-testid={testId} variant={variant} {...props}>
       {renderLink && <LinkWrapper>{renderLink()}</LinkWrapper>}
@@ -181,7 +179,7 @@ export const CtaCard: FC<CtaCardProps> = ({
         </TextWrapper>
       )}
       <IconWrapper>
-        <StyledIcon name="arrow-right" size="20px" color={theme.color.primary} />
+        <StyledIcon name="arrow-right" size="20px" color="primary" />
       </IconWrapper>
     </Root>
   );

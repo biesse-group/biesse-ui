@@ -78,7 +78,7 @@ export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
       </LinkListTitle>
       {links?.map((linkElement, index) => (
         <LinkElementWrapper key={index}>
-          <ArrowIcon name="chevron-right" size="18px" color="light" />
+          <ArrowIcon name="chevron-right" size="18px" color="white" />
           <LinkText color="light" weight="book">
             {linkElement.renderLink
               ? linkElement.renderLink?.(linkElement.label)

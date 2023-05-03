@@ -1,43 +1,35 @@
+import {
+  FloatingFocusManager,
+  FloatingOverlay,
+  FloatingPortal,
+  useClick,
+  useDismiss,
+  useFloating,
+  useId,
+  useInteractions,
+  useRole,
+} from "@floating-ui/react";
 import { AnimatePresence, motion } from "framer-motion";
-import { FC, PropsWithChildren } from "react";
+import { FC, PropsWithChildren, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
 import { IconButton } from "./IconButton";
 
-export interface ModalProps {
-  /**
-   * Optional component class name
-   */
+export type ModalProps = {
   className?: string;
-  /**
-   * Whether the modal should be hidden or shown
-   */
-  isShown?: boolean;
-  /**
-   * Action issued when clicking outside the video or on the dedicated button
-   * Should be wired to the isShown state
-   */
-  onCloseAction: () => void;
   testId?: string;
-}
+  renderTrigger: (
+    props: { ref: (node: any | null) => void; onClick: () => void } & Record<string, unknown>
+  ) => JSX.Element;
+};
 
-const Overlay = styled(motion.div)`
-  width: 100vw;
-  height: 100vh;
+const StyledOverlay = styled(FloatingOverlay)`
   background-color: ${(props) => props.theme.color.modalBackground};
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10000;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-`;
-
-const ChildrenContainer = styled.div`
-  z-index: 1;
+  z-index: 10000;
 `;
 
 const StyledCloseButton = styled(IconButton)`
@@ -56,31 +48,67 @@ const StyledCloseButton = styled(IconButton)`
 `;
 
 export const Modal: FC<PropsWithChildren<ModalProps>> = ({
+  className,
   testId,
-  isShown,
-  onCloseAction,
-  ...props
+  children,
+  renderTrigger,
 }) => {
+  const [open, setOpen] = useState(false);
+
+  const { refs, context } = useFloating({
+    open,
+    onOpenChange: setOpen,
+  });
+
+  const click = useClick(context);
+  const role = useRole(context);
+  const dismiss = useDismiss(context, { outsidePressEvent: "mousedown" });
+
+  const { getReferenceProps, getFloatingProps } = useInteractions([click, role, dismiss]);
+
+  const headingId = useId();
+  const descriptionId = useId();
+
   return (
-    <AnimatePresence>
-      {isShown && (
-        <Overlay
-          data-testid={testId}
-          onClick={onCloseAction}
-          key="modal"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
-          <StyledCloseButton
-            aria-label="close"
-            variant="light"
-            icon="close"
-            onClick={onCloseAction}
-          />
-          <ChildrenContainer {...props} onClick={(e) => e.stopPropagation()}></ChildrenContainer>
-        </Overlay>
-      )}
-    </AnimatePresence>
+    <>
+      {renderTrigger({
+        ref: refs.setReference,
+        onClick: () => setOpen(true),
+        ...getReferenceProps(),
+      })}
+      <FloatingPortal>
+        <AnimatePresence>
+          {open && (
+            <motion.div
+              key="modal"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <StyledOverlay className="Dialog-overlay" lockScroll>
+                <FloatingFocusManager context={context}>
+                  <div
+                    ref={refs.setFloating}
+                    className={className}
+                    data-testid={testId}
+                    aria-labelledby={headingId}
+                    aria-describedby={descriptionId}
+                    {...getFloatingProps()}
+                  >
+                    <StyledCloseButton
+                      aria-label="close"
+                      variant="primary-inverted"
+                      icon="close"
+                      onClick={() => setOpen(false)}
+                    />
+                    {children}
+                  </div>
+                </FloatingFocusManager>
+              </StyledOverlay>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </FloatingPortal>
+    </>
   );
 };

@@ -321,7 +321,10 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
 
 exports[`Storyshots Buttons/Button Primary Naked 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -392,7 +395,6 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
     >
       <span
         className="c2 c3"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -484,7 +486,10 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 
 exports[`Storyshots Buttons/Button With Left Icon 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -559,7 +564,6 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
     >
       <span
         className="c2 c3"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -600,7 +604,10 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
 
 exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 .c2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -676,7 +683,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
       Download catalog
       <span
         className="c2 c3"
-        color="inherit"
         size="26px"
       >
         <svg

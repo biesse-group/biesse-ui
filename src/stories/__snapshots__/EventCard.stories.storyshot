@@ -2,7 +2,10 @@
 
 exports[`Storyshots Cards/EventCard Hero 1`] = `
 .c13 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 30px;
   width: 30px;
   color: #6D6E70;
@@ -370,7 +373,10 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 
 exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c5 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 23px;
   width: 23px;
   color: #FFF;
@@ -379,7 +385,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c5 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c16 {
@@ -728,7 +734,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
       </span>
       <span
         className="c5 c6 c7"
-        color="#FFF"
+        color="white"
         size="23px"
       >
         <svg
@@ -814,7 +820,10 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 exports[`Storyshots Cards/EventCard Primary 1`] = `
 .c5 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 23px;
   width: 23px;
   color: #FFF;
@@ -823,7 +832,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 .c5 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c16 {
@@ -1172,7 +1181,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
       </span>
       <span
         className="c5 c6 c7"
-        color="#FFF"
+        color="white"
         size="23px"
       >
         <svg
@@ -1484,7 +1493,10 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 
 exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c5 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 23px;
   width: 23px;
   color: #FFF;
@@ -1493,7 +1505,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c5 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c16 {
@@ -1842,7 +1854,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
       </span>
       <span
         className="c5 c6 c7"
-        color="#FFF"
+        color="white"
         size="23px"
       >
         <svg

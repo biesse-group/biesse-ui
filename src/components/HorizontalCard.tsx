@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { css } from "styled-components";
 
 import { borderRadius, mqUntil } from "../styles";
 import { Icon, IconName } from "./Icon";
@@ -99,14 +99,13 @@ export const HorizontalCard: FC<HorizontalCardProps> = ({
   testId,
   ...props
 }) => {
-  const theme = useTheme();
   return (
     <CardContainer data-testid={testId} {...props}>
       <CardContent>
         <CardUpperContent>
           {icon && (
             <CardIconWrapper>
-              {typeof icon === "string" ? <Icon name={icon} color={theme.color.primary} /> : icon}
+              {typeof icon === "string" ? <Icon name={icon} color="primary" /> : icon}
             </CardIconWrapper>
           )}
           <CardTitle variant="H5" color="primary" uppercase>

@@ -2,7 +2,10 @@
 
 exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -86,7 +89,6 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -125,7 +127,10 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 
 exports[`Storyshots Inputs/SearchBar Default 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -209,7 +214,6 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -248,7 +252,10 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 
 exports[`Storyshots Inputs/SearchBar Searched 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -333,7 +340,6 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -372,7 +378,10 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
 
 exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
 .c3 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -457,7 +466,6 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg

@@ -73,7 +73,7 @@ export const InfoBox: FC<InfoBoxProps> = ({ title, body, iconName, ...props }) =
           {title}
         </InfoTitle>
       )}
-      {iconName && <InfoIcon name={iconName} size="24px" color="light" />}
+      {iconName && <InfoIcon name={iconName} size="24px" color="white" />}
       <InfoTextWrapper>
         {typeof body === "string" ? (
           <Text size="xs" color="light" weight="book">

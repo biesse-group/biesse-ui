@@ -2,7 +2,10 @@
 
 exports[`Storyshots Layout/Header Colored 1`] = `
 .c8 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 100%;
   width: 100%;
   color: inherit;
@@ -15,7 +18,10 @@ exports[`Storyshots Layout/Header Colored 1`] = `
 }
 
 .c13 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 100%;
   width: 100%;
   color: #FFF;
@@ -24,7 +30,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
 .c13 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c10 {
@@ -485,7 +491,6 @@ exports[`Storyshots Layout/Header Colored 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -541,7 +546,6 @@ exports[`Storyshots Layout/Header Colored 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -579,7 +583,6 @@ exports[`Storyshots Layout/Header Colored 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -635,7 +638,6 @@ exports[`Storyshots Layout/Header Colored 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -673,7 +675,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
           >
             <span
               className="c13"
-              color="light"
+              color="white"
               size="100%"
             >
               <svg
@@ -816,7 +818,10 @@ exports[`Storyshots Layout/Header Colored 1`] = `
 
 exports[`Storyshots Layout/Header Transparent 1`] = `
 .c8 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 100%;
   width: 100%;
   color: inherit;
@@ -829,7 +834,10 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
 }
 
 .c13 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 100%;
   width: 100%;
   color: #FFF;
@@ -838,7 +846,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
 .c13 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c10 {
@@ -1284,7 +1292,6 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -1340,7 +1347,6 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -1378,7 +1384,6 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -1434,7 +1439,6 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
               >
                 <span
                   className="c8"
-                  color="inherit"
                   size="100%"
                 >
                   <svg
@@ -1472,7 +1476,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
           >
             <span
               className="c13"
-              color="light"
+              color="white"
               size="100%"
             >
               <svg

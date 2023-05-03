@@ -2,7 +2,10 @@
 
 exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 .c9 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -263,7 +266,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -304,7 +306,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -344,7 +345,10 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 
 exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 .c9 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -605,7 +609,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -646,7 +649,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -686,7 +688,10 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 
 exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 .c9 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 26px;
   width: 26px;
   color: inherit;
@@ -947,7 +952,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -988,7 +992,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg

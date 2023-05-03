@@ -2,7 +2,10 @@
 
 exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 .c14 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 30px;
   width: 30px;
   color: #FFF;
@@ -11,7 +14,7 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 .c14 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c6 {
@@ -357,7 +360,7 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
           />
           <span
             className="c14 c15"
-            color="light"
+            color="white"
             size="30px"
           >
             <svg
