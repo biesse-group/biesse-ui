@@ -5,6 +5,7 @@ export type MenuPanelItem = {
 };
 
 export type MenuPanelProps = {
+  className?: string;
   items: MenuPanelItem[];
   variant?: "primary" | "secondary" | "white";
   width?: string;

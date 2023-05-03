@@ -39,6 +39,7 @@ const MenuTitle = styled(Text)<Pick<MenuPanelProps, "variant">>`
 `;
 
 export const MenuPanel: FC<MenuPanelProps> = ({
+  className,
   items,
   variant = "primary",
   width = "100%",
@@ -47,7 +48,7 @@ export const MenuPanel: FC<MenuPanelProps> = ({
   onClose,
 }) => {
   return (
-    <Panel {...{ variant, width }}>
+    <Panel {...{ variant, width, className }}>
       <CloseContainer>
         {onClose && (
           <IconButton
