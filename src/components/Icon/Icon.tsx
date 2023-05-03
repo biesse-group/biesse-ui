@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
+import { BiesseTheme } from "../../themes";
 import iconsMap from "./icons-map";
 
 export type IconName = keyof typeof iconsMap;
@@ -22,7 +23,9 @@ export interface IconProps {
    * Color fo the icon.
    * if not specified becomes inherit.
    */
-  color?: "light" | "primary" | string;
+  color?:
+    | keyof BiesseTheme["color"]["material"]
+    | keyof Pick<BiesseTheme["color"], "primary" | "secondary" | "white">;
   onClick?: () => void;
   testId?: string;
 }
@@ -43,21 +46,15 @@ const getIconSize = (size: IconProps["size"] = "md") => {
 };
 
 const getColor = (color: IconProps["color"]) => css`
-  color: ${(props) => {
-    switch (color) {
-      case "light":
-        return props.theme.color.white;
-      case "primary":
-        return props.theme.color.primary;
-      case undefined:
-        return "inherit";
-      default:
-        return color;
-    }
-  }};
+  color: ${({ theme }) =>
+    color === undefined
+      ? "inherit"
+      : color === "primary" || color === "secondary" || color === "white"
+      ? theme.color[color]
+      : theme.color.material[color]};
 `;
 
-const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
+const IconRoot = styled.span<Omit<IconProps, "name">>`
   display: inline-flex;
   height: ${(props) => getIconSize(props.size)};
   width: ${(props) => getIconSize(props.size)};
@@ -70,17 +67,10 @@ const IconRoot = styled.span<Omit<IconProps, "name" | "color">>`
   }
 `;
 
-export const Icon: FC<IconProps> = ({
-  name,
-  size,
-  color = "inherit",
-  className,
-  testId,
-  ...props
-}) => {
+export const Icon: FC<IconProps> = ({ name, size, color, className, testId, ...props }) => {
   const IconComponent = iconsMap[name];
   return (
-    <IconRoot size={size} color={color} data-testid={testId} className={className}>
+    <IconRoot color={color} size={size} data-testid={testId} className={className}>
       <IconComponent {...props} />
     </IconRoot>
   );

@@ -252,7 +252,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
           Read more
           <span
             className="c11 c12"
-            color="inherit"
             size="10px"
           >
             <svg
@@ -322,7 +321,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
           Read more
           <span
             className="c11 c12"
-            color="inherit"
             size="10px"
           >
             <svg
@@ -392,7 +390,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
           Read more
           <span
             className="c11 c12"
-            color="inherit"
             size="10px"
           >
             <svg

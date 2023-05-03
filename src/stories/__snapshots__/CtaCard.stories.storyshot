@@ -14,7 +14,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 .c8 > svg {
   height: 100%;
   width: 100%;
-  color: #6D6E70;
+  color: primary;
 }
 
 .c5 {
@@ -229,7 +229,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
     >
       <span
         className="c8 c9 c10"
-        color="#6D6E70"
+        color="primary"
         size="20px"
       >
         <svg
@@ -280,7 +280,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 .c11 > svg {
   height: 100%;
   width: 100%;
-  color: #6D6E70;
+  color: primary;
 }
 
 .c8 {
@@ -535,7 +535,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
     >
       <span
         className="c11 c12 c13"
-        color="#6D6E70"
+        color="primary"
         size="20px"
       >
         <svg

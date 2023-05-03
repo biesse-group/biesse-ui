@@ -129,7 +129,6 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
       </select>
       <span
         className="c3 c4"
-        color="inherit"
         size="20px"
       >
         <svg
@@ -289,7 +288,6 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
       </select>
       <span
         className="c3 c4"
-        color="inherit"
         size="20px"
       >
         <svg
@@ -449,7 +447,6 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
       </select>
       <span
         className="c3 c4"
-        color="inherit"
         size="20px"
       >
         <svg

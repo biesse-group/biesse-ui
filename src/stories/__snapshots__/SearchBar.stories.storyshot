@@ -89,7 +89,6 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -215,7 +214,6 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -342,7 +340,6 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -469,7 +466,6 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
       />
       <span
         className="c3 c4"
-        color="inherit"
         size="26px"
       >
         <svg

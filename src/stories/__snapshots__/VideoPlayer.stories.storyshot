@@ -109,7 +109,7 @@ exports[`Storyshots Media/VideoPlayer Default 1`] = `
 .c6 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c4 {
@@ -258,7 +258,7 @@ exports[`Storyshots Media/VideoPlayer Default 1`] = `
         />
         <span
           className="c6 c7"
-          color="light"
+          color="white"
           size="30px"
         >
           <svg

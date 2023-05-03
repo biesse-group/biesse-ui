@@ -19,7 +19,6 @@ exports[`Storyshots Icons/Icon Extra Small 1`] = `
 
 <span
   className="c0"
-  color="inherit"
   size="xs"
 >
   <svg
@@ -72,7 +71,6 @@ exports[`Storyshots Icons/Icon Large 1`] = `
 
 <span
   className="c0"
-  color="inherit"
   size="lg"
 >
   <svg
@@ -125,7 +123,6 @@ exports[`Storyshots Icons/Icon Medium 1`] = `
 
 <span
   className="c0"
-  color="inherit"
   size="md"
 >
   <svg
@@ -178,7 +175,6 @@ exports[`Storyshots Icons/Icon Small 1`] = `
 
 <span
   className="c0"
-  color="inherit"
   size="sm"
 >
   <svg

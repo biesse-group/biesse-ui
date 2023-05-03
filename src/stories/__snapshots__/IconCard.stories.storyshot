@@ -207,7 +207,6 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
       >
         <span
           className="c3"
-          color="inherit"
           size="100%"
         >
           <svg

@@ -266,7 +266,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -307,7 +306,6 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -611,7 +609,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -652,7 +649,6 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -956,7 +952,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -997,7 +992,6 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
       >
         <span
           className="c9"
-          color="inherit"
           size="26px"
         >
           <svg

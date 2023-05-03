@@ -69,7 +69,7 @@ export const SocialLink: FC<SocialLinkProps> = ({
 }) => {
   const icon =
     typeof socialIcon === "string" ? (
-      <SocialIcon name={socialIcon} size="28px" color="light" />
+      <SocialIcon name={socialIcon} size="28px" color="white" />
     ) : (
       socialIcon
     );

@@ -30,7 +30,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 .c21 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c16 {
@@ -835,7 +835,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       >
         <span
           className="c10"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -876,7 +875,6 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
       >
         <span
           className="c10"
-          color="inherit"
           size="26px"
         >
           <svg
@@ -992,7 +990,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           >
             <span
               className="c21 c22"
-              color="#FFF"
+              color="white"
               size="xs"
             >
               <svg
@@ -1020,7 +1018,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
           >
             <span
               className="c21 c22"
-              color="#FFF"
+              color="white"
               size="xs"
             >
               <svg

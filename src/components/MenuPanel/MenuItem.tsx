@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { css } from "styled-components";
 
 import { Icon } from "../Icon";
 import { MenuPanelItem, MenuPanelProps } from "./menuPanelProps";
@@ -74,8 +74,6 @@ const MenuItemIcon = styled.div`
 `;
 
 export const MenuItem: FC<MenuItemProps> = ({ label, icon, ...props }) => {
-  const theme = useTheme();
-
   return (
     <MenuItemButton {...props}>
       {props.variant === "white" && icon && <MenuItemIcon>{icon}</MenuItemIcon>}
@@ -83,7 +81,7 @@ export const MenuItem: FC<MenuItemProps> = ({ label, icon, ...props }) => {
       {props.variant !== "white" && (
         <MenuItemArrow
           name="arrow-right"
-          color={props.variant === "primary" ? theme.color.white : theme.color.primary}
+          color={props.variant === "primary" ? "white" : "primary"}
           size="30px"
         />
       )}

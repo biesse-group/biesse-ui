@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from "react";
-import styled, { css, useTheme } from "styled-components";
+import styled, { css } from "styled-components";
 
 import { borderRadius } from "../../styles";
 import { mqUntil } from "../../styles/media-queries";
@@ -148,8 +148,6 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
   renderLink,
   ...props
 }) => {
-  const theme = useTheme();
-
   const formattedStartDate = startDate.format("DD MMMM YYYY");
   const formattedEndDate = endDate.format("DD MMMM YYYY");
 
@@ -165,7 +163,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
         <Text size="md" weight="medium">
           {`${endDate.format("MMMYY")}`.toUpperCase()}
         </Text>
-        <DateLinkIcon name="arrow-right" color={theme.color.white} size="23px" />
+        <DateLinkIcon name="arrow-right" color="white" size="23px" />
       </DateLinkWrapper>
 
       <EventCardMainWrapper>

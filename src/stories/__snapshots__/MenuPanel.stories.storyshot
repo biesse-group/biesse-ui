@@ -30,7 +30,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 .c12 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c8 {
@@ -237,7 +237,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
     >
       <span
         className="c3"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -278,7 +277,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
       />
       <span
         className="c3 c7"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -327,7 +325,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
       Materiale
       <span
         className="c12 c13 c14"
-        color="#FFF"
+        color="white"
         size="30px"
       >
         <svg
@@ -366,7 +364,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
       Tecnologia
       <span
         className="c12 c13 c14"
-        color="#FFF"
+        color="white"
         size="30px"
       >
         <svg
@@ -405,7 +403,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
       Applicazioni
       <span
         className="c12 c13 c14"
-        color="#FFF"
+        color="white"
         size="30px"
       >
         <svg
@@ -472,7 +470,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 .c8 > svg {
   height: 100%;
   width: 100%;
-  color: #6D6E70;
+  color: primary;
 }
 
 .c5 {
@@ -627,7 +625,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     >
       <span
         className="c3"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -674,7 +671,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
       Metallo
       <span
         className="c8 c9 c10"
-        color="#6D6E70"
+        color="primary"
         size="30px"
       >
         <svg
@@ -713,7 +710,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
       Legno
       <span
         className="c8 c9 c10"
-        color="#6D6E70"
+        color="primary"
         size="30px"
       >
         <svg
@@ -752,7 +749,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
       Vetro
       <span
         className="c8 c9 c10"
-        color="#6D6E70"
+        color="primary"
         size="30px"
       >
         <svg
@@ -791,7 +788,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
       Pietra
       <span
         className="c8 c9 c10"
-        color="#6D6E70"
+        color="primary"
         size="30px"
       >
         <svg
@@ -830,7 +827,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
       Compositi
       <span
         className="c8 c9 c10"
-        color="#6D6E70"
+        color="primary"
         size="30px"
       >
         <svg
@@ -1015,7 +1012,6 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
         >
           <span
             className="c4"
-            color="inherit"
             size="26px"
           >
             <svg

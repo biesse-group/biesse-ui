@@ -112,7 +112,6 @@ exports[`Storyshots Layout/Pagination Default 1`] = `
   >
     <span
       className="c3"
-      color="inherit"
       size="26px"
     >
       <svg
@@ -186,7 +185,6 @@ exports[`Storyshots Layout/Pagination Default 1`] = `
   >
     <span
       className="c3"
-      color="inherit"
       size="26px"
     >
       <svg

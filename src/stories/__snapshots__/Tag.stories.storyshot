@@ -14,7 +14,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 .c1 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c3 {
@@ -88,7 +88,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 >
   <span
     className="c1 c2"
-    color="#FFF"
+    color="white"
     size="xs"
   >
     <svg
@@ -126,7 +126,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 .c1 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c3 {
@@ -200,7 +200,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 >
   <span
     className="c1 c2"
-    color="#FFF"
+    color="white"
     size="xs"
   >
     <svg
@@ -238,7 +238,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 .c1 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c3 {
@@ -312,7 +312,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 >
   <span
     className="c1 c2"
-    color="#FFF"
+    color="white"
     size="xs"
   >
     <svg
@@ -513,7 +513,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 .c1 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c3 {
@@ -587,7 +587,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 >
   <span
     className="c1 c2"
-    color="#FFF"
+    color="white"
     size="xs"
   >
     <svg
@@ -703,7 +703,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 .c1 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c3 {
@@ -777,7 +777,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 >
   <span
     className="c1 c2"
-    color="#FFF"
+    color="white"
     size="xs"
   >
     <svg
@@ -833,7 +833,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
 .c1 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c3 {
@@ -907,7 +907,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
 >
   <span
     className="c1 c2"
-    color="#FFF"
+    color="white"
     size="xs"
   >
     <svg

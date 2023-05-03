@@ -14,7 +14,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 .c9 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c19 {
@@ -30,7 +30,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 .c19 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c26 {
@@ -46,7 +46,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 .c26 > svg {
   height: 100%;
   width: 100%;
-  color: light;
+  color: white;
 }
 
 .c7 {
@@ -782,7 +782,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
         </span>
         <span
           className="c9 c10"
-          color="light"
+          color="white"
           size="24px"
         >
           <svg
@@ -829,7 +829,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c9 c10"
-          color="light"
+          color="white"
           size="24px"
         >
           <svg
@@ -894,7 +894,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -931,7 +931,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -968,7 +968,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1005,7 +1005,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1052,7 +1052,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1089,7 +1089,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1126,7 +1126,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1163,7 +1163,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1200,7 +1200,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       >
         <span
           className="c19 c20"
-          color="light"
+          color="white"
           size="18px"
         >
           <svg
@@ -1244,7 +1244,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
       </span>
       <span
         className="c26 c27"
-        color="light"
+        color="white"
         size="28px"
       >
         <svg

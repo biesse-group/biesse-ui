@@ -62,7 +62,7 @@ export const PlayButton: FC<PlayButtonProps> = ({ testId, isPlaying, ...props })
           <InternalBorder variant={props.variant} />
           <StyledIcon
             name="play"
-            color={props.variant === "inverted" ? "primary" : "light"}
+            color={props.variant === "inverted" ? "primary" : "white"}
             size="30px"
           />
         </PlayButtonRoot>

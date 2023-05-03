@@ -14,7 +14,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 .c4 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c17 {
@@ -356,7 +356,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
         >
           <span
             className="c4 c5"
-            color="#FFF"
+            color="white"
             size="xs"
           >
             <svg
@@ -384,7 +384,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
         >
           <span
             className="c4 c5"
-            color="#FFF"
+            color="white"
             size="xs"
           >
             <svg
@@ -699,7 +699,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 .c4 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c16 {
@@ -1033,7 +1033,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
         >
           <span
             className="c4 c5"
-            color="#FFF"
+            color="white"
             size="xs"
           >
             <svg
@@ -1061,7 +1061,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
         >
           <span
             className="c4 c5"
-            color="#FFF"
+            color="white"
             size="xs"
           >
             <svg
@@ -1890,7 +1890,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 .c4 > svg {
   height: 100%;
   width: 100%;
-  color: #FFF;
+  color: white;
 }
 
 .c6 {
@@ -2158,7 +2158,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
         >
           <span
             className="c4 c5"
-            color="#FFF"
+            color="white"
             size="xs"
           >
             <svg
@@ -2186,7 +2186,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
         >
           <span
             className="c4 c5"
-            color="#FFF"
+            color="white"
             size="xs"
           >
             <svg

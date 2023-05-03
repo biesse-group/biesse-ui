@@ -395,7 +395,6 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
     >
       <span
         className="c2 c3"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -565,7 +564,6 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
     >
       <span
         className="c2 c3"
-        color="inherit"
         size="26px"
       >
         <svg
@@ -685,7 +683,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
       Download catalog
       <span
         className="c2 c3"
-        color="inherit"
         size="26px"
       >
         <svg
