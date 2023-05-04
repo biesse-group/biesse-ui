@@ -49,16 +49,13 @@ const PngContainer = styled.div`
   background-color: #98afd9;
   height: 100%;
   width: 200px;
-`;
-
-const PngStyled = styled.img`
-  margin-bottom: -60px;
-  width: 80%;
+  display: flex;
+  justify-content: center;
 `;
 
 const TestImg = (
   <PngContainer>
-    <PngStyled src="/assets/product-carousel-2.png" alt="kuka logo" />
+    <img src="/assets/product-carousel-2.png" alt="kuka logo" />
   </PngContainer>
 );
 

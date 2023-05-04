@@ -36,7 +36,6 @@ const StyledIcon = styled(Icon)`
 const Root = styled.div<Pick<CtaCardProps, "variant">>`
   position: relative;
   ${(props) => borderRadius(props.theme.card.borderRadius)}
-  overflow-y: visible;
   display: flex;
   ${(props) =>
     props.variant === "full-image" &&
@@ -61,7 +60,6 @@ const ImageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: visible;
   max-width: 45%;
 `;
 
