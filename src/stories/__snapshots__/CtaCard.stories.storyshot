@@ -57,7 +57,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  overflow-y: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -97,7 +96,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  overflow-y: visible;
   max-width: 45%;
 }
 
@@ -267,7 +265,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 `;
 
 exports[`Storyshots Cards/CtaCard With Title 1`] = `
-.c11 {
+.c10 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -277,13 +275,13 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   color: #6D6E70;
 }
 
-.c11 > svg {
+.c10 > svg {
   height: 100%;
   width: 100%;
   color: primary;
 }
 
-.c8 {
+.c7 {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -291,7 +289,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   color: #252525;
 }
 
-.c8 a {
+.c7 a {
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -299,7 +297,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   color: #252525;
 }
 
-.c6 {
+.c5 {
   margin-top: 0;
   font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
@@ -308,7 +306,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   color: #6D6E70;
 }
 
-.c10 {
+.c9 {
   position: absolute;
   height: 100%;
   right: 20px;
@@ -318,7 +316,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   display: flex;
 }
 
-.c13 {
+.c12 {
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
@@ -332,7 +330,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
-  overflow-y: visible;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -351,7 +348,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
-.c1:hover .c12 {
+.c1:hover .c11 {
   opacity: 1;
 }
 
@@ -368,11 +365,10 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  overflow-y: visible;
   max-width: 45%;
 }
 
-.c5 {
+.c4 {
   overflow-y: hidden;
   display: -webkit-box;
   display: -webkit-flex;
@@ -384,11 +380,11 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   padding: 20px 50px 20px 24px;
 }
 
-.c7 {
+.c6 {
   margin-bottom: 14px;
 }
 
-.c9 {
+.c8 {
   line-height: 20px;
 }
 
@@ -403,11 +399,14 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   background-color: #98afd9;
   height: 100%;
   width: 200px;
-}
-
-.c4 {
-  margin-bottom: -60px;
-  width: 80%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media screen and (max-width:991px) {
@@ -415,7 +414,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 {
+  .c7 {
     font-size: 14px;
   }
 }
@@ -425,7 +424,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 a {
+  .c7 a {
     font-size: 14px;
   }
 }
@@ -435,19 +434,19 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
+  .c5 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c10 {
+  .c9 {
     top: 20px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c13 {
+  .c12 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
     align-self: start;
@@ -455,7 +454,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c5 {
+  .c4 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -464,20 +463,20 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c7 {
+  .c6 {
     font-size: 30px;
     margin-bottom: 0px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
+  .c6 {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c9 {
+  .c8 {
     display: none;
   }
 }
@@ -509,32 +508,31 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
       >
         <img
           alt="kuka logo"
-          className="c4"
           src="/assets/product-carousel-2.png"
         />
       </div>
     </div>
     <div
-      className="c5"
+      className="c4"
     >
       <h4
-        className="c6 c7"
+        className="c5 c6"
         color="primary"
       >
         ES951
       </h4>
       <span
-        className="c8 c9"
+        className="c7 c8"
         color="dark"
       >
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
       </span>
     </div>
     <div
-      className="c10"
+      className="c9"
     >
       <span
-        className="c11 c12 c13"
+        className="c10 c11 c12"
         color="primary"
         size="20px"
       >

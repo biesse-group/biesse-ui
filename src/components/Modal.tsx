@@ -10,7 +10,7 @@ import {
   useRole,
 } from "@floating-ui/react";
 import { AnimatePresence, motion } from "framer-motion";
-import { FC, PropsWithChildren, useState } from "react";
+import { FC, PropsWithChildren, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
@@ -19,6 +19,8 @@ import { IconButton } from "./IconButton";
 export type ModalProps = {
   className?: string;
   testId?: string;
+  onOpen?: () => void;
+  onClose?: () => void;
   renderTrigger: (
     props: { ref: (node: any | null) => void; onClick: () => void } & Record<string, unknown>
   ) => JSX.Element;
@@ -52,6 +54,8 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
   testId,
   children,
   renderTrigger,
+  onOpen,
+  onClose,
 }) => {
   const [open, setOpen] = useState(false);
 
@@ -59,6 +63,14 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
     open,
     onOpenChange: setOpen,
   });
+
+  useEffect(() => {
+    if (onOpen && open) {
+      onOpen();
+    } else if (onClose && !open) {
+      onClose();
+    }
+  }, [open, onOpen, onClose]);
 
   const click = useClick(context);
   const role = useRole(context);
@@ -85,7 +97,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <StyledOverlay className="Dialog-overlay" lockScroll>
+              <StyledOverlay className="Dialog-overlay" style={{ overflow: "hidden" }} lockScroll>
                 <FloatingFocusManager context={context}>
                   <div
                     ref={refs.setFloating}
