@@ -12,7 +12,7 @@ export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  variant: "primary" | "primary-inverted" | "outline" | "primary-naked";
+  variant: "primary" | "primary-inverted" | "outline-inverted" | "outline" | "primary-naked";
   /**
    * How large should the button be?
    */
@@ -74,6 +74,17 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
         }
       `;
     case "primary-inverted":
+      return css`
+        color: ${(props) => props.theme.color.primary};
+        background-color: ${(props) => props.theme.color.white};
+        border: 1px solid ${(props) => props.theme.color.white};
+
+        &:hover {
+          color: ${(props) => props.theme.color.white};
+          background-color: ${(props) => props.theme.color.primary};
+        }
+      `;
+    case "outline-inverted":
       return css`
         background: transparent;
         color: ${(props) => props.theme.color.white};
