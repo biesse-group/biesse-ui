@@ -1,4 +1,4 @@
-import { createRef, FC, useCallback, useState } from "react";
+import { FC, useCallback, useState } from "react";
 import styled from "styled-components";
 
 import { Text } from "./Text";
@@ -59,8 +59,6 @@ export const Checkbox: FC<Props> = ({
 }) => {
   const [isChecked, setIsChecked] = useState(value);
 
-  const checkRef = createRef<HTMLInputElement>();
-
   const onInputChange = useCallback(
     (event: boolean) => {
       setIsChecked(event);
@@ -76,7 +74,6 @@ export const Checkbox: FC<Props> = ({
       <HiddenInput
         id={inputId}
         type="checkbox"
-        ref={checkRef}
         onChange={(e) => onInputChange(e.target.checked)}
         checked={isChecked}
       />
