@@ -42,7 +42,6 @@ const StyledCheckbox = styled.div<{ checked: boolean }>`
   background-color: ${({ theme }) => theme.input.checkbox.backgroundColor};
   border: 1px solid ${({ theme }) => theme.color.white};
   font-size: 25px;
-  cursor: pointer;
   user-select: none;
 `;
 
@@ -82,7 +81,7 @@ export const Checkbox: FC<Props> = ({
         checked={isChecked}
       />
       <StyledCheckbox checked={isChecked}>
-        <label htmlFor={inputId} data-testid={testId}>
+        <label htmlFor={inputId} data-testid={testId} style={{ cursor: "pointer" }}>
           ✓
         </label>
       </StyledCheckbox>

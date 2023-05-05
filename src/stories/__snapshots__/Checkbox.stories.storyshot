@@ -55,7 +55,6 @@ exports[`Storyshots Buttons/Checkbox Clicked 1`] = `
   background-color: rgba(255,255,255,0.1);
   border: 1px solid #FFF;
   font-size: 25px;
-  cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -113,6 +112,11 @@ exports[`Storyshots Buttons/Checkbox Clicked 1`] = `
         <label
           data-testid="checkbox"
           htmlFor="checkbox-test"
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
         >
           ✓
         </label>
@@ -187,7 +191,6 @@ exports[`Storyshots Buttons/Checkbox Default 1`] = `
   background-color: rgba(255,255,255,0.1);
   border: 1px solid #FFF;
   font-size: 25px;
-  cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -245,6 +248,11 @@ exports[`Storyshots Buttons/Checkbox Default 1`] = `
         <label
           data-testid="checkbox"
           htmlFor="checkbox-test"
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
         >
           ✓
         </label>
