@@ -28,6 +28,7 @@ export const Default: Story = {
   args: {
     testId: "checkbox",
     label: "Checkbox",
+    inputId: "checkbox-test",
   },
 };
 

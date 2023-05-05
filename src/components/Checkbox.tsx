@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import { createRef, FC, useCallback, useState } from "react";
 import styled from "styled-components";
 
 import { Text } from "./Text";
@@ -13,18 +13,25 @@ export interface Props {
    */
   label?: string | JSX.Element;
   /**
+   * Whether the checkbox is checked or not
+   */
+  value?: boolean;
+  /**
    * Triggers at checkbox click
    */
-  onCheck?: (isChecked: boolean) => void;
+  onChange?: (value: boolean) => void;
+  inputId: string;
   testId?: string;
 }
 
 const Root = styled.div`
+  position: relative;
   display: inline-flex;
   align-items: center;
 `;
 
 const StyledCheckbox = styled.div<{ checked: boolean }>`
+  position: relative;
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -32,30 +39,56 @@ const StyledCheckbox = styled.div<{ checked: boolean }>`
   height: 30px;
   width: 30px;
   color: ${({ checked, theme }) => (checked ? theme.color.white : "transparent")};
-  background-color: transparent;
+  background-color: ${({ theme }) => theme.input.checkbox.backgroundColor};
   border: 1px solid ${({ theme }) => theme.color.white};
   font-size: 25px;
   cursor: pointer;
   user-select: none;
 `;
 
-export const Checkbox: FC<Props> = ({ testId, onCheck, label, ...props }) => {
-  const [isChecked, setIsChecked] = useState(false);
+const HiddenInput = styled.input`
+  display: none;
+`;
 
-  useEffect(() => {
-    onCheck && onCheck(isChecked);
-  }, [isChecked, onCheck]);
+export const Checkbox: FC<Props> = ({
+  testId,
+  value = false,
+  onChange,
+  label,
+  inputId,
+  ...props
+}) => {
+  const [isChecked, setIsChecked] = useState(value);
+
+  const checkRef = createRef<HTMLInputElement>();
+
+  const onInputChange = useCallback(
+    (event: boolean) => {
+      setIsChecked(event);
+      if (onChange) {
+        onChange(event);
+      }
+    },
+    [onChange]
+  );
 
   return (
     <Root {...props}>
-      <StyledCheckbox
-        data-testid={testId}
+      <HiddenInput
+        id={inputId}
+        type="checkbox"
+        ref={checkRef}
+        onChange={(e) => onInputChange(e.target.checked)}
         checked={isChecked}
-        onClick={() => setIsChecked(!isChecked)}
-      >
-        ✓
+      />
+      <StyledCheckbox checked={isChecked}>
+        <label htmlFor={inputId} data-testid={testId}>
+          ✓
+        </label>
       </StyledCheckbox>
-      {typeof label === "string" ? <Text color="light">{label}</Text> : label}
+      <label htmlFor={inputId}>
+        {typeof label === "string" ? <Text color="light">{label}</Text> : label}
+      </label>
     </Root>
   );
 };
