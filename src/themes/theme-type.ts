@@ -46,6 +46,9 @@ export interface BiesseTheme {
       light: string;
     };
     borderColor: string;
+    checkbox: {
+      backgroundColor: string;
+    };
   };
   color: {
     primary: string;

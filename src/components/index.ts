@@ -30,3 +30,4 @@ export * from "./CtaCard";
 export * from "./Pagination";
 export * from "./CardList";
 export * from "./MenuPanel";
+export * from "./Checkbox";

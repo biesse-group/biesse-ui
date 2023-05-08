@@ -29,7 +29,19 @@ export const Default: Story = {
         Open modal
       </Button>
     ),
-    children: <Text color="light">I am the modal content</Text>,
+    children: (
+      <div
+        style={{
+          height: "100%",
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Text color="light">I am the modal content</Text>
+      </div>
+    ),
   },
 };
 

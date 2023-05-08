@@ -24,6 +24,9 @@ export const biesseTheme: DefaultTheme = {
       light: "rgba(135, 135, 135, 0.8)",
     },
     borderColor: "#C4C4C4",
+    checkbox: {
+      backgroundColor: "rgba(255,255,255,0.1)",
+    },
   },
   videoPlayer: {
     buttonBoxShadow: "0 2px 10px 0 rgba(0,0,0,0.5)",
