@@ -104,7 +104,11 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
                     data-testid={testId}
                     aria-labelledby={headingId}
                     aria-describedby={descriptionId}
-                    style={{ width: "100vw", height: "100vh", overflowY: "auto" }}
+                    style={{
+                      width: "100vw",
+                      height: "100vh",
+                      overflowY: "auto",
+                    }}
                     {...getFloatingProps()}
                   >
                     <StyledCloseButton

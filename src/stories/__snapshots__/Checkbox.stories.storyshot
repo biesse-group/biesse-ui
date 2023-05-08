@@ -59,6 +59,9 @@ exports[`Storyshots Buttons/Checkbox Clicked 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
 }
 
 .c2 {
@@ -195,6 +198,9 @@ exports[`Storyshots Buttons/Checkbox Default 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
 }
 
 .c2 {

@@ -43,6 +43,7 @@ const StyledCheckbox = styled.div<{ checked: boolean }>`
   border: 1px solid ${({ theme }) => theme.color.white};
   font-size: 25px;
   user-select: none;
+  flex: none;
 `;
 
 const HiddenInput = styled.input`
