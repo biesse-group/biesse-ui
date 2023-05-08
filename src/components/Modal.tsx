@@ -29,9 +29,8 @@ export type ModalProps = {
 const StyledOverlay = styled(FloatingOverlay)`
   background-color: ${(props) => props.theme.color.modalBackground};
   display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 10000;
+  overflow: hidden;
 `;
 
 const StyledCloseButton = styled(IconButton)`
@@ -97,7 +96,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <StyledOverlay className="Dialog-overlay" style={{ overflow: "hidden" }} lockScroll>
+              <StyledOverlay className="Dialog-overlay" lockScroll>
                 <FloatingFocusManager context={context}>
                   <div
                     ref={refs.setFloating}
@@ -105,6 +104,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
                     data-testid={testId}
                     aria-labelledby={headingId}
                     aria-describedby={descriptionId}
+                    style={{ width: "100vw", height: "100vh", overflowY: "auto" }}
                     {...getFloatingProps()}
                   >
                     <StyledCloseButton
