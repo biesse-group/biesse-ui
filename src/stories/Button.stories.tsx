@@ -15,7 +15,11 @@ const meta: Meta<typeof Button> = {
     (Story, { args }) => (
       <BackgroundDecorator
         maxWidth="100%"
-        background={args.variant === "primary-inverted" ? "primary" : "light"}
+        background={
+          args.variant === "outline-inverted" || args.variant === "primary-inverted"
+            ? "primary"
+            : "light"
+        }
       >
         {Story()}
       </BackgroundDecorator>
@@ -35,6 +39,14 @@ export const Primary: Story = {
   },
 };
 
+export const Disabled: Story = {
+  args: {
+    variant: "primary",
+    children: "Primary",
+    disabled: true,
+  },
+};
+
 export const PrimaryInverted: Story = {
   args: {
     variant: "primary-inverted",
@@ -46,6 +58,13 @@ export const Outline: Story = {
   args: {
     variant: "outline",
     children: "Outline",
+  },
+};
+
+export const OutlineInverted: Story = {
+  args: {
+    variant: "outline-inverted",
+    children: "Outline inverted",
   },
 };
 
