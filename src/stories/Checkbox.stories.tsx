@@ -5,7 +5,7 @@ import { Checkbox } from "../components";
 import { BackgroundDecorator } from "./decorators";
 
 const meta: Meta<typeof Checkbox> = {
-  title: "Buttons/Checkbox",
+  title: "Inputs/Checkbox",
   component: Checkbox,
   tags: ["autodocs"],
   parameters: {

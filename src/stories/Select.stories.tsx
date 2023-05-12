@@ -45,6 +45,29 @@ export const DarkBackground: Story = {
   },
 };
 
+export const Disabled: Story = {
+  args: {
+    placeholder: "Select something",
+    options: [
+      {
+        label: "Option 1",
+        value: "1",
+      },
+      {
+        label: "Option 2",
+        value: "2",
+      },
+      {
+        label: "Option 3",
+        value: "3",
+      },
+    ],
+    shadow: "dark",
+    "aria-label": "Example select",
+    disabled: true,
+  },
+};
+
 export const LightBackground: Story = {
   args: {
     ...DarkBackground.args,

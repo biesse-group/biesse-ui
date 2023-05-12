@@ -39,6 +39,14 @@ export const Primary: Story = {
   },
 };
 
+export const Disabled: Story = {
+  args: {
+    variant: "primary",
+    children: "Primary",
+    disabled: true,
+  },
+};
+
 export const PrimaryInverted: Story = {
   args: {
     variant: "primary-inverted",

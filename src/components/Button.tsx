@@ -30,6 +30,10 @@ export interface ButtonProps {
    */
   rightIcon?: IconName;
   /**
+   * Whether the button has been disabled
+   */
+  disabled?: boolean;
+  /**
    * Button HTML type (default `"button"`)
    */
   type?: React.ButtonHTMLAttributes<HTMLButtonElement>["type"];
@@ -140,6 +144,12 @@ const StyledButton = styled.button<ButtonProps>`
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+
+  ${({ disabled }) =>
+    disabled &&
+    css`
+      opacity: 0.7;
+    `}
 
   ${(props) => getSizeStyle(props.size)}
   ${(props) => getVariantStyle(props.variant)}
