@@ -13,6 +13,10 @@ export type TextareaProps = {
    */
   value?: string;
   /**
+   * Max character lenght
+   */
+  maxLength?: number;
+  /**
    * Input value change callback
    */
   onChange?: React.ChangeEventHandler<HTMLTextAreaElement>;

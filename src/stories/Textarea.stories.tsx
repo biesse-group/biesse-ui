@@ -36,6 +36,13 @@ export const DarkBackground: Story = {
   },
 };
 
+export const MaxLenght100: Story = {
+  args: {
+    placeholder: "Type something...",
+    maxLength: 100,
+  },
+};
+
 export const LightBackground: Story = {
   args: {
     ...DarkBackground.args,
