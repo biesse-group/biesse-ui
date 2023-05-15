@@ -148,7 +148,9 @@ const StyledButton = styled.button<ButtonProps>`
   ${({ disabled }) =>
     disabled &&
     css`
-      opacity: 0.7;
+      opacity: 0.5;
+      cursor: auto;
+      pointer-events: none;
     `}
 
   ${(props) => getSizeStyle(props.size)}

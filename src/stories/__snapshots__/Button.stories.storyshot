@@ -154,7 +154,9 @@ exports[`Storyshots Buttons/Button Disabled 1`] = `
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
-  opacity: 0.7;
+  opacity: 0.5;
+  cursor: auto;
+  pointer-events: none;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
