@@ -50,27 +50,6 @@ type Story = StoryObj<typeof Tabs>;
 
 export const Default: Story = {
   args: {
-    tabs: [
-      {
-        id: "all",
-        label: "Tutte",
-      },
-      {
-        id: "corporate",
-        label: "Corporate",
-      },
-      {
-        id: "products",
-        label: "Prodotti",
-      },
-      {
-        id: "events",
-        label: "Eventi",
-      },
-      {
-        id: "exhibitions",
-        label: "Fiere",
-      },
-    ],
+    tabs,
   },
 };
