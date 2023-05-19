@@ -32,3 +32,4 @@ export * from "./CardList";
 export * from "./MenuPanel";
 export * from "./Checkbox";
 export * from "./IconTabs";
+export * from "./Breadcrumb";

@@ -31,6 +31,11 @@ export const hsdTheme: DefaultTheme = {
       backgroundColor: "rgba(255,255,255,0.1)",
     },
   },
+  breadcrumb: {
+    backgroundColor: "#c1cfe8",
+    borderRadius: "13px",
+    dividerColor: "#828282",
+  },
   eventCard: {
     boxShadow: "0 0 20px 0 rgba(140, 140, 140, 0.5)",
     heroBoxShadow: "0 2px 6px 0 rgba(0, 0, 0, 0.5)",

@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Typography/Title Light 1`] = `
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
-}
-
 .c1 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: none;
   color: #FFF;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
 }
 
 @media screen and (max-width:991px) {
@@ -46,7 +46,7 @@ exports[`Storyshots Typography/Title Light 1`] = `
 exports[`Storyshots Typography/Title Primary 1`] = `
 .c0 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: none;
@@ -72,7 +72,7 @@ exports[`Storyshots Typography/Title Primary 1`] = `
 exports[`Storyshots Typography/Title Uppercase 1`] = `
 .c0 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;

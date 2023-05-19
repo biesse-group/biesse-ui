@@ -17,11 +17,6 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
   color: inherit;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-}
-
 .c1 {
   color: #6D6E70;
   background-color: transparent;
@@ -38,6 +33,11 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
 }
 
 @media screen and (max-width:767px) {
@@ -117,11 +117,6 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
   color: inherit;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #252525;
-}
-
 .c1 {
   color: #FFF;
   background-color: transparent;
@@ -138,6 +133,11 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
   color: #252525;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #252525;
 }
 
 @media screen and (max-width:767px) {
@@ -216,11 +216,6 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
   color: inherit;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-}
-
 .c1 {
   color: #6D6E70;
   background-color: transparent;
@@ -230,6 +225,11 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
   width: 30px;
   height: 30px;
   border: none;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
 }
 
 <div
@@ -301,11 +301,6 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   color: inherit;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-}
-
 .c1 {
   color: #6D6E70;
   background-color: transparent;
@@ -322,6 +317,11 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   color: #FFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
 }
 
 @media screen and (max-width:767px) {
@@ -401,11 +401,6 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   color: inherit;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
-}
-
 .c1 {
   color: #FFF;
   background-color: transparent;
@@ -422,6 +417,11 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
 }
 
 @media screen and (max-width:767px) {
