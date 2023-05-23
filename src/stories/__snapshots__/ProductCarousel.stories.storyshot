@@ -34,10 +34,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c16 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -71,7 +71,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c23 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -79,7 +79,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c23 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -87,7 +87,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c17 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -96,7 +96,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c17 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -104,7 +104,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c18 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -113,7 +113,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c18 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -122,7 +122,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 .c2 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
   text-transform: uppercase;
@@ -131,7 +131,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 .c14 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: none;
@@ -296,10 +296,10 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 .c20 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -317,14 +317,14 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #F9942E;
+  background-color: #E1523D;
 }
 
 .c25 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

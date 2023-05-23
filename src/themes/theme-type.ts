@@ -50,6 +50,11 @@ export interface BiesseTheme {
       backgroundColor: string;
     };
   };
+  breadcrumb: {
+    borderRadius: string;
+    backgroundColor: string;
+    dividerColor: string;
+  };
   color: {
     primary: string;
     secondary: string;

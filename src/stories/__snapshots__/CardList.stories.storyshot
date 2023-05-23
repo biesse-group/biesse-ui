@@ -23,10 +23,10 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 }
 
 .c10 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -56,7 +56,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 }
 
 .c5 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 14px;
@@ -65,7 +65,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 }
 
 .c5 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 14px;
@@ -75,7 +75,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 
 .c1 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -84,7 +84,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 
 .c7 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -179,15 +179,11 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c7 {
-    font-size: 20px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
-  .c7 {
-    font-size: 20px;
-  }
+
 }
 
 <div

@@ -34,7 +34,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 }
 
 .c8 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -43,7 +43,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 }
 
 .c8 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
@@ -76,7 +76,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 
 .c6 {
   font-size: 16px;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
@@ -474,10 +474,10 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 }
 
 .c5 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -881,13 +881,6 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   color: inherit;
 }
 
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-  height: 100vh;
-  padding: 0;
-}
-
 .c3 {
   color: #6D6E70;
   background-color: transparent;
@@ -980,6 +973,13 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   overflow-y: auto;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+  height: 100vh;
+  padding: 0;
 }
 
 @media screen and (max-width:767px) {
