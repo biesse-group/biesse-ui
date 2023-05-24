@@ -19,6 +19,10 @@ export type SelectProps = {
    */
   onChange?: (newValue: string) => void;
   /**
+   * Whether the select has been disabled
+   */
+  disabled?: boolean;
+  /**
    * Select options, can have any type
    */
   options: SelectOption[];
@@ -39,11 +43,13 @@ const SelectContainer = styled.div`
   color: ${(props) => props.theme.color.primary};
 `;
 
-const StyledSelect = styled.select<Pick<SelectProps, "shadow"> & { selected?: boolean }>`
+const StyledSelect = styled.select<
+  Pick<SelectProps, "shadow" | "disabled"> & { selected?: boolean }
+>`
   ${(props) => inputStyles(props.shadow)};
   appearance: none;
   padding-right: 48px;
-  cursor: pointer;
+  cursor: ${({ disabled }) => (disabled ? "auto" : "pointer")};
   ${(props) =>
     !props.selected &&
     css`

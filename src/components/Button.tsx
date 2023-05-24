@@ -12,7 +12,7 @@ export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  variant: "primary" | "primary-inverted" | "outline" | "primary-naked";
+  variant: "primary" | "primary-inverted" | "outline-inverted" | "outline" | "primary-naked";
   /**
    * How large should the button be?
    */
@@ -29,6 +29,10 @@ export interface ButtonProps {
    * Shows an icon on the right
    */
   rightIcon?: IconName;
+  /**
+   * Whether the button has been disabled
+   */
+  disabled?: boolean;
   /**
    * Button HTML type (default `"button"`)
    */
@@ -74,6 +78,17 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
         }
       `;
     case "primary-inverted":
+      return css`
+        color: ${(props) => props.theme.color.primary};
+        background-color: ${(props) => props.theme.color.white};
+        border: 1px solid ${(props) => props.theme.color.white};
+
+        &:hover {
+          color: ${(props) => props.theme.color.white};
+          background-color: ${(props) => props.theme.color.primary};
+        }
+      `;
+    case "outline-inverted":
       return css`
         background: transparent;
         color: ${(props) => props.theme.color.white};
@@ -129,6 +144,14 @@ const StyledButton = styled.button<ButtonProps>`
   text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+
+  ${({ disabled }) =>
+    disabled &&
+    css`
+      opacity: 0.5;
+      cursor: auto;
+      pointer-events: none;
+    `}
 
   ${(props) => getSizeStyle(props.size)}
   ${(props) => getVariantStyle(props.variant)}

@@ -2,7 +2,7 @@
 
 exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 .c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -11,7 +11,7 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 }
 
 .c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -20,7 +20,7 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 
 .c2 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -155,10 +155,10 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 
 exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 .c5 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -192,7 +192,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 }
 
 .c4 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -201,7 +201,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 }
 
 .c4 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -210,7 +210,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 
 .c2 {
   margin-top: 0;
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;

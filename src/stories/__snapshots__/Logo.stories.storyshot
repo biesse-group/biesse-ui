@@ -1,17 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Display/Logo Primary 1`] = `
-.c0 {
-  padding: 1rem;
-  background-color: #F5F5F5;
-}
-
 .c1 {
   color: #6D6E70;
 }
 
 .c1 svg {
   width: 100%;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
 }
 
 <div
@@ -75,17 +75,17 @@ exports[`Storyshots Display/Logo Primary 1`] = `
 `;
 
 exports[`Storyshots Display/Logo White 1`] = `
-.c0 {
-  padding: 1rem;
-  background-color: #6D6E70;
-}
-
 .c1 {
   color: #FFF;
 }
 
 .c1 svg {
   width: 100%;
+}
+
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
 }
 
 <div

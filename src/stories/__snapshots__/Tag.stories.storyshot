@@ -18,7 +18,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 }
 
 .c3 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -26,7 +26,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 }
 
 .c3 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -42,10 +42,10 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -130,7 +130,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 }
 
 .c3 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -138,7 +138,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 }
 
 .c3 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -154,10 +154,10 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -242,7 +242,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 }
 
 .c3 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -250,7 +250,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 }
 
 .c3 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -266,10 +266,10 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -349,7 +349,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 
 exports[`Storyshots Display/Tag Primary 1`] = `
 .c1 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -357,7 +357,7 @@ exports[`Storyshots Display/Tag Primary 1`] = `
 }
 
 .c1 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -369,10 +369,10 @@ exports[`Storyshots Display/Tag Primary 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -425,7 +425,7 @@ exports[`Storyshots Display/Tag Primary 1`] = `
 
 exports[`Storyshots Display/Tag Secondary 1`] = `
 .c1 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -433,7 +433,7 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
 }
 
 .c1 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -445,10 +445,10 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -517,7 +517,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 }
 
 .c3 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -525,7 +525,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 }
 
 .c3 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -541,10 +541,10 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -562,7 +562,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #F9942E;
+  background-color: #E1523D;
 }
 
 @media screen and (max-width:991px) {
@@ -613,7 +613,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 
 exports[`Storyshots Display/Tag With Border 1`] = `
 .c1 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -621,7 +621,7 @@ exports[`Storyshots Display/Tag With Border 1`] = `
 }
 
 .c1 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -633,10 +633,10 @@ exports[`Storyshots Display/Tag With Border 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -707,7 +707,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 }
 
 .c3 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -715,7 +715,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 }
 
 .c3 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -731,10 +731,10 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -837,7 +837,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
 }
 
 .c3 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -845,7 +845,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
 }
 
 .c3 a {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -861,10 +861,10 @@ exports[`Storyshots Display/Tag Wood 1`] = `
 }
 
 .c0 {
-  font-family: NB International Pro,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
-  border-radius: 20px;
+  border-radius: 50px;
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

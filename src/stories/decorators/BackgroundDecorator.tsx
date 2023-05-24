@@ -2,7 +2,7 @@ import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 type Props = {
-  background?: "primary" | "light" | "dark";
+  background?: "primary" | "secondary" | "light" | "dark";
   fullScreen?: boolean;
   maxWidth?: number | string;
 };
@@ -13,6 +13,8 @@ const StyledBg = styled.div<Props>`
     switch (background) {
       case "primary":
         return theme.color.primary;
+      case "secondary":
+        return theme.color.secondary;
       case "dark":
         return theme.color.black;
       case "light":

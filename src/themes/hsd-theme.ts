@@ -27,6 +27,14 @@ export const hsdTheme: DefaultTheme = {
       light: "rgba(135, 135, 135, 0.8)",
     },
     borderColor: "#C4C4C4",
+    checkbox: {
+      backgroundColor: "rgba(255,255,255,0.1)",
+    },
+  },
+  breadcrumb: {
+    backgroundColor: "#c1cfe8",
+    borderRadius: "13px",
+    dividerColor: "#828282",
   },
   eventCard: {
     boxShadow: "0 0 20px 0 rgba(140, 140, 140, 0.5)",
