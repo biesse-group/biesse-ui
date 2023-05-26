@@ -20,8 +20,25 @@ const Link = styled.a`
 
 export const Default: Story = {
   args: {
-    items: ["Famiglie di prodotto", "Elettromandrino ATC", "ES3 Line", "ES327"],
-    renderLink: (children) => <Link href="/">{children}</Link>,
+    items: [
+      {
+        path: "/",
+        label: "Famiglie di prodotto",
+      },
+      {
+        path: "/",
+        label: "Elettromandrino ATC",
+      },
+      {
+        path: "/",
+        label: "ES3 Line",
+      },
+      {
+        path: "/",
+        label: "ES327",
+      },
+    ],
+    renderLink: (path, children) => <Link href={path}>{children}</Link>,
   },
 };
 

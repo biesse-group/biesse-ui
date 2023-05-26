@@ -8,6 +8,9 @@ exports[`Storyshots Cards/CardList Default 1`] = `
   display: inline-flex;
   height: 10px;
   width: 10px;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
   color: inherit;
 }
 

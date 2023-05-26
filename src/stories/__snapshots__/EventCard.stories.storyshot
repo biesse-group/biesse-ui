@@ -8,6 +8,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   display: inline-flex;
   height: 30px;
   width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
   color: #6D6E70;
 }
 
@@ -387,6 +390,9 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   display: inline-flex;
   height: 23px;
   width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
   color: #FFF;
 }
 
@@ -834,6 +840,9 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   display: inline-flex;
   height: 23px;
   width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
   color: #FFF;
 }
 
@@ -1507,6 +1516,9 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   display: inline-flex;
   height: 23px;
   width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
   color: #FFF;
 }
 
