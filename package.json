@@ -1,7 +1,7 @@
 {
   "name": "@biesse-group/react-components",
   "description": "BIESSE React Components",
-  "version": "0.19.2",
+  "version": "0.19.3",
   "homepage": "http://Biesse-Group.github.io/biesse-ui",
   "dependencies": {
     "@floating-ui/react": "^0.23.1",

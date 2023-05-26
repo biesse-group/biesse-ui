@@ -51,7 +51,6 @@ export interface BiesseTheme {
     };
   };
   breadcrumb: {
-    borderRadius: string;
     backgroundColor: string;
     dividerColor: string;
   };

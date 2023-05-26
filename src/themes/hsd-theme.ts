@@ -33,7 +33,6 @@ export const hsdTheme: DefaultTheme = {
   },
   breadcrumb: {
     backgroundColor: "#c1cfe8",
-    borderRadius: "13px",
     dividerColor: "#828282",
   },
   eventCard: {
