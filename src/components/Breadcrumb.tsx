@@ -12,6 +12,7 @@ export type BreadcrumbItemData = {
 export type BreadcrumbProps = {
   items: BreadcrumbItemData[];
   renderLink: (path: string, children: JSX.Element) => JSX.Element;
+  className?: string;
 };
 
 const BreadcrumbRoot = styled.div`
@@ -35,9 +36,9 @@ const DividerIcon = styled(Icon)`
   margin: 0 5px;
 `;
 
-export const Breadcrumb: FC<BreadcrumbProps> = ({ items, renderLink }) => {
+export const Breadcrumb: FC<BreadcrumbProps> = ({ items, renderLink, ...props }) => {
   return (
-    <BreadcrumbRoot>
+    <BreadcrumbRoot {...props}>
       {items.map(({ label, path }, index) => {
         const isLast = index === items.length - 1;
         const element = (
