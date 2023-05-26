@@ -8,6 +8,9 @@ exports[`Storyshots Buttons/PlayButton Inverted 1`] = `
   display: inline-flex;
   height: 30px;
   width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
   color: #6D6E70;
 }
 
@@ -116,6 +119,9 @@ exports[`Storyshots Buttons/PlayButton Primary 1`] = `
   display: inline-flex;
   height: 30px;
   width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
   color: #FFF;
 }
 

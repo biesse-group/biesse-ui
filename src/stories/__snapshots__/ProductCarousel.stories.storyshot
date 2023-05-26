@@ -8,6 +8,9 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -24,6 +27,9 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
   display: inline-flex;
   height: 20px;
   width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
   color: #FFF;
 }
 

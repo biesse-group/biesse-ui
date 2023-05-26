@@ -8,6 +8,9 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -108,6 +111,9 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -207,6 +213,9 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -292,6 +301,9 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -392,6 +404,9 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 

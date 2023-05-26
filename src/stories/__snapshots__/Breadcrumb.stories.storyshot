@@ -8,6 +8,9 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   display: inline-flex;
   height: 12px;
   width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
   color: inherit;
 }
 
@@ -253,6 +256,9 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
   display: inline-flex;
   height: 12px;
   width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
   color: inherit;
 }
 
@@ -515,6 +521,9 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
   display: inline-flex;
   height: 12px;
   width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
   color: inherit;
 }
 
