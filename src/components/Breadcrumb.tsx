@@ -17,10 +17,12 @@ export type BreadcrumbProps = {
 
 const BreadcrumbRoot = styled.div`
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
-  height: 26px;
-  padding: 0 14px;
-  border-radius: ${(props) => props.theme.breadcrumb.borderRadius};
+  min-height: 26px;
+  padding: 6px 14px;
+  gap: 5px;
+  border-radius: 99px;
   background-color: ${(props) => props.theme.breadcrumb.backgroundColor};
 `;
 
@@ -33,7 +35,6 @@ const BreadcrumbLabel = styled(Text)`
 
 const DividerIcon = styled(Icon)`
   color: ${(props) => props.theme.breadcrumb.dividerColor};
-  margin: 0 5px;
 `;
 
 export const Breadcrumb: FC<BreadcrumbProps> = ({ items, renderLink, ...props }) => {
