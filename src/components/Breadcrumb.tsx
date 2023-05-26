@@ -4,9 +4,14 @@ import styled from "styled-components";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 
+export type BreadcrumbItemData = {
+  label: string;
+  path: string;
+};
+
 export type BreadcrumbProps = {
-  items: string[];
-  renderLink: (children: JSX.Element) => JSX.Element;
+  items: BreadcrumbItemData[];
+  renderLink: (path: string, children: JSX.Element) => JSX.Element;
 };
 
 const BreadcrumbRoot = styled.div`
@@ -33,16 +38,16 @@ const DividerIcon = styled(Icon)`
 export const Breadcrumb: FC<BreadcrumbProps> = ({ items, renderLink }) => {
   return (
     <BreadcrumbRoot>
-      {items.map((item, index) => {
+      {items.map(({ label, path }, index) => {
         const isLast = index === items.length - 1;
         const element = (
           <BreadcrumbLabel style={{ textTransform: "uppercase" }} weight={isLast ? "bold" : "book"}>
-            {item}
+            {label}
           </BreadcrumbLabel>
         );
         return (
           <React.Fragment key={index}>
-            {isLast ? element : renderLink(element)}
+            {isLast ? element : renderLink(path, element)}
             {!isLast && <DividerIcon name="chevron-left" size="12px" />}
           </React.Fragment>
         );
