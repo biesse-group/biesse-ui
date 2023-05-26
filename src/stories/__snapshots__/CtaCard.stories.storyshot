@@ -8,6 +8,9 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   display: inline-flex;
   height: 20px;
   width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
   color: #6D6E70;
 }
 
@@ -272,6 +275,9 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   display: inline-flex;
   height: 20px;
   width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
   color: #6D6E70;
 }
 

@@ -38,8 +38,17 @@ export default meta;
 
 type Story = StoryObj<typeof IconTabs>;
 
-export const Default: Story = {
+export const Vertical: Story = {
   args: {
     tabs,
+    variant: "vertical",
+  },
+};
+
+export const Horizontal: Story = {
+  ...Vertical,
+  args: {
+    ...Vertical.args,
+    variant: "horizontal",
   },
 };

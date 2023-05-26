@@ -8,6 +8,9 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -24,6 +27,9 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   display: inline-flex;
   height: 30px;
   width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
   color: #FFF;
 }
 
@@ -448,6 +454,9 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -464,6 +473,9 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   display: inline-flex;
   height: 30px;
   width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
   color: #6D6E70;
 }
 
@@ -872,6 +884,9 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 

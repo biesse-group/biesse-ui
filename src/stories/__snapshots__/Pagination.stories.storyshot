@@ -8,6 +8,9 @@ exports[`Storyshots Layout/Pagination Default 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 

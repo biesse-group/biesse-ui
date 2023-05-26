@@ -8,6 +8,9 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   display: inline-flex;
   height: 100%;
   width: 100%;
+  -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
   color: inherit;
 }
 

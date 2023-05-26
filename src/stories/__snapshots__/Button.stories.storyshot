@@ -457,6 +457,9 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -622,6 +625,9 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 
@@ -740,6 +746,9 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   display: inline-flex;
   height: 26px;
   width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
   color: inherit;
 }
 

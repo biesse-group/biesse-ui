@@ -8,6 +8,9 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   display: inline-flex;
   height: 20px;
   width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
   color: #FFF;
 }
 
@@ -720,6 +723,9 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   display: inline-flex;
   height: 20px;
   width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
   color: #FFF;
 }
 
@@ -1938,6 +1944,9 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   display: inline-flex;
   height: 20px;
   width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
   color: #FFF;
 }
 

@@ -8,6 +8,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   display: inline-flex;
   height: 24px;
   width: 24px;
+  -webkit-flex: 0 0 24px;
+  -ms-flex: 0 0 24px;
+  flex: 0 0 24px;
   color: #FFF;
 }
 
@@ -24,6 +27,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   display: inline-flex;
   height: 18px;
   width: 18px;
+  -webkit-flex: 0 0 18px;
+  -ms-flex: 0 0 18px;
+  flex: 0 0 18px;
   color: #FFF;
 }
 
@@ -40,6 +46,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   display: inline-flex;
   height: 28px;
   width: 28px;
+  -webkit-flex: 0 0 28px;
+  -ms-flex: 0 0 28px;
+  flex: 0 0 28px;
   color: #FFF;
 }
 
