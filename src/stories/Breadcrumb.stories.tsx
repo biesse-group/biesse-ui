@@ -48,13 +48,32 @@ export const OnPrimary: Story = {
     layout: "fullscreen",
   },
   decorators: [
-    (Story) => <BackgroundDecorator background="primary">{Story()}</BackgroundDecorator>,
+    (Story) => (
+      <BackgroundDecorator background="primary" maxWidth="100%">
+        {Story()}
+      </BackgroundDecorator>
+    ),
   ],
 };
 
 export const OnSecondary: Story = {
   ...OnPrimary,
   decorators: [
-    (Story) => <BackgroundDecorator background="secondary">{Story()}</BackgroundDecorator>,
+    (Story) => (
+      <BackgroundDecorator background="secondary" maxWidth="100%">
+        {Story()}
+      </BackgroundDecorator>
+    ),
+  ],
+};
+
+export const Wrap: Story = {
+  ...OnPrimary,
+  decorators: [
+    (Story) => (
+      <BackgroundDecorator background="secondary" maxWidth="380px">
+        {Story()}
+      </BackgroundDecorator>
+    ),
   ],
 };
