@@ -14,20 +14,25 @@ export type IconTabsProps = {
   tabs: TabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
+  variant?: "vertical" | "horizontal";
+  className?: string;
 };
 
-const IconTabsContainer = styled.div`
+const IconTabsContainer = styled.div<Pick<IconTabsProps, "variant">>`
   display: flex;
-  flex-direction: column;
-
-  ${IconTab}:not(:last-child) {
-    margin-bottom: 20px;
-  }
+  flex-direction: ${(props) => (props.variant === "vertical" ? "column" : "row")};
+  gap: 20px;
 `;
 
-export const IconTabs: FC<IconTabsProps> = ({ tabs, onSelect, selected, ...props }) => {
+export const IconTabs: FC<IconTabsProps> = ({
+  tabs,
+  onSelect,
+  selected,
+  variant = "vertical",
+  ...props
+}) => {
   return (
-    <IconTabsContainer {...props}>
+    <IconTabsContainer variant={variant} {...props}>
       {tabs.map(({ id, ariaLabel, icon }) => (
         <IconTab
           key={id}
