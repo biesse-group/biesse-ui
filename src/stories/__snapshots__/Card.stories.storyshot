@@ -145,7 +145,6 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -155,6 +154,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  height: 100%;
 }
 
 .c0:hover .c9 {
@@ -562,7 +562,6 @@ exports[`Storyshots Cards/Card Default 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -572,6 +571,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  height: 100%;
 }
 
 .c0:hover .c2 {
@@ -844,7 +844,6 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1300,7 +1299,6 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1310,6 +1308,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  height: 100%;
 }
 
 .c0:hover .c2 {
@@ -1525,7 +1524,6 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1535,6 +1533,7 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
   flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  height: 100%;
 }
 
 .c0:hover .c2 {
@@ -1756,7 +1755,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1766,6 +1764,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  height: 100%;
 }
 
 .c0:hover .c2 {
@@ -2028,7 +2027,6 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 .c0 {
   position: relative;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2038,6 +2036,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   flex-direction: column;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  height: 100%;
 }
 
 .c0:hover .c9 {

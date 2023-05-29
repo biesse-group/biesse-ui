@@ -39,19 +39,21 @@ const CardImageInner = styled.div`
 const CardRoot = styled.div<Pick<CardProps, "direction">>`
   position: relative;
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   transition: all 0.5s ease-out;
 
   ${(props) =>
-    props.direction === "horizontal" &&
-    mqFrom(
-      "md",
-      css`
-        flex-direction: row-reverse;
-      `
-    )}
+    props.direction === "horizontal"
+      ? mqFrom(
+          "md",
+          css`
+            flex-direction: row-reverse;
+          `
+        )
+      : css`
+          height: 100%;
+        `}
 
   :hover {
     ${CardImageInner} {
