@@ -7,7 +7,7 @@ export type MenuPanelItem = {
 export type MenuPanelProps = {
   className?: string;
   items: MenuPanelItem[];
-  variant?: "primary" | "secondary" | "white";
+  variant?: "primary" | "secondary" | "light" | "white" | "dark";
   width?: string;
   title?: string;
   extra?: JSX.Element;

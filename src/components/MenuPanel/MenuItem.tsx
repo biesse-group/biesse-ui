@@ -16,9 +16,9 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
   border: none;
   padding: 0;
   display: flex;
-  justify-content: ${(props) => (props.variant === "white" ? "flex-start" : "space-between")};
+  justify-content: ${({ variant }) => (variant === "white" ? "flex-start" : "space-between")};
   align-items: center;
-  height: ${(props) => (props.variant === "white" ? "80px" : "auto")};
+  height: ${({ variant }) => (variant === "white" || variant === "light" ? "80px" : "auto")};
   padding: ${(props) => {
     switch (props.variant) {
       case "primary":
@@ -26,6 +26,7 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
       case "secondary":
         return "30px 60px";
       case "white":
+      case "light":
         return "0 60px";
     }
   }};
@@ -34,17 +35,19 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
   color: ${(props) =>
     props.variant === "primary" ? props.theme.color.white : props.theme.color.primary};
   width: 100%;
-  text-transform: ${(props) => (props.variant === "white" ? "none" : "uppercase")};
+  text-transform: ${(props) => (props.variant === "light" ? "none" : "uppercase")};
   cursor: pointer;
-  font-weight: ${(props) => props.theme.font.weight[props.variant === "white" ? "medium" : "bold"]};
+  font-weight: ${(props) => props.theme.font.weight[props.variant === "light" ? "medium" : "bold"]};
   font-size: ${(props) => {
     switch (props.variant) {
       case "primary":
-        return props.theme.font.regular.headings.lg;
+        return "40px";
       case "secondary":
-        return props.theme.font.regular.headings.sm;
+        return "30px";
+      case "light":
+        return "22px";
       case "white":
-        return props.theme.font.regular.body.xl;
+        return "24px";
     }
   }};
 
@@ -55,13 +58,13 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
   }
 
   ${(props) =>
-    props.variant === "white" &&
+    props.variant === "light" &&
     css`
       border-top: 1px solid #d8d8d8;
       transition: background-color 0.2s ease-out;
 
       &:hover {
-        background-color: ${(props) => props.theme.color.lightGray};
+        background-color: ${(props) => props.theme.color.white};
       }
     `}
 `;

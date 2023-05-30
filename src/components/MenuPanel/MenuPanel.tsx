@@ -7,7 +7,20 @@ import { MenuItem } from "./MenuItem";
 import { MenuPanelProps } from "./menuPanelProps";
 
 const Panel = styled.div<Required<Pick<MenuPanelProps, "variant" | "width">>>`
-  background-color: ${(props) => props.theme.color[props.variant]};
+  background-color: ${({ variant, theme }) => {
+    switch (variant) {
+      case "primary":
+        return theme.color.primary;
+      case "secondary":
+        return theme.color.secondary;
+      case "light":
+        return theme.color.lightGray;
+      case "white":
+        return theme.color.white;
+      case "dark":
+        return theme.color.black;
+    }
+  }};
   width: ${(props) => props.width};
   height: 100vh;
   display: flex;
@@ -35,7 +48,7 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
 const MenuTitle = styled(Text)<Pick<MenuPanelProps, "variant">>`
   text-transform: uppercase;
   padding: 0 ${(props) => (props.variant === "primary" ? "70px" : "60px")};
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 `;
 
 export const MenuPanel: FC<MenuPanelProps> = ({
