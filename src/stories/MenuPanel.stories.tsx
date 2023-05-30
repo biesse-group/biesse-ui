@@ -18,8 +18,8 @@ type Story = StoryObj<typeof MenuPanel>;
 
 export const Primary: Story = {
   args: {
-    title: "Ricerca prodotti per",
-    items: [{ label: "Materiale" }, { label: "Tecnologia" }, { label: "Applicazioni" }],
+    title: "Macrocategoria",
+    items: [{ label: "Famiglie di prodotto" }, { label: "Tecnologia" }],
     extra: <SearchBar />,
     onClose: () => {},
     variant: "primary",
@@ -73,6 +73,32 @@ export const White: Story = {
     items: [{ label: "ES7 Line" }, { label: "ES8 Line S" }],
     variant: "white",
     title: "Linee di prodotto",
+    extra: undefined,
+  },
+  decorators: [
+    (Story) => (
+      <BackgroundDecorator background="light" fullScreen>
+        {Story()}
+      </BackgroundDecorator>
+    ),
+  ],
+};
+
+export const Dark: Story = {
+  args: {
+    ...Primary.args,
+    items: [
+      { label: "Azienda" },
+      { label: "Prodotti" },
+      { label: "Case History" },
+      { label: "News ed eventi" },
+      { divider: true },
+      { label: "Carriere", small: true },
+      { label: "Contatti", small: true },
+    ],
+    variant: "dark",
+    width: "320px",
+    title: undefined,
   },
   decorators: [
     (Story) => (

@@ -6,12 +6,16 @@ import { MenuPanelItem, MenuPanelProps } from "./menuPanelProps";
 
 type MenuItemProps = Required<Pick<MenuPanelProps, "variant">> & MenuPanelItem;
 
-const MenuItemArrow = styled(Icon)`
-  opacity: 0;
-  transition: opacity 0.2s ease-out;
+const MenuItemArrow = styled(Icon)<{ alwaysVisible?: boolean }>`
+  ${(props) =>
+    !props.alwaysVisible &&
+    css`
+      opacity: 0;
+      transition: opacity 0.2s ease-out;
+    `}
 `;
 
-const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
+const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
   outline: none;
   border: none;
   padding: 0;
@@ -28,18 +32,20 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
       case "white":
       case "light":
         return "0 60px";
+      case "dark":
+        return "18px 30px";
     }
   }};
   text-align: left;
   background-color: transparent;
-  color: ${(props) =>
-    props.variant === "primary" ? props.theme.color.white : props.theme.color.primary};
+  color: ${({ variant, theme }) =>
+    variant === "primary" || variant === "dark" ? theme.color.white : theme.color.primary};
   width: 100%;
   text-transform: ${(props) => (props.variant === "light" ? "none" : "uppercase")};
   cursor: pointer;
   font-weight: ${(props) => props.theme.font.weight[props.variant === "light" ? "medium" : "bold"]};
-  font-size: ${(props) => {
-    switch (props.variant) {
+  font-size: ${({ variant, small }) => {
+    switch (variant) {
       case "primary":
         return "40px";
       case "secondary":
@@ -48,6 +54,8 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant">>`
         return "22px";
       case "white":
         return "24px";
+      case "dark":
+        return small ? "22px" : "24px";
     }
   }};
 
@@ -77,15 +85,17 @@ const MenuItemIcon = styled.div`
 `;
 
 export const MenuItem: FC<MenuItemProps> = ({ label, icon, ...props }) => {
+  const { variant } = props;
   return (
     <MenuItemButton {...props}>
-      {props.variant === "white" && icon && <MenuItemIcon>{icon}</MenuItemIcon>}
+      {variant === "white" && icon && <MenuItemIcon>{icon}</MenuItemIcon>}
       {label}
-      {props.variant !== "white" && (
+      {variant !== "white" && (
         <MenuItemArrow
-          name="arrow-right"
-          color={props.variant === "primary" ? "white" : "primary"}
-          size="30px"
+          name={variant === "dark" ? "chevron-right" : "arrow-right"}
+          color={variant === "primary" || variant === "dark" ? "white" : "primary"}
+          size={variant === "dark" ? "20px" : "30px"}
+          alwaysVisible={variant === "dark"}
         />
       )}
     </MenuItemButton>
