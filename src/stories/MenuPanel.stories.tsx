@@ -18,8 +18,8 @@ type Story = StoryObj<typeof MenuPanel>;
 
 export const Primary: Story = {
   args: {
-    title: "Ricerca prodotti per",
-    items: [{ label: "Materiale" }, { label: "Tecnologia" }, { label: "Applicazioni" }],
+    title: "Macrocategoria",
+    items: [{ label: "Famiglie di prodotto" }, { label: "Tecnologia" }],
     extra: <SearchBar />,
     onClose: () => {},
     variant: "primary",
@@ -37,7 +37,7 @@ export const Secondary: Story = {
       { label: "Pietra" },
       { label: "Compositi" },
     ],
-    title: undefined,
+    title: "Materiale",
     variant: "secondary",
     extra: (
       <Button variant="primary" size="large">
@@ -49,9 +49,9 @@ export const Secondary: Story = {
 
 const icon = <img src="https://dummyimage.com/50x50/cecece/ffffff" alt="Dummy" />;
 
-export const White: Story = {
+export const Light: Story = {
   args: {
-    ...Primary.args,
+    ...Secondary.args,
     items: [
       { label: "Elettromandrini", icon },
       { label: "Teste a 1 e 2 assi", icon },
@@ -62,9 +62,43 @@ export const White: Story = {
       { label: "Gruppi multifunzione", icon },
       { label: "Smart Motors", icon },
     ],
+    variant: "light",
+    title: "Famiglie di prodotto",
+  },
+};
+
+export const White: Story = {
+  args: {
+    ...Secondary.args,
+    items: [{ label: "ES7 Line" }, { label: "ES8 Line S" }],
     variant: "white",
-    title: undefined,
+    title: "Linee di prodotto",
     extra: undefined,
+  },
+  decorators: [
+    (Story) => (
+      <BackgroundDecorator background="light" fullScreen>
+        {Story()}
+      </BackgroundDecorator>
+    ),
+  ],
+};
+
+export const Dark: Story = {
+  args: {
+    ...Primary.args,
+    items: [
+      { label: "Azienda" },
+      { label: "Prodotti" },
+      { label: "Case History" },
+      { label: "News ed eventi" },
+      { divider: true },
+      { label: "Carriere", small: true },
+      { label: "Contatti", small: true },
+    ],
+    variant: "dark",
+    width: "360px",
+    title: undefined,
   },
   decorators: [
     (Story) => (

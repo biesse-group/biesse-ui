@@ -60,6 +60,7 @@ export interface BiesseTheme {
     white: string;
     black: string;
     lightGray: string;
+    darkGray: string;
     gray: string;
     modalBackground: string;
 
