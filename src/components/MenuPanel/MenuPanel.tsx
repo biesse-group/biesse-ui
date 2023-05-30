@@ -7,7 +7,7 @@ import { MenuDivider } from "./MenuDivider";
 import { MenuItem } from "./MenuItem";
 import { MenuPanelProps } from "./menuPanelProps";
 
-const Panel = styled.div<Required<Pick<MenuPanelProps, "variant" | "width">>>`
+const Panel = styled.div<Pick<MenuPanelProps, "variant" | "width">>`
   background-color: ${({ variant, theme }) => {
     switch (variant) {
       case "primary":
@@ -22,7 +22,7 @@ const Panel = styled.div<Required<Pick<MenuPanelProps, "variant" | "width">>>`
         return theme.color.black;
     }
   }};
-  width: ${(props) => props.width};
+  width: ${(props) => props.width || "100%"};
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ const CloseContainer = styled.div`
   justify-content: flex-end;
 `;
 
-const MenuItems = styled.div`
+const MenuItemsContainer = styled.div`
   flex: 1 1 auto;
   overflow-y: auto;
 `;
@@ -94,15 +94,15 @@ export const MenuPanel: FC<MenuPanelProps> = ({
           {title}
         </MenuTitle>
       )}
-      <MenuItems>
+      <MenuItemsContainer>
         {items.map((itemProps, index) =>
           itemProps.divider ? (
             <MenuDivider key={index} variant={variant} />
           ) : (
-            <MenuItem key={index} {...itemProps} variant={variant} />
+            <MenuItem key={index} variant={variant} {...itemProps} />
           )
         )}
-      </MenuItems>
+      </MenuItemsContainer>
     </Panel>
   );
 };
