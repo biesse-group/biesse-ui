@@ -97,7 +97,7 @@ export const Dark: Story = {
       { label: "Contatti", small: true },
     ],
     variant: "dark",
-    width: "320px",
+    width: "360px",
     title: undefined,
   },
   decorators: [

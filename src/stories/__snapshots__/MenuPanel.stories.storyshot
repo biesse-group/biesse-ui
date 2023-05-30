@@ -175,7 +175,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 
 .c1 {
   background-color: #252525;
-  width: 320px;
+  width: 360px;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -238,7 +238,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   >
     <div
       className="c1"
-      width="320px"
+      width="360px"
     >
       <div
         className="c2"
