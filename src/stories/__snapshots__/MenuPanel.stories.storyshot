@@ -246,6 +246,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
         <button
           aria-label="close"
           className="c3"
+          onClick={[Function]}
         >
           <span
             className="c4"
@@ -770,6 +771,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       aria-label="close"
       className="c2"
+      onClick={[Function]}
     >
       <span
         className="c3"
@@ -1383,6 +1385,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
     <button
       aria-label="close"
       className="c2"
+      onClick={[Function]}
     >
       <span
         className="c3"
@@ -1783,6 +1786,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     <button
       aria-label="close"
       className="c2"
+      onClick={[Function]}
     >
       <span
         className="c3"
@@ -2213,6 +2217,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
         <button
           aria-label="close"
           className="c3"
+          onClick={[Function]}
         >
           <span
             className="c4"
