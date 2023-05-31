@@ -81,6 +81,7 @@ export const MenuPanel: FC<MenuPanelProps> = ({
             }
             icon="close"
             aria-label="close"
+            onClick={onClose}
           />
         )}
       </CloseContainer>
