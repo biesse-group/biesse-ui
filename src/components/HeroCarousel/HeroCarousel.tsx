@@ -117,33 +117,35 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...prop
       </ImageContainer>
 
       <TextContainer>
-        <motion.div
-          key={`title-${activeSlide}`}
-          variants={titleVariants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-        >
-          <Title variant="H2" color="light" uppercase>
-            {title}
-          </Title>
-        </motion.div>
-        <motion.div
-          key={`text-${activeSlide}`}
-          variants={titleVariants}
-          custom={true}
-          initial="enter"
-          animate="center"
-          exit="exit"
-        >
-          {typeof description === "string" ? (
-            <Text color="light" size="lg">
-              {description}
-            </Text>
-          ) : (
-            description
-          )}
-        </motion.div>
+        <AnimatePresence initial={false}>
+          <motion.div
+            key={`title-${activeSlide}`}
+            variants={titleVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+          >
+            <Title variant="H2" color="light" uppercase>
+              {title}
+            </Title>
+          </motion.div>
+          <motion.div
+            key={`text-${activeSlide}`}
+            variants={titleVariants}
+            custom={true}
+            initial="enter"
+            animate="center"
+            exit="exit"
+          >
+            {typeof description === "string" ? (
+              <Text color="light" size="lg">
+                {description}
+              </Text>
+            ) : (
+              description
+            )}
+          </motion.div>
+        </AnimatePresence>
         <CarouselControls onPrev={() => handleSlide("prev")} onNext={() => handleSlide("next")} />
       </TextContainer>
     </CarouselContainer>
