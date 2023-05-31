@@ -231,8 +231,9 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     <div
       style={
         Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
         }
       }
     >
@@ -246,8 +247,9 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     <div
       style={
         Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
         }
       }
     >
@@ -578,8 +580,9 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     <div
       style={
         Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
         }
       }
     >
@@ -593,8 +596,9 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     <div
       style={
         Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
         }
       }
     >
@@ -925,8 +929,9 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     <div
       style={
         Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
         }
       }
     >
@@ -940,8 +945,9 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     <div
       style={
         Object {
-          "opacity": 0,
-          "transform": "translateX(-100px) translateZ(0)",
+          "opacity": 1,
+          "transform": "none",
+          "zIndex": 1,
         }
       }
     >
