@@ -76,6 +76,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
+  color: #252525;
 }
 
 .c5 {
@@ -327,6 +328,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
+  color: #252525;
 }
 
 .c6 {
@@ -595,6 +597,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
+  color: #252525;
 }
 
 .c6 {
@@ -863,6 +866,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
+  color: #252525;
 }
 
 .c6 {
