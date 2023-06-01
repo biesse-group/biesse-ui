@@ -18,6 +18,11 @@ export type HeroBannerProps = {
    * Banner description
    */
   description: string | JSX.Element;
+  /**
+   * Optional breadcrumb component on top of title
+   */
+  breadcrumb?: JSX.Element;
+  className?: string;
 };
 
 const Root = styled.div`
@@ -81,17 +86,23 @@ const BannerTitle = styled(Title)`
   )}
 `;
 
+const BannerBreadcrumb = styled.div`
+  margin-bottom: 45px;
+`;
+
 export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
   image,
   title,
   description,
   children,
+  breadcrumb,
   ...props
 }) => {
   return (
     <Root {...props}>
       {image}
       <Banner>
+        {breadcrumb && <BannerBreadcrumb>{breadcrumb}</BannerBreadcrumb>}
         <BannerTitle variant="H1" size="lg" uppercase>
           {title}
         </BannerTitle>
