@@ -90,6 +90,10 @@ const BannerBreadcrumb = styled.div`
   margin-bottom: 45px;
 `;
 
+const ChildrenContainer = styled.div`
+  margin-top: 50px;
+`;
+
 export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
   image,
   title,
@@ -106,6 +110,7 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
         <BannerTitle variant="H1" size="lg" uppercase>
           {title}
         </BannerTitle>
+
         {typeof description === "string" ? (
           <Text tag="p" size="lg">
             {description}
@@ -113,7 +118,7 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
         ) : (
           description
         )}
-        {children}
+        {children && <ChildrenContainer>{children}</ChildrenContainer>}
       </Banner>
     </Root>
   );
