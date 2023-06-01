@@ -153,8 +153,27 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
-.c5 {
+exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c6 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c12 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -186,12 +205,44 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   border: 1px solid #FFF;
 }
 
-.c5:hover {
+.c12:hover {
   color: #6D6E70;
   background-color: #FFF;
 }
 
 .c4 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c4 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c8 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c8 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c11 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -200,7 +251,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   margin: 0;
 }
 
-.c4 a {
+.c11 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -208,7 +259,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   color: inherit;
 }
 
-.c2 {
+.c9 {
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
@@ -253,14 +304,47 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   border-top-right-radius: 40px;
 }
 
-.c3 {
+.c10 {
   margin-bottom: 40px;
 }
 
+.c2 {
+  margin-bottom: 45px;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 26px;
+  padding: 6px 14px;
+  gap: 5px;
+  border-radius: 99px;
+  background-color: #c1cfe8;
+}
+
+.c5 {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 12px;
+  white-space: nowrap;
+  color: #252525;
+}
+
+.c7 {
+  color: #828282;
+}
+
 @media screen and (max-width:991px) {
-  .c4 {
-    font-size: 16px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -270,13 +354,55 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 }
 
 @media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
   .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c11 {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c4 a {
+  .c11 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c11 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c11 a {
     font-size: 14px;
   }
 }
@@ -312,7 +438,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c3 {
+  .c10 {
     margin-bottom: 21px;
   }
 }
@@ -327,14 +453,62 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
   <div
     className="c1"
   >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+      >
+        <span
+          className="c4 c5"
+          style={
+            Object {
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Homepage
+        </span>
+        <span
+          className="c6 c7"
+          size="12px"
+        >
+          <svg
+            viewBox="0 0 50 50"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              fill="currentColor"
+              fillRule="evenodd"
+              transform="matrix(-1 0 0 1 37.722 1)"
+            >
+              <path
+                d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              />
+            </g>
+          </svg>
+        </span>
+        <span
+          className="c8 c5"
+          style={
+            Object {
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Test page
+        </span>
+      </div>
+    </div>
     <h1
-      className="c2 c3"
+      className="c9 c10"
       size="lg"
     >
       Lorem ipsum
     </h1>
     <p
-      className="c4"
+      className="c11"
       size="lg"
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -347,7 +521,7 @@ exports[`Storyshots Slideshow/HeroBanner With Children 1`] = `
       }
     >
       <button
-        className="c5"
+        className="c12"
         type="button"
       >
         More...

@@ -10,7 +10,17 @@ export type BreadcrumbItemData = {
 };
 
 export type BreadcrumbProps = {
+  /**
+   * List of breadcrumb items
+   */
   items: BreadcrumbItemData[];
+  /**
+   * Render link component function
+   *
+   * @param path the item path to navigate
+   * @param children the content of the link element
+   * @returns the generated link element
+   */
   renderLink: (path: string, children: JSX.Element) => JSX.Element;
   className?: string;
 };
@@ -31,6 +41,7 @@ const BreadcrumbLabel = styled(Text)`
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
+  color: ${(props) => props.theme.color.black};
 `;
 
 const DividerIcon = styled(Icon)`
