@@ -42,10 +42,6 @@ export const WithExtraInfo: Story = {
         renderLink={(path, children) => children}
       />
     ),
-    children: (
-      <div style={{ marginTop: 40 }}>
-        <Button variant="outline-inverted">More...</Button>
-      </div>
-    ),
+    children: <Button variant="outline-inverted">More...</Button>,
   },
 };
