@@ -336,7 +336,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
             size="20px"
           >
             <svg
-              alwaysVisible={true}
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -369,7 +368,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
             size="20px"
           >
             <svg
-              alwaysVisible={true}
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -402,7 +400,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
             size="20px"
           >
             <svg
-              alwaysVisible={true}
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -435,7 +432,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
             size="20px"
           >
             <svg
-              alwaysVisible={true}
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -471,7 +467,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
             size="20px"
           >
             <svg
-              alwaysVisible={true}
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -504,7 +499,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
             size="20px"
           >
             <svg
-              alwaysVisible={true}
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -831,7 +825,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -871,7 +864,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -911,7 +903,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -951,7 +942,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -991,7 +981,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1031,7 +1020,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1071,7 +1059,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1111,7 +1098,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1481,7 +1467,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1521,7 +1506,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1846,7 +1830,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1886,7 +1869,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1926,7 +1908,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -1966,7 +1947,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -2006,7 +1986,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
         size="30px"
       >
         <svg
-          alwaysVisible={false}
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

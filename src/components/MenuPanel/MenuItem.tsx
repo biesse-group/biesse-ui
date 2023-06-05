@@ -6,9 +6,9 @@ import { MenuPanelItem, MenuPanelProps } from "./menuPanelProps";
 
 type MenuItemProps = Required<Pick<MenuPanelProps, "variant">> & MenuPanelItem;
 
-const MenuItemArrow = styled(Icon)<{ alwaysVisible?: boolean }>`
+const MenuItemArrow = styled(Icon)<{ $alwaysVisible?: boolean }>`
   ${(props) =>
-    !props.alwaysVisible &&
+    !props.$alwaysVisible &&
     css`
       opacity: 0;
       transition: opacity 0.2s ease-out;
@@ -95,7 +95,7 @@ export const MenuItem: FC<MenuItemProps> = ({ label, icon, ...props }) => {
           name={variant === "dark" ? "chevron-right" : "arrow-right"}
           color={variant === "primary" || variant === "dark" ? "white" : "primary"}
           size={variant === "dark" ? "20px" : "30px"}
-          alwaysVisible={variant === "dark"}
+          $alwaysVisible={variant === "dark"}
         />
       )}
     </MenuItemButton>
