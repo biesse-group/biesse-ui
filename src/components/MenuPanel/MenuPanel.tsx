@@ -1,6 +1,7 @@
 import { FC } from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
+import { mqUntil } from "../../styles";
 import { IconButton } from "../IconButton";
 import { Text } from "../Text";
 import { MenuDivider } from "./MenuDivider";
@@ -54,17 +55,32 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
       }
     }};
   margin-bottom: 40px;
+
+  ${mqUntil(
+    "xl",
+    css`
+      padding: 0 30px;
+    `
+  )}
 `;
 
 const MenuTitle = styled(Text)<Pick<MenuPanelProps, "variant">>`
   text-transform: uppercase;
   padding: 0 ${(props) => (props.variant === "primary" ? "70px" : "60px")};
   margin-bottom: 15px;
+
+  ${mqUntil(
+    "xl",
+    css`
+      padding: 0 30px;
+    `
+  )}
 `;
 
 export const MenuPanel: FC<MenuPanelProps> = ({
   className,
   items,
+  activeItem,
   variant = "primary",
   width = "100%",
   title,
@@ -96,11 +112,11 @@ export const MenuPanel: FC<MenuPanelProps> = ({
         </MenuTitle>
       )}
       <MenuItemsContainer>
-        {items.map((itemProps, index) =>
-          itemProps.divider ? (
+        {items.map(({ divider, id, ...itemProps }, index) =>
+          divider ? (
             <MenuDivider key={index} variant={variant} />
           ) : (
-            <MenuItem key={index} variant={variant} {...itemProps} />
+            <MenuItem key={index} variant={variant} active={id === activeItem} {...itemProps} />
           )
         )}
       </MenuItemsContainer>

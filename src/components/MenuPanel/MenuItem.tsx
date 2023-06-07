@@ -1,10 +1,12 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
+import { mqUntil } from "../../styles";
 import { Icon } from "../Icon";
 import { MenuPanelItem, MenuPanelProps } from "./menuPanelProps";
 
-type MenuItemProps = Required<Pick<MenuPanelProps, "variant">> & MenuPanelItem;
+type MenuItemProps = Required<Pick<MenuPanelProps, "variant">> &
+  Omit<MenuPanelItem, "id" | "divider"> & { active?: boolean };
 
 const MenuItemArrow = styled(Icon)<{ $alwaysVisible?: boolean }>`
   ${(props) =>
@@ -59,6 +61,30 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
     }
   }};
 
+  ${({ variant, small }) =>
+    mqUntil(
+      "xl",
+      css`
+        font-size: ${() => {
+          switch (variant) {
+            case "primary":
+              return "32px";
+            case "secondary":
+              return "26px";
+            case "light":
+              return "18px";
+            case "white":
+              return "20px";
+            case "dark":
+              return small ? "18px" : "20px";
+          }
+        }};
+
+        padding-left: 30px;
+        padding-right: 30px;
+      `
+    )}
+
   &:hover {
     ${MenuItemArrow} {
       opacity: 1;
@@ -84,7 +110,7 @@ const MenuItemIcon = styled.div`
   margin-right: 20px;
 `;
 
-export const MenuItem: FC<MenuItemProps> = ({ label, icon, ...props }) => {
+export const MenuItem: FC<MenuItemProps> = ({ label, icon, active, ...props }) => {
   const { variant } = props;
   return (
     <MenuItemButton {...props}>
@@ -95,7 +121,7 @@ export const MenuItem: FC<MenuItemProps> = ({ label, icon, ...props }) => {
           name={variant === "dark" ? "chevron-right" : "arrow-right"}
           color={variant === "primary" || variant === "dark" ? "white" : "primary"}
           size={variant === "dark" ? "20px" : "30px"}
-          $alwaysVisible={variant === "dark"}
+          $alwaysVisible={variant === "dark" || active}
         />
       )}
     </MenuItemButton>
