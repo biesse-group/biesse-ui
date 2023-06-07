@@ -181,25 +181,19 @@ const HamburgerMenuIconWrapper = styled.div`
   )}
 `;
 
-export const Header: FC<HeaderProps> = ({
-  logo,
-  navIcons,
-  navLinks,
-  className,
-  testId,
-  ...props
-}) => {
+export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOpen, ...props }) => {
+  const { variant } = props;
   return (
-    <HeaderRoot {...props} className={className} data-testid={testId}>
+    <HeaderRoot data-testid={testId} {...props}>
       {/* Main Header */}
-      <MainHeaderWrapper {...props}>
+      <MainHeaderWrapper variant={variant}>
         <MainHeaderInner>
           <LogoWrapper>{logo}</LogoWrapper>
-          <MainNav {...props}>
+          <MainNav variant={variant}>
             {navIcons?.map((navIcon, index) => (
-              <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
+              <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={variant} />
             ))}
-            <HamburgerMenuIconWrapper>
+            <HamburgerMenuIconWrapper onClick={onOpen}>
               <Icon name="hamburger" size="100%" color="white" />
             </HamburgerMenuIconWrapper>
           </MainNav>
@@ -207,19 +201,19 @@ export const Header: FC<HeaderProps> = ({
       </MainHeaderWrapper>
 
       {/* Secondary Header */}
-      <SecondaryHeader {...props}>
+      <SecondaryHeader variant={variant}>
         <SecondaryNav>
           {navLinks?.map((navLink, index) => (
             <SecondaryNavItem
               key={`nav-link-${index}`}
-              variant={props.variant}
+              variant={variant}
               isSelected={navLink.isSelected}
             >
               {navLink.renderLink(
                 <Text
                   size="sm"
                   weight="medium"
-                  color={props.variant === "transparent" ? "light" : "primary"}
+                  color={variant === "transparent" ? "light" : "primary"}
                 >
                   {navLink.label.toUpperCase()}
                 </Text>

@@ -1,10 +1,6 @@
 import styled, { css } from "styled-components";
 
-type Props = {
-  selected?: boolean;
-};
-
-export const IconTab = styled.button<Props>`
+export const IconTab = styled.button<{ $selected: boolean }>`
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +20,7 @@ export const IconTab = styled.button<Props>`
   }
 
   ${(props) =>
-    props.selected &&
+    props.$selected &&
     css`
       background-color: ${props.theme.color.primary};
       color: ${props.theme.color.white};

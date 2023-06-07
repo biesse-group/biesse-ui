@@ -1,3 +1,4 @@
+import { BaseProps } from "../baseProps";
 import { IconName } from "../Icon";
 
 export interface NavLink {
@@ -16,11 +17,7 @@ export interface NavLink {
   isSelected?: boolean;
 }
 
-export interface NavIconItemProps extends NavLink {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface NavIconItemProps extends NavLink, BaseProps {
   /**
    * Icon name from gallery
    */
@@ -40,11 +37,7 @@ export interface NavIconItemProps extends NavLink {
   testId?: string;
 }
 
-export interface HeaderProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface HeaderProps extends BaseProps {
   /**
    * Larger img, aligned to left
    */
@@ -62,6 +55,9 @@ export interface HeaderProps {
    * Transparent background version or colored bg version?
    */
   variant: "transparent" | "colored";
-
+  /**
+   * Called when click on hamburger icon button on mobile
+   */
+  onOpen?: () => void;
   testId?: string;
 }

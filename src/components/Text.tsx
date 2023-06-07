@@ -3,8 +3,9 @@ import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
+import { BaseProps } from "./baseProps";
 
-export type TextProps = {
+export interface TextProps extends BaseProps {
   /**
    * Font size, should be one of `xl`, `lg`, `md`, `sm`, `xs`
    */
@@ -33,7 +34,7 @@ export type TextProps = {
    * Additional CSS style
    */
   style?: CSSProperties;
-};
+}
 
 const getColor = (color?: TextProps["color"]) => css`
   color: ${(props) => {

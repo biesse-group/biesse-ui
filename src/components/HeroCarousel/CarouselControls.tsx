@@ -1,12 +1,13 @@
 import React, { FC } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "../baseProps";
 import { IconButton } from "../IconButton";
 
-type Props = {
+interface Props extends BaseProps {
   onPrev?: () => void;
   onNext?: () => void;
-};
+}
 
 const ControlsRoot = styled.div`
   margin-top: 42px;
@@ -16,9 +17,9 @@ const ControlsRoot = styled.div`
   }
 `;
 
-const CarouselControls: FC<Props> = ({ onPrev, onNext }) => {
+const CarouselControls: FC<Props> = ({ onPrev, onNext, ...props }) => {
   return (
-    <ControlsRoot>
+    <ControlsRoot {...props}>
       <IconButton
         variant="primary-inverted"
         icon="arrow-left"

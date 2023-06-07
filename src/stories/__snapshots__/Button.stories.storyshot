@@ -531,7 +531,6 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
         size="26px"
       >
         <svg
-          variant="primary-naked"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -703,7 +702,6 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
         size="26px"
       >
         <svg
-          variant="outline"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -825,7 +823,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
         size="26px"
       >
         <svg
-          variant="outline"
           viewBox="0 0 50 50"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"

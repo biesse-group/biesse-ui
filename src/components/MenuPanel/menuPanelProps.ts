@@ -1,5 +1,9 @@
 export type MenuPanelItem = {
   /**
+   * Unique item ID
+   */
+  id: string;
+  /**
    * Menu item label
    */
   label?: string;
@@ -22,6 +26,10 @@ export type MenuPanelItem = {
 
 export type MenuPanelProps = {
   className?: string;
+  /**
+   * Menu active item ID
+   */
+  activeItem?: string;
   /**
    * Array of menu items
    */
@@ -46,4 +54,8 @@ export type MenuPanelProps = {
    * Panel close button click callback
    */
   onClose?: () => void;
+  /**
+   * Panel back button click callback
+   */
+  onBack?: () => void;
 };

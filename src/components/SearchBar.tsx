@@ -1,9 +1,10 @@
 import { FC, useEffect, useState } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "./baseProps";
 import { Icon } from "./Icon";
 
-type SearchBarProps = {
+export interface SearchBarProps extends BaseProps {
   /**
    * Input placeholder
    */
@@ -25,7 +26,7 @@ type SearchBarProps = {
    */
   debounce?: number;
   testId?: string;
-};
+}
 
 const InputRoot = styled.div`
   position: relative;

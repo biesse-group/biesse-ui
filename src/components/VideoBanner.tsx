@@ -1,15 +1,14 @@
-import { FC, PropsWithChildren } from "react";
+import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { borderRadius } from "../styles";
 import { mqUntil } from "../styles/media-queries";
-import { Text, Title, VideoPlayer, VideoPlayerProps } from "./";
+import { BaseProps } from "./baseProps";
+import { Text } from "./Text";
+import { Title } from "./Title";
+import { VideoPlayer, VideoPlayerProps } from "./VideoPlayer";
 
-export interface VideoBannerProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface VideoBannerProps extends BaseProps {
   /**
    * Title located on top of the video player
    */
@@ -120,7 +119,7 @@ const VideoPlayerWrapper = styled.div`
   )}
 `;
 
-export const VideoBanner: FC<PropsWithChildren<VideoBannerProps>> = ({
+export const VideoBanner: FC<VideoBannerProps> = ({
   testId,
   title,
   subTitle,

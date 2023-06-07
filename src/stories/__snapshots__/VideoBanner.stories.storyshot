@@ -54,59 +54,6 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
   color: #FFF;
 }
 
-.c0 {
-  width: 100%;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 47px;
-  overflow: hidden;
-  background-color: #6D6E70;
-  overflow: hidden;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
-}
-
-.c2 {
-  margin-bottom: 7px;
-}
-
-.c4 {
-  margin-bottom: 40px;
-}
-
-.c5 {
-  margin-bottom: 40px;
-  padding: 0px 20%;
-  text-align: center;
-}
-
-.c7 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  overflow: hidden;
-  height: 500px;
-}
-
 .c12 {
   position: relative;
   display: -webkit-box;
@@ -196,6 +143,59 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
   width: 100%;
 }
 
+.c0 {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 47px;
+  overflow: hidden;
+  background-color: #6D6E70;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c2 {
+  margin-bottom: 7px;
+}
+
+.c4 {
+  margin-bottom: 40px;
+}
+
+.c5 {
+  margin-bottom: 40px;
+  padding: 0px 20%;
+  text-align: center;
+}
+
+.c7 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 500px;
+}
+
 @media screen and (max-width:991px) {
 
 }
@@ -233,6 +233,13 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 @media screen and (max-width:767px) {
   .c3 {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c10 {
+    width: auto;
+    height: 100%;
   }
 }
 
@@ -281,13 +288,6 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 @media screen and (max-width:767px) {
   .c7 {
     height: 450px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c10 {
-    width: auto;
-    height: 100%;
   }
 }
 

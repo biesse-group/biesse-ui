@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "./baseProps";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 
@@ -9,7 +10,7 @@ export type BreadcrumbItemData = {
   path: string;
 };
 
-export type BreadcrumbProps = {
+export interface BreadcrumbProps extends BaseProps {
   /**
    * List of breadcrumb items
    */
@@ -22,8 +23,7 @@ export type BreadcrumbProps = {
    * @returns the generated link element
    */
   renderLink: (path: string, children: JSX.Element) => JSX.Element;
-  className?: string;
-};
+}
 
 const BreadcrumbRoot = styled.div`
   display: inline-flex;

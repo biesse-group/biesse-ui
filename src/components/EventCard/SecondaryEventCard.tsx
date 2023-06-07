@@ -45,7 +45,6 @@ const ActionWrapper = styled.div`
 `;
 
 export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "variant">>> = ({
-  className,
   testId,
   title,
   startDate,
@@ -59,7 +58,7 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   const dateText = `${startDate.format("DD MMMM YYYY")} / ${endDate.format("DD MMMM YYYY")}`;
 
   return (
-    <EventCardRoot className={className} data-testid={testId} {...props}>
+    <EventCardRoot data-testid={testId} {...props}>
       <EventCardMainWrapper>
         <CardTitle variant="H4" color="primary" uppercase>
           {title}

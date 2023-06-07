@@ -3,6 +3,7 @@ import { FC, useCallback, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles";
+import { BaseProps } from "../baseProps";
 import { Text } from "../Text";
 import { Title } from "../Title";
 import CarouselControls from "./CarouselControls";
@@ -15,7 +16,7 @@ export interface HeroCarouselSlide {
   description: string | JSX.Element;
 }
 
-export type HeroCarouselProps = {
+export interface HeroCarouselProps extends BaseProps {
   /**
    * List of displayed slides
    */
@@ -24,7 +25,7 @@ export type HeroCarouselProps = {
    * Change slide automatically every provided seconds number
    */
   autoSlide?: number;
-};
+}
 
 const CarouselContainer = styled.div`
   position: relative;

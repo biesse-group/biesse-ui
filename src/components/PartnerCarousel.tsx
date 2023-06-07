@@ -4,13 +4,10 @@ import styled, { css } from "styled-components";
 
 import { useRefWithCallback } from "../hooks";
 import { mqUntil } from "../styles/media-queries";
+import { BaseProps } from "./baseProps";
 import { Text } from "./Text";
 
-export interface PartnerCarouselProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface PartnerCarouselProps extends BaseProps {
   /**
    * Partners carousel title
    */
@@ -177,7 +174,6 @@ const LogoWrapper = styled.div`
 `;
 
 export const PartnerCarousel: FC<PartnerCarouselProps> = ({
-  className,
   testId,
   partners,
   title,

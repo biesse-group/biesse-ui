@@ -2,10 +2,11 @@ import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { borderRadius, mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
-export type HeroBannerProps = {
+export interface HeroBannerProps extends BaseProps {
   /**
    * Banner background image
    */
@@ -23,7 +24,7 @@ export type HeroBannerProps = {
    */
   breadcrumb?: JSX.Element;
   className?: string;
-};
+}
 
 const Root = styled.div`
   height: 500px;

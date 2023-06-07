@@ -74,25 +74,16 @@ export const NavIconItem: FC<NavIconItemProps> = ({
   onMobileHeader,
   ...props
 }) => {
-  return (
-    <>
-      {renderLink(
-        <NavIconItemWrapper
-          className={className}
-          data-testid={testId}
-          isMobileVisibile={onMobileHeader}
-          {...props}
-        >
-          <IconWrapper>
-            <Icon size="100%" name={icon} />
-          </IconWrapper>
-          <TextWrapper>
-            <Text color="light" weight="book">
-              {label}
-            </Text>
-          </TextWrapper>
-        </NavIconItemWrapper>
-      )}
-    </>
+  return renderLink(
+    <NavIconItemWrapper data-testid={testId} isMobileVisibile={onMobileHeader} {...props}>
+      <IconWrapper>
+        <Icon size="100%" name={icon} />
+      </IconWrapper>
+      <TextWrapper>
+        <Text color="light" weight="book">
+          {label}
+        </Text>
+      </TextWrapper>
+    </NavIconItemWrapper>
   );
 };

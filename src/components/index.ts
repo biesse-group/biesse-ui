@@ -1,3 +1,5 @@
+export * from "./baseProps";
+
 export * from "./Button";
 export * from "./Card";
 export * from "./EventCard";

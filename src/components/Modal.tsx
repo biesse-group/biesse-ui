@@ -14,17 +14,17 @@ import React, { PropsWithChildren, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { IconButton } from "./IconButton";
 
-export type ModalProps = {
-  className?: string;
+export interface ModalProps extends BaseProps {
   testId?: string;
   onOpen?: () => void;
   onClose?: () => void;
   renderTrigger: (
     props: { ref: (node: any | null) => void; onClick: () => void } & Record<string, unknown>
   ) => JSX.Element;
-};
+}
 
 export type ModalHandle = {
   open: () => void;
@@ -53,8 +53,14 @@ const StyledCloseButton = styled(IconButton)`
   )}
 `;
 
+const ModalWrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+`;
+
 export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>>(
-  ({ className, testId, children, renderTrigger, onOpen, onClose }, ref) => {
+  ({ testId, children, renderTrigger, onOpen, onClose, ...props }, ref) => {
     const [open, setOpen] = useState(false);
 
     const { refs, context } = useFloating({
@@ -106,17 +112,12 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
               >
                 <StyledOverlay className="Dialog-overlay" lockScroll>
                   <FloatingFocusManager context={context}>
-                    <div
+                    <ModalWrapper
                       ref={refs.setFloating}
-                      className={className}
                       data-testid={testId}
                       aria-labelledby={headingId}
                       aria-describedby={descriptionId}
-                      style={{
-                        width: "100vw",
-                        height: "100vh",
-                        overflowY: "auto",
-                      }}
+                      {...props}
                       {...getFloatingProps()}
                     >
                       <StyledCloseButton
@@ -126,7 +127,7 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
                         onClick={() => setOpen(false)}
                       />
                       {children}
-                    </div>
+                    </ModalWrapper>
                   </FloatingFocusManager>
                 </StyledOverlay>
               </motion.div>
