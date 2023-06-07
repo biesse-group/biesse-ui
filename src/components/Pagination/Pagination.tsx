@@ -1,12 +1,13 @@
 import { FC } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "../baseProps";
 import { IconButton } from "../IconButton";
 import { PageButton } from "./PageButton";
 
 const MAX_VISIBLE_PAGES = 5;
 
-export type PaginationProps = {
+export interface PaginationProps extends BaseProps {
   /**
    * Total number of pages
    */
@@ -20,7 +21,7 @@ export type PaginationProps = {
    * @param newPage the new page index
    */
   onChangePage?: (newPage: number) => void;
-};
+}
 
 const Container = styled.div`
   display: flex;
@@ -83,7 +84,7 @@ export const Pagination: FC<PaginationProps> = ({
         </>
       )}
       {visiblePages.map((page) => (
-        <PageButton selected={page === currentPage} onClick={() => handleChange(page)} key={page}>
+        <PageButton $selected={page === currentPage} onClick={() => handleChange(page)} key={page}>
           {page}
         </PageButton>
       ))}

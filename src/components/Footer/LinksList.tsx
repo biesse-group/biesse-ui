@@ -2,6 +2,7 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles";
+import { BaseProps } from "../baseProps";
 import { Icon } from "../Icon";
 import { Text } from "../Text";
 import { Title } from "../Title";
@@ -18,7 +19,7 @@ interface LinkListElement {
   className?: string;
 }
 
-export interface LinksListProps {
+export interface LinksListProps extends BaseProps {
   title: string;
   links?: LinkListElement[];
 }

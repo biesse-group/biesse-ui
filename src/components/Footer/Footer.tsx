@@ -2,16 +2,13 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
+import { BaseProps } from "../baseProps";
 import { ExtraInfo, ExtraInfoProps } from "./ExtraInfo";
 import { InfoBox, InfoBoxProps } from "./InfoBox";
 import { LinksList, LinksListProps } from "./LinksList";
 import { SocialLink, SocialLinkProps } from "./SocialLink";
 
-export interface FooterProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface FooterProps extends BaseProps {
   /**
    * Logo on top of the footer
    */
@@ -238,7 +235,7 @@ export const Footer: FC<FooterProps> = ({
   ...props
 }) => {
   return (
-    <FooterRoot className={className} data-testid={testId} {...props}>
+    <FooterRoot data-testid={testId} {...props}>
       <FooterContainer>
         <LogoWrapper>{logo}</LogoWrapper>
         {(siteInfo || contactsInfo) && (

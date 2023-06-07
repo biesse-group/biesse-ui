@@ -122,3 +122,11 @@ export const ActiveItem: Story = {
     activeItem: "material",
   },
 };
+
+export const WithBackButton: Story = {
+  ...Primary,
+  args: {
+    ...Primary.args,
+    onBack: () => {},
+  },
+};

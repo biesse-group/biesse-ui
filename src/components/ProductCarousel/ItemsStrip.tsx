@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 import { mqFrom, mqUntil } from "../../styles";
 
-export const ItemsStrip = styled.div<{ isMobile?: boolean }>`
+export const ItemsStrip = styled.div<{ $isMobile?: boolean }>`
   align-items: center;
   flex: 1 1 auto;
   position: absolute;
@@ -30,7 +30,7 @@ export const ItemsStrip = styled.div<{ isMobile?: boolean }>`
   )}
 
   ${(props) =>
-    (props.isMobile ? mqFrom : mqUntil)(
+    (props.$isMobile ? mqFrom : mqUntil)(
       "md",
       css`
         display: none;

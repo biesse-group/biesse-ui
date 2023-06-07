@@ -100,7 +100,6 @@ exports[`Storyshots Layout/IconTabs Horizontal 1`] = `
     aria-label="Tutte"
     className="c1"
     onClick={[Function]}
-    selected={true}
   >
     <span
       className="c2"
@@ -128,7 +127,6 @@ exports[`Storyshots Layout/IconTabs Horizontal 1`] = `
     aria-label="Corporate"
     className="c3"
     onClick={[Function]}
-    selected={false}
   >
     <span
       className="c2"
@@ -260,7 +258,6 @@ exports[`Storyshots Layout/IconTabs Vertical 1`] = `
     aria-label="Tutte"
     className="c1"
     onClick={[Function]}
-    selected={true}
   >
     <span
       className="c2"
@@ -288,7 +285,6 @@ exports[`Storyshots Layout/IconTabs Vertical 1`] = `
     aria-label="Corporate"
     className="c3"
     onClick={[Function]}
-    selected={false}
   >
     <span
       className="c2"

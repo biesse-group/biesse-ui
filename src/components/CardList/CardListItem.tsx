@@ -2,17 +2,18 @@ import { FC } from "react";
 import styled from "styled-components";
 
 import { borderRadius, multilineEllipsis, singleLineEllipsis } from "../../styles";
+import { BaseProps } from "../baseProps";
 import { Button } from "../Button";
 import { Text } from "../Text";
 import { Title } from "../Title";
 
-export type CardListItemProps = {
+export interface CardListItemProps extends BaseProps {
   preTitle?: string;
   title: string;
   image: JSX.Element;
   buttonLabel?: string;
   onClick?: () => void;
-};
+}
 
 const CardImage = styled.div`
   grid-area: image;
@@ -65,9 +66,10 @@ export const CardListItem: FC<CardListItemProps> = ({
   image,
   buttonLabel,
   onClick,
+  ...props
 }) => {
   return (
-    <CardRoot>
+    <CardRoot {...props}>
       <CardImage>{image}</CardImage>
       <CardPreTitle italic size="sm">
         {preTitle}

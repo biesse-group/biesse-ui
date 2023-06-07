@@ -2,15 +2,12 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { BiesseTheme } from "../../themes";
+import { BaseProps } from "../baseProps";
 import iconsMap from "./icons-map";
 
 export type IconName = keyof typeof iconsMap;
 
-export interface IconProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface IconProps extends BaseProps {
   /**
    * Id of the icon you want to use
    */
@@ -73,11 +70,11 @@ const IconRoot = styled.span<Omit<IconProps, "name">>`
   }
 `;
 
-export const Icon: FC<IconProps> = ({ name, size, color, className, testId, ...props }) => {
+export const Icon: FC<IconProps> = ({ name, size, color, testId, ...props }) => {
   const IconComponent = iconsMap[name];
   return (
-    <IconRoot color={color} size={size} data-testid={testId} className={className}>
-      <IconComponent {...props} />
+    <IconRoot color={color} size={size} data-testid={testId} {...props}>
+      <IconComponent />
     </IconRoot>
   );
 };

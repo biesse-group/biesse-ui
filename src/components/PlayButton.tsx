@@ -2,15 +2,15 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FC } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "./baseProps";
 import { Icon } from "./Icon";
 
-export interface PlayButtonProps {
+export interface PlayButtonProps extends BaseProps {
   isPlaying?: boolean;
   onClick?: () => void;
   testId?: string;
   variant?: "primary" | "inverted";
   shadow?: boolean;
-  style?: React.CSSProperties;
 }
 
 const PlayButtonRoot = styled(motion.div)<Pick<PlayButtonProps, "shadow" | "variant">>`

@@ -2,13 +2,10 @@ import { createRef, FC, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { PlayButton } from "./PlayButton";
 
-export interface VideoPlayerProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface VideoPlayerProps extends BaseProps {
   url: string;
   /**
    * Video format, if none is passed mp4 is assumed

@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
 import { getKeys } from "../../utils/getKeys";
+import { BaseProps } from "../baseProps";
 import { Title } from "../Title";
 import { BackgroundStrip } from "./BackgroundStrip";
 import { ControlButton } from "./ControlButton";
@@ -31,7 +32,7 @@ const ItemDetailWrapper = styled.div`
   justify-content: center;
 `;
 
-export type ProductCarouselProps<T extends object> = {
+export interface ProductCarouselProps<T extends object> extends BaseProps {
   /**
    * Strip title
    */
@@ -62,7 +63,12 @@ export type ProductCarouselProps<T extends object> = {
    * @returns a JSX element representing the item detail
    */
   renderDetail: (item: T) => JSX.Element;
-};
+}
+
+const Root = styled.div<{ $height: number }>`
+  position: relative;
+  height: ${(props) => 500 + props.$height}px;
+`;
 
 export const ProductCarousel = <T extends object>({
   title,
@@ -77,7 +83,7 @@ export const ProductCarousel = <T extends object>({
     useProductCarousel(items);
 
   return (
-    <div style={{ position: "relative", height: 500 + contentHeight }} {...props}>
+    <Root $height={contentHeight} {...props}>
       <BackgroundStrip>
         <CarouselTitle variant="H2" color="light" uppercase>
           {title}
@@ -104,14 +110,14 @@ export const ProductCarousel = <T extends object>({
         </ItemsStrip>
 
         {/* Mobile carousel */}
-        <ItemsStrip isMobile>
+        <ItemsStrip $isMobile>
           <AnimatePresence initial={false} custom={direction}>
             <ItemTitle variants={mobileVariants} {...getItemMotionProps("center")}>
               {renderTitle(shownItems["center"])}
             </ItemTitle>
           </AnimatePresence>
         </ItemsStrip>
-        <ItemsStrip isMobile>
+        <ItemsStrip $isMobile>
           <AnimatePresence initial={false} custom={direction}>
             <ItemImage variants={mobileVariants} {...getItemMotionProps("center")}>
               {renderImage(shownItems["center"])}
@@ -128,6 +134,6 @@ export const ProductCarousel = <T extends object>({
           <ItemDetail uniqueId={page}>{renderDetail(shownItems["center"])}</ItemDetail>
         </AnimatePresence>
       </ItemDetailWrapper>
-    </div>
+    </Root>
   );
 };

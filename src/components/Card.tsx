@@ -2,6 +2,7 @@ import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { borderRadius, mqFrom, mqUntil, multilineEllipsis } from "../styles";
+import { BaseProps } from "./baseProps";
 import { Text } from "./Text";
 import { Title } from "./Title";
 
@@ -123,11 +124,7 @@ const CardBody = styled.div<Pick<CardProps, "direction">>`
     )}
 `;
 
-export interface CardProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface CardProps extends BaseProps {
   /**
    * Card direction
    */
@@ -165,7 +162,6 @@ export interface CardProps {
 }
 
 export const Card: FC<PropsWithChildren<CardProps>> = ({
-  className,
   direction = "vertical",
   testId,
   title,
@@ -179,7 +175,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   ...props
 }) => {
   return (
-    <CardRoot className={className} data-testid={testId} direction={direction} {...props}>
+    <CardRoot data-testid={testId} direction={direction} {...props}>
       <CardImageWrapper direction={direction}>
         {tags && <TagsWrapper>{tags}</TagsWrapper>}
         {image && <CardImageInner>{image}</CardImageInner>}

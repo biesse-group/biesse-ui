@@ -137,7 +137,6 @@ const DateDay = styled(Title)`
 `;
 
 export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "variant">>> = ({
-  className,
   testId,
   title,
   startDate,
@@ -152,7 +151,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
   const formattedEndDate = endDate.format("DD MMMM YYYY");
 
   return (
-    <EventCardRoot className={className} data-testid={testId} {...props}>
+    <EventCardRoot data-testid={testId} {...props}>
       <DateLinkWrapper>
         {renderLink && <LinkWrapper>{renderLink()}</LinkWrapper>}
         <DateDay variant="H2">{`${startDate.format("DD")}`}</DateDay>

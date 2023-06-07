@@ -2,6 +2,7 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { borderRadius, mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -70,7 +71,7 @@ const CardContainer = styled.div`
   }
 `;
 
-type HorizontalCardProps = {
+interface HorizontalCardProps extends BaseProps {
   /** Card title */
   title: string;
   /** Card icon (above title) */
@@ -88,7 +89,7 @@ type HorizontalCardProps = {
    */
   image?: JSX.Element;
   testId?: string;
-};
+}
 
 export const HorizontalCard: FC<HorizontalCardProps> = ({
   icon,

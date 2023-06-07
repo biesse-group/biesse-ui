@@ -1,8 +1,7 @@
 import styled, { css } from "styled-components";
 
 type Props = {
-  selected?: boolean;
-  onClick?: () => void;
+  $selected?: boolean;
 };
 
 export const Tab = styled.button<Props>`
@@ -22,7 +21,7 @@ export const Tab = styled.button<Props>`
   font-size: 16px;
 
   ${(props) =>
-    props.selected &&
+    props.$selected &&
     css`
       background-color: ${(props) => props.theme.color.primary};
       color: ${(props) => props.theme.color.white};

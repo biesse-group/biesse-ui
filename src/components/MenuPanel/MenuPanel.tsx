@@ -29,12 +29,28 @@ const Panel = styled.div<Pick<MenuPanelProps, "variant" | "width">>`
   flex-direction: column;
 `;
 
-const CloseContainer = styled.div`
-  height: 97px;
-  padding: 20px 20px 27px 0;
-  width: 100%;
+const ControlsContainer = styled.div<Pick<MenuPanelProps, "variant">>`
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
+  height: 97px;
+  padding: 20px 20px 27px
+    ${(props) => {
+      switch (props.variant) {
+        case "primary":
+          return "70px";
+        case "dark":
+          return "30px";
+        default:
+          return "60px";
+      }
+    }};
+
+  ${mqUntil(
+    "xl",
+    css`
+      padding-left: 30px;
+    `
+  )}
 `;
 
 const MenuItemsContainer = styled.div`
@@ -43,6 +59,7 @@ const MenuItemsContainer = styled.div`
 `;
 
 const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
+  margin-bottom: 40px;
   padding: 0
     ${(props) => {
       switch (props.variant) {
@@ -54,7 +71,6 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
           return "60px";
       }
     }};
-  margin-bottom: 40px;
 
   ${mqUntil(
     "xl",
@@ -86,10 +102,21 @@ export const MenuPanel: FC<MenuPanelProps> = ({
   title,
   extra,
   onClose,
+  onBack,
 }) => {
   return (
     <Panel {...{ variant, width, className }}>
-      <CloseContainer>
+      <ControlsContainer variant={variant}>
+        {onBack && (
+          <IconButton
+            variant={
+              variant === "primary" ? "primary-inverted" : variant === "dark" ? "light" : "primary"
+            }
+            icon="arrow-left"
+            aria-label="back"
+            onClick={onBack}
+          />
+        )}
         {onClose && (
           <IconButton
             variant={
@@ -98,9 +125,10 @@ export const MenuPanel: FC<MenuPanelProps> = ({
             icon="close"
             aria-label="close"
             onClick={onClose}
+            style={{ marginLeft: "auto" }}
           />
         )}
-      </CloseContainer>
+      </ControlsContainer>
       {extra && <MenuExtra variant={variant}>{extra}</MenuExtra>}
       {title && (
         <MenuTitle

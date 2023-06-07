@@ -254,7 +254,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
             size="10px"
           >
             <svg
-              variant="primary-naked"
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -323,7 +322,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
             size="10px"
           >
             <svg
-              variant="primary-naked"
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -392,7 +390,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
             size="10px"
           >
             <svg
-              variant="primary-naked"
               viewBox="0 0 50 50"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"

@@ -1,6 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "../baseProps";
 import { Title } from "../Title";
 
 const Grid = styled.div`
@@ -9,12 +10,12 @@ const Grid = styled.div`
   row-gap: 30px;
 `;
 
-export type CardListProps = {
+export interface CardListProps extends BaseProps {
   /**
    * Title of the list
    */
   title?: string;
-};
+}
 
 export const CardList: FC<PropsWithChildren<CardListProps>> = ({ title, children, ...props }) => {
   return (

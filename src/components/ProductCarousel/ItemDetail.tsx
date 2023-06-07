@@ -3,6 +3,7 @@ import React, { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles";
+import { BaseProps } from "../baseProps";
 import { detailVariants } from "./variants";
 
 const ItemDetailInner = styled(motion.div)`
@@ -18,11 +19,11 @@ const ItemDetailInner = styled(motion.div)`
   )}
 `;
 
-type Props = {
+interface Props extends BaseProps {
   uniqueId: React.Key;
-};
+}
 
-export const ItemDetail: FC<PropsWithChildren<Props>> = ({ uniqueId, children }) => {
+export const ItemDetail: FC<PropsWithChildren<Props>> = ({ uniqueId, children, ...props }) => {
   return (
     <ItemDetailInner
       variants={detailVariants}
@@ -30,6 +31,7 @@ export const ItemDetail: FC<PropsWithChildren<Props>> = ({ uniqueId, children })
       animate="center"
       exit="exit"
       key={uniqueId}
+      {...props}
     >
       {children}
     </ItemDetailInner>

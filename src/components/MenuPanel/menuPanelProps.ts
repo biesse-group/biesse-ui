@@ -54,4 +54,8 @@ export type MenuPanelProps = {
    * Panel close button click callback
    */
   onClose?: () => void;
+  /**
+   * Panel back button click callback
+   */
+  onBack?: () => void;
 };

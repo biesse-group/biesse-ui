@@ -3,8 +3,9 @@ import styled, { css, CSSProperties } from "styled-components";
 
 import { mqUntil } from "../styles/media-queries";
 import { BiesseTheme } from "../themes";
+import { BaseProps } from "./baseProps";
 
-export type TitleProps = {
+export interface TitleProps extends BaseProps {
   /**
    * Font size, should be one of `xxl`, `xl`, `lg`, `md`, `sm`, `xs`
    */
@@ -23,7 +24,7 @@ export type TitleProps = {
   uppercase?: boolean;
   className?: string;
   style?: CSSProperties;
-};
+}
 
 type HeadingProps = Omit<TitleProps, "variant">;
 

@@ -1,10 +1,8 @@
 import dayjs from "dayjs";
 
-export interface EventCardProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+import { BaseProps } from "../baseProps";
+
+export interface EventCardProps extends BaseProps {
   /**
    * Title locate on top of the card
    */

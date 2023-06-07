@@ -82,35 +82,30 @@ exports[`Storyshots Layout/Tabs Default 1`] = `
   <button
     className="c1 c2"
     onClick={[Function]}
-    selected={true}
   >
     Tutte
   </button>
   <button
     className="c1 c3"
     onClick={[Function]}
-    selected={false}
   >
     Corporate
   </button>
   <button
     className="c1 c3"
     onClick={[Function]}
-    selected={false}
   >
     Prodotti
   </button>
   <button
     className="c1 c3"
     onClick={[Function]}
-    selected={false}
   >
     Eventi
   </button>
   <button
     className="c1 c3"
     onClick={[Function]}
-    selected={false}
   >
     Fiere
   </button>
