@@ -187,6 +187,7 @@ export const Header: FC<HeaderProps> = ({
   navLinks,
   className,
   testId,
+  onOpen,
   ...props
 }) => {
   return (
@@ -199,7 +200,7 @@ export const Header: FC<HeaderProps> = ({
             {navIcons?.map((navIcon, index) => (
               <NavIconItem key={`nav-icon-${index}`} {...navIcon} variant={props.variant} />
             ))}
-            <HamburgerMenuIconWrapper>
+            <HamburgerMenuIconWrapper onClick={onOpen}>
               <Icon name="hamburger" size="100%" color="white" />
             </HamburgerMenuIconWrapper>
           </MainNav>

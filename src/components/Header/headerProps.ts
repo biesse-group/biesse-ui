@@ -62,6 +62,9 @@ export interface HeaderProps {
    * Transparent background version or colored bg version?
    */
   variant: "transparent" | "colored";
-
+  /**
+   * Called when click on hamburger icon button on mobile
+   */
+  onOpen?: () => void;
   testId?: string;
 }
