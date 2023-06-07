@@ -1,13 +1,10 @@
 import { FC, useCallback, useState } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "./baseProps";
 import { Text } from "./Text";
 
-export interface Props {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface CheckboxProps extends BaseProps {
   /**
    * Label on the right of the checkbox
    */
@@ -50,7 +47,7 @@ const HiddenInput = styled.input`
   display: none;
 `;
 
-export const Checkbox: FC<Props> = ({
+export const Checkbox: FC<CheckboxProps> = ({
   testId,
   value = false,
   onChange,

@@ -2,9 +2,10 @@ import { FC, useState } from "react";
 import styled, { css } from "styled-components";
 
 import { inputStyles } from "../styles/input-styles";
+import { BaseProps } from "./baseProps";
 import { Icon } from "./Icon";
 
-export type SelectProps = {
+export interface SelectProps extends BaseProps {
   /**
    * Shows a disabled option as placeholder
    */
@@ -35,7 +36,7 @@ export type SelectProps = {
    */
   "aria-label": string;
   testId?: string;
-};
+}
 
 const SelectContainer = styled.div`
   position: relative;
@@ -76,6 +77,8 @@ export const Select: FC<SelectProps> = ({
   options,
   placeholder,
   testId,
+  className,
+  style,
   ...props
 }) => {
   const [selected, setSelected] = useState(!!value);
@@ -86,7 +89,7 @@ export const Select: FC<SelectProps> = ({
   };
 
   return (
-    <SelectContainer>
+    <SelectContainer {...{ className, style }}>
       <StyledSelect
         selected={selected}
         onChange={(e) => handleChange(e.currentTarget.value)}

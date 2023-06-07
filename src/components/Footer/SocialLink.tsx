@@ -2,10 +2,11 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles";
+import { BaseProps } from "../baseProps";
 import { Icon, IconName } from "../Icon";
 import { Text } from "../Text";
 
-export interface SocialLinkProps {
+export interface SocialLinkProps extends BaseProps {
   /**
    * Label next to the social link
    */
@@ -18,7 +19,6 @@ export interface SocialLinkProps {
    * External link element, function should wrap the argument as children
    */
   renderLink?: (label: JSX.Element) => JSX.Element;
-  className?: string;
 }
 
 const SocialWrapper = styled.div`

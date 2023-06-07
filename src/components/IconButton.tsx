@@ -2,9 +2,10 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { Icon, IconName } from "./Icon";
 
-export type IconButtonProps = {
+export interface IconButtonProps extends BaseProps {
   /**
    * Shows left or right arrow
    */
@@ -18,9 +19,8 @@ export type IconButtonProps = {
    */
   "aria-label": string;
   onClick?: () => void;
-  className?: string;
   testId?: string;
-};
+}
 
 const StyledButton = styled.button<Omit<IconButtonProps, "type" | "icon">>`
   color: ${({ variant, theme }) =>

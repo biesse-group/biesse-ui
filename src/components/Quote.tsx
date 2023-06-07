@@ -2,14 +2,24 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 
-export type QuoteProps = {
+export interface QuoteProps extends BaseProps {
+  /**
+   * Citation text
+   */
   citation: string;
+  /**
+   * Name of the quote author
+   */
   authorName: string;
+  /**
+   * An author role description
+   */
   authorDescription: string;
-};
+}
 
 const Background = styled.div`
   width: 100%;

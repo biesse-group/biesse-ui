@@ -1,13 +1,10 @@
 import { FC } from "react";
 import styled, { css } from "styled-components";
 
+import { BaseProps } from "../baseProps";
 import * as LogoSources from "./logo-sources";
 
-export interface LogoProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface LogoProps extends BaseProps {
   /**
    * Id of the logo you want to use
    */
@@ -46,18 +43,11 @@ const LogoRoot = styled.div<Pick<LogoProps, "width" | "color">>`
   `}
 `;
 
-export const Logo: FC<LogoProps> = ({
-  name,
-  width,
-  className,
-  testId,
-  color = "inherit",
-  ...props
-}) => {
+export const Logo: FC<LogoProps> = ({ name, width, testId, color = "inherit", ...props }) => {
   const LogoComponent = logoMap[name];
   return (
-    <LogoRoot width={width} className={className} data-testid={testId} color={color}>
-      <LogoComponent {...props} />
+    <LogoRoot width={width} data-testid={testId} color={color} {...props}>
+      <LogoComponent />
     </LogoRoot>
   );
 };

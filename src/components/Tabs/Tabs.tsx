@@ -2,6 +2,7 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles";
+import { BaseProps } from "../baseProps";
 import { Tab } from "./Tab";
 
 interface TabData {
@@ -9,11 +10,11 @@ interface TabData {
   label: string;
 }
 
-export type TabsProps = {
+export interface TabsProps extends BaseProps {
   tabs: TabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
-};
+}
 
 const TabsContainer = styled.div`
   display: flex;
@@ -36,7 +37,7 @@ export const Tabs: FC<TabsProps> = ({ tabs, onSelect, selected, ...props }) => {
   return (
     <TabsContainer {...props}>
       {tabs.map(({ id, label }) => (
-        <Tab key={id} selected={id === selected} onClick={() => onSelect?.(id)}>
+        <Tab key={id} $selected={id === selected} onClick={() => onSelect?.(id)}>
           {label}
         </Tab>
       ))}

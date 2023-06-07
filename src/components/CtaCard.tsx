@@ -2,6 +2,7 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { borderRadius, mqUntil } from "../styles";
+import { BaseProps } from "./baseProps";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 import { Title } from "./Title";
@@ -130,7 +131,7 @@ const LinkWrapper = styled.div`
   cursor: pointer;
 `;
 
-export type CtaCardProps = {
+export interface CtaCardProps extends BaseProps {
   /** Card title */
   title: string;
   /**
@@ -151,7 +152,7 @@ export type CtaCardProps = {
    */
   variant: "full-image" | "with-title";
   testId?: string;
-};
+}
 
 export const CtaCard: FC<CtaCardProps> = ({
   title,

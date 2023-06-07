@@ -2,14 +2,11 @@ import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { BiesseTheme } from "../themes";
+import { BaseProps } from "./baseProps";
 import { Icon, IconName } from "./Icon";
 import { Text } from "./Text";
 
-export interface TagProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface TagProps extends BaseProps {
   /**
    * Predefined materials, will infer color, icon and label to the component
    */

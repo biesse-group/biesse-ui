@@ -2,6 +2,7 @@ import { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
+import { BaseProps } from "../baseProps";
 
 const BackgroundOuter = styled.div`
   background-color: ${(props) => props.theme.color.secondary};
@@ -50,9 +51,9 @@ const BackgroundInner = styled.div`
   max-width: ${(props) => props.theme.breakpoints.xxl}px;
 `;
 
-export const BackgroundStrip: FC<PropsWithChildren> = ({ children }) => {
+export const BackgroundStrip: FC<PropsWithChildren<BaseProps>> = ({ children, ...props }) => {
   return (
-    <BackgroundOuter>
+    <BackgroundOuter {...props}>
       <BackgroundInner>{children}</BackgroundInner>
     </BackgroundOuter>
   );

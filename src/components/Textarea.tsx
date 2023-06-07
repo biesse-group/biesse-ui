@@ -2,8 +2,9 @@ import { FC } from "react";
 import styled from "styled-components";
 
 import { inputStyles } from "../styles/input-styles";
+import { BaseProps } from "./baseProps";
 
-export type TextareaProps = {
+export interface TextareaProps extends BaseProps {
   /**
    * Input placeholder shown when has no value
    */
@@ -24,9 +25,8 @@ export type TextareaProps = {
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
   shadow?: "dark" | "light";
-  className?: string;
   testId?: string;
-};
+}
 
 const StyledTextarea = styled.textarea<TextareaProps>`
   ${(props) => inputStyles(props.shadow)};

@@ -2,10 +2,11 @@ import { FC } from "react";
 import styled, { css } from "styled-components";
 
 import { mqUntil } from "../../styles/media-queries";
+import { BaseProps } from "../baseProps";
 import { Icon, IconName } from "../Icon";
 import { Text } from "../Text";
 
-export interface InfoBoxProps {
+export interface InfoBoxProps extends BaseProps {
   /**
    * Title of the info section, set in bold
    */
@@ -18,7 +19,6 @@ export interface InfoBoxProps {
    * Icon to be placed on the left of the info box
    */
   iconName?: IconName;
-  className?: string;
 }
 
 const InfoBoxBodyContainer = styled.div`

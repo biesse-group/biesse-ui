@@ -115,7 +115,6 @@ const StyledIcon = styled(Icon)`
 `;
 
 export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
-  className,
   testId,
   title,
   startDate,
@@ -126,7 +125,7 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
   ...props
 }) => {
   return (
-    <HeroEventCardRoot className={className} data-testid={testId} {...props}>
+    <HeroEventCardRoot data-testid={testId} {...props}>
       <DateSubgrid>
         <StartDateDay color="primary" weight="bold">{`${startDate.format("DD")}`}</StartDateDay>
         <StartDateMonthYear color="dark">

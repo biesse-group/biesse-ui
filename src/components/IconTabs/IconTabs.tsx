@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styled from "styled-components";
 
+import { BaseProps } from "../baseProps";
 import { Icon, IconName } from "../Icon/Icon";
 import { IconTab } from "./IconTab";
 
@@ -10,13 +11,12 @@ interface TabData {
   icon: IconName;
 }
 
-export type IconTabsProps = {
+export interface IconTabsProps extends BaseProps {
   tabs: TabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
   variant?: "vertical" | "horizontal";
-  className?: string;
-};
+}
 
 const IconTabsContainer = styled.div<Pick<IconTabsProps, "variant">>`
   display: flex;
@@ -37,8 +37,8 @@ export const IconTabs: FC<IconTabsProps> = ({
         <IconTab
           key={id}
           aria-label={ariaLabel}
-          selected={id === selected}
           onClick={() => onSelect?.(id)}
+          $selected={id === selected}
         >
           <Icon name={icon} size="38px" />
         </IconTab>
