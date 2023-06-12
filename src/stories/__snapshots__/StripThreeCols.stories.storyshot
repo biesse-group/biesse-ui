@@ -87,58 +87,50 @@ exports[`Storyshots Layout/StripThreeCols Equal Size Items 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
@@ -232,58 +224,50 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
@@ -377,45 +361,37 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large Two Items 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
     </div>
   </div>
@@ -508,58 +484,50 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
@@ -653,58 +621,50 @@ exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
@@ -798,32 +758,24 @@ exports[`Storyshots Layout/StripThreeCols One Item 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
     </div>
   </div>
@@ -917,58 +869,50 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
@@ -1062,45 +1006,37 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large Two Items 1`] = 
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
     </div>
   </div>
@@ -1187,58 +1123,50 @@ exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
@@ -1332,58 +1260,50 @@ exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
 }
 
 <div
-  style={
-    Object {
-      "margin": "30px 0",
-    }
-  }
+  className="c0"
 >
-  <div
-    className="c0"
+  <h3
+    className="c1 c2"
+    color="primary"
   >
-    <h3
-      className="c1 c2"
-      color="primary"
-    >
-      Lorem ipsum dolor
-    </h3>
+    Lorem ipsum dolor
+  </h3>
+  <div
+    className="c3"
+  >
     <div
-      className="c3"
+      className="c4"
     >
       <div
-        className="c4"
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 1
-        </div>
+        Item 1
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary1",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary1",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 2
-        </div>
+        Item 2
       </div>
-      <div
-        style={
-          Object {
-            "gridArea": "secondary2",
-          }
+    </div>
+    <div
+      style={
+        Object {
+          "gridArea": "secondary2",
         }
+      }
+    >
+      <div
+        className="c5"
       >
-        <div
-          className="c5"
-        >
-          Item 3
-        </div>
+        Item 3
       </div>
     </div>
   </div>
