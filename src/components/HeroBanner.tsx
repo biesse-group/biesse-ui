@@ -44,17 +44,21 @@ const Root = styled.div`
   )}
 `;
 
-const Banner = styled.div`
+const Banner = styled.div<{ $hasBreadcrumb?: boolean }>`
   position: absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
   width: 600px;
   height: 500px;
-  padding: 65px 58px 65px 120px;
+  padding: ${(props) => (props.$hasBreadcrumb ? 35 : 65)}px 60px 45px 120px;
   background-color: ${(props) => props.theme.color.primary};
   color: ${(props) => props.theme.color.white};
   font-size: ${(props) => props.theme.font.regular.body.lg};
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
   ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   ${mqUntil(
@@ -64,6 +68,7 @@ const Banner = styled.div`
       height: auto;
       min-height: 400px;
       padding: 36px 17px 36px 25px;
+      gap: 20px;
     `
   )}
 
@@ -77,22 +82,13 @@ const Banner = styled.div`
 `;
 
 const BannerTitle = styled(Title)`
-  margin-bottom: 40px;
-
-  ${mqUntil(
-    "sm",
-    css`
-      margin-bottom: 21px;
-    `
-  )}
-`;
-
-const BannerBreadcrumb = styled.div`
-  margin-bottom: 45px;
+  word-wrap: break-word;
+  margin-bottom: 0;
+  max-width: 100%;
 `;
 
 const ChildrenContainer = styled.div`
-  margin-top: 50px;
+  margin-top: auto;
 `;
 
 export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
@@ -106,8 +102,8 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
   return (
     <Root {...props}>
       {image}
-      <Banner>
-        {breadcrumb && <BannerBreadcrumb>{breadcrumb}</BannerBreadcrumb>}
+      <Banner $hasBreadcrumb={!!breadcrumb}>
+        {breadcrumb}
         <BannerTitle variant="H1" size="lg" uppercase>
           {title}
         </BannerTitle>
