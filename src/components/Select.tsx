@@ -93,7 +93,7 @@ export const Select: FC<SelectProps> = ({
       <StyledSelect
         selected={selected}
         onChange={(e) => handleChange(e.currentTarget.value)}
-        defaultValue={value || ""}
+        value={value || ""}
         data-testid={testId}
         {...props}
       >
