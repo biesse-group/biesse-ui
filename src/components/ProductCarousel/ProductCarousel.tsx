@@ -126,8 +126,8 @@ export const ProductCarousel = <T extends object>({
         </ItemsStrip>
 
         {/* Control buttons */}
-        <ControlButton direction="prev" onClick={nextPage} />
-        <ControlButton direction="next" onClick={prevPage} />
+        <ControlButton direction="prev" onClick={prevPage} />
+        <ControlButton direction="next" onClick={nextPage} />
       </BackgroundStrip>
       <ItemDetailWrapper>
         <AnimatePresence initial={false}>
