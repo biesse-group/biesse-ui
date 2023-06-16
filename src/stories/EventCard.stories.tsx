@@ -33,6 +33,7 @@ export const Primary: Story = {
     startDate: dayjs(new Date(`january 24, 2023`)),
     endDate: dayjs(new Date(`february 10, 2023`)),
     variant: "primary",
+    location: "Milano Fiere - Milano ITALY",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
     children: (
@@ -47,6 +48,7 @@ export const Secondary: Story = {
   args: {
     ...Primary.args,
     variant: "secondary",
+    description: undefined,
   },
 };
 
