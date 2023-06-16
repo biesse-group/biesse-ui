@@ -190,9 +190,11 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
           <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle, titleLines }}>
             {title}
           </CardTitle>
-          <div style={{ marginTop: "20px" }}>
-            {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
-          </div>
+          {children && (
+            <div style={{ marginTop: "20px" }}>
+              {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
+            </div>
+          )}
         </CardBodyContent>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>
