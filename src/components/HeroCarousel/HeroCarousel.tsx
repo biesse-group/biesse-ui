@@ -117,8 +117,8 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...prop
         </AnimatePresence>
       </ImageContainer>
 
-      <TextContainer>
-        <AnimatePresence initial={false}>
+      <AnimatePresence initial={false} custom={true}>
+        <TextContainer>
           <motion.div
             key={`title-${activeSlide}`}
             variants={titleVariants}
@@ -146,9 +146,9 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...prop
               description
             )}
           </motion.div>
-        </AnimatePresence>
-        <CarouselControls onPrev={() => handleSlide("prev")} onNext={() => handleSlide("next")} />
-      </TextContainer>
+          <CarouselControls onPrev={() => handleSlide("prev")} onNext={() => handleSlide("next")} />
+        </TextContainer>
+      </AnimatePresence>
     </CarouselContainer>
   );
 };
