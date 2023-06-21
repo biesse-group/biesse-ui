@@ -73,7 +73,7 @@ const CardContainer = styled.div`
 
 interface HorizontalCardProps extends BaseProps {
   /** Card title */
-  title: string;
+  title: string | JSX.Element;
   /** Card icon (above title) */
   icon?: IconName | JSX.Element;
   /**
