@@ -2,8 +2,10 @@ import * as IconSources from "./icon-sources";
 
 // Must be update each time a new icon is inserted in the library
 const iconsMap = {
+  "application-detail": IconSources.ApplicationDetail,
   "arrow-right": IconSources.ArrowRight,
   "arrow-left": IconSources.ArrowLeft,
+  calendar: IconSources.Calendar,
   call: IconSources.Call,
   careers: IconSources.Careers,
   "chevron-left": IconSources.ChevronLeft,
@@ -23,8 +25,11 @@ const iconsMap = {
   "material-composite": IconSources.MaterialComposite,
   "material-glass": IconSources.MaterialGlass,
   "material-stone": IconSources.MaterialStone,
+  pavilion: IconSources.Pavilion,
   picture: IconSources.Picture,
   play: IconSources.Play,
+  "process-innovation": IconSources.ProcessInnovation,
+  "product-innovation": IconSources.ProductInnovation,
   "quote-close": IconSources.QuoteClose,
   "quote-open": IconSources.QuoteOpen,
   "round-angle": IconSources.RoundAngle,
