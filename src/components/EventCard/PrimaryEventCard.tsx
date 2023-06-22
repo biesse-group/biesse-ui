@@ -50,13 +50,10 @@ const DateSeparator = styled.span`
 `;
 
 const DateSubtitle = styled(Text)`
-  font-style: italic;
-  margin-bottom: 27px;
-
   ${mqUntil(
     "sm",
     css`
-      display: flex;
+      display: inline-flex;
       flex-direction: column;
     `
   )}
@@ -142,14 +139,11 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
   startDate,
   endDate,
   description,
-  descriptionMaxCharacters,
   children,
   renderLink,
+  location,
   ...props
 }) => {
-  const formattedStartDate = startDate.format("DD MMMM YYYY");
-  const formattedEndDate = endDate.format("DD MMMM YYYY");
-
   return (
     <EventCardRoot data-testid={testId} {...props}>
       <DateLinkWrapper>
@@ -169,23 +163,20 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
         <CardTitle variant="H4" color="primary" uppercase>
           {title}
         </CardTitle>
-        <DateSubtitle size="sm">
-          <span>{formattedStartDate}</span>
-          <DateSeparator>/</DateSeparator>
-          <span>{formattedEndDate}</span>
-        </DateSubtitle>
-        <Text>
-          {typeof description === "string" ? (
-            <Text size="md">
-              {descriptionMaxCharacters
-                ? `${description.substring(0, descriptionMaxCharacters)}${
-                    description.length > descriptionMaxCharacters && "..."
-                  }`
-                : description}
+        <div style={{ marginBottom: 20 }}>
+          <DateSubtitle size="sm" italic>
+            <span>{startDate.format("DD MMMM YYYY")}</span>
+            <DateSeparator>/</DateSeparator>
+            <span>{endDate.format("DD MMMM YYYY")}</span>
+          </DateSubtitle>
+          {location && (
+            <Text tag="p" size="sm" italic>
+              {location}
             </Text>
-          ) : (
-            description
           )}
+        </div>
+        <Text>
+          {typeof description === "string" ? <Text size="md">{description}</Text> : description}
         </Text>
       </EventCardMainWrapper>
       <ChildWrapper>{children}</ChildWrapper>

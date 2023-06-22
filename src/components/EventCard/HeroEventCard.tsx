@@ -87,18 +87,15 @@ const EndDateMonthYear = styled(MonthYearStyledText)`
 const DescriptionItem = styled.div`
   grid-area: description;
   padding: 12px 36px 12px 60px;
-
   background-color: ${(props) => props.theme.color.primary};
 `;
 
 const TitleWrapper = styled.div`
   grid-area: title;
-
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   min-height: 80px;
   padding-right: 36px;
 `;
@@ -106,7 +103,6 @@ const TitleWrapper = styled.div`
 const StyledTitle = styled(Text)`
   line-height: 26px;
   text-transform: uppercase;
-
   padding: 12px 10px 12px 15px;
 `;
 
@@ -121,7 +117,6 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
   endDate,
   description,
   renderLink,
-  descriptionMaxCharacters,
   ...props
 }) => {
   return (
@@ -130,12 +125,12 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
         <StartDateDay color="primary" weight="bold">{`${startDate.format("DD")}`}</StartDateDay>
         <StartDateMonthYear color="dark">
           {`${startDate.format("MMM")}`}
-          <b>{`${startDate.format("YY")}`}</b>
+          <Text weight="bold">{`${startDate.format("YY")}`}</Text>
         </StartDateMonthYear>
         <EndDateDay color="primary" weight="bold">{`${endDate.format("DD")}`}</EndDateDay>
         <EndDateMonthYear color="dark">
           {`${endDate.format("MMM")}`}
-          <b>{`${endDate.format("YY")}`}</b>
+          <Text weight="bold">{`${endDate.format("YY")}`}</Text>
         </EndDateMonthYear>
       </DateSubgrid>
       <TitleWrapper>
@@ -148,11 +143,7 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
         <DescriptionItem>
           {typeof description === "string" ? (
             <Text size="sm" color="light" weight="book">
-              {descriptionMaxCharacters
-                ? `${description.substring(0, descriptionMaxCharacters)}${
-                    description.length > descriptionMaxCharacters && "..."
-                  }`
-                : description}
+              {description}
             </Text>
           ) : (
             description
