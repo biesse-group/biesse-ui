@@ -34,11 +34,6 @@ const CardTitle = styled(Title)`
   font-size: 30px;
 `;
 
-const DateSubtitle = styled(Text)`
-  font-style: italic;
-  margin-bottom: 14px;
-`;
-
 const ActionWrapper = styled.div`
   padding: 14px 15px 20px 20px;
   position: relative;
@@ -49,8 +44,8 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   title,
   startDate,
   endDate,
+  location,
   description,
-  descriptionMaxCharacters,
   renderLink,
   children,
   ...props
@@ -63,18 +58,16 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
         <CardTitle variant="H4" color="primary" uppercase>
           {title}
         </CardTitle>
-        <DateSubtitle size="sm">{dateText}</DateSubtitle>
-        {typeof description === "string" ? (
-          <Text size="md">
-            {descriptionMaxCharacters
-              ? `${description.substring(0, descriptionMaxCharacters)}${
-                  description.length > descriptionMaxCharacters && "..."
-                }`
-              : description}
+        <div style={{ marginBottom: 10 }}>
+          <Text size="sm" italic tag="p">
+            {dateText}
           </Text>
-        ) : (
-          description
-        )}
+          {location && (
+            <Text size="sm" italic tag="p">
+              {location}
+            </Text>
+          )}
+        </div>
       </EventCardMainWrapper>
       <ActionWrapper>{children}</ActionWrapper>
     </EventCardRoot>

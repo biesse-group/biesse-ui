@@ -16,13 +16,13 @@ export interface EventCardProps extends BaseProps {
    */
   endDate: dayjs.Dayjs;
   /**
+   * Event location description
+   */
+  location?: string;
+  /**
    * Description located under the title
    */
   description?: string | JSX.Element;
-  /**
-   * If undefined, no ellipsis will happen
-   */
-  descriptionMaxCharacters?: number;
   /**
    * Link component overlay on the card left side.
    * If HeroEventCard is being used, it will be applied on the title text.

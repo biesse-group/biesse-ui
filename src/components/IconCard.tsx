@@ -15,7 +15,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card title
    */
-  title: string;
+  title: string | JSX.Element;
   /**
    * The card description (JSX element is accepted)
    */
