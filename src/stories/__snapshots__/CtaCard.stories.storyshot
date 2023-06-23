@@ -64,6 +64,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  cursor: pointer;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -340,6 +341,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  cursor: pointer;
   height: 100%;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
