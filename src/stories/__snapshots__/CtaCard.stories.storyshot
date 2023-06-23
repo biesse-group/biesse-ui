@@ -46,7 +46,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   display: flex;
 }
 
-.c10 {
+.c9 {
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
@@ -57,22 +57,22 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 
 .c1 {
   position: relative;
-  overflow: hidden;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  cursor: pointer;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  cursor: auto;
   height: 100%;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
   background-color: #F5F5F5;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -81,10 +81,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 .c1:hover {
   background-color: #FFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
-}
-
-.c1:hover .c9 {
-  opacity: 1;
 }
 
 .c2 {
@@ -160,7 +156,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c10 {
+  .c9 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
     align-self: start;
@@ -230,7 +226,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
       className="c7"
     >
       <span
-        className="c8 c9 c10"
+        className="c8 c9"
         color="primary"
         size="20px"
       >
@@ -323,7 +319,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   display: flex;
 }
 
-.c12 {
+.c11 {
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
@@ -334,18 +330,22 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 
 .c1 {
   position: relative;
-  overflow: hidden;
-  border-bottom-left-radius: 40px;
-  border-top-right-radius: 40px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  cursor: pointer;
-  height: 100%;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  cursor: auto;
+  height: 100%;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
   background-color: #F5F5F5;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -354,10 +354,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 .c1:hover {
   background-color: #FFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
-}
-
-.c1:hover .c11 {
-  opacity: 1;
 }
 
 .c2 {
@@ -454,7 +450,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c12 {
+  .c11 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
     align-self: start;
@@ -540,7 +536,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
       className="c9"
     >
       <span
-        className="c10 c11 c12"
+        className="c10 c11"
         color="primary"
         size="20px"
       >
