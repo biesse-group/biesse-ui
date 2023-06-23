@@ -38,6 +38,7 @@ const Root = styled.div<Pick<CtaCardProps, "variant">>`
   position: relative;
   ${(props) => borderRadius(props.theme.card.borderRadius)}
   display: flex;
+  cursor: pointer;
   ${(props) =>
     props.variant === "full-image" &&
     css`
@@ -120,17 +121,6 @@ const StyledDescription = styled(Text)`
   )}
 `;
 
-const LinkWrapper = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  z-index: 1;
-  cursor: pointer;
-`;
-
 export interface CtaCardProps extends BaseProps {
   /** Card title */
   title: string;
@@ -141,7 +131,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card actions (buttons, etc.)
    */
-  renderLink?: () => JSX.Element;
+  onClick?: () => void;
   /**
    * Card image (on body right)
    */
@@ -159,13 +149,11 @@ export const CtaCard: FC<CtaCardProps> = ({
   description,
   image,
   variant,
-  renderLink,
   testId,
   ...props
 }) => {
   return (
     <Root data-testid={testId} variant={variant} {...props}>
-      {renderLink && <LinkWrapper>{renderLink()}</LinkWrapper>}
       {image && <ImageWrapper>{image}</ImageWrapper>}
       {(title || description) && (
         <TextWrapper variant={variant}>
