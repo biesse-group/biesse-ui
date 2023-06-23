@@ -36,25 +36,26 @@ const StyledIcon = styled(Icon)`
 
 const Root = styled.div<Pick<CtaCardProps, "variant">>`
   position: relative;
-  ${(props) => borderRadius(props.theme.card.borderRadius)}
   display: flex;
-  cursor: pointer;
-  ${(props) =>
-    props.variant === "full-image" &&
-    css`
-      justify-content: center;
-    `}
-  height: 100%;
   flex-direction: row;
+  justify-content: ${(props) => (props.variant === "full-image" ? "center" : "flex-start")};
+  cursor: ${(props) => (props.onClick ? "pointer" : "auto")};
+  height: 100%;
+  ${(props) => borderRadius(props.theme.card.borderRadius)}
   background-color: ${({ theme }) => theme.color.lightGray};
   transition: all 0.5s ease-out;
 
   &:hover {
     background-color: ${(props) => props.theme.color.white};
     box-shadow: ${(props) => props.theme.card.boxShadow};
-    ${StyledIcon} {
-      opacity: 1;
-    }
+
+    ${(props) =>
+      !!props.onClick &&
+      css`
+        ${StyledIcon} {
+          opacity: 1;
+        }
+      `}
   }
 `;
 
@@ -122,14 +123,16 @@ const StyledDescription = styled(Text)`
 `;
 
 export interface CtaCardProps extends BaseProps {
-  /** Card title */
+  /**
+   * Card title
+   */
   title: string;
   /**
    * Card description
    */
   description?: string | JSX.Element;
   /**
-   * Card actions (buttons, etc.)
+   * Card click action
    */
   onClick?: () => void;
   /**
@@ -137,8 +140,7 @@ export interface CtaCardProps extends BaseProps {
    */
   image?: JSX.Element;
   /**
-   * Card variant.
-   * If full-image is chosen, text and description will not appear
+   * Card variant (with `full-image`, text and description will not appear)
    */
   variant: "full-image" | "with-title";
   testId?: string;
