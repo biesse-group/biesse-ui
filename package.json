@@ -39,7 +39,6 @@
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
-    "@biesse-group/fonts": "^1.1.0",
     "@react-theming/storybook-addon": "^1.1.10",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
@@ -103,7 +102,6 @@
     "typescript": "^5.1.3"
   },
   "peerDependencies": {
-    "@biesse-group/fonts": "^1.1.0",
     "react": "^18.2.0",
     "styled-components": ">= 5.3.6"
   },

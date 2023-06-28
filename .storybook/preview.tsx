@@ -3,6 +3,8 @@ import { type Preview } from "@storybook/react";
 import React, { type CSSProperties } from "react";
 import { type DefaultTheme, ThemeProvider } from "styled-components";
 
+import { FontsDecorator } from "~stories/decorators/FontsDecorator";
+
 import { GlobalStyle } from "../src/styles";
 import { biesseTheme, hsdTheme } from "../src/themes";
 
@@ -25,7 +27,9 @@ export const decorators: Preview["decorators"] = [
     return (
       <ThemeProvider theme={THEMES[theme] ?? THEMES.biesse}>
         <GlobalStyle />
-        <Story />
+        <FontsDecorator>
+          <Story />
+        </FontsDecorator>
       </ThemeProvider>
     );
   },

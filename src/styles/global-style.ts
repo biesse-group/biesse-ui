@@ -1,4 +1,3 @@
-import { fontFaces } from "@biesse-group/fonts";
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -15,6 +14,4 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
-
-  ${fontFaces}
 `;
