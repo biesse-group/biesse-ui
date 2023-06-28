@@ -1,6 +1,6 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 
-import { EventCardProps } from "./eventCardProps";
+import { type EventCardProps } from "./eventCardProps";
 import { HeroEventCard } from "./HeroEventCard";
 import { PrimaryEventCard } from "./PrimaryEventCard";
 import { SecondaryEventCard } from "./SecondaryEventCard";

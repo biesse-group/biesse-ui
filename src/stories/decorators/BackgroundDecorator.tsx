@@ -1,13 +1,13 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-type Props = {
+export interface StyledBgProps {
   background?: "primary" | "secondary" | "light" | "dark";
   fullScreen?: boolean;
   maxWidth?: number | string;
-};
+}
 
-const StyledBg = styled.div<Props>`
+const StyledBg = styled.div<StyledBgProps>`
   padding: 1rem;
   background-color: ${({ background, theme }) => {
     switch (background) {
@@ -29,7 +29,7 @@ const StyledBg = styled.div<Props>`
     `}
 `;
 
-export const BackgroundDecorator: FC<PropsWithChildren<Props>> = ({
+export const BackgroundDecorator: FC<PropsWithChildren<StyledBgProps>> = ({
   children,
   maxWidth = 300,
   ...props

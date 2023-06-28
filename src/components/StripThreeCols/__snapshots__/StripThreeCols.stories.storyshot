@@ -1,0 +1,1391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Layout/StripThreeCols Equal Size Items 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary2";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Main Item Large 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary2";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Main Item Large Two Items 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1";
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary1";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary2";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    grid-template-columns: 0 repeat(3,80%) 0;
+    grid-template-areas: ". main secondary1 secondary2 .";
+    overflow-x: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary2";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols One Item 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main";
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Secondary Items Large 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 25% 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary2";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Secondary Items Large Two Items 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1";
+  grid-template-columns: 25% 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary1";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: grid;
+  grid-template-areas: "main secondary1 secondary2";
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+.c2 {
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.c4 {
+  grid-area: main;
+}
+
+.c5 {
+  height: 300px;
+  width: 100%;
+  background-color: #F5F5F5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c3 {
+    grid-template-areas: "main main" "secondary1 secondary2";
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    row-gap: 40px;
+    padding: 0 15px;
+    grid-template-columns: auto;
+    grid-template-areas: "main" "secondary1" "secondary2";
+  }
+}
+
+@media screen and (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<div
+  style={
+    Object {
+      "margin": "30px 0",
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h3
+      className="c1 c2"
+      color="primary"
+    >
+      Lorem ipsum dolor
+    </h3>
+    <div
+      className="c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5"
+        >
+          Item 1
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary1",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 2
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "gridArea": "secondary2",
+          }
+        }
+      >
+        <div
+          className="c5"
+        >
+          Item 3
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Cards/CardList Default 1`] = `
+.c5 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c5 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 10px;
+  width: 10px;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  color: inherit;
+}
+
+.c11 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c12 {
+  margin-left: 6px;
+  display: inline;
+}
+
+.c10 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background: transparent;
+  color: #6D6E70;
+  text-transform: none;
+  padding: 0px;
+}
+
+.c1 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c7 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 30px;
+}
+
+.c4 {
+  grid-area: image;
+  height: 110px;
+  overflow: hidden;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.c4 > * {
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  -webkit-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.c2 {
+  display: grid;
+  height: 110px;
+  grid-template-areas: "image preTitle" "image title" "image action";
+  grid-template-columns: 110px 1fr;
+  -webkit-column-gap: 20px;
+  column-gap: 20px;
+}
+
+.c2:hover .c3 > * {
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.c6 {
+  grid-area: preTitle;
+  margin-bottom: 15px;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c8 {
+  grid-area: title;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.c9 {
+  grid-area: action;
+  -webkit-align-self: self-end;
+  -ms-flex-item-align: self-end;
+  align-self: self-end;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 500,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <h5
+      className="c1"
+      color="primary"
+      style={
+        Object {
+          "marginBottom": 0,
+        }
+      }
+    >
+      Related articles
+    </h5>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+      >
+        <div
+          style={
+            Object {
+              "background": "url(https://dummyimage.com/600x600/dedede/aaa.png)",
+              "backgroundPosition": "center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <span
+        className="c5 c6"
+        size="sm"
+      >
+        January 10, 2023, Location
+      </span>
+      <h6
+        className="c7 c8"
+        color="primary"
+      >
+        Pellentesque auctor neque nec urna
+      </h6>
+      <div
+        className="c9"
+      >
+        <button
+          className="c10"
+          size="small"
+          type="button"
+        >
+          Read more
+          <span
+            className="c11 c12"
+            size="10px"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path
+                  d="M0 0h25.722v48H0z"
+                />
+              </defs>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                transform="translate(12 1)"
+              >
+                <path
+                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+      >
+        <div
+          style={
+            Object {
+              "background": "url(https://dummyimage.com/600x600/dedede/aaa.png)",
+              "backgroundPosition": "center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <span
+        className="c5 c6"
+        size="sm"
+      >
+        January 10, 2023, Location
+      </span>
+      <h6
+        className="c7 c8"
+        color="primary"
+      >
+        Duis leo. Donec mollis hendrerit risus
+      </h6>
+      <div
+        className="c9"
+      >
+        <button
+          className="c10"
+          size="small"
+          type="button"
+        >
+          Read more
+          <span
+            className="c11 c12"
+            size="10px"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path
+                  d="M0 0h25.722v48H0z"
+                />
+              </defs>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                transform="translate(12 1)"
+              >
+                <path
+                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="c2"
+    >
+      <div
+        className="c3 c4"
+      >
+        <div
+          style={
+            Object {
+              "background": "url(https://dummyimage.com/600x600/dedede/aaa.png)",
+              "backgroundPosition": "center center",
+              "backgroundSize": "cover",
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <span
+        className="c5 c6"
+        size="sm"
+      >
+        January 10, 2023, Location
+      </span>
+      <h6
+        className="c7 c8"
+        color="primary"
+      >
+        Morbi ac felis. Aliquam eu nunc. Vivamus consectetuer hendrerit lacus
+      </h6>
+      <div
+        className="c9"
+      >
+        <button
+          className="c10"
+          size="small"
+          type="button"
+        >
+          Read more
+          <span
+            className="c11 c12"
+            size="10px"
+          >
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path
+                  d="M0 0h25.722v48H0z"
+                />
+              </defs>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                transform="translate(12 1)"
+              >
+                <path
+                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,4 +1,9 @@
-import { css, DefaultTheme, FlattenInterpolation, ThemeProps } from "styled-components";
+import {
+  css,
+  type DefaultTheme,
+  type FlattenInterpolation,
+  type ThemeProps,
+} from "styled-components";
 
 type MediaQuery = (
   breakpoint: keyof DefaultTheme["breakpoints"],

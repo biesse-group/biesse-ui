@@ -1,18 +1,19 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
 
-import { BaseProps } from "../baseProps";
-import { Icon, IconName } from "../Icon/Icon";
+import { type BaseProps } from "~components/baseProps";
+import { Icon, type IconName } from "~components/Icon";
+
 import { IconTab } from "./IconTab";
 
-interface TabData {
+export interface IconTabData {
   id: string | number;
   ariaLabel: string;
   icon: IconName;
 }
 
 export interface IconTabsProps extends BaseProps {
-  tabs: TabData[];
+  tabs: IconTabData[];
   selected: string | number;
   onSelect?: (id: string | number) => void;
   variant?: "vertical" | "horizontal";

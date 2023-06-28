@@ -1,8 +1,8 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled from "styled-components";
 
-import { BaseProps } from "../baseProps";
-import { Title } from "../Title";
+import { type BaseProps } from "~components/baseProps";
+import { Title } from "~components/Title";
 
 const Grid = styled.div`
   display: grid;

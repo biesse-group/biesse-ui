@@ -1,0 +1,4 @@
+{
+  "*.(json|ts|tsx|md)": "prettier . --write",
+  "*.(ts|tsx)": "eslint -c .eslintrc.json --max-warnings 0 ."
+}

@@ -1,4 +1,4 @@
-export type MenuPanelItem = {
+export interface MenuPanelItem {
   /**
    * Unique item ID
    */
@@ -22,9 +22,9 @@ export type MenuPanelItem = {
    * **Note:** At the moment this is supported only by `dark` menu variant
    */
   small?: boolean;
-};
+}
 
-export type MenuPanelProps = {
+export interface MenuPanelProps {
   className?: string;
   /**
    * Menu active item ID
@@ -58,4 +58,4 @@ export type MenuPanelProps = {
    * Panel back button click callback
    */
   onBack?: () => void;
-};
+}

@@ -1,0 +1,1978 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Cards/EventCard Hero 1`] = `
+.c2 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E70;
+}
+
+.c2 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6D6E70;
+}
+
+.c5 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c5 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.c8 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c8 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c12 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6D6E70;
+}
+
+.c12 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6D6E70;
+}
+
+.c17 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c17 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.c14 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  color: #6D6E70;
+}
+
+.c14 > svg {
+  height: 100%;
+  width: 100%;
+  color: primary;
+}
+
+.c0 {
+  position: relative;
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  display: inline-grid;
+  grid-template-rows: repeat(2,auto);
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "date-subgrid title" "description description";
+  background-color: #FFF;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.5);
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c1 {
+  grid-area: date-subgrid;
+  display: inline-grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 56px auto;
+  -webkit-column-gap: 4px;
+  column-gap: 4px;
+  grid-template-areas: "start-DD start-MMYY" "end-DD end-MMYY";
+  padding: 12px 8px 12px 0;
+  min-height: 80px;
+  background-color: #F5F5F5;
+  text-transform: uppercase;
+}
+
+.c3 {
+  font-size: 32px;
+  line-height: 28px;
+  justify-self: end;
+}
+
+.c6 {
+  font-size: 17px;
+  line-height: 18px;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.c4 {
+  grid-area: start-DD;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  justify-self: end;
+}
+
+.c7 {
+  grid-area: start-MMYY;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  margin-bottom: 5px;
+}
+
+.c9 {
+  grid-area: end-DD;
+  justify-self: end;
+}
+
+.c10 {
+  grid-area: end-MMYY;
+}
+
+.c16 {
+  grid-area: description;
+  padding: 12px 36px 12px 60px;
+  background-color: #6D6E70;
+}
+
+.c11 {
+  grid-area: title;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 80px;
+  padding-right: 36px;
+}
+
+.c13 {
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 12px 10px 12px 15px;
+}
+
+.c15 {
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c2 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c5 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c5 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c12 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c12 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c12 a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c12 a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c0 {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <span
+        className="c2 c3 c4"
+        color="primary"
+      >
+        24
+      </span>
+      <span
+        className="c5 c6 c7"
+        color="dark"
+      >
+        Jan
+        <span
+          className="c8"
+        >
+          23
+        </span>
+      </span>
+      <span
+        className="c2 c3 c9"
+        color="primary"
+      >
+        10
+      </span>
+      <span
+        className="c5 c6 c10"
+        color="dark"
+      >
+        Feb
+        <span
+          className="c8"
+        >
+          23
+        </span>
+      </span>
+    </div>
+    <div
+      className="c11"
+    >
+      <span
+        className="c12 c13"
+        color="primary"
+        size="xl"
+      >
+        Lorem Ipsum
+      </span>
+      <span
+        className="c14 c15"
+        color="primary"
+        size="30px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div
+      className="c16"
+    >
+      <span
+        className="c17"
+        color="light"
+        size="sm"
+      >
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/EventCard Hover State 1`] = `
+.c4 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c4 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c11 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c11 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c14 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c14 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 23px;
+  width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
+  color: #FFF;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c16 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c2 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: none;
+  color: inherit;
+}
+
+.c9 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2,auto);
+  grid-template-columns: 85px auto;
+  background-color: #F5F5F5;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c0:hover {
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c8 {
+  grid-area: 1/ 2;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 30px 0px 22px;
+}
+
+.c10 {
+  margin-bottom: 11px;
+}
+
+.c13 {
+  margin: 0 4px;
+}
+
+.c7 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c1 {
+  grid-area: 1/ 1 / span 2 / span 1;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 24px 15px 0px 20px;
+  text-align: center;
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c1:hover .c6 {
+  opacity: 1;
+}
+
+.c15 {
+  grid-area: 2 / 2;
+  padding: 28px 15px 20px 20px;
+}
+
+.c3 {
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c12 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c7 {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    grid-area: 1/ 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    grid-area: 2/ 1 / span 1 / span 2;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 40px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h2
+        className="c2 c3"
+      >
+        24
+      </h2>
+      <span
+        className="c4"
+        size="md"
+      >
+        JAN23
+      </span>
+      <h2
+        className="c2 c3"
+      >
+        02
+      </h2>
+      <span
+        className="c4"
+        size="md"
+      >
+        FEB23
+      </span>
+      <span
+        className="c5 c6 c7"
+        color="white"
+        size="23px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div
+      className="c8"
+    >
+      <h4
+        className="c9 c10"
+        color="primary"
+      >
+        Lorem Ipsum
+      </h4>
+      <div
+        style={
+          Object {
+            "marginBottom": 20,
+          }
+        }
+      >
+        <span
+          className="c11 c12"
+          size="sm"
+        >
+          <span>
+            24 January 2023
+          </span>
+          <span
+            className="c13"
+          >
+            /
+          </span>
+          <span>
+            10 February 2023
+          </span>
+        </span>
+      </div>
+      <span
+        className="c14"
+      >
+        <span
+          className="c14"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+    </div>
+    <div
+      className="c15"
+    >
+      <button
+        className="c16"
+        size="small"
+        type="button"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/EventCard Primary 1`] = `
+.c4 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c4 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c11 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c11 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c14 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c14 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 23px;
+  width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
+  color: #FFF;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c16 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c2 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: none;
+  color: inherit;
+}
+
+.c9 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2,auto);
+  grid-template-columns: 85px auto;
+  background-color: #F5F5F5;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c0:hover {
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c8 {
+  grid-area: 1/ 2;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 30px 0px 22px;
+}
+
+.c10 {
+  margin-bottom: 11px;
+}
+
+.c13 {
+  margin: 0 4px;
+}
+
+.c7 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c1 {
+  grid-area: 1/ 1 / span 2 / span 1;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 24px 15px 0px 20px;
+  text-align: center;
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c1:hover .c6 {
+  opacity: 1;
+}
+
+.c15 {
+  grid-area: 2 / 2;
+  padding: 28px 15px 20px 20px;
+}
+
+.c3 {
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c12 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c7 {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    grid-area: 1/ 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    grid-area: 2/ 1 / span 1 / span 2;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 40px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h2
+        className="c2 c3"
+      >
+        24
+      </h2>
+      <span
+        className="c4"
+        size="md"
+      >
+        JAN23
+      </span>
+      <h2
+        className="c2 c3"
+      >
+        02
+      </h2>
+      <span
+        className="c4"
+        size="md"
+      >
+        FEB23
+      </span>
+      <span
+        className="c5 c6 c7"
+        color="white"
+        size="23px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div
+      className="c8"
+    >
+      <h4
+        className="c9 c10"
+        color="primary"
+      >
+        Lorem Ipsum
+      </h4>
+      <div
+        style={
+          Object {
+            "marginBottom": 20,
+          }
+        }
+      >
+        <span
+          className="c11 c12"
+          size="sm"
+        >
+          <span>
+            24 January 2023
+          </span>
+          <span
+            className="c13"
+          >
+            /
+          </span>
+          <span>
+            10 February 2023
+          </span>
+        </span>
+      </div>
+      <span
+        className="c14"
+      >
+        <span
+          className="c14"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+    </div>
+    <div
+      className="c15"
+    >
+      <button
+        className="c16"
+        size="small"
+        type="button"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/EventCard Secondary 1`] = `
+.c4 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+  margin: 0;
+}
+
+.c4 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c6 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c6:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c2 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c0:hover {
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px 30px 0px 22px;
+}
+
+.c3 {
+  margin-bottom: 11px;
+  font-size: 30px;
+}
+
+.c5 {
+  padding: 14px 15px 20px 20px;
+  position: relative;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    font-size: 25px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h4
+        className="c2 c3"
+        color="primary"
+      >
+        Lorem Ipsum
+      </h4>
+      <div
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      >
+        <p
+          className="c4"
+          size="sm"
+        >
+          24 January 2023 / 10 February 2023
+        </p>
+      </div>
+    </div>
+    <div
+      className="c5"
+    >
+      <button
+        className="c6"
+        size="small"
+        type="button"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Cards/EventCard Translated 1`] = `
+.c4 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c4 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c11 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c11 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 20px;
+  color: inherit;
+}
+
+.c14 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c14 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 23px;
+  width: 23px;
+  -webkit-flex: 0 0 23px;
+  -ms-flex: 0 0 23px;
+  flex: 0 0 23px;
+  color: #FFF;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c16 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background-color: transparent;
+  color: #6D6E70;
+  border: 1px solid #6D6E70;
+}
+
+.c16:hover {
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c2 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: none;
+  color: inherit;
+}
+
+.c9 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #6D6E70;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2,auto);
+  grid-template-columns: 85px auto;
+  background-color: #F5F5F5;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c0:hover {
+  background-color: #FFF;
+  box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c8 {
+  grid-area: 1/ 2;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 30px 30px 0px 22px;
+}
+
+.c10 {
+  margin-bottom: 11px;
+}
+
+.c13 {
+  margin: 0 4px;
+}
+
+.c7 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c1 {
+  grid-area: 1/ 1 / span 2 / span 1;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 24px 15px 0px 20px;
+  text-align: center;
+  background-color: #6D6E70;
+  color: #FFF;
+}
+
+.c1:hover .c6 {
+  opacity: 1;
+}
+
+.c15 {
+  grid-area: 2 / 2;
+  padding: 28px 15px 20px 20px;
+}
+
+.c3 {
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c14 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c9 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c13 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c12 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c7 {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    grid-area: 1/ 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c15 {
+    grid-area: 2/ 1 / span 1 / span 2;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 40px;
+  }
+}
+
+<div
+  style={
+    Object {
+      "maxWidth": 600,
+    }
+  }
+>
+  <div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h2
+        className="c2 c3"
+      >
+        24
+      </h2>
+      <span
+        className="c4"
+        size="md"
+      >
+        GEN23
+      </span>
+      <h2
+        className="c2 c3"
+      >
+        02
+      </h2>
+      <span
+        className="c4"
+        size="md"
+      >
+        FEB23
+      </span>
+      <span
+        className="c5 c6 c7"
+        color="white"
+        size="23px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div
+      className="c8"
+    >
+      <h4
+        className="c9 c10"
+        color="primary"
+      >
+        Lorem Ipsum
+      </h4>
+      <div
+        style={
+          Object {
+            "marginBottom": 20,
+          }
+        }
+      >
+        <span
+          className="c11 c12"
+          size="sm"
+        >
+          <span>
+            24 gennaio 2023
+          </span>
+          <span
+            className="c13"
+          >
+            /
+          </span>
+          <span>
+            10 febbraio 2023
+          </span>
+        </span>
+      </div>
+      <span
+        className="c14"
+      >
+        <span
+          className="c14"
+          size="md"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+    </div>
+    <div
+      className="c15"
+    >
+      <button
+        className="c16"
+        size="small"
+        type="button"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;

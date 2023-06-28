@@ -1,14 +1,13 @@
-import React from "react";
-import { FC } from "react";
+import React, { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles";
-import { Text } from "../Text";
+import { Text } from "~components/Text";
+import { mqUntil } from "~styles";
 
-export type ExtraInfoProps = {
+export interface ExtraInfoProps {
   title: string;
-  lines: (string | JSX.Element)[];
-};
+  lines: Array<string | JSX.Element>;
+}
 
 const Root = styled.div<{ linesCount: number }>`
   display: flex;

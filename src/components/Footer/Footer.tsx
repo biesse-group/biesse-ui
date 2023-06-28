@@ -1,12 +1,13 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
-import { BaseProps } from "../baseProps";
-import { ExtraInfo, ExtraInfoProps } from "./ExtraInfo";
-import { InfoBox, InfoBoxProps } from "./InfoBox";
-import { LinksList, LinksListProps } from "./LinksList";
-import { SocialLink, SocialLinkProps } from "./SocialLink";
+import type { BaseProps } from "~components/baseProps";
+import { mqUntil } from "~styles/media-queries";
+
+import { ExtraInfo, type ExtraInfoProps } from "./ExtraInfo";
+import { InfoBox, type InfoBoxProps } from "./InfoBox";
+import { LinksList, type LinksListProps } from "./LinksList";
+import { SocialLink, type SocialLinkProps } from "./SocialLink";
 
 export interface FooterProps extends BaseProps {
   /**
@@ -238,7 +239,7 @@ export const Footer: FC<FooterProps> = ({
     <FooterRoot data-testid={testId} {...props}>
       <FooterContainer>
         <LogoWrapper>{logo}</LogoWrapper>
-        {(siteInfo || contactsInfo) && (
+        {(siteInfo ?? contactsInfo) && (
           <InfoWrapper>
             {siteInfo && <SiteInfoBox {...siteInfo} />}
             {contactsInfo && <ContactsInfoBox {...contactsInfo} />}

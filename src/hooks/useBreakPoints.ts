@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { DefaultTheme, useTheme } from "styled-components";
+import { type DefaultTheme, useTheme } from "styled-components";
 
 import { getKeys } from "../utils";
 
@@ -14,8 +14,8 @@ export function useBreakpoints() {
         ...acc,
         [bpKey]: typeof window !== "undefined" && window.innerWidth >= theme.breakpoints[bpKey],
       }),
-      {} as Breakpoints
-    );
+      {}
+    ) as Breakpoints;
   }, [theme.breakpoints]);
 
   const [breakpoints, setBreakpoints] = useState<Breakpoints>(calculateBreakpoints());

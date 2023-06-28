@@ -1,10 +1,11 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles";
-import { BaseProps } from "../baseProps";
-import { Icon } from "../Icon";
-import { MenuPanelItem, MenuPanelProps } from "./menuPanelProps";
+import type { BaseProps } from "~components/baseProps";
+import { Icon } from "~components/Icon";
+import { mqUntil } from "~styles";
+
+import { type MenuPanelItem, type MenuPanelProps } from "./menuPanelProps";
 
 type MenuItemProps = Required<Pick<MenuPanelProps, "variant">> &
   Omit<MenuPanelItem, "id" | "divider"> & { active?: boolean } & BaseProps;

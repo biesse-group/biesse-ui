@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles";
-import { ItemProps } from "./itemProps";
+import { mqUntil } from "~styles";
+
+import { type ItemProps } from "./types";
 
 export const ItemTitle = styled(motion.div)<ItemProps>`
   color: ${(props) => props.theme.color.white};

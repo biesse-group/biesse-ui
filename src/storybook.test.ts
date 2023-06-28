@@ -1,7 +1,6 @@
 import initStoryshots, { multiSnapshotWithOptions } from "@storybook/addon-storyshots";
 import { render } from "@testing-library/react";
-import "jest-styled-components";
-import { styleSheetSerializer } from "jest-styled-components/serializer";
+import { styleSheetSerializer } from "jest-styled-components";
 import path from "path";
 
 initStoryshots({
