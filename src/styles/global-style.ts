@@ -1,6 +1,5 @@
+import { fontFaces } from "@biesse-group/fonts";
 import { createGlobalStyle } from "styled-components";
-
-import { fontFaces } from "./font-faces";
 
 export const GlobalStyle = createGlobalStyle`
   html,

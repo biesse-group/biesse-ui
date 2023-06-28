@@ -1,17 +1,16 @@
 {
   "name": "@biesse-group/react-components",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Biesse-Group"
+    "registry": "https://npm.pkg.github.com/biesse-group"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BIESSE React Components",
-  "author": "Fabio Fognani",
-  "homepage": "http://Biesse-Group.github.io/biesse-ui",
+  "author": "Niccolò Taddei",
+  "homepage": "http://biesse-group.github.io/biesse-ui",
   "license": "ISC",
   "scripts": {
     "test": "jest",
     "build": "rimraf dist && rollup -c",
-    "postbuild": "rimraf dist/.storybook",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "rimraf storybook-static && storybook build",
     "eslint": "eslint -c .eslintrc.json --max-warnings 0 .",
@@ -35,11 +34,12 @@
   ],
   "types": "dist/index.d.ts",
   "devDependencies": {
+    "@babel/core": "^7.22.5",
     "@babel/plugin-transform-runtime": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
-    "@Biesse-Group/fonts": "npm:@Biesse-Group/fonts@^0.0.4",
+    "@biesse-group/fonts": "^1.1.0",
     "@react-theming/storybook-addon": "^1.1.10",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
@@ -103,7 +103,7 @@
     "typescript": "^5.1.3"
   },
   "peerDependencies": {
-    "@Biesse-Group/fonts": "npm:@Biesse-Group/fonts@^0.0.4",
+    "@biesse-group/fonts": "^1.1.0",
     "react": "^18.2.0",
     "styled-components": ">= 5.3.6"
   },

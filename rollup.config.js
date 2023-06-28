@@ -9,7 +9,7 @@ import tsConfigPaths from "rollup-plugin-tsconfig-paths";
 export default [
   {
     input: "src/index.ts",
-    external: ["styled-components"],
+    external: ["styled-components", "@biesse-group/fonts"],
     output: [
       {
         file: "dist/index.js",
@@ -22,7 +22,10 @@ export default [
       peerDepsExternal(),
       resolve(),
       commonjs(),
-      typescript({ tsconfig: "./tsconfig.json" }),
+      typescript({
+        tsconfig: "./tsconfig.json",
+        exclude: ["./.storybook/*", "./src/**/*.stories*"],
+      }),
       postcss(),
       terser(),
     ],
