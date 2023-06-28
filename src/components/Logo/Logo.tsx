@@ -1,7 +1,8 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { BaseProps } from "../baseProps";
+import type { BaseProps } from "~components/baseProps";
+
 import * as LogoSources from "./logo-sources";
 
 export interface LogoProps extends BaseProps {

@@ -1,8 +1,9 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
 
-import { BaseProps } from "../baseProps";
-import { IconButton } from "../IconButton";
+import type { BaseProps } from "~components/baseProps";
+import { IconButton } from "~components/IconButton";
+
 import { PageButton } from "./PageButton";
 
 const MAX_VISIBLE_PAGES = 5;

@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-import { mqFrom, mqUntil } from "../../styles";
+import { mqFrom, mqUntil } from "~styles";
 
 export const ItemsStrip = styled.div<{ $isMobile?: boolean }>`
   align-items: center;

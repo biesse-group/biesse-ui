@@ -1,7 +1,9 @@
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
-import { Preview } from "@storybook/react";
-import React, { CSSProperties } from "react";
-import { ThemeProvider } from "styled-components";
+import { type Preview } from "@storybook/react";
+import React, { type CSSProperties } from "react";
+import { type DefaultTheme, ThemeProvider } from "styled-components";
+
+import { FontsDecorator } from "~stories/decorators/FontsDecorator";
 
 import { GlobalStyle } from "../src/styles";
 import { biesseTheme, hsdTheme } from "../src/themes";
@@ -13,7 +15,7 @@ const getDotStyle = (theme: "biesse" | "hsd"): CSSProperties => ({
   background: theme === "biesse" ? "#6D6E70" : "#194898",
 });
 
-const THEMES = {
+const THEMES: Record<string, DefaultTheme> = {
   biesse: biesseTheme,
   hsd: hsdTheme,
 };
@@ -23,9 +25,11 @@ export const decorators: Preview["decorators"] = [
     const { theme } = context.globals;
 
     return (
-      <ThemeProvider theme={THEMES[theme] || THEMES["biesse"]}>
+      <ThemeProvider theme={THEMES[theme] ?? THEMES.biesse}>
         <GlobalStyle />
-        <Story />
+        <FontsDecorator>
+          <Story />
+        </FontsDecorator>
       </ThemeProvider>
     );
   },

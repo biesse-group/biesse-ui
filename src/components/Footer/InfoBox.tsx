@@ -1,10 +1,10 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
-import { BaseProps } from "../baseProps";
-import { Icon, IconName } from "../Icon";
-import { Text } from "../Text";
+import type { BaseProps } from "~components/baseProps";
+import { Icon, type IconName } from "~components/Icon";
+import { Text } from "~components/Text";
+import { mqUntil } from "~styles/media-queries";
 
 export interface InfoBoxProps extends BaseProps {
   /**

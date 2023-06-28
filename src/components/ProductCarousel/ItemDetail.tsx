@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
-import React, { FC, PropsWithChildren } from "react";
+import React, { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles";
-import { BaseProps } from "../baseProps";
+import { type BaseProps } from "~components/baseProps";
+import { mqUntil } from "~styles";
+
 import { detailVariants } from "./variants";
 
 const ItemDetailInner = styled(motion.div)`
@@ -19,11 +20,15 @@ const ItemDetailInner = styled(motion.div)`
   )}
 `;
 
-interface Props extends BaseProps {
+export interface ItemDetailProps extends BaseProps {
   uniqueId: React.Key;
 }
 
-export const ItemDetail: FC<PropsWithChildren<Props>> = ({ uniqueId, children, ...props }) => {
+export const ItemDetail: FC<PropsWithChildren<ItemDetailProps>> = ({
+  uniqueId,
+  children,
+  ...props
+}) => {
   return (
     <ItemDetailInner
       variants={detailVariants}

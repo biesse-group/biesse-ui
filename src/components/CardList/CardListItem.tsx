@@ -1,11 +1,11 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled from "styled-components";
 
-import { borderRadius, multilineEllipsis, singleLineEllipsis } from "../../styles";
-import { BaseProps } from "../baseProps";
-import { Button } from "../Button";
-import { Text } from "../Text";
-import { Title } from "../Title";
+import { borderRadius, multilineEllipsis, singleLineEllipsis } from "~/styles";
+import { type BaseProps } from "~components/baseProps";
+import { Button } from "~components/Button";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
 
 export interface CardListItemProps extends BaseProps {
   preTitle?: string;

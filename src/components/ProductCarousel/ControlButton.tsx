@@ -1,18 +1,18 @@
-import React, { ComponentType, FC } from "react";
+import React, { type ComponentType, type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
-import { BaseProps } from "../baseProps";
-import { IconButton, IconButtonProps } from "../IconButton";
+import type { BaseProps } from "~components/baseProps";
+import { IconButton, type IconButtonProps } from "~components/IconButton";
+import { mqUntil } from "~styles/media-queries";
 
-interface Props extends BaseProps {
+export interface StyledIconButtonProps extends BaseProps {
   direction: "prev" | "next";
   onClick?: () => void;
 }
 
-const StyledIconButton = styled<ComponentType<IconButtonProps & Pick<Props, "direction">>>(
-  IconButton
-)`
+const StyledIconButton = styled<
+  ComponentType<IconButtonProps & Pick<StyledIconButtonProps, "direction">>
+>(IconButton)`
   position: absolute;
   bottom: 28px;
   ${(props) => {
@@ -37,7 +37,7 @@ const StyledIconButton = styled<ComponentType<IconButtonProps & Pick<Props, "dir
   }}
 `;
 
-export const ControlButton: FC<Props> = (props) => {
+export const ControlButton: FC<StyledIconButtonProps> = (props) => {
   return (
     <StyledIconButton
       variant="primary"

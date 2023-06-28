@@ -1,11 +1,12 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { borderRadius } from "../../styles";
-import { mqUntil } from "../../styles/media-queries";
-import { Icon } from "../Icon";
-import { Text } from "../Text";
-import { EventCardProps } from "./eventCardProps";
+import { Icon } from "~components/Icon";
+import { Text } from "~components/Text";
+import { borderRadius } from "~styles";
+import { mqUntil } from "~styles/media-queries";
+
+import { type EventCardProps } from "./eventCardProps";
 
 const HeroEventCardRoot = styled.div`
   position: relative;
@@ -87,15 +88,18 @@ const EndDateMonthYear = styled(MonthYearStyledText)`
 const DescriptionItem = styled.div`
   grid-area: description;
   padding: 12px 36px 12px 60px;
+
   background-color: ${(props) => props.theme.color.primary};
 `;
 
 const TitleWrapper = styled.div`
   grid-area: title;
+
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   min-height: 80px;
   padding-right: 36px;
 `;
@@ -103,6 +107,7 @@ const TitleWrapper = styled.div`
 const StyledTitle = styled(Text)`
   line-height: 26px;
   text-transform: uppercase;
+
   padding: 12px 10px 12px 15px;
 `;
 

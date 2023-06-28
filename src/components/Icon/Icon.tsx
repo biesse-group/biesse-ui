@@ -1,8 +1,9 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { BiesseTheme } from "../../themes";
-import { BaseProps } from "../baseProps";
+import type { BaseProps } from "~components/baseProps";
+import { type BiesseTheme } from "~themes";
+
 import iconsMap from "./icons-map";
 
 export type IconName = keyof typeof iconsMap;
@@ -66,7 +67,7 @@ const IconRoot = styled.span<Omit<IconProps, "name">>`
   > svg {
     height: 100%;
     width: 100%;
-    color: ${(props) => props.color || "inherit"};
+    color: ${(props) => props.color ?? "inherit"};
   }
 `;
 

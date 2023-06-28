@@ -1,12 +1,13 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { borderRadius } from "../../styles";
-import { mqUntil } from "../../styles/media-queries";
-import { Icon } from "../Icon";
-import { Text } from "../Text";
-import { Title } from "../Title";
-import { EventCardProps } from "./eventCardProps";
+import { Icon } from "~components/Icon";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { borderRadius } from "~styles";
+import { mqUntil } from "~styles/media-queries";
+
+import { type EventCardProps } from "./eventCardProps";
 
 const EventCardRoot = styled.div`
   position: relative;

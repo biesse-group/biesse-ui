@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
+.c4 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+  margin: 0;
+}
+
+.c4 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.c2 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.c0 {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom-left-radius: 40px;
+}
+
+.c1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 600px;
+  height: 500px;
+  padding: 65px 60px 45px 120px;
+  background-color: #6D6E70;
+  color: #FFF;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c3 {
+  word-wrap: break-word;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c4 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c0 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    width: 400px;
+    height: auto;
+    min-height: 400px;
+    padding: 36px 17px 36px 25px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    width: 265px;
+    padding: 27px 13px 27px 24px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <img
+    alt=""
+    src="https://dummyimage.com/1920x1080/cccccc/ffffff.png"
+  />
+  <div
+    className="c1"
+  >
+    <h1
+      className="c2 c3"
+      size="lg"
+    >
+      Lorem ipsum
+    </h1>
+    <p
+      className="c4"
+      size="lg"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
+.c3 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c3 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c7 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c7 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.c10 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+  margin: 0;
+}
+
+.c10 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: inherit;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 12px;
+  width: 12px;
+  -webkit-flex: 0 0 12px;
+  -ms-flex: 0 0 12px;
+  flex: 0 0 12px;
+  color: inherit;
+}
+
+.c5 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 26px;
+  padding: 6px 14px;
+  gap: 5px;
+  border-radius: 99px;
+  background-color: #c1cfe8;
+}
+
+.c4 {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 12px;
+  white-space: nowrap;
+  color: #252525;
+}
+
+.c6 {
+  color: #828282;
+}
+
+.c12 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 0px 32px;
+  height: 40px;
+  background: transparent;
+  color: #FFF;
+  border: 1px solid #FFF;
+}
+
+.c12:hover {
+  color: #6D6E70;
+  background-color: #FFF;
+}
+
+.c8 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.c0 {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom-left-radius: 40px;
+}
+
+.c1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 600px;
+  height: 500px;
+  padding: 35px 60px 45px 120px;
+  background-color: #6D6E70;
+  color: #FFF;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.c9 {
+  word-wrap: break-word;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.c11 {
+  margin-top: auto;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c3 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c7 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c7 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c10 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c10 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c10 a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c10 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+@media screen and (max-width:991px) {
+  .c0 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c1 {
+    width: 400px;
+    height: auto;
+    min-height: 400px;
+    padding: 36px 17px 36px 25px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c1 {
+    width: 265px;
+    padding: 27px 13px 27px 24px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <img
+    alt=""
+    src="https://dummyimage.com/1920x1080/cccccc/ffffff.png"
+  />
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      <span
+        className="c3 c4"
+        style={
+          Object {
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Homepage
+      </span>
+      <span
+        className="c5 c6"
+        size="12px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            fill="currentColor"
+            fillRule="evenodd"
+            transform="matrix(-1 0 0 1 37.722 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+            />
+          </g>
+        </svg>
+      </span>
+      <span
+        className="c7 c4"
+        style={
+          Object {
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        Test page
+      </span>
+    </div>
+    <h1
+      className="c8 c9"
+      size="lg"
+    >
+      Lorem ipsum
+    </h1>
+    <p
+      className="c10"
+      size="lg"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <div
+      className="c11"
+    >
+      <button
+        className="c12"
+        type="button"
+      >
+        More...
+      </button>
+    </div>
+  </div>
+</div>
+`;

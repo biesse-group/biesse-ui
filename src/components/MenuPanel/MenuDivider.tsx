@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { MenuPanelProps } from "./menuPanelProps";
+import { type MenuPanelProps } from "./menuPanelProps";
 
 export const MenuDivider = styled.div<Pick<MenuPanelProps, "variant">>`
   height: 1px;

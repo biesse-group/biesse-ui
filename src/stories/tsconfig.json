@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
-    "strictBindCallApply": true,
-    "esModuleInterop": true
-  },
-  "include": ["./**/*", "../styled.d.ts"]
-}

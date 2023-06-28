@@ -1,5 +1,5 @@
-import { BaseProps } from "../baseProps";
-import { IconName } from "../Icon";
+import { type BaseProps } from "~components/baseProps";
+import { type IconName } from "~components/Icon";
 
 export interface NavLink {
   label: string;

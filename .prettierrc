@@ -1,13 +1,14 @@
 {
   "arrowParens": "always",
   "printWidth": 100,
+  "singleQuote": false,
   "quoteProps": "as-needed",
   "semi": true,
   "endOfLine": "lf",
   "tabWidth": 2,
   "trailingComma": "es5",
-  "importOrder": ["<THIRD_PARTY_MODULES>", "^[./]"],
   "importOrderSortSpecifiers": true,
+  "importOrder": ["<THIRD_PARTY_MODULES>", "^~", "^[./]"],
   "importOrderCaseInsensitive": true,
   "importOrderSeparation": true
 }
