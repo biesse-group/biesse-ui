@@ -6,6 +6,7 @@ export * from "./Call";
 export * from "./Careers";
 export * from "./ChevronLeft";
 export * from "./ChevronRight";
+export * from "./CheckMark";
 export * from "./Close";
 export * from "./Contacts";
 export * from "./Country";
