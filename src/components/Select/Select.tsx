@@ -1,10 +1,11 @@
 import { type FC, useState } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 import { inputStyles } from "~styles/input-styles";
 
-export interface SelectProps {
+export interface SelectProps extends BaseProps {
   /**
    * Shows a disabled option as placeholder
    */
@@ -76,6 +77,8 @@ export const Select: FC<SelectProps> = ({
   options,
   placeholder,
   testId,
+  className,
+  style,
   ...props
 }) => {
   const [selected, setSelected] = useState(!!value);
@@ -86,13 +89,11 @@ export const Select: FC<SelectProps> = ({
   };
 
   return (
-    <SelectContainer>
+    <SelectContainer {...{ className, style }}>
       <StyledSelect
         selected={selected}
-        onChange={(e) => {
-          handleChange(e.currentTarget.value);
-        }}
-        defaultValue={value ?? ""}
+        onChange={(e) => handleChange(e.currentTarget.value)}
+        value={value ?? ""}
         data-testid={testId}
         {...props}
       >

@@ -7,10 +7,6 @@ export default {
   title: "Layout/StripThreeCols",
   component: StripThreeCols,
   tags: ["autodocs"],
-  parameters: {
-    layout: "fullscreen",
-  },
-  decorators: [(Story) => <div style={{ margin: "30px 0" }}>{Story()}</div>],
 } as Meta<typeof StripThreeCols>;
 
 type Story = StoryObj<typeof StripThreeCols>;

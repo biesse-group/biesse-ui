@@ -1,9 +1,10 @@
 import { type FC, useEffect, useState } from "react";
 import styled from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 
-export interface SearchBarProps {
+export interface SearchBarProps extends BaseProps {
   /**
    * Input placeholder
    */
@@ -94,9 +95,7 @@ export const SearchBar: FC<SearchBarProps> = ({
         type="text"
         placeholder={placeholder}
         defaultValue={value}
-        onChange={(event) => {
-          handleChange(event.currentTarget.value);
-        }}
+        onChange={(event) => handleChange(event.currentTarget.value)}
         data-testid={testId}
       />
       <InputIcon size="26px" name="search" />

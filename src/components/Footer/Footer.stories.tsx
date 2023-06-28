@@ -61,8 +61,11 @@ export const Default: Story = {
       },
       {
         title: "Service Italia:",
-        // eslint-disable-next-line react/jsx-key
-        lines: [<a href="mailto:servicehsd@hsd.it">servicehsd@hsd.it</a>],
+        lines: [
+          <a key="mailto:servicehsd@hsd.it" href="mailto:servicehsd@hsd.it">
+            servicehsd@hsd.it
+          </a>,
+        ],
       },
     ],
     socialLink: {

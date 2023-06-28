@@ -19,7 +19,6 @@ export interface IconButtonProps extends BaseProps {
    */
   "aria-label": string;
   onClick?: () => void;
-  className?: string;
   testId?: string;
 }
 

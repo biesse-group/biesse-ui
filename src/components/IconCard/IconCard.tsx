@@ -1,12 +1,13 @@
 import { type FC } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles";
 
-export interface IconCardProps {
+export interface IconCardProps extends BaseProps {
   /**
    * An icon from icons set or an external JSX element
    */
@@ -14,7 +15,7 @@ export interface IconCardProps {
   /**
    * The card title
    */
-  title: string;
+  title: string | JSX.Element;
   /**
    * The card description (JSX element is accepted)
    */

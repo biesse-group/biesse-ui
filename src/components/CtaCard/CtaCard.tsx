@@ -1,12 +1,12 @@
 import { type FC } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 
 import { borderRadius, mqUntil } from "../../styles";
-import { BaseProps } from "~components/baseProps";
 
 const IconWrapper = styled.div`
   position: absolute;
@@ -121,17 +121,6 @@ const StyledDescription = styled(Text)`
       display: none;
     `
   )}
-`;
-
-const LinkWrapper = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  z-index: 1;
-  cursor: pointer;
 `;
 
 export interface CtaCardProps extends BaseProps {

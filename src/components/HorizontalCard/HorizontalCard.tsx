@@ -1,6 +1,7 @@
 import { type FC } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
@@ -70,9 +71,9 @@ const CardContainer = styled.div`
   }
 `;
 
-export interface HorizontalCardProps {
+interface HorizontalCardProps extends BaseProps {
   /** Card title */
-  title: string;
+  title: string | JSX.Element;
   /** Card icon (above title) */
   icon?: IconName | JSX.Element;
   /**

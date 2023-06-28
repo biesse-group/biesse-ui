@@ -1,10 +1,11 @@
 import { type CSSProperties, type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { mqUntil } from "~styles/media-queries";
 import { type BiesseTheme } from "~themes";
 
-export interface TextProps {
+export interface TextProps extends BaseProps {
   /**
    * Font size, should be one of `xl`, `lg`, `md`, `sm`, `xs`
    */

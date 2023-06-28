@@ -1,9 +1,7 @@
 import { type Meta, type StoryObj } from "@storybook/react";
 
-import { BackgroundDecorator } from "../../stories/decorators";
-import { Button } from "../Button";
-import { SearchBar } from "../SearchBar";
-import { MenuPanel } from "./MenuPanel";
+import { Button, MenuPanel, SearchBar } from "~components";
+import { BackgroundDecorator } from "~stories/decorators";
 
 const meta: Meta = {
   component: MenuPanel,
@@ -21,11 +19,14 @@ type Story = StoryObj<typeof MenuPanel>;
 export const Primary: Story = {
   args: {
     title: "Macrocategoria",
-    items: [{ label: "Famiglie di prodotto" }, { label: "Tecnologia" }],
+    items: [
+      { label: "Famiglie di prodotto", id: "product-families" },
+      { label: "Materiale", id: "material" },
+    ],
     extra: <SearchBar />,
     onClose: () => {},
     variant: "primary",
-    width: "500px",
+    width: "30vw",
   },
 };
 
@@ -33,11 +34,11 @@ export const Secondary: Story = {
   args: {
     ...Primary.args,
     items: [
-      { label: "Metallo" },
-      { label: "Legno" },
-      { label: "Vetro" },
-      { label: "Pietra" },
-      { label: "Compositi" },
+      { id: "metal", label: "Metallo" },
+      { id: "wood", label: "Legno" },
+      { id: "glass", label: "Vetro" },
+      { id: "stone", label: "Pietra" },
+      { id: "composite", label: "Compositi" },
     ],
     title: "Materiale",
     variant: "secondary",
@@ -55,14 +56,14 @@ export const Light: Story = {
   args: {
     ...Secondary.args,
     items: [
-      { label: "Elettromandrini", icon },
-      { label: "Teste a 1 e 2 assi", icon },
-      { label: "Asse C", icon },
-      { label: "Aggregati", icon },
-      { label: "Elettromandrini MT", icon },
-      { label: "Foratrici", icon },
-      { label: "Gruppi multifunzione", icon },
-      { label: "Smart Motors", icon },
+      { id: "elettromandrini", label: "Elettromandrini", icon },
+      { id: "teste-a-1-e-2-assi", label: "Teste a 1 e 2 assi", icon },
+      { id: "asse-c", label: "Asse C", icon },
+      { id: "aggregati", label: "Aggregati", icon },
+      { id: "elettromandrini-mt", label: "Elettromandrini MT", icon },
+      { id: "foratrici", label: "Foratrici", icon },
+      { id: "gruppi-multifunzione", label: "Gruppi multifunzione", icon },
+      { id: "smart-motors", label: "Smart Motors", icon },
     ],
     variant: "light",
     title: "Famiglie di prodotto",
@@ -72,7 +73,10 @@ export const Light: Story = {
 export const White: Story = {
   args: {
     ...Secondary.args,
-    items: [{ label: "ES7 Line" }, { label: "ES8 Line S" }],
+    items: [
+      { id: "es7-line", label: "ES7 Line" },
+      { id: "es8-line-s", label: "ES8 Line S" },
+    ],
     variant: "white",
     title: "Linee di prodotto",
     extra: undefined,
@@ -90,13 +94,13 @@ export const Dark: Story = {
   args: {
     ...Primary.args,
     items: [
-      { label: "Azienda" },
-      { label: "Prodotti" },
-      { label: "Case History" },
-      { label: "News ed eventi" },
-      { divider: true },
-      { label: "Carriere", small: true },
-      { label: "Contatti", small: true },
+      { id: "company", label: "Azienda" },
+      { id: "products", label: "Prodotti" },
+      { id: "case-history", label: "Case History" },
+      { id: "news-and-events", label: "News ed eventi" },
+      { id: "divider-1", divider: true },
+      { id: "careers", label: "Carriere", small: true },
+      { id: "contacts", label: "Contatti", small: true },
     ],
     variant: "dark",
     width: "360px",
@@ -109,4 +113,20 @@ export const Dark: Story = {
       </BackgroundDecorator>
     ),
   ],
+};
+
+export const ActiveItem: Story = {
+  ...Primary,
+  args: {
+    ...Primary.args,
+    activeItem: "material",
+  },
+};
+
+export const WithBackButton: Story = {
+  ...Primary,
+  args: {
+    ...Primary.args,
+    onBack: () => {},
+  },
 };

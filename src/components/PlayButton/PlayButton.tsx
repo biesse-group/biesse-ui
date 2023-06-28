@@ -2,9 +2,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { type FC } from "react";
 import styled from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 
-export interface PlayButtonProps {
+export interface PlayButtonProps extends BaseProps {
   isPlaying?: boolean;
   onClick?: () => void;
   testId?: string;

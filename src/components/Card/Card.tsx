@@ -1,6 +1,7 @@
 import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 
@@ -124,11 +125,7 @@ const CardBody = styled.div<Pick<CardProps, "direction">>`
     )}
 `;
 
-export interface CardProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface CardProps extends BaseProps {
   /**
    * Card direction
    */
@@ -144,7 +141,7 @@ export interface CardProps {
   /**
    * The card title
    */
-  title?: string;
+  title?: string | JSX.Element;
   /**
    * Max lines of title before ellipsis
    * If undefined no Ellipsis will be applied
@@ -166,7 +163,6 @@ export interface CardProps {
 }
 
 export const Card: FC<PropsWithChildren<CardProps>> = ({
-  className,
   direction = "vertical",
   testId,
   title,
@@ -180,7 +176,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   ...props
 }) => {
   return (
-    <CardRoot className={className} data-testid={testId} direction={direction} {...props}>
+    <CardRoot data-testid={testId} direction={direction} {...props}>
       <CardImageWrapper direction={direction}>
         {tags && <TagsWrapper>{tags}</TagsWrapper>}
         {image && <CardImageInner>{image}</CardImageInner>}
@@ -195,9 +191,11 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
           <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle, titleLines }}>
             {title}
           </CardTitle>
-          <div style={{ marginTop: "20px" }}>
-            {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
-          </div>
+          {children && (
+            <div style={{ marginTop: "20px" }}>
+              {typeof children === "string" ? <Text tag="p">{children}</Text> : children}
+            </div>
+          )}
         </CardBodyContent>
         {action && <div style={{ marginTop: "20px" }}>{action}</div>}
       </CardBody>

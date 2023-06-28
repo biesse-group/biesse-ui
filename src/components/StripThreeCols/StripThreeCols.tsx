@@ -1,10 +1,11 @@
 import { type FC } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Title } from "~components/Title";
 import { mqFrom, mqUntil } from "~styles";
 
-export interface StripThreeColsProps {
+export interface StripThreeColsProps extends BaseProps {
   /**
    * Strip title
    */

@@ -1,10 +1,17 @@
 import { type Meta, type StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import { type FC, useState } from "react";
 
 import { BackgroundDecorator } from "~stories/decorators";
 import { sleep } from "~stories/utils/sleep";
 
-import { Select } from "./Select";
+import { Select, type SelectProps } from "./Select";
+
+const SelectWrapper: FC<SelectProps> = ({ value: defaultValue, ...props }) => {
+  const [selected, setSelected] = useState<string>(defaultValue ?? "");
+
+  return <Select {...props} value={selected} onChange={setSelected} />;
+};
 
 export default {
   title: "Inputs/Select",
@@ -20,6 +27,7 @@ export default {
       </BackgroundDecorator>
     ),
   ],
+  render: (args) => <SelectWrapper {...args} />,
 } as Meta<typeof Select>;
 
 type Story = StoryObj<typeof Select>;
@@ -87,12 +95,12 @@ export const Selected: Story = {
     const select = canvas.getByTestId("select");
 
     await sleep(1000);
-    await userEvent.selectOptions(select, ["Option 1"]);
+    userEvent.selectOptions(select, ["Option 1"]);
 
     await sleep(1000);
-    await userEvent.selectOptions(select, ["Option 2"]);
+    userEvent.selectOptions(select, ["Option 2"]);
 
     await sleep(1000);
-    await userEvent.selectOptions(select, ["Option 3"]);
+    userEvent.selectOptions(select, ["Option 3"]);
   },
 };

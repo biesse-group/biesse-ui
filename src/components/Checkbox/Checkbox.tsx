@@ -1,13 +1,10 @@
 import { type FC, useCallback, useState } from "react";
 import styled from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Text } from "~components/Text";
 
-export interface CheckboxProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface CheckboxProps extends BaseProps {
   /**
    * Label on the right of the checkbox
    */
@@ -75,9 +72,7 @@ export const Checkbox: FC<CheckboxProps> = ({
       <HiddenInput
         id={inputId}
         type="checkbox"
-        onChange={(e) => {
-          onInputChange(e.target.checked);
-        }}
+        onChange={(e) => onInputChange(e.target.checked)}
         checked={isChecked}
       />
       <StyledCheckbox checked={isChecked}>

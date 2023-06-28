@@ -1,13 +1,23 @@
 import { type FC } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { mqUntil } from "~styles";
 
-export interface QuoteProps {
+export interface QuoteProps extends BaseProps {
+  /**
+   * Citation text
+   */
   citation: string;
+  /**
+   * Name of the quote author
+   */
   authorName: string;
+  /**
+   * An author role description
+   */
   authorDescription: string;
 }
 

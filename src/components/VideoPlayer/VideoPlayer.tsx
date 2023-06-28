@@ -1,14 +1,11 @@
 import { createRef, type FC, useState } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { PlayButton } from "~components/PlayButton";
 import { mqUntil } from "~styles";
 
-export interface VideoPlayerProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface VideoPlayerProps extends BaseProps {
   url: string;
   /**
    * Video format, if none is passed mp4 is assumed
@@ -104,12 +101,8 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
     <VideoPlayerRoot data-testid={testId} {...props}>
       <PauseAction isPlaying={isVideoPlaying} onClick={handlePause} data-testid={`pause-action`} />
       <StyledVideo
-        onPlaying={() => {
-          setIsVideoPlaying(true);
-        }}
-        onPause={() => {
-          setIsVideoPlaying(false);
-        }}
+        onPlaying={() => setIsVideoPlaying(true)}
+        onPause={() => setIsVideoPlaying(false)}
         ref={videoRef}
         controls={false}
         playsInline

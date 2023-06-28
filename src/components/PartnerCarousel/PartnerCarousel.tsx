@@ -2,15 +2,12 @@ import { motion } from "framer-motion";
 import { type FC } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Text } from "~components/Text";
 import { useRefWithCallback } from "~hooks";
 import { mqUntil } from "~styles/media-queries";
 
-export interface PartnerCarouselProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface PartnerCarouselProps extends BaseProps {
   /**
    * Partners carousel title
    */
@@ -177,7 +174,6 @@ const LogoWrapper = styled.div`
 `;
 
 export const PartnerCarousel: FC<PartnerCarouselProps> = ({
-  className,
   testId,
   partners,
   title,

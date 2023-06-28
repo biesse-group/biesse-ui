@@ -1,10 +1,11 @@
 import { type FC, useState } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Button, type ButtonProps } from "~components/Button";
 import { inputStyles } from "~styles/input-styles";
 
-export interface InputProps {
+export interface InputProps extends BaseProps {
   /**
    * Input placeholder shown when has no value
    */
@@ -101,11 +102,18 @@ const InputButton = styled(Button)`
   font-size: ${(props) => props.theme.font.regular.body.sm};
 `;
 
-export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...props }) => {
+export const Input: FC<InputProps> = ({
+  testId,
+  defaultValue = "",
+  onChange,
+  className,
+  style,
+  ...props
+}) => {
   const [focus, setFocus] = useState(false);
   const [value, setValue] = useState(defaultValue);
 
-  const { withButton } = props;
+  const { withButton, shadow, border } = props;
 
   const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
     setValue(e.currentTarget.value);
@@ -113,15 +121,11 @@ export const Input: FC<InputProps> = ({ testId, defaultValue = "", onChange, ...
   };
 
   return (
-    <InputContainer shadow={props.shadow} hasFocus={focus} border={props.border}>
+    <InputContainer hasFocus={focus} {...{ shadow, border, className, style }}>
       <StyledInput
         {...props}
-        onFocus={() => {
-          setFocus(true);
-        }}
-        onBlur={() => {
-          setFocus(false);
-        }}
+        onFocus={() => setFocus(true)}
+        onBlur={() => setFocus(false)}
         onChange={handleChange}
         data-testid={testId}
       />

@@ -1,13 +1,10 @@
 import React, { type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 
-export interface ButtonProps {
-  /**
-   * Optional component class name
-   */
-  className?: string;
+export interface ButtonProps extends BaseProps {
   /**
    * Is this the principal call to action on the page?
    */
@@ -163,10 +160,11 @@ const StyledButton = styled.button<ButtonProps>`
 `;
 
 export const Button = React.forwardRef<HTMLButtonElement, PropsWithChildren<ButtonProps>>(
-  ({ testId, children, rightIcon, type = "button", leftIcon, variant, ...props }, ref) => {
+  ({ testId, children, rightIcon, type = "button", leftIcon, ...props }, ref) => {
+    const { variant } = props;
     const iconSize = variant === "primary-naked" && props.size === "small" ? "10px" : "26px";
     return (
-      <StyledButton ref={ref} data-testid={testId} type={type} {...{ ...props, variant }}>
+      <StyledButton ref={ref} data-testid={testId} type={type} {...props}>
         {leftIcon && <LeftIcon name={leftIcon} size={iconSize} variant={variant} />}
         {children}
         {rightIcon && <RightIcon name={rightIcon} size={iconSize} variant={variant} />}

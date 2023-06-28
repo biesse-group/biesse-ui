@@ -13,11 +13,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import React, { type PropsWithChildren, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
+import type { BaseProps } from "~components/baseProps";
 import { IconButton } from "~components/IconButton";
 import { mqUntil } from "~styles";
 
-export interface ModalProps {
-  className?: string;
+export interface ModalProps extends BaseProps {
   testId?: string;
   onOpen?: () => void;
   onClose?: () => void;
@@ -51,6 +51,12 @@ const StyledCloseButton = styled(IconButton)`
       right: 20px;
     `
   )}
+`;
+
+const ModalWrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
 `;
 
 export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>>(
@@ -92,9 +98,7 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
       <>
         {renderTrigger({
           ref: refs.setReference,
-          onClick: () => {
-            setOpen(true);
-          },
+          onClick: () => setOpen(true),
           ...getReferenceProps(),
         })}
         <FloatingPortal>
@@ -109,24 +113,22 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
               >
                 <StyledOverlay className="Dialog-overlay" lockScroll>
                   <FloatingFocusManager context={context}>
-                    <div
+                    <ModalWrapper
                       ref={refs.setFloating}
-                      className={className}
                       data-testid={testId}
                       aria-labelledby={headingId}
                       aria-describedby={descriptionId}
+                      {...props}
                       {...getFloatingProps()}
                     >
                       <StyledCloseButton
                         aria-label="close"
                         variant="primary-inverted"
                         icon="close"
-                        onClick={() => {
-                          setOpen(false);
-                        }}
+                        onClick={() => setOpen(false)}
                       />
                       {children}
-                    </div>
+                    </ModalWrapper>
                   </FloatingFocusManager>
                 </StyledOverlay>
               </motion.div>
