@@ -71,7 +71,7 @@ const CardContainer = styled.div`
   }
 `;
 
-interface HorizontalCardProps extends BaseProps {
+export interface HorizontalCardProps extends BaseProps {
   /** Card title */
   title: string | JSX.Element;
   /** Card icon (above title) */

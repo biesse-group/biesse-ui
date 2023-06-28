@@ -3,4 +3,4 @@
 
 npx lint-staged
 
-# npm run test-storyshots-ci
+npm run test-storyshots-ci

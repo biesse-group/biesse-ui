@@ -224,7 +224,6 @@ const StyledSocialLink = styled(SocialLink)`
 `;
 
 export const Footer: FC<FooterProps> = ({
-  className,
   testId,
   logo,
   leftLinksList,

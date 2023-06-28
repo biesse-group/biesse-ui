@@ -104,9 +104,9 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
       <select
         aria-label="Example select"
         className="c2"
-        defaultValue=""
         onChange={[Function]}
         selected={false}
+        value=""
       >
         <option
           disabled={true}
@@ -265,10 +265,10 @@ exports[`Storyshots Inputs/Select Disabled 1`] = `
       <select
         aria-label="Example select"
         className="c2"
-        defaultValue=""
         disabled={true}
         onChange={[Function]}
         selected={false}
+        value=""
       >
         <option
           disabled={true}
@@ -428,9 +428,9 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
       <select
         aria-label="Example select"
         className="c2"
-        defaultValue=""
         onChange={[Function]}
         selected={false}
+        value=""
       >
         <option
           disabled={true}
@@ -590,9 +590,9 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
         aria-label="Example select"
         className="c2"
         data-testid="select"
-        defaultValue=""
         onChange={[Function]}
         selected={false}
+        value=""
       >
         <option
           disabled={true}

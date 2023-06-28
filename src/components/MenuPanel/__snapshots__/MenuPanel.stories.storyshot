@@ -1,5 +1,446 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
+.c8 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  margin: 0;
+}
+
+.c8 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 26px;
+  width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
+  color: inherit;
+}
+
+.c3 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  color: #FFF;
+}
+
+.c12 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c2 {
+  color: #FFF;
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+}
+
+.c2:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c5 {
+  position: relative;
+  color: #FFF;
+  width: 100%;
+}
+
+.c6 {
+  font-size: 16px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  color: inherit;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+}
+
+.c6::-webkit-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.c14 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.c11 {
+  outline: none;
+  border: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  padding: 35px 70px;
+  text-align: left;
+  background-color: transparent;
+  color: #FFF;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.c11:hover .c13 {
+  opacity: 1;
+}
+
+.c0 {
+  background-color: #6D6E70;
+  width: 30vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 initial;
+  -ms-flex: 1 0 initial;
+  flex: 1 0 initial;
+  width: 100%;
+  height: 97px;
+  padding: 20px 20px 27px 70px;
+}
+
+.c10 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.c4 {
+  -webkit-flex: 1 0 initial;
+  -ms-flex: 1 0 initial;
+  flex: 1 0 initial;
+  margin-bottom: 40px;
+  padding: 0 70px;
+}
+
+.c9 {
+  text-transform: uppercase;
+  padding: 0 70px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c11 {
+    font-size: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c1 {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c4 {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c9 {
+    padding: 0 30px;
+  }
+}
+
+<div
+  className="c0"
+  width="30vw"
+>
+  <div
+    className="c1"
+  >
+    <button
+      aria-label="close"
+      className="c2"
+      onClick={[Function]}
+      style={
+        Object {
+          "marginLeft": "auto",
+        }
+      }
+    >
+      <span
+        className="c3"
+        size="26px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h48v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(1 1)"
+          >
+            <path
+              d="M46.236 48c-.472 0-.916-.184-1.25-.518L24 26.495 3.012 47.485c-.316.316-.731.497-1.175.515h-.073a1.767 1.767 0 0 1-1.248-3.013l20.988-20.988L.516 3.012a1.767 1.767 0 0 1 0-2.496A1.754 1.754 0 0 1 1.764 0c.471 0 .915.184 1.248.516L24 21.503 44.986.516A1.754 1.754 0 0 1 46.234 0c.472 0 .915.184 1.248.516a1.767 1.767 0 0 1 0 2.496L26.496 23.999l20.989 20.988A1.767 1.767 0 0 1 46.236 48"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <div
+      className="c5"
+    >
+      <input
+        className="c6"
+        defaultValue=""
+        onChange={[Function]}
+        type="text"
+      />
+      <span
+        className="c3 c7"
+        size="26px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h47.956v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
+                fill="currentColor"
+              />
+            </g>
+            <path
+              d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </div>
+  </div>
+  <p
+    className="c8 c9"
+    color="light"
+  >
+    Macrocategoria
+  </p>
+  <div
+    className="c10"
+  >
+    <button
+      className="c11"
+    >
+      Famiglie di prodotto
+      <span
+        className="c12 c13 c14"
+        color="white"
+        size="30px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+    <button
+      className="c11"
+    >
+      Materiale
+      <span
+        className="c12 c13 "
+        color="white"
+        size="30px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 .c0 {
   padding: 1rem;
@@ -673,6 +1114,12 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   transition: all 0.2s ease-out;
 }
 
+.c12 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
 .c9 {
   outline: none;
   border: none;
@@ -714,7 +1161,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 
 .c0 {
   background-color: #F5F5F5;
-  width: 500px;
+  width: 30vw;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -814,7 +1261,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 
 <div
   className="c0"
-  width="500px"
+  width="30vw"
 >
   <div
     className="c1"
@@ -882,7 +1329,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Elettromandrini
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -921,7 +1368,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Teste a 1 e 2 assi
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -960,7 +1407,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Asse C
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -999,7 +1446,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Aggregati
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -1038,7 +1485,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Elettromandrini MT
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -1077,7 +1524,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Foratrici
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -1116,7 +1563,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Gruppi multifunzione
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -1155,7 +1602,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     >
       Smart Motors
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -1313,6 +1760,12 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   top: 12px;
 }
 
+.c14 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
 .c11 {
   outline: none;
   border: none;
@@ -1347,7 +1800,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 
 .c0 {
   background-color: #6D6E70;
-  width: 500px;
+  width: 30vw;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1447,7 +1900,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 
 <div
   className="c0"
-  width="500px"
+  width="30vw"
 >
   <div
     className="c1"
@@ -1551,7 +2004,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
     >
       Famiglie di prodotto
       <span
-        className="c12 c13 "
+        className="c12 c13 c14"
         color="white"
         size="30px"
       >
@@ -1588,9 +2041,9 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
     <button
       className="c11"
     >
-      Tecnologia
+      Materiale
       <span
-        className="c12 c13 "
+        className="c12 c13 c14"
         color="white"
         size="30px"
       >
@@ -1739,6 +2192,12 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   transition: all 0.2s ease-out;
 }
 
+.c12 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
 .c9 {
   outline: none;
   border: none;
@@ -1773,7 +2232,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 
 .c0 {
   background-color: #6D6E70;
-  width: 500px;
+  width: 30vw;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1873,7 +2332,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 
 <div
   className="c0"
-  width="500px"
+  width="30vw"
 >
   <div
     className="c1"
@@ -1941,7 +2400,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     >
       Metallo
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -1980,7 +2439,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     >
       Legno
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -2019,7 +2478,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     >
       Vetro
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -2058,7 +2517,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     >
       Pietra
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -2097,7 +2556,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
     >
       Compositi
       <span
-        className="c10 c11 "
+        className="c10 c11 c12"
         color="primary"
         size="30px"
       >
@@ -2227,7 +2686,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 
 .c1 {
   background-color: #FFF;
-  width: 500px;
+  width: 30vw;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2323,7 +2782,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   >
     <div
       className="c1"
-      width="500px"
+      width="30vw"
     >
       <div
         className="c2"
@@ -2387,6 +2846,486 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
         </button>
       </div>
     </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
+.c8 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+  margin: 0;
+}
+
+.c8 a {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 26px;
+  width: 26px;
+  -webkit-flex: 0 0 26px;
+  -ms-flex: 0 0 26px;
+  flex: 0 0 26px;
+  color: inherit;
+}
+
+.c3 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 30px;
+  width: 30px;
+  -webkit-flex: 0 0 30px;
+  -ms-flex: 0 0 30px;
+  flex: 0 0 30px;
+  color: #FFF;
+}
+
+.c12 > svg {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.c2 {
+  color: #FFF;
+  background-color: transparent;
+  outline: none !important;
+  cursor: pointer;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+}
+
+.c2:hover {
+  background-color: #FFF;
+  color: #6D6E70;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.c5 {
+  position: relative;
+  color: #FFF;
+  width: 100%;
+}
+
+.c6 {
+  font-size: 16px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  color: inherit;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+}
+
+.c6::-webkit-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.c14 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.c11 {
+  outline: none;
+  border: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  padding: 35px 70px;
+  text-align: left;
+  background-color: transparent;
+  color: #FFF;
+  width: 100%;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.c11:hover .c13 {
+  opacity: 1;
+}
+
+.c0 {
+  background-color: #6D6E70;
+  width: 30vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 initial;
+  -ms-flex: 1 0 initial;
+  flex: 1 0 initial;
+  width: 100%;
+  height: 97px;
+  padding: 20px 20px 27px 70px;
+}
+
+.c10 {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.c4 {
+  -webkit-flex: 1 0 initial;
+  -ms-flex: 1 0 initial;
+  flex: 1 0 initial;
+  margin-bottom: 40px;
+  padding: 0 70px;
+}
+
+.c9 {
+  text-transform: uppercase;
+  padding: 0 70px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+  .c8 a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .c2 {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c11 {
+    font-size: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c1 {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c4 {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c9 {
+    padding: 0 30px;
+  }
+}
+
+<div
+  className="c0"
+  width="30vw"
+>
+  <div
+    className="c1"
+  >
+    <button
+      aria-label="back"
+      className="c2"
+      onClick={[Function]}
+    >
+      <span
+        className="c3"
+        size="26px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M21.717 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="matrix(0 1 1 0 1.108 5.892)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+    <button
+      aria-label="close"
+      className="c2"
+      onClick={[Function]}
+      style={
+        Object {
+          "marginLeft": "auto",
+        }
+      }
+    >
+      <span
+        className="c3"
+        size="26px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h48v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(1 1)"
+          >
+            <path
+              d="M46.236 48c-.472 0-.916-.184-1.25-.518L24 26.495 3.012 47.485c-.316.316-.731.497-1.175.515h-.073a1.767 1.767 0 0 1-1.248-3.013l20.988-20.988L.516 3.012a1.767 1.767 0 0 1 0-2.496A1.754 1.754 0 0 1 1.764 0c.471 0 .915.184 1.248.516L24 21.503 44.986.516A1.754 1.754 0 0 1 46.234 0c.472 0 .915.184 1.248.516a1.767 1.767 0 0 1 0 2.496L26.496 23.999l20.989 20.988A1.767 1.767 0 0 1 46.236 48"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div
+    className="c4"
+  >
+    <div
+      className="c5"
+    >
+      <input
+        className="c6"
+        defaultValue=""
+        onChange={[Function]}
+        type="text"
+      />
+      <span
+        className="c3 c7"
+        size="26px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h47.956v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
+                fill="currentColor"
+              />
+            </g>
+            <path
+              d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </div>
+  </div>
+  <p
+    className="c8 c9"
+    color="light"
+  >
+    Macrocategoria
+  </p>
+  <div
+    className="c10"
+  >
+    <button
+      className="c11"
+    >
+      Famiglie di prodotto
+      <span
+        className="c12 c13 c14"
+        color="white"
+        size="30px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+    <button
+      className="c11"
+    >
+      Materiale
+      <span
+        className="c12 c13 c14"
+        color="white"
+        size="30px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h38.216v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M28.5 7.392Z"
+              fill="currentColor"
+            />
+            <g
+              transform="rotate(90 21.608 27.5)"
+            >
+              <path
+                d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                fill="currentColor"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
   </div>
 </div>
 `;
