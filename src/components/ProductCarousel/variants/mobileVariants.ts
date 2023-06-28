@@ -1,4 +1,4 @@
-import { Variants } from "framer-motion";
+import { type Variants } from "framer-motion";
 
 const X_AMOUNT = 500;
 

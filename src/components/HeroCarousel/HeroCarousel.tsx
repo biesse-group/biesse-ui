@@ -1,11 +1,12 @@
 import { AnimatePresence, motion, wrap } from "framer-motion";
-import { FC, useCallback, useEffect, useState } from "react";
+import { type FC, useCallback, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles";
-import { BaseProps } from "../baseProps";
-import { Text } from "../Text";
-import { Title } from "../Title";
+import type { BaseProps } from "~components/baseProps";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { mqUntil } from "~styles";
+
 import CarouselControls from "./CarouselControls";
 import { TextContainer } from "./TextContainer";
 import { titleVariants } from "./variants";

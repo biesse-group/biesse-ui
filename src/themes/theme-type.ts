@@ -1,4 +1,4 @@
-interface FontSizesHeading {
+export interface FontSizesHeading {
   xxl: string;
   xl: string;
   lg: string;
@@ -7,7 +7,7 @@ interface FontSizesHeading {
   xs: string;
 }
 
-interface FontSizesBody {
+export interface FontSizesBody {
   xl: string;
   lg: string;
   md: string;

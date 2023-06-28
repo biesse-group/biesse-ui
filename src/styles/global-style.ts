@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-import { fontFaces } from "./font-faces";
-
 export const GlobalStyle = createGlobalStyle`
   html,
   body {
@@ -16,6 +14,4 @@ export const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
-
-  ${fontFaces}
 `;

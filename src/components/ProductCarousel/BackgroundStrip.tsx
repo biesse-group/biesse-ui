@@ -1,8 +1,8 @@
-import { FC, PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles/media-queries";
-import { BaseProps } from "../baseProps";
+import type { BaseProps } from "~components/baseProps";
+import { mqUntil } from "~styles/media-queries";
 
 const BackgroundOuter = styled.div`
   background-color: ${(props) => props.theme.color.secondary};

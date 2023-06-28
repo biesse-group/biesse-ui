@@ -1,10 +1,10 @@
-import React, { FC } from "react";
+import React, { type FC } from "react";
 import styled from "styled-components";
 
-import { BaseProps } from "../baseProps";
-import { IconButton } from "../IconButton";
+import type { BaseProps } from "~components/baseProps";
+import { IconButton } from "~components/IconButton";
 
-interface Props extends BaseProps {
+export interface CarouselControlsProps extends BaseProps {
   onPrev?: () => void;
   onNext?: () => void;
 }
@@ -17,7 +17,7 @@ const ControlsRoot = styled.div`
   }
 `;
 
-const CarouselControls: FC<Props> = ({ onPrev, onNext, ...props }) => {
+const CarouselControls: FC<CarouselControlsProps> = ({ onPrev, onNext, ...props }) => {
   return (
     <ControlsRoot {...props}>
       <IconButton

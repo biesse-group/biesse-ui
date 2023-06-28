@@ -1,13 +1,13 @@
-import { FC } from "react";
+import { type FC } from "react";
 import styled, { css } from "styled-components";
 
-import { mqUntil } from "../../styles";
-import { BaseProps } from "../baseProps";
-import { Icon } from "../Icon";
-import { Text } from "../Text";
-import { Title } from "../Title";
+import type { BaseProps } from "~components/baseProps";
+import { Icon } from "~components/Icon";
+import { Text } from "~components/Text";
+import { Title } from "~components/Title";
+import { mqUntil } from "~styles";
 
-interface LinkListElement {
+export interface LinkListElement {
   /**
    * Link text
    */

@@ -1,4 +1,0 @@
-{
-  "*.(json|ts|tsx|md)": "prettier --write",
-  "*.(ts|tsx)": "eslint --max-warnings 0"
-}

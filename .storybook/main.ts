@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import type { StorybookConfig } from "@storybook/react-webpack5";
+import path from "path";
+import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
@@ -9,10 +12,18 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-coverage",
-    "@storybook/preset-create-react-app",
     "storybook-addon-pseudo-states",
-    "@storybook/addon-mdx-gfm",
   ],
+  webpackFinal: async (config: any) => {
+    config.resolve!.plugins = config.resolve!.plugins ?? [];
+    config.resolve!.plugins.push(
+      new TsconfigPathsPlugin({
+        configFile: path.resolve(__dirname, "../tsconfig.json"),
+      })
+    );
+
+    return config;
+  },
   framework: {
     name: "@storybook/react-webpack5",
     options: {},
@@ -24,7 +35,7 @@ const config: StorybookConfig = {
     reactDocgenTypescriptOptions: {
       tsconfigPath: "../tsconfig.json",
       shouldExtractLiteralValuesFromEnum: true,
-      propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
+      propFilter: (prop) => (prop.parent ? !prop.parent.fileName.includes("node_modules") : true),
     },
   },
   core: {},
@@ -32,4 +43,5 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
 };
+
 module.exports = config;

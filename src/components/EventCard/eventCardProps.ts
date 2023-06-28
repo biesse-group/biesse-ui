@@ -1,6 +1,6 @@
-import dayjs from "dayjs";
+import type dayjs from "dayjs";
 
-import { BaseProps } from "../baseProps";
+import type { BaseProps } from "~components/baseProps";
 
 export interface EventCardProps extends BaseProps {
   /**
