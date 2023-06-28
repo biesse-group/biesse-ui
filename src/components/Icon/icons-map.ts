@@ -10,6 +10,7 @@ const iconsMap = {
   careers: IconSources.Careers,
   "chevron-left": IconSources.ChevronLeft,
   "chevron-right": IconSources.ChevronRight,
+  "check-mark": IconSources.CheckMark,
   close: IconSources.Close,
   contacts: IconSources.Contacts,
   country: IconSources.Country,
