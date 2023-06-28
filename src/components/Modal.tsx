@@ -31,6 +31,10 @@ export type ModalHandle = {
   close: () => void;
 };
 
+const StyledAnimatePresence = styled(AnimatePresence)`
+  z-index: 1000000;
+`;
+
 const StyledOverlay = styled(FloatingOverlay)`
   background-color: ${(props) => props.theme.color.modalBackground};
   display: flex;
@@ -102,7 +106,7 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
           ...getReferenceProps(),
         })}
         <FloatingPortal>
-          <AnimatePresence>
+          <StyledAnimatePresence>
             {open && (
               <motion.div
                 key="modal"
@@ -132,7 +136,7 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
                 </StyledOverlay>
               </motion.div>
             )}
-          </AnimatePresence>
+          </StyledAnimatePresence>
         </FloatingPortal>
       </>
     );
