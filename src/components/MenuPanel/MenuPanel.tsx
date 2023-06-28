@@ -31,7 +31,7 @@ const Panel = styled.div<Pick<MenuPanelProps, "variant" | "width">>`
 
 const ControlsContainer = styled.div<Pick<MenuPanelProps, "variant">>`
   display: flex;
-  flex: 1 0 initial;
+  flex: none;
   width: 100%;
   height: 97px;
   padding: 20px 20px 27px
@@ -60,7 +60,7 @@ const MenuItemsContainer = styled.div`
 `;
 
 const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
-  flex: 1 0 initial;
+  flex: none;
   margin-bottom: 40px;
   padding: 0
     ${(props) => {
