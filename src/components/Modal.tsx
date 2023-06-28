@@ -18,7 +18,6 @@ import { BaseProps } from "./baseProps";
 import { IconButton } from "./IconButton";
 
 export interface ModalProps extends BaseProps {
-  className?: string;
   testId?: string;
   onOpen?: () => void;
   onClose?: () => void;
@@ -61,7 +60,7 @@ const ModalWrapper = styled.div`
 `;
 
 export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>>(
-  ({ className, testId, children, renderTrigger, onOpen, onClose, ...props }, ref) => {
+  ({ testId, children, renderTrigger, onOpen, onClose, ...props }, ref) => {
     const [open, setOpen] = useState(false);
 
     const { refs, context } = useFloating({
@@ -102,40 +101,39 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
           onClick: () => setOpen(true),
           ...getReferenceProps(),
         })}
-        <div {...props}>
-          <FloatingPortal>
-            <AnimatePresence>
-              {open && (
-                <motion.div
-                  key="modal"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                >
-                  <StyledOverlay className="Dialog-overlay" lockScroll>
-                    <FloatingFocusManager context={context}>
-                      <ModalWrapper
-                        ref={refs.setFloating}
-                        data-testid={testId}
-                        aria-labelledby={headingId}
-                        aria-describedby={descriptionId}
-                        {...getFloatingProps()}
-                      >
-                        <StyledCloseButton
-                          aria-label="close"
-                          variant="primary-inverted"
-                          icon="close"
-                          onClick={() => setOpen(false)}
-                        />
-                        {children}
-                      </ModalWrapper>
-                    </FloatingFocusManager>
-                  </StyledOverlay>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </FloatingPortal>
-        </div>
+        <FloatingPortal>
+          <AnimatePresence>
+            {open && (
+              <motion.div
+                key="modal"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                {...props}
+              >
+                <StyledOverlay className="Dialog-overlay" lockScroll>
+                  <FloatingFocusManager context={context}>
+                    <ModalWrapper
+                      ref={refs.setFloating}
+                      data-testid={testId}
+                      aria-labelledby={headingId}
+                      aria-describedby={descriptionId}
+                      {...getFloatingProps()}
+                    >
+                      <StyledCloseButton
+                        aria-label="close"
+                        variant="primary-inverted"
+                        icon="close"
+                        onClick={() => setOpen(false)}
+                      />
+                      {children}
+                    </ModalWrapper>
+                  </FloatingFocusManager>
+                </StyledOverlay>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </FloatingPortal>
       </>
     );
   }
