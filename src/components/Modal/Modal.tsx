@@ -60,7 +60,7 @@ const ModalWrapper = styled.div`
 `;
 
 export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>>(
-  ({ className, testId, children, renderTrigger, onOpen, onClose, ...props }, ref) => {
+  ({ testId, children, renderTrigger, onOpen, onClose, ...props }, ref) => {
     const [open, setOpen] = useState(false);
 
     const { refs, context } = useFloating({
@@ -118,7 +118,6 @@ export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>
                       data-testid={testId}
                       aria-labelledby={headingId}
                       aria-describedby={descriptionId}
-                      {...props}
                       {...getFloatingProps()}
                     >
                       <StyledCloseButton
