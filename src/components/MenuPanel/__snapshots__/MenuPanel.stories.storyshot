@@ -74,52 +74,6 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c5 {
-  position: relative;
-  color: #FFF;
-  width: 100%;
-}
-
-.c6 {
-  font-size: 16px;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  color: inherit;
-  background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
-  border-radius: 25px;
-  height: 50px;
-  padding: 0 78px 0 22px;
-  outline: none;
-  width: 100%;
-}
-
-.c6::-webkit-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6::-moz-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6:-ms-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6::placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c7 {
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
-
 .c14 {
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
@@ -203,6 +157,52 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   text-transform: uppercase;
   padding: 0 70px;
   margin-bottom: 15px;
+}
+
+.c5 {
+  position: relative;
+  color: #FFF;
+  width: 100%;
+}
+
+.c6 {
+  font-size: 16px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  color: inherit;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+}
+
+.c6::-webkit-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 12px;
 }
 
 @media screen and (max-width:991px) {
@@ -505,52 +505,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c6 {
-  position: relative;
-  color: #FFF;
-  width: 100%;
-}
-
-.c7 {
-  font-size: 16px;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  color: inherit;
-  background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
-  border-radius: 25px;
-  height: 50px;
-  padding: 0 78px 0 22px;
-  outline: none;
-  width: 100%;
-}
-
-.c7::-webkit-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c7::-moz-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c7:-ms-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c7::placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c8 {
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
-
 .c13 {
   height: 1px;
   background-color: #FFF;
@@ -660,6 +614,52 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   flex: none;
   margin-bottom: 40px;
   padding: 0 30px;
+}
+
+.c6 {
+  position: relative;
+  color: #FFF;
+  width: 100%;
+}
+
+.c7 {
+  font-size: 16px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  color: inherit;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+}
+
+.c7::-webkit-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7::-moz-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7:-ms-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7::placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c8 {
+  position: absolute;
+  right: 20px;
+  top: 12px;
 }
 
 @media screen and (max-width:767px) {
@@ -1714,52 +1714,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c5 {
-  position: relative;
-  color: #FFF;
-  width: 100%;
-}
-
-.c6 {
-  font-size: 16px;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  color: inherit;
-  background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
-  border-radius: 25px;
-  height: 50px;
-  padding: 0 78px 0 22px;
-  outline: none;
-  width: 100%;
-}
-
-.c6::-webkit-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6::-moz-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6:-ms-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6::placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c7 {
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
-
 .c14 {
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
@@ -1843,6 +1797,52 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   text-transform: uppercase;
   padding: 0 70px;
   margin-bottom: 15px;
+}
+
+.c5 {
+  position: relative;
+  color: #FFF;
+  width: 100%;
+}
+
+.c6 {
+  font-size: 16px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  color: inherit;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+}
+
+.c6::-webkit-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 12px;
 }
 
 @media screen and (max-width:991px) {
@@ -2924,52 +2924,6 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.c5 {
-  position: relative;
-  color: #FFF;
-  width: 100%;
-}
-
-.c6 {
-  font-size: 16px;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 300;
-  color: inherit;
-  background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
-  border-radius: 25px;
-  height: 50px;
-  padding: 0 78px 0 22px;
-  outline: none;
-  width: 100%;
-}
-
-.c6::-webkit-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6::-moz-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6:-ms-input-placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c6::placeholder {
-  color: inherit;
-  font-style: italic;
-}
-
-.c7 {
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
-
 .c14 {
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
@@ -3053,6 +3007,52 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   text-transform: uppercase;
   padding: 0 70px;
   margin-bottom: 15px;
+}
+
+.c5 {
+  position: relative;
+  color: #FFF;
+  width: 100%;
+}
+
+.c6 {
+  font-size: 16px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 300;
+  color: inherit;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #FFF;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 78px 0 22px;
+  outline: none;
+  width: 100%;
+}
+
+.c6::-webkit-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::-moz-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6:-ms-input-placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c6::placeholder {
+  color: inherit;
+  font-style: italic;
+}
+
+.c7 {
+  position: absolute;
+  right: 20px;
+  top: 12px;
 }
 
 @media screen and (max-width:991px) {
