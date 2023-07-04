@@ -37,7 +37,11 @@ export const Default: Story = {
         <CardListItem title="Pellentesque auctor neque nec urna" {...props} />
         <CardListItem title="Duis leo. Donec mollis hendrerit risus" {...props} />
         <CardListItem
-          title="Morbi ac felis. Aliquam eu nunc. Vivamus consectetuer hendrerit lacus"
+          title={
+            <a href="/" style={{ color: "inherit" }}>
+              Morbi ac felis. Aliquam eu nunc. Vivamus consectetuer hendrerit lacus
+            </a>
+          }
           {...props}
         />
       </>
