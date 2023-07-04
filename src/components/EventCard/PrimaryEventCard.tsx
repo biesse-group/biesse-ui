@@ -87,13 +87,6 @@ const DateLinkWrapper = styled.div`
   text-align: center;
   background-color: ${(props) => props.theme.color.primary};
   color: ${(props) => props.theme.color.white};
-
-  ${mqUntil(
-    "sm",
-    css`
-      grid-area: 1/ 1;
-    `
-  )}
 `;
 
 const LinkWrapper = styled.div`
@@ -110,13 +103,6 @@ const LinkWrapper = styled.div`
 const ChildWrapper = styled.div`
   grid-area: 2 / 2;
   padding: 28px 15px 20px 20px;
-
-  ${mqUntil(
-    "sm",
-    css`
-      grid-area: 2/ 1 / span 1 / span 2;
-    `
-  )}
 `;
 
 const DateDay = styled(Title)`
