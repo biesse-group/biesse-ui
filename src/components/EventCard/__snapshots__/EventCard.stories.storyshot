@@ -566,6 +566,15 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   color: #6D6E70;
 }
 
+.c7 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .c0 {
   position: relative;
   width: 100%;
@@ -584,6 +593,10 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c0:hover {
   background-color: #FFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c0:hover .c6 {
+  opacity: 1;
 }
 
 .c8 {
@@ -608,15 +621,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   margin: 0 4px;
 }
 
-.c7 {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .c1 {
   grid-area: 1/ 1 / span 2 / span 1;
   position: relative;
@@ -631,10 +635,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   text-align: center;
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c1:hover .c6 {
-  opacity: 1;
 }
 
 .c16 {
@@ -741,6 +741,12 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   }
 }
 
+@media screen and (max-width:991px) {
+  .c7 {
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c13 {
     display: none;
@@ -756,12 +762,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c7 {
-    opacity: 1;
   }
 }
 
@@ -1062,6 +1062,15 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   color: #6D6E70;
 }
 
+.c7 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .c0 {
   position: relative;
   width: 100%;
@@ -1080,6 +1089,10 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 .c0:hover {
   background-color: #FFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c0:hover .c6 {
+  opacity: 1;
 }
 
 .c8 {
@@ -1104,15 +1117,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   margin: 0 4px;
 }
 
-.c7 {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .c1 {
   grid-area: 1/ 1 / span 2 / span 1;
   position: relative;
@@ -1127,10 +1131,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   text-align: center;
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c1:hover .c6 {
-  opacity: 1;
 }
 
 .c16 {
@@ -1237,6 +1237,12 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   }
 }
 
+@media screen and (max-width:991px) {
+  .c7 {
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c13 {
     display: none;
@@ -1252,12 +1258,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c7 {
-    opacity: 1;
   }
 }
 
@@ -1754,6 +1754,15 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   color: #6D6E70;
 }
 
+.c7 {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .c0 {
   position: relative;
   width: 100%;
@@ -1772,6 +1781,10 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c0:hover {
   background-color: #FFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
+}
+
+.c0:hover .c6 {
+  opacity: 1;
 }
 
 .c8 {
@@ -1796,15 +1809,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   margin: 0 4px;
 }
 
-.c7 {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .c1 {
   grid-area: 1/ 1 / span 2 / span 1;
   position: relative;
@@ -1819,10 +1823,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   text-align: center;
   background-color: #6D6E70;
   color: #FFF;
-}
-
-.c1:hover .c6 {
-  opacity: 1;
 }
 
 .c16 {
@@ -1929,6 +1929,12 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   }
 }
 
+@media screen and (max-width:991px) {
+  .c7 {
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width:767px) {
   .c13 {
     display: none;
@@ -1944,12 +1950,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width:991px) {
-  .c7 {
-    opacity: 1;
   }
 }
 

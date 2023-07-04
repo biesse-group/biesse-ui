@@ -9,6 +9,21 @@ import { mqUntil } from "~styles/media-queries";
 
 import { type EventCardProps } from "./eventCardProps";
 
+const DateLinkIcon = styled(Icon)`
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  ${mqUntil(
+    "md",
+    css`
+      opacity: 1;
+    `
+  )}
+`;
+
 const EventCardRoot = styled.div`
   position: relative;
   width: 100%;
@@ -23,6 +38,9 @@ const EventCardRoot = styled.div`
   :hover {
     background-color: ${(props) => props.theme.color.white};
     box-shadow: ${(props) => props.theme.card.boxShadow};
+    ${DateLinkIcon} {
+      opacity: 1;
+    }
   }
 `;
 
@@ -60,21 +78,6 @@ const DateSubtitle = styled(Text)`
   )}
 `;
 
-const DateLinkIcon = styled(Icon)`
-  opacity: 0;
-  transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
-  ${mqUntil(
-    "md",
-    css`
-      opacity: 1;
-    `
-  )}
-`;
-
 const DateLinkWrapper = styled.div`
   grid-area: 1/ 1 / span 2 / span 1;
   position: relative;
@@ -91,12 +94,6 @@ const DateLinkWrapper = styled.div`
       grid-area: 1/ 1;
     `
   )}
-
-  &:hover {
-    ${DateLinkIcon} {
-      opacity: 1;
-    }
-  }
 `;
 
 const LinkWrapper = styled.div`
