@@ -9,7 +9,7 @@ import { Title } from "~components/Title";
 
 export interface CardListItemProps extends BaseProps {
   preTitle?: string;
-  title: string;
+  title: string | JSX.Element;
   image: JSX.Element;
   buttonLabel?: string;
   onClick?: () => void;
