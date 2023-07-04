@@ -374,7 +374,16 @@ exports[`Storyshots Cards/CardList Default 1`] = `
         className="c7 c8"
         color="primary"
       >
-        Morbi ac felis. Aliquam eu nunc. Vivamus consectetuer hendrerit lacus
+        <a
+          href="/"
+          style={
+            Object {
+              "color": "inherit",
+            }
+          }
+        >
+          Morbi ac felis. Aliquam eu nunc. Vivamus consectetuer hendrerit lacus
+        </a>
       </h6>
       <div
         className="c9"
