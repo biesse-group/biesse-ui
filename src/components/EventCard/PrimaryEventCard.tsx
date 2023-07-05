@@ -4,6 +4,7 @@ import styled, { css } from "styled-components";
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
+import { useUniqueDates } from "~hooks/useUniqueDates";
 import { borderRadius } from "~styles";
 import { mqUntil } from "~styles/media-queries";
 
@@ -128,6 +129,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
   location,
   ...props
 }) => {
+  const uniqueDates = useUniqueDates(startDate, endDate);
   return (
     <EventCardRoot data-testid={testId} {...props}>
       <DateLinkWrapper>
@@ -136,10 +138,14 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
         <Text size="md" weight="medium">
           {`${startDate.format("MMMYY")}`.toUpperCase()}
         </Text>
-        <DateDay variant="H2">{`${endDate.format("MM")}`}</DateDay>
-        <Text size="md" weight="medium">
-          {`${endDate.format("MMMYY")}`.toUpperCase()}
-        </Text>
+        {uniqueDates.length > 1 && endDate && (
+          <>
+            <DateDay variant="H2">{`${endDate.format("MM")}`}</DateDay>
+            <Text size="md" weight="medium">
+              {`${endDate.format("MMMYY")}`.toUpperCase()}
+            </Text>
+          </>
+        )}
         <DateLinkIcon name="arrow-right" color="white" size="23px" />
       </DateLinkWrapper>
 
@@ -150,8 +156,12 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
         <div style={{ marginBottom: 20 }}>
           <DateSubtitle size="sm" italic>
             <span>{startDate.format("DD MMMM YYYY")}</span>
-            <DateSeparator>/</DateSeparator>
-            <span>{endDate.format("DD MMMM YYYY")}</span>
+            {uniqueDates.length > 1 && endDate && (
+              <>
+                <DateSeparator>/</DateSeparator>
+                <span>{endDate.format("DD MMMM YYYY")}</span>
+              </>
+            )}
           </DateSubtitle>
           {location && (
             <Text tag="p" size="sm" italic>
