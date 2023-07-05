@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
+import { useUniqueDates } from "~hooks/useUniqueDates";
 import { borderRadius } from "~styles";
 import { mqUntil } from "~styles/media-queries";
 
@@ -124,6 +125,8 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
   renderLink,
   ...props
 }) => {
+  const uniqueDates = useUniqueDates(startDate, endDate);
+
   return (
     <HeroEventCardRoot data-testid={testId} {...props}>
       <DateSubgrid>
@@ -132,11 +135,15 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
           {`${startDate.format("MMM")}`}
           <Text weight="bold">{`${startDate.format("YY")}`}</Text>
         </StartDateMonthYear>
-        <EndDateDay color="primary" weight="bold">{`${endDate.format("DD")}`}</EndDateDay>
-        <EndDateMonthYear color="dark">
-          {`${endDate.format("MMM")}`}
-          <Text weight="bold">{`${endDate.format("YY")}`}</Text>
-        </EndDateMonthYear>
+        {endDate && uniqueDates.length > 1 && (
+          <>
+            <EndDateDay color="primary" weight="bold">{`${endDate.format("DD")}`}</EndDateDay>
+            <EndDateMonthYear color="dark">
+              {`${endDate.format("MMM")}`}
+              <Text weight="bold">{`${endDate.format("YY")}`}</Text>
+            </EndDateMonthYear>
+          </>
+        )}
       </DateSubgrid>
       <TitleWrapper>
         <StyledTitle color="primary" size="xl" weight="bold">
