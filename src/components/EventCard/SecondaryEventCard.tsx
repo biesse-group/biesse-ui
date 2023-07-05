@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
+import { useUniqueDates } from "~hooks/useUniqueDates";
 import { borderRadius } from "~styles";
 
 import { type EventCardProps } from "./eventCardProps";
@@ -51,7 +52,7 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   children,
   ...props
 }) => {
-  const dateText = `${startDate.format("DD MMMM YYYY")} / ${endDate.format("DD MMMM YYYY")}`;
+  const dateText = useUniqueDates(startDate, endDate).join(" / ");
 
   return (
     <EventCardRoot data-testid={testId} {...props}>
