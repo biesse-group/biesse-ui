@@ -39,6 +39,7 @@ const iconsMap = {
   sustainability: IconSources.Sustainability,
   "video-pill": IconSources.VideoPill,
   linkedin: IconSources.Linkedin,
+  youtube: IconSources.YouTube,
 };
 
 export default iconsMap;
