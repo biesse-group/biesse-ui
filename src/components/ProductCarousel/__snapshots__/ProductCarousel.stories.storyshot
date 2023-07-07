@@ -353,6 +353,7 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 
 .c0 {
   position: relative;
+  overflow-x: hidden;
   height: 800px;
 }
 
