@@ -68,6 +68,7 @@ export interface ProductCarouselProps<T extends object> extends BaseProps {
 
 const Root = styled.div<{ $height: number }>`
   position: relative;
+  overflow-x: hidden;
   height: ${(props) => 500 + props.$height}px;
 `;
 
