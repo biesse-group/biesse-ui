@@ -1,4 +1,5 @@
 import { AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
@@ -64,6 +65,10 @@ export interface ProductCarouselProps<T extends object> extends BaseProps {
    * @returns a JSX element representing the item detail
    */
   renderDetail: (item: T) => JSX.Element;
+  /**
+   * Called whenever active page changes
+   */
+  onChangePage?: (page: number) => void;
 }
 
 const Root = styled.div<{ $height: number }>`
@@ -79,10 +84,15 @@ export const ProductCarousel = <T extends object>({
   renderTitle,
   renderDetail,
   renderImage,
+  onChangePage,
   ...props
 }: ProductCarouselProps<T>) => {
   const { direction, page, nextPage, prevPage, getItemMotionProps, shownItems } =
     useProductCarousel(items);
+
+  useEffect(() => {
+    if (onChangePage) onChangePage(page);
+  }, [page]);
 
   return (
     <Root $height={contentHeight} {...props}>
