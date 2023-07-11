@@ -29,7 +29,7 @@ export interface HeroCarouselProps extends BaseProps {
   /**
    * Called whenever active slide changes
    */
-  onChangeSlide: (index: number) => void;
+  onChangeSlide?: (index: number) => void;
 }
 
 const CarouselContainer = styled.div`
