@@ -36,3 +36,7 @@ export * from "./SpareParts";
 export * from "./Sustainability";
 export * from "./VideoPill";
 export * from "./YouTube";
+export * from "./CompanyNetwork";
+export * from "./CompanyQuality";
+export * from "./CompanyEnvironment";
+export * from "./CompanySafety";

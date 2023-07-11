@@ -28,6 +28,7 @@ export const Default: Story = {
   args: {
     icon: "sustainability",
     title: "Sustainability",
+    subTitle: "sustainability",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     action: (

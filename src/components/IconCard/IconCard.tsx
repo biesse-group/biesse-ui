@@ -17,6 +17,10 @@ export interface IconCardProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
+   * The card title
+   */
+  subTitle: string | JSX.Element;
+  /**
    * The card description (JSX element is accepted)
    */
   description: string | JSX.Element;
@@ -63,37 +67,43 @@ const Body = styled.div`
 const IconContainer = styled.div`
   margin-bottom: 14px;
   color: ${(props) => props.theme.color.primary};
-  height: 40px;
-  width: 40px;
 
   ${mqUntil(
     "md",
     css`
       margin-right: 10px;
       margin-bottom: 0;
-      height: 30px;
-      width: 30px;
     `
   )}
 `;
 
 const StyledTitle = styled(Title)`
-  margin-bottom: 0;
+  margin: 0px 0px 12px 0px;
 `;
 
 const StyledText = styled(Text)`
   margin-bottom: 20px;
 `;
 
-export const IconCard: FC<IconCardProps> = ({ icon, title, description, action, ...props }) => {
+export const IconCard: FC<IconCardProps> = ({
+  icon,
+  title,
+  subTitle,
+  description,
+  action,
+  ...props
+}) => {
   return (
     <Root {...props}>
       <Heading>
         <IconContainer>
-          {typeof icon === "string" ? <Icon name={icon} size="100%" /> : icon}
+          {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
         <StyledTitle variant="H5" color="primary" uppercase>
           {title}
+        </StyledTitle>
+        <StyledTitle variant="H6" color="primary">
+          {subTitle}
         </StyledTitle>
       </Heading>
       <Body>
