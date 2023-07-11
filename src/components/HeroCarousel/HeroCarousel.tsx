@@ -26,6 +26,10 @@ export interface HeroCarouselProps extends BaseProps {
    * Change slide automatically every provided seconds number
    */
   autoSlide?: number;
+  /**
+   * Called whenever active slide changes
+   */
+  onChangeSlide: (index: number) => void;
 }
 
 const CarouselContainer = styled.div`
@@ -69,7 +73,12 @@ const ImageContainer = styled.div`
   height: 100%;
 `;
 
-export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...props }) => {
+export const HeroCarousel: FC<HeroCarouselProps> = ({
+  slides,
+  onChangeSlide,
+  autoSlide,
+  ...props
+}) => {
   const [activeSlide, setActiveSlide] = useState(0);
 
   /**
@@ -80,8 +89,11 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({ slides, autoSlide, ...prop
       const slideAmount = direction === "prev" ? -1 : 1;
       const slideIndex = wrap(0, slides.length, activeSlide + slideAmount);
       setActiveSlide(slideIndex);
+      if (onChangeSlide) {
+        onChangeSlide(slideIndex);
+      }
     },
-    [activeSlide, slides.length]
+    [activeSlide, onChangeSlide, slides.length]
   );
 
   // Auto slide effect
