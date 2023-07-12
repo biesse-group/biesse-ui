@@ -40,6 +40,10 @@ const iconsMap = {
   "video-pill": IconSources.VideoPill,
   linkedin: IconSources.Linkedin,
   youtube: IconSources.YouTube,
+  "company-network": IconSources.CompanyNetwork,
+  "company-quality": IconSources.CompanyQuality,
+  "company-environment": IconSources.CompanyEnvironment,
+  "company-safety": IconSources.CompanySafety,
 };
 
 export default iconsMap;
