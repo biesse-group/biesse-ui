@@ -1,4 +1,4 @@
-import { createRef, type FC, useState } from "react";
+import { createRef, type FC, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
@@ -24,6 +24,9 @@ export interface VideoPlayerProps extends BaseProps {
    */
   variant?: "cover" | "fit";
   testId?: string;
+  onChangePlayStatus?: (isPlaying: boolean) => void;
+  onPressPlay?: () => void;
+  onPressPause?: () => void;
 }
 
 const VideoPlayerRoot = styled.div`
@@ -80,20 +83,30 @@ export const VideoPlayer: FC<VideoPlayerProps> = ({
   loop = true,
   variant = "cover",
   autoPlay = false,
+  onPressPause,
+  onPressPlay,
+  onChangePlayStatus,
   ...props
 }) => {
   const videoRef = createRef<HTMLVideoElement>();
 
   const [isVideoPlaying, setIsVideoPlaying] = useState<boolean>(autoPlay);
 
+  useEffect(() => {
+    if (onChangePlayStatus) onChangePlayStatus(isVideoPlaying);
+  }, [onChangePlayStatus, isVideoPlaying]);
+
   const handlePlayButton = () => {
     if (!isVideoPlaying) {
       videoRef.current?.play();
+      if (onPressPlay) onPressPlay();
     }
   };
+
   const handlePause = () => {
     if (isVideoPlaying) {
       videoRef.current?.pause();
+      if (onPressPause) onPressPause();
     }
   };
 
