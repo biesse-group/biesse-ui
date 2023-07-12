@@ -28,6 +28,7 @@ export const Default: Story = {
   args: {
     icon: "sustainability",
     title: "Sustainability",
+    wrapOnMobile: true,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     action: (
@@ -42,8 +43,7 @@ export const MobileDisabled: Story = {
   args: {
     icon: "sustainability",
     title: "UNI EN ISO 9000:2015",
-    subTitle: "Sistema di Gestione per la Qualità",
-    mobileVersionDisabled: true,
+    subtitle: "Sistema di Gestione per la Qualità",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     action: (

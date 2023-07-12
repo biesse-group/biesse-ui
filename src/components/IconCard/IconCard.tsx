@@ -4,6 +4,7 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
+import type { TitleProps } from "~components/Title";
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles";
 
@@ -17,14 +18,22 @@ export interface IconCardProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
+   * default is H2
+   */
+  titleTag?: TitleProps["variant"];
+  /**
    * The card title
    */
-  subTitle: string | JSX.Element;
+  subtitle: string | JSX.Element;
+  /**
+   * default is H3
+   */
+  subtitleTag?: TitleProps["variant"];
   /**
    * Whether the component change its layout to horizontal
    * in mobile or stays the same
    */
-  mobileVersionDisabled?: boolean;
+  wrapOnMobile?: boolean;
   /**
    * The card description (JSX element is accepted)
    */
@@ -40,13 +49,12 @@ const Root = styled.div`
   flex-direction: column;
 `;
 
-const Heading = styled.div<{ $mobileVersionDisabled?: boolean }>`
+const Heading = styled.div<{ $wrapOnMobile?: boolean }>`
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 
-  ${({ $mobileVersionDisabled }) =>
-    !$mobileVersionDisabled &&
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
     mqUntil(
       "md",
       css`
@@ -57,14 +65,14 @@ const Heading = styled.div<{ $mobileVersionDisabled?: boolean }>`
     )}
 `;
 
-const Body = styled.div<{ $mobileVersionDisabled?: boolean }>`
+const Body = styled.div<{ $wrapOnMobile?: boolean }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 
-  ${({ $mobileVersionDisabled }) =>
-    !$mobileVersionDisabled &&
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
     mqUntil(
       "md",
       css`
@@ -73,12 +81,12 @@ const Body = styled.div<{ $mobileVersionDisabled?: boolean }>`
     )}
 `;
 
-const IconContainer = styled.div<{ $mobileVersionDisabled?: boolean }>`
+const IconContainer = styled.div<{ $wrapOnMobile?: boolean }>`
   margin-bottom: 14px;
   color: ${(props) => props.theme.color.primary};
 
-  ${({ $mobileVersionDisabled }) =>
-    !$mobileVersionDisabled &&
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
     mqUntil(
       "md",
       css`
@@ -99,26 +107,30 @@ const StyledText = styled(Text)`
 export const IconCard: FC<IconCardProps> = ({
   icon,
   title,
-  subTitle,
+  titleTag,
+  subtitle,
+  subtitleTag,
   description,
   action,
-  mobileVersionDisabled,
+  wrapOnMobile,
   ...props
 }) => {
   return (
     <Root {...props}>
-      <Heading $mobileVersionDisabled={mobileVersionDisabled}>
-        <IconContainer $mobileVersionDisabled={mobileVersionDisabled}>
+      <Heading $wrapOnMobile={wrapOnMobile}>
+        <IconContainer $wrapOnMobile={wrapOnMobile}>
           {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
-        <StyledTitle variant="H5" color="primary" uppercase>
+        <StyledTitle variant={titleTag ?? "H2"} size="sm" color="primary" uppercase>
           {title}
         </StyledTitle>
-        <StyledTitle variant="H6" color="primary">
-          {subTitle}
-        </StyledTitle>
+        {subtitle && (
+          <StyledTitle variant={subtitleTag ?? "H3"} size="xs" color="primary">
+            {subtitle}
+          </StyledTitle>
+        )}
       </Heading>
-      <Body $mobileVersionDisabled={mobileVersionDisabled}>
+      <Body $wrapOnMobile={wrapOnMobile}>
         {typeof description === "string" ? (
           <StyledText tag="p">{description}</StyledText>
         ) : (

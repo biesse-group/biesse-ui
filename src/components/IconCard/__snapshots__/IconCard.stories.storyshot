@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Cards/IconCard Default 1`] = `
-.c8 {
+.c7 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -10,7 +10,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   margin: 0;
 }
 
-.c8 a {
+.c7 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -37,7 +37,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   color: inherit;
 }
 
-.c10 {
+.c9 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -69,7 +69,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c10:hover {
+.c9:hover {
   background-color: #6D6E70;
   color: #FFF;
 }
@@ -80,15 +80,6 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
-  color: #6D6E70;
-}
-
-.c6 {
-  margin-top: 0;
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -110,10 +101,9 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -137,7 +127,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   margin: 0px 0px 12px 0px;
 }
 
-.c9 {
+.c8 {
   margin-bottom: 20px;
 }
 
@@ -146,7 +136,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 {
+  .c7 {
     font-size: 14px;
   }
 }
@@ -156,7 +146,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 a {
+  .c7 a {
     font-size: 14px;
   }
 }
@@ -169,14 +159,6 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
   .c4 {
     font-size: 20px;
   }
-}
-
-@media screen and (max-width:991px) {
-
-}
-
-@media screen and (max-width:767px) {
-
 }
 
 @media screen and (max-width:991px) {
@@ -193,7 +175,7 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c7 {
+  .c6 {
     padding-left: 40px;
   }
 }
@@ -270,28 +252,25 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
           </svg>
         </span>
       </div>
-      <h5
+      <h2
         className="c4 c5"
         color="primary"
+        size="sm"
       >
         Sustainability
-      </h5>
-      <h6
-        className="c6 c5"
-        color="primary"
-      />
+      </h2>
     </div>
     <div
-      className="c7"
+      className="c6"
     >
       <p
-        className="c8 c9"
+        className="c7 c8"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
       </p>
       <div>
         <button
-          className="c10"
+          className="c9"
           data-testid="action-button"
           type="button"
         >
@@ -413,7 +392,6 @@ exports[`Storyshots Cards/IconCard Mobile Disabled 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .c7 {
@@ -547,18 +525,20 @@ exports[`Storyshots Cards/IconCard Mobile Disabled 1`] = `
           </svg>
         </span>
       </div>
-      <h5
+      <h2
         className="c4 c5"
         color="primary"
+        size="sm"
       >
         UNI EN ISO 9000:2015
-      </h5>
-      <h6
+      </h2>
+      <h3
         className="c6 c5"
         color="primary"
+        size="xs"
       >
         Sistema di Gestione per la Qualità
-      </h6>
+      </h3>
     </div>
     <div
       className="c7"
