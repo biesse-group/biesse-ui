@@ -21,6 +21,11 @@ export interface IconCardProps extends BaseProps {
    */
   subTitle: string | JSX.Element;
   /**
+   * Whether the component change its layout to horizontal
+   * in mobile or stays the same
+   */
+  mobileVersionDisabled?: boolean;
+  /**
    * The card description (JSX element is accepted)
    */
   description: string | JSX.Element;
@@ -35,46 +40,52 @@ const Root = styled.div`
   flex-direction: column;
 `;
 
-const Heading = styled.div`
+const Heading = styled.div<{ $mobileVersionDisabled?: boolean }>`
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 
-  ${mqUntil(
-    "md",
-    css`
-      flex-direction: row;
-      align-items: center;
-      margin-bottom: 15px;
-    `
-  )}
+  ${({ $mobileVersionDisabled }) =>
+    !$mobileVersionDisabled &&
+    mqUntil(
+      "md",
+      css`
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+      `
+    )}
 `;
 
-const Body = styled.div`
+const Body = styled.div<{ $mobileVersionDisabled?: boolean }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 
-  ${mqUntil(
-    "md",
-    css`
-      padding-left: 40px;
-    `
-  )}
+  ${({ $mobileVersionDisabled }) =>
+    !$mobileVersionDisabled &&
+    mqUntil(
+      "md",
+      css`
+        padding-left: 40px;
+      `
+    )}
 `;
 
-const IconContainer = styled.div`
+const IconContainer = styled.div<{ $mobileVersionDisabled?: boolean }>`
   margin-bottom: 14px;
   color: ${(props) => props.theme.color.primary};
 
-  ${mqUntil(
-    "md",
-    css`
-      margin-right: 10px;
-      margin-bottom: 0;
-    `
-  )}
+  ${({ $mobileVersionDisabled }) =>
+    !$mobileVersionDisabled &&
+    mqUntil(
+      "md",
+      css`
+        margin-right: 10px;
+        margin-bottom: 0;
+      `
+    )}
 `;
 
 const StyledTitle = styled(Title)`
@@ -91,12 +102,13 @@ export const IconCard: FC<IconCardProps> = ({
   subTitle,
   description,
   action,
+  mobileVersionDisabled,
   ...props
 }) => {
   return (
     <Root {...props}>
-      <Heading>
-        <IconContainer>
+      <Heading $mobileVersionDisabled={mobileVersionDisabled}>
+        <IconContainer $mobileVersionDisabled={mobileVersionDisabled}>
           {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
         <StyledTitle variant="H5" color="primary" uppercase>
@@ -106,7 +118,7 @@ export const IconCard: FC<IconCardProps> = ({
           {subTitle}
         </StyledTitle>
       </Heading>
-      <Body>
+      <Body $mobileVersionDisabled={mobileVersionDisabled}>
         {typeof description === "string" ? (
           <StyledText tag="p">{description}</StyledText>
         ) : (

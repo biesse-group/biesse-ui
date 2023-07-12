@@ -28,7 +28,22 @@ export const Default: Story = {
   args: {
     icon: "sustainability",
     title: "Sustainability",
-    subTitle: "sustainability",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    action: (
+      <Button variant="outline" testId="action-button">
+        Action
+      </Button>
+    ),
+  },
+};
+
+export const MobileDisabled: Story = {
+  args: {
+    icon: "sustainability",
+    title: "UNI EN ISO 9000:2015",
+    subTitle: "Sistema di Gestione per la Qualità",
+    mobileVersionDisabled: true,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     action: (
