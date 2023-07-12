@@ -4,6 +4,7 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
+import type { TitleProps } from "~components/Title";
 import { Title } from "~components/Title";
 import { mqUntil } from "~styles";
 
@@ -16,6 +17,23 @@ export interface IconCardProps extends BaseProps {
    * The card title
    */
   title: string | JSX.Element;
+  /**
+   * default is H2
+   */
+  titleTag?: TitleProps["variant"];
+  /**
+   * The card title
+   */
+  subtitle: string | JSX.Element;
+  /**
+   * default is H3
+   */
+  subtitleTag?: TitleProps["variant"];
+  /**
+   * Whether the component change its layout to horizontal
+   * in mobile or stays the same
+   */
+  wrapOnMobile?: boolean;
   /**
    * The card description (JSX element is accepted)
    */
@@ -31,72 +49,88 @@ const Root = styled.div`
   flex-direction: column;
 `;
 
-const Heading = styled.div`
+const Heading = styled.div<{ $wrapOnMobile?: boolean }>`
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
 
-  ${mqUntil(
-    "md",
-    css`
-      flex-direction: row;
-      align-items: center;
-      margin-bottom: 15px;
-    `
-  )}
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
+    mqUntil(
+      "md",
+      css`
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 15px;
+      `
+    )}
 `;
 
-const Body = styled.div`
+const Body = styled.div<{ $wrapOnMobile?: boolean }>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 
-  ${mqUntil(
-    "md",
-    css`
-      padding-left: 40px;
-    `
-  )}
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
+    mqUntil(
+      "md",
+      css`
+        padding-left: 40px;
+      `
+    )}
 `;
 
-const IconContainer = styled.div`
+const IconContainer = styled.div<{ $wrapOnMobile?: boolean }>`
   margin-bottom: 14px;
   color: ${(props) => props.theme.color.primary};
-  height: 40px;
-  width: 40px;
 
-  ${mqUntil(
-    "md",
-    css`
-      margin-right: 10px;
-      margin-bottom: 0;
-      height: 30px;
-      width: 30px;
-    `
-  )}
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
+    mqUntil(
+      "md",
+      css`
+        margin-right: 10px;
+        margin-bottom: 0;
+      `
+    )}
 `;
 
 const StyledTitle = styled(Title)`
-  margin-bottom: 0;
+  margin: 0px 0px 12px 0px;
 `;
 
 const StyledText = styled(Text)`
   margin-bottom: 20px;
 `;
 
-export const IconCard: FC<IconCardProps> = ({ icon, title, description, action, ...props }) => {
+export const IconCard: FC<IconCardProps> = ({
+  icon,
+  title,
+  titleTag,
+  subtitle,
+  subtitleTag,
+  description,
+  action,
+  wrapOnMobile,
+  ...props
+}) => {
   return (
     <Root {...props}>
-      <Heading>
-        <IconContainer>
-          {typeof icon === "string" ? <Icon name={icon} size="100%" /> : icon}
+      <Heading $wrapOnMobile={wrapOnMobile}>
+        <IconContainer $wrapOnMobile={wrapOnMobile}>
+          {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
-        <StyledTitle variant="H5" color="primary" uppercase>
+        <StyledTitle variant={titleTag ?? "H2"} size="sm" color="primary" uppercase>
           {title}
         </StyledTitle>
+        {subtitle && (
+          <StyledTitle variant={subtitleTag ?? "H3"} size="xs" color="primary">
+            {subtitle}
+          </StyledTitle>
+        )}
       </Heading>
-      <Body>
+      <Body $wrapOnMobile={wrapOnMobile}>
         {typeof description === "string" ? (
           <StyledText tag="p">{description}</StyledText>
         ) : (
