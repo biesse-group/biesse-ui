@@ -91,7 +91,7 @@ export const ProductCarousel = <T extends object>({
     useProductCarousel(items);
 
   useEffect(() => {
-    if (onChangePage) onChangePage(page);
+    if (onChangePage) onChangePage(page % items.length);
   }, [page]);
 
   return (
