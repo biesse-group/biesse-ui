@@ -128,6 +128,9 @@ export interface CtaCardProps extends BaseProps {
    * Card title
    */
   title: string | JSX.Element;
+  /**
+   * Title heading tag, default is `h4`
+   */
   titleTag: TitleProps["variant"];
   /**
    * Card description
