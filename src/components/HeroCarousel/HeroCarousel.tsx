@@ -46,7 +46,7 @@ const CarouselContainer = styled.div`
   ${mqUntil(
     "sm",
     css`
-      height: 500px;
+      height: 600px;
     `
   )}
 `;
