@@ -8,7 +8,9 @@ import { Title, type TitleProps } from "~components/Title";
 
 import { borderRadius, mqUntil } from "../../styles";
 
-const IconWrapper = styled.div`
+const StyledIcon = styled(Icon)`
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
   position: absolute;
   height: 100%;
   right: 20px;
@@ -18,14 +20,6 @@ const IconWrapper = styled.div`
       top: 20px;
     `
   )}
-
-  display: flex;
-`;
-
-const StyledIcon = styled(Icon)`
-  opacity: 0;
-  transition: opacity 0.2s ease-out;
-  align-self: center;
 
   ${mqUntil(
     "sm",
@@ -60,15 +54,24 @@ const Root = styled.div<Pick<CtaCardProps, "variant">>`
   }
 `;
 
-const ImageWrapper = styled.div`
+const ImageWrapper = styled.div<{ $withTitle: boolean }>`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 45%;
+  flex: 0 0 30%;
+
+  ${(props) =>
+    mqUntil(
+      "md",
+      css`
+        flex: ${props.$withTitle ? "0 0 40%" : "100%"};
+      `
+    )}
 `;
 
 const TextWrapper = styled.div<Pick<CtaCardProps, "variant">>`
   overflow-y: hidden;
+  padding: 20px 50px 20px 24px;
   display: flex;
   flex-direction: column;
   ${(props) =>
@@ -76,7 +79,6 @@ const TextWrapper = styled.div<Pick<CtaCardProps, "variant">>`
     css`
       justify-content: center;
     `}
-  padding: 20px 50px 20px 24px;
 
   ${mqUntil(
     "md",
@@ -162,7 +164,7 @@ export const CtaCard: FC<CtaCardProps> = ({
 }) => {
   return (
     <Root data-testid={testId} variant={variant} {...props}>
-      {image && <ImageWrapper>{image}</ImageWrapper>}
+      {image && <ImageWrapper $withTitle={variant === "with-title"}>{image}</ImageWrapper>}
       {(title || description) && (
         <TextWrapper variant={variant}>
           {title && variant === "with-title" && (
@@ -173,9 +175,7 @@ export const CtaCard: FC<CtaCardProps> = ({
           {description && <StyledDescription color="dark">{description}</StyledDescription>}
         </TextWrapper>
       )}
-      <IconWrapper>
-        <StyledIcon name="arrow-right" size="20px" color="primary" />
-      </IconWrapper>
+      <StyledIcon name="arrow-right" size="20px" color="primary" />
     </Root>
   );
 };
