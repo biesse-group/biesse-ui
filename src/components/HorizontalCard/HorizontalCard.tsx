@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 import { borderRadius, mqUntil } from "~styles";
 
 const CardContent = styled.div`
@@ -74,6 +74,7 @@ const CardContainer = styled.div`
 export interface HorizontalCardProps extends BaseProps {
   /** Card title */
   title: string | JSX.Element;
+  titleTag?: TitleProps["variant"];
   /** Card icon (above title) */
   icon?: IconName | JSX.Element;
   /**
@@ -94,6 +95,7 @@ export interface HorizontalCardProps extends BaseProps {
 export const HorizontalCard: FC<HorizontalCardProps> = ({
   icon,
   title,
+  titleTag = "h5",
   description,
   actions,
   image,
@@ -109,7 +111,7 @@ export const HorizontalCard: FC<HorizontalCardProps> = ({
               {typeof icon === "string" ? <Icon name={icon} color="primary" /> : icon}
             </CardIconWrapper>
           )}
-          <CardTitle variant="h5" color="primary" uppercase>
+          <CardTitle variant={titleTag} size="sm" color="primary" uppercase>
             {title}
           </CardTitle>
           {typeof description === "string" ? <Text>{description}</Text> : description}

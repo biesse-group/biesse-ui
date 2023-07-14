@@ -107,9 +107,9 @@ const StyledText = styled(Text)`
 export const IconCard: FC<IconCardProps> = ({
   icon,
   title,
-  titleTag,
+  titleTag = "h2",
   subtitle,
-  subtitleTag,
+  subtitleTag = "h3",
   description,
   action,
   wrapOnMobile,
@@ -121,11 +121,11 @@ export const IconCard: FC<IconCardProps> = ({
         <IconContainer $wrapOnMobile={wrapOnMobile}>
           {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
-        <StyledTitle variant={titleTag ?? "h2"} size="sm" color="primary" uppercase>
+        <StyledTitle variant={titleTag} size="sm" color="primary" uppercase>
           {title}
         </StyledTitle>
         {subtitle && (
-          <StyledTitle variant={subtitleTag ?? "h3"} size="xs" color="primary">
+          <StyledTitle variant={subtitleTag} size="xs" color="primary">
             {subtitle}
           </StyledTitle>
         )}

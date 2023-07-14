@@ -8,6 +8,9 @@ export interface EventCardProps extends BaseProps {
    * Title locate on top of the card
    */
   title: string | JSX.Element;
+  /**
+   * Title heading tag, default is `h3` for Primary, `h4` for Secondary
+   */
   titleTag?: TitleProps["variant"];
   /**
    * Starting date of the event

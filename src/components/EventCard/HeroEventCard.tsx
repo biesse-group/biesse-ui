@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
+import { Title } from "~components/Title";
 import { useUniqueDates } from "~hooks/useUniqueDates";
 import { borderRadius } from "~styles";
 import { mqUntil } from "~styles/media-queries";
@@ -103,11 +104,12 @@ const TitleWrapper = styled.div`
   padding-right: 36px;
 `;
 
-const StyledTitle = styled(Text)`
+const StyledTitle = styled(Title)`
   line-height: 26px;
   text-transform: uppercase;
-
+  font-size: 20px;
   padding: 12px 10px 12px 15px;
+  margin: 0;
 `;
 
 const StyledIcon = styled(Icon)`
@@ -117,7 +119,7 @@ const StyledIcon = styled(Icon)`
 export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
   testId,
   title,
-  titleTag,
+  titleTag = "h3",
   startDate,
   endDate,
   description,
@@ -145,7 +147,7 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
         )}
       </DateSubgrid>
       <TitleWrapper>
-        <StyledTitle color="primary" size="xl" weight="bold">
+        <StyledTitle variant={titleTag} color="primary">
           {title}
         </StyledTitle>
         <StyledIcon name="chevron-right" color="primary" size="30px" />

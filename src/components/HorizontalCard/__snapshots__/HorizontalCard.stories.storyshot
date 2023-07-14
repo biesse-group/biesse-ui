@@ -232,6 +232,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
         <h5
           className="c5 c6"
           color="primary"
+          size="sm"
         >
           Fast repair
         </h5>
@@ -519,6 +520,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
         <h5
           className="c5 c6"
           color="primary"
+          size="sm"
         >
           Spare parts
         </h5>
@@ -782,6 +784,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
         <h5
           className="c5 c6"
           color="primary"
+          size="sm"
         >
           Fast repair
         </h5>
@@ -1069,6 +1072,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
         <h5
           className="c5 c6"
           color="primary"
+          size="sm"
         >
           Spare parts
         </h5>

@@ -140,7 +140,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       </DateLinkWrapper>
 
       <EventCardMainWrapper>
-        <CardTitle variant={titleTag} color="primary" uppercase>
+        <CardTitle variant={titleTag} size="lg" color="primary" uppercase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 20 }}>

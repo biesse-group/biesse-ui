@@ -202,6 +202,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
     <h5
       className="c1"
       color="primary"
+      size="sm"
       style={
         Object {
           "marginBottom": 0,
@@ -237,6 +238,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       <h6
         className="c7 c8"
         color="primary"
+        size="xs"
       >
         Pellentesque auctor neque nec urna
       </h6>
@@ -305,6 +307,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       <h6
         className="c7 c8"
         color="primary"
+        size="xs"
       >
         Duis leo. Donec mollis hendrerit risus
       </h6>
@@ -373,6 +376,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       <h6
         className="c7 c8"
         color="primary"
+        size="xs"
       >
         <a
           href="/"

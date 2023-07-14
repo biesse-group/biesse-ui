@@ -15,6 +15,9 @@ export interface CardListProps extends BaseProps {
    * Title of the list
    */
   title?: string;
+  /**
+   * Title heading tag, default is `h5`
+   */
   titleTag?: TitleProps["variant"];
 }
 
@@ -27,7 +30,7 @@ export const CardList: FC<PropsWithChildren<CardListProps>> = ({
   return (
     <Grid {...props}>
       {title && (
-        <Title variant={titleTag} color="primary" uppercase style={{ marginBottom: 0 }}>
+        <Title variant={titleTag} size="sm" color="primary" uppercase style={{ marginBottom: 0 }}>
           {title}
         </Title>
       )}

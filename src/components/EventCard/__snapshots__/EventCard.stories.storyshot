@@ -49,22 +49,6 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   color: inherit;
 }
 
-.c12 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  color: #6D6E70;
-}
-
-.c12 a {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-  color: #6D6E70;
-}
-
 .c17 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
@@ -98,6 +82,15 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   height: 100%;
   width: 100%;
   color: primary;
+}
+
+.c12 {
+  margin-top: 0;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: none;
+  color: #6D6E70;
 }
 
 .c0 {
@@ -201,7 +194,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 .c13 {
   line-height: 26px;
   text-transform: uppercase;
+  font-size: 20px;
   padding: 12px 10px 12px 15px;
+  margin: 0;
 }
 
 .c15 {
@@ -271,27 +266,11 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c12 {
-    font-size: 18px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
-  .c12 {
-    font-size: 18px;
-  }
-}
 
-@media screen and (max-width:991px) {
-  .c12 a {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c12 a {
-    font-size: 18px;
-  }
 }
 
 @media screen and (max-width:991px) {
@@ -373,13 +352,12 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
     <div
       className="c11"
     >
-      <span
+      <h3
         className="c12 c13"
         color="primary"
-        size="xl"
       >
         Lorem Ipsum
-      </span>
+      </h3>
       <span
         className="c14 c15"
         color="primary"
@@ -863,6 +841,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
       <h3
         className="c9 c10"
         color="primary"
+        size="lg"
       >
         Lorem Ipsum
       </h3>
@@ -1362,6 +1341,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
       <h3
         className="c9 c10"
         color="primary"
+        size="lg"
       >
         Lorem Ipsum
       </h3>
@@ -1579,6 +1559,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
       <h4
         className="c2 c3"
         color="primary"
+        size="md"
       >
         Lorem Ipsum
       </h4>
@@ -2058,6 +2039,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
       <h3
         className="c9 c10"
         color="primary"
+        size="lg"
       >
         Lorem Ipsum
       </h3>

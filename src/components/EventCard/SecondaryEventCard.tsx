@@ -58,7 +58,7 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   return (
     <EventCardRoot data-testid={testId} {...props}>
       <EventCardMainWrapper>
-        <CardTitle variant={titleTag} color="primary" uppercase>
+        <CardTitle variant={titleTag} size="md" color="primary" uppercase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 10 }}>

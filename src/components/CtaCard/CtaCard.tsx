@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 
 import { borderRadius, mqUntil } from "../../styles";
 
@@ -127,7 +127,8 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card title
    */
-  title: string;
+  title: string | JSX.Element;
+  titleTag: TitleProps["variant"];
   /**
    * Card description
    */
@@ -149,6 +150,7 @@ export interface CtaCardProps extends BaseProps {
 
 export const CtaCard: FC<CtaCardProps> = ({
   title,
+  titleTag = "h4",
   description,
   image,
   variant,
@@ -161,7 +163,7 @@ export const CtaCard: FC<CtaCardProps> = ({
       {(title || description) && (
         <TextWrapper variant={variant}>
           {title && variant === "with-title" && (
-            <StyledTitle variant="h4" color="primary" uppercase>
+            <StyledTitle variant={titleTag} size="md" color="primary" uppercase>
               {title}
             </StyledTitle>
           )}
