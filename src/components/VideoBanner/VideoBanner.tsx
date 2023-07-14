@@ -129,12 +129,12 @@ export const VideoBanner: FC<VideoBannerProps> = ({
   return (
     <VideoBannerRoot data-testid={testId} {...props}>
       {title && (
-        <StyledTitle variant="H1" color="light" uppercase>
+        <StyledTitle variant="h1" color="light" uppercase>
           {title}
         </StyledTitle>
       )}
       {subTitle && (
-        <StyledSubtitle variant="H5" color="light" uppercase>
+        <StyledSubtitle variant="h5" color="light" uppercase>
           {subTitle}
         </StyledSubtitle>
       )}

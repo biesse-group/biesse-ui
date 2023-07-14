@@ -34,6 +34,7 @@ const EventCardRoot = styled.div`
   grid-template-columns: 85px auto;
   background-color: ${(props) => props.theme.color.lightGray};
   transition: all 0.2s ease-out;
+  cursor: ${(props) => (props.onClick ? "pointer" : "auto")};
   ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   :hover {
@@ -90,25 +91,15 @@ const DateLinkWrapper = styled.div`
   color: ${(props) => props.theme.color.white};
 `;
 
-const LinkWrapper = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: transparent;
-  z-index: 1;
-  cursor: pointer;
-`;
-
 const ChildWrapper = styled.div`
   grid-area: 2 / 2;
   padding: 28px 15px 20px 20px;
 `;
 
-const DateDay = styled(Title)`
+const DateDay = styled(Text)`
   margin-bottom: 0px;
   line-height: 40px;
+  font-size: ${(props) => props.theme.font.regular.headings.xl};
 
   ${mqUntil(
     "sm",
@@ -121,11 +112,11 @@ const DateDay = styled(Title)`
 export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "variant">>> = ({
   testId,
   title,
+  titleTag = "h3",
   startDate,
   endDate,
   description,
   children,
-  renderLink,
   location,
   ...props
 }) => {
@@ -133,14 +124,13 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
   return (
     <EventCardRoot data-testid={testId} {...props}>
       <DateLinkWrapper>
-        {renderLink && <LinkWrapper>{renderLink()}</LinkWrapper>}
-        <DateDay variant="H2">{`${startDate.format("DD")}`}</DateDay>
+        <DateDay weight="bold">{`${startDate.format("DD")}`}</DateDay>
         <Text size="md" weight="medium">
           {`${startDate.format("MMMYY")}`.toUpperCase()}
         </Text>
         {uniqueDates.length > 1 && endDate && (
           <>
-            <DateDay variant="H2">{`${endDate.format("MM")}`}</DateDay>
+            <DateDay weight="bold">{`${endDate.format("MM")}`}</DateDay>
             <Text size="md" weight="medium">
               {`${endDate.format("MMMYY")}`.toUpperCase()}
             </Text>
@@ -150,7 +140,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       </DateLinkWrapper>
 
       <EventCardMainWrapper>
-        <CardTitle variant="H4" color="primary" uppercase>
+        <CardTitle variant={titleTag} color="primary" uppercase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 20 }}>

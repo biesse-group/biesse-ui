@@ -1,9 +1,16 @@
 import { type FC, type PropsWithChildren } from "react";
-import styled, { css, type CSSProperties } from "styled-components";
+import styled, {
+  css,
+  type CSSProperties,
+  type DefaultTheme,
+  type StyledComponent,
+} from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
 import { mqUntil } from "~styles/media-queries";
 import { type BiesseTheme } from "~themes";
+
+type HeadingTag = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
 export interface TitleProps extends BaseProps {
   /**
@@ -11,9 +18,9 @@ export interface TitleProps extends BaseProps {
    */
   size?: keyof BiesseTheme["font"]["regular"]["headings"];
   /**
-   * Heading tag, should be one of `H1`, `H2`, `H3`, `H4`, `H5`, `H6`
+   * Heading tag, should be one of `h1`, `h2`, `h3`, `h4`, `h5`, `h6`
    */
-  variant: keyof typeof HEADINGS;
+  variant: HeadingTag;
   /**
    * Title color, can ben `primary` or `light`
    */
@@ -67,28 +74,28 @@ const getHeadingStyle = ({
   }};
 `;
 
-const HEADINGS = {
-  H1: styled.h1<HeadingProps>`
+const HEADINGS: Record<HeadingTag, StyledComponent<HeadingTag, DefaultTheme, HeadingProps>> = {
+  h1: styled.h1<HeadingProps>`
     ${({ size = "xxl", ...props }) => getHeadingStyle({ size, ...props })}
   `,
-  H2: styled.h2<HeadingProps>`
+  h2: styled.h2<HeadingProps>`
     ${({ size = "xl", ...props }) => getHeadingStyle({ size, ...props })}
   `,
-  H3: styled.h3<HeadingProps>`
+  h3: styled.h3<HeadingProps>`
     ${({ size = "lg", ...props }) => getHeadingStyle({ size, ...props })}
   `,
-  H4: styled.h4<HeadingProps>`
+  h4: styled.h4<HeadingProps>`
     ${({ size = "md", ...props }) => getHeadingStyle({ size, ...props })}
   `,
-  H5: styled.h5<HeadingProps>`
+  h5: styled.h5<HeadingProps>`
     ${({ size = "sm", ...props }) => getHeadingStyle({ size, ...props })}
   `,
-  H6: styled.h6<HeadingProps>`
+  h6: styled.h6<HeadingProps>`
     ${({ size = "xs", ...props }) => getHeadingStyle({ size, ...props })}
   `,
 } as const;
 
-export const Title: FC<PropsWithChildren<TitleProps>> = ({ variant = "H3", ...props }) => {
+export const Title: FC<PropsWithChildren<TitleProps>> = ({ variant = "h3", ...props }) => {
   const Heading = HEADINGS[variant];
   return <Heading {...props} />;
 };

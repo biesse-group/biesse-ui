@@ -121,11 +121,11 @@ export const IconCard: FC<IconCardProps> = ({
         <IconContainer $wrapOnMobile={wrapOnMobile}>
           {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
-        <StyledTitle variant={titleTag ?? "H2"} size="sm" color="primary" uppercase>
+        <StyledTitle variant={titleTag ?? "h2"} size="sm" color="primary" uppercase>
           {title}
         </StyledTitle>
         {subtitle && (
-          <StyledTitle variant={subtitleTag ?? "H3"} size="xs" color="primary">
+          <StyledTitle variant={subtitleTag ?? "h3"} size="xs" color="primary">
             {subtitle}
           </StyledTitle>
         )}

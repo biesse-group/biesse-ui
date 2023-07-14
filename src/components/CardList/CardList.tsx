@@ -2,7 +2,7 @@ import { type FC, type PropsWithChildren } from "react";
 import styled from "styled-components";
 
 import { type BaseProps } from "~components/baseProps";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 
 const Grid = styled.div`
   display: grid;
@@ -15,13 +15,19 @@ export interface CardListProps extends BaseProps {
    * Title of the list
    */
   title?: string;
+  titleTag?: TitleProps["variant"];
 }
 
-export const CardList: FC<PropsWithChildren<CardListProps>> = ({ title, children, ...props }) => {
+export const CardList: FC<PropsWithChildren<CardListProps>> = ({
+  title,
+  titleTag = "h5",
+  children,
+  ...props
+}) => {
   return (
     <Grid {...props}>
       {title && (
-        <Title variant="H5" color="primary" uppercase style={{ marginBottom: 0 }}>
+        <Title variant={titleTag} color="primary" uppercase style={{ marginBottom: 0 }}>
           {title}
         </Title>
       )}
