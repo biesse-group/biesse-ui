@@ -45,7 +45,7 @@ const ActionWrapper = styled.div`
 export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "variant">>> = ({
   testId,
   title,
-  titleTag = "h4",
+  titleTag = "h3",
   startDate,
   endDate,
   location,

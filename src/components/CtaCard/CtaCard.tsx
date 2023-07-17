@@ -131,7 +131,7 @@ export interface CtaCardProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
-   * Title heading tag, default is `h4`
+   * Title heading tag, default is `h3`
    */
   titleTag: TitleProps["variant"];
   /**
@@ -155,7 +155,7 @@ export interface CtaCardProps extends BaseProps {
 
 export const CtaCard: FC<CtaCardProps> = ({
   title,
-  titleTag = "h4",
+  titleTag = "h3",
   description,
   image,
   variant,

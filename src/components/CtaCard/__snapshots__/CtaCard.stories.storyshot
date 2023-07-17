@@ -522,13 +522,13 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
     <div
       className="c4"
     >
-      <h4
+      <h3
         className="c5 c6"
         color="primary"
         size="md"
       >
         ES951
-      </h4>
+      </h3>
       <span
         className="c7 c8"
         color="dark"

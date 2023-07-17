@@ -16,14 +16,14 @@ export interface CardListProps extends BaseProps {
    */
   title?: string;
   /**
-   * Title heading tag, default is `h5`
+   * Title heading tag, default is `h3`
    */
   titleTag?: TitleProps["variant"];
 }
 
 export const CardList: FC<PropsWithChildren<CardListProps>> = ({
   title,
-  titleTag = "h5",
+  titleTag = "h3",
   children,
   ...props
 }) => {

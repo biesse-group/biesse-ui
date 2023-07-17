@@ -18,7 +18,7 @@ export interface IconCardProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
-   * default is H2
+   * Card title tag, default is `h3`
    */
   titleTag?: TitleProps["variant"];
   /**
@@ -26,7 +26,7 @@ export interface IconCardProps extends BaseProps {
    */
   subtitle: string | JSX.Element;
   /**
-   * default is H3
+   * Card subtitle tag, default is `h4`
    */
   subtitleTag?: TitleProps["variant"];
   /**
@@ -107,9 +107,9 @@ const StyledText = styled(Text)`
 export const IconCard: FC<IconCardProps> = ({
   icon,
   title,
-  titleTag = "h2",
+  titleTag = "h3",
   subtitle,
-  subtitleTag = "h3",
+  subtitleTag = "h4",
   description,
   action,
   wrapOnMobile,

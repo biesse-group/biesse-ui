@@ -1556,13 +1556,13 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
     <div
       className="c1"
     >
-      <h4
+      <h3
         className="c2 c3"
         color="primary"
         size="md"
       >
         Lorem Ipsum
-      </h4>
+      </h3>
       <div
         style={
           Object {

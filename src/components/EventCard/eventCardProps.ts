@@ -10,7 +10,7 @@ export interface EventCardProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
-   * Title heading tag, default is `h3` for Primary, `h4` for Secondary
+   * Title heading tag, default is `h3`
    */
   titleTag?: TitleProps["variant"];
   /**

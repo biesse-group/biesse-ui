@@ -229,13 +229,13 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
             </svg>
           </span>
         </div>
-        <h5
+        <h3
           className="c5 c6"
           color="primary"
           size="sm"
         >
           Fast repair
-        </h5>
+        </h3>
         <span
           className="c7"
         >
@@ -517,13 +517,13 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
             </svg>
           </span>
         </div>
-        <h5
+        <h3
           className="c5 c6"
           color="primary"
           size="sm"
         >
           Spare parts
-        </h5>
+        </h3>
         <span
           className="c7"
         >
@@ -781,13 +781,13 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
             </svg>
           </span>
         </div>
-        <h5
+        <h3
           className="c5 c6"
           color="primary"
           size="sm"
         >
           Fast repair
-        </h5>
+        </h3>
         <span
           className="c7"
         >
@@ -1069,13 +1069,13 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
             </svg>
           </span>
         </div>
-        <h5
+        <h3
           className="c5 c6"
           color="primary"
           size="sm"
         >
           Spare parts
-        </h5>
+        </h3>
         <span
           className="c7"
         >

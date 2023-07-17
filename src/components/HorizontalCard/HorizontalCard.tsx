@@ -74,6 +74,9 @@ const CardContainer = styled.div`
 export interface HorizontalCardProps extends BaseProps {
   /** Card title */
   title: string | JSX.Element;
+  /**
+   * Card title tag, default is `h3`
+   */
   titleTag?: TitleProps["variant"];
   /** Card icon (above title) */
   icon?: IconName | JSX.Element;
@@ -95,7 +98,7 @@ export interface HorizontalCardProps extends BaseProps {
 export const HorizontalCard: FC<HorizontalCardProps> = ({
   icon,
   title,
-  titleTag = "h5",
+  titleTag = "h3",
   description,
   actions,
   image,

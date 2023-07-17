@@ -17,7 +17,7 @@ export interface CardListItemProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
-   * Title heading tag, default is `h6`
+   * Title heading tag, default is `h4`
    */
   titleTag?: TitleProps["variant"];
   /**
@@ -79,7 +79,7 @@ const CardAction = styled.div`
 export const CardListItem: FC<CardListItemProps> = ({
   preTitle,
   title,
-  titleTag = "h6",
+  titleTag = "h4",
   image,
   buttonLabel,
   onClick,
