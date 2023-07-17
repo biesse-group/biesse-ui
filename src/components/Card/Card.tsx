@@ -188,7 +188,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
               {preTitle}
             </CardPreTitle>
           )}
-          <CardTitle variant="H4" color="primary" {...{ titleSize, preTitle, titleLines }}>
+          <CardTitle variant="h4" color="primary" {...{ titleSize, preTitle, titleLines }}>
             {title}
           </CardTitle>
           {children && (

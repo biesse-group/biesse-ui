@@ -25,17 +25,22 @@ exports[`Storyshots Display/Logo Primary 1`] = `
     }
   >
     <div
+      aria-label="HSD Mechatronics – elettromandrini, teste di fresatura e componenti per lavorare i metalli"
       className="c1"
       color="primary"
     >
       <svg
+        aria-labelledby="hsd-logo-title"
         fill="currentColor"
+        role="img"
         viewBox="0 0 300 22"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <title>
-          3A0A9E44-AD49-492A-86D1-A802067D00CA
+        <title
+          id="hsd-logo-title"
+        >
+          HSD Mechatronics – elettromandrini, teste di fresatura e componenti per lavorare i metalli
         </title>
         <defs>
           <path
@@ -99,17 +104,22 @@ exports[`Storyshots Display/Logo White 1`] = `
     }
   >
     <div
+      aria-label="HSD Mechatronics – elettromandrini, teste di fresatura e componenti per lavorare i metalli"
       className="c1"
       color="white"
     >
       <svg
+        aria-labelledby="hsd-logo-title"
         fill="currentColor"
+        role="img"
         viewBox="0 0 300 22"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <title>
-          3A0A9E44-AD49-492A-86D1-A802067D00CA
+        <title
+          id="hsd-logo-title"
+        >
+          HSD Mechatronics – elettromandrini, teste di fresatura e componenti per lavorare i metalli
         </title>
         <defs>
           <path

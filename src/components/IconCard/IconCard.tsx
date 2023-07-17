@@ -18,7 +18,7 @@ export interface IconCardProps extends BaseProps {
    */
   title: string | JSX.Element;
   /**
-   * default is H2
+   * Card title tag, default is `h3`
    */
   titleTag?: TitleProps["variant"];
   /**
@@ -26,7 +26,7 @@ export interface IconCardProps extends BaseProps {
    */
   subtitle: string | JSX.Element;
   /**
-   * default is H3
+   * Card subtitle tag, default is `h4`
    */
   subtitleTag?: TitleProps["variant"];
   /**
@@ -107,9 +107,9 @@ const StyledText = styled(Text)`
 export const IconCard: FC<IconCardProps> = ({
   icon,
   title,
-  titleTag,
+  titleTag = "h3",
   subtitle,
-  subtitleTag,
+  subtitleTag = "h4",
   description,
   action,
   wrapOnMobile,
@@ -121,11 +121,11 @@ export const IconCard: FC<IconCardProps> = ({
         <IconContainer $wrapOnMobile={wrapOnMobile}>
           {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
-        <StyledTitle variant={titleTag ?? "H2"} size="sm" color="primary" uppercase>
+        <StyledTitle variant={titleTag} size="sm" color="primary" uppercase>
           {title}
         </StyledTitle>
         {subtitle && (
-          <StyledTitle variant={subtitleTag ?? "H3"} size="xs" color="primary">
+          <StyledTitle variant={subtitleTag} size="xs" color="primary">
             {subtitle}
           </StyledTitle>
         )}

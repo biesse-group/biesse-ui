@@ -730,13 +730,17 @@ exports[`Storyshots Layout/Footer Default 1`] = `
         color="white"
       >
         <svg
+          aria-labelledby="hsd-logo-title"
           fill="currentColor"
+          role="img"
           viewBox="0 0 300 22"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
         >
-          <title>
-            3A0A9E44-AD49-492A-86D1-A802067D00CA
+          <title
+            id="hsd-logo-title"
+          >
+            HSD Logo
           </title>
           <defs>
             <path

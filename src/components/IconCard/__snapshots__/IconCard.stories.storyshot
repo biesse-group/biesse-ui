@@ -252,13 +252,13 @@ exports[`Storyshots Cards/IconCard Default 1`] = `
           </svg>
         </span>
       </div>
-      <h2
+      <h3
         className="c4 c5"
         color="primary"
         size="sm"
       >
         Sustainability
-      </h2>
+      </h3>
     </div>
     <div
       className="c6"
@@ -525,20 +525,20 @@ exports[`Storyshots Cards/IconCard Mobile Disabled 1`] = `
           </svg>
         </span>
       </div>
-      <h2
+      <h3
         className="c4 c5"
         color="primary"
         size="sm"
       >
         UNI EN ISO 9000:2015
-      </h2>
-      <h3
+      </h3>
+      <h4
         className="c6 c5"
         color="primary"
         size="xs"
       >
         Sistema di Gestione per la Qualità
-      </h3>
+      </h4>
     </div>
     <div
       className="c7"

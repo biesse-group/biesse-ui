@@ -294,18 +294,20 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
 <div
   className="c0"
 >
-  <h1
+  <h2
     className="c1 c2"
     color="light"
+    size="xxl"
   >
     La Produzione
-  </h1>
-  <h5
+  </h2>
+  <h3
     className="c3 c4"
     color="light"
+    size="sm"
   >
     Efficienza e competenza
-  </h5>
+  </h3>
   <div
     className="c5"
   >

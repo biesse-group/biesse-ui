@@ -1,12 +1,18 @@
 import type dayjs from "dayjs";
+import { type MouseEventHandler } from "react";
 
 import type { BaseProps } from "~components/baseProps";
+import type { TitleProps } from "~components/Title";
 
 export interface EventCardProps extends BaseProps {
   /**
    * Title locate on top of the card
    */
-  title: string;
+  title: string | JSX.Element;
+  /**
+   * Title heading tag, default is `h3`
+   */
+  titleTag?: TitleProps["variant"];
   /**
    * Starting date of the event
    */
@@ -24,13 +30,9 @@ export interface EventCardProps extends BaseProps {
    */
   description?: string | JSX.Element;
   /**
-   * Link component overlay on the card left side.
-   * If HeroEventCard is being used, it will be applied on the title text.
-   */
-  renderLink?: (child?: string) => JSX.Element;
-  /**
-   *
+   * Card style variant
    */
   variant?: "primary" | "secondary" | "hero";
+  onClick?: MouseEventHandler<HTMLDivElement>;
   testId?: string;
 }

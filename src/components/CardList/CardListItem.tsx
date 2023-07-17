@@ -5,12 +5,28 @@ import { borderRadius, multilineEllipsis, singleLineEllipsis } from "~/styles";
 import { type BaseProps } from "~components/baseProps";
 import { Button } from "~components/Button";
 import { Text } from "~components/Text";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 
 export interface CardListItemProps extends BaseProps {
+  /**
+   * Text shown above the title
+   */
   preTitle?: string;
+  /**
+   * Card title
+   */
   title: string | JSX.Element;
+  /**
+   * Title heading tag, default is `h4`
+   */
+  titleTag?: TitleProps["variant"];
+  /**
+   * Card image element
+   */
   image: JSX.Element;
+  /**
+   * Label of the card action button
+   */
   buttonLabel?: string;
   onClick?: () => void;
 }
@@ -63,6 +79,7 @@ const CardAction = styled.div`
 export const CardListItem: FC<CardListItemProps> = ({
   preTitle,
   title,
+  titleTag = "h4",
   image,
   buttonLabel,
   onClick,
@@ -74,7 +91,7 @@ export const CardListItem: FC<CardListItemProps> = ({
       <CardPreTitle italic size="sm">
         {preTitle}
       </CardPreTitle>
-      <CardTitle variant="H6" color="primary" uppercase>
+      <CardTitle variant={titleTag} size="xs" color="primary" uppercase>
         {title}
       </CardTitle>
       <CardAction>

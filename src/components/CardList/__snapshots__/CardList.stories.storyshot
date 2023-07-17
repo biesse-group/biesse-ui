@@ -199,9 +199,10 @@ exports[`Storyshots Cards/CardList Default 1`] = `
   <div
     className="c0"
   >
-    <h5
+    <h3
       className="c1"
       color="primary"
+      size="sm"
       style={
         Object {
           "marginBottom": 0,
@@ -209,7 +210,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       }
     >
       Related articles
-    </h5>
+    </h3>
     <div
       className="c2"
     >
@@ -234,12 +235,13 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       >
         January 10, 2023, Location
       </span>
-      <h6
+      <h4
         className="c7 c8"
         color="primary"
+        size="xs"
       >
         Pellentesque auctor neque nec urna
-      </h6>
+      </h4>
       <div
         className="c9"
       >
@@ -302,12 +304,13 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       >
         January 10, 2023, Location
       </span>
-      <h6
+      <h4
         className="c7 c8"
         color="primary"
+        size="xs"
       >
         Duis leo. Donec mollis hendrerit risus
-      </h6>
+      </h4>
       <div
         className="c9"
       >
@@ -370,9 +373,10 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       >
         January 10, 2023, Location
       </span>
-      <h6
+      <h4
         className="c7 c8"
         color="primary"
+        size="xs"
       >
         <a
           href="/"
@@ -384,7 +388,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
         >
           Morbi ac felis. Aliquam eu nunc. Vivamus consectetuer hendrerit lacus
         </a>
-      </h6>
+      </h4>
       <div
         className="c9"
       >

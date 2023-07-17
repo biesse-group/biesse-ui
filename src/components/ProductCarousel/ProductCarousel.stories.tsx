@@ -100,7 +100,7 @@ const ButtonContainer = styled.div`
 const SampleProductDetail: FC<{ product: SampleProduct }> = ({ product }) => {
   return (
     <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
-      <Title variant="H3" color="primary" style={{ margin: 0 }}>
+      <Title variant="h3" color="primary" style={{ margin: 0 }}>
         {product.code}
       </Title>
       <ButtonContainer>

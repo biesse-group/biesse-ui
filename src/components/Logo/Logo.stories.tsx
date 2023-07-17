@@ -26,6 +26,8 @@ export const Primary: Story = {
   args: {
     name: "HSD",
     color: "primary",
+    title:
+      "HSD Mechatronics – elettromandrini, teste di fresatura e componenti per lavorare i metalli",
   },
 };
 

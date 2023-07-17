@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
+import { Title } from "~components/Title";
 import { useUniqueDates } from "~hooks/useUniqueDates";
 import { borderRadius } from "~styles";
 import { mqUntil } from "~styles/media-queries";
@@ -22,6 +23,7 @@ const HeroEventCardRoot = styled.div`
     "description description";
   background-color: ${(props) => props.theme.color.white};
   box-shadow: ${(props) => props.theme.eventCard.heroBoxShadow};
+  cursor: ${(props) => (props.onClick ? "pointer" : "auto")};
   ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   ${mqUntil(
@@ -89,27 +91,25 @@ const EndDateMonthYear = styled(MonthYearStyledText)`
 const DescriptionItem = styled.div`
   grid-area: description;
   padding: 12px 36px 12px 60px;
-
   background-color: ${(props) => props.theme.color.primary};
 `;
 
 const TitleWrapper = styled.div`
   grid-area: title;
-
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   min-height: 80px;
   padding-right: 36px;
 `;
 
-const StyledTitle = styled(Text)`
+const StyledTitle = styled(Title)`
   line-height: 26px;
   text-transform: uppercase;
-
+  font-size: 20px;
   padding: 12px 10px 12px 15px;
+  margin: 0;
 `;
 
 const StyledIcon = styled(Icon)`
@@ -119,10 +119,11 @@ const StyledIcon = styled(Icon)`
 export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
   testId,
   title,
+  titleTag = "h3",
   startDate,
   endDate,
   description,
-  renderLink,
+  location,
   ...props
 }) => {
   const uniqueDates = useUniqueDates(startDate, endDate);
@@ -146,8 +147,8 @@ export const HeroEventCard: FC<Omit<EventCardProps, "variant">> = ({
         )}
       </DateSubgrid>
       <TitleWrapper>
-        <StyledTitle color="primary" size="xl" weight="bold">
-          {renderLink ? renderLink(title) : title}
+        <StyledTitle variant={titleTag} color="primary">
+          {title}
         </StyledTitle>
         <StyledIcon name="chevron-right" color="primary" size="30px" />
       </TitleWrapper>
