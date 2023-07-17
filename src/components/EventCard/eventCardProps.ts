@@ -1,4 +1,5 @@
 import type dayjs from "dayjs";
+import { type MouseEventHandler } from "react";
 
 import type { BaseProps } from "~components/baseProps";
 import type { TitleProps } from "~components/Title";
@@ -32,6 +33,6 @@ export interface EventCardProps extends BaseProps {
    * Card style variant
    */
   variant?: "primary" | "secondary" | "hero";
-  onClick?: () => void;
+  onClick?: MouseEventHandler<HTMLDivElement>;
   testId?: string;
 }
