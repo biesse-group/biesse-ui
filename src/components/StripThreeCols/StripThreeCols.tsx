@@ -13,7 +13,7 @@ export interface StripThreeColsProps extends BaseProps {
   /**
    * Strip items. Main will be shown larger on large screens.
    */
-  items: [JSX.Element, JSX.Element?, JSX.Element?];
+  items: [React.ReactNode, React.ReactNode?, React.ReactNode?];
   /**
    * Determine whether the items on tablet devices keeps their proportion
    * or wrap to show the first item as bigger

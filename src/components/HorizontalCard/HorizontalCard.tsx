@@ -73,25 +73,25 @@ const CardContainer = styled.div`
 
 export interface HorizontalCardProps extends BaseProps {
   /** Card title */
-  title: string | JSX.Element;
+  title: string | React.ReactNode;
   /**
    * Card title tag, default is `h3`
    */
   titleTag?: TitleProps["variant"];
   /** Card icon (above title) */
-  icon?: IconName | JSX.Element;
+  icon?: IconName | React.ReactNode;
   /**
    * Card description
    */
-  description?: string | JSX.Element;
+  description?: string | React.ReactNode;
   /**
    * Card actions (buttons, etc.)
    */
-  actions?: JSX.Element;
+  actions?: React.ReactNode;
   /**
    * Card image (on body right)
    */
-  image?: JSX.Element;
+  image?: React.ReactNode;
   testId?: string;
 }
 

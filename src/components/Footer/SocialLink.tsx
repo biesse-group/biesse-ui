@@ -14,11 +14,11 @@ export interface SocialLinkProps extends BaseProps {
   /**
    * Social network icon
    */
-  socialIcon?: IconName | JSX.Element;
+  socialIcon?: IconName | React.ReactNode;
   /**
    * External link element, function should wrap the argument as children
    */
-  renderLink?: (label: JSX.Element) => JSX.Element;
+  renderLink?: (label: React.ReactNode) => React.ReactNode;
 }
 
 const SocialWrapper = styled.div`

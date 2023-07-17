@@ -12,11 +12,11 @@ export interface IconCardProps extends BaseProps {
   /**
    * An icon from icons set or an external JSX element
    */
-  icon: IconName | JSX.Element;
+  icon: IconName | React.ReactNode;
   /**
    * The card title
    */
-  title: string | JSX.Element;
+  title: string | React.ReactNode;
   /**
    * Card title tag, default is `h3`
    */
@@ -24,7 +24,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card title
    */
-  subtitle: string | JSX.Element;
+  subtitle: string | React.ReactNode;
   /**
    * Card subtitle tag, default is `h4`
    */
@@ -37,11 +37,11 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card description (JSX element is accepted)
    */
-  description: string | JSX.Element;
+  description: string | React.ReactNode;
   /**
    * Actions like buttons, etc *(optional)*
    */
-  action?: JSX.Element;
+  action?: React.ReactNode;
 }
 
 const Root = styled.div`

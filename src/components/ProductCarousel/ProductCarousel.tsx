@@ -58,13 +58,13 @@ export interface ProductCarouselProps<T extends object> extends BaseProps {
    * @param item the nth item
    * @returns a JSX element representing the item image
    */
-  renderImage: (item: T) => JSX.Element;
+  renderImage: (item: T) => React.ReactNode;
   /**
    * Render item detail
    * @param item the nth item
    * @returns a JSX element representing the item detail
    */
-  renderDetail: (item: T) => JSX.Element;
+  renderDetail: (item: T) => React.ReactNode;
   /**
    * Called whenever active page changes
    */

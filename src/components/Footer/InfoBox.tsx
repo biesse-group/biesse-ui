@@ -14,7 +14,7 @@ export interface InfoBoxProps extends BaseProps {
   /**
    * Text to be displayed in the info section
    */
-  body?: string | JSX.Element;
+  body?: string | React.ReactNode;
   /**
    * Icon to be placed on the left of the info box
    */

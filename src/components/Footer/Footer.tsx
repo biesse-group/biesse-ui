@@ -13,7 +13,7 @@ export interface FooterProps extends BaseProps {
   /**
    * Logo on top of the footer
    */
-  logo?: JSX.Element;
+  logo?: React.ReactNode;
   /**
    * Link list on the central body, first from the left
    */

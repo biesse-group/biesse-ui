@@ -6,7 +6,7 @@ export interface NavLink {
   /**
    * Link to the ref page
    */
-  renderLink: (children: React.ReactElement) => JSX.Element;
+  renderLink: (children: React.ReactElement) => React.ReactNode;
   /**
    * If true, the link label will be shown on mobile hamburger menu
    */

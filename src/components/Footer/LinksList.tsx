@@ -15,7 +15,7 @@ export interface LinkListElement {
   /**
    * External link element, function should wrap the argument as children
    */
-  renderLink?: (label: string) => JSX.Element;
+  renderLink?: (label: string) => React.ReactNode;
   className?: string;
 }
 

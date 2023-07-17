@@ -129,7 +129,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card title
    */
-  title: string | JSX.Element;
+  title: string | React.ReactNode;
   /**
    * Title heading tag, default is `h3`
    */
@@ -137,7 +137,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card description
    */
-  description?: string | JSX.Element;
+  description?: string | React.ReactNode;
   /**
    * Card click action
    */
@@ -145,7 +145,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card image (on body right)
    */
-  image?: JSX.Element;
+  image?: React.ReactNode;
   /**
    * Card variant (with `full-image`, text and description will not appear)
    */
@@ -165,7 +165,7 @@ export const CtaCard: FC<CtaCardProps> = ({
   return (
     <Root data-testid={testId} variant={variant} {...props}>
       {image && <ImageWrapper $withTitle={variant === "with-title"}>{image}</ImageWrapper>}
-      {(title || description) && (
+      {(title ?? description) && (
         <TextWrapper variant={variant}>
           {title && variant === "with-title" && (
             <StyledTitle variant={titleTag} size="md" color="primary" uppercase>

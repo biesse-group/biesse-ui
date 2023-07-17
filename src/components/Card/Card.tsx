@@ -141,7 +141,7 @@ export interface CardProps extends BaseProps {
   /**
    * The card title
    */
-  title?: string | JSX.Element;
+  title?: string | React.ReactNode;
   /**
    * Max lines of title before ellipsis
    * If undefined no Ellipsis will be applied
