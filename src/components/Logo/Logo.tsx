@@ -19,6 +19,7 @@ export interface LogoProps extends BaseProps {
    */
   color?: "primary" | "white" | string;
   testId?: string;
+  title?: string;
 }
 
 // Must be update each time a new logo is inserted in the library
@@ -44,11 +45,18 @@ const LogoRoot = styled.div<Pick<LogoProps, "width" | "color">>`
   `}
 `;
 
-export const Logo: FC<LogoProps> = ({ name, width, testId, color = "inherit", ...props }) => {
+export const Logo: FC<LogoProps> = ({
+  name,
+  width,
+  testId,
+  color = "inherit",
+  title,
+  ...props
+}) => {
   const LogoComponent = logoMap[name];
   return (
-    <LogoRoot width={width} data-testid={testId} color={color} {...props}>
-      <LogoComponent />
+    <LogoRoot width={width} data-testid={testId} color={color} aria-label={title} {...props}>
+      <LogoComponent title={title} />
     </LogoRoot>
   );
 };

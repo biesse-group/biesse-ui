@@ -1,15 +1,22 @@
 import React, { type FC } from "react";
 
-export const HsdLogo: FC<React.SVGProps<SVGSVGElement>> = (props) => {
+import type { LogoSourceProps } from "./logoSourceProps";
+
+export const HsdLogo: FC<React.SVGProps<SVGSVGElement> & LogoSourceProps> = ({
+  title = "HSD Logo",
+  ...props
+}) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       fill="currentColor"
       viewBox="0 0 300 22"
+      aria-labelledby="hsd-logo-title"
+      role="img"
       {...props}
     >
-      <title>{"3A0A9E44-AD49-492A-86D1-A802067D00CA"}</title>
+      <title id="hsd-logo-title">{title}</title>
       <defs>
         <path d="M0 0h18.062v21.743H0z" />
         <path d="M0 21.743h300V0H0z" />
