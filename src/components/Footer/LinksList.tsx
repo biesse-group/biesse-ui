@@ -74,7 +74,7 @@ const ArrowIcon = styled(Icon)`
 export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
   return (
     <LinksListRoot {...props}>
-      <LinkListTitle variant="H6" color="light" uppercase>
+      <LinkListTitle variant="h6" color="light" uppercase>
         {title}
       </LinkListTitle>
       {links?.map((linkElement, index) => (

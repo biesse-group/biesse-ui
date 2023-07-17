@@ -104,7 +104,7 @@ export const HeroBanner: FC<PropsWithChildren<HeroBannerProps>> = ({
       {image}
       <Banner $hasBreadcrumb={!!breadcrumb}>
         {breadcrumb}
-        <BannerTitle variant="H1" size="lg" uppercase>
+        <BannerTitle variant="h1" size="lg" uppercase>
           {title}
         </BannerTitle>
 

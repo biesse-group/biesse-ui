@@ -190,7 +190,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
 
 @media screen and (max-width:767px) {
   .c0 {
-    height: 500px;
+    height: 600px;
   }
 }
 
@@ -539,7 +539,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
 
 @media screen and (max-width:767px) {
   .c0 {
-    height: 500px;
+    height: 600px;
   }
 }
 
@@ -888,7 +888,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
 
 @media screen and (max-width:767px) {
   .c0 {
-    height: 500px;
+    height: 600px;
   }
 }
 

@@ -47,16 +47,16 @@ type Story = StoryObj<typeof CtaCard>;
 const PngContainer = styled.div`
   border-bottom-left-radius: ${(props) => props.theme.card.borderRadius};
   border-top-right-radius: ${(props) => props.theme.card.borderRadius};
-  background-color: #98afd9;
+  background-color: ${(props) => props.theme.color.secondary};
   height: 100%;
-  width: 200px;
+  width: 100%;
   display: flex;
   justify-content: center;
 `;
 
 const TestImg = (
   <PngContainer>
-    <img src="/assets/product-carousel-2.png" alt="kuka logo" />
+    <img src="/assets/product-carousel-2.png" alt="product" />
   </PngContainer>
 );
 
@@ -70,8 +70,16 @@ export const WithTitle: Story = {
 };
 
 const PngLogoStyled = styled.img`
-  width: 150px;
-  margin-left: 20px;
+  max-height: 100%;
+  max-width: 100%;
+  padding: 10px 10px 10px 30px;
+
+  ${mqUntil(
+    "md",
+    css`
+      padding: 20px;
+    `
+  )}
 `;
 
 const TestLogo = <PngLogoStyled src="/assets/kuka-logo.png" alt="kuka logo" />;

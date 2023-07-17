@@ -17,6 +17,7 @@ const EventCardRoot = styled.div`
   justify-content: space-between;
   background-color: ${(props) => props.theme.color.lightGray};
   transition: all 0.2s ease-out;
+  cursor: ${(props) => (props.onClick ? "pointer" : "auto")};
   ${(props) => borderRadius(props.theme.card.borderRadius)}
 
   :hover {
@@ -44,11 +45,11 @@ const ActionWrapper = styled.div`
 export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "variant">>> = ({
   testId,
   title,
+  titleTag = "h3",
   startDate,
   endDate,
   location,
   description,
-  renderLink,
   children,
   ...props
 }) => {
@@ -57,7 +58,7 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   return (
     <EventCardRoot data-testid={testId} {...props}>
       <EventCardMainWrapper>
-        <CardTitle variant="H4" color="primary" uppercase>
+        <CardTitle variant={titleTag} size="md" color="primary" uppercase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 10 }}>
