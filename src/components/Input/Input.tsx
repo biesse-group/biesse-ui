@@ -51,6 +51,8 @@ export interface InputProps extends BaseProps {
      */
     testId?: string;
   } & Pick<ButtonProps, "type">;
+  startDecoration?: JSX.Element;
+  endDecoration?: JSX.Element;
 }
 
 const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
@@ -108,6 +110,8 @@ export const Input: FC<InputProps> = ({
   onChange,
   className,
   style,
+  startDecoration,
+  endDecoration,
   ...props
 }) => {
   const [focus, setFocus] = useState(false);
@@ -122,6 +126,7 @@ export const Input: FC<InputProps> = ({
 
   return (
     <InputContainer hasFocus={focus} {...{ shadow, border, className, style }}>
+      {startDecoration}
       <StyledInput
         {...props}
         onFocus={() => setFocus(true)}
@@ -139,6 +144,7 @@ export const Input: FC<InputProps> = ({
           {withButton.label}
         </InputButton>
       )}
+      {endDecoration}
     </InputContainer>
   );
 };

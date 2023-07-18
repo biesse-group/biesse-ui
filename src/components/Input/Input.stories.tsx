@@ -1,6 +1,7 @@
 import { type Meta, type StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 
+import { Icon } from "~components/Icon";
 import { BackgroundDecorator } from "~stories/decorators";
 
 import { Input } from "./Input";
@@ -50,6 +51,23 @@ export const WithButton: Story = {
     withButton: {
       label: "Send",
     },
+  },
+};
+
+export const WithStartDecoration: Story = {
+  args: {
+    ...DarkBackground.args,
+    startDecoration: (
+      <Icon color="primary" name="chevron-right" size="xs" style={{ marginLeft: 20 }} />
+    ),
+  },
+};
+
+export const WithEndDecoration: Story = {
+  args: {
+    ...DarkBackground.args,
+    placeholder: "Cosa cerchi?",
+    endDecoration: <Icon color="primary" name="search" size="24px" style={{ marginRight: 20 }} />,
   },
 };
 
