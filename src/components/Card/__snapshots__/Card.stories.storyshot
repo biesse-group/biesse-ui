@@ -172,7 +172,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -351,9 +351,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c15 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -465,12 +463,12 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
         >
           01 gennaio 2023, Location
         </span>
-        <h4
+        <h3
           className="c15 c16"
           color="primary"
         >
           Example card
-        </h4>
+        </h3>
         <div
           style={
             Object {
@@ -527,7 +525,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -642,9 +640,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -690,12 +686,12 @@ exports[`Storyshots Cards/Card Default 1`] = `
       <div
         className="c5"
       >
-        <h4
+        <h3
           className="c6 c7"
           color="primary"
         >
           Example card
-        </h4>
+        </h3>
         <div
           style={
             Object {
@@ -871,7 +867,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -1028,9 +1024,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c14 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (min-width:992px) {
@@ -1165,12 +1159,12 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
       <div
         className="c12 c13"
       >
-        <h4
+        <h3
           className="c14 c15"
           color="primary"
         >
           Example card
-        </h4>
+        </h3>
         <div
           style={
             Object {
@@ -1264,7 +1258,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -1379,9 +1373,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -1427,12 +1419,12 @@ exports[`Storyshots Cards/Card With Button 1`] = `
       <div
         className="c5"
       >
-        <h4
+        <h3
           className="c6 c7"
           color="primary"
         >
           Example card
-        </h4>
+        </h3>
         <div
           style={
             Object {
@@ -1489,7 +1481,7 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -1609,9 +1601,7 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c6 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -1657,12 +1647,12 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
       <div
         className="c5"
       >
-        <h4
+        <h3
           className="c6 c7"
           color="primary"
         >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-        </h4>
+        </h3>
         <div
           style={
             Object {
@@ -1720,7 +1710,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -1856,9 +1846,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c8 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -1910,12 +1898,12 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
         >
           01 gennaio 2023, Location
         </span>
-        <h4
+        <h3
           className="c8 c9"
           color="primary"
         >
           Example card
-        </h4>
+        </h3>
         <div
           style={
             Object {
@@ -2054,7 +2042,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
   text-transform: none;
   color: #6D6E70;
 }
@@ -2212,9 +2200,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 }
 
 @media screen and (max-width:767px) {
-  .c13 {
-    font-size: 25px;
-  }
+
 }
 
 @media screen and (max-width:767px) {
@@ -2320,12 +2306,12 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
       <div
         className="c12"
       >
-        <h4
+        <h3
           className="c13 c14"
           color="primary"
         >
           Example card
-        </h4>
+        </h3>
         <div
           style={
             Object {
