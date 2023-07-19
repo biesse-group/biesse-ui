@@ -1,5 +1,6 @@
 import { type Meta, type StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
+import styled from "styled-components";
 
 import { Icon } from "~components/Icon";
 import { BackgroundDecorator } from "~stories/decorators";
@@ -45,15 +46,6 @@ export const LightBackground: Story = {
   },
 };
 
-export const WithButton: Story = {
-  args: {
-    ...DarkBackground.args,
-    withButton: {
-      label: "Send",
-    },
-  },
-};
-
 export const WithStartDecoration: Story = {
   args: {
     ...DarkBackground.args,
@@ -71,14 +63,26 @@ export const WithEndDecoration: Story = {
   },
 };
 
+const StyledSubmitIcon = styled(Icon)`
+  margin-right: 10px;
+  :hover {
+    cursor: pointer;
+  }
+`;
+
 export const Filled: Story = {
   args: {
     ...DarkBackground.args,
     testId: "input",
-    withButton: {
-      label: "Send",
-      testId: "submit",
-    },
+    endDecoration: ({ value }) => (
+      <StyledSubmitIcon
+        data-testId="submit"
+        color="primary"
+        name="chevron-right"
+        size="24px"
+        onClick={() => alert(`value is: "${value}"`)}
+      />
+    ),
   },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);

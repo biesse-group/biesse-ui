@@ -2,8 +2,12 @@ import { type FC, useState } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Button, type ButtonProps } from "~components/Button";
 import { inputStyles } from "~styles/input-styles";
+
+export interface InputDecorationProps {
+  value: string;
+  focus: boolean;
+}
 
 export interface InputProps extends BaseProps {
   /**
@@ -35,27 +39,13 @@ export interface InputProps extends BaseProps {
    */
   type: React.InputHTMLAttributes<HTMLInputElement>["type"];
   /**
-   * Add trailing button for submit
+   * Optional decoration elements
    */
-  withButton?: {
-    /**
-     * Shows a submit button with the provided label
-     */
-    label?: string;
-    /**
-     * Called when submit button has been clicked
-     */
-    onClick?: (value: string) => void;
-    /**
-     * Button test ID
-     */
-    testId?: string;
-  } & Pick<ButtonProps, "type">;
-  startDecoration?: JSX.Element;
-  endDecoration?: JSX.Element;
+  startDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  endDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
 }
 
-const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
+const StyledInput = styled.input<Pick<InputProps, "shadow">>`
   ${(props) => inputStyles(props.shadow)}
 
   &:active, &:focus {
@@ -63,13 +53,6 @@ const StyledInput = styled.input<Pick<InputProps, "shadow" | "withButton">>`
   }
 
   border: none;
-
-  ${(props) =>
-    props.withButton &&
-    css`
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    `}
 `;
 
 const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasFocus: boolean }>`
@@ -97,13 +80,6 @@ const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasF
     `}
 `;
 
-const InputButton = styled(Button)`
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: ${(props) => props.theme.font.regular.body.sm};
-`;
-
 export const Input: FC<InputProps> = ({
   testId,
   defaultValue = "",
@@ -117,16 +93,21 @@ export const Input: FC<InputProps> = ({
   const [focus, setFocus] = useState(false);
   const [value, setValue] = useState(defaultValue);
 
-  const { withButton, shadow, border } = props;
+  const { shadow, border } = props;
 
   const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
     setValue(e.currentTarget.value);
     onChange?.(e);
   };
 
+  const decorationsProps: InputDecorationProps = {
+    value,
+    focus,
+  };
+
   return (
     <InputContainer hasFocus={focus} {...{ shadow, border, className, style }}>
-      {startDecoration}
+      {typeof startDecoration === "function" ? startDecoration(decorationsProps) : startDecoration}
       <StyledInput
         {...props}
         onFocus={() => setFocus(true)}
@@ -134,17 +115,7 @@ export const Input: FC<InputProps> = ({
         onChange={handleChange}
         data-testid={testId}
       />
-      {withButton && (
-        <InputButton
-          variant="primary"
-          type={withButton.type}
-          onClick={() => withButton.onClick?.(value)}
-          data-testid={withButton.testId}
-        >
-          {withButton.label}
-        </InputButton>
-      )}
-      {endDecoration}
+      {typeof endDecoration === "function" ? endDecoration(decorationsProps) : endDecoration}
     </InputContainer>
   );
 };
