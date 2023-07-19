@@ -2,7 +2,7 @@ import { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Icon, type IconName, isIconName } from "~components/Icon";
+import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title, type TitleProps } from "~components/Title";
 import { borderRadius, mqUntil } from "~styles";
@@ -79,7 +79,7 @@ export interface HorizontalCardProps extends BaseProps {
    */
   titleTag?: TitleProps["variant"];
   /** Card icon (above title) */
-  icon?: IconName | React.ReactNode;
+  icon?: IconName | React.ReactElement | null;
   /**
    * Card description
    */
@@ -111,11 +111,7 @@ export const HorizontalCard: FC<HorizontalCardProps> = ({
         <CardUpperContent>
           {icon && (
             <CardIconWrapper>
-              {typeof icon === "string" && isIconName(icon) ? (
-                <Icon name={icon} color="primary" />
-              ) : (
-                icon
-              )}
+              {typeof icon === "string" ? <Icon name={icon} color="primary" /> : icon}
             </CardIconWrapper>
           )}
           <CardTitle variant={titleTag} size="sm" color="primary" uppercase>
