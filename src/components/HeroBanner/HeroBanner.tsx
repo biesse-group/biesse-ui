@@ -10,7 +10,7 @@ export interface HeroBannerProps extends BaseProps {
   /**
    * Banner background image
    */
-  image: JSX.Element;
+  image: React.ReactNode;
   /**
    * Banner title
    */
@@ -18,11 +18,11 @@ export interface HeroBannerProps extends BaseProps {
   /**
    * Banner description
    */
-  description: string | JSX.Element;
+  description: string | React.ReactNode;
   /**
    * Optional breadcrumb component on top of title
    */
-  breadcrumb?: JSX.Element;
+  breadcrumb?: React.ReactNode;
   className?: string;
 }
 

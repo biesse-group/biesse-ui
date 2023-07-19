@@ -2,7 +2,7 @@ import { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 import { mqFrom, mqUntil } from "~styles";
 
 export interface StripThreeColsProps extends BaseProps {
@@ -11,9 +11,13 @@ export interface StripThreeColsProps extends BaseProps {
    */
   title?: string;
   /**
+   * Title tag, default is `h2`
+   */
+  titleTag?: TitleProps["variant"];
+  /**
    * Strip items. Main will be shown larger on large screens.
    */
-  items: [JSX.Element, JSX.Element?, JSX.Element?];
+  items: [React.ReactNode, React.ReactNode?, React.ReactNode?];
   /**
    * Determine whether the items on tablet devices keeps their proportion
    * or wrap to show the first item as bigger
@@ -124,6 +128,7 @@ const MainItem = styled.div`
  */
 export const StripThreeCols: FC<StripThreeColsProps> = ({
   title,
+  titleTag = "h2",
   tabletBehavior = "wrap",
   mobileBehavior = "wrap",
   variant = "2-1-1",
@@ -135,7 +140,7 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
   return (
     <Root {...props}>
       {title && (
-        <StripTitle variant="h3" color="primary" uppercase>
+        <StripTitle variant={titleTag} size="lg" color="primary" uppercase>
           {title}
         </StripTitle>
       )}

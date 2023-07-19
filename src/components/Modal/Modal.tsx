@@ -23,7 +23,7 @@ export interface ModalProps extends BaseProps {
   onClose?: () => void;
   renderTrigger: (
     props: { ref: (node: any | null) => void; onClick: () => void } & Record<string, unknown>
-  ) => JSX.Element;
+  ) => React.ReactNode;
 }
 
 export interface ModalHandle {

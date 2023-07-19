@@ -19,7 +19,7 @@ export interface VideoBannerProps extends BaseProps {
   /**
    * Longer, smaller text located under the subtitle
    */
-  description?: string | JSX.Element;
+  description?: string | React.ReactNode;
   /**
    * Inner VideoPlayer
    */

@@ -1,8 +1,8 @@
-import { type FC } from "react";
+import React, { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Icon, type IconName } from "~components/Icon";
+import { Icon, type IconName, isIconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { mqUntil } from "~styles";
 
@@ -14,11 +14,11 @@ export interface SocialLinkProps extends BaseProps {
   /**
    * Social network icon
    */
-  socialIcon?: IconName | JSX.Element;
+  socialIcon?: IconName | React.ReactNode;
   /**
    * External link element, function should wrap the argument as children
    */
-  renderLink?: (label: JSX.Element) => JSX.Element;
+  renderLink?: (label: React.ReactNode) => React.ReactNode;
 }
 
 const SocialWrapper = styled.div`
@@ -68,7 +68,7 @@ export const SocialLink: FC<SocialLinkProps> = ({
   ...props
 }) => {
   const icon =
-    typeof socialIcon === "string" ? (
+    typeof socialIcon === "string" && isIconName(socialIcon) ? (
       <SocialIcon name={socialIcon} size="28px" color="white" />
     ) : (
       socialIcon
