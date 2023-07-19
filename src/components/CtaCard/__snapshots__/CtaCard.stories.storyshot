@@ -17,32 +17,61 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   color: #252525;
 }
 
-.c7 {
+.c9 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  height: 20px;
-  width: 20px;
-  -webkit-flex: 0 0 20px;
-  -ms-flex: 0 0 20px;
-  flex: 0 0 20px;
-  color: #6D6E70;
+  height: 10px;
+  width: 10px;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  color: inherit;
 }
 
-.c7 > svg {
+.c9 > svg {
   height: 100%;
   width: 100%;
-  color: primary;
+  color: inherit;
+}
+
+.c10 {
+  margin-left: 6px;
+  display: inline;
 }
 
 .c8 {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-  position: absolute;
-  height: 100%;
-  right: 20px;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background: transparent;
+  color: #6D6E70;
+  text-transform: none;
+  padding: 0px;
 }
 
 .c1 {
@@ -56,6 +85,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   flex-direction: row;
   cursor: auto;
   height: 100%;
+  width: 100%;
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -97,6 +127,10 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding-bottom: 10px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -107,9 +141,22 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   line-height: 20px;
 }
 
+.c7 {
+  padding-top: 15px;
+  margin-top: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .c0 {
   max-width: 600px;
-  height: 130px;
 }
 
 .c3 {
@@ -135,20 +182,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 @media screen and (max-width:767px) {
   .c5 a {
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c8 {
-    top: 20px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c8 {
-    -webkit-align-self: start;
-    -ms-flex-item-align: start;
-    align-self: start;
   }
 }
 
@@ -224,41 +257,44 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
       >
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
       </span>
-    </div>
-    <span
-      className="c7 c8"
-      color="primary"
-      size="20px"
-    >
-      <svg
-        viewBox="0 0 50 50"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
+      <div
+        className="c7"
       >
-        <defs>
-          <path
-            d="M0 0h38.216v48H0z"
-          />
-        </defs>
-        <g
-          fill="none"
-          fillRule="evenodd"
+        <button
+          className="c8 "
+          size="small"
+          type="button"
         >
-          <path
-            d="M28.5 7.392Z"
-            fill="currentColor"
-          />
-          <g
-            transform="rotate(90 21.608 27.5)"
+          Scopri
+          <span
+            className="c9 c10"
+            size="10px"
           >
-            <path
-              d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
-              fill="currentColor"
-            />
-          </g>
-        </g>
-      </svg>
-    </span>
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path
+                  d="M0 0h25.722v48H0z"
+                />
+              </defs>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                transform="translate(12 1)"
+              >
+                <path
+                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -280,23 +316,61 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   color: #252525;
 }
 
-.c9 {
+.c11 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  height: 20px;
-  width: 20px;
-  -webkit-flex: 0 0 20px;
-  -ms-flex: 0 0 20px;
-  flex: 0 0 20px;
-  color: #6D6E70;
+  height: 10px;
+  width: 10px;
+  -webkit-flex: 0 0 10px;
+  -ms-flex: 0 0 10px;
+  flex: 0 0 10px;
+  color: inherit;
 }
 
-.c9 > svg {
+.c11 > svg {
   height: 100%;
   width: 100%;
-  color: primary;
+  color: inherit;
+}
+
+.c12 {
+  margin-left: 6px;
+  display: inline;
+}
+
+.c10 {
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: bold;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-transform: uppercase;
+  outline: none !important;
+  white-space: nowrap;
+  font-size: 14px;
+  padding: 0px 26px;
+  height: 30px;
+  background: transparent;
+  color: #6D6E70;
+  text-transform: none;
+  padding: 0px;
 }
 
 .c5 {
@@ -306,15 +380,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   font-size: 34px;
   text-transform: uppercase;
   color: #6D6E70;
-}
-
-.c10 {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-  position: absolute;
-  height: 100%;
-  right: 20px;
 }
 
 .c1 {
@@ -328,6 +393,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   flex-direction: row;
   cursor: auto;
   height: 100%;
+  width: 100%;
   overflow: hidden;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -369,6 +435,10 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding-bottom: 10px;
 }
 
 .c6 {
@@ -379,9 +449,22 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   line-height: 20px;
 }
 
+.c9 {
+  padding-top: 15px;
+  margin-top: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
 .c0 {
   max-width: 600px;
-  height: 130px;
 }
 
 .c3 {
@@ -427,20 +510,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 @media screen and (max-width:767px) {
   .c5 {
     font-size: 25px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c10 {
-    top: 20px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .c10 {
-    -webkit-align-self: start;
-    -ms-flex-item-align: start;
-    align-self: start;
   }
 }
 
@@ -508,6 +577,12 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
         <img
           alt="product"
           src="/assets/product-carousel-2.png"
+          style={
+            Object {
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+            }
+          }
         />
       </div>
     </div>
@@ -527,41 +602,44 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
       >
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
       </span>
-    </div>
-    <span
-      className="c9 c10"
-      color="primary"
-      size="20px"
-    >
-      <svg
-        viewBox="0 0 50 50"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
+      <div
+        className="c9"
       >
-        <defs>
-          <path
-            d="M0 0h38.216v48H0z"
-          />
-        </defs>
-        <g
-          fill="none"
-          fillRule="evenodd"
+        <button
+          className="c10 "
+          size="small"
+          type="button"
         >
-          <path
-            d="M28.5 7.392Z"
-            fill="currentColor"
-          />
-          <g
-            transform="rotate(90 21.608 27.5)"
+          Scopri
+          <span
+            className="c11 c12"
+            size="10px"
           >
-            <path
-              d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
-              fill="currentColor"
-            />
-          </g>
-        </g>
-      </svg>
-    </span>
+            <svg
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path
+                  d="M0 0h25.722v48H0z"
+                />
+              </defs>
+              <g
+                fill="none"
+                fillRule="evenodd"
+                transform="translate(12 1)"
+              >
+                <path
+                  d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
   </div>
 </div>
 `;

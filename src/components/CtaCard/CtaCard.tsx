@@ -2,6 +2,7 @@ import { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
+import { Button } from "~components/Button";
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title, type TitleProps } from "~components/Title";
@@ -29,12 +30,16 @@ const StyledIcon = styled(Icon)`
   )}
 `;
 
+const CtaButton = styled(Button)``;
+
 const Root = styled.div<Pick<CtaCardProps, "variant">>`
   position: relative;
   display: flex;
   flex-direction: row;
   cursor: ${(props) => (props.onClick ? "pointer" : "auto")};
   height: 100%;
+  width: 100%;
+
   ${(props) => borderRadius(props.theme.card.borderRadius)}
   background-color: ${({ theme }) => theme.color.lightGray};
   transition: all 0.5s ease-out;
@@ -50,6 +55,10 @@ const Root = styled.div<Pick<CtaCardProps, "variant">>`
           opacity: 1;
         }
       `}
+
+    ${CtaButton} {
+      transform: translateX(0.5rem);
+    }
   }
 `;
 
@@ -68,11 +77,18 @@ const ImageWrapper = styled.div<{ $withTitle: boolean }>`
     )}
 `;
 
-const TextWrapper = styled.div<Pick<CtaCardProps, "variant">>`
+const TextWrapper = styled.div<Pick<CtaCardProps, "variant"> & { $withButton?: boolean }>`
   overflow-y: hidden;
   padding: 20px 50px 20px 24px;
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
+
+  ${(props) =>
+    props.$withButton &&
+    css`
+      padding-bottom: 10px;
+    `}
 
   ${(props) =>
     props.variant === "full-image" &&
@@ -125,6 +141,14 @@ const StyledDescription = styled(Text)`
   )}
 `;
 
+const ButtonContainer = styled.div`
+  padding-top: 15px;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+`;
+
 export interface CtaCardProps extends BaseProps {
   /**
    * Card title
@@ -150,6 +174,10 @@ export interface CtaCardProps extends BaseProps {
    * Card variant (with `full-image`, text and description will not appear)
    */
   variant: "full-image" | "with-title";
+  /**
+   * Whether display a primary naked small button with the provided label and the `chevron-right` icon
+   */
+  buttonLabel?: string;
   testId?: string;
 }
 
@@ -160,22 +188,29 @@ export const CtaCard: FC<CtaCardProps> = ({
   image,
   variant,
   testId,
+  buttonLabel,
   ...props
 }) => {
   return (
     <Root data-testid={testId} variant={variant} {...props}>
       {image && <ImageWrapper $withTitle={variant === "with-title"}>{image}</ImageWrapper>}
       {(title ?? description) && (
-        <TextWrapper variant={variant}>
+        <TextWrapper variant={variant} $withButton={!!buttonLabel}>
           {title && variant === "with-title" && (
             <StyledTitle variant={titleTag} size="md" color="primary" uppercase>
               {title}
             </StyledTitle>
           )}
           {description && <StyledDescription color="dark">{description}</StyledDescription>}
+          {buttonLabel && (
+            <ButtonContainer>
+              <CtaButton variant="primary-naked" rightIcon="chevron-right" size="small">
+                {buttonLabel}
+              </CtaButton>
+            </ButtonContainer>
+          )}
         </TextWrapper>
       )}
-      <StyledIcon name="arrow-right" size="20px" color="primary" />
     </Root>
   );
 };
