@@ -73,7 +73,7 @@ const CardContainer = styled.div`
 
 export interface HorizontalCardProps extends BaseProps {
   /** Card title */
-  title: string | React.ReactNode;
+  title: React.ReactNode;
   /**
    * Card title tag, default is `h3`
    */

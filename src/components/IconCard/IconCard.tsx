@@ -16,7 +16,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card title
    */
-  title: string | React.ReactNode;
+  title: React.ReactNode;
   /**
    * Card title tag, default is `h3`
    */
@@ -24,7 +24,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card title
    */
-  subtitle: string | React.ReactNode;
+  subtitle: React.ReactNode;
   /**
    * Card subtitle tag, default is `h4`
    */
@@ -37,7 +37,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card description (JSX element is accepted)
    */
-  description: string | React.ReactNode;
+  description: React.ReactNode;
   /**
    * Actions like buttons, etc *(optional)*
    */

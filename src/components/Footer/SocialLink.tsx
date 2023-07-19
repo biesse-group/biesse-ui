@@ -2,7 +2,7 @@ import React, { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Icon, type IconName, isIconName } from "~components/Icon";
+import { Icon, isIconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import { mqUntil } from "~styles";
 
@@ -14,7 +14,7 @@ export interface SocialLinkProps extends BaseProps {
   /**
    * Social network icon
    */
-  socialIcon?: IconName | React.ReactNode;
+  socialIcon?: React.ReactNode;
   /**
    * External link element, function should wrap the argument as children
    */

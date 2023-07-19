@@ -153,7 +153,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card title
    */
-  title: string | React.ReactNode;
+  title: React.ReactNode;
   /**
    * Title heading tag, default is `h3`
    */
@@ -161,7 +161,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Card description
    */
-  description?: string | React.ReactNode;
+  description?: React.ReactNode;
   /**
    * Card click action
    */

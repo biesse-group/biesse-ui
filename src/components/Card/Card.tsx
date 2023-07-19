@@ -141,7 +141,7 @@ export interface CardProps extends BaseProps {
   /**
    * The card title
    */
-  title?: string | React.ReactNode;
+  title?: React.ReactNode;
   /**
    * Card title tag, default `h3`
    */
