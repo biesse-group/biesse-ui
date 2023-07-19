@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Loaders/Spinner Custom Props 1`] = `
+.c1 {
+  height: 4rem;
+  width: 4rem;
+  border: 12px solid #d1d5db;
+  border-top-color: green;
+  border-radius: 50%;
+  -webkit-animation: fvtopB 1500ms linear infinite;
+  animation: fvtopB 1500ms linear infinite;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="green"
+  />
+</div>
+`;
+
+exports[`Storyshots Loaders/Spinner Default 1`] = `
+.c1 {
+  height: 4rem;
+  width: 4rem;
+  border: 4px solid #d1d5db;
+  border-top-color: #6D6E70;
+  border-radius: 50%;
+  -webkit-animation: fvtopB 800ms linear infinite;
+  animation: fvtopB 800ms linear infinite;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  />
+</div>
+`;
