@@ -18,7 +18,7 @@ export interface HeroBannerProps extends BaseProps {
   /**
    * Banner description
    */
-  description: string | React.ReactNode;
+  description: React.ReactNode;
   /**
    * Optional breadcrumb component on top of title
    */

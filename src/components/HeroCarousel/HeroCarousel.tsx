@@ -14,7 +14,7 @@ import { titleVariants } from "./variants";
 export interface HeroCarouselSlide {
   renderImage: () => React.ReactNode;
   title: string;
-  description: string | React.ReactNode;
+  description: React.ReactNode;
 }
 
 export interface HeroCarouselProps extends BaseProps {

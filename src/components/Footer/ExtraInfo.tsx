@@ -6,7 +6,7 @@ import { mqUntil } from "~styles";
 
 export interface ExtraInfoProps {
   title: string;
-  lines: Array<string | React.ReactNode>;
+  lines: Array<React.ReactNode>;
 }
 
 const Root = styled.div<{ linesCount: number }>`
