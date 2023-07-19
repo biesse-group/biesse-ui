@@ -133,11 +133,11 @@ export interface CardProps extends BaseProps {
   /**
    * Tag, overlaid on image
    */
-  tags?: React.ReactElement[];
+  tags?: React.ReactNode[];
   /**
    * Custom image render function
    */
-  image?: React.ReactElement;
+  image?: React.ReactNode;
   /**
    * The card title
    */
@@ -162,7 +162,7 @@ export interface CardProps extends BaseProps {
   /**
    * Button on the bottom on the card
    */
-  action?: React.ReactElement;
+  action?: React.ReactNode;
   testId?: string;
 }
 

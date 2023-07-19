@@ -83,7 +83,7 @@ export interface HorizontalCardProps extends BaseProps {
   /**
    * Card description
    */
-  description?: string | React.ReactElement;
+  description?: React.ReactNode;
   /**
    * Card actions (buttons, etc.)
    */
