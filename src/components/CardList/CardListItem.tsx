@@ -15,7 +15,7 @@ export interface CardListItemProps extends BaseProps {
   /**
    * Card title
    */
-  title: string | JSX.Element;
+  title: string | React.ReactNode;
   /**
    * Title heading tag, default is `h4`
    */
@@ -23,7 +23,7 @@ export interface CardListItemProps extends BaseProps {
   /**
    * Card image element
    */
-  image: JSX.Element;
+  image: React.ReactNode;
   /**
    * Label of the card action button
    */

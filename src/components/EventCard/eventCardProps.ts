@@ -8,7 +8,7 @@ export interface EventCardProps extends BaseProps {
   /**
    * Title locate on top of the card
    */
-  title: string | JSX.Element;
+  title: string | React.ReactNode;
   /**
    * Title heading tag, default is `h3`
    */
@@ -28,7 +28,7 @@ export interface EventCardProps extends BaseProps {
   /**
    * Description located under the title
    */
-  description?: string | JSX.Element;
+  description?: string | React.ReactNode;
   /**
    * Card style variant
    */

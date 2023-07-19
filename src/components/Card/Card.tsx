@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
 import { Text } from "~components/Text";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 
 import { borderRadius, mqFrom, mqUntil, multilineEllipsis } from "../../styles";
 
@@ -141,7 +141,11 @@ export interface CardProps extends BaseProps {
   /**
    * The card title
    */
-  title?: string | JSX.Element;
+  title?: string | React.ReactNode;
+  /**
+   * Card title tag, default `h3`
+   */
+  titleTag?: TitleProps["variant"];
   /**
    * Max lines of title before ellipsis
    * If undefined no Ellipsis will be applied
@@ -167,6 +171,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
   testId,
   title,
   titleSize = "default",
+  titleTag = "h3",
   titleLines,
   preTitle,
   children,
@@ -188,7 +193,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
               {preTitle}
             </CardPreTitle>
           )}
-          <CardTitle variant="h4" color="primary" {...{ titleSize, preTitle, titleLines }}>
+          <CardTitle variant={titleTag} color="primary" {...{ titleSize, preTitle, titleLines }}>
             {title}
           </CardTitle>
           {children && (

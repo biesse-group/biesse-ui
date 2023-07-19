@@ -15,7 +15,7 @@ export interface PartnerCarouselProps extends BaseProps {
   /**
    * List of partner items
    */
-  partners: JSX.Element[];
+  partners: React.ReactNode[];
   testId?: string;
 }
 

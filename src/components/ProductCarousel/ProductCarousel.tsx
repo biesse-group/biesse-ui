@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Title } from "~components/Title";
+import { Title, type TitleProps } from "~components/Title";
 import { mqUntil } from "~styles/media-queries";
 import { getKeys } from "~utils/getKeys";
 
@@ -40,6 +40,10 @@ export interface ProductCarouselProps<T extends object> extends BaseProps {
    */
   title: string;
   /**
+   * Title tag, default is `H2`
+   */
+  titleTag?: TitleProps["variant"];
+  /**
    * List of items to show, generic type
    */
   items: T[];
@@ -58,13 +62,13 @@ export interface ProductCarouselProps<T extends object> extends BaseProps {
    * @param item the nth item
    * @returns a JSX element representing the item image
    */
-  renderImage: (item: T) => JSX.Element;
+  renderImage: (item: T) => React.ReactNode;
   /**
    * Render item detail
    * @param item the nth item
    * @returns a JSX element representing the item detail
    */
-  renderDetail: (item: T) => JSX.Element;
+  renderDetail: (item: T) => React.ReactNode;
   /**
    * Called whenever active page changes
    */
@@ -79,6 +83,7 @@ const Root = styled.div<{ $height: number }>`
 
 export const ProductCarousel = <T extends object>({
   title,
+  titleTag = "h2",
   items,
   contentHeight = 0,
   renderTitle,
@@ -97,7 +102,7 @@ export const ProductCarousel = <T extends object>({
   return (
     <Root $height={contentHeight} {...props}>
       <BackgroundStrip>
-        <CarouselTitle variant="h2" color="light" uppercase>
+        <CarouselTitle variant={titleTag} color="light" uppercase>
           {title}
         </CarouselTitle>
 

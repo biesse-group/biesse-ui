@@ -12,9 +12,9 @@ import { TextContainer } from "./TextContainer";
 import { titleVariants } from "./variants";
 
 export interface HeroCarouselSlide {
-  renderImage: () => JSX.Element;
+  renderImage: () => React.ReactNode;
   title: string;
-  description: string | JSX.Element;
+  description: string | React.ReactNode;
 }
 
 export interface HeroCarouselProps extends BaseProps {

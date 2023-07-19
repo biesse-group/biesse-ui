@@ -23,7 +23,7 @@ export interface BreadcrumbProps extends BaseProps {
    * @param children the content of the link element
    * @returns the generated link element
    */
-  renderLink: (path: string, children: JSX.Element) => JSX.Element;
+  renderLink: (path: string, children: React.ReactNode) => React.ReactNode;
 }
 
 const BreadcrumbRoot = styled.div`

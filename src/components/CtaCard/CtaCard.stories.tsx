@@ -8,7 +8,6 @@ import { CtaCard } from "./CtaCard";
 
 const StoryContainer = styled.div`
   max-width: 600px;
-  height: 130px;
   ${mqUntil(
     "md",
     css`
@@ -56,7 +55,11 @@ const PngContainer = styled.div`
 
 const TestImg = (
   <PngContainer>
-    <img src="/assets/product-carousel-2.png" alt="product" />
+    <img
+      src="/assets/product-carousel-2.png"
+      alt="product"
+      style={{ maxWidth: "100%", maxHeight: "100%" }}
+    />
   </PngContainer>
 );
 
@@ -66,6 +69,7 @@ export const WithTitle: Story = {
     title: "ES951",
     description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
     image: TestImg,
+    buttonLabel: "Scopri",
   },
 };
 
@@ -90,5 +94,6 @@ export const FullImage: Story = {
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...",
     image: TestLogo,
+    buttonLabel: "Scopri",
   },
 };

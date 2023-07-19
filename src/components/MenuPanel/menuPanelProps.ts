@@ -10,7 +10,7 @@ export interface MenuPanelItem {
   /**
    * Menu item icon (shown on the left)
    */
-  icon?: JSX.Element;
+  icon?: React.ReactNode;
   onClick?: () => void;
   /**
    * Whether the item is a divider (will not consider other arguments)
@@ -49,7 +49,7 @@ export interface MenuPanelProps {
   /**
    * Extra component shown above title and items
    */
-  extra?: JSX.Element;
+  extra?: React.ReactNode;
   /**
    * Panel close button click callback
    */
