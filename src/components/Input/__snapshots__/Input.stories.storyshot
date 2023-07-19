@@ -103,40 +103,22 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 }
 
 .c3 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: bold;
-  border: 0;
-  border-radius: 50px;
-  cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
-  outline: none !important;
-  white-space: nowrap;
-  font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  color: #FFF;
-  background-color: #6D6E70;
-  border: 1px solid #6D6E70;
+  height: 24px;
+  width: 24px;
+  -webkit-flex: 0 0 24px;
+  -ms-flex: 0 0 24px;
+  flex: 0 0 24px;
+  color: #6D6E70;
 }
 
-.c3:hover {
-  color: #6D6E70;
-  background-color: #FFF;
+.c3 > svg {
+  height: 100%;
+  width: 100%;
+  color: primary;
 }
 
 .c2 {
@@ -154,8 +136,6 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   transition: all 0.2s ease-out;
   width: 100%;
   border: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2:focus,
@@ -207,10 +187,11 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 }
 
 .c4 {
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
+  margin-right: 10px;
+}
+
+.c4:hover {
+  cursor: pointer;
 }
 
 <div
@@ -234,14 +215,35 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
         onFocus={[Function]}
         placeholder="Name"
       />
-      <button
+      <span
         className="c3 c4"
-        data-testid="submit"
+        color="primary"
+        data-testId="submit"
         onClick={[Function]}
-        type="button"
+        size="24px"
       >
-        Send
-      </button>
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
     </div>
   </div>
 </div>
@@ -345,47 +347,29 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 </div>
 `;
 
-exports[`Storyshots Inputs/Input With Button 1`] = `
+exports[`Storyshots Inputs/Input With End Decoration 1`] = `
 .c0 {
   padding: 1rem;
   background-color: #6D6E70;
 }
 
 .c3 {
-  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  font-weight: bold;
-  border: 0;
-  border-radius: 50px;
-  cursor: pointer;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
-  outline: none !important;
-  white-space: nowrap;
-  font-size: 16px;
-  padding: 0px 32px;
-  height: 40px;
-  color: #FFF;
-  background-color: #6D6E70;
-  border: 1px solid #6D6E70;
+  height: 24px;
+  width: 24px;
+  -webkit-flex: 0 0 24px;
+  -ms-flex: 0 0 24px;
+  flex: 0 0 24px;
+  color: #6D6E70;
 }
 
-.c3:hover {
-  color: #6D6E70;
-  background-color: #FFF;
+.c3 > svg {
+  height: 100%;
+  width: 100%;
+  color: primary;
 }
 
 .c2 {
@@ -403,8 +387,6 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   transition: all 0.2s ease-out;
   width: 100%;
   border: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
 }
 
 .c2:focus,
@@ -455,13 +437,6 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
   transition: box-shadow 0.2s ease-out;
 }
 
-.c4 {
-  height: 38px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-}
-
 <div
   className="c0"
 >
@@ -480,15 +455,194 @@ exports[`Storyshots Inputs/Input With Button 1`] = `
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
+        placeholder="Cosa cerchi?"
+      />
+      <span
+        className="c3"
+        color="primary"
+        size="24px"
+        style={
+          Object {
+            "marginRight": 20,
+          }
+        }
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h47.956v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <g
+              transform="translate(1 1)"
+            >
+              <path
+                d="M20.579 3.389A17.278 17.278 0 1 1 3.3 20.668 17.3 17.3 0 0 1 20.58 3.389Zm0 37.901a20.42 20.42 0 0 0 13.377-4.927l11.148 11.148a1.672 1.672 0 0 0 2.363-2.363L36.319 34a20.425 20.425 0 0 0 4.927-13.377 20.624 20.624 0 1 0-20.623 20.623l-.044.044Z"
+                fill="currentColor"
+              />
+            </g>
+            <path
+              d="M17.39 34.101a1.174 1.174 0 0 0 0-2.348 5.103 5.103 0 0 1-5.089-5.088 1.174 1.174 0 0 0-2.348 0 7.436 7.436 0 0 0 7.437 7.436"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
+  color: #6D6E70;
+}
+
+.c2 > svg {
+  height: 100%;
+  width: 100%;
+  color: primary;
+}
+
+.c3 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
+}
+
+.c3:focus,
+.c3:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c3::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3:active,
+.c3:focus {
+  box-shadow: none;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      className="c1"
+    >
+      <span
+        className="c2"
+        color="primary"
+        size="xs"
+        style={
+          Object {
+            "marginLeft": 20,
+          }
+        }
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+      <input
+        className="c3"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
         placeholder="Name"
       />
-      <button
-        className="c3 c4"
-        onClick={[Function]}
-        type="button"
-      >
-        Send
-      </button>
     </div>
   </div>
 </div>
