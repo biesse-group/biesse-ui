@@ -25,6 +25,7 @@ export * from "./ProductCarousel";
 export * from "./Quote";
 export * from "./SearchBar";
 export * from "./Select";
+export * from "./Spinner";
 export * from "./StripThreeCols";
 export * from "./Tabs";
 export * from "./Tag";
