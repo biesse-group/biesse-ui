@@ -54,10 +54,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   cursor: auto;
   height: 100%;
   overflow: hidden;
@@ -158,9 +154,9 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 
 @media screen and (max-width:991px) {
   .c2 {
-    -webkit-flex: 100%;
-    -ms-flex: 100%;
-    flex: 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
   }
 }
 
@@ -330,10 +326,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
   cursor: auto;
   height: 100%;
   overflow: hidden;

@@ -33,7 +33,6 @@ const Root = styled.div<Pick<CtaCardProps, "variant">>`
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: ${(props) => (props.variant === "full-image" ? "center" : "flex-start")};
   cursor: ${(props) => (props.onClick ? "pointer" : "auto")};
   height: 100%;
   ${(props) => borderRadius(props.theme.card.borderRadius)}
@@ -64,7 +63,7 @@ const ImageWrapper = styled.div<{ $withTitle: boolean }>`
     mqUntil(
       "md",
       css`
-        flex: ${props.$withTitle ? "0 0 40%" : "100%"};
+        flex: 0 0 ${props.$withTitle ? "40%" : "100%"};
       `
     )}
 `;
@@ -74,6 +73,7 @@ const TextWrapper = styled.div<Pick<CtaCardProps, "variant">>`
   padding: 20px 50px 20px 24px;
   display: flex;
   flex-direction: column;
+
   ${(props) =>
     props.variant === "full-image" &&
     css`
