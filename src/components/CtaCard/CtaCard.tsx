@@ -133,7 +133,7 @@ export interface CtaCardProps extends BaseProps {
   /**
    * Title heading tag, default is `h3`
    */
-  titleTag: TitleProps["variant"];
+  titleTag?: TitleProps["variant"];
   /**
    * Card description
    */
