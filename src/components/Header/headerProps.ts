@@ -6,7 +6,7 @@ export interface NavLink {
   /**
    * Link to the ref page
    */
-  renderLink: (children: React.ReactElement) => React.ReactNode;
+  renderLink: (children: React.ReactNode) => React.ReactNode;
   /**
    * If true, the link label will be shown on mobile hamburger menu
    */
@@ -41,7 +41,7 @@ export interface HeaderProps extends BaseProps {
   /**
    * Larger img, aligned to left
    */
-  logo: React.ReactElement;
+  logo: React.ReactNode;
   /**
    * Collection of navigation icons
    */

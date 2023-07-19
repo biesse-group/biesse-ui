@@ -2,7 +2,7 @@ import { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { Icon, type IconName, isIconName } from "~components/Icon";
+import { Icon, type IconName } from "~components/Icon";
 import { Text } from "~components/Text";
 import type { TitleProps } from "~components/Title";
 import { Title } from "~components/Title";
@@ -12,11 +12,11 @@ export interface IconCardProps extends BaseProps {
   /**
    * An icon from icons set or an external JSX element
    */
-  icon: IconName | React.ReactNode;
+  icon: IconName | React.ReactElement | null;
   /**
    * The card title
    */
-  title: string | React.ReactNode;
+  title: React.ReactNode;
   /**
    * Card title tag, default is `h3`
    */
@@ -24,7 +24,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card title
    */
-  subtitle: string | React.ReactNode;
+  subtitle: React.ReactNode;
   /**
    * Card subtitle tag, default is `h4`
    */
@@ -37,7 +37,7 @@ export interface IconCardProps extends BaseProps {
   /**
    * The card description (JSX element is accepted)
    */
-  description: string | React.ReactNode;
+  description: React.ReactNode;
   /**
    * Actions like buttons, etc *(optional)*
    */
@@ -119,7 +119,7 @@ export const IconCard: FC<IconCardProps> = ({
     <Root {...props}>
       <Heading $wrapOnMobile={wrapOnMobile}>
         <IconContainer $wrapOnMobile={wrapOnMobile}>
-          {typeof icon === "string" && isIconName(icon) ? <Icon name={icon} size="40px" /> : icon}
+          {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
         <StyledTitle variant={titleTag} size="sm" color="primary" uppercase>
           {title}

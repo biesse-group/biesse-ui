@@ -8,7 +8,7 @@ export interface CheckboxProps extends BaseProps {
   /**
    * Label on the right of the checkbox
    */
-  label?: string | React.ReactNode;
+  label?: React.ReactNode;
   /**
    * Whether the checkbox is checked or not
    */

@@ -6,10 +6,6 @@ import { type BiesseTheme } from "~themes";
 
 import iconsMap from "./icons-map";
 
-export function isIconName(value: string): value is IconName {
-  return Object.keys(iconsMap).includes(value);
-}
-
 export type IconName = keyof typeof iconsMap;
 
 export interface IconProps extends BaseProps {
