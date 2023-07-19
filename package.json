@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/biesse-group"
   },
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "BIESSE React Components",
   "author": "Niccolò Taddei",
   "homepage": "http://biesse-group.github.io/biesse-ui",
