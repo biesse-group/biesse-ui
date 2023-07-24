@@ -12,17 +12,10 @@ export default {
     layout: "fullscreen",
     docs: {},
   },
-  argTypes: {
-    onChange: {
-      control: false,
-    },
-  },
   decorators: [
     (Story, { args }) => (
-      <BackgroundDecorator background="light">
-        <div style={{ height: 200 }}>
-          <Story />
-        </div>
+      <BackgroundDecorator background="primary">
+        <Story {...args} />
       </BackgroundDecorator>
     ),
   ],
@@ -32,6 +25,6 @@ type Story = StoryObj<typeof Autocomplete>;
 
 export const Default: Story = {
   args: {
-    suggestions: ["lorem", "ipsum", "dolor", "sit", "amet", "lord", "laravel", "lorenzo"],
+    suggestions: ["lorem", "ipsum", "dolor", "sit", "amet", "lord", "laravel"],
   },
 };

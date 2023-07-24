@@ -12,9 +12,7 @@ import {
 } from "react";
 import styled, { css } from "styled-components";
 
-import { type InputDecorationProps } from "~components/Input";
 import { useClickOutside } from "~hooks/useClickOutside";
-import { borderRadius } from "~styles";
 import { inputStyles } from "~styles/input-styles";
 
 export interface AutocompleteProps
@@ -48,11 +46,6 @@ export interface AutocompleteProps
    * customizable filter function for matching suggestions with user input
    */
   filterFn?: (suggestion: string, input: string) => boolean;
-  /**
-   * Optional decoration elements
-   */
-  startDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
-  endDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
 }
 
 const AutocompleteContainer = styled.div`
@@ -61,15 +54,19 @@ const AutocompleteContainer = styled.div`
 
 const AutocompleteResults = styled.ul<Pick<AutocompleteProps, "shadow">>`
   position: absolute;
+  margin: 2px auto;
   z-index: 100;
   background-color: white;
   width: 100%;
-  padding: 0;
-  ${(props) => borderRadius(props.theme.input.borderRadius)}
+  padding: 2px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 6px -1px ${(props) => props.theme.color.gray};
+  box-shadow: 0px 3px 6px -1px ${(props) => props.theme.color.gray};
 
   li {
     list-style-type: none;
-    padding: 4px 0 4px 20px;
+    margin: 1px 0;
+    padding: 4px 0 4px 24px;
     cursor: pointer;
   }
 
@@ -79,12 +76,7 @@ const AutocompleteResults = styled.ul<Pick<AutocompleteProps, "shadow">>`
     color: ${(props) => props.theme.color.white};
   }
 
-  li:last-child {
-    margin-bottom: 20px;
-  }
-
   .not-found {
-    margin-top: 12px;
     cursor: not-allowed;
   }
 `;
