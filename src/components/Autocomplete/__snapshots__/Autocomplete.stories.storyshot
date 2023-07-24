@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Inputs/Autocomplete Default 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #F5F5F5;
+}
+
+.c1 {
+  position: relative;
+}
+
+.c2 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 48px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.c2:focus,
+.c2:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c2::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c2::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": 200,
+        }
+      }
+    >
+      <div
+        className="c1"
+      >
+        <input
+          className="c2"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
