@@ -131,7 +131,7 @@ export const Autocomplete: FC<AutocompleteProps> = ({
     [setInput, onChange]
   );
 
-  const onInputChange: ChangeEventHandler<HTMLInputElement> = useCallback(
+  const onChangeHandler: ChangeEventHandler<HTMLInputElement> = useCallback(
     (e) => {
       const input = e.currentTarget.value;
       const newFilteredSuggestions = suggestions.filter((suggestion) =>
@@ -145,7 +145,7 @@ export const Autocomplete: FC<AutocompleteProps> = ({
     [changeInput, setIsShow, setFiltered, setActive, suggestions, filterFn]
   );
 
-  const onClick = useCallback(
+  const onClickSuggestion = useCallback(
     (e: MouseEvent<HTMLLIElement>) => {
       setActive(0);
       setFiltered([]);
@@ -183,7 +183,7 @@ export const Autocomplete: FC<AutocompleteProps> = ({
                 className = "active";
               }
               return (
-                <li className={className} key={suggestion} onClick={onClick}>
+                <li className={className} key={suggestion} onClick={onClickSuggestion}>
                   {suggestion}
                 </li>
               );
@@ -205,7 +205,7 @@ export const Autocomplete: FC<AutocompleteProps> = ({
     <AutocompleteContainer ref={containerRef}>
       <StyledInput
         type="text"
-        onChange={onInputChange}
+        onChange={onChangeHandler}
         onKeyDown={onKeyDown}
         value={value ?? input}
         {...rest}
