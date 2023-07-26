@@ -116,7 +116,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 
 .c0 {
   background-color: #6D6E70;
-  width: 30vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -246,6 +246,14 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c11 {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c1 {
     padding-left: 30px;
@@ -266,7 +274,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 
 <div
   className="c0"
-  width="30vw"
+  width="100%"
 >
   <div
     className="c1"
@@ -687,9 +695,25 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c10 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c14 {
     font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1199px) {
+  .c14 {
+    font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -1173,7 +1197,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 
 .c0 {
   background-color: #F5F5F5;
-  width: 30vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1257,6 +1281,14 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c9 {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c1 {
     padding-left: 30px;
@@ -1277,7 +1309,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 
 <div
   className="c0"
-  width="30vw"
+  width="100%"
 >
   <div
     className="c1"
@@ -1772,7 +1804,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 
 .c0 {
   background-color: #6D6E70;
-  width: 30vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1902,6 +1934,14 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c11 {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c1 {
     padding-left: 30px;
@@ -1922,7 +1962,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 
 <div
   className="c0"
-  width="30vw"
+  width="100%"
 >
   <div
     className="c1"
@@ -2256,7 +2296,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 
 .c0 {
   background-color: #6D6E70;
-  width: 30vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2340,6 +2380,14 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c9 {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c1 {
     padding-left: 30px;
@@ -2360,7 +2408,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 
 <div
   className="c0"
-  width="30vw"
+  width="100%"
 >
   <div
     className="c1"
@@ -2716,7 +2764,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 
 .c1 {
   background-color: #FFF;
-  width: 30vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2792,6 +2840,14 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c8 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c2 {
     padding-left: 30px;
@@ -2816,7 +2872,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   >
     <div
       className="c1"
-      width="30vw"
+      width="100%"
     >
       <div
         className="c2"
@@ -3000,7 +3056,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 
 .c0 {
   background-color: #6D6E70;
-  width: 30vw;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3130,6 +3186,14 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   }
 }
 
+@media screen and (max-width:1199px) {
+  .c11 {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1399px) {
   .c1 {
     padding-left: 30px;
@@ -3150,7 +3214,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 
 <div
   className="c0"
-  width="30vw"
+  width="100%"
 >
   <div
     className="c1"
