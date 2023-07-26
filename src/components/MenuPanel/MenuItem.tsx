@@ -24,6 +24,8 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
   border: none;
   padding: 0;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   justify-content: ${({ variant }) => (variant === "white" ? "flex-start" : "space-between")};
   align-items: center;
   height: ${({ variant }) => (variant === "white" || variant === "light" ? "80px" : "auto")};

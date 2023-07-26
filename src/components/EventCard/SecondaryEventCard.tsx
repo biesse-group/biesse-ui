@@ -35,7 +35,7 @@ const EventCardMainWrapper = styled.div`
 const CardTitle = styled(Title)`
   margin-bottom: 12px;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 `;
 
 const ActionWrapper = styled.div`

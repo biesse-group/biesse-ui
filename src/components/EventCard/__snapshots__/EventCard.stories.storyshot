@@ -625,7 +625,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 .c10 {
   margin-bottom: 11px;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .c13 {
@@ -1157,7 +1157,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 .c10 {
   margin-bottom: 11px;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .c13 {
@@ -1598,7 +1598,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 .c3 {
   margin-bottom: 12px;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .c5 {
@@ -1898,7 +1898,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 .c10 {
   margin-bottom: 11px;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .c13 {
