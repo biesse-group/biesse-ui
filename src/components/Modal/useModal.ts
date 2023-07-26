@@ -6,7 +6,8 @@ export interface UseModalProps {
   onOpen?: () => void;
 }
 
-export function useModal({ onOpen, onClose, defaultIsOpen }: UseModalProps) {
+export function useModal(props?: UseModalProps) {
+  const { onOpen, onClose, defaultIsOpen } = props ?? {};
   const [isOpen, setIsOpen] = useState(Boolean(defaultIsOpen));
   const wasOpen = useRef(isOpen);
 
