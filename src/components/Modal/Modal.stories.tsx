@@ -1,38 +1,51 @@
 import { type Meta, type StoryObj } from "@storybook/react";
+import { type FC, type PropsWithChildren } from "react";
 
 import { Button } from "~components/Button";
 import { Text } from "~components/Text";
 import { VideoPlayer } from "~components/VideoPlayer";
 
-import { Modal } from "./Modal";
+import { Modal, type ModalProps } from "./Modal";
+import { useModal } from "./useModal";
+
+const ModalContainer: FC<
+  PropsWithChildren<ModalProps> & {
+    label?: string;
+    onClose?: () => void;
+    onOpen?: () => void;
+  }
+> = ({ children, label, onClose, onOpen }) => {
+  const { isOpen, open, close } = useModal({ onOpen, onClose });
+  return (
+    <>
+      <div style={{ maxWidth: 500 }}>
+        <Button variant="primary" onClick={open}>
+          {label ?? "Open modal"}
+        </Button>
+        <Modal isOpen={isOpen} close={close}>
+          {children}
+        </Modal>
+      </div>
+    </>
+  );
+};
 
 export default {
   title: "Dialogs/Modal",
-  component: Modal,
+  component: ModalContainer,
   tags: ["autodocs"],
   argTypes: {
     children: {
       control: false,
     },
   },
-  decorators: [
-    (Story) => (
-      <div style={{ maxWidth: 500 }}>
-        <Story />
-      </div>
-    ),
-  ],
-} as Meta<typeof Modal>;
+} as Meta<typeof ModalContainer>;
 
-type Story = StoryObj<typeof Modal>;
+type Story = StoryObj<typeof ModalContainer>;
 
 export const Default: Story = {
   args: {
-    renderTrigger: (props) => (
-      <Button variant="primary" {...props}>
-        Open modal
-      </Button>
-    ),
+    onOpen: () => alert("open"),
     children: (
       <div
         style={{
@@ -51,11 +64,8 @@ export const Default: Story = {
 
 export const WithVideo: Story = {
   args: {
-    renderTrigger: (props) => (
-      <Button variant="primary" {...props}>
-        Play video
-      </Button>
-    ),
+    label: "Play video",
+    onClose: () => alert("closed"),
     children: (
       <VideoPlayer
         variant="fit"
