@@ -20,7 +20,7 @@ import { mqUntil } from "~styles";
 export interface ModalProps extends BaseProps {
   testId?: string;
   isOpen: boolean;
-  close?: () => void;
+  close: () => void;
 }
 
 const StyledOverlay = styled(FloatingOverlay)`
