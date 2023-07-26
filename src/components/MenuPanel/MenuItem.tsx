@@ -89,6 +89,30 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
       `
     )}
 
+  ${({ variant, small }) =>
+    mqUntil(
+      "lg",
+      css`
+        font-size: ${() => {
+          switch (variant) {
+            case "primary":
+              return "30px";
+            case "secondary":
+              return "24px";
+            case "light":
+              return "16px";
+            case "white":
+              return "18px";
+            case "dark":
+              return small ? "16px" : "18px";
+          }
+        }};
+
+        padding-left: 30px;
+        padding-right: 30px;
+      `
+    )}
+
   &:hover {
     ${MenuItemArrow} {
       opacity: 1;
