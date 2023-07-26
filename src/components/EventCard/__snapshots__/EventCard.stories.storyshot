@@ -206,7 +206,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -216,7 +218,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -226,7 +230,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -236,7 +242,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -246,7 +254,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -256,7 +266,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -266,27 +278,39 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c17 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c17 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c17 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c17 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c12 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c12 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -556,9 +580,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .c0 {
@@ -602,6 +624,8 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 .c10 {
   margin-bottom: 11px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .c13 {
@@ -636,7 +660,9 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -646,7 +672,9 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -656,7 +684,9 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -666,7 +696,9 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -676,23 +708,33 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c11 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c11 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c11 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c11 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -702,7 +744,9 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -712,27 +756,39 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c9 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c9 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -1056,9 +1112,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .c0 {
@@ -1102,6 +1156,8 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 
 .c10 {
   margin-bottom: 11px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .c13 {
@@ -1136,7 +1192,9 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1146,7 +1204,9 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1156,7 +1216,9 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1166,7 +1228,9 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1176,23 +1240,33 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c11 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c11 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c11 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c11 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1202,7 +1276,9 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1212,27 +1288,39 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c9 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c9 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -1462,7 +1550,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 30px;
   text-transform: uppercase;
   color: #6D6E70;
 }
@@ -1508,8 +1596,9 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 }
 
 .c3 {
-  margin-bottom: 11px;
-  font-size: 30px;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .c5 {
@@ -1518,28 +1607,38 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c4 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c4 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width:767px) {
   .c2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -1559,7 +1658,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
       <h3
         className="c2 c3"
         color="primary"
-        size="md"
+        size="sm"
       >
         Lorem Ipsum
       </h3>
@@ -1754,9 +1853,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-out;
   transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .c0 {
@@ -1800,6 +1897,8 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 .c10 {
   margin-bottom: 11px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .c13 {
@@ -1834,7 +1933,9 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1844,7 +1945,9 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1854,7 +1957,9 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1864,7 +1969,9 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1874,23 +1981,33 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c11 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c11 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c11 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c11 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1900,7 +2017,9 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1910,27 +2029,39 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c9 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c9 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {

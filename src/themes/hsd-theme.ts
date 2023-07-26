@@ -58,36 +58,13 @@ export const hsdTheme: DefaultTheme = {
     },
   },
   font: {
-    tablet: {
-      body: {
-        xs: "12px",
-        lg: "16px",
-        xl: "18px",
-      },
-      headings: {
-        xl: "40px",
-      },
-    },
-    mobile: {
-      body: {
-        md: "14px",
-        lg: "14px",
-        xl: "18px",
-      },
-      headings: {
-        xxl: "30px",
-        xl: "30px",
-        md: "25px",
-        sm: "20px",
-      },
-    },
     regular: {
       body: {
-        xs: "13px",
-        sm: "14px",
-        md: "16px",
-        lg: "18px",
         xl: "20px",
+        lg: "18px",
+        md: "16px",
+        sm: "14px",
+        xs: "13px",
       },
       headings: {
         xxl: "50px",
@@ -96,6 +73,40 @@ export const hsdTheme: DefaultTheme = {
         md: "34px",
         sm: "30px",
         xs: "24px",
+      },
+    },
+    tablet: {
+      body: {
+        xl: "18px",
+        lg: "16px",
+        md: "15px",
+        sm: "13px",
+        xs: "12px",
+      },
+      headings: {
+        xxl: "42px",
+        xl: "40px",
+        lg: "36px",
+        md: "30px",
+        sm: "24px",
+        xs: "20px",
+      },
+    },
+    mobile: {
+      body: {
+        xl: "18px",
+        lg: "14px",
+        md: "14px",
+        sm: "12px",
+        xs: "11px",
+      },
+      headings: {
+        xxl: "30px",
+        xl: "30px",
+        lg: "25px",
+        md: "25px",
+        sm: "20px",
+        xs: "18px",
       },
     },
     weight: {

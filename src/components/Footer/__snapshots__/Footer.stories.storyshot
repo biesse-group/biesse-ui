@@ -351,7 +351,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
+  .c7 {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -361,7 +363,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
+  .c7 a {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -371,7 +375,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
+  .c12 {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -381,11 +387,15 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:767px) {
-
+  .c12 a {
+    font-size: 11px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c21 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -395,7 +405,9 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c21 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -453,11 +465,15 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c16 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c16 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width:991px) {

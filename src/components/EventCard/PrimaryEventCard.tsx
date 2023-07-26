@@ -13,16 +13,14 @@ import { type EventCardProps } from "./eventCardProps";
 const DateLinkIcon = styled(Icon)`
   opacity: 0;
   transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 
   ${mqUntil(
     "md",
     css`
       opacity: 1;
     `
-  )}
+  )};
 `;
 
 const EventCardRoot = styled.div`
@@ -57,6 +55,8 @@ const EventCardMainWrapper = styled.div`
 
 const CardTitle = styled(Title)`
   margin-bottom: 11px;
+  white-space: pre-wrap;
+  word-break: break-all;
 `;
 
 const DateSeparator = styled.span`

@@ -166,7 +166,9 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -176,7 +178,9 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -190,6 +194,12 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    padding-right: 20px;
   }
 }
 
@@ -484,7 +494,9 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c7 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -494,7 +506,9 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c7 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -504,7 +518,9 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -518,6 +534,12 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
     -webkit-flex: 0 0 40%;
     -ms-flex: 0 0 40%;
     flex: 0 0 40%;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c4 {
+    padding-right: 20px;
   }
 }
 

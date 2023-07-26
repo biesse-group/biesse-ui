@@ -206,7 +206,9 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -216,7 +218,9 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1207,7 +1211,9 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1217,7 +1223,9 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1846,7 +1854,9 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1856,7 +1866,9 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2278,7 +2290,9 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2288,7 +2302,9 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2724,7 +2740,9 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2734,7 +2752,9 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -3056,7 +3076,9 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -3066,7 +3088,9 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {

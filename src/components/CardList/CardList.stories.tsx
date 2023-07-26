@@ -7,6 +7,7 @@ const meta: Meta<typeof CardList> = {
   title: "Cards/CardList",
   component: CardList,
   decorators: [(Story) => <div style={{ maxWidth: 500 }}>{Story()}</div>],
+  tags: ["autodocs"],
 };
 
 export default meta;

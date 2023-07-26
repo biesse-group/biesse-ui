@@ -295,39 +295,57 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c13 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c13 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c13 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c13 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c17 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -337,7 +355,9 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c17 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -347,11 +367,15 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c15 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -616,7 +640,9 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -626,7 +652,9 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -636,11 +664,15 @@ exports[`Storyshots Cards/Card Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -984,23 +1016,33 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c16 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1010,7 +1052,9 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c16 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1020,11 +1064,15 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c14 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c14 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (min-width:992px) {
@@ -1349,7 +1397,9 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1359,7 +1409,9 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1369,11 +1421,15 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1577,7 +1633,9 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1587,7 +1645,9 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1597,11 +1657,15 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1806,23 +1870,33 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c10 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1832,7 +1906,9 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c10 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1842,11 +1918,15 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c8 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2160,23 +2240,33 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c6 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c6 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2186,7 +2276,9 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -2196,11 +2288,15 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c13 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c13 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {

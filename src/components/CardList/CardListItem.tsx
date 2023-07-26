@@ -68,6 +68,7 @@ const CardPreTitle = styled(Text)`
 const CardTitle = styled(Title)`
   grid-area: title;
   margin: 0;
+  font-size: 24px;
   ${multilineEllipsis(2)};
 `;
 
@@ -91,7 +92,7 @@ export const CardListItem: FC<CardListItemProps> = ({
       <CardPreTitle italic size="sm">
         {preTitle}
       </CardPreTitle>
-      <CardTitle variant={titleTag} size="xs" color="primary" uppercase>
+      <CardTitle variant={titleTag} color="primary" uppercase>
         {title}
       </CardTitle>
       <CardAction>
