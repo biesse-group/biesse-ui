@@ -88,6 +88,8 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -523,6 +525,8 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -555,6 +559,8 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1132,6 +1138,8 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1736,6 +1744,8 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -2218,6 +2228,8 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -2680,6 +2692,8 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -2958,6 +2972,8 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  white-space: pre-wrap;
+  word-break: break-word;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;

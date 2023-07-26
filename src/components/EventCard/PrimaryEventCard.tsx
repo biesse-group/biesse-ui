@@ -56,7 +56,7 @@ const EventCardMainWrapper = styled.div`
 const CardTitle = styled(Title)`
   margin-bottom: 11px;
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: break-word;
 `;
 
 const DateSeparator = styled.span`
