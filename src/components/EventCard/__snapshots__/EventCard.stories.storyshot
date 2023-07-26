@@ -571,7 +571,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 34px;
   text-transform: uppercase;
   color: #6D6E70;
 }
@@ -781,7 +781,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 @media screen and (max-width:991px) {
   .c9 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
@@ -897,7 +897,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
       <h3
         className="c9 c10"
         color="primary"
-        size="lg"
+        size="md"
       >
         Lorem Ipsum
       </h3>
@@ -1103,7 +1103,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 34px;
   text-transform: uppercase;
   color: #6D6E70;
 }
@@ -1313,7 +1313,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 
 @media screen and (max-width:991px) {
   .c9 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
@@ -1429,7 +1429,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
       <h3
         className="c9 c10"
         color="primary"
-        size="lg"
+        size="md"
       >
         Lorem Ipsum
       </h3>
@@ -1844,7 +1844,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 34px;
   text-transform: uppercase;
   color: #6D6E70;
 }
@@ -2054,7 +2054,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 @media screen and (max-width:991px) {
   .c9 {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
@@ -2170,7 +2170,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
       <h3
         className="c9 c10"
         color="primary"
-        size="lg"
+        size="md"
       >
         Lorem Ipsum
       </h3>
