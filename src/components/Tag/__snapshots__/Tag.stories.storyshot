@@ -70,19 +70,27 @@ exports[`Storyshots Display/Tag Composite 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -185,19 +193,27 @@ exports[`Storyshots Display/Tag Glass 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -300,19 +316,27 @@ exports[`Storyshots Display/Tag Metal 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -403,19 +427,27 @@ exports[`Storyshots Display/Tag Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -479,19 +511,27 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -578,19 +618,27 @@ exports[`Storyshots Display/Tag Stone 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -672,19 +720,27 @@ exports[`Storyshots Display/Tag With Border 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -771,19 +827,27 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 a {
+    font-size: 12px;
+  }
 }
 
 <div
@@ -904,19 +968,27 @@ exports[`Storyshots Display/Tag Wood 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c3 a {
+    font-size: 12px;
+  }
 }
 
 <div

@@ -33,8 +33,9 @@ const EventCardMainWrapper = styled.div`
 `;
 
 const CardTitle = styled(Title)`
-  margin-bottom: 11px;
-  font-size: 30px;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+  word-break: break-all;
 `;
 
 const ActionWrapper = styled.div`
@@ -58,7 +59,7 @@ export const SecondaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "vari
   return (
     <EventCardRoot data-testid={testId} {...props}>
       <EventCardMainWrapper>
-        <CardTitle variant={titleTag} size="md" color="primary" uppercase>
+        <CardTitle variant={titleTag} size="sm" color="primary" uppercase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 10 }}>

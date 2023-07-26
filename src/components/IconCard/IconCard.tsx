@@ -96,8 +96,17 @@ const IconContainer = styled.div<{ $wrapOnMobile?: boolean }>`
     )}
 `;
 
-const StyledTitle = styled(Title)`
+const StyledTitle = styled(Title)<{ $wrapOnMobile?: boolean }>`
   margin: 0px 0px 12px 0px;
+
+  ${({ $wrapOnMobile }) =>
+    $wrapOnMobile &&
+    mqUntil(
+      "md",
+      css`
+        margin-bottom: 0;
+      `
+    )}
 `;
 
 const StyledText = styled(Text)`
@@ -121,7 +130,13 @@ export const IconCard: FC<IconCardProps> = ({
         <IconContainer $wrapOnMobile={wrapOnMobile}>
           {typeof icon === "string" ? <Icon name={icon} size="40px" /> : icon}
         </IconContainer>
-        <StyledTitle variant={titleTag} size="sm" color="primary" uppercase>
+        <StyledTitle
+          variant={titleTag}
+          size="sm"
+          color="primary"
+          uppercase
+          $wrapOnMobile={wrapOnMobile}
+        >
           {title}
         </StyledTitle>
         {subtitle && (

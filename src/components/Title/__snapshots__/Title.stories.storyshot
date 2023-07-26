@@ -16,11 +16,15 @@ exports[`Storyshots Typography/Title Light 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 <div
@@ -54,11 +58,15 @@ exports[`Storyshots Typography/Title Primary 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c0 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c0 {
+    font-size: 25px;
+  }
 }
 
 <h3
@@ -80,11 +88,15 @@ exports[`Storyshots Typography/Title Uppercase 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c0 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c0 {
+    font-size: 25px;
+  }
 }
 
 <h3
