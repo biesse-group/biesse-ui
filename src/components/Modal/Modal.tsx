@@ -49,6 +49,8 @@ const ModalWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
+  position: fixed;
+  z-index: 100000;
 `;
 
 export const Modal: FC<PropsWithChildren<ModalProps>> = ({
