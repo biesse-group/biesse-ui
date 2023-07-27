@@ -13,16 +13,14 @@ import { type EventCardProps } from "./eventCardProps";
 const DateLinkIcon = styled(Icon)`
   opacity: 0;
   transition: opacity 0.2s ease-out;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 
   ${mqUntil(
     "md",
     css`
       opacity: 1;
     `
-  )}
+  )};
 `;
 
 const EventCardRoot = styled.div`
@@ -57,6 +55,8 @@ const EventCardMainWrapper = styled.div`
 
 const CardTitle = styled(Title)`
   margin-bottom: 11px;
+  white-space: pre-wrap;
+  word-break: break-word;
 `;
 
 const DateSeparator = styled.span`
@@ -140,7 +140,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       </DateLinkWrapper>
 
       <EventCardMainWrapper>
-        <CardTitle variant={titleTag} size="lg" color="primary" uppercase>
+        <CardTitle variant={titleTag} size="md" color="primary" uppercase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 20 }}>

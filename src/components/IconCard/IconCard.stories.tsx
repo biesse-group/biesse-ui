@@ -24,7 +24,7 @@ export default {
 
 type Story = StoryObj<typeof IconCard>;
 
-export const Default: Story = {
+export const WrapOnMobile: Story = {
   args: {
     icon: "sustainability",
     title: "Sustainability",
@@ -39,7 +39,7 @@ export const Default: Story = {
   },
 };
 
-export const MobileDisabled: Story = {
+export const NotWrapOnMobile: Story = {
   args: {
     icon: "sustainability",
     title: "UNI EN ISO 9000:2015",

@@ -69,7 +69,9 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -79,7 +81,9 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -208,7 +212,9 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -218,7 +224,9 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c4 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
