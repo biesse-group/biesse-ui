@@ -46,14 +46,8 @@ exports[`Storyshots Dialogs/Modal Default 1`] = `
   }
 >
   <button
-    aria-expanded="false"
-    aria-haspopup="dialog"
     className="c0"
     onClick={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onPointerDown={[Function]}
     type="button"
   >
     Open modal
@@ -107,14 +101,8 @@ exports[`Storyshots Dialogs/Modal With Video 1`] = `
   }
 >
   <button
-    aria-expanded="false"
-    aria-haspopup="dialog"
     className="c0"
     onClick={[Function]}
-    onKeyDown={[Function]}
-    onKeyUp={[Function]}
-    onMouseDown={[Function]}
-    onPointerDown={[Function]}
     type="button"
   >
     Play video
