@@ -84,6 +84,13 @@ const TextWrapper = styled.div<Pick<CtaCardProps, "variant"> & { $withButton?: b
   flex-direction: column;
   flex: 1 1 auto;
 
+  ${mqUntil(
+    "md",
+    css`
+      padding-right: 20px;
+    `
+  )}
+
   ${(props) =>
     props.$withButton &&
     css`
@@ -133,6 +140,7 @@ const StyledTitle = styled(Title)`
 
 const StyledDescription = styled(Text)`
   line-height: 20px;
+
   ${mqUntil(
     "md",
     css`

@@ -57,11 +57,15 @@ exports[`Storyshots Layout/StripThreeCols Equal Size Items 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -195,11 +199,15 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -333,11 +341,15 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large Two Items 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -458,11 +470,15 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -595,11 +611,15 @@ exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -733,11 +753,15 @@ exports[`Storyshots Layout/StripThreeCols One Item 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -845,11 +869,15 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -983,11 +1011,15 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large Two Items 1`] = 
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -1108,11 +1140,15 @@ exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -1239,11 +1275,15 @@ exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c1 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {

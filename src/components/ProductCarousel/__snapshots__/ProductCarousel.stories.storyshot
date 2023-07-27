@@ -378,23 +378,33 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c24 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c24 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c24 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c24 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c18 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -404,7 +414,9 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c18 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -414,7 +426,9 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c19 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -424,7 +438,9 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c19 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -446,11 +462,15 @@ exports[`Storyshots Slideshow/ProductCarousel Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c15 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c15 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:767px) {

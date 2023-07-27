@@ -10,7 +10,7 @@ import {
   useRole,
 } from "@floating-ui/react";
 import { AnimatePresence, motion } from "framer-motion";
-import React, { type PropsWithChildren, useEffect, useState } from "react";
+import type { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
@@ -19,15 +19,7 @@ import { mqUntil } from "~styles";
 
 export interface ModalProps extends BaseProps {
   testId?: string;
-  onOpen?: () => void;
-  onClose?: () => void;
-  renderTrigger: (
-    props: { ref: (node: any | null) => void; onClick: () => void } & Record<string, unknown>
-  ) => React.ReactNode;
-}
-
-export interface ModalHandle {
-  open: () => void;
+  isOpen: boolean;
   close: () => void;
 }
 
@@ -59,82 +51,65 @@ const ModalWrapper = styled.div`
   overflow-y: auto;
 `;
 
-export const Modal = React.forwardRef<ModalHandle, PropsWithChildren<ModalProps>>(
-  ({ testId, children, renderTrigger, onOpen, onClose, ...props }, ref) => {
-    const [open, setOpen] = useState(false);
+const StyledMotionDiv = styled(motion.div)`
+  position: fixed;
+  z-index: 100000;
+`;
 
-    const { refs, context } = useFloating({
-      open,
-      onOpenChange: setOpen,
-    });
+export const Modal: FC<PropsWithChildren<ModalProps>> = ({
+  testId,
+  children,
+  isOpen,
+  close,
+  ...props
+}) => {
+  const { refs, context } = useFloating({
+    open: isOpen,
+    onOpenChange: close,
+  });
 
-    useEffect(() => {
-      if (onOpen && open) {
-        onOpen();
-      } else if (onClose && !open) {
-        onClose();
-      }
-    }, [open, onOpen, onClose]);
+  const click = useClick(context);
+  const role = useRole(context);
+  const dismiss = useDismiss(context, { outsidePressEvent: "mousedown" });
 
-    const click = useClick(context);
-    const role = useRole(context);
-    const dismiss = useDismiss(context, { outsidePressEvent: "mousedown" });
+  const { getFloatingProps } = useInteractions([click, role, dismiss]);
 
-    const { getReferenceProps, getFloatingProps } = useInteractions([click, role, dismiss]);
+  const headingId = useId();
+  const descriptionId = useId();
 
-    const headingId = useId();
-    const descriptionId = useId();
-
-    React.useImperativeHandle(ref, () => ({
-      open() {
-        setOpen(true);
-      },
-      close() {
-        setOpen(false);
-      },
-    }));
-
-    return (
-      <>
-        {renderTrigger({
-          ref: refs.setReference,
-          onClick: () => setOpen(true),
-          ...getReferenceProps(),
-        })}
-        <FloatingPortal>
-          <AnimatePresence>
-            {open && (
-              <motion.div
-                key="modal"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                {...props}
-              >
-                <StyledOverlay className="Dialog-overlay" lockScroll>
-                  <FloatingFocusManager context={context}>
-                    <ModalWrapper
-                      ref={refs.setFloating}
-                      data-testid={testId}
-                      aria-labelledby={headingId}
-                      aria-describedby={descriptionId}
-                      {...getFloatingProps()}
-                    >
-                      <StyledCloseButton
-                        aria-label="close"
-                        variant="primary-inverted"
-                        icon="close"
-                        onClick={() => setOpen(false)}
-                      />
-                      {children}
-                    </ModalWrapper>
-                  </FloatingFocusManager>
-                </StyledOverlay>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </FloatingPortal>
-      </>
-    );
-  }
-);
+  return (
+    <FloatingPortal>
+      <AnimatePresence>
+        {isOpen && (
+          <StyledMotionDiv
+            key="modal"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            {...props}
+          >
+            <StyledOverlay className="Dialog-overlay" lockScroll>
+              <FloatingFocusManager context={context}>
+                <ModalWrapper
+                  ref={refs.setFloating}
+                  data-testid={testId}
+                  aria-labelledby={headingId}
+                  aria-describedby={descriptionId}
+                  {...getFloatingProps()}
+                >
+                  <StyledCloseButton
+                    aria-label="close"
+                    variant="primary-inverted"
+                    icon="close"
+                    onClick={close}
+                  />
+                  {children}
+                </ModalWrapper>
+              </FloatingFocusManager>
+            </StyledOverlay>
+          </StyledMotionDiv>
+        )}
+      </AnimatePresence>
+    </FloatingPortal>
+  );
+};

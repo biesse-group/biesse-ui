@@ -89,7 +89,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 34px;
   text-transform: uppercase;
   color: #6D6E70;
 }
@@ -141,6 +141,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 .c8 {
   grid-area: title;
   margin: 0;
+  font-size: 24px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -156,23 +157,33 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c5 {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c5 a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c5 a {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width:991px) {
-
+  .c1 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -182,11 +193,15 @@ exports[`Storyshots Cards/CardList Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c7 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c7 {
+    font-size: 25px;
+  }
 }
 
 <div
@@ -238,7 +253,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       <h4
         className="c7 c8"
         color="primary"
-        size="xs"
       >
         Pellentesque auctor neque nec urna
       </h4>
@@ -307,7 +321,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       <h4
         className="c7 c8"
         color="primary"
-        size="xs"
       >
         Duis leo. Donec mollis hendrerit risus
       </h4>
@@ -376,7 +389,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
       <h4
         className="c7 c8"
         color="primary"
-        size="xs"
       >
         <a
           href="/"

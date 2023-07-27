@@ -22,16 +22,31 @@ const CardUpperContent = styled.div`
 `;
 
 const CardTitle = styled(Title)`
-  margin-bottom: 29px;
+  margin-bottom: 30px;
+
+  ${mqUntil(
+    "md",
+    css`
+      margin-bottom: 20px;
+    `
+  )}
 `;
 
 const CardIconWrapper = styled.div`
   margin-bottom: 36px;
   color: ${(props) => props.theme.color.primary};
+
+  ${mqUntil(
+    "md",
+    css`
+      margin-bottom: 24px;
+    `
+  )}
 `;
 
 const CardActions = styled.div`
-  margin-top: 30px;
+  margin-top: auto;
+  padding-top: 30px;
 `;
 
 const CardImage = styled.div`

@@ -106,11 +106,15 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c2 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c2 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
@@ -367,7 +371,9 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -377,7 +383,9 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c3 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -387,7 +395,9 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c7 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -397,7 +407,9 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c7 a {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width:767px) {
@@ -431,11 +443,15 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
 }
 
 @media screen and (max-width:991px) {
-
+  .c8 {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width:767px) {
-
+  .c8 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:991px) {
