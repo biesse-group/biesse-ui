@@ -49,6 +49,9 @@ const ModalWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
+`;
+
+const StyledMotionDiv = styled(motion.div)`
   position: fixed;
   z-index: 100000;
 `;
@@ -78,7 +81,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
     <FloatingPortal>
       <AnimatePresence>
         {isOpen && (
-          <motion.div
+          <StyledMotionDiv
             key="modal"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -104,7 +107,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
                 </ModalWrapper>
               </FloatingFocusManager>
             </StyledOverlay>
-          </motion.div>
+          </StyledMotionDiv>
         )}
       </AnimatePresence>
     </FloatingPortal>
