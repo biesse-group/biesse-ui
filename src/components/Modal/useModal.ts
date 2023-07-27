@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export interface UseModalProps {
   defaultIsOpen?: boolean;
@@ -9,21 +9,21 @@ export interface UseModalProps {
 export function useModal(props?: UseModalProps) {
   const { onOpen, onClose, defaultIsOpen } = props ?? {};
   const [isOpen, setIsOpen] = useState(Boolean(defaultIsOpen));
-  const wasOpen = useRef(isOpen);
+  const [wasOpen, setWasOpen] = useState(Boolean(defaultIsOpen));
 
   const open = useCallback(() => {
     setIsOpen(true);
-    wasOpen.current = true;
+    setWasOpen(true);
   }, []);
   const close = useCallback(() => setIsOpen(false), []);
 
   useEffect(() => {
     if (onOpen && isOpen) {
       onOpen();
-    } else if (onClose && !isOpen && wasOpen.current) {
+    } else if (onClose && !isOpen && wasOpen) {
       onClose();
     }
-  }, [onOpen, onClose, isOpen]);
+  }, [onOpen, onClose, isOpen, wasOpen]);
 
   return {
     isOpen,

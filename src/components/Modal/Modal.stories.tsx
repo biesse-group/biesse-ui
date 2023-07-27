@@ -17,16 +17,14 @@ const ModalContainer: FC<
 > = ({ children, label, onClose, onOpen }) => {
   const { isOpen, open, close } = useModal({ onOpen, onClose });
   return (
-    <>
-      <div style={{ maxWidth: 500 }}>
-        <Button variant="primary" onClick={open}>
-          {label ?? "Open modal"}
-        </Button>
-        <Modal isOpen={isOpen} close={close}>
-          {children}
-        </Modal>
-      </div>
-    </>
+    <div style={{ maxWidth: 500 }}>
+      <Button variant="primary" onClick={open}>
+        {label ?? "Open modal"}
+      </Button>
+      <Modal isOpen={isOpen} close={close}>
+        {children}
+      </Modal>
+    </div>
   );
 };
 

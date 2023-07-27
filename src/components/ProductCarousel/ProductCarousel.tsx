@@ -95,10 +95,9 @@ export const ProductCarousel = <T extends object>({
   const { direction, page, nextPage, prevPage, getItemMotionProps, shownItems } =
     useProductCarousel(items);
 
-  const itemsLength = items.length;
   useEffect(() => {
-    if (onChangePage) onChangePage(page % itemsLength);
-  }, [page, itemsLength, onChangePage]);
+    if (onChangePage) onChangePage(page % items.length);
+  }, [page, items.length, onChangePage]);
 
   return (
     <Root $height={contentHeight} {...props}>
