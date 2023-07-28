@@ -11,6 +11,7 @@ export const TextContainer = styled.div`
   bottom: 0;
   left: 0;
   padding: 62px 45px 37px 122px;
+  word-break: break-word;
 
   ${mqUntil(
     "md",
