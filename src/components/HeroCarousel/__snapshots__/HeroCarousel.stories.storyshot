@@ -80,6 +80,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   bottom: 0;
   left: 0;
   padding: 62px 45px 37px 122px;
+  word-break: break-word;
 }
 
 .c0 {
@@ -429,6 +430,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   bottom: 0;
   left: 0;
   padding: 62px 45px 37px 122px;
+  word-break: break-word;
 }
 
 .c0 {
@@ -778,6 +780,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   bottom: 0;
   left: 0;
   padding: 62px 45px 37px 122px;
+  word-break: break-word;
 }
 
 .c0 {
