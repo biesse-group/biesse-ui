@@ -7,6 +7,7 @@ const tabs: TabsProps["tabs"] = [
   {
     id: "all",
     label: "Tutte",
+    linkUrl: "./",
   },
   {
     id: "corporate",

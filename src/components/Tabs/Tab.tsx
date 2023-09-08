@@ -1,10 +1,13 @@
+import type { FC, PropsWithChildren } from "react";
 import styled, { css } from "styled-components";
 
 export interface TabProps {
   $selected?: boolean;
+  linkUrl?: string;
+  onClick?: () => void;
 }
 
-export const Tab = styled.button<TabProps>`
+export const TabButton = styled.button<Pick<TabProps, "$selected">>`
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -27,3 +30,23 @@ export const Tab = styled.button<TabProps>`
       color: ${(props) => props.theme.color.white};
     `}
 `;
+
+export const Tab: FC<PropsWithChildren<TabProps>> = ({
+  $selected,
+  linkUrl,
+  onClick,
+  children,
+  ...props
+}) => {
+  return linkUrl ? (
+    <a href={linkUrl}>
+      <TabButton $selected={$selected} onClick={onClick} {...props}>
+        {children}
+      </TabButton>
+    </a>
+  ) : (
+    <TabButton $selected={$selected} onClick={onClick} {...props}>
+      {children}
+    </TabButton>
+  );
+};
