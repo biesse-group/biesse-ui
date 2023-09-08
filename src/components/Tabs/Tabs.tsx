@@ -4,11 +4,12 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { mqUntil } from "~styles";
 
-import { Tab } from "./Tab";
+import { Tab, type TabProps } from "./Tab";
 
 export interface TabData {
   id: string | number;
   label: string;
+  linkUrl?: TabProps["linkUrl"];
 }
 
 export interface TabsProps extends BaseProps {
@@ -21,10 +22,7 @@ const TabsContainer = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-
-  ${Tab}:not(:last-child) {
-    margin-right: 20px;
-  }
+  gap: 20px;
 
   ${mqUntil(
     "sm",
@@ -37,8 +35,8 @@ const TabsContainer = styled.div`
 export const Tabs: FC<TabsProps> = ({ tabs, onSelect, selected, ...props }) => {
   return (
     <TabsContainer {...props}>
-      {tabs.map(({ id, label }) => (
-        <Tab key={id} $selected={id === selected} onClick={() => onSelect?.(id)}>
+      {tabs.map(({ id, label, linkUrl }) => (
+        <Tab key={id} $selected={id === selected} onClick={() => onSelect?.(id)} linkUrl={linkUrl}>
           {label}
         </Tab>
       ))}
