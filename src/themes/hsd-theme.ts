@@ -47,7 +47,6 @@ export const hsdTheme: DefaultTheme = {
     lightGray: "#F5F5F5",
     darkGray: "252525",
     gray: "#A2A2A2",
-    modalBackground: "rgba(0,53,148,0.9)",
 
     material: {
       wood: "#F9942E",

@@ -62,7 +62,6 @@ export interface BiesseTheme {
     lightGray: string;
     darkGray: string;
     gray: string;
-    modalBackground: string;
 
     material: {
       wood: string;
