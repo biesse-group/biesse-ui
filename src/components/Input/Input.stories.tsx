@@ -90,3 +90,11 @@ export const Filled: Story = {
     await userEvent.click(canvas.getByTestId("submit"));
   },
 };
+
+export const WithError: Story = {
+  args: {
+    ...DarkBackground.args,
+    error: true,
+    defaultValue: "An invalid value",
+  },
+};

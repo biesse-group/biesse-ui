@@ -190,7 +190,7 @@ exports[`Storyshots Cards/IconCard Not Wrap On Mobile 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 300,
     }
   }
@@ -491,7 +491,7 @@ exports[`Storyshots Cards/IconCard Wrap On Mobile 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 300,
     }
   }

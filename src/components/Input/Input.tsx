@@ -9,19 +9,16 @@ export interface InputDecorationProps {
   focus: boolean;
 }
 
-export interface InputProps extends BaseProps {
+type HTMLInputProps = Pick<
+  React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
+  "onFocus" | "onBlur" | "onChange" | "defaultValue" | "type" | "placeholder"
+>;
+
+export interface InputProps extends BaseProps, HTMLInputProps {
   /**
-   * Input placeholder shown when has no value
-   */
-  placeholder?: string;
-  /**
-   * Input current value
+   * Input default value
    */
   defaultValue?: string;
-  /**
-   * Input value change callback
-   */
-  onChange?: React.ChangeEventHandler<HTMLInputElement>;
   /**
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
@@ -35,17 +32,20 @@ export interface InputProps extends BaseProps {
    */
   testId?: string;
   /**
-   * Input type
-   */
-  type: React.InputHTMLAttributes<HTMLInputElement>["type"];
-  /**
-   * Optional decoration elements
+   * Optional decoration element at the start of the input
    */
   startDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  /**
+   * Optional decoration element at the end of the input
+   */
   endDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  /**
+   * Whether the input has an error. It can be a `boolean` or a `string` with the error message.
+   */
+  error?: boolean | string;
 }
 
-const StyledInput = styled.input<Pick<InputProps, "shadow">>`
+const StyledInput = styled.input<Pick<InputProps, "shadow"> & HTMLInputProps>`
   ${(props) => inputStyles(props.shadow)}
 
   &:active, &:focus {
@@ -55,7 +55,9 @@ const StyledInput = styled.input<Pick<InputProps, "shadow">>`
   border: none;
 `;
 
-const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasFocus: boolean }>`
+type InputContainerProps = Pick<InputProps, "shadow" | "border" | "error"> & { hasFocus: boolean };
+
+const InputContainer = styled.div<InputContainerProps>`
   position: relative;
   width: 100%;
   border-radius: ${(props) => props.theme.input.borderRadius};
@@ -68,6 +70,16 @@ const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasF
     props.border &&
     css`
       border: 1px solid ${props.theme.input.borderColor};
+    `}
+
+  ${(props) =>
+    props.error &&
+    css`
+      border: 1px solid ${props.theme.color.error};
+
+      > ${StyledInput} {
+        color: ${props.theme.color.error};
+      }
     `}
 
   ${(props) =>
@@ -93,26 +105,29 @@ export const Input: FC<InputProps> = ({
   const [focus, setFocus] = useState(false);
   const [value, setValue] = useState(defaultValue);
 
-  const { shadow, border } = props;
-
-  const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
-    setValue(e.currentTarget.value);
-    onChange?.(e);
-  };
-
   const decorationsProps: InputDecorationProps = {
     value,
     focus,
   };
 
   return (
-    <InputContainer hasFocus={focus} {...{ shadow, border, className, style }}>
+    <InputContainer hasFocus={focus} {...{ className, style }} {...props}>
       {typeof startDecoration === "function" ? startDecoration(decorationsProps) : startDecoration}
       <StyledInput
         {...props}
-        onFocus={() => setFocus(true)}
-        onBlur={() => setFocus(false)}
-        onChange={handleChange}
+        defaultValue={defaultValue}
+        onFocus={(e) => {
+          setFocus(true);
+          props.onFocus?.(e);
+        }}
+        onBlur={(e) => {
+          setFocus(false);
+          props.onBlur?.(e);
+        }}
+        onChange={(e) => {
+          setValue(e.currentTarget.value);
+          onChange?.(e);
+        }}
         data-testid={testId}
       />
       {typeof endDecoration === "function" ? endDecoration(decorationsProps) : endDecoration}

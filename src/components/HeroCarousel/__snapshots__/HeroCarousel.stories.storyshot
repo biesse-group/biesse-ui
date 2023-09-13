@@ -207,7 +207,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     <div
       className="c3"
       style={
-        Object {
+        {
           "opacity": 1,
           "zIndex": 1,
         }
@@ -215,7 +215,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
             "backgroundPosition": "center center",
             "backgroundSize": "cover",
@@ -231,7 +231,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "opacity": 1,
           "transform": "none",
           "zIndex": 1,
@@ -247,7 +247,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "opacity": 1,
           "transform": "none",
           "zIndex": 1,
@@ -557,7 +557,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     <div
       className="c3"
       style={
-        Object {
+        {
           "opacity": 1,
           "zIndex": 1,
         }
@@ -565,7 +565,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
             "backgroundPosition": "center center",
             "backgroundSize": "cover",
@@ -581,7 +581,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "opacity": 1,
           "transform": "none",
           "zIndex": 1,
@@ -597,7 +597,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "opacity": 1,
           "transform": "none",
           "zIndex": 1,
@@ -907,7 +907,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     <div
       className="c3"
       style={
-        Object {
+        {
           "opacity": 1,
           "zIndex": 1,
         }
@@ -915,7 +915,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     >
       <div
         style={
-          Object {
+          {
             "backgroundImage": "url(https://dummyimage.com/1920x1080/c7c7c7/ffffff.png&text=Slide+1)",
             "backgroundPosition": "center center",
             "backgroundSize": "cover",
@@ -931,7 +931,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   >
     <div
       style={
-        Object {
+        {
           "opacity": 1,
           "transform": "none",
           "zIndex": 1,
@@ -947,7 +947,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
     </div>
     <div
       style={
-        Object {
+        {
           "opacity": 1,
           "transform": "none",
           "zIndex": 1,

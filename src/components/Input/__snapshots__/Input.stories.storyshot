@@ -76,16 +76,18 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
   >
     <div
       className="c1"
+      placeholder="Name"
     >
       <input
         className="c2"
+        defaultValue=""
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -199,17 +201,19 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
   >
     <div
       className="c1"
+      placeholder="Name"
     >
       <input
         className="c2"
         data-testid="input"
+        defaultValue=""
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -327,16 +331,18 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
   >
     <div
       className="c1"
+      placeholder="Name"
     >
       <input
         className="c2"
+        defaultValue=""
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -442,16 +448,18 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
   >
     <div
       className="c1"
+      placeholder="Cosa cerchi?"
     >
       <input
         className="c2"
+        defaultValue=""
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -462,7 +470,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
         color="primary"
         size="24px"
         style={
-          Object {
+          {
             "marginRight": 20,
           }
         }
@@ -496,6 +504,109 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
           </g>
         </svg>
       </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Inputs/Input With Error 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
+.c3 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  border: none;
+}
+
+.c3:focus,
+.c3:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c3::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3:active,
+.c3:focus {
+  box-shadow: none;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 4px;
+  -webkit-transition: box-shadow 0.2s ease-out;
+  transition: box-shadow 0.2s ease-out;
+  border: 1px solid #FF0000;
+}
+
+.c1 > .c2 {
+  color: #FF0000;
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      className="c1"
+      placeholder="Name"
+    >
+      <input
+        className="c2 c3"
+        defaultValue="An invalid value"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Name"
+      />
     </div>
   </div>
 </div>
@@ -596,20 +707,21 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
   >
     <div
       className="c1"
+      placeholder="Name"
     >
       <span
         className="c2"
         color="primary"
         size="xs"
         style={
-          Object {
+          {
             "marginLeft": 20,
           }
         }
@@ -638,6 +750,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
       </span>
       <input
         className="c3"
+        defaultValue=""
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
