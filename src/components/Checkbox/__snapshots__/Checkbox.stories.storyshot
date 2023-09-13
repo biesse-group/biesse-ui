@@ -97,7 +97,7 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": "100%",
       }
     }
@@ -120,7 +120,7 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
           data-testid="checkbox"
           htmlFor="checkbox-test"
           style={
-            Object {
+            {
               "cursor": "pointer",
             }
           }
@@ -240,7 +240,7 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": "100%",
       }
     }
@@ -263,7 +263,7 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
           data-testid="checkbox"
           htmlFor="checkbox-test"
           style={
-            Object {
+            {
               "cursor": "pointer",
             }
           }

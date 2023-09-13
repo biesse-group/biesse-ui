@@ -431,7 +431,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
 
 <div
   style={
-    Object {
+    {
       "backgroundColor": "grey",
     }
   }
@@ -1254,7 +1254,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
 
 <div
   style={
-    Object {
+    {
       "backgroundColor": "grey",
     }
   }
