@@ -578,7 +578,7 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
   padding-right: 4px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
-  border: 1px solid #FF0000;
+  border: 3px solid #FF0000;
 }
 
 .c1 > .c2 {
