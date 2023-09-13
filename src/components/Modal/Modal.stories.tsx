@@ -43,7 +43,6 @@ type Story = StoryObj<typeof ModalContainer>;
 
 export const Default: Story = {
   args: {
-    onOpen: () => alert("open"),
     children: (
       <div
         style={{
@@ -63,7 +62,6 @@ export const Default: Story = {
 export const WithVideo: Story = {
   args: {
     label: "Play video",
-    onClose: () => alert("closed"),
     children: (
       <VideoPlayer
         variant="fit"
