@@ -75,7 +75,7 @@ const InputContainer = styled.div<InputContainerProps>`
   ${(props) =>
     props.error &&
     css`
-      border: 1px solid ${props.theme.color.error};
+      border: 3px solid ${props.theme.color.error};
 
       > ${StyledInput} {
         color: ${props.theme.color.error};
