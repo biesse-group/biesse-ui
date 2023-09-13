@@ -197,7 +197,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 300,
     }
   }
@@ -504,7 +504,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -588,8 +588,8 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
       >
         <div
           style={
-            Object {
-              "backgroundImage": "url(\\"https://dummyimage.com/400x600/c0c0c0/fff\\")",
+            {
+              "backgroundImage": "url("https://dummyimage.com/400x600/c0c0c0/fff")",
               "backgroundPosition": "center center",
               "backgroundSize": "cover",
               "height": "100%",
@@ -800,7 +800,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 300,
     }
   }
@@ -1094,7 +1094,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -1178,8 +1178,8 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
       >
         <div
           style={
-            Object {
-              "backgroundImage": "url(\\"https://dummyimage.com/400x600/c0c0c0/fff\\")",
+            {
+              "backgroundImage": "url("https://dummyimage.com/400x600/c0c0c0/fff")",
               "backgroundPosition": "center center",
               "backgroundSize": "cover",
               "height": "100%",

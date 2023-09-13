@@ -55,7 +55,7 @@ exports[`Storyshots Buttons/IconButton Clicked 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -158,7 +158,7 @@ exports[`Storyshots Buttons/IconButton Light 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -246,7 +246,7 @@ exports[`Storyshots Buttons/IconButton Naked 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -348,7 +348,7 @@ exports[`Storyshots Buttons/IconButton Primary 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -451,7 +451,7 @@ exports[`Storyshots Buttons/IconButton Primary Inverted 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }

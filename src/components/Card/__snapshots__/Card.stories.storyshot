@@ -386,7 +386,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -464,8 +464,8 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -495,7 +495,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }
@@ -509,7 +509,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "marginTop": "20px",
           }
         }
@@ -683,7 +683,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -701,8 +701,8 @@ exports[`Storyshots Cards/Card Default 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -726,7 +726,7 @@ exports[`Storyshots Cards/Card Default 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }
@@ -1190,8 +1190,8 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -1215,7 +1215,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }
@@ -1229,7 +1229,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "marginTop": "20px",
           }
         }
@@ -1440,7 +1440,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -1458,8 +1458,8 @@ exports[`Storyshots Cards/Card With Button 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -1483,7 +1483,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }
@@ -1497,7 +1497,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
       </div>
       <div
         style={
-          Object {
+          {
             "marginTop": "20px",
           }
         }
@@ -1676,7 +1676,7 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -1694,8 +1694,8 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -1719,7 +1719,7 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }
@@ -1937,7 +1937,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -1955,8 +1955,8 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -1986,7 +1986,7 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }
@@ -2307,7 +2307,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -2385,8 +2385,8 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
       >
         <div
           style={
-            Object {
-              "background": "url(\\"https://dummyimage.com/1920x1080/ccc/fff.png\\") center center",
+            {
+              "background": "url("https://dummyimage.com/1920x1080/ccc/fff.png") center center",
               "backgroundSize": "cover",
               "height": "100%",
               "width": "100%",
@@ -2410,7 +2410,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
         </h3>
         <div
           style={
-            Object {
+            {
               "marginTop": "20px",
             }
           }

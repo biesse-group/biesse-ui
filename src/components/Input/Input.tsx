@@ -39,10 +39,17 @@ export interface InputProps extends BaseProps {
    */
   type: React.InputHTMLAttributes<HTMLInputElement>["type"];
   /**
-   * Optional decoration elements
+   * Optional decoration element at the start of the input
    */
   startDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  /**
+   * Optional decoration element at the end of the input
+   */
   endDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  /**
+   * Whether the input has an error. It can be a `boolean` or a `string` with the error message.
+   */
+  error?: boolean | string;
 }
 
 const StyledInput = styled.input<Pick<InputProps, "shadow">>`
@@ -55,7 +62,9 @@ const StyledInput = styled.input<Pick<InputProps, "shadow">>`
   border: none;
 `;
 
-const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasFocus: boolean }>`
+type InputContainerProps = Pick<InputProps, "shadow" | "border" | "error"> & { hasFocus: boolean };
+
+const InputContainer = styled.div<InputContainerProps>`
   position: relative;
   width: 100%;
   border-radius: ${(props) => props.theme.input.borderRadius};
@@ -68,6 +77,16 @@ const InputContainer = styled.div<Pick<InputProps, "shadow" | "border"> & { hasF
     props.border &&
     css`
       border: 1px solid ${props.theme.input.borderColor};
+    `}
+
+  ${(props) =>
+    props.error &&
+    css`
+      border: 1px solid #ff0000;
+
+      > ${StyledInput} {
+        color: #ff0000;
+      }
     `}
 
   ${(props) =>
@@ -93,8 +112,6 @@ export const Input: FC<InputProps> = ({
   const [focus, setFocus] = useState(false);
   const [value, setValue] = useState(defaultValue);
 
-  const { shadow, border } = props;
-
   const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
     setValue(e.currentTarget.value);
     onChange?.(e);
@@ -106,10 +123,11 @@ export const Input: FC<InputProps> = ({
   };
 
   return (
-    <InputContainer hasFocus={focus} {...{ shadow, border, className, style }}>
+    <InputContainer hasFocus={focus} {...{ className, style }} {...props}>
       {typeof startDecoration === "function" ? startDecoration(decorationsProps) : startDecoration}
       <StyledInput
         {...props}
+        defaultValue={defaultValue}
         onFocus={() => setFocus(true)}
         onBlur={() => setFocus(false)}
         onChange={handleChange}
