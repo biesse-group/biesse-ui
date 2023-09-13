@@ -9,19 +9,16 @@ export interface InputDecorationProps {
   focus: boolean;
 }
 
-export interface InputProps extends BaseProps {
+type HTMLInputProps = Pick<
+  React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
+  "onFocus" | "onBlur" | "onChange" | "defaultValue" | "type" | "placeholder"
+>;
+
+export interface InputProps extends BaseProps, HTMLInputProps {
   /**
-   * Input placeholder shown when has no value
-   */
-  placeholder?: string;
-  /**
-   * Input current value
+   * Input default value
    */
   defaultValue?: string;
-  /**
-   * Input value change callback
-   */
-  onChange?: React.ChangeEventHandler<HTMLInputElement>;
   /**
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
@@ -34,10 +31,6 @@ export interface InputProps extends BaseProps {
    * Input Test ID
    */
   testId?: string;
-  /**
-   * Input type
-   */
-  type: React.InputHTMLAttributes<HTMLInputElement>["type"];
   /**
    * Optional decoration element at the start of the input
    */
@@ -52,7 +45,7 @@ export interface InputProps extends BaseProps {
   error?: boolean | string;
 }
 
-const StyledInput = styled.input<Pick<InputProps, "shadow">>`
+const StyledInput = styled.input<Pick<InputProps, "shadow"> & HTMLInputProps>`
   ${(props) => inputStyles(props.shadow)}
 
   &:active, &:focus {
@@ -82,10 +75,10 @@ const InputContainer = styled.div<InputContainerProps>`
   ${(props) =>
     props.error &&
     css`
-      border: 1px solid #ff0000;
+      border: 1px solid ${props.theme.color.error};
 
       > ${StyledInput} {
-        color: #ff0000;
+        color: ${props.theme.color.error};
       }
     `}
 
@@ -112,11 +105,6 @@ export const Input: FC<InputProps> = ({
   const [focus, setFocus] = useState(false);
   const [value, setValue] = useState(defaultValue);
 
-  const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
-    setValue(e.currentTarget.value);
-    onChange?.(e);
-  };
-
   const decorationsProps: InputDecorationProps = {
     value,
     focus,
@@ -128,9 +116,18 @@ export const Input: FC<InputProps> = ({
       <StyledInput
         {...props}
         defaultValue={defaultValue}
-        onFocus={() => setFocus(true)}
-        onBlur={() => setFocus(false)}
-        onChange={handleChange}
+        onFocus={(e) => {
+          setFocus(true);
+          props.onFocus?.(e);
+        }}
+        onBlur={(e) => {
+          setFocus(false);
+          props.onBlur?.(e);
+        }}
+        onChange={(e) => {
+          setValue(e.currentTarget.value);
+          onChange?.(e);
+        }}
         data-testid={testId}
       />
       {typeof endDecoration === "function" ? endDecoration(decorationsProps) : endDecoration}

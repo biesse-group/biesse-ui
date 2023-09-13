@@ -47,6 +47,7 @@ export const hsdTheme: DefaultTheme = {
     lightGray: "#F5F5F5",
     darkGray: "252525",
     gray: "#A2A2A2",
+    error: "#FF0000",
 
     material: {
       wood: "#F9942E",

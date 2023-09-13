@@ -62,6 +62,7 @@ export interface BiesseTheme {
     lightGray: string;
     darkGray: string;
     gray: string;
+    error: string;
 
     material: {
       wood: string;
