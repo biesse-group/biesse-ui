@@ -20,6 +20,7 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
+  height: 100%;
   border: none;
 }
 
@@ -67,8 +68,10 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
+  border: 2px solid transparent;
 }
 
 <div
@@ -137,6 +140,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
+  height: 100%;
   border: none;
 }
 
@@ -184,8 +188,10 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
+  border: 2px solid transparent;
 }
 
 .c4 {
@@ -274,6 +280,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   transition: all 0.2s ease-out;
   width: 100%;
   border: 1px solid #C4C4C4;
+  height: 100%;
   border: none;
 }
 
@@ -321,6 +328,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
   border: 1px solid #C4C4C4;
@@ -392,6 +400,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
+  height: 100%;
   border: none;
 }
 
@@ -439,8 +448,10 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
+  border: 2px solid transparent;
 }
 
 <div
@@ -529,6 +540,7 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
+  height: 100%;
   border: none;
 }
 
@@ -576,9 +588,11 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
-  border: 3px solid #FF0000;
+  border: 2px solid transparent;
+  border: 2px solid #FF0000;
 }
 
 .c1 > .c2 {
@@ -651,6 +665,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   width: 100%;
+  height: 100%;
   border: none;
 }
 
@@ -698,8 +713,10 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
   -ms-flex-align: center;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   -webkit-transition: box-shadow 0.2s ease-out;
   transition: box-shadow 0.2s ease-out;
+  border: 2px solid transparent;
 }
 
 <div

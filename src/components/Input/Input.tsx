@@ -48,7 +48,10 @@ export interface InputProps extends BaseProps, HTMLInputProps {
 const StyledInput = styled.input<Pick<InputProps, "shadow"> & HTMLInputProps>`
   ${(props) => inputStyles(props.shadow)}
 
-  &:active, &:focus {
+  height: 100%;
+
+  &:active,
+  &:focus {
     box-shadow: none;
   }
 
@@ -65,31 +68,30 @@ const InputContainer = styled.div<InputContainerProps>`
   display: flex;
   align-items: center;
   padding-right: 4px;
+  height: 45px;
   transition: box-shadow 0.2s ease-out;
-  ${(props) =>
-    props.border &&
-    css`
-      border: 1px solid ${props.theme.input.borderColor};
-    `}
+  border: ${(props) =>
+    props.border ? `1px solid ${props.theme.input.borderColor}` : "2px solid transparent"};
 
   ${(props) =>
     props.error &&
     css`
-      border: 3px solid ${props.theme.color.error};
+      border: ${props.border ? "1px" : "2px"} solid ${props.theme.color.error};
 
       > ${StyledInput} {
         color: ${props.theme.color.error};
       }
     `}
-
   ${(props) =>
     props.hasFocus &&
     css`
       box-shadow: 0 0 10px
-        ${props.shadow === "dark"
+        ${props.error
+          ? props.theme.color.error
+          : props.shadow === "dark"
           ? props.theme.input.boxShadow.dark
           : props.theme.input.boxShadow.light};
-    `}
+    `};
 `;
 
 export const Input: FC<InputProps> = ({
