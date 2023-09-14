@@ -19,6 +19,9 @@ export default {
     onChange: {
       control: false,
     },
+    error: {
+      type: "boolean",
+    },
   },
   decorators: [
     (Story, { args }) => (
