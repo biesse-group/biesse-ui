@@ -48,7 +48,7 @@ const ControlsContainer = styled.div<Pick<MenuPanelProps, "variant">>`
     }};
 
   ${mqUntil(
-    "xl",
+    "xxl",
     css`
       padding-left: 30px;
     `
@@ -76,7 +76,7 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
     }};
 
   ${mqUntil(
-    "xl",
+    "xxl",
     css`
       padding: 0 30px;
     `
@@ -89,7 +89,7 @@ const MenuTitle = styled(Text)<Pick<MenuPanelProps, "variant">>`
   margin-bottom: 15px;
 
   ${mqUntil(
-    "xl",
+    "xxl",
     css`
       padding: 0 30px;
     `
