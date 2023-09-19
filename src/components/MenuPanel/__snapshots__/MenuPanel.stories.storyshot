@@ -238,7 +238,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c11 {
     font-size: 32px;
     padding-left: 30px;
@@ -246,7 +246,23 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   }
 }
 
+@media screen and (max-width:1399px) {
+  .c11 {
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1199px) {
+  .c11 {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c11 {
     font-size: 30px;
     padding-left: 30px;
@@ -254,19 +270,19 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c1 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c4 {
     padding: 0 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c9 {
     padding: 0 30px;
   }
@@ -687,9 +703,17 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c10 {
     font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c10 {
+    font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -703,9 +727,25 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:991px) {
+  .c10 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1599px) {
   .c14 {
     font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1399px) {
+  .c14 {
+    font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -719,13 +759,21 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:991px) {
+  .c14 {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1599px) {
   .c2 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c5 {
     padding: 0 30px;
   }
@@ -1273,7 +1321,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c9 {
     font-size: 18px;
     padding-left: 30px;
@@ -1281,7 +1329,23 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   }
 }
 
+@media screen and (max-width:1399px) {
+  .c9 {
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1199px) {
+  .c9 {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c9 {
     font-size: 16px;
     padding-left: 30px;
@@ -1289,19 +1353,19 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c1 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c4 {
     padding: 0 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c7 {
     padding: 0 30px;
   }
@@ -1926,7 +1990,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c11 {
     font-size: 32px;
     padding-left: 30px;
@@ -1934,7 +1998,23 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   }
 }
 
+@media screen and (max-width:1399px) {
+  .c11 {
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1199px) {
+  .c11 {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c11 {
     font-size: 30px;
     padding-left: 30px;
@@ -1942,19 +2022,19 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c1 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c4 {
     padding: 0 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c9 {
     padding: 0 30px;
   }
@@ -2372,7 +2452,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c9 {
     font-size: 26px;
     padding-left: 30px;
@@ -2380,7 +2460,23 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   }
 }
 
+@media screen and (max-width:1399px) {
+  .c9 {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1199px) {
+  .c9 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c9 {
     font-size: 24px;
     padding-left: 30px;
@@ -2388,19 +2484,19 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c1 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c4 {
     padding: 0 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c7 {
     padding: 0 30px;
   }
@@ -2832,7 +2928,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c8 {
     font-size: 20px;
     padding-left: 30px;
@@ -2840,7 +2936,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   }
 }
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1399px) {
   .c8 {
     font-size: 18px;
     padding-left: 30px;
@@ -2848,13 +2944,29 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1199px) {
+  .c8 {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .c8 {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:1599px) {
   .c2 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c6 {
     padding: 0 30px;
   }
@@ -3178,7 +3290,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c11 {
     font-size: 32px;
     padding-left: 30px;
@@ -3186,7 +3298,23 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   }
 }
 
+@media screen and (max-width:1399px) {
+  .c11 {
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 @media screen and (max-width:1199px) {
+  .c11 {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width:991px) {
   .c11 {
     font-size: 30px;
     padding-left: 30px;
@@ -3194,19 +3322,19 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c1 {
     padding-left: 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c4 {
     padding: 0 30px;
   }
 }
 
-@media screen and (max-width:1399px) {
+@media screen and (max-width:1599px) {
   .c9 {
     padding: 0 30px;
   }
