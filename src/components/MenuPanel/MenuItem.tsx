@@ -67,7 +67,7 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
 
   ${({ variant, small }) =>
     mqUntil(
-      "xl",
+      "xxl",
       css`
         font-size: ${() => {
           switch (variant) {
@@ -91,7 +91,55 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
 
   ${({ variant, small }) =>
     mqUntil(
+      "xl",
+      css`
+        font-size: ${() => {
+          switch (variant) {
+            case "primary":
+              return "28px";
+            case "secondary":
+              return "22px";
+            case "light":
+              return "14px";
+            case "white":
+              return "18px";
+            case "dark":
+              return small ? "16px" : "18px";
+          }
+        }};
+
+        padding-left: 30px;
+        padding-right: 30px;
+      `
+    )}
+
+  ${({ variant, small }) =>
+    mqUntil(
       "lg",
+      css`
+        font-size: ${() => {
+          switch (variant) {
+            case "primary":
+              return "24px";
+            case "secondary":
+              return "18px";
+            case "light":
+              return "12px";
+            case "white":
+              return "16px";
+            case "dark":
+              return small ? "16px" : "18px";
+          }
+        }};
+
+        padding-left: 30px;
+        padding-right: 30px;
+      `
+    )}
+
+${({ variant, small }) =>
+    mqUntil(
+      "md",
       css`
         font-size: ${() => {
           switch (variant) {
