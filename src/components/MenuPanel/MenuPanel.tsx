@@ -39,7 +39,7 @@ const ControlsContainer = styled.div<Pick<MenuPanelProps, "variant">>`
     ${(props) => {
       switch (props.variant) {
         case "primary":
-          return "70px";
+          return "65px";
         case "dark":
           return "30px";
         default:
@@ -67,7 +67,7 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
     ${(props) => {
       switch (props.variant) {
         case "primary":
-          return "70px";
+          return "65px";
         case "dark":
           return "30px";
         default:
@@ -85,7 +85,7 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
 
 const MenuTitle = styled(Text)<Pick<MenuPanelProps, "variant">>`
   text-transform: uppercase;
-  padding: 0 ${(props) => (props.variant === "primary" ? "70px" : "60px")};
+  padding: 0 ${(props) => (props.variant === "primary" ? "65px" : "60px")};
   margin-bottom: 15px;
 
   ${mqUntil(

@@ -32,7 +32,7 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
   padding: ${(props) => {
     switch (props.variant) {
       case "primary":
-        return "35px 70px";
+        return "35px 65px";
       case "secondary":
         return "30px 60px";
       case "white":
