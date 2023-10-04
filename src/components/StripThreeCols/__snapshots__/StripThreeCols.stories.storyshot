@@ -114,7 +114,7 @@ exports[`Storyshots Layout/StripThreeCols Equal Size Items 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -127,7 +127,7 @@ exports[`Storyshots Layout/StripThreeCols Equal Size Items 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }
@@ -256,7 +256,7 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -269,7 +269,7 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }
@@ -398,7 +398,7 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large Two Items 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -526,7 +526,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -539,7 +539,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }
@@ -668,7 +668,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -681,7 +681,7 @@ exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }
@@ -926,7 +926,7 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -939,7 +939,7 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }
@@ -1068,7 +1068,7 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large Two Items 1`] = 
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -1190,7 +1190,7 @@ exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -1203,7 +1203,7 @@ exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }
@@ -1332,7 +1332,7 @@ exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary1",
         }
       }
@@ -1345,7 +1345,7 @@ exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
     </div>
     <div
       style={
-        {
+        Object {
           "gridArea": "secondary2",
         }
       }

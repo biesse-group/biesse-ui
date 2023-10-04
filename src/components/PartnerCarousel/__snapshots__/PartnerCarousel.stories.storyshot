@@ -226,7 +226,7 @@ exports[`Storyshots Slideshow/PartnerCarousel Default 1`] = `
         className="c6"
         draggable={false}
         style={
-          {
+          Object {
             "WebkitTouchCallout": "none",
             "WebkitUserSelect": "none",
             "touchAction": "pan-y",

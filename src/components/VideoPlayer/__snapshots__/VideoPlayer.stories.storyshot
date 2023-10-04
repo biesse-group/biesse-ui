@@ -59,7 +59,7 @@ exports[`Storyshots Media/VideoPlayer Auto Play 1`] = `
 
 <div
   style={
-    {
+    Object {
       "maxWidth": 500,
     }
   }
@@ -213,7 +213,7 @@ exports[`Storyshots Media/VideoPlayer Default 1`] = `
 
 <div
   style={
-    {
+    Object {
       "maxWidth": 500,
     }
   }
@@ -250,7 +250,7 @@ exports[`Storyshots Media/VideoPlayer Default 1`] = `
         data-testid="play-button"
         onClick={[Function]}
         style={
-          {
+          Object {
             "opacity": 0,
           }
         }

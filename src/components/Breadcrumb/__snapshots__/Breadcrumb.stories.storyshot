@@ -149,7 +149,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
     <span
       className="c2 c3"
       style={
-        {
+        Object {
           "textTransform": "uppercase",
         }
       }
@@ -184,7 +184,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
     <span
       className="c2 c3"
       style={
-        {
+        Object {
           "textTransform": "uppercase",
         }
       }
@@ -219,7 +219,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
     <span
       className="c2 c3"
       style={
-        {
+        Object {
           "textTransform": "uppercase",
         }
       }
@@ -250,7 +250,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   <span
     className="c6 c3"
     style={
-      {
+      Object {
         "textTransform": "uppercase",
       }
     }
@@ -409,7 +409,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": "100%",
       }
     }
@@ -424,7 +424,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -459,7 +459,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -494,7 +494,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -525,7 +525,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       <span
         className="c7 c4"
         style={
-          {
+          Object {
             "textTransform": "uppercase",
           }
         }
@@ -686,7 +686,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": "100%",
       }
     }
@@ -701,7 +701,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -736,7 +736,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -771,7 +771,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -802,7 +802,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       <span
         className="c7 c4"
         style={
-          {
+          Object {
             "textTransform": "uppercase",
           }
         }
@@ -963,7 +963,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": "380px",
       }
     }
@@ -978,7 +978,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -1013,7 +1013,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -1048,7 +1048,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
         <span
           className="c3 c4"
           style={
-            {
+            Object {
               "textTransform": "uppercase",
             }
           }
@@ -1079,7 +1079,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       <span
         className="c7 c4"
         style={
-          {
+          Object {
             "textTransform": "uppercase",
           }
         }

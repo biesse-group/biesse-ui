@@ -600,7 +600,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
           alt="product"
           src="/assets/product-carousel-2.png"
           style={
-            {
+            Object {
               "maxHeight": "100%",
               "maxWidth": "100%",
             }

@@ -77,14 +77,8 @@ export const Filled: Story = {
   args: {
     ...DarkBackground.args,
     testId: "input",
-    endDecoration: ({ value }) => (
-      <StyledSubmitIcon
-        data-testId="submit"
-        color="primary"
-        name="chevron-right"
-        size="24px"
-        onClick={() => alert(`value is: "${value}"`)}
-      />
+    endDecoration: (
+      <StyledSubmitIcon data-testId="submit" color="primary" name="chevron-right" size="24px" />
     ),
   },
   play: async ({ canvasElement }) => {

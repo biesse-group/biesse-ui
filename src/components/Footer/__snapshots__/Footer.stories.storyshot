@@ -826,7 +826,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
         >
           <div
             style={
-              {
+              Object {
                 "display": "flex",
                 "flexDirection": "column",
               }
@@ -873,7 +873,7 @@ exports[`Storyshots Layout/Footer Default 1`] = `
         >
           <div
             style={
-              {
+              Object {
                 "display": "flex",
                 "flexDirection": "column",
               }

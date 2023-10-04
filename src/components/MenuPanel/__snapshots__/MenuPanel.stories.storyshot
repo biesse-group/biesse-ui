@@ -300,7 +300,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
       className="c2"
       onClick={[Function]}
       style={
-        {
+        Object {
           "marginLeft": "auto",
         }
       }
@@ -784,7 +784,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": 300,
       }
     }
@@ -801,7 +801,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
           className="c3"
           onClick={[Function]}
           style={
-            {
+            Object {
               "marginLeft": "auto",
             }
           }
@@ -1383,7 +1383,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
       className="c2"
       onClick={[Function]}
       style={
-        {
+        Object {
           "marginLeft": "auto",
         }
       }
@@ -2052,7 +2052,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
       className="c2"
       onClick={[Function]}
       style={
-        {
+        Object {
           "marginLeft": "auto",
         }
       }
@@ -2514,7 +2514,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
       className="c2"
       onClick={[Function]}
       style={
-        {
+        Object {
           "marginLeft": "auto",
         }
       }
@@ -2977,7 +2977,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": 300,
       }
     }
@@ -2994,7 +2994,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
           className="c3"
           onClick={[Function]}
           style={
-            {
+            Object {
               "marginLeft": "auto",
             }
           }
@@ -3391,7 +3391,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
       className="c2"
       onClick={[Function]}
       style={
-        {
+        Object {
           "marginLeft": "auto",
         }
       }

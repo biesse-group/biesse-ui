@@ -93,7 +93,7 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": 300,
       }
     }
@@ -254,7 +254,7 @@ exports[`Storyshots Inputs/Select Disabled 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": 300,
       }
     }
@@ -417,7 +417,7 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": 300,
       }
     }
@@ -578,7 +578,7 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
 >
   <div
     style={
-      {
+      Object {
         "maxWidth": 300,
       }
     }

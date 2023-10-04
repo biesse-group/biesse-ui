@@ -362,7 +362,7 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
           data-testid="play-button"
           onClick={[Function]}
           style={
-            {
+            Object {
               "opacity": 0,
             }
           }
