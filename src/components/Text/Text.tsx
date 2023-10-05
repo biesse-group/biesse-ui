@@ -15,9 +15,9 @@ export interface TextProps extends BaseProps {
    */
   weight?: keyof BiesseTheme["font"]["weight"];
   /**
-   * Font size, should be one of `default` (inherit), `primary`, `light`, `dark`, 'gray'
+   * Font color, should be one of `default` (inherit), `primary`, `light`, `dark`, 'gray', 'error'
    */
-  color?: "default" | "primary" | "light" | "dark" | "gray";
+  color?: "default" | "primary" | "light" | "dark" | "gray" | "error";
   /**
    * Use italic font style
    */
@@ -47,6 +47,8 @@ const getColor = (color?: TextProps["color"]) => css`
         return props.theme.color.black;
       case "gray":
         return props.theme.color.gray;
+      case "error":
+        return props.theme.color.error;
       default:
         return "inherit";
     }

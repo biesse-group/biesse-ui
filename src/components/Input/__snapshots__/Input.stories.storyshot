@@ -90,9 +90,7 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
     >
       <input
         className="c2"
-        defaultValue=""
         onBlur={[Function]}
-        onChange={[Function]}
         onFocus={[Function]}
         placeholder="Name"
       />
@@ -219,9 +217,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
       <input
         className="c2"
         data-testid="input"
-        defaultValue=""
         onBlur={[Function]}
-        onChange={[Function]}
         onFocus={[Function]}
         placeholder="Name"
       />
@@ -229,7 +225,6 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
         className="c3 c4"
         color="primary"
         data-testId="submit"
-        onClick={[Function]}
         size="24px"
       >
         <svg
@@ -350,9 +345,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
     >
       <input
         className="c2"
-        defaultValue=""
         onBlur={[Function]}
-        onChange={[Function]}
         onFocus={[Function]}
         placeholder="Name"
       />
@@ -470,9 +463,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
     >
       <input
         className="c2"
-        defaultValue=""
         onBlur={[Function]}
-        onChange={[Function]}
         onFocus={[Function]}
         placeholder="Cosa cerchi?"
       />
@@ -611,13 +602,13 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
   >
     <div
       className="c1"
+      defaultValue="An invalid value"
       placeholder="Name"
     >
       <input
         className="c2 c3"
         defaultValue="An invalid value"
         onBlur={[Function]}
-        onChange={[Function]}
         onFocus={[Function]}
         placeholder="Name"
       />
@@ -767,9 +758,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
       </span>
       <input
         className="c3"
-        defaultValue=""
         onBlur={[Function]}
-        onChange={[Function]}
         onFocus={[Function]}
         placeholder="Name"
       />

@@ -33,6 +33,15 @@ export const Default: Story = {
   },
 };
 
+export const Error: Story = {
+  args: {
+    testId: "checkbox",
+    label: "Checkbox",
+    inputId: "checkbox-test",
+    error: true,
+  },
+};
+
 export const Clicked: Story = {
   ...Default,
   play: async ({ canvasElement }) => {

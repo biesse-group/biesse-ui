@@ -1,24 +1,15 @@
-import { type FC, useState } from "react";
+import { type DetailedHTMLProps, forwardRef, type InputHTMLAttributes, useState } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
 import { inputStyles } from "~styles/input-styles";
 
-export interface InputDecorationProps {
-  value: string;
-  focus: boolean;
-}
-
-type HTMLInputProps = Pick<
-  React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
-  "onFocus" | "onBlur" | "onChange" | "defaultValue" | "type" | "placeholder"
+type HTMLInputProps = Omit<
+  DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>,
+  "ref"
 >;
 
 export interface InputProps extends BaseProps, HTMLInputProps {
-  /**
-   * Input default value
-   */
-  defaultValue?: string;
   /**
    * Whether to show a dark or light shadow on focus/active state (default is `dark`)
    */
@@ -34,11 +25,11 @@ export interface InputProps extends BaseProps, HTMLInputProps {
   /**
    * Optional decoration element at the start of the input
    */
-  startDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  startDecoration?: JSX.Element;
   /**
    * Optional decoration element at the end of the input
    */
-  endDecoration?: JSX.Element | ((props: InputDecorationProps) => JSX.Element);
+  endDecoration?: JSX.Element;
   /**
    * Whether the input has an error. It can be a `boolean` or a `string` with the error message.
    */
@@ -94,45 +85,28 @@ const InputContainer = styled.div<InputContainerProps>`
     `};
 `;
 
-export const Input: FC<InputProps> = ({
-  testId,
-  defaultValue = "",
-  onChange,
-  className,
-  style,
-  startDecoration,
-  endDecoration,
-  ...props
-}) => {
-  const [focus, setFocus] = useState(false);
-  const [value, setValue] = useState(defaultValue);
+export const Input = forwardRef<HTMLInputElement, InputProps>(
+  ({ testId, className, style, startDecoration, endDecoration, ...props }, ref) => {
+    const [focus, setFocus] = useState(false);
 
-  const decorationsProps: InputDecorationProps = {
-    value,
-    focus,
-  };
-
-  return (
-    <InputContainer hasFocus={focus} {...{ className, style }} {...props}>
-      {typeof startDecoration === "function" ? startDecoration(decorationsProps) : startDecoration}
-      <StyledInput
-        {...props}
-        defaultValue={defaultValue}
-        onFocus={(e) => {
-          setFocus(true);
-          props.onFocus?.(e);
-        }}
-        onBlur={(e) => {
-          setFocus(false);
-          props.onBlur?.(e);
-        }}
-        onChange={(e) => {
-          setValue(e.currentTarget.value);
-          onChange?.(e);
-        }}
-        data-testid={testId}
-      />
-      {typeof endDecoration === "function" ? endDecoration(decorationsProps) : endDecoration}
-    </InputContainer>
-  );
-};
+    return (
+      <InputContainer hasFocus={focus} {...{ className, style }} {...props}>
+        {startDecoration}
+        <StyledInput
+          {...props}
+          ref={ref}
+          onFocus={(e) => {
+            setFocus(true);
+            props.onFocus?.(e);
+          }}
+          onBlur={(e) => {
+            setFocus(false);
+            props.onBlur?.(e);
+          }}
+          data-testid={testId}
+        />
+        {endDecoration}
+      </InputContainer>
+    );
+  }
+);
