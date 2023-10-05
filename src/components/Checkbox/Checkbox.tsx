@@ -19,6 +19,10 @@ export interface CheckboxProps extends BaseProps {
   onChange?: (value: boolean) => void;
   inputId: string;
   testId?: string;
+  /**
+   * Whether the select has an error. It can be a `boolean` or a `string` with the error message.
+   */
+  error?: boolean | string;
 }
 
 const Root = styled.div`
@@ -27,7 +31,7 @@ const Root = styled.div`
   align-items: center;
 `;
 
-const StyledCheckbox = styled.div<{ checked: boolean }>`
+const StyledCheckbox = styled.div<{ checked: boolean; error: boolean }>`
   position: relative;
   margin-right: 20px;
   display: flex;
@@ -37,7 +41,7 @@ const StyledCheckbox = styled.div<{ checked: boolean }>`
   width: 30px;
   color: ${({ checked, theme }) => (checked ? theme.color.white : "transparent")};
   background-color: ${({ theme }) => theme.input.checkbox.backgroundColor};
-  border: 1px solid ${({ theme }) => theme.color.white};
+  border: 2px solid ${({ theme, error }) => (error ? theme.color.error : theme.color.white)};
   font-size: 25px;
   user-select: none;
   flex: none;
@@ -53,6 +57,7 @@ export const Checkbox: FC<CheckboxProps> = ({
   onChange,
   label,
   inputId,
+  error,
   ...props
 }) => {
   const [isChecked, setIsChecked] = useState(value);
@@ -75,7 +80,7 @@ export const Checkbox: FC<CheckboxProps> = ({
         onChange={(e) => onInputChange(e.target.checked)}
         checked={isChecked}
       />
-      <StyledCheckbox checked={isChecked}>
+      <StyledCheckbox checked={isChecked} error={Boolean(error)}>
         <label htmlFor={inputId} data-testid={testId} style={{ cursor: "pointer" }}>
           ✓
         </label>
