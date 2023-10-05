@@ -323,6 +323,171 @@ exports[`Storyshots Inputs/Select Disabled 1`] = `
 </div>
 `;
 
+exports[`Storyshots Inputs/Select Error 1`] = `
+.c0 {
+  padding: 1rem;
+  background-color: #6D6E70;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 20px;
+  width: 20px;
+  -webkit-flex: 0 0 20px;
+  -ms-flex: 0 0 20px;
+  flex: 0 0 20px;
+  color: inherit;
+}
+
+.c4 > svg {
+  height: 100%;
+  width: 100%;
+  color: inherit;
+}
+
+.c1 {
+  position: relative;
+  width: 100%;
+  color: #6D6E70;
+}
+
+.c1 > .c2 {
+  border: 2px solid #FF0000;
+}
+
+.c3 {
+  background-color: #FFF;
+  color: #252525;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  border-radius: 25px;
+  padding: 0 20px;
+  height: 45px;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 48px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.c3:focus,
+.c3:active {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.c3::-webkit-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3::-moz-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3:-ms-input-placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c3::placeholder {
+  color: #252525;
+  font-style: italic;
+}
+
+.c5 {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  pointer-events: none;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+<div
+  className="c0"
+>
+  <div
+    style={
+      Object {
+        "maxWidth": 300,
+      }
+    }
+  >
+    <div
+      className="c1"
+    >
+      <select
+        aria-label="Example select"
+        className="c2 c3"
+        onChange={[Function]}
+        selected={false}
+        value=""
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Select something
+        </option>
+        <option
+          value="1"
+        >
+          Option 1
+        </option>
+        <option
+          value="2"
+        >
+          Option 2
+        </option>
+        <option
+          value="3"
+        >
+          Option 3
+        </option>
+      </select>
+      <span
+        className="c4 c5"
+        size="20px"
+      >
+        <svg
+          viewBox="0 0 50 50"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path
+              d="M0 0h25.722v48H0z"
+            />
+          </defs>
+          <g
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(12 1)"
+          >
+            <path
+              d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Inputs/Select Light Background 1`] = `
 .c0 {
   padding: 1rem;

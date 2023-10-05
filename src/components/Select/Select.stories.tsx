@@ -84,6 +84,13 @@ export const LightBackground: Story = {
   },
 };
 
+export const Error: Story = {
+  args: {
+    ...DarkBackground.args,
+    error: "Something bad happened",
+  },
+};
+
 export const Selected: Story = {
   args: {
     ...DarkBackground.args,

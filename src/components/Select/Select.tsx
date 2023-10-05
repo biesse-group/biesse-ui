@@ -36,12 +36,25 @@ export interface SelectProps extends BaseProps {
    */
   "aria-label": string;
   testId?: string;
+  /**
+   * Whether the select has an error. It can be a `boolean` or a `string` with the error message.
+   */
+  error?: boolean | string;
 }
 
-const SelectContainer = styled.div`
+type SelectContainerProps = Pick<SelectProps, "error">;
+
+const SelectContainer = styled.div<SelectContainerProps>`
   position: relative;
   width: 100%;
   color: ${(props) => props.theme.color.primary};
+  ${(props) =>
+    props.error &&
+    css`
+      > ${StyledSelect} {
+        border: 2px solid ${props.theme.color.error};
+      }
+    `}
 `;
 
 const StyledSelect = styled.select<
@@ -79,6 +92,7 @@ export const Select: FC<SelectProps> = ({
   testId,
   className,
   style,
+  error,
   ...props
 }) => {
   const [selected, setSelected] = useState(!!value);
@@ -89,7 +103,7 @@ export const Select: FC<SelectProps> = ({
   };
 
   return (
-    <SelectContainer {...{ className, style }}>
+    <SelectContainer {...{ className, style, error }}>
       <StyledSelect
         selected={selected}
         onChange={(e) => handleChange(e.currentTarget.value)}
