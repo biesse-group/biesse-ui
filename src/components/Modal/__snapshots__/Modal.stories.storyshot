@@ -40,7 +40,7 @@ exports[`Storyshots Dialogs/Modal Default 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }
@@ -95,7 +95,7 @@ exports[`Storyshots Dialogs/Modal With Video 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 500,
     }
   }

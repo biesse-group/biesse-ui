@@ -19,7 +19,7 @@ exports[`Storyshots Display/Logo Primary 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -98,7 +98,7 @@ exports[`Storyshots Display/Logo White 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }

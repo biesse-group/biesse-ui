@@ -327,7 +327,7 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -823,7 +823,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -903,7 +903,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
       </h3>
       <div
         style={
-          Object {
+          {
             "marginBottom": 20,
           }
         }
@@ -1355,7 +1355,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -1435,7 +1435,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
       </h3>
       <div
         style={
-          Object {
+          {
             "marginBottom": 20,
           }
         }
@@ -1644,7 +1644,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -1664,7 +1664,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
       </h3>
       <div
         style={
-          Object {
+          {
             "marginBottom": 10,
           }
         }
@@ -2096,7 +2096,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 <div
   style={
-    Object {
+    {
       "maxWidth": 600,
     }
   }
@@ -2176,7 +2176,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
       </h3>
       <div
         style={
-          Object {
+          {
             "marginBottom": 20,
           }
         }

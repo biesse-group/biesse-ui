@@ -493,7 +493,7 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
       <span
         className="c3 c4"
         style={
-          Object {
+          {
             "textTransform": "uppercase",
           }
         }
@@ -523,7 +523,7 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
       <span
         className="c7 c4"
         style={
-          Object {
+          {
             "textTransform": "uppercase",
           }
         }

@@ -79,7 +79,7 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -205,7 +205,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -334,7 +334,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -452,7 +452,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -472,7 +472,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
         color="primary"
         size="24px"
         style={
-          Object {
+          {
             "marginRight": 20,
           }
         }
@@ -595,7 +595,7 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -715,7 +715,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": 300,
       }
     }
@@ -729,7 +729,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
         color="primary"
         size="xs"
         style={
-          Object {
+          {
             "marginLeft": 20,
           }
         }

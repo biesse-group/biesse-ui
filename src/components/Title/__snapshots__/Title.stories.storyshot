@@ -32,7 +32,7 @@ exports[`Storyshots Typography/Title Light 1`] = `
 >
   <div
     style={
-      Object {
+      {
         "maxWidth": "100%",
       }
     }
