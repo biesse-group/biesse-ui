@@ -848,7 +848,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
       <span
         className="c2 c3"
       >
-        02
+        10
       </span>
       <span
         className="c4"
@@ -1380,7 +1380,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
       <span
         className="c2 c3"
       >
-        02
+        10
       </span>
       <span
         className="c4"
@@ -2121,7 +2121,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
       <span
         className="c2 c3"
       >
-        02
+        10
       </span>
       <span
         className="c4"

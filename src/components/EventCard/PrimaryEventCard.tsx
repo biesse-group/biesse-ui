@@ -130,7 +130,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
         </Text>
         {uniqueDates.length > 1 && endDate && (
           <>
-            <DateDay weight="bold">{`${endDate.format("MM")}`}</DateDay>
+            <DateDay weight="bold">{`${endDate.format("DD")}`}</DateDay>
             <Text size="md" weight="medium">
               {`${endDate.format("MMMYY")}`.toUpperCase()}
             </Text>
