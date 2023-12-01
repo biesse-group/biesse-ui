@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow/VideoBanner Default smoke-test 1`] = `
+<div class="sc-cPiKLX fMKGGq">
+  <h2 color="light"
+      class="sc-fqkvVR CjdRr sc-dLMFU eKAkiA"
+  >
+    La Produzione
+  </h2>
+  <h3 color="light"
+      class="sc-dcJsrY jXnIcz sc-eDPEul hhAWqL"
+  >
+    Efficienza e competenza
+  </h3>
+  <div class="sc-eldPxv dbbjyV">
+    <span color="light"
+          class="sc-aXZVg iNRYrT"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    </span>
+  </div>
+  <div class="sc-fPXMVe bgyMQ">
+    <div data-testid="video-player"
+         class="sc-dAlyuH fFVMqb"
+    >
+      <div data-testid="pause-action"
+           class="sc-cwHptR liChQr"
+      >
+      </div>
+      <video playsinline
+             loop
+             class="sc-jEACwC hOLJHS"
+      >
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                type="video/mp4"
+        >
+        Your browser does not support HTML video.
+      </video>
+      <div class="sc-jlZhew ejMJrq">
+        <div data-testid="play-button"
+             class="sc-jXbUNg fYZHhi"
+             style="opacity: 0;"
+        >
+          <div class="sc-dhKdcB ddOoqj">
+          </div>
+          <span color="white"
+                class="sc-imWYAI leyXVH sc-kpDqfm gwGhWn"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m12.267 48.996 25.929-23.597L12.266.379v48.617Z"
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    fill-rule="evenodd"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+              >
+              </path>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -7,7 +7,7 @@ import { BackgroundDecorator } from "~stories/decorators";
 
 import { Input } from "./Input";
 
-export default {
+const meta: Meta<typeof Input> = {
   title: "Inputs/Input",
   component: Input,
   tags: ["autodocs"],
@@ -30,7 +30,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as Meta<typeof Input>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Input>;
 

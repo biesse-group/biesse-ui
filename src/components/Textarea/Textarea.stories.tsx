@@ -5,7 +5,7 @@ import { BackgroundDecorator } from "~stories/decorators";
 
 import { Textarea } from "./Textarea";
 
-export default {
+const meta: Meta<typeof Textarea> = {
   title: "Inputs/Textarea",
   component: Textarea,
   tags: ["autodocs"],
@@ -27,7 +27,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as Meta<typeof Textarea>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Textarea>;
 

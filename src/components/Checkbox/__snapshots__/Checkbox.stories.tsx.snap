@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inputs/Checkbox Clicked play-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 100%;">
+    <div class="sc-fqkvVR fmCqEq">
+      <input id="checkbox-test"
+             type="checkbox"
+             class="sc-iGgWBj kIezSj"
+      >
+      <div class="sc-dcJsrY lmhxbK">
+        <label for="checkbox-test"
+               data-testid="checkbox"
+               style="cursor: pointer;"
+        >
+          ✓
+        </label>
+      </div>
+      <label for="checkbox-test">
+        <span color="light"
+              class="sc-gEvEer fRxEcT"
+        >
+          Checkbox
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Inputs/Checkbox Default smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 100%;">
+    <div class="sc-fqkvVR fmCqEq">
+      <input id="checkbox-test"
+             type="checkbox"
+             class="sc-iGgWBj kIezSj"
+      >
+      <div class="sc-dcJsrY djhgzx">
+        <label for="checkbox-test"
+               data-testid="checkbox"
+               style="cursor: pointer;"
+        >
+          ✓
+        </label>
+      </div>
+      <label for="checkbox-test">
+        <span color="light"
+              class="sc-gEvEer fRxEcT"
+        >
+          Checkbox
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Inputs/Checkbox Error smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 100%;">
+    <div class="sc-fqkvVR fmCqEq">
+      <input id="checkbox-test"
+             type="checkbox"
+             class="sc-iGgWBj kIezSj"
+      >
+      <div class="sc-dcJsrY fOEhKT">
+        <label for="checkbox-test"
+               data-testid="checkbox"
+               style="cursor: pointer;"
+        >
+          ✓
+        </label>
+      </div>
+      <label for="checkbox-test">
+        <span color="light"
+              class="sc-gEvEer fRxEcT"
+        >
+          Checkbox
+        </span>
+      </label>
+    </div>
+  </div>
+</div>
+`;

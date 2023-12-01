@@ -5,7 +5,7 @@ import { Text } from "~components/Text";
 
 import { Footer } from "./Footer";
 
-export default {
+const meta: Meta<typeof Footer> = {
   title: "Layout/Footer",
   component: Footer,
   tags: ["autodocs"],
@@ -17,7 +17,9 @@ export default {
   parameters: {
     layout: "fullscreen",
   },
-} as Meta<typeof Footer>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Footer>;
 

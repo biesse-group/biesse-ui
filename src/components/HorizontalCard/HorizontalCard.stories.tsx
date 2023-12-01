@@ -5,7 +5,7 @@ import { Icon } from "~components/Icon";
 
 import { HorizontalCard } from "./HorizontalCard";
 
-export default {
+const meta: Meta<typeof HorizontalCard> = {
   title: "Cards/HorizontalCard",
   component: HorizontalCard,
   tags: ["autodocs"],
@@ -14,7 +14,9 @@ export default {
       control: false,
     },
   },
-} as Meta<typeof HorizontalCard>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof HorizontalCard>;
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import { PartnerCarousel } from "./PartnerCarousel";
 
-export default {
+const meta: Meta<typeof PartnerCarousel> = {
   title: "Slideshow/PartnerCarousel",
   component: PartnerCarousel,
   tags: ["autodocs"],
@@ -15,7 +15,9 @@ export default {
       control: false,
     },
   },
-} as Meta<typeof PartnerCarousel>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof PartnerCarousel>;
 

@@ -23,15 +23,10 @@ const StoryContainer = styled.div`
   )}
 `;
 
-export default {
+const meta: Meta<typeof CtaCard> = {
   title: "Cards/CtaCard",
   component: CtaCard,
   tags: ["autodocs"],
-  argTypes: {
-    children: {
-      control: false,
-    },
-  },
   decorators: [
     (Story) => (
       <StoryContainer>
@@ -39,7 +34,9 @@ export default {
       </StoryContainer>
     ),
   ],
-} as Meta<typeof CtaCard>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof CtaCard>;
 

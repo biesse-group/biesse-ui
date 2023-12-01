@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography/Text Bold smoke-test 1`] = `
+<span class="sc-aXZVg dEiKSr">
+  The quick brown fox jumped over the lazy dog
+</span>
+`;
+
+exports[`Typography/Text Default smoke-test 1`] = `
+<span class="sc-aXZVg czCaHn">
+  The quick brown fox jumped over the lazy dog
+</span>
+`;
+
+exports[`Typography/Text Italic smoke-test 1`] = `
+<span class="sc-aXZVg VRMiH">
+  The quick brown fox jumped over the lazy dog
+</span>
+`;

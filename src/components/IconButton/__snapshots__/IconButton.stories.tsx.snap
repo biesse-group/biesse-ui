@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons/IconButton Clicked play-test 1`] = `
+<div class="sc-aXZVg iginDy">
+  <div style="max-width: 300px;">
+    <button data-testid="primary-icon-button"
+            aria-label="Example button"
+            class="sc-eqUAAy jbAREr"
+    >
+      <span class="sc-gEvEer gBShiS">
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h23.795v23.795H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="translate(13.308 1)">
+              <path d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Buttons/IconButton Light smoke-test 1`] = `
+<div class="sc-aXZVg cKLHii">
+  <div style="max-width: 300px;">
+    <button aria-label="Example button"
+            class="sc-eqUAAy dGrLMT"
+    >
+      <span class="sc-gEvEer gBShiS">
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h38.216v48H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M28.5 7.392Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="rotate(90 21.608 27.5)">
+              <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Buttons/IconButton Naked smoke-test 1`] = `
+<div class="sc-aXZVg iginDy">
+  <div style="max-width: 300px;">
+    <button aria-label="Example button"
+            class="sc-eqUAAy bWAsjm"
+    >
+      <span class="sc-gEvEer gBShiS">
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h38.216v48H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M28.5 7.392Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="rotate(90 21.608 27.5)">
+              <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Buttons/IconButton Primary smoke-test 1`] = `
+<div class="sc-aXZVg iginDy">
+  <div style="max-width: 300px;">
+    <button data-testid="primary-icon-button"
+            aria-label="Example button"
+            class="sc-eqUAAy jbAREr"
+    >
+      <span class="sc-gEvEer gBShiS">
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h23.795v23.795H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M25.267 46.753c2.993 0 5.812.795 8.247 2.173l13.5-13.5c-4.447-3.9-9.886-6.644-15.872-7.786l-6.024 6.296-6.11-6.384C12.985 28.608 7.508 31.29 3 35.128L16.872 49a16.772 16.772 0 0 1 8.395-2.247Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="translate(13.308 1)">
+              <path d="M23.795 11.898c0 6.57-5.327 11.897-11.897 11.897C5.327 23.795 0 18.468 0 11.898 0 5.327 5.327 0 11.898 0c6.57 0 11.897 5.327 11.897 11.898"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Buttons/IconButton PrimaryInverted smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 300px;">
+    <button aria-label="Example button"
+            class="sc-eqUAAy licRBn"
+    >
+      <span class="sc-gEvEer gBShiS">
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h38.216v48H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M28.5 7.392Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="rotate(90 21.608 27.5)">
+              <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loaders/Spinner CustomProps smoke-test 1`] = `
+<div class="sc-gEvEer dIppSL">
+  <div color="green"
+       class="sc-aXZVg dINVZx"
+  >
+  </div>
+</div>
+`;
+
+exports[`Loaders/Spinner Default smoke-test 1`] = `
+<div class="sc-gEvEer dIppSL">
+  <div class="sc-aXZVg KIkzN">
+  </div>
+</div>
+`;

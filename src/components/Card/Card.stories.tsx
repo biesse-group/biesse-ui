@@ -7,7 +7,7 @@ import { Tag } from "~components/Tag";
 import { Card } from "./Card";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
-export default {
+const meta: Meta<typeof Card> = {
   title: "Cards/Card",
   component: Card,
   tags: ["autodocs"],
@@ -32,7 +32,9 @@ export default {
       </div>
     ),
   ],
-} as Meta<typeof Card>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Card>;
 

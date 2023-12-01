@@ -3,9 +3,9 @@ import { userEvent, within } from "@storybook/testing-library";
 
 import { BackgroundDecorator } from "~stories/decorators";
 
-import { SearchBar } from ".";
+import { SearchBar } from "./SearchBar";
 
-export default {
+const meta: Meta<typeof SearchBar> = {
   title: "Inputs/SearchBar",
   component: SearchBar,
   tags: ["autodocs"],
@@ -19,7 +19,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as Meta<typeof SearchBar>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof SearchBar>;
 

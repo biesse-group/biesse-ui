@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout/StripThreeCols EqualSizeItems smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB czDUzM">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols MainItemLarge smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB MpEnv">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols MainItemLargeTwoItems smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB lenQWC">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols MobileScroll smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB glyusN">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols MobileWrap smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB MpEnv">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols OneItem smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB bpAakX">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols SecondaryItemsLarge smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB fkjZvj">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols SecondaryItemsLargeTwoItems smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB gwUHVF">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols TabletMaintain smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB fqEiGP">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Layout/StripThreeCols TabletWrap smoke-test 1`] = `
+<div class="sc-gsFSXq cbkXKB">
+  <h2 color="primary"
+      class="sc-gEvEer kSpbpc sc-imWYAI cPkAav"
+  >
+    Lorem ipsum dolor
+  </h2>
+  <div class="sc-kAyceB MpEnv">
+    <div class="sc-jXbUNg kMWSMY">
+      <div class="sc-dhKdcB leyVpG">
+        Item 1
+      </div>
+    </div>
+    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 2
+      </div>
+    </div>
+    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+      <div class="sc-dhKdcB leyVpG">
+        Item 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

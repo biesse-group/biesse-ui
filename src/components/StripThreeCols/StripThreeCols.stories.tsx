@@ -3,11 +3,13 @@ import styled from "styled-components";
 
 import { StripThreeCols, type StripThreeColsProps } from "./StripThreeCols";
 
-export default {
+const meta: Meta<typeof StripThreeCols> = {
   title: "Layout/StripThreeCols",
   component: StripThreeCols,
   tags: ["autodocs"],
-} as Meta<typeof StripThreeCols>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof StripThreeCols>;
 

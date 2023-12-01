@@ -13,7 +13,7 @@ const SelectWrapper: FC<SelectProps> = ({ value: defaultValue, ...props }) => {
   return <Select {...props} value={selected} onChange={setSelected} />;
 };
 
-export default {
+const meta: Meta<typeof Select> = {
   title: "Inputs/Select",
   component: Select,
   tags: ["autodocs"],
@@ -28,7 +28,9 @@ export default {
     ),
   ],
   render: (args) => <SelectWrapper {...args} />,
-} as Meta<typeof Select>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Select>;
 

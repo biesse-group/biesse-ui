@@ -4,15 +4,10 @@ import { Button } from "~components/Button";
 
 import { IconCard } from "./IconCard";
 
-export default {
+const meta: Meta<typeof IconCard> = {
   title: "Cards/IconCard",
   component: IconCard,
   tags: ["autodocs"],
-  argTypes: {
-    actions: {
-      control: false,
-    },
-  },
   decorators: [
     (Story) => (
       <div style={{ maxWidth: 300 }}>
@@ -20,7 +15,9 @@ export default {
       </div>
     ),
   ],
-} as Meta<typeof IconCard>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof IconCard>;
 

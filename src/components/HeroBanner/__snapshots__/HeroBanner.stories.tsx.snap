@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow/HeroBanner Default smoke-test 1`] = `
+<div class="sc-jEACwC dOHZAo">
+  <img src="https://dummyimage.com/1920x1080/cccccc/ffffff.png"
+       alt
+  >
+  <div class="sc-cPiKLX goiRGP">
+    <h1 class="sc-jXbUNg fDRDWj sc-dLMFU hulQNP">
+      Lorem ipsum
+    </h1>
+    <p class="sc-gEvEer ieUAZp">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Slideshow/HeroBanner WithExtraInfo smoke-test 1`] = `
+<div class="sc-jEACwC dOHZAo">
+  <img src="https://dummyimage.com/1920x1080/cccccc/ffffff.png"
+       alt
+  >
+  <div class="sc-cPiKLX jSEkOC">
+    <div class="sc-fqkvVR hKdEFa">
+      <span class="sc-aXZVg czCaHn sc-dcJsrY igYVRj"
+            style="text-transform: uppercase;"
+      >
+        Homepage
+      </span>
+      <span class="sc-eqUAAy bpqKHX sc-iGgWBj bhLDjQ">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewbox="0 0 50 50"
+        >
+          <g fill="currentColor"
+             fill-rule="evenodd"
+             transform="matrix(-1 0 0 1 37.722 1)"
+          >
+            <path d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z">
+            </path>
+          </g>
+        </svg>
+      </span>
+      <span class="sc-aXZVg dEiKSr sc-dcJsrY igYVRj"
+            style="text-transform: uppercase;"
+      >
+        Test page
+      </span>
+    </div>
+    <h1 class="sc-jXbUNg fDRDWj sc-dLMFU hulQNP">
+      Lorem ipsum
+    </h1>
+    <p class="sc-gEvEer ieUAZp">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <div class="sc-eDPEul bKlaED">
+      <button type="button"
+              class="sc-imWYAI kKQPcH"
+      >
+        More...
+      </button>
+    </div>
+  </div>
+</div>
+`;

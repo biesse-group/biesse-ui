@@ -20,14 +20,16 @@ export interface SampleProduct {
   imageUrl: string;
 }
 
-export default {
+const meta: Meta<typeof ProductCarousel> = {
   title: "Slideshow/ProductCarousel",
   component: ProductCarousel,
   tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
-} as Meta<typeof ProductCarousel>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof ProductCarousel<SampleProduct>>;
 

@@ -5,7 +5,7 @@ import { BackgroundDecorator } from "~stories/decorators";
 
 import { IconButton } from "./IconButton";
 
-export default {
+const meta: Meta<typeof IconButton> = {
   title: "Buttons/IconButton",
   component: IconButton,
   tags: ["autodocs"],
@@ -27,7 +27,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as Meta<typeof IconButton>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof IconButton>;
 

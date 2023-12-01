@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography/Title Light smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 100%;">
+    <h3 color="light"
+        class="sc-fqkvVR gexmIF"
+    >
+      The quick brown fox jumped over the lazy dog
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`Typography/Title Primary smoke-test 1`] = `
+<h3 color="primary"
+    class="sc-fqkvVR gPdRhU"
+>
+  The quick brown fox jumped over the lazy dog
+</h3>
+`;
+
+exports[`Typography/Title Uppercase smoke-test 1`] = `
+<h3 color="primary"
+    class="sc-fqkvVR cLdIFk"
+>
+  The quick brown fox jumped over the lazy dog
+</h3>
+`;

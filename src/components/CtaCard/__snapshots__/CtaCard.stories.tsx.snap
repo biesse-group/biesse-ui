@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards/CtaCard FullImage smoke-test 1`] = `
+<div class="sc-fPXMVe chJXyq">
+  <div class="sc-cwHptR eliQlV">
+    <div class="sc-jEACwC kTSwme">
+      <img src="/assets/kuka-logo.png"
+           alt="kuka logo"
+           class="sc-ikkxIA hTUOUH"
+      >
+    </div>
+    <div class="sc-cPiKLX ismBqR">
+      <span color="dark"
+            class="sc-dcJsrY hQjSgU sc-eDPEul gQZBUs"
+      >
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+      </span>
+      <div class="sc-eldPxv lkqoeG">
+        <button type="button"
+                class="sc-fqkvVR gCepkH sc-jlZhew"
+        >
+          Scopri
+          <span class="sc-aXZVg hqNmJX sc-eqUAAy kVWemk">
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path d="M0 0h25.722v48H0z">
+                </path>
+              </defs>
+              <g transform="translate(12 1)"
+                 fill="none"
+                 fill-rule="evenodd"
+              >
+                <path d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                      fill="currentColor"
+                >
+                </path>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/CtaCard WithTitle smoke-test 1`] = `
+<div class="sc-fPXMVe chJXyq">
+  <div class="sc-cwHptR eliQlV">
+    <div class="sc-jEACwC YfAHn">
+      <div class="sc-gFqAkR cQLLy">
+        <img src="/assets/product-carousel-2.png"
+             alt="product"
+             style="max-width: 100%; max-height: 100%;"
+        >
+      </div>
+    </div>
+    <div class="sc-cPiKLX ftFjwQ">
+      <h3 color="primary"
+          class="sc-imWYAI dCVdfl sc-dLMFU huvzey"
+      >
+        ES951
+      </h3>
+      <span color="dark"
+            class="sc-dcJsrY hQjSgU sc-eDPEul gQZBUs"
+      >
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      </span>
+      <div class="sc-eldPxv lkqoeG">
+        <button type="button"
+                class="sc-fqkvVR gCepkH sc-jlZhew"
+        >
+          Scopri
+          <span class="sc-aXZVg hqNmJX sc-eqUAAy kVWemk">
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path d="M0 0h25.722v48H0z">
+                </path>
+              </defs>
+              <g transform="translate(12 1)"
+                 fill="none"
+                 fill-rule="evenodd"
+              >
+                <path d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                      fill="currentColor"
+                >
+                </path>
+              </g>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

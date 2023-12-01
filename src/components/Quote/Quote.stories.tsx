@@ -2,14 +2,16 @@ import { type Meta, type StoryObj } from "@storybook/react";
 
 import { Quote } from "./Quote";
 
-export default {
+const meta: Meta<typeof Quote> = {
   title: "Display/Quote",
   component: Quote,
   tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
-} as Meta<typeof Quote>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Quote>;
 

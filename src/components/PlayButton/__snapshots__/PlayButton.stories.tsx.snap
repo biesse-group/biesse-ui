@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons/PlayButton Inverted smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 300px;">
+    <div class="sc-eqUAAy ijbeD"
+         style="opacity: 0;"
+    >
+      <div class="sc-fqkvVR ekATMG">
+      </div>
+      <span color="primary"
+            class="sc-gEvEer fZOoJJ sc-dcJsrY eNklwf"
+      >
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="m12.267 48.996 25.929-23.597L12.266.379v48.617Z"
+                fill="currentColor"
+                stroke="currentColor"
+                stroke-width="2"
+                fill-rule="evenodd"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Buttons/PlayButton Primary play-test 1`] = `
+<div data-testid="primary-button"
+     class="sc-eqUAAy fBlbvC"
+     style="opacity: 0;"
+>
+  <div class="sc-fqkvVR cDXDrb">
+  </div>
+  <span color="white"
+        class="sc-gEvEer gsPhkH sc-dcJsrY eNklwf"
+  >
+    <svg viewbox="0 0 50 50"
+         xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="m12.267 48.996 25.929-23.597L12.266.379v48.617Z"
+            fill="currentColor"
+            stroke="currentColor"
+            stroke-width="2"
+            fill-rule="evenodd"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+      >
+      </path>
+    </svg>
+  </span>
+</div>
+`;

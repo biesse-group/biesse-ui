@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow/PartnerCarousel Default smoke-test 1`] = `
+<div class="sc-eqUAAy drzJgE">
+  <div class="sc-fqkvVR gMUxB">
+    <span color="gray"
+          class="sc-aXZVg krrkXT sc-dcJsrY iooAzC"
+    >
+      Partners
+    </span>
+  </div>
+  <div class="sc-iGgWBj iGOA-dD">
+    <div class="sc-gsFSXq jtpynu">
+      <div class="sc-kAyceB pVFhZ"
+           draggable="false"
+           style="user-select: none; touch-action: pan-y;"
+      >
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+        <div class="sc-imWYAI hUcRFE LogoWrapper">
+          <img src="/assets/kuka-logo.png"
+               alt="kuka logo"
+               class="sc-jXbUNg idXAFU"
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

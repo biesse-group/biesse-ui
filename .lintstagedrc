@@ -1,4 +1,4 @@
 {
-  "*.(json|ts|tsx|md)": "prettier . --write",
-  "*.(ts|tsx)": "eslint -c .eslintrc.json --max-warnings 0 ."
+  "!(__snapshots__/**/*)*.(json|ts|tsx|md)": "prettier . --write",
+  "!(__snapshots__/**/*)*.(ts|tsx)": "eslint -c .eslintrc.json --max-warnings 0 ."
 }

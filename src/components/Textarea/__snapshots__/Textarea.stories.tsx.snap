@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inputs/Textarea DarkBackground smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 500px;">
+    <textarea placeholder="Type something..."
+              class="sc-gEvEer gfbMdd"
+    >
+    </textarea>
+  </div>
+</div>
+`;
+
+exports[`Inputs/Textarea Filled play-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 500px;">
+    <textarea data-testid="textarea"
+              placeholder="Type something..."
+              class="sc-gEvEer gfbMdd"
+    >
+    </textarea>
+  </div>
+</div>
+`;
+
+exports[`Inputs/Textarea LightBackground smoke-test 1`] = `
+<div class="sc-aXZVg iginDy">
+  <div style="max-width: 500px;">
+    <textarea placeholder="Type something..."
+              class="sc-gEvEer jIldAn"
+    >
+    </textarea>
+  </div>
+</div>
+`;
+
+exports[`Inputs/Textarea MaxLenght100 smoke-test 1`] = `
+<div class="sc-aXZVg eJyBUS">
+  <div style="max-width: 500px;">
+    <textarea placeholder="Type something..."
+              maxlength="100"
+              class="sc-gEvEer gfbMdd"
+    >
+    </textarea>
+  </div>
+</div>
+`;

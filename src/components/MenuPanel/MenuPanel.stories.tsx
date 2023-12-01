@@ -26,7 +26,6 @@ export const Primary: Story = {
     extra: <SearchBar />,
     onClose: () => {},
     variant: "primary",
-    // width: "30vw",
   },
 };
 

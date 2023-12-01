@@ -2,11 +2,13 @@ import { type Meta, type StoryObj } from "@storybook/react";
 
 import { Icon, type IconProps } from "./Icon";
 
-export default {
+const meta: Meta<typeof Icon> = {
   title: "Icons/Icon",
   component: Icon,
   tags: ["autodocs"],
-} as Meta<typeof Icon>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Icon>;
 

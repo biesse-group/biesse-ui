@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialogs/Modal Default smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <button type="button"
+          class="sc-fqkvVR bxTuzs"
+  >
+    Open modal
+  </button>
+</div>
+`;
+
+exports[`Dialogs/Modal WithVideo smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <button type="button"
+          class="sc-fqkvVR bxTuzs"
+  >
+    Play video
+  </button>
+</div>
+`;

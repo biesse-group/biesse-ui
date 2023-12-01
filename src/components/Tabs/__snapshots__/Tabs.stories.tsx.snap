@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout/Tabs Default smoke-test 1`] = `
+<div class="sc-gEvEer fXJvIt">
+  <a href="./">
+    <button class="sc-aXZVg fhASMz">
+      Tutte
+    </button>
+  </a>
+  <button class="sc-aXZVg ghVuiv">
+    Corporate
+  </button>
+  <button class="sc-aXZVg ghVuiv">
+    Prodotti
+  </button>
+  <button class="sc-aXZVg ghVuiv">
+    Eventi
+  </button>
+  <button class="sc-aXZVg ghVuiv">
+    Fiere
+  </button>
+</div>
+`;

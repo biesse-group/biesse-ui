@@ -28,7 +28,7 @@ const ModalContainer: FC<
   );
 };
 
-export default {
+const meta: Meta<typeof ModalContainer> = {
   title: "Dialogs/Modal",
   component: ModalContainer,
   tags: ["autodocs"],
@@ -37,7 +37,9 @@ export default {
       control: false,
     },
   },
-} as Meta<typeof ModalContainer>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof ModalContainer>;
 

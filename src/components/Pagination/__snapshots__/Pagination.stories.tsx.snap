@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout/Pagination Default smoke-test 1`] = `
+<div class="sc-fqkvVR iREJeD">
+  <button aria-label="prev"
+          class="sc-gEvEer fXVLmE sc-dcJsrY hpQfoA"
+  >
+    <span class="sc-aXZVg dhyslS">
+      <svg xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           viewbox="0 0 50 50"
+      >
+        <g fill="currentColor"
+           fill-rule="evenodd"
+           transform="matrix(-1 0 0 1 37.722 1)"
+        >
+          <path d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z">
+          </path>
+        </g>
+      </svg>
+    </span>
+  </button>
+  <button class="sc-eqUAAy cQhRHl">
+    1
+  </button>
+  <button class="sc-eqUAAy frKVOX">
+    2
+  </button>
+  <button class="sc-eqUAAy frKVOX">
+    3
+  </button>
+  <button class="sc-eqUAAy frKVOX">
+    4
+  </button>
+  <button class="sc-eqUAAy frKVOX">
+    5
+  </button>
+  <button class="sc-eqUAAy frKVOX">
+    ...
+  </button>
+  <button class="sc-eqUAAy frKVOX">
+    100
+  </button>
+  <button aria-label="next"
+          class="sc-gEvEer fXVLmE sc-iGgWBj dwVvXw"
+  >
+    <span class="sc-aXZVg dhyslS">
+      <svg viewbox="0 0 50 50"
+           xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <defs>
+          <path d="M0 0h25.722v48H0z">
+          </path>
+        </defs>
+        <g transform="translate(12 1)"
+           fill="none"
+           fill-rule="evenodd"
+        >
+          <path d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                fill="currentColor"
+          >
+          </path>
+        </g>
+      </svg>
+    </span>
+  </button>
+</div>
+`;

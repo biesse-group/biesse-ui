@@ -10,14 +10,16 @@ const SpinnerContainer = styled.div`
   align-items: center;
 `;
 
-export default {
+const meta: Meta<typeof Spinner> = {
   title: "Loaders/Spinner",
   component: (props) => (
     <SpinnerContainer>
       <Spinner {...props} />
     </SpinnerContainer>
   ),
-} as Meta<typeof Spinner>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Spinner>;
 

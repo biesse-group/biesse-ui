@@ -6,7 +6,7 @@ import { Button } from "~components/Button";
 
 import { EventCard } from "./EventCard";
 
-export default {
+const meta: Meta<typeof EventCard> = {
   title: "Cards/EventCard",
   component: EventCard,
   tags: ["autodocs"],
@@ -25,7 +25,9 @@ export default {
   render: ({ startDate, endDate, ...args }) => (
     <EventCard startDate={dayjs(startDate)} endDate={dayjs(endDate)} {...args} />
   ),
-} as Meta<typeof EventCard>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof EventCard>;
 

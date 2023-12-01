@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards/EventCard Hero smoke-test 1`] = `
+<div style="max-width: 600px;">
+  <div class="sc-dAlyuH cGGqen">
+    <div class="sc-jlZhew iYtwve">
+      <span color="primary"
+            class="sc-dcJsrY bqGCpA sc-cwHptR sc-cPiKLX fztwMb bKizoE"
+      >
+        24
+      </span>
+      <span color="dark"
+            class="sc-dcJsrY hQjSgU sc-jEACwC sc-dLMFU cIUhiL cvLRjG"
+      >
+        Jan
+        <span class="sc-dcJsrY gtoGgU">
+          23
+        </span>
+      </span>
+      <span color="primary"
+            class="sc-dcJsrY bqGCpA sc-cwHptR sc-eDPEul fztwMb facMIX"
+      >
+        10
+      </span>
+      <span color="dark"
+            class="sc-dcJsrY hQjSgU sc-jEACwC sc-eldPxv cIUhiL gwpALy"
+      >
+        Feb
+        <span class="sc-dcJsrY gtoGgU">
+          23
+        </span>
+      </span>
+    </div>
+    <div class="sc-gFqAkR bGLzrq">
+      <h3 color="primary"
+          class="sc-imWYAI dniXfY sc-ikkxIA rzluN"
+      >
+        Lorem Ipsum
+      </h3>
+      <span color="primary"
+            class="sc-aXZVg iJUGPx sc-dAbbOL iaJMbH"
+      >
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h25.722v48H0z">
+            </path>
+          </defs>
+          <g transform="translate(12 1)"
+             fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M1.768 48c-.26 0-.521-.043-.752-.16-1.134-.578-1.323-1.964-.543-2.807l21.408-20.659L.471 2.965A1.758 1.758 0 0 1 .522.518 1.756 1.756 0 0 1 1.77 0c.446 0 .872.167 1.2.47l22.21 22.56c.729.74.72 1.93-.02 2.657L2.97 47.53c-.324.302-.752.47-1.2.47h-.002Z"
+                  fill="currentColor"
+            >
+            </path>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div class="sc-fPXMVe ftKSHO">
+      <span color="light"
+            class="sc-dcJsrY heHYmw"
+      >
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/EventCard HoverState smoke-test 1`] = `
+<div style="max-width: 600px;">
+  <div class="sc-fUnMCh hA-dziL">
+    <div class="sc-jsJBEP kvkIvw">
+      <span class="sc-dcJsrY gtoGgU sc-koXPp bxoBjW">
+        24
+      </span>
+      <span class="sc-dcJsrY uHiyg">
+        JAN23
+      </span>
+      <span class="sc-dcJsrY gtoGgU sc-koXPp bxoBjW">
+        10
+      </span>
+      <span class="sc-dcJsrY uHiyg">
+        FEB23
+      </span>
+      <span color="white"
+            class="sc-aXZVg NaSF sc-feUZmu feoUSM"
+      >
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h38.216v48H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M28.5 7.392Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="rotate(90 21.608 27.5)">
+              <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div class="sc-hzhJZQ izFBzj">
+      <h3 color="primary"
+          class="sc-imWYAI dCVdfl sc-fHjqPf eKCJVS"
+      >
+        Lorem Ipsum
+      </h3>
+      <div style="margin-bottom: 20px;">
+        <span class="sc-dcJsrY hqCqvc sc-bXCLTC mHGcw">
+          <span>
+            24 January 2023
+          </span>
+          <span class="sc-hmdomO fxzeXe">
+            /
+          </span>
+          <span>
+            10 February 2023
+          </span>
+        </span>
+        <p class="sc-iGgWBj dRTgCR">
+          Milano Fiere - Milano ITALY
+        </p>
+      </div>
+      <span class="sc-dcJsrY hxVqrY">
+        <span class="sc-dcJsrY hxVqrY">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+    </div>
+    <div class="sc-eeDRCY fSAOek">
+      <button type="button"
+              class="sc-fqkvVR kajwrX"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/EventCard Primary smoke-test 1`] = `
+<div style="max-width: 600px;">
+  <div class="sc-fUnMCh hA-dziL">
+    <div class="sc-jsJBEP kvkIvw">
+      <span class="sc-dcJsrY gtoGgU sc-koXPp bxoBjW">
+        24
+      </span>
+      <span class="sc-dcJsrY uHiyg">
+        JAN23
+      </span>
+      <span class="sc-dcJsrY gtoGgU sc-koXPp bxoBjW">
+        10
+      </span>
+      <span class="sc-dcJsrY uHiyg">
+        FEB23
+      </span>
+      <span color="white"
+            class="sc-aXZVg NaSF sc-feUZmu feoUSM"
+      >
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h38.216v48H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M28.5 7.392Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="rotate(90 21.608 27.5)">
+              <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div class="sc-hzhJZQ izFBzj">
+      <h3 color="primary"
+          class="sc-imWYAI dCVdfl sc-fHjqPf eKCJVS"
+      >
+        Lorem Ipsum
+      </h3>
+      <div style="margin-bottom: 20px;">
+        <span class="sc-dcJsrY hqCqvc sc-bXCLTC mHGcw">
+          <span>
+            24 January 2023
+          </span>
+          <span class="sc-hmdomO fxzeXe">
+            /
+          </span>
+          <span>
+            10 February 2023
+          </span>
+        </span>
+        <p class="sc-iGgWBj dRTgCR">
+          Milano Fiere - Milano ITALY
+        </p>
+      </div>
+      <span class="sc-dcJsrY hxVqrY">
+        <span class="sc-dcJsrY hxVqrY">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+    </div>
+    <div class="sc-eeDRCY fSAOek">
+      <button type="button"
+              class="sc-fqkvVR kajwrX"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/EventCard Secondary smoke-test 1`] = `
+<div style="max-width: 600px;">
+  <div class="sc-bmzYkS XZWJP">
+    <div class="sc-iHGNWf cTqODo">
+      <h3 color="primary"
+          class="sc-imWYAI bhSXYd sc-dtBdUo WDhIm"
+      >
+        Lorem Ipsum
+      </h3>
+      <div style="margin-bottom: 10px;">
+        <p class="sc-iGgWBj dRTgCR">
+          24 January 2023 / 10 February 2023
+        </p>
+        <p class="sc-iGgWBj dRTgCR">
+          Milano Fiere - Milano ITALY
+        </p>
+      </div>
+    </div>
+    <div class="sc-kOHTFB fZgLUD">
+      <button type="button"
+              class="sc-fqkvVR kajwrX"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/EventCard Translated smoke-test 1`] = `
+<div style="max-width: 600px;">
+  <div class="sc-fUnMCh hA-dziL">
+    <div class="sc-jsJBEP kvkIvw">
+      <span class="sc-dcJsrY gtoGgU sc-koXPp bxoBjW">
+        24
+      </span>
+      <span class="sc-dcJsrY uHiyg">
+        GEN23
+      </span>
+      <span class="sc-dcJsrY gtoGgU sc-koXPp bxoBjW">
+        10
+      </span>
+      <span class="sc-dcJsrY uHiyg">
+        FEB23
+      </span>
+      <span color="white"
+            class="sc-aXZVg NaSF sc-feUZmu feoUSM"
+      >
+        <svg viewbox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <defs>
+            <path d="M0 0h38.216v48H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+          >
+            <path d="M28.5 7.392Z"
+                  fill="currentColor"
+            >
+            </path>
+            <g transform="rotate(90 21.608 27.5)">
+              <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                    fill="currentColor"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <div class="sc-hzhJZQ izFBzj">
+      <h3 color="primary"
+          class="sc-imWYAI dCVdfl sc-fHjqPf eKCJVS"
+      >
+        Lorem Ipsum
+      </h3>
+      <div style="margin-bottom: 20px;">
+        <span class="sc-dcJsrY hqCqvc sc-bXCLTC mHGcw">
+          <span>
+            24 gennaio 2023
+          </span>
+          <span class="sc-hmdomO fxzeXe">
+            /
+          </span>
+          <span>
+            10 febbraio 2023
+          </span>
+        </span>
+        <p class="sc-iGgWBj dRTgCR">
+          Milano Fiere - Milano ITALY
+        </p>
+      </div>
+      <span class="sc-dcJsrY hxVqrY">
+        <span class="sc-dcJsrY hxVqrY">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa...
+        </span>
+      </span>
+    </div>
+    <div class="sc-eeDRCY fSAOek">
+      <button type="button"
+              class="sc-fqkvVR kajwrX"
+      >
+        Get free ticket
+      </button>
+    </div>
+  </div>
+</div>
+`;

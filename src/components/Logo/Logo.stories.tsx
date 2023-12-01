@@ -4,7 +4,7 @@ import { BackgroundDecorator } from "~stories/decorators";
 
 import { Logo } from "./Logo";
 
-export default {
+const meta: Meta<typeof Logo> = {
   title: "Display/Logo",
   component: Logo,
   tags: ["autodocs"],
@@ -18,7 +18,9 @@ export default {
       </BackgroundDecorator>
     ),
   ],
-} as Meta<typeof Logo>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Logo>;
 

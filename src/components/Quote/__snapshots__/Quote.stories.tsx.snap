@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display/Quote Default smoke-test 1`] = `
+<div class="sc-fqkvVR jjkivW">
+  <div class="sc-dcJsrY jcdyQG">
+    <p class="sc-eqUAAy hZXuXH sc-iGgWBj dHaiDE">
+      <span color="primary"
+            class="sc-aXZVg cDBgIK sc-gsFSXq fcsRGD"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewbox="0 0 50 50"
+        >
+          <defs>
+            <path d="M0 0H50V50H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+             stroke="none"
+             stroke-width="1"
+          >
+            <g>
+              <g fill="currentColor"
+                 fill-rule="nonzero"
+                 mask="url(#mask-2)"
+              >
+                <path d="M11.895 0l7.246 4.922c-4.239 5.788-6.426 12.031-6.563 18.73v9.297H0v-7.93c0-4.648 1.105-9.25 3.315-13.808C5.525 6.654 8.385 2.917 11.895 0zm21.533 0l7.246 4.922c-4.238 5.788-6.426 12.031-6.563 18.73v9.297H21.533v-7.93c0-4.648 1.105-9.25 3.316-13.808 2.21-4.557 5.07-8.294 8.579-11.211z"
+                      transform="translate(7.11 8.701)"
+                >
+                </path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </span>
+      <span color="primary"
+            class="sc-aXZVg cDBgIK sc-kAyceB gboGlN"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewbox="0 0 50 50"
+        >
+          <defs>
+            <path d="M0 0H50V50H0z">
+            </path>
+          </defs>
+          <g fill="none"
+             fill-rule="evenodd"
+             stroke="none"
+             stroke-width="1"
+          >
+            <g fill="currentColor"
+               fill-rule="nonzero"
+               mask="url(#mask-2)"
+            >
+              <path d="M7.178 33.496L0 28.574c4.238-5.924 6.426-12.168 6.563-18.73V0h12.51v8.887c-.046 4.557-1.174 9.103-3.385 13.637-2.21 4.535-5.047 8.192-8.51 10.972zm20.986 0l-7.178-4.922c4.239-5.924 6.426-12.168 6.563-18.73V0h12.51v8.887c-.046 4.557-1.174 9.103-3.384 13.637-2.21 4.535-5.047 8.192-8.51 10.972z"
+                    transform="translate(4.102 9)"
+              >
+              </path>
+            </g>
+          </g>
+        </svg>
+      </span>
+      Il nuovo mandrino ES951 e la piattaforma My HSD sono un connubio ad alta performance perché andiamo ad unire quella che è la performance del mandrino alla possibilità di andare a rilevare tutti i dati che questo può trasmettere a distanza, dando la possibilità di monitorare in tempo reale tutto quello che sta succedendo sul mandrino
+    </p>
+    <p class="sc-eqUAAy dzLeOv sc-imWYAI hhplXJ">
+      John Doe
+    </p>
+    <p class="sc-eqUAAy gvUJqf">
+      UTE/Service Manager A.C.M.E. spa
+    </p>
+  </div>
+</div>
+`;

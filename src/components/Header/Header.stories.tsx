@@ -5,7 +5,7 @@ import { Logo } from "~components/Logo";
 import { Header } from "./Header";
 import { type HeaderProps } from "./headerProps";
 
-export default {
+const meta: Meta<typeof Header> = {
   title: "Layout/Header",
   component: Header,
   tags: ["autodocs"],
@@ -24,7 +24,9 @@ export default {
       </div>
     ),
   ],
-} as Meta<typeof Header>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Header>;
 

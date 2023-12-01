@@ -5,7 +5,7 @@ import { BackgroundDecorator } from "~stories/decorators";
 
 import { PlayButton } from "./PlayButton";
 
-export default {
+const meta: Meta<typeof PlayButton> = {
   title: "Buttons/PlayButton",
   component: PlayButton,
   tags: ["autodocs"],
@@ -17,7 +17,9 @@ export default {
         Story()
       ),
   ],
-} as Meta<typeof PlayButton>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof PlayButton>;
 

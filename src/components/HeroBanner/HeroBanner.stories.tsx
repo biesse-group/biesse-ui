@@ -5,7 +5,7 @@ import { Button } from "~components/Button";
 
 import { HeroBanner } from "./HeroBanner";
 
-export default {
+const meta: Meta<typeof HeroBanner> = {
   title: "Slideshow/HeroBanner",
   component: HeroBanner,
   parameters: {
@@ -17,7 +17,9 @@ export default {
       control: false,
     },
   },
-} as Meta<typeof HeroBanner>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof HeroBanner>;
 

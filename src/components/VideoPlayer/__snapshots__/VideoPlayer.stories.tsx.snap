@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media/VideoPlayer AutoPlay smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div data-testid="video-player"
+       class="sc-dcJsrY kGxCKj"
+  >
+    <div data-testid="pause-action"
+         class="sc-gsFSXq hCUpws"
+    >
+    </div>
+    <video playsinline
+           loop
+           autoplay
+           class="sc-kAyceB gduqpY"
+    >
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+              type="video/mp4"
+      >
+      Your browser does not support HTML video.
+    </video>
+    <div class="sc-iGgWBj hFYAaK">
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Media/VideoPlayer Default smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div data-testid="video-player"
+       class="sc-dcJsrY kGxCKj"
+  >
+    <div data-testid="pause-action"
+         class="sc-gsFSXq kzAtDx"
+    >
+    </div>
+    <video playsinline
+           loop
+           class="sc-kAyceB gduqpY"
+    >
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+              type="video/mp4"
+      >
+      Your browser does not support HTML video.
+    </video>
+    <div class="sc-iGgWBj hFYAaK">
+      <div data-testid="play-button"
+           class="sc-gEvEer fyvAtY"
+           style="opacity: 0;"
+      >
+        <div class="sc-eqUAAy GxoDV">
+        </div>
+        <span color="white"
+              class="sc-aXZVg gkfcWn sc-fqkvVR eRmvRk"
+        >
+          <svg viewbox="0 0 50 50"
+               xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="m12.267 48.996 25.929-23.597L12.266.379v48.617Z"
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill-rule="evenodd"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

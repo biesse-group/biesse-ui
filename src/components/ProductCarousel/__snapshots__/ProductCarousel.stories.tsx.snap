@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow/ProductCarousel Default smoke-test 1`] = `
+<div class="sc-fUnMCh fXXNRk">
+  <div class="sc-jEACwC ipyClk">
+    <div class="sc-cPiKLX jNQliY">
+      <h2 color="light"
+          class="sc-dhKdcB gIFflR sc-dAbbOL cQAQGz"
+      >
+        New products
+      </h2>
+      <div class="sc-gFqAkR eaNQrX">
+        <div class="sc-ikkxIA jlboWC"
+             style="top: 50%; left: 12.5%; right: auto; opacity: 1; transform: translateX(-50%) translateY(-50%) scale(0.2) translateZ(0px);"
+        >
+          KK765
+        </div>
+        <div class="sc-ikkxIA jlboWC"
+             style="top: 48px; left: 50%; right: auto; opacity: 1; transform: translateX(-50%) translateY(0px) scale(1) translateZ(0px);"
+        >
+          ES796
+        </div>
+        <div class="sc-ikkxIA jlboWC"
+             style="top: 50%; right: 12.5%; left: auto; opacity: 1; transform: translateX(50%) translateY(-50%) scale(0.2) translateZ(0px);"
+        >
+          AB564
+        </div>
+      </div>
+      <div class="sc-gFqAkR eaNQrX">
+        <div class="sc-fPXMVe jMbAPt"
+             style="top: 100%; left: 12.5%; right: auto; opacity: 1; transform: translateX(-50%) translateY(-50%) scale(0.5) translateZ(0px);"
+        >
+          <img src="https://dummyimage.com/600x400/000/fff"
+               alt="KK765"
+               style="max-width: 100%; max-height: 100%;"
+          >
+        </div>
+        <div class="sc-fPXMVe jMbAPt"
+             style="top: 10%; left: 50%; right: auto; opacity: 1; transform: translateX(-50%) translateY(0px) scale(1) translateZ(0px);"
+        >
+          <img src="assets/product-carousel-1.png"
+               alt="ES796"
+               style="max-width: 100%; max-height: 100%;"
+          >
+        </div>
+        <div class="sc-fPXMVe jMbAPt"
+             style="top: 100%; right: 12.5%; left: auto; opacity: 1; transform: translateX(50%) translateY(-50%) scale(0.5) translateZ(0px);"
+        >
+          <img src="assets/product-carousel-2.png"
+               alt="AB564"
+               style="max-width: 100%; max-height: 100%;"
+          >
+        </div>
+      </div>
+      <div class="sc-gFqAkR kFoyy">
+        <div class="sc-ikkxIA jlboWC"
+             style="opacity: 1; transform: none;"
+        >
+          ES796
+        </div>
+      </div>
+      <div class="sc-gFqAkR kFoyy">
+        <div class="sc-fPXMVe jMbAPt"
+             style="opacity: 1; transform: none;"
+        >
+          <img src="assets/product-carousel-1.png"
+               alt="ES796"
+               style="max-width: 100%; max-height: 100%;"
+          >
+        </div>
+      </div>
+      <button aria-label="prev"
+              direction="prev"
+              class="sc-dLMFU JIMNl sc-eDPEul fvxrxe"
+      >
+        <span class="sc-aXZVg dhyslS">
+          <svg viewbox="0 0 50 50"
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path d="M0 0h38.216v48H0z">
+              </path>
+            </defs>
+            <g fill="none"
+               fill-rule="evenodd"
+            >
+              <path d="M21.717 7.392Z"
+                    fill="currentColor"
+              >
+              </path>
+              <g transform="matrix(0 1 1 0 1.108 5.892)">
+                <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                      fill="currentColor"
+                >
+                </path>
+              </g>
+            </g>
+          </svg>
+        </span>
+      </button>
+      <button aria-label="next"
+              direction="next"
+              class="sc-dLMFU JIMNl sc-eDPEul fXiuqB"
+      >
+        <span class="sc-aXZVg dhyslS">
+          <svg viewbox="0 0 50 50"
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <defs>
+              <path d="M0 0h38.216v48H0z">
+              </path>
+            </defs>
+            <g fill="none"
+               fill-rule="evenodd"
+            >
+              <path d="M28.5 7.392Z"
+                    fill="currentColor"
+              >
+              </path>
+              <g transform="rotate(90 21.608 27.5)">
+                <path d="M37.777 18.048 20.17.441a1.311 1.311 0 0 0-.112-.101c-.016-.014-.035-.026-.053-.04-.02-.016-.041-.032-.063-.047-.023-.016-.046-.028-.07-.043a1.924 1.924 0 0 0-.055-.033L19.74.142a.77.77 0 0 0-.058-.027c-.025-.01-.05-.02-.075-.028-.02-.006-.041-.015-.063-.021-.026-.009-.052-.014-.078-.021L19.403.03c-.031-.007-.063-.01-.094-.015l-.052-.007a1.34 1.34 0 0 0-.298 0l-.051.007c-.032.004-.063.008-.093.015-.023.004-.044.01-.066.015-.026.007-.052.012-.078.02-.021.007-.042.016-.062.022l-.075.028a.77.77 0 0 0-.06.027l-.073.035c-.019.011-.038.022-.057.035-.023.013-.047.025-.068.04A1.117 1.117 0 0 0 18.21.3l-.053.04c-.04.031-.076.065-.112.1L.44 18.049a1.5 1.5 0 0 0 2.121 2.121L17.608 5.121v41.38a1.5 1.5 0 0 0 3 0V5.12L35.656 20.17a1.494 1.494 0 0 0 2.121 0 1.5 1.5 0 0 0 0-2.121"
+                      fill="currentColor"
+                >
+                </path>
+              </g>
+            </g>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div class="sc-feUZmu dHrNBq">
+    <div class="sc-eldPxv hmJrDE"
+         style="z-index: 1; opacity: 1; transform: none;"
+    >
+      <div style="display: flex; align-items: center; flex-wrap: wrap;">
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH"
+            style="margin: 0px;"
+        >
+          ES796
+        </h3>
+        <div class="sc-fHjqPf vLUvB">
+          <button type="button"
+                  class="sc-fqkvVR iweJCL"
+          >
+            Dettagli
+          </button>
+          <button type="button"
+                  class="sc-fqkvVR iweJCL"
+          >
+            Confronta
+          </button>
+        </div>
+        <p color="primary"
+           class="sc-iGgWBj gfkgeR"
+           style="margin-top: 15px; flex: 0 0 100%;"
+        >
+          Testate a 2 assi
+        </p>
+        <p class="sc-iGgWBj rgmkt"
+           style="margin-top: 12px;"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.
+        </p>
+        <div class="sc-hzhJZQ eWtXiM">
+          <div color="stone"
+               class="sc-imWYAI hmAryj"
+          >
+            <span color="white"
+                  class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+            >
+              <svg viewbox="0 0 50 50"
+                   xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                >
+                </path>
+              </svg>
+            </span>
+            <span color="light"
+                  class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+            >
+              stone
+            </span>
+          </div>
+          <div color="composite"
+               class="sc-imWYAI hGlJLP"
+          >
+            <span color="white"
+                  class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+            >
+              <svg viewbox="0 0 50 50"
+                   xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M48.008 22.605 27.395 1.992a3.387 3.387 0 0 0-4.79 0L1.992 22.605a3.387 3.387 0 0 0 0 4.79l20.613 20.613a3.387 3.387 0 0 0 4.79 0l20.613-20.613a3.387 3.387 0 0 0 0-4.79"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                >
+                </path>
+              </svg>
+            </span>
+            <span color="light"
+                  class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+            >
+              composite
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

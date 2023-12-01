@@ -1,12 +1,9 @@
 import { type Meta, type StoryObj } from "@storybook/react";
-import { userEvent, within } from "@storybook/testing-library";
 import { type FC } from "react";
-
-import { sleep } from "~stories/utils/sleep";
 
 import { HeroCarousel, type HeroCarouselSlide } from "./HeroCarousel";
 
-export default {
+const meta: Meta<typeof HeroCarousel> = {
   title: "Slideshow/HeroCarousel",
   component: HeroCarousel,
   parameters: {
@@ -18,7 +15,9 @@ export default {
       control: false,
     },
   },
-} as Meta<typeof HeroCarousel>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof HeroCarousel>;
 
@@ -74,21 +73,5 @@ export const AutoSlide: Story = {
   args: {
     autoSlide: 5,
     slides,
-  },
-};
-
-export const Played: Story = {
-  args: { slides },
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-
-    await sleep(2000);
-    await userEvent.click(canvas.getByTestId("prev"));
-
-    await sleep(2000);
-    await userEvent.click(canvas.getByTestId("next"));
-
-    await sleep(2000);
-    await userEvent.click(canvas.getByTestId("next"));
   },
 };

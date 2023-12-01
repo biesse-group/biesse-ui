@@ -2,14 +2,16 @@ import { type Meta, type StoryObj } from "@storybook/react";
 
 import { VideoBanner } from "~components/VideoBanner";
 
-export default {
+const meta: Meta<typeof VideoBanner> = {
   title: "Slideshow/VideoBanner",
   component: VideoBanner,
   tags: ["autodocs"],
   parameters: {
     layout: "fullscreen",
   },
-} as Meta<typeof VideoBanner>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof VideoBanner>;
 

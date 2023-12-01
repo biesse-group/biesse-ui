@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards/Card CompleteExample smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div direction="vertical"
+       class="sc-dLMFU llozRH"
+  >
+    <div direction="vertical"
+         class="sc-jEACwC fwRyPL"
+    >
+      <div class="sc-eDPEul A-dFSD">
+        <div color="stone"
+             class="sc-imWYAI gXzGPL"
+        >
+          <span color="white"
+                class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+              >
+              </path>
+            </svg>
+          </span>
+          <span color="light"
+                class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+          >
+            Stone
+          </span>
+        </div>
+        <div color="wood"
+             class="sc-imWYAI hgsvkG"
+        >
+          <span color="white"
+                class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+              >
+              </path>
+            </svg>
+          </span>
+          <span color="light"
+                class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+          >
+            Wood
+          </span>
+        </div>
+      </div>
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="vertical"
+         class="sc-ikkxIA fpjYCA"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <span class="sc-dcJsrY gnGmFA sc-fPXMVe dVMOMF">
+          01 gennaio 2023, Location
+        </span>
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv kWdRfQ"
+        >
+          Example card
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+      <div style="margin-top: 20px;">
+        <button data-testid="action-button"
+                type="button"
+                class="sc-fqkvVR iweJCL"
+        >
+          Action
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/Card Default smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div direction="vertical"
+       class="sc-dLMFU llozRH"
+  >
+    <div direction="vertical"
+         class="sc-jEACwC fwRyPL"
+    >
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="vertical"
+         class="sc-ikkxIA fpjYCA"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv cwafJe"
+        >
+          Example card
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/Card Horizontal smoke-test 1`] = `
+<div>
+  <div direction="horizontal"
+       class="sc-dLMFU dBmdeB"
+  >
+    <div direction="horizontal"
+         class="sc-jEACwC fkXfrS"
+    >
+      <div class="sc-eDPEul A-dFSD">
+        <div color="stone"
+             class="sc-imWYAI gXzGPL"
+        >
+          <span color="white"
+                class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+              >
+              </path>
+            </svg>
+          </span>
+          <span color="light"
+                class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+          >
+            Stone
+          </span>
+        </div>
+        <div color="wood"
+             class="sc-imWYAI hgsvkG"
+        >
+          <span color="white"
+                class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+              >
+              </path>
+            </svg>
+          </span>
+          <span color="light"
+                class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+          >
+            Wood
+          </span>
+        </div>
+      </div>
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="horizontal"
+         class="sc-ikkxIA kTCUXe"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv cwafJe"
+        >
+          Example card
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+      <div style="margin-top: 20px;">
+        <button data-testid="action-button"
+                type="button"
+                class="sc-fqkvVR iweJCL"
+        >
+          Action
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/Card WithButton play-test 1`] = `
+<div style="max-width: 500px;">
+  <div direction="vertical"
+       class="sc-dLMFU llozRH"
+  >
+    <div direction="vertical"
+         class="sc-jEACwC fwRyPL"
+    >
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="vertical"
+         class="sc-ikkxIA fpjYCA"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv cwafJe"
+        >
+          Example card
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+      <div style="margin-top: 20px;">
+        <button data-testid="action-button"
+                type="button"
+                class="sc-fqkvVR iweJCL"
+        >
+          Action
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/Card WithEllipsis smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div direction="vertical"
+       class="sc-dLMFU llozRH"
+  >
+    <div direction="vertical"
+         class="sc-jEACwC fwRyPL"
+    >
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="vertical"
+         class="sc-ikkxIA fpjYCA"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv cUIKAn"
+        >
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/Card WithPreTitle smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div direction="vertical"
+       class="sc-dLMFU llozRH"
+  >
+    <div direction="vertical"
+         class="sc-jEACwC fwRyPL"
+    >
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="vertical"
+         class="sc-ikkxIA fpjYCA"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <span class="sc-dcJsrY gnGmFA sc-fPXMVe dVMOMF">
+          01 gennaio 2023, Location
+        </span>
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv kWdRfQ"
+        >
+          Example card
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Cards/Card WithTags smoke-test 1`] = `
+<div style="max-width: 500px;">
+  <div direction="vertical"
+       class="sc-dLMFU llozRH"
+  >
+    <div direction="vertical"
+         class="sc-jEACwC fwRyPL"
+    >
+      <div class="sc-eDPEul A-dFSD">
+        <div color="stone"
+             class="sc-imWYAI gXzGPL"
+        >
+          <span color="white"
+                class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M22.972 2.66 2.422 17.59a3.45 3.45 0 0 0-1.253 3.856l7.85 24.158a3.449 3.449 0 0 0 3.28 2.384h25.402a3.45 3.45 0 0 0 3.28-2.384l7.85-24.158a3.45 3.45 0 0 0-1.253-3.856L27.028 2.66a3.448 3.448 0 0 0-4.056 0"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+              >
+              </path>
+            </svg>
+          </span>
+          <span color="light"
+                class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+          >
+            Stone
+          </span>
+        </div>
+        <div color="wood"
+             class="sc-imWYAI hgsvkG"
+        >
+          <span color="white"
+                class="sc-aXZVg ctqbVW sc-kAyceB fGnwOA"
+          >
+            <svg viewbox="0 0 50 50"
+                 xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m22.379 5.517-20.97 36.41c-1.164 2.022.292 4.55 2.622 4.55h41.938c2.33 0 3.786-2.528 2.621-4.55L27.621 5.517c-1.165-2.023-4.077-2.023-5.242 0"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+              >
+              </path>
+            </svg>
+          </span>
+          <span color="light"
+                class="sc-dcJsrY bEhOwU sc-gsFSXq eXWFlb"
+          >
+            Wood
+          </span>
+        </div>
+      </div>
+      <div class="sc-cPiKLX bcyeYY">
+        <div style="width: 100%; height: 100%; background: url(&quot;https://dummyimage.com/1920x1080/ccc/fff.png&quot;) center center / cover;">
+        </div>
+      </div>
+    </div>
+    <div direction="vertical"
+         class="sc-ikkxIA fpjYCA"
+    >
+      <div class="sc-gFqAkR kFVRhE">
+        <h3 color="primary"
+            class="sc-kpDqfm iMIeaH sc-eldPxv cwafJe"
+        >
+          Example card
+        </h3>
+        <div style="margin-top: 20px;">
+          <p class="sc-iGgWBj rgmkt">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

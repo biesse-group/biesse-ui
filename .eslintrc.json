@@ -37,15 +37,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error"
   },
-  "overrides": [
-    {
-      "files": ["**/*.stories.*"],
-      "rules": {
-        "import/no-anonymous-default-export": "off"
-      }
-    }
-  ],
-  "ignorePatterns": ["!.storybook", "dist"],
+  "ignorePatterns": ["!.storybook", "**/*.snap", "dist", "storybook-static"],
   "settings": {
     "react": {
       "version": "detect"

@@ -15,13 +15,15 @@ import { MainItemLarge as StripThreeCols } from "~components/StripThreeCols/Stri
 
 import Homepage from "./Homepage";
 
-export default {
+const meta: Meta<typeof Homepage> = {
   title: "Pages/Home",
   component: Homepage,
   parameters: {
     layout: "fullscreen",
   },
-} as Meta<typeof Homepage>;
+};
+
+export default meta;
 
 type Story = StoryObj<typeof Homepage>;
 
