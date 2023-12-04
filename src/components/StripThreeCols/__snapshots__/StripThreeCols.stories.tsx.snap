@@ -13,12 +13,12 @@ exports[`Layout/StripThreeCols EqualSizeItems smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>
@@ -40,12 +40,12 @@ exports[`Layout/StripThreeCols MainItemLarge smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>
@@ -67,7 +67,7 @@ exports[`Layout/StripThreeCols MainItemLargeTwoItems smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
@@ -89,12 +89,12 @@ exports[`Layout/StripThreeCols MobileScroll smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>
@@ -116,12 +116,12 @@ exports[`Layout/StripThreeCols MobileWrap smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>
@@ -160,12 +160,12 @@ exports[`Layout/StripThreeCols SecondaryItemsLarge smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>
@@ -187,7 +187,7 @@ exports[`Layout/StripThreeCols SecondaryItemsLargeTwoItems smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
@@ -209,12 +209,12 @@ exports[`Layout/StripThreeCols TabletMaintain smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>
@@ -236,12 +236,12 @@ exports[`Layout/StripThreeCols TabletWrap smoke-test 1`] = `
         Item 1
       </div>
     </div>
-    <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+    <div style="grid-area: secondary1;">
       <div class="sc-dhKdcB leyVpG">
         Item 2
       </div>
     </div>
-    <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+    <div style="grid-area: secondary2;">
       <div class="sc-dhKdcB leyVpG">
         Item 3
       </div>

@@ -98,7 +98,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({
 
   // Auto slide effect
   useEffect(() => {
-    let autoSlideInterval: NodeJS.Timer;
+    let autoSlideInterval: NodeJS.Timeout;
 
     if (autoSlide) {
       autoSlideInterval = setInterval(() => {

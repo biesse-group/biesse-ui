@@ -33,7 +33,7 @@ exports[`Buttons/PlayButton Inverted smoke-test 1`] = `
 exports[`Buttons/PlayButton Primary play-test 1`] = `
 <div data-testid="primary-button"
      class="sc-eqUAAy fBlbvC"
-     style="opacity: 0;"
+     style="opacity: 1;"
 >
   <div class="sc-fqkvVR cDXDrb">
   </div>

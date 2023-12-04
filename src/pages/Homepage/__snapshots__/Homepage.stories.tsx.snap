@@ -374,12 +374,12 @@ exports[`Pages/Home Default smoke-test 1`] = `
             Item 1
           </div>
         </div>
-        <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+        <div style="grid-area: secondary1;">
           <div class="sc-dSCufp kzitFT">
             Item 2
           </div>
         </div>
-        <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+        <div style="grid-area: secondary2;">
           <div class="sc-dSCufp kzitFT">
             Item 3
           </div>
@@ -400,12 +400,12 @@ exports[`Pages/Home Default smoke-test 1`] = `
             Item 1
           </div>
         </div>
-        <div style="grid-area: secondary1 / secondary1 / secondary1 / secondary1;">
+        <div style="grid-area: secondary1;">
           <div class="sc-dSCufp kzitFT">
             Item 2
           </div>
         </div>
-        <div style="grid-area: secondary2 / secondary2 / secondary2 / secondary2;">
+        <div style="grid-area: secondary2;">
           <div class="sc-dSCufp kzitFT">
             Item 3
           </div>
