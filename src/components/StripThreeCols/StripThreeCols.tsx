@@ -136,6 +136,7 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
   ...props
 }) => {
   const [main, secondary1, secondary2] = items;
+  const itemsCount = items.filter(Boolean).length;
 
   return (
     <Root {...props}>
@@ -145,7 +146,7 @@ export const StripThreeCols: FC<StripThreeColsProps> = ({
         </StripTitle>
       )}
       <ItemsGrid
-        itemsCount={Math.min(items.length, 3)}
+        itemsCount={Math.min(itemsCount, 3)}
         {...{ tabletBehavior, mobileBehavior, variant }}
       >
         <MainItem>{main}</MainItem>
