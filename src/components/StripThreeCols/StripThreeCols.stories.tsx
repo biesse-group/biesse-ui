@@ -59,6 +59,12 @@ EqualSizeItems.args = {
   variant: "1-1-1",
 };
 
+export const TwoItems: Story = {};
+TwoItems.args = {
+  ...MainItemLarge.args,
+  items: [items[0], items[1], undefined],
+};
+
 export const OneItem: Story = {};
 OneItem.args = {
   ...EqualSizeItems.args,

@@ -40,3 +40,4 @@ export * from "./CompanyNetwork";
 export * from "./CompanyQuality";
 export * from "./CompanyEnvironment";
 export * from "./CompanySafety";
+export * from "./Whistleblowing";

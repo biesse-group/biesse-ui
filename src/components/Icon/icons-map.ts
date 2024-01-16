@@ -44,6 +44,7 @@ const iconsMap = {
   "company-quality": IconSources.CompanyQuality,
   "company-environment": IconSources.CompanyEnvironment,
   "company-safety": IconSources.CompanySafety,
+  whistleblowing: IconSources.Whistleblowing,
 };
 
 export default iconsMap;
