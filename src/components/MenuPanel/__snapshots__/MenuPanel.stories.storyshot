@@ -6,7 +6,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
   margin: 0;
 }
 
@@ -15,7 +15,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 {
@@ -47,7 +47,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   -webkit-flex: 0 0 30px;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c12 > svg {
@@ -57,18 +57,18 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 }
 
 .c2 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c2:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -102,7 +102,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   padding: 35px 65px;
   text-align: left;
   background-color: transparent;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
   text-transform: uppercase;
   cursor: pointer;
@@ -163,7 +163,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 
 .c5 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -173,7 +173,7 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;
@@ -508,7 +508,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c11 > svg {
@@ -518,18 +518,18 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 }
 
 .c3 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c3:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -537,7 +537,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 
 .c13 {
   height: 1px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   margin: 20px 30px;
 }
 
@@ -563,7 +563,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   padding: 18px 30px;
   text-align: left;
   background-color: transparent;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
   text-transform: uppercase;
   cursor: pointer;
@@ -597,7 +597,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   padding: 18px 30px;
   text-align: left;
   background-color: transparent;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
   text-transform: uppercase;
   cursor: pointer;
@@ -652,7 +652,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
 
 .c6 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -662,7 +662,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;
@@ -1160,22 +1160,19 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c5:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 .c2 {
@@ -1191,7 +1188,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 
 .c2:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -1240,7 +1237,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 }
 
 .c9:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 .c0 {
@@ -1758,7 +1755,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
   margin: 0;
 }
 
@@ -1767,7 +1764,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 {
@@ -1799,7 +1796,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   -webkit-flex: 0 0 30px;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c12 > svg {
@@ -1809,18 +1806,18 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 }
 
 .c2 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c2:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1854,7 +1851,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   padding: 35px 65px;
   text-align: left;
   background-color: transparent;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
   text-transform: uppercase;
   cursor: pointer;
@@ -1915,7 +1912,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 
 .c5 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -1925,7 +1922,7 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;
@@ -2298,22 +2295,19 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c5:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 .c2 {
@@ -2329,7 +2323,7 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 
 .c2:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -2823,7 +2817,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 
 .c3:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -2859,7 +2853,7 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 }
 
 .c1 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   width: 100%;
   height: 100vh;
   display: -webkit-box;
@@ -3058,7 +3052,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
   margin: 0;
 }
 
@@ -3067,7 +3061,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 {
@@ -3099,7 +3093,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   -webkit-flex: 0 0 30px;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c12 > svg {
@@ -3109,18 +3103,18 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 }
 
 .c2 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c2:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -3154,7 +3148,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   padding: 35px 65px;
   text-align: left;
   background-color: transparent;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
   text-transform: uppercase;
   cursor: pointer;
@@ -3215,7 +3209,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 
 .c5 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -3225,7 +3219,7 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;

@@ -54,7 +54,7 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c17 a {
@@ -62,7 +62,7 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c14 {
@@ -102,7 +102,7 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   grid-template-rows: repeat(2,auto);
   grid-template-columns: auto 1fr;
   grid-template-areas: "date-subgrid title" "description description";
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 2px 6px 0 rgba(0,0,0,0.5);
   cursor: auto;
   overflow: hidden;
@@ -521,7 +521,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   -webkit-flex: 0 0 23px;
   -ms-flex: 0 0 23px;
   flex: 0 0 23px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 > svg {
@@ -549,9 +549,6 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -564,7 +561,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 
 .c17:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c9 {
@@ -600,7 +597,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -645,7 +642,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   padding: 24px 15px 0px 20px;
   text-align: center;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c16 {
@@ -1053,7 +1050,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   -webkit-flex: 0 0 23px;
   -ms-flex: 0 0 23px;
   flex: 0 0 23px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 > svg {
@@ -1081,9 +1078,6 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -1096,7 +1090,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 
 .c17:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c9 {
@@ -1132,7 +1126,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -1177,7 +1171,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   padding: 24px 15px 0px 20px;
   text-align: center;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c16 {
@@ -1528,9 +1522,6 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -1543,7 +1534,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 
 .c6:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c2 {
@@ -1580,7 +1571,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -1794,7 +1785,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   -webkit-flex: 0 0 23px;
   -ms-flex: 0 0 23px;
   flex: 0 0 23px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 > svg {
@@ -1822,9 +1813,6 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -1837,7 +1825,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 
 .c17:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c9 {
@@ -1873,7 +1861,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -1918,7 +1906,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   padding: 24px 15px 0px 20px;
   text-align: center;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c16 {

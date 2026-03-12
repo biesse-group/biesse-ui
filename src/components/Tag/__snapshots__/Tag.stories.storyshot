@@ -6,7 +6,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 a {
@@ -14,7 +14,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -27,17 +27,13 @@ exports[`Storyshots Display/Tag Composite 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c4 {
-  text-transform: uppercase;
 }
 
 .c2 {
@@ -52,7 +48,6 @@ exports[`Storyshots Display/Tag Composite 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -114,7 +109,7 @@ exports[`Storyshots Display/Tag Composite 1`] = `
     </svg>
   </span>
   <span
-    className="c3 c4"
+    className="c3 "
     color="light"
     size="sm"
   >
@@ -129,7 +124,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 a {
@@ -137,7 +132,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -150,17 +145,13 @@ exports[`Storyshots Display/Tag Glass 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c4 {
-  text-transform: uppercase;
 }
 
 .c2 {
@@ -175,7 +166,6 @@ exports[`Storyshots Display/Tag Glass 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -237,7 +227,7 @@ exports[`Storyshots Display/Tag Glass 1`] = `
     </svg>
   </span>
   <span
-    className="c3 c4"
+    className="c3 "
     color="light"
     size="sm"
   >
@@ -252,7 +242,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 a {
@@ -260,7 +250,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -273,17 +263,13 @@ exports[`Storyshots Display/Tag Metal 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c4 {
-  text-transform: uppercase;
 }
 
 .c2 {
@@ -298,7 +284,6 @@ exports[`Storyshots Display/Tag Metal 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -371,7 +356,7 @@ exports[`Storyshots Display/Tag Metal 1`] = `
     </svg>
   </span>
   <span
-    className="c3 c4"
+    className="c3 "
     color="light"
     size="sm"
   >
@@ -386,7 +371,7 @@ exports[`Storyshots Display/Tag Primary 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 a {
@@ -394,11 +379,7 @@ exports[`Storyshots Display/Tag Primary 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
-}
-
-.c2 {
-  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .c0 {
@@ -409,7 +390,6 @@ exports[`Storyshots Display/Tag Primary 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -455,7 +435,7 @@ exports[`Storyshots Display/Tag Primary 1`] = `
   color="primary"
 >
   <span
-    className="c1 c2"
+    className="c1 "
     color="light"
     size="sm"
   >
@@ -470,7 +450,7 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 a {
@@ -478,11 +458,7 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
-}
-
-.c2 {
-  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .c0 {
@@ -493,7 +469,6 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -539,7 +514,7 @@ exports[`Storyshots Display/Tag Secondary 1`] = `
   color="secondary"
 >
   <span
-    className="c1 c2"
+    className="c1 "
     color="light"
     size="sm"
   >
@@ -554,7 +529,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 a {
@@ -562,7 +537,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -575,17 +550,13 @@ exports[`Storyshots Display/Tag Stone 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c4 {
-  text-transform: uppercase;
 }
 
 .c2 {
@@ -600,7 +571,6 @@ exports[`Storyshots Display/Tag Stone 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -662,7 +632,7 @@ exports[`Storyshots Display/Tag Stone 1`] = `
     </svg>
   </span>
   <span
-    className="c3 c4"
+    className="c3 "
     color="light"
     size="sm"
   >
@@ -677,7 +647,7 @@ exports[`Storyshots Display/Tag With Border 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 a {
@@ -685,11 +655,7 @@ exports[`Storyshots Display/Tag With Border 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
-}
-
-.c2 {
-  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .c0 {
@@ -700,7 +666,6 @@ exports[`Storyshots Display/Tag With Border 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -716,7 +681,7 @@ exports[`Storyshots Display/Tag With Border 1`] = `
   align-items: center;
   background-color: #6D6E70;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 @media screen and (max-width:991px) {
@@ -748,7 +713,7 @@ exports[`Storyshots Display/Tag With Border 1`] = `
   color="primary"
 >
   <span
-    className="c1 c2"
+    className="c1 "
     color="light"
     size="sm"
   >
@@ -763,7 +728,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 a {
@@ -771,7 +736,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -784,17 +749,13 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c4 {
-  text-transform: uppercase;
 }
 
 .c2 {
@@ -809,7 +770,6 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -889,7 +849,7 @@ exports[`Storyshots Display/Tag With Icon 1`] = `
     </svg>
   </span>
   <span
-    className="c3 c4"
+    className="c3 "
     color="light"
     size="sm"
   >
@@ -904,7 +864,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 a {
@@ -912,7 +872,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -925,17 +885,13 @@ exports[`Storyshots Display/Tag Wood 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c4 {
-  text-transform: uppercase;
 }
 
 .c2 {
@@ -950,7 +906,6 @@ exports[`Storyshots Display/Tag Wood 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1012,7 +967,7 @@ exports[`Storyshots Display/Tag Wood 1`] = `
     </svg>
   </span>
   <span
-    className="c3 c4"
+    className="c3 "
     color="light"
     size="sm"
   >

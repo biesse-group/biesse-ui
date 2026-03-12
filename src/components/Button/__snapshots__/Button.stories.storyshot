@@ -25,15 +25,12 @@ exports[`Storyshots Buttons/Button Block 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
   width: 100%;
@@ -41,7 +38,7 @@ exports[`Storyshots Buttons/Button Block 1`] = `
 
 .c1:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div
@@ -90,22 +87,19 @@ exports[`Storyshots Buttons/Button Clicked 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c1:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div
@@ -154,9 +148,6 @@ exports[`Storyshots Buttons/Button Disabled 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   opacity: 0.5;
@@ -165,14 +156,14 @@ exports[`Storyshots Buttons/Button Disabled 1`] = `
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c1:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div
@@ -221,9 +212,6 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
@@ -236,7 +224,7 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
 
 .c1:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <div
@@ -284,22 +272,19 @@ exports[`Storyshots Buttons/Button Outline Inverted 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background: transparent;
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c1:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div
@@ -347,22 +332,19 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c1:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div
@@ -411,21 +393,18 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   color: #6D6E70;
-  background-color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c1:hover {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
 }
 
@@ -498,9 +477,6 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
@@ -577,9 +553,6 @@ exports[`Storyshots Buttons/Button Small 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -592,7 +565,7 @@ exports[`Storyshots Buttons/Button Small 1`] = `
 
 .c1:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <div
@@ -665,9 +638,6 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
@@ -680,7 +650,7 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
 
 .c1:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <div
@@ -785,9 +755,6 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
@@ -800,7 +767,7 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
 
 .c1:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 <div

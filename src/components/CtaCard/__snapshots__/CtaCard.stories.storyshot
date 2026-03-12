@@ -60,9 +60,6 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -95,7 +92,7 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
 }
 
 .c1:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -369,9 +366,6 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -413,7 +407,7 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
 }
 
 .c1:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 

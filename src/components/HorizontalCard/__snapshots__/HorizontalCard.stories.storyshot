@@ -55,9 +55,6 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -70,7 +67,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 
 .c9:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 {
@@ -143,7 +140,7 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -332,9 +329,6 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -347,7 +341,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 
 .c9:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 {
@@ -438,7 +432,7 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -658,9 +652,6 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -673,7 +664,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 
 .c9:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 {
@@ -746,7 +737,7 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 
@@ -922,9 +913,6 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 14px;
@@ -937,7 +925,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
 
 .c9:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c5 {
@@ -1028,7 +1016,7 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
 }
 
 .c0:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   box-shadow: 0 0 20px 0 rgba(140,140,140,0.5);
 }
 

@@ -56,7 +56,7 @@ exports[`Storyshots Slideshow/HeroBanner Default 1`] = `
   height: 500px;
   padding: 65px 60px 45px 120px;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
   font-size: 18px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -255,7 +255,6 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -285,22 +284,19 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background: transparent;
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c12:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 .c8 {
@@ -341,7 +337,7 @@ exports[`Storyshots Slideshow/HeroBanner With Extra Info 1`] = `
   height: 500px;
   padding: 35px 60px 45px 120px;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
   font-size: 18px;
   display: -webkit-box;
   display: -webkit-flex;

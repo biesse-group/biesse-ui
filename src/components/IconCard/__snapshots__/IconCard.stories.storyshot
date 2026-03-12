@@ -56,9 +56,6 @@ exports[`Storyshots Cards/IconCard Not Wrap On Mobile 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
@@ -71,7 +68,7 @@ exports[`Storyshots Cards/IconCard Not Wrap On Mobile 1`] = `
 
 .c10:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 {
@@ -346,9 +343,6 @@ exports[`Storyshots Cards/IconCard Wrap On Mobile 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
   font-size: 16px;
@@ -361,7 +355,7 @@ exports[`Storyshots Cards/IconCard Wrap On Mobile 1`] = `
 
 .c9:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 {

@@ -12,7 +12,7 @@ exports[`Storyshots Typography/Title Light 1`] = `
   font-weight: 700;
   font-size: 40px;
   text-transform: none;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width:991px) {

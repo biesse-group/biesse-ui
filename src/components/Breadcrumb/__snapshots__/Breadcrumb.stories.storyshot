@@ -72,7 +72,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
 }
 
 .c3 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -337,7 +336,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -614,7 +612,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -891,7 +888,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
