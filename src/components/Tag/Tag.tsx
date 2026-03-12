@@ -25,9 +25,7 @@ export interface TagProps extends BaseProps {
   testId?: string;
 }
 
-const TagLabel = styled(Text)`
-  text-transform: uppercase;
-`;
+const TagLabel = styled(Text)``;
 
 const TagIcon = styled(Icon)`
   margin-right: 9px;
@@ -40,7 +38,6 @@ const TagRoot = styled.div<Pick<TagProps, "border" | "color"> & { hasIcon: boole
   border-radius: ${(props) => props.theme.button.borderRadius};
   line-height: 1;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: inline-flex;
   flex-direction: row;
   padding: 0px 14px 0px ${(props) => (props.hasIcon ? "10px" : "14px")};

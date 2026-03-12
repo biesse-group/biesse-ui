@@ -2,61 +2,75 @@ import { type FC } from "react";
 import styled, { css } from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
+import { mqUntil } from "~styles/media-queries";
 
-import * as LogoSources from "./logo-sources";
+import logoBlack from "../../assets/logo/hsd-logo-black.jpg";
+import logoFlat from "../../assets/logo/hsd-logo-flat.jpg";
+import logoGradient from "../../assets/logo/hsd-logo-gradient.png";
+import logoWhite from "../../assets/logo/hsd-logo-white.png";
+
+export type LogoVariant = "gradient" | "flat" | "black" | "white";
 
 export interface LogoProps extends BaseProps {
   /**
-   * Id of the logo you want to use
+   * Selection of the logo variant to display
    */
-  name: LogoName;
+  variant?: LogoVariant;
   /**
-   * Sizes of the logo you want to use, width will override height to keep proportions
+   * Width of the logo (e.g., '200px', '10rem')
    */
   width?: string;
   /**
-   * Color of the logo
+   * Accessible title/alt for the logo
    */
-  color?: "primary" | "white" | string;
-  testId?: string;
   title?: string;
+  testId?: string;
 }
 
-// Must be update each time a new logo is inserted in the library
-const logoMap = {
-  HSD: LogoSources.HsdLogo,
+const logoMap: Record<LogoVariant, string> = {
+  gradient: logoGradient,
+  flat: logoFlat,
+  black: logoBlack,
+  white: logoWhite,
 };
 
-export type LogoName = keyof typeof logoMap;
+const LogoRoot = styled.div<{ $width?: string }>`
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: ${({ $width }) => $width ?? "auto"};
+  margin-left: -40px;
+  transform: translateY(-5px);
 
-const LogoRoot = styled.div<Pick<LogoProps, "width" | "color">>`
-  & svg {
-    width: 100%;
-  }
-
-  ${({ color, theme }) =>
-    color &&
+  ${mqUntil(
+    "md",
     css`
-      color: ${color === "primary" || color === "white" ? theme.color[color] : color};
-    `}
+      margin-left: -20px;
+    `
+  )}
 
-  ${(props) => css`
-    width: ${props.width};
-  `}
+  img {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+  }
 `;
 
 export const Logo: FC<LogoProps> = ({
-  name,
+  variant = "white",
   width,
+  title = "HSD Logo",
   testId,
-  color = "inherit",
-  title,
   ...props
 }) => {
-  const LogoComponent = logoMap[name];
+  const src = logoMap[variant];
+
   return (
-    <LogoRoot width={width} data-testid={testId} color={color} aria-label={title} {...props}>
-      <LogoComponent title={title} />
+    <LogoRoot $width={width} data-testid={testId} {...props}>
+      <img src={src} alt={title} title={title} />
     </LogoRoot>
   );
 };
