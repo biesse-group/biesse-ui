@@ -27,7 +27,6 @@ export interface LinksListProps extends BaseProps {
 const LinksListRoot = styled.div`
   display: flex;
   flex-direction: column;
-  text-transform: uppercase;
 `;
 
 const LinkListTitle = styled(Title)`
@@ -74,7 +73,7 @@ const ArrowIcon = styled(Icon)`
 export const LinksList: FC<LinksListProps> = ({ title, links, ...props }) => {
   return (
     <LinksListRoot {...props}>
-      <LinkListTitle variant="h6" color="light" uppercase>
+      <LinkListTitle variant="h6" color="light">
         {title}
       </LinkListTitle>
       {links?.map((linkElement, index) => (

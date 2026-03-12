@@ -86,19 +86,19 @@ const LogoWrapper = styled.div`
 
   > div,
   > a {
-    flex: 0 1 480px;
+    flex: 0 1 250px;
 
     ${mqUntil(
       "lg",
       css`
-        flex: 0 1 345px;
+        flex: 0 1 200px;
       `
     )}
 
     ${mqUntil(
       "sm",
       css`
-        flex: 0 1 200px;
+        flex: 0 1 120px;
       `
     )}
   }
@@ -186,7 +186,6 @@ export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOp
   const { variant } = props;
   return (
     <HeaderRoot data-testid={testId} {...props}>
-      {/* Main Header */}
       <MainHeaderWrapper variant={variant}>
         <MainHeaderInner>
           <LogoWrapper>{logo}</LogoWrapper>
@@ -216,7 +215,7 @@ export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOp
                   weight="medium"
                   color={variant === "transparent" ? "light" : "primary"}
                 >
-                  {navLink.label.toUpperCase()}
+                  {navLink.label}
                 </Text>
               )}
             </SecondaryNavItem>

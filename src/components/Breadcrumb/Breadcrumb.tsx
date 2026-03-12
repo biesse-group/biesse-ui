@@ -38,7 +38,6 @@ const BreadcrumbRoot = styled.div`
 `;
 
 const BreadcrumbLabel = styled(Text)`
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
