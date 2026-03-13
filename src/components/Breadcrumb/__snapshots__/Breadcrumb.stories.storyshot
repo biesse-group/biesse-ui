@@ -147,11 +147,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   >
     <span
       className="c2 c3"
-      style={
-        {
-          "textTransform": "uppercase",
-        }
-      }
     >
       Famiglie di prodotto
     </span>
@@ -182,13 +177,8 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   >
     <span
       className="c2 c3"
-      style={
-        {
-          "textTransform": "uppercase",
-        }
-      }
     >
-      Elettromandrino ATC
+      Elettromandrino atc
     </span>
   </a>
   <span
@@ -217,13 +207,8 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   >
     <span
       className="c2 c3"
-      style={
-        {
-          "textTransform": "uppercase",
-        }
-      }
     >
-      ES3 Line
+      Es3 line
     </span>
   </a>
   <span
@@ -248,13 +233,8 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   </span>
   <span
     className="c6 c3"
-    style={
-      {
-        "textTransform": "uppercase",
-      }
-    }
   >
-    ES327
+    Es327
   </span>
 </div>
 `;
@@ -421,11 +401,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Famiglie di prodotto
         </span>
@@ -456,13 +431,8 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
-          Elettromandrino ATC
+          Elettromandrino atc
         </span>
       </a>
       <span
@@ -491,13 +461,8 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
-          ES3 Line
+          Es3 line
         </span>
       </a>
       <span
@@ -522,13 +487,8 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       </span>
       <span
         className="c7 c4"
-        style={
-          {
-            "textTransform": "uppercase",
-          }
-        }
       >
-        ES327
+        Es327
       </span>
     </div>
   </div>
@@ -697,11 +657,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Famiglie di prodotto
         </span>
@@ -732,13 +687,8 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
-          Elettromandrino ATC
+          Elettromandrino atc
         </span>
       </a>
       <span
@@ -767,13 +717,8 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
-          ES3 Line
+          Es3 line
         </span>
       </a>
       <span
@@ -798,13 +743,8 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       </span>
       <span
         className="c7 c4"
-        style={
-          {
-            "textTransform": "uppercase",
-          }
-        }
       >
-        ES327
+        Es327
       </span>
     </div>
   </div>
@@ -973,11 +913,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Famiglie di prodotto
         </span>
@@ -1008,13 +943,8 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
-          Elettromandrino ATC
+          Elettromandrino atc
         </span>
       </a>
       <span
@@ -1043,13 +973,8 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
-          ES3 Line
+          Es3 line
         </span>
       </a>
       <span
@@ -1074,13 +999,8 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       </span>
       <span
         className="c7 c4"
-        style={
-          {
-            "textTransform": "uppercase",
-          }
-        }
       >
-        ES327
+        Es327
       </span>
     </div>
   </div>

@@ -6,8 +6,13 @@ exports[`Storyshots Layout/StripThreeCols Equal Size Items 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -148,8 +153,13 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -290,8 +300,13 @@ exports[`Storyshots Layout/StripThreeCols Main Item Large Two Items 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -419,8 +434,13 @@ exports[`Storyshots Layout/StripThreeCols Mobile Scroll 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -560,8 +580,13 @@ exports[`Storyshots Layout/StripThreeCols Mobile Wrap 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -702,8 +727,13 @@ exports[`Storyshots Layout/StripThreeCols One Item 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -818,8 +848,13 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -960,8 +995,13 @@ exports[`Storyshots Layout/StripThreeCols Secondary Items Large Two Items 1`] = 
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -1089,8 +1129,13 @@ exports[`Storyshots Layout/StripThreeCols Tablet Maintain 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -1224,8 +1269,13 @@ exports[`Storyshots Layout/StripThreeCols Tablet Wrap 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {
@@ -1366,8 +1416,13 @@ exports[`Storyshots Layout/StripThreeCols Two Items 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c0 {

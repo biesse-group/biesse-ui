@@ -57,12 +57,18 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c9::first-letter {
+  text-transform: uppercase;
 }
 
 .c9:hover {
@@ -75,8 +81,13 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c5::first-letter {
+  text-transform: uppercase;
 }
 
 .c1 {
@@ -331,12 +342,18 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c9::first-letter {
+  text-transform: uppercase;
 }
 
 .c9:hover {
@@ -349,8 +366,13 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c5::first-letter {
+  text-transform: uppercase;
 }
 
 .c1 {
@@ -654,12 +676,18 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c9::first-letter {
+  text-transform: uppercase;
 }
 
 .c9:hover {
@@ -672,8 +700,13 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c5::first-letter {
+  text-transform: uppercase;
 }
 
 .c1 {
@@ -915,12 +948,18 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c9::first-letter {
+  text-transform: uppercase;
 }
 
 .c9:hover {
@@ -933,8 +972,13 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #6D6E70;
+}
+
+.c5::first-letter {
+  text-transform: uppercase;
 }
 
 .c1 {

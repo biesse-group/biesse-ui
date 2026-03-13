@@ -104,7 +104,6 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
   background-color: transparent;
   color: #FFFFFF;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 40px;
@@ -156,7 +155,6 @@ exports[`Storyshots Layout/MenuPanel Active Item 1`] = `
 }
 
 .c9 {
-  text-transform: uppercase;
   padding: 0 65px;
   margin-bottom: 15px;
 }
@@ -565,7 +563,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   background-color: transparent;
   color: #FFFFFF;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 24px;
@@ -599,7 +596,6 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
   background-color: transparent;
   color: #FFFFFF;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 22px;
@@ -951,7 +947,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
         <button
           className="c10"
         >
-          Case History
+          Case history
           <span
             className="c11 c12 "
             color="white"
@@ -1162,12 +1158,18 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c5::first-letter {
+  text-transform: uppercase;
 }
 
 .c5:hover {
@@ -1223,7 +1225,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   background-color: transparent;
   color: #6D6E70;
   width: 100%;
-  text-transform: none;
   cursor: pointer;
   font-weight: 500;
   font-size: 22px;
@@ -1282,7 +1283,6 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
 }
 
 .c7 {
-  text-transform: uppercase;
   padding: 0 60px;
   margin-bottom: 15px;
 }
@@ -1514,7 +1514,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       className="c9"
     >
-      Asse C
+      Asse c
       <span
         className="c10 c11 c12"
         color="primary"
@@ -1592,7 +1592,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       className="c9"
     >
-      Elettromandrini MT
+      Elettromandrini mt
       <span
         className="c10 c11 c12"
         color="primary"
@@ -1709,7 +1709,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       className="c9"
     >
-      Smart Motors
+      Smart motors
       <span
         className="c10 c11 c12"
         color="primary"
@@ -1853,7 +1853,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
   background-color: transparent;
   color: #FFFFFF;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 40px;
@@ -1905,7 +1904,6 @@ exports[`Storyshots Layout/MenuPanel Primary 1`] = `
 }
 
 .c9 {
-  text-transform: uppercase;
   padding: 0 65px;
   margin-bottom: 15px;
 }
@@ -2297,12 +2295,18 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c5::first-letter {
+  text-transform: uppercase;
 }
 
 .c5:hover {
@@ -2358,7 +2362,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   background-color: transparent;
   color: #6D6E70;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 30px;
@@ -2410,7 +2413,6 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
 }
 
 .c7 {
-  text-transform: uppercase;
   padding: 0 60px;
   margin-bottom: 15px;
 }
@@ -2846,7 +2848,6 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
   background-color: transparent;
   color: #6D6E70;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 24px;
@@ -2886,7 +2887,6 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
 }
 
 .c6 {
-  text-transform: uppercase;
   padding: 0 60px;
   margin-bottom: 15px;
 }
@@ -3033,12 +3033,12 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
         <button
           className="c8"
         >
-          ES7 Line
+          Es7 line
         </button>
         <button
           className="c8"
         >
-          ES8 Line S
+          Es8 line s
         </button>
       </div>
     </div>
@@ -3150,7 +3150,6 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
   background-color: transparent;
   color: #FFFFFF;
   width: 100%;
-  text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 40px;
@@ -3202,7 +3201,6 @@ exports[`Storyshots Layout/MenuPanel With Back Button 1`] = `
 }
 
 .c9 {
-  text-transform: uppercase;
   padding: 0 65px;
   margin-bottom: 15px;
 }

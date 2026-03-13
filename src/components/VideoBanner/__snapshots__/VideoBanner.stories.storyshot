@@ -41,8 +41,13 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 50px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #FFFFFF;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c3 {
@@ -50,8 +55,13 @@ exports[`Storyshots Slideshow/VideoBanner Default 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  display: inline-block;
   color: #FFFFFF;
+}
+
+.c3::first-letter {
+  text-transform: uppercase;
 }
 
 .c12 {

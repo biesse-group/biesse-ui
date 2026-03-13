@@ -27,6 +27,8 @@ exports[`Storyshots Buttons/Button Block 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -34,6 +36,10 @@ exports[`Storyshots Buttons/Button Block 1`] = `
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
   width: 100%;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -89,12 +95,18 @@ exports[`Storyshots Buttons/Button Clicked 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -150,6 +162,8 @@ exports[`Storyshots Buttons/Button Disabled 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   opacity: 0.5;
   cursor: auto;
   pointer-events: none;
@@ -159,6 +173,10 @@ exports[`Storyshots Buttons/Button Disabled 1`] = `
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -214,12 +232,18 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -274,12 +298,18 @@ exports[`Storyshots Buttons/Button Outline Inverted 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background: transparent;
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -334,12 +364,18 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -395,12 +431,18 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   color: #6D6E70;
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -479,13 +521,18 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background: transparent;
   color: #6D6E70;
-  text-transform: none;
   padding: 0px;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 <div
@@ -555,12 +602,18 @@ exports[`Storyshots Buttons/Button Small 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -640,12 +693,18 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {
@@ -757,12 +816,18 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  text-transform: lowercase;
+  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
+}
+
+.c1::first-letter {
+  text-transform: uppercase;
 }
 
 .c1:hover {

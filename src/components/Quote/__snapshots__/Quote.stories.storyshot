@@ -37,7 +37,7 @@ exports[`Storyshots Display/Quote Default 1`] = `
   color: inherit;
 }
 
-.c9 {
+.c8 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -46,7 +46,7 @@ exports[`Storyshots Display/Quote Default 1`] = `
   margin: 0;
 }
 
-.c9 a {
+.c8 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -108,10 +108,6 @@ exports[`Storyshots Display/Quote Default 1`] = `
   position: absolute;
   bottom: 0;
   right: -60px;
-}
-
-.c8 {
-  text-transform: uppercase;
 }
 
 @media screen and (max-width:991px) {
@@ -255,13 +251,13 @@ exports[`Storyshots Display/Quote Default 1`] = `
       Il nuovo mandrino ES951 e la piattaforma My HSD sono un connubio ad alta performance perché andiamo ad unire quella che è la performance del mandrino alla possibilità di andare a rilevare tutti i dati che questo può trasmettere a distanza, dando la possibilità di monitorare in tempo reale tutto quello che sta succedendo sul mandrino
     </p>
     <p
-      className="c7 c8"
+      className="c7 "
       size="lg"
     >
-      John Doe
+      John doe
     </p>
     <p
-      className="c9"
+      className="c8"
     >
       UTE/Service Manager A.C.M.E. spa
     </p>
