@@ -54,8 +54,8 @@ export const Breadcrumb: FC<BreadcrumbProps> = ({ items, renderLink, ...props })
       {items.map(({ label, path }, index) => {
         const isLast = index === items.length - 1;
         const element = (
-          <BreadcrumbLabel style={{ textTransform: "uppercase" }} weight={isLast ? "bold" : "book"}>
-            {label}
+          <BreadcrumbLabel weight={isLast ? "bold" : "book"}>
+            {label.toSentenceCase()}
           </BreadcrumbLabel>
         );
         return (

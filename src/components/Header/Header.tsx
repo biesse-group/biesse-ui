@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
-import { mqUntil } from "~styles/media-queries";
+import { mqUntil } from "~styles";
 
 import { type HeaderProps } from "./headerProps";
 import { NavIconItem } from "./NavIconItem";
@@ -182,6 +182,8 @@ const HamburgerMenuIconWrapper = styled.div`
   )}
 `;
 
+const NavLinkText = styled(Text)``;
+
 export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOpen, ...props }) => {
   const { variant } = props;
   return (
@@ -210,13 +212,13 @@ export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOp
               isSelected={navLink.isSelected}
             >
               {navLink.renderLink(
-                <Text
+                <NavLinkText
                   size="sm"
                   weight="medium"
                   color={variant === "transparent" ? "light" : "primary"}
                 >
-                  {navLink.label}
-                </Text>
+                  {navLink.label.toSentenceCase()}
+                </NavLinkText>
               )}
             </SecondaryNavItem>
           ))}

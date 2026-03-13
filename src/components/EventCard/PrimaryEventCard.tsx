@@ -126,13 +126,13 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       <DateLinkWrapper>
         <DateDay weight="bold">{`${startDate.format("DD")}`}</DateDay>
         <Text size="md" weight="medium">
-          {`${startDate.format("MMMYY")}`.toUpperCase()}
+          {`${startDate.format("MMMYY")}`.toSentenceCase()}
         </Text>
         {uniqueDates.length > 1 && endDate && (
           <>
             <DateDay weight="bold">{`${endDate.format("DD")}`}</DateDay>
             <Text size="md" weight="medium">
-              {`${endDate.format("MMMYY")}`.toUpperCase()}
+              {`${endDate.format("MMMYY")}`.toSentenceCase()}
             </Text>
           </>
         )}
@@ -140,7 +140,7 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       </DateLinkWrapper>
 
       <EventCardMainWrapper>
-        <CardTitle variant={titleTag} size="md" color="primary" uppercase>
+        <CardTitle variant={titleTag} size="md" color="primary" sentenceCase>
           {title}
         </CardTitle>
         <div style={{ marginBottom: 20 }}>

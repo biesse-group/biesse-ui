@@ -205,7 +205,7 @@ export const CtaCard: FC<CtaCardProps> = ({
       {(title ?? description) && (
         <TextWrapper variant={variant} $withButton={!!buttonLabel}>
           {title && variant === "with-title" && (
-            <StyledTitle variant={titleTag} size="md" color="primary" uppercase>
+            <StyledTitle variant={titleTag} size="md" color="primary" sentenceCase>
               {title}
             </StyledTitle>
           )}

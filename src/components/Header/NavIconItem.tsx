@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
-import { mqUntil } from "~styles/media-queries";
+import { mqUntil } from "~styles";
 
 import { type NavIconItemProps } from "./headerProps";
 
@@ -36,7 +36,7 @@ const NavIconItemWrapper = styled.div<{ isMobileVisibile?: boolean }>`
 const TextWrapper = styled.div`
   & > span {
     margin-left: 10px;
-    display: inline;
+    display: inline-block;
     font-size: 15px;
   }
   ${mqUntil(
@@ -66,6 +66,8 @@ const IconWrapper = styled.div`
   )}
 `;
 
+const NavIconText = styled(Text)``;
+
 export const NavIconItem: FC<NavIconItemProps> = ({
   label,
   icon,
@@ -81,9 +83,9 @@ export const NavIconItem: FC<NavIconItemProps> = ({
         <Icon size="100%" name={icon} />
       </IconWrapper>
       <TextWrapper>
-        <Text color="light" weight="book">
-          {label}
-        </Text>
+        <NavIconText color="light" weight="book">
+          {label.toSentenceCase()}
+        </NavIconText>
       </TextWrapper>
     </NavIconItemWrapper>
   );

@@ -5,7 +5,7 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { Text } from "~components/Text";
 import { useRefWithCallback } from "~hooks";
-import { mqUntil } from "~styles/media-queries";
+import { mqUntil, sentenceCase } from "~styles";
 
 export interface PartnerCarouselProps extends BaseProps {
   /**
@@ -38,7 +38,7 @@ const ProductCarouselRoot = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  text-transform: uppercase;
+  ${sentenceCase};
   background-color: ${(props) => props.theme.color.lightGray};
   padding: 40px 0px;
 

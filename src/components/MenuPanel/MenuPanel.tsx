@@ -84,7 +84,6 @@ const MenuExtra = styled.div<Pick<MenuPanelProps, "variant">>`
 `;
 
 const MenuTitle = styled(Text)<Pick<MenuPanelProps, "variant">>`
-  text-transform: uppercase;
   padding: 0 ${(props) => (props.variant === "primary" ? "65px" : "60px")};
   margin-bottom: 15px;
 
@@ -139,7 +138,7 @@ export const MenuPanel: FC<MenuPanelProps> = ({
           variant={variant}
           color={variant === "primary" || variant === "dark" ? "light" : "primary"}
         >
-          {title}
+          {title.toSentenceCase()}
         </MenuTitle>
       )}
       <MenuItemsContainer>

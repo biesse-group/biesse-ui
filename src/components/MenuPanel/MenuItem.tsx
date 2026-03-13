@@ -47,7 +47,6 @@ const MenuItemButton = styled.button<Pick<MenuItemProps, "variant" | "small">>`
   color: ${({ variant, theme }) =>
     variant === "primary" || variant === "dark" ? theme.color.white : theme.color.primary};
   width: 100%;
-  text-transform: ${(props) => (props.variant === "light" ? "none" : "uppercase")};
   cursor: pointer;
   font-weight: ${(props) => props.theme.font.weight[props.variant === "light" ? "medium" : "bold"]};
   font-size: ${({ variant, small }) => {
@@ -191,7 +190,7 @@ export const MenuItem: FC<MenuItemProps> = ({ label, icon, active, ...props }) =
   return (
     <MenuItemButton {...props}>
       {variant === "white" && icon && <MenuItemIcon>{icon}</MenuItemIcon>}
-      {label}
+      {label?.toSentenceCase()}
       {variant !== "white" && (
         <MenuItemArrow
           name={variant === "dark" ? "chevron-right" : "arrow-right"}

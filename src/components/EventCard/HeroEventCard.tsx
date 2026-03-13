@@ -5,7 +5,7 @@ import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
 import { useUniqueDates } from "~hooks/useUniqueDates";
-import { borderRadius } from "~styles";
+import { borderRadius, sentenceCase } from "~styles";
 import { mqUntil } from "~styles/media-queries";
 
 import { type EventCardProps } from "./eventCardProps";
@@ -53,7 +53,7 @@ const DateSubgrid = styled.div`
   padding: 12px 8px 12px 0;
   min-height: 80px;
   background-color: ${(props) => props.theme.color.lightGray};
-  text-transform: uppercase;
+  ${sentenceCase};
 `;
 
 const DayStyledText = styled(Text)`
@@ -106,7 +106,7 @@ const TitleWrapper = styled.div`
 
 const StyledTitle = styled(Title)`
   line-height: 26px;
-  text-transform: uppercase;
+  ${sentenceCase};
   font-size: 20px;
   padding: 12px 10px 12px 15px;
   margin: 0;

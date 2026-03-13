@@ -1,8 +1,7 @@
 import { type FC } from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 import type { BaseProps } from "~components/baseProps";
-import { mqUntil } from "~styles/media-queries";
 
 import logoBlack from "../../assets/logo/hsd-logo-black.jpg";
 import logoFlat from "../../assets/logo/hsd-logo-flat.jpg";
@@ -35,27 +34,14 @@ const logoMap: Record<LogoVariant, string> = {
 };
 
 const LogoRoot = styled.div<{ $width?: string }>`
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-start;
-  height: 100%;
   width: ${({ $width }) => $width ?? "auto"};
+  height: 100%;
   margin-left: -40px;
-  transform: translateY(-5px);
-
-  ${mqUntil(
-    "md",
-    css`
-      margin-left: -20px;
-    `
-  )}
+  transform: translateY(-5pxs);
 
   img {
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    width: 100%;
   }
 `;
 
