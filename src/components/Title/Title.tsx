@@ -10,8 +10,6 @@ import type { BaseProps } from "~components/baseProps";
 import { mqUntil } from "~styles/media-queries";
 import { type BiesseTheme } from "~themes";
 
-import { sentenceCase as sentenceCaseMixin } from "../../styles";
-
 type HeadingTag = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
 export interface TitleProps extends BaseProps {
@@ -46,7 +44,6 @@ const getHeadingStyle = ({
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight.bold};
   font-size: ${(props) => props.theme.font.regular.headings[size ?? "md"]};
-  ${sentenceCase && sentenceCaseMixin};
 
   ${(props) =>
     mqUntil(

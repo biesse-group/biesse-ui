@@ -1158,6 +1158,8 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
@@ -2289,6 +2291,8 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;

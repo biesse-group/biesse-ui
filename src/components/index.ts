@@ -16,7 +16,6 @@ export * from "./IconCard";
 export * from "./IconTabs";
 export * from "./Input";
 export * from "./Logo";
-export * from "./LogoOld";
 export * from "./MenuPanel";
 export * from "./Modal";
 export * from "./Pagination";
