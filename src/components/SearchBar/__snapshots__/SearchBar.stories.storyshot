@@ -27,7 +27,7 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
 
 .c1 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -37,7 +37,7 @@ exports[`Storyshots Inputs/SearchBar Dark Background 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;
@@ -155,7 +155,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
 
 .c1 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -165,7 +165,7 @@ exports[`Storyshots Inputs/SearchBar Default 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;
@@ -283,7 +283,7 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
 
 .c1 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -293,7 +293,7 @@ exports[`Storyshots Inputs/SearchBar Searched 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;
@@ -412,7 +412,7 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
 
 .c1 {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   width: 100%;
 }
 
@@ -422,7 +422,7 @@ exports[`Storyshots Inputs/SearchBar With Placeholder 1`] = `
   font-weight: 300;
   color: inherit;
   background-color: rgba(255,255,255,0.1);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
   border-radius: 25px;
   height: 50px;
   padding: 0 78px 0 22px;

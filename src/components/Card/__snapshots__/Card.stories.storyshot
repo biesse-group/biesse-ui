@@ -6,7 +6,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 a {
@@ -14,10 +14,10 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
-.c13 {
+.c12 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -25,7 +25,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   color: inherit;
 }
 
-.c13 a {
+.c12 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -33,7 +33,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   color: inherit;
 }
 
-.c17 {
+.c16 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -42,7 +42,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   margin: 0;
 }
 
-.c17 a {
+.c16 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -60,7 +60,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 > svg {
@@ -69,7 +69,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   color: white;
 }
 
-.c18 {
+.c17 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -88,11 +88,10 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -101,13 +100,9 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c18:hover {
+.c17:hover {
   background-color: #6D6E70;
-  color: #FFF;
-}
-
-.c7 {
-  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .c5 {
@@ -122,7 +117,6 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -138,10 +132,10 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   align-items: center;
   background-color: #E1523D;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
-.c8 {
+.c7 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -149,7 +143,6 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -165,15 +158,14 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   align-items: center;
   background-color: #F9942E;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
-.c15 {
+.c14 {
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -185,7 +177,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   height: 450px;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -219,7 +211,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   height: 100%;
 }
 
-.c0:hover .c9 {
+.c0:hover .c8 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
@@ -252,19 +244,19 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   margin-right: 10px;
 }
 
-.c16 {
+.c15 {
   margin-top: 14px;
   font-size: 32px;
   text-transform: none;
   margin-bottom: 0px;
 }
 
-.c14 {
+.c13 {
   font-style: italic;
   margin-top: 33px;
 }
 
-.c12 {
+.c11 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -277,7 +269,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c10 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -319,61 +311,61 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c13 {
+  .c12 {
     font-size: 13px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c13 {
+  .c12 {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c13 a {
+  .c12 a {
     font-size: 13px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c13 a {
+  .c12 a {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c17 {
+  .c16 {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c17 {
+  .c16 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c17 a {
+  .c16 a {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c17 a {
+  .c16 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c15 {
+  .c14 {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c15 {
+  .c14 {
     font-size: 25px;
   }
 }
@@ -423,7 +415,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
             </svg>
           </span>
           <span
-            className="c6 c7"
+            className="c6 "
             color="light"
             size="sm"
           >
@@ -431,7 +423,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
           </span>
         </div>
         <div
-          className="c8"
+          className="c7"
           color="wood"
         >
           <span
@@ -451,7 +443,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
             </svg>
           </span>
           <span
-            className="c6 c7"
+            className="c6 "
             color="light"
             size="sm"
           >
@@ -460,7 +452,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
         </div>
       </div>
       <div
-        className="c9 c10"
+        className="c8 c9"
       >
         <div
           style={
@@ -475,20 +467,20 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
       </div>
     </div>
     <div
-      className="c11"
+      className="c10"
       direction="vertical"
     >
       <div
-        className="c12"
+        className="c11"
       >
         <span
-          className="c13 c14"
+          className="c12 c13"
           size="sm"
         >
           01 gennaio 2023, Location
         </span>
         <h3
-          className="c15 c16"
+          className="c14 c15"
           color="primary"
         >
           Example card
@@ -501,7 +493,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
           }
         >
           <p
-            className="c17"
+            className="c16"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
           </p>
@@ -515,7 +507,7 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
         }
       >
         <button
-          className="c18"
+          className="c17"
           data-testid="action-button"
           type="button"
         >
@@ -550,7 +542,6 @@ exports[`Storyshots Cards/Card Default 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -749,7 +740,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 a {
@@ -757,10 +748,10 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
-.c16 {
+.c15 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -769,7 +760,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   margin: 0;
 }
 
-.c16 a {
+.c15 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -787,7 +778,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 > svg {
@@ -796,7 +787,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   color: white;
 }
 
-.c17 {
+.c16 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -815,11 +806,10 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -828,13 +818,9 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   border: 1px solid #6D6E70;
 }
 
-.c17:hover {
+.c16:hover {
   background-color: #6D6E70;
-  color: #FFF;
-}
-
-.c7 {
-  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .c5 {
@@ -849,7 +835,6 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -865,10 +850,10 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   align-items: center;
   background-color: #E1523D;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
-.c8 {
+.c7 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -876,7 +861,6 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -892,15 +876,14 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   align-items: center;
   background-color: #F9942E;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
-.c14 {
+.c13 {
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -912,7 +895,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   height: 450px;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -945,7 +928,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   transition: all 0.5s ease-out;
 }
 
-.c0:hover .c9 {
+.c0:hover .c8 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
@@ -978,14 +961,14 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   margin-right: 10px;
 }
 
-.c15 {
+.c14 {
   margin-top: 29px;
   font-size: 32px;
   text-transform: none;
   margin-bottom: 0px;
 }
 
-.c13 {
+.c12 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -998,7 +981,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c10 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -1040,37 +1023,37 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c16 {
+  .c15 {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c16 {
+  .c15 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c16 a {
+  .c15 a {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c16 a {
+  .c15 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c14 {
+  .c13 {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c14 {
+  .c13 {
     font-size: 25px;
   }
 }
@@ -1098,7 +1081,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
 }
 
 @media screen and (min-width:992px) {
-  .c11 {
+  .c10 {
     -webkit-flex: 1 1 calc(100% / 4);
     -ms-flex: 1 1 calc(100% / 4);
     flex: 1 1 calc(100% / 4);
@@ -1109,7 +1092,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
     margin-right: 20px;
   }
 
-  .c11 .c12 {
+  .c10 .c11 {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -1149,7 +1132,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
             </svg>
           </span>
           <span
-            className="c6 c7"
+            className="c6 "
             color="light"
             size="sm"
           >
@@ -1157,7 +1140,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
           </span>
         </div>
         <div
-          className="c8"
+          className="c7"
           color="wood"
         >
           <span
@@ -1177,7 +1160,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
             </svg>
           </span>
           <span
-            className="c6 c7"
+            className="c6 "
             color="light"
             size="sm"
           >
@@ -1186,7 +1169,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
         </div>
       </div>
       <div
-        className="c9 c10"
+        className="c8 c9"
       >
         <div
           style={
@@ -1201,14 +1184,14 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
       </div>
     </div>
     <div
-      className="c11"
+      className="c10"
       direction="horizontal"
     >
       <div
-        className="c12 c13"
+        className="c11 c12"
       >
         <h3
-          className="c14 c15"
+          className="c13 c14"
           color="primary"
         >
           Example card
@@ -1221,7 +1204,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
           }
         >
           <p
-            className="c16"
+            className="c15"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
           </p>
@@ -1235,7 +1218,7 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
         }
       >
         <button
-          className="c17"
+          className="c16"
           data-testid="action-button"
           type="button"
         >
@@ -1284,11 +1267,10 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -1299,7 +1281,7 @@ exports[`Storyshots Cards/Card With Button 1`] = `
 
 .c9:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 {
@@ -1307,7 +1289,6 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -1538,7 +1519,6 @@ exports[`Storyshots Cards/Card With Ellipsis 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -1775,7 +1755,6 @@ exports[`Storyshots Cards/Card With Pre Title 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -2009,7 +1988,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 a {
@@ -2017,10 +1996,10 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
-.c15 {
+.c14 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2029,7 +2008,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   margin: 0;
 }
 
-.c15 a {
+.c14 a {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -2047,17 +2026,13 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   -webkit-flex: 0 0 20px;
   -ms-flex: 0 0 20px;
   flex: 0 0 20px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 > svg {
   height: 100%;
   width: 100%;
   color: white;
-}
-
-.c7 {
-  text-transform: uppercase;
 }
 
 .c5 {
@@ -2072,7 +2047,6 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2088,10 +2062,10 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   align-items: center;
   background-color: #E1523D;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
-.c8 {
+.c7 {
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: bold;
   border: 0;
@@ -2099,7 +2073,6 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  text-transform: uppercase;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2115,15 +2088,14 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   align-items: center;
   background-color: #F9942E;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
-.c13 {
+.c12 {
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-transform: none;
   color: #6D6E70;
 }
 
@@ -2135,7 +2107,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   height: 450px;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2169,7 +2141,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   height: 100%;
 }
 
-.c0:hover .c9 {
+.c0:hover .c8 {
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
   transform: scale(1.25);
@@ -2202,14 +2174,14 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   margin-right: 10px;
 }
 
-.c14 {
+.c13 {
   margin-top: 29px;
   font-size: 32px;
   text-transform: none;
   margin-bottom: 0px;
 }
 
-.c12 {
+.c11 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -2222,7 +2194,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
   flex-direction: column;
 }
 
-.c11 {
+.c10 {
   -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
@@ -2264,37 +2236,37 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
 }
 
 @media screen and (max-width:991px) {
-  .c15 {
+  .c14 {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c15 {
+  .c14 {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c15 a {
+  .c14 a {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c15 a {
+  .c14 a {
     font-size: 14px;
   }
 }
 
 @media screen and (max-width:991px) {
-  .c13 {
+  .c12 {
     font-size: 36px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .c13 {
+  .c12 {
     font-size: 25px;
   }
 }
@@ -2344,7 +2316,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
             </svg>
           </span>
           <span
-            className="c6 c7"
+            className="c6 "
             color="light"
             size="sm"
           >
@@ -2352,7 +2324,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
           </span>
         </div>
         <div
-          className="c8"
+          className="c7"
           color="wood"
         >
           <span
@@ -2372,7 +2344,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
             </svg>
           </span>
           <span
-            className="c6 c7"
+            className="c6 "
             color="light"
             size="sm"
           >
@@ -2381,7 +2353,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
         </div>
       </div>
       <div
-        className="c9 c10"
+        className="c8 c9"
       >
         <div
           style={
@@ -2396,14 +2368,14 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
       </div>
     </div>
     <div
-      className="c11"
+      className="c10"
       direction="vertical"
     >
       <div
-        className="c12"
+        className="c11"
       >
         <h3
-          className="c13 c14"
+          className="c12 c13"
           color="primary"
         >
           Example card
@@ -2416,7 +2388,7 @@ exports[`Storyshots Cards/Card With Tags 1`] = `
           }
         >
           <p
-            className="c15"
+            className="c14"
           >
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
           </p>

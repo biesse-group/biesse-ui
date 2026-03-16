@@ -30,7 +30,13 @@ export const CardList: FC<PropsWithChildren<CardListProps>> = ({
   return (
     <Grid {...props}>
       {title && (
-        <Title variant={titleTag} size="sm" color="primary" uppercase style={{ marginBottom: 0 }}>
+        <Title
+          variant={titleTag}
+          size="sm"
+          color="primary"
+          sentenceCase
+          style={{ marginBottom: 0 }}
+        >
           {title}
         </Title>
       )}

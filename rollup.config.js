@@ -1,4 +1,5 @@
 import commonjs from "@rollup/plugin-commonjs";
+import image from "@rollup/plugin-image";
 import resolve from "@rollup/plugin-node-resolve";
 import terser from "@rollup/plugin-terser";
 import typescript from "@rollup/plugin-typescript";
@@ -19,6 +20,7 @@ export default [
       },
     ],
     plugins: [
+      image(),
       tsConfigPaths(),
       peerDepsExternal(),
       copy({

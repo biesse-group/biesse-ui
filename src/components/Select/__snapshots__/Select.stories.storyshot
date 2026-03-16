@@ -32,7 +32,7 @@ exports[`Storyshots Inputs/Select Dark Background 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -193,7 +193,7 @@ exports[`Storyshots Inputs/Select Disabled 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -359,7 +359,7 @@ exports[`Storyshots Inputs/Select Error 1`] = `
 }
 
 .c3 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -520,7 +520,7 @@ exports[`Storyshots Inputs/Select Light Background 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -682,7 +682,7 @@ exports[`Storyshots Inputs/Select Selected 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;

@@ -6,7 +6,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 a {
@@ -14,7 +14,7 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c9 {
@@ -41,23 +41,22 @@ exports[`Storyshots Slideshow/HeroCarousel Auto Slide 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: uppercase;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c8:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -356,7 +355,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 a {
@@ -364,7 +363,7 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c9 {
@@ -391,23 +390,22 @@ exports[`Storyshots Slideshow/HeroCarousel Default 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: uppercase;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c8:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -706,7 +704,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c6 a {
@@ -714,7 +712,7 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c9 {
@@ -741,23 +739,22 @@ exports[`Storyshots Slideshow/HeroCarousel Played 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 45px;
-  text-transform: uppercase;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c8 {
-  color: #FFF;
+  color: #FFFFFF;
   background-color: transparent;
   outline: none !important;
   cursor: pointer;
   padding: 0;
   width: 50px;
   height: 50px;
-  border: 1px solid #FFF;
+  border: 1px solid #FFFFFF;
 }
 
 .c8:hover {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #6D6E70;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

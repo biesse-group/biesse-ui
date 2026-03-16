@@ -53,7 +53,6 @@ const DateSubgrid = styled.div`
   padding: 12px 8px 12px 0;
   min-height: 80px;
   background-color: ${(props) => props.theme.color.lightGray};
-  text-transform: uppercase;
 `;
 
 const DayStyledText = styled(Text)`
@@ -106,7 +105,6 @@ const TitleWrapper = styled.div`
 
 const StyledTitle = styled(Title)`
   line-height: 26px;
-  text-transform: uppercase;
   font-size: 20px;
   padding: 12px 10px 12px 15px;
   margin: 0;

@@ -134,7 +134,7 @@ export const IconCard: FC<IconCardProps> = ({
           variant={titleTag}
           size="sm"
           color="primary"
-          uppercase
+          sentenceCase
           $wrapOnMobile={wrapOnMobile}
         >
           {title}

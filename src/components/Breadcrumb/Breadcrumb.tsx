@@ -38,7 +38,6 @@ const BreadcrumbRoot = styled.div`
 `;
 
 const BreadcrumbLabel = styled(Text)`
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -55,9 +54,7 @@ export const Breadcrumb: FC<BreadcrumbProps> = ({ items, renderLink, ...props })
       {items.map(({ label, path }, index) => {
         const isLast = index === items.length - 1;
         const element = (
-          <BreadcrumbLabel style={{ textTransform: "uppercase" }} weight={isLast ? "bold" : "book"}>
-            {label}
-          </BreadcrumbLabel>
+          <BreadcrumbLabel weight={isLast ? "bold" : "book"}>{label}</BreadcrumbLabel>
         );
         return (
           <React.Fragment key={index}>

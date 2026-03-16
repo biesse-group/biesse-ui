@@ -44,12 +44,12 @@ exports[`Storyshots Layout/IconTabs Horizontal 1`] = `
   transition: background-color 0.2s ease-out;
   cursor: pointer;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 {
@@ -79,7 +79,7 @@ exports[`Storyshots Layout/IconTabs Horizontal 1`] = `
 
 .c3:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0 {
@@ -202,12 +202,12 @@ exports[`Storyshots Layout/IconTabs Vertical 1`] = `
   transition: background-color 0.2s ease-out;
   cursor: pointer;
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c3 {
@@ -237,7 +237,7 @@ exports[`Storyshots Layout/IconTabs Vertical 1`] = `
 
 .c3:hover {
   background-color: #6D6E70;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c0 {

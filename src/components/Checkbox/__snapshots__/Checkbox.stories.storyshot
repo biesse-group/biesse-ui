@@ -11,7 +11,7 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 a {
@@ -19,7 +19,7 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -53,7 +53,7 @@ exports[`Storyshots Inputs/Checkbox Clicked 1`] = `
   width: 30px;
   color: transparent;
   background-color: rgba(255,255,255,0.1);
-  border: 2px solid #FFF;
+  border: 2px solid #FFFFFF;
   font-size: 25px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -154,7 +154,7 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 a {
@@ -162,7 +162,7 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -196,7 +196,7 @@ exports[`Storyshots Inputs/Checkbox Default 1`] = `
   width: 30px;
   color: transparent;
   background-color: rgba(255,255,255,0.1);
-  border: 2px solid #FFF;
+  border: 2px solid #FFFFFF;
   font-size: 25px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -297,7 +297,7 @@ exports[`Storyshots Inputs/Checkbox Error 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c4 a {
@@ -305,7 +305,7 @@ exports[`Storyshots Inputs/Checkbox Error 1`] = `
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .c1 {

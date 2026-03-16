@@ -7,7 +7,7 @@ exports[`Storyshots Inputs/Textarea Dark Background 1`] = `
 }
 
 .c1 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -76,7 +76,7 @@ exports[`Storyshots Inputs/Textarea Filled 1`] = `
 }
 
 .c1 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -146,7 +146,7 @@ exports[`Storyshots Inputs/Textarea Light Background 1`] = `
 }
 
 .c1 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -216,7 +216,7 @@ exports[`Storyshots Inputs/Textarea Max Lenght 100 1`] = `
 }
 
 .c1 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;

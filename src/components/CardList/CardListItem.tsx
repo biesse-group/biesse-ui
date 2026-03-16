@@ -92,7 +92,7 @@ export const CardListItem: FC<CardListItemProps> = ({
       <CardPreTitle italic size="sm">
         {preTitle}
       </CardPreTitle>
-      <CardTitle variant={titleTag} color="primary" uppercase>
+      <CardTitle variant={titleTag} color="primary" sentenceCase>
         {title}
       </CardTitle>
       <CardAction>

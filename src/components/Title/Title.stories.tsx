@@ -41,7 +41,7 @@ export const Light: Story = {
 export const Uppercase: Story = {
   args: {
     ...Primary.args,
-    uppercase: true,
+    sentenceCase: true,
   },
 };
 
