@@ -178,7 +178,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
     <span
       className="c2 c3"
     >
-      Elettromandrino atc
+      Elettromandrino ATC
     </span>
   </a>
   <span
@@ -208,7 +208,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
     <span
       className="c2 c3"
     >
-      Es3 line
+      ES3 Line
     </span>
   </a>
   <span
@@ -234,7 +234,7 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   <span
     className="c6 c3"
   >
-    Es327
+    ES327
   </span>
 </div>
 `;
@@ -432,7 +432,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
         <span
           className="c3 c4"
         >
-          Elettromandrino atc
+          Elettromandrino ATC
         </span>
       </a>
       <span
@@ -462,7 +462,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
         <span
           className="c3 c4"
         >
-          Es3 line
+          ES3 Line
         </span>
       </a>
       <span
@@ -488,7 +488,7 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       <span
         className="c7 c4"
       >
-        Es327
+        ES327
       </span>
     </div>
   </div>
@@ -688,7 +688,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
         <span
           className="c3 c4"
         >
-          Elettromandrino atc
+          Elettromandrino ATC
         </span>
       </a>
       <span
@@ -718,7 +718,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
         <span
           className="c3 c4"
         >
-          Es3 line
+          ES3 Line
         </span>
       </a>
       <span
@@ -744,7 +744,7 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       <span
         className="c7 c4"
       >
-        Es327
+        ES327
       </span>
     </div>
   </div>
@@ -944,7 +944,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
         <span
           className="c3 c4"
         >
-          Elettromandrino atc
+          Elettromandrino ATC
         </span>
       </a>
       <span
@@ -974,7 +974,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
         <span
           className="c3 c4"
         >
-          Es3 line
+          ES3 Line
         </span>
       </a>
       <span
@@ -1000,7 +1000,7 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       <span
         className="c7 c4"
       >
-        Es327
+        ES327
       </span>
     </div>
   </div>

@@ -120,12 +120,6 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
   padding: 12px 8px 12px 0;
   min-height: 80px;
   background-color: #F5F5F5;
-  text-transform: lowercase;
-  display: inline-block;
-}
-
-.c1::first-letter {
-  text-transform: uppercase;
 }
 
 .c3 {
@@ -197,15 +191,9 @@ exports[`Storyshots Cards/EventCard Hero 1`] = `
 
 .c13 {
   line-height: 26px;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 20px;
   padding: 12px 10px 12px 15px;
   margin: 0;
-}
-
-.c13::first-letter {
-  text-transform: uppercase;
 }
 
 .c15 {
@@ -560,18 +548,12 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c17::first-letter {
-  text-transform: uppercase;
 }
 
 .c17:hover {
@@ -584,13 +566,7 @@ exports[`Storyshots Cards/EventCard Hover State 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 34px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c9::first-letter {
-  text-transform: uppercase;
 }
 
 .c7 {
@@ -1100,18 +1076,12 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c17::first-letter {
-  text-transform: uppercase;
 }
 
 .c17:hover {
@@ -1124,13 +1094,7 @@ exports[`Storyshots Cards/EventCard Primary 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 34px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c9::first-letter {
-  text-transform: uppercase;
 }
 
 .c7 {
@@ -1555,18 +1519,12 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c6::first-letter {
-  text-transform: uppercase;
 }
 
 .c6:hover {
@@ -1579,13 +1537,7 @@ exports[`Storyshots Cards/EventCard Secondary 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c2::first-letter {
-  text-transform: uppercase;
 }
 
 .c0 {
@@ -1857,18 +1809,12 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c17::first-letter {
-  text-transform: uppercase;
 }
 
 .c17:hover {
@@ -1881,13 +1827,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 34px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c9::first-letter {
-  text-transform: uppercase;
 }
 
 .c7 {
@@ -2157,7 +2097,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
         className="c4"
         size="md"
       >
-        Gen23
+        gen23
       </span>
       <span
         className="c2 c3"
@@ -2168,7 +2108,7 @@ exports[`Storyshots Cards/EventCard Translated 1`] = `
         className="c4"
         size="md"
       >
-        Feb23
+        feb23
       </span>
       <span
         className="c5 c6 c7"

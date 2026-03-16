@@ -58,18 +58,12 @@ exports[`Storyshots Cards/IconCard Not Wrap On Mobile 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c10::first-letter {
-  text-transform: uppercase;
 }
 
 .c10:hover {
@@ -82,13 +76,7 @@ exports[`Storyshots Cards/IconCard Not Wrap On Mobile 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c4::first-letter {
-  text-transform: uppercase;
 }
 
 .c6 {
@@ -355,18 +343,12 @@ exports[`Storyshots Cards/IconCard Wrap On Mobile 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c9::first-letter {
-  text-transform: uppercase;
 }
 
 .c9:hover {
@@ -379,13 +361,7 @@ exports[`Storyshots Cards/IconCard Wrap On Mobile 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c4::first-letter {
-  text-transform: uppercase;
 }
 
 .c0 {

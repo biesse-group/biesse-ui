@@ -233,19 +233,10 @@ exports[`Storyshots Layout/Footer Default 1`] = `
   margin-bottom: 10px;
 }
 
-.c22 {
-  text-transform: lowercase;
-  display: inline-block;
-}
-
 .c22:hover {
   -webkit-text-decoration: underline;
   text-decoration: underline;
   cursor: pointer;
-}
-
-.c22::first-letter {
-  text-transform: uppercase;
 }
 
 .c20 {

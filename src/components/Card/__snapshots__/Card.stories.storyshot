@@ -90,18 +90,12 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c17::first-letter {
-  text-transform: uppercase;
 }
 
 .c17:hover {
@@ -812,18 +806,12 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c16::first-letter {
-  text-transform: uppercase;
 }
 
 .c16:hover {
@@ -1277,18 +1265,12 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background-color: transparent;
   color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c9::first-letter {
-  text-transform: uppercase;
 }
 
 .c9:hover {

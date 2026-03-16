@@ -26,14 +26,8 @@ exports[`Storyshots Slideshow/PartnerCarousel Default 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  text-transform: lowercase;
-  display: inline-block;
   background-color: #F5F5F5;
   padding: 40px 0px;
-}
-
-.c0::first-letter {
-  text-transform: uppercase;
 }
 
 .c1 {

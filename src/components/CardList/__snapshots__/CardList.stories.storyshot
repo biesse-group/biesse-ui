@@ -64,8 +64,6 @@ exports[`Storyshots Cards/CardList Default 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -74,22 +72,12 @@ exports[`Storyshots Cards/CardList Default 1`] = `
   padding: 0px;
 }
 
-.c10::first-letter {
-  text-transform: uppercase;
-}
-
 .c1 {
   margin-top: 0;
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 30px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c1::first-letter {
-  text-transform: uppercase;
 }
 
 .c7 {
@@ -97,13 +85,7 @@ exports[`Storyshots Cards/CardList Default 1`] = `
   font-family: "NB International Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   font-weight: 700;
   font-size: 34px;
-  text-transform: lowercase;
-  display: inline-block;
   color: #6D6E70;
-}
-
-.c7::first-letter {
-  text-transform: uppercase;
 }
 
 .c0 {

@@ -254,7 +254,7 @@ exports[`Storyshots Display/Quote Default 1`] = `
       className="c7 "
       size="lg"
     >
-      John doe
+      John Doe
     </p>
     <p
       className="c8"
