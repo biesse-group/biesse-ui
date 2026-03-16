@@ -27,6 +27,8 @@ exports[`Storyshots Buttons/Button Block 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -89,6 +91,8 @@ exports[`Storyshots Buttons/Button Clicked 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -150,6 +154,8 @@ exports[`Storyshots Buttons/Button Disabled 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   opacity: 0.5;
   cursor: auto;
   pointer-events: none;
@@ -214,6 +220,8 @@ exports[`Storyshots Buttons/Button Outline 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -274,6 +282,8 @@ exports[`Storyshots Buttons/Button Outline Inverted 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -334,6 +344,8 @@ exports[`Storyshots Buttons/Button Primary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -395,6 +407,8 @@ exports[`Storyshots Buttons/Button Primary Inverted 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -479,12 +493,15 @@ exports[`Storyshots Buttons/Button Primary Naked 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
   background: transparent;
   color: #6D6E70;
   padding: 0px;
+  text-transform: none;
 }
 
 <div
@@ -554,6 +571,8 @@ exports[`Storyshots Buttons/Button Small 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -639,6 +658,8 @@ exports[`Storyshots Buttons/Button With Left Icon 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -756,6 +777,8 @@ exports[`Storyshots Buttons/Button With Right Icon 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;

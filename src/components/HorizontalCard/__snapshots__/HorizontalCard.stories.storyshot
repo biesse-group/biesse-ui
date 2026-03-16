@@ -57,6 +57,8 @@ exports[`Storyshots Cards/HorizontalCard Default 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -330,6 +332,8 @@ exports[`Storyshots Cards/HorizontalCard Hover State 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -652,6 +656,8 @@ exports[`Storyshots Cards/HorizontalCard With Custom Icon 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
@@ -912,6 +918,8 @@ exports[`Storyshots Cards/HorizontalCard With Image 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;

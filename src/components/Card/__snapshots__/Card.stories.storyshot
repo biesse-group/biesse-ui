@@ -90,6 +90,8 @@ exports[`Storyshots Cards/Card Complete Example 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -806,6 +808,8 @@ exports[`Storyshots Cards/Card Horizontal 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
@@ -1265,6 +1269,8 @@ exports[`Storyshots Cards/Card With Button 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;

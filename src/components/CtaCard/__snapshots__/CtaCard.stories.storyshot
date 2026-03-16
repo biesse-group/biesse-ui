@@ -62,12 +62,15 @@ exports[`Storyshots Cards/CtaCard Full Image 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background: transparent;
   color: #6D6E70;
   padding: 0px;
+  text-transform: none;
 }
 
 .c1 {
@@ -367,12 +370,15 @@ exports[`Storyshots Cards/CtaCard With Title 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 14px;
   padding: 0px 26px;
   height: 30px;
   background: transparent;
   color: #6D6E70;
   padding: 0px;
+  text-transform: none;
 }
 
 .c5 {

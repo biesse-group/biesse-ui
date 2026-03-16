@@ -511,7 +511,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Carriere
@@ -548,7 +548,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Contatti
@@ -603,7 +603,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Ricerca
@@ -646,7 +646,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Italia
@@ -711,7 +711,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="primary"
               size="sm"
             >
@@ -726,7 +726,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="primary"
               size="sm"
             >
@@ -741,7 +741,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="primary"
               size="sm"
             >
@@ -756,7 +756,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="primary"
               size="sm"
             >
@@ -771,7 +771,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="primary"
               size="sm"
             >
@@ -786,7 +786,7 @@ exports[`Storyshots Layout/Header Colored 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="primary"
               size="sm"
             >
@@ -1296,7 +1296,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Carriere
@@ -1333,7 +1333,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Contatti
@@ -1388,7 +1388,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Ricerca
@@ -1431,7 +1431,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
                 className="c9"
               >
                 <span
-                  className="c10 "
+                  className="c10"
                   color="light"
                 >
                   Italia
@@ -1496,7 +1496,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="light"
               size="sm"
             >
@@ -1511,7 +1511,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="light"
               size="sm"
             >
@@ -1526,7 +1526,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="light"
               size="sm"
             >
@@ -1541,7 +1541,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="light"
               size="sm"
             >
@@ -1556,7 +1556,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="light"
               size="sm"
             >
@@ -1571,7 +1571,7 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
             href="/"
           >
             <span
-              className="c17 "
+              className="c17"
               color="light"
               size="sm"
             >
