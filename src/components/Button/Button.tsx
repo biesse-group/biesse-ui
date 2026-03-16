@@ -110,8 +110,8 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
       return css`
         background: transparent;
         color: ${(props) => props.theme.color.primary};
-        text-transform: none;
         padding: 0px;
+        text-transform: none;
       `;
   }
 };
@@ -136,10 +136,9 @@ const StyledButton = styled.button<ButtonProps>`
   align-items: center;
   justify-content: center;
   line-height: 1;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+  transition: all 0.2s ease-out;
 
   ${({ disabled }) =>
     disabled &&

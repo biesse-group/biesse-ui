@@ -139,7 +139,7 @@ export const HeroCarousel: FC<HeroCarouselProps> = ({
             animate="center"
             exit="exit"
           >
-            <Title variant="h2" color="light" uppercase>
+            <Title variant="h2" color="light" sentenceCase>
               {title}
             </Title>
           </motion.div>

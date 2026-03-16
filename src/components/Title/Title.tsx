@@ -26,9 +26,9 @@ export interface TitleProps extends BaseProps {
    */
   color?: "primary" | "light";
   /**
-   * Whether the title has to be upper case
+   * Whether the title has to be sentence case
    */
-  uppercase?: boolean;
+  sentenceCase?: boolean;
   className?: string;
   style?: CSSProperties;
 }
@@ -38,13 +38,12 @@ type HeadingProps = Omit<TitleProps, "variant">;
 const getHeadingStyle = ({
   size,
   color,
-  uppercase,
-}: Pick<TitleProps, "size" | "color" | "uppercase">) => css`
+  sentenceCase,
+}: Pick<TitleProps, "size" | "color" | "sentenceCase">) => css`
   margin-top: 0;
   font-family: ${(props) => props.theme.font.family};
   font-weight: ${(props) => props.theme.font.weight.bold};
   font-size: ${(props) => props.theme.font.regular.headings[size ?? "md"]};
-  text-transform: ${uppercase ? "uppercase" : "none"};
 
   ${(props) =>
     mqUntil(

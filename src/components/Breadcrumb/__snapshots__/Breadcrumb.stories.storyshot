@@ -72,7 +72,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
 }
 
 .c3 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -148,11 +147,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   >
     <span
       className="c2 c3"
-      style={
-        {
-          "textTransform": "uppercase",
-        }
-      }
     >
       Famiglie di prodotto
     </span>
@@ -183,11 +177,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   >
     <span
       className="c2 c3"
-      style={
-        {
-          "textTransform": "uppercase",
-        }
-      }
     >
       Elettromandrino ATC
     </span>
@@ -218,11 +207,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   >
     <span
       className="c2 c3"
-      style={
-        {
-          "textTransform": "uppercase",
-        }
-      }
     >
       ES3 Line
     </span>
@@ -249,11 +233,6 @@ exports[`Storyshots Layout/Breadcrumb Default 1`] = `
   </span>
   <span
     className="c6 c3"
-    style={
-      {
-        "textTransform": "uppercase",
-      }
-    }
   >
     ES327
   </span>
@@ -337,7 +316,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -423,11 +401,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Famiglie di prodotto
         </span>
@@ -458,11 +431,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Elettromandrino ATC
         </span>
@@ -493,11 +461,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           ES3 Line
         </span>
@@ -524,11 +487,6 @@ exports[`Storyshots Layout/Breadcrumb On Primary 1`] = `
       </span>
       <span
         className="c7 c4"
-        style={
-          {
-            "textTransform": "uppercase",
-          }
-        }
       >
         ES327
       </span>
@@ -614,7 +572,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -700,11 +657,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Famiglie di prodotto
         </span>
@@ -735,11 +687,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Elettromandrino ATC
         </span>
@@ -770,11 +717,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           ES3 Line
         </span>
@@ -801,11 +743,6 @@ exports[`Storyshots Layout/Breadcrumb On Secondary 1`] = `
       </span>
       <span
         className="c7 c4"
-        style={
-          {
-            "textTransform": "uppercase",
-          }
-        }
       >
         ES327
       </span>
@@ -891,7 +828,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
 }
 
 .c4 {
-  text-transform: uppercase;
   font-size: 11px;
   line-height: 12px;
   white-space: nowrap;
@@ -977,11 +913,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Famiglie di prodotto
         </span>
@@ -1012,11 +943,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           Elettromandrino ATC
         </span>
@@ -1047,11 +973,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       >
         <span
           className="c3 c4"
-          style={
-            {
-              "textTransform": "uppercase",
-            }
-          }
         >
           ES3 Line
         </span>
@@ -1078,11 +999,6 @@ exports[`Storyshots Layout/Breadcrumb Wrap 1`] = `
       </span>
       <span
         className="c7 c4"
-        style={
-          {
-            "textTransform": "uppercase",
-          }
-        }
       >
         ES327
       </span>

@@ -102,7 +102,7 @@ export const ProductCarousel = <T extends object>({
   return (
     <Root $height={contentHeight} {...props}>
       <BackgroundStrip>
-        <CarouselTitle variant={titleTag} color="light" uppercase>
+        <CarouselTitle variant={titleTag} color="light" sentenceCase>
           {title}
         </CarouselTitle>
 

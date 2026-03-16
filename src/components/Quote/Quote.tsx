@@ -91,10 +91,6 @@ const QuoteCloseIcon = styled(Icon)`
   )}
 `;
 
-const QuoteAuthor = styled(Text)`
-  text-transform: uppercase;
-`;
-
 export const Quote: FC<QuoteProps> = ({ citation, authorName, authorDescription, ...props }) => {
   return (
     <Background {...props}>
@@ -104,9 +100,9 @@ export const Quote: FC<QuoteProps> = ({ citation, authorName, authorDescription,
           <QuoteCloseIcon name="quote-close" color="primary" size="40px" />
           {citation}
         </CitationText>
-        <QuoteAuthor tag="p" weight="bold" size="lg" responsive={false}>
+        <Text tag="p" weight="bold" size="lg" responsive={false}>
           {authorName}
-        </QuoteAuthor>
+        </Text>
         <Text tag="p" weight="bold" responsive={false}>
           {authorDescription}
         </Text>

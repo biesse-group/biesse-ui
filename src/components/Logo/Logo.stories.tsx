@@ -13,7 +13,7 @@ export default {
   },
   decorators: [
     (Story, { args }) => (
-      <BackgroundDecorator background={args.color === "white" ? "primary" : "light"}>
+      <BackgroundDecorator background={args.variant === "white" ? "primary" : "light"}>
         <Story />
       </BackgroundDecorator>
     ),
@@ -22,18 +22,34 @@ export default {
 
 type Story = StoryObj<typeof Logo>;
 
-export const Primary: Story = {
+export const Gradient: Story = {
   args: {
-    name: "HSD",
-    color: "primary",
-    title:
-      "HSD Mechatronics – elettromandrini, teste di fresatura e componenti per lavorare i metalli",
+    variant: "gradient",
+    width: "250px",
+    title: "HSD Mechatronics - Gradient Logo",
+  },
+};
+
+export const Flat: Story = {
+  args: {
+    variant: "flat",
+    width: "250px",
+    title: "HSD Mechatronics - Flat Blue Logo",
+  },
+};
+
+export const Black: Story = {
+  args: {
+    variant: "black",
+    width: "250px",
+    title: "HSD Mechatronics - Black Logo",
   },
 };
 
 export const White: Story = {
   args: {
-    ...Primary.args,
-    color: "white",
+    variant: "white",
+    width: "250px",
+    title: "HSD Mechatronics - White Logo",
   },
 };

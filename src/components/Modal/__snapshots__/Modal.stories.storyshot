@@ -20,22 +20,21 @@ exports[`Storyshots Dialogs/Modal Default 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c0:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div
@@ -75,22 +74,21 @@ exports[`Storyshots Dialogs/Modal With Video 1`] = `
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 1;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-transform: uppercase;
   outline: none !important;
   white-space: nowrap;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
   font-size: 16px;
   padding: 0px 32px;
   height: 40px;
-  color: #FFF;
+  color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
 }
 
 .c0:hover {
   color: #6D6E70;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 <div

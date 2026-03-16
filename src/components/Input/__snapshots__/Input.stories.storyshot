@@ -7,7 +7,7 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -58,7 +58,7 @@ exports[`Storyshots Inputs/Input Dark Background 1`] = `
   position: relative;
   width: 100%;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -125,7 +125,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -176,7 +176,7 @@ exports[`Storyshots Inputs/Input Filled 1`] = `
   position: relative;
   width: 100%;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -261,7 +261,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -313,7 +313,7 @@ exports[`Storyshots Inputs/Input Light Background 1`] = `
   position: relative;
   width: 100%;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -380,7 +380,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
 }
 
 .c2 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -431,7 +431,7 @@ exports[`Storyshots Inputs/Input With End Decoration 1`] = `
   position: relative;
   width: 100%;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -518,7 +518,7 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
 }
 
 .c3 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -569,7 +569,7 @@ exports[`Storyshots Inputs/Input With Error 1`] = `
   position: relative;
   width: 100%;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -643,7 +643,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
 }
 
 .c3 {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #252525;
   font-size: 14px;
   font-weight: 300;
@@ -694,7 +694,7 @@ exports[`Storyshots Inputs/Input With Start Decoration 1`] = `
   position: relative;
   width: 100%;
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
