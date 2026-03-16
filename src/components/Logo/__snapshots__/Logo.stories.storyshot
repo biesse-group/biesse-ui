@@ -9,10 +9,6 @@ exports[`Storyshots Display/Logo Black 1`] = `
 .c1 {
   width: 250px;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c1 img {
@@ -52,10 +48,6 @@ exports[`Storyshots Display/Logo Flat 1`] = `
 .c1 {
   width: 250px;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c1 img {
@@ -95,10 +87,6 @@ exports[`Storyshots Display/Logo Gradient 1`] = `
 .c1 {
   width: 250px;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c1 img {
@@ -138,10 +126,6 @@ exports[`Storyshots Display/Logo White 1`] = `
 .c1 {
   width: 250px;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c1 img {

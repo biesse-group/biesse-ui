@@ -83,6 +83,8 @@ const LogoWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex: 1 1 auto;
+  margin-left: -40px;
+  transform: translateY(-5pxs);
 
   > div,
   > a {

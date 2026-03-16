@@ -36,8 +36,6 @@ const logoMap: Record<LogoVariant, string> = {
 const LogoRoot = styled.div<{ $width?: string }>`
   width: ${({ $width }) => $width ?? "auto"};
   height: 100%;
-  margin-left: -40px;
-  transform: translateY(-5pxs);
 
   img {
     height: 100%;

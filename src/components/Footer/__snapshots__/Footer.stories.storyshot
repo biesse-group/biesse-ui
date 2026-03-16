@@ -151,10 +151,6 @@ exports[`Storyshots Layout/Footer Default 1`] = `
 .c3 {
   width: auto;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c3 img {

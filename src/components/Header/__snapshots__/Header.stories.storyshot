@@ -74,10 +74,6 @@ exports[`Storyshots Layout/Header Colored 1`] = `
 .c4 {
   width: auto;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c4 img {
@@ -204,6 +200,10 @@ exports[`Storyshots Layout/Header Colored 1`] = `
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+  margin-left: -40px;
+  -webkit-transform: translateY(-5pxs);
+  -ms-transform: translateY(-5pxs);
+  transform: translateY(-5pxs);
 }
 
 .c3 > div,
@@ -878,10 +878,6 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
 .c4 {
   width: auto;
   height: 100%;
-  margin-left: -40px;
-  -webkit-transform: translateY(-5pxs);
-  -ms-transform: translateY(-5pxs);
-  transform: translateY(-5pxs);
 }
 
 .c4 img {
@@ -1007,6 +1003,10 @@ exports[`Storyshots Layout/Header Transparent 1`] = `
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+  margin-left: -40px;
+  -webkit-transform: translateY(-5pxs);
+  -ms-transform: translateY(-5pxs);
+  transform: translateY(-5pxs);
 }
 
 .c3 > div,
