@@ -111,6 +111,7 @@ const getVariantStyle = (variant: ButtonProps["variant"]) => {
         background: transparent;
         color: ${(props) => props.theme.color.primary};
         padding: 0px;
+        text-transform: none;
       `;
   }
 };
@@ -137,6 +138,7 @@ const StyledButton = styled.button<ButtonProps>`
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
+  transition: all 0.2s ease-out;
 
   ${({ disabled }) =>
     disabled &&

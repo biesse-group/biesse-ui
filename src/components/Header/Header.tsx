@@ -182,8 +182,6 @@ const HamburgerMenuIconWrapper = styled.div`
   )}
 `;
 
-const NavLinkText = styled(Text)``;
-
 export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOpen, ...props }) => {
   const { variant } = props;
   return (
@@ -212,13 +210,13 @@ export const Header: FC<HeaderProps> = ({ logo, navIcons, navLinks, testId, onOp
               isSelected={navLink.isSelected}
             >
               {navLink.renderLink(
-                <NavLinkText
+                <Text
                   size="sm"
                   weight="medium"
                   color={variant === "transparent" ? "light" : "primary"}
                 >
                   {navLink.label}
-                </NavLinkText>
+                </Text>
               )}
             </SecondaryNavItem>
           ))}

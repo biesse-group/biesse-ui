@@ -66,8 +66,6 @@ const IconWrapper = styled.div`
   )}
 `;
 
-const NavIconText = styled(Text)``;
-
 export const NavIconItem: FC<NavIconItemProps> = ({
   label,
   icon,
@@ -83,9 +81,9 @@ export const NavIconItem: FC<NavIconItemProps> = ({
         <Icon size="100%" name={icon} />
       </IconWrapper>
       <TextWrapper>
-        <NavIconText color="light" weight="book">
+        <Text color="light" weight="book">
           {label}
-        </NavIconText>
+        </Text>
       </TextWrapper>
     </NavIconItemWrapper>
   );
