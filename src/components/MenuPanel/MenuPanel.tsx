@@ -138,7 +138,7 @@ export const MenuPanel: FC<MenuPanelProps> = ({
           variant={variant}
           color={variant === "primary" || variant === "dark" ? "light" : "primary"}
         >
-          {title.toSentenceCase()}
+          {title}
         </MenuTitle>
       )}
       <MenuItemsContainer>

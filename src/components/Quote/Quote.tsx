@@ -103,7 +103,7 @@ export const Quote: FC<QuoteProps> = ({ citation, authorName, authorDescription,
           {citation}
         </CitationText>
         <QuoteAuthor tag="p" weight="bold" size="lg" responsive={false}>
-          {authorName.toSentenceCase()}
+          {authorName}
         </QuoteAuthor>
         <Text tag="p" weight="bold" responsive={false}>
           {authorDescription}

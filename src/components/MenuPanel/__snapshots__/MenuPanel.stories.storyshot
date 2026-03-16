@@ -947,7 +947,7 @@ exports[`Storyshots Layout/MenuPanel Dark 1`] = `
         <button
           className="c10"
         >
-          Case history
+          Case History
           <span
             className="c11 c12 "
             color="white"
@@ -1158,18 +1158,12 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c5::first-letter {
-  text-transform: uppercase;
 }
 
 .c5:hover {
@@ -1514,7 +1508,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       className="c9"
     >
-      Asse c
+      Asse C
       <span
         className="c10 c11 c12"
         color="primary"
@@ -1592,7 +1586,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       className="c9"
     >
-      Elettromandrini mt
+      Elettromandrini MT
       <span
         className="c10 c11 c12"
         color="primary"
@@ -1709,7 +1703,7 @@ exports[`Storyshots Layout/MenuPanel Light 1`] = `
     <button
       className="c9"
     >
-      Smart motors
+      Smart Motors
       <span
         className="c10 c11 c12"
         color="primary"
@@ -2295,18 +2289,12 @@ exports[`Storyshots Layout/MenuPanel Secondary 1`] = `
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  text-transform: lowercase;
-  display: inline-block;
   font-size: 18px;
   padding: 0px 32px;
   height: 50px;
   color: #FFFFFF;
   background-color: #6D6E70;
   border: 1px solid #6D6E70;
-}
-
-.c5::first-letter {
-  text-transform: uppercase;
 }
 
 .c5:hover {
@@ -3033,12 +3021,12 @@ exports[`Storyshots Layout/MenuPanel White 1`] = `
         <button
           className="c8"
         >
-          Es7 line
+          ES7 Line
         </button>
         <button
           className="c8"
         >
-          Es8 line s
+          ES8 Line S
         </button>
       </div>
     </div>

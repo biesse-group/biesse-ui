@@ -126,13 +126,13 @@ export const PrimaryEventCard: FC<PropsWithChildren<Omit<EventCardProps, "varian
       <DateLinkWrapper>
         <DateDay weight="bold">{`${startDate.format("DD")}`}</DateDay>
         <Text size="md" weight="medium">
-          {`${startDate.format("MMMYY")}`.toSentenceCase()}
+          {`${startDate.format("MMMYY")}`}
         </Text>
         {uniqueDates.length > 1 && endDate && (
           <>
             <DateDay weight="bold">{`${endDate.format("DD")}`}</DateDay>
             <Text size="md" weight="medium">
-              {`${endDate.format("MMMYY")}`.toSentenceCase()}
+              {`${endDate.format("MMMYY")}`}
             </Text>
           </>
         )}

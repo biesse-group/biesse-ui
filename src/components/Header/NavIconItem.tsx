@@ -84,7 +84,7 @@ export const NavIconItem: FC<NavIconItemProps> = ({
       </IconWrapper>
       <TextWrapper>
         <NavIconText color="light" weight="book">
-          {label.toSentenceCase()}
+          {label}
         </NavIconText>
       </TextWrapper>
     </NavIconItemWrapper>

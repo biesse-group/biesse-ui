@@ -4,8 +4,6 @@ import styled, { css } from "styled-components";
 import type { BaseProps } from "~components/baseProps";
 import { Icon, type IconName } from "~components/Icon";
 
-import { sentenceCase } from "../../styles/mixins/sentenceCase";
-
 export interface ButtonProps extends BaseProps {
   /**
    * Is this the principal call to action on the page?
@@ -139,7 +137,6 @@ const StyledButton = styled.button<ButtonProps>`
   line-height: 1;
   outline: none !important;
   white-space: nowrap;
-  ${sentenceCase};
 
   ${({ disabled }) =>
     disabled &&

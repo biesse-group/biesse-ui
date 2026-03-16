@@ -190,7 +190,7 @@ export const MenuItem: FC<MenuItemProps> = ({ label, icon, active, ...props }) =
   return (
     <MenuItemButton {...props}>
       {variant === "white" && icon && <MenuItemIcon>{icon}</MenuItemIcon>}
-      {label?.toSentenceCase()}
+      {label}
       {variant !== "white" && (
         <MenuItemArrow
           name={variant === "dark" ? "chevron-right" : "arrow-right"}

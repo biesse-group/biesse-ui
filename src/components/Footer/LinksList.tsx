@@ -5,7 +5,7 @@ import type { BaseProps } from "~components/baseProps";
 import { Icon } from "~components/Icon";
 import { Text } from "~components/Text";
 import { Title } from "~components/Title";
-import { mqUntil, sentenceCase } from "~styles";
+import { mqUntil } from "~styles";
 
 export interface LinkListElement {
   /**
@@ -50,7 +50,6 @@ const LinkText = styled(Text)`
     text-decoration: underline;
     cursor: pointer;
   }
-  ${sentenceCase};
 
   ${mqUntil(
     "md",
