@@ -24,7 +24,7 @@ export interface ModalProps extends BaseProps {
 }
 
 const StyledOverlay = styled(FloatingOverlay)`
-  background-color: rgba(0, 53, 148, 0.9);
+  background-color: rgba(0, 116, 170, 0.9);
   display: flex;
   z-index: 10000;
   overflow: hidden;
